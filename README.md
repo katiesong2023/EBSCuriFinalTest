@@ -28,6 +28,14 @@ macOS에서는 같은 폴더의 터미널에서 `npm ci`, `npm start`를 사용�
 
 [설치 안내](docs/INSTALL_AND_TEST_GUIDE.md)에서 세부 절차를 확인할 수 있습니다. Git clone 또는 Release가 자동 생성한 Source code ZIP으로도 같은 방식으로 실행합니다.
 
+## 최초 모델 다운로드와 사내망
+
+현재 ZIP은 실행 DB를 포함하지만 **의미 검색 모델 파일은 포함하지 않습니다.** 의미 검색은 처음 사용할 때 [Xenova/multilingual-e5-small](https://huggingface.co/Xenova/multilingual-e5-small)을 내려받습니다. 모델 파일이 없고 Hugging Face 또는 실제 파일 서버의 접속이 차단되면 의미 검색을 사용할 수 없습니다. 완전히 준비된 모델 파일은 로컬 캐시에서 재사용합니다.
+
+교사 검색은 모델 준비 실패 시 단어·원문 근거 검색을 계속할 수 있으나 결과와 순위가 달라질 수 있습니다. 기존 설치/화면 검사 통과가 임베딩 모델의 다운로드·로딩 성공을 의미하지는 않습니다. 관리자 임베딩 준비/검증 자산 벡터 검색은 모델 실행이 필요합니다.
+
+회사/학교에서는 [Hugging Face의 프록시·방화벽 공식 안내](https://huggingface.co/docs/hub/en/models-downloading#downloading-behind-a-proxy-or-firewall)에 따라 승인된 접속 또는 모델 사전 제공을 준비해야 합니다. npm 설치와 EBS 영상 이용의 인터넷 조건도 별도로 적용됩니다.
+
 ## 제출 사본의 범위
 
 - 현재 작업본의 소스와 공식 메타데이터·교육과정·근거 문서를 제공합니다. 구체적인 진행 상태와 한계는 [PLANS](docs/PLANS.md)를 참고합니다.

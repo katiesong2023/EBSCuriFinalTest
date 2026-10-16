@@ -54,3 +54,13 @@ http://localhost:3000/lesson.html 탭을 유지하고 도구 모음에 확장 �
 ## 확인 범위
 
 앞선 macOS 독립 ZIP 검사에서 설치·서버·검색·교육과정 선택·폴더/메모 저장·새로고침·합성 구간 리스트·확장 브리지를 확인했습니다. 새 압축 DB 구성도 Git 소스 ZIP을 새 폴더에 풀어 초기 DB0개에서 npm ci/npm start·DB4개 자동 복원/지문/무결성·브라우저8검사를 통과했습니다. 복원 계약4검사에서 기존 데이터 보존과 손상 파일 차단도 확인했습니다. Windows 설치·네이티브 사이드 패널 전체 UI·실제 EBS 본편/끝 정지는 미검증입니다.
+
+## Hugging Face 의존성과 차단 시 동작
+
+실행 DB와 모델 파일은 별개다. 현재 ZIP은 DB만 포함하며 Xenova/multilingual-e5-small 모델(revision 761b726dd34fb83930e26aab4e9ac3899aa1fa78)은 최초 사용 시 Hugging Face에서 받는다. local-embedding-worker.js는 config.json/tokenizer_config.json/tokenizer.json/onnx/model_quantized.onnx를 server/data/.model-cache/Xenova/multilingual-e5-small/해당revision/ 경로에 준비하고 로컬 전용으로 모델을 로드한다. 모델이 완전히 준비되면 임베딩에 Hugging Face 접속은 필요하지 않다.
+
+모델이 없는 사본에서 워커의 외부 fetch를 거절한 실제 검사로 지구의 자전2개·기후 변화85개(첫 페이지9개) 결과와 retrieval.semantic=LOCAL_FAILED, keyword=true를 확인했다. 직접 임베딩 실행은 실패했다. 이는 단어 검색 fallback 두 사례의 확인이며 전체 검색 품질·의미 검색 성공 검증은 아니다. 사내망이나 Windows에서 직접 검사한 결과도 아니다.
+
+앞선 ZIP 설치·브라우저 검사는 모델 다운로드 완료를 검증하지 않았다. 같은 검사 사본에서 모델의 .download 임시 파일이 남은 것을 확인해 의미 검색 완료로 간주하지 않는다. 최초 다운로드가 검색 제한 시간 내 끝나지 않을 수도 있다.
+
+Hugging Face 접속이 차단된 환경에서는 보안 담당자와 승인된 다운로드/모델 파일 제공 방법을 협의한다. 홈페이지뿐 아니라 저장/CDN 연결 대상도 필요하다. 공식 안내: https://huggingface.co/docs/hub/en/models-downloading#downloading-behind-a-proxy-or-firewall
