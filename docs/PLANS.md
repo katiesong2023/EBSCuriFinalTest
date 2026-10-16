@@ -1,5 +1,9 @@
 # Plans
 
+## Windows 실행 안내 보완 — 2026-10-16
+
+사용자 요청으로 최상위 00_실행방법.txt를 Windows 기준으로 재작성했다. 공식 Node.js/MSI 링크 검증·npm/PATH·재시작한 터미널·탐색기 Alt+D→cmd→Enter·dir package.json 확인·npm.cmd 설치/시작·종료/오류 대응을 포함하고 README/설치 안내를 맞췄다. 문서 정적 검토이며 Windows 실제 실행 검증은 아니다. 원격 Push는 별도다.
+
 ## GitHub ZIP 단일 다운로드 구성 — 2026-10-16
 
 사용자 요청으로 실행 DB4개의 gzip을 server/data/submission-seed에 포함했다. 파일당 최대 약71MB로100MiB 미만이며 npm start에서 지문 검증 후 누락 DB만 복원한다. README와 설치 안내를 Code→Download ZIP 기준으로 정리했다. 별도 Releases 첨부 없이 만든 소스 ZIP을 저장소 밖 새 폴더에 풀어 npm ci/npm start·DB4개 자동 복원/지문/무결성·웹8검사를 통과했다. 자동 복원 계약4검사도 통과했다. 최상위 00_실행방법.txt를 제공한다. 기존 원격/커밋 이력은 보존하고 아직 Push하지 않는다.

@@ -2,20 +2,24 @@
 
 2022 개정 교육과정과 EBS 공식 방송 메타데이터를 활용하는 교사 수업 준비 MVP입니다. 자료 검색·원문 근거 확인·교육과정 연결·개인 수업 폴더·구간 북마크·수업 영상 리스트를 제공합니다.
 
-처음 실행하는 경우 **[00_실행방법.txt](00_실행방법.txt)**를 순서대로 따라 하세요.
+Windows에서 처음 실행하는 경우 **[00_실행방법.txt](00_실행방법.txt)**를 따라 하세요. [Node.js 공식 다운로드](https://nodejs.org/en/download)에서 24.x LTS(24.18.0 이상)를 먼저 설치합니다. 실행 안내에는 설치 파일 링크와 탐색기에서 명령 프롬프트를 여는 방법이 포함되어 있습니다.
 
 ## 다운로드하고 실행하기
 
 **GitHub의 Code → Download ZIP으로 받은 파일에 실행 데이터와 Chrome 확장이 모두 포함됩니다.** 별도의 Release 파일을 첨부하거나 DB를 따로 받을 필요가 없습니다.
 
 1. 저장소 화면의 초록색 **Code → Download ZIP**을 누릅니다.
-2. 받은 ZIP을 완전히 풀고 **package.json이 있는 폴더**에서 터미널을 엽니다.
-3. Node.js **24.18.0 이상**과 npm을 설치한 뒤 아래 명령을 한 줄씩 실행합니다.
+2. 받은 ZIP을 완전히 풀고 **package.json이 있는 폴더**를 탐색기에서 엽니다. Windows에서는 **Alt+D → `cmd` 입력 → Enter**로 해당 폴더의 명령 프롬프트를 엽니다.
+3. 아래 명령을 한 줄씩 실행합니다. Windows 명령 프롬프트와 PowerShell에서 모두 사용할 수 있습니다.
 
-```sh
-npm ci
-npm start
+```bat
+node --version
+npm.cmd --version
+npm.cmd ci
+npm.cmd start
 ```
+
+macOS에서는 같은 폴더의 터미널에서 `npm ci`, `npm start`를 사용합니다.
 
 4. Chrome에서 **http://localhost:3000**을 엽니다. 첫 검색은 자료 색인을 준비하므로 수십 초 걸릴 수 있습니다.
 5. Chrome 확장 기능은 `chrome://extensions`에서 개발자 모드를 켜고 **압축해제된 확장 프로그램을 로드합니다**로 `extensions/curi-segments` 폴더를 선택합니다.

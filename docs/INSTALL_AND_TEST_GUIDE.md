@@ -2,6 +2,12 @@
 
 작성일: 2026-10-16. 대상: macOS/Windows, 데스크톱 Chrome.
 
+Windows 사용자는 [00_실행방법.txt](../00_실행방법.txt)에 Node.js 설치 링크부터 파일 탐색기에서 명령 프롬프트를 여는 단계까지 순서대로 안내되어 있습니다.
+
+Node.js 공식 다운로드: https://nodejs.org/en/download
+Windows x64 테스트 버전 설치 파일: https://nodejs.org/dist/v24.18.0/node-v24.18.0-x64.msi
+Windows ARM64 테스트 버전 설치 파일: https://nodejs.org/dist/v24.18.0/node-v24.18.0-arm64.msi
+
 ## 다운로드
 
 GitHub 저장소에서 Code → Download ZIP을 누르고 ZIP을 완전히 풉니다. package.json이 바로 보이는 폴더가 프로젝트 폴더입니다. source라는 하위 폴더를 찾을 필요가 없습니다. Git clone이나 Release의 Source code ZIP도 같은 구성입니다.
@@ -17,7 +23,7 @@ npm ci
 npm start
 ```
 
-Windows PowerShell에서 npm.ps1 실행이 차단되면 npm.cmd ci, npm.cmd start를 사용합니다. macOS에서는 터미널에 cd와 공백을 입력한 뒤 프로젝트 폴더를 끌어놓고 Enter를 눌러 이동할 수 있습니다.
+Windows에서는 설치 후 열려 있던 터미널 창을 모두 닫고, 프로젝트 폴더를 탐색기로 열어 Alt+D → cmd → Enter를 누릅니다. 검은 명령 프롬프트에서 dir package.json, node --version, npm.cmd --version을 확인한 뒤 npm.cmd ci, npm.cmd start를 순서대로 실행합니다. 이 방법은 cd나 경로 붙여넣기가 필요하지 않습니다. PowerShell에서도 npm.cmd 명령을 사용하면 npm.ps1 실행 정책 문제를 피할 수 있습니다. macOS에서는 터미널에 cd와 공백을 입력한 뒤 프로젝트 폴더를 끌어놓고 Enter를 눌러 이동할 수 있습니다.
 
 npm start는 먼저 server/data/submission-seed의 압축 데이터와 지문을 검사하고 없는 DB만 자동 복원합니다. 이미 있는 DB는 덮어쓰지 않습니다. 데이터를 준비한 뒤 로컬 서버가 시작됩니다. 수동 복원이 필요할 때는 npm run data:restore도 가능합니다. 복원 오류가 나면 원본 압축 데이터를 다시 받으세요. 개인 DB나 자료를 임의로 삭제하지 않습니다.
 

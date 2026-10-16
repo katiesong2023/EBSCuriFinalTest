@@ -86,6 +86,13 @@ AGENTS.md와 현재 진행 상태를 확인하고 이 task의 구현 항목만 �
 
 - 사용자 후속 요청으로 최상위 `00_실행방법.txt`에 macOS/Windows의 ZIP 해제·터미널·npm 설치/시작·주소·자동 DB 복원·확장 설치·종료/오류 대응을 작성하고 README에 연결했다.
 
+## Windows 실행 안내 보완 — 2026-10-16
+
+- 사용자 요청과 실제 경로/npm 인식 혼란에 맞춰 `00_실행방법.txt`를 Windows 우선으로 다시 작성했다.
+- 공식 Node.js 다운로드와 v24.18.0 x64/ARM64 MSI 링크(HEAD200), npm/Add to PATH 기본 선택·새 터미널 열기를 안내했다.
+- 탐색기의 Alt+D→cmd→Enter로 현재 폴더의 명령 프롬프트를 열고 dir package.json/node/npm.cmd 버전 확인→npm.cmd ci→npm.cmd start로 진행한다. 경로를 직접 입력할 필요가 없다.
+- ZIP 해제·브라우저 주소·확장 설치·종료·다음 실행·오류 대응과 README/설치 안내를 동기화했다. 문서 변경만 하며 Windows 실제 실행 검증을 수행한 것으로 기록하지 않는다.
+
 ## 수동 작업
 
 1. 최종 보고서 PDF와 실제 작동 시연 MP4를 별도 제출 폴더에 추가한다. MP4는 3분 이내로 준비한다.
