@@ -1,0 +1,51 @@
+{
+  "observedAt": "2026-10-15 Asia/Seoul",
+  "url": "https://illuminating-radioactivity.com/5/?ref=httpster.net",
+  "method": "Chrome UI and read-only DOM styles; web text reader inaccessible",
+  "observed": [
+    "Page 5 initial black canvas and large white prose",
+    "three rounded poster columns and mono captions",
+    "scroll into next white chapter",
+    "circular menu open and close; four colored chapter markers",
+    "390x844 viewport with visible horizontal clipping"
+  ],
+  "computedStyles": {
+    "fontFamilies": [
+      "custom_19789",
+      "custom_20744",
+      "Share Tech Mono",
+      "Roboto"
+    ],
+    "sampleFontPx": [
+      9,
+      10,
+      18,
+      22,
+      24,
+      28,
+      30,
+      42,
+      66,
+      100
+    ],
+    "sampleBackgroundRgb": [
+      "0,0,0",
+      "255,255,255",
+      "33,132,35",
+      "212,128,155",
+      "43,73,172"
+    ],
+    "mobileViewport": {
+      "width": 390,
+      "height": 844,
+      "documentScrollWidth": 769
+    }
+  },
+  "limitations": [
+    "font custom aliases do not establish font names",
+    "not an audit of every chapter or interaction",
+    "mobile browser viewport rather than physical touch device",
+    "no reference assets copied; original photos, fonts, atom logo excluded"
+  ],
+  "curiInterpretation": "charcoal stage + ivory reading surfaces + peach/lilac/lime role accents; independent frame identity"
+}

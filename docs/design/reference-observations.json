@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-15",
+  "reference": "https://go-od.co/?ref=httpster.net",
+  "scope": "현재 coming-soon 티저 화면. 프로젝트 상세/완성 사이트 전체는 미관찰.",
+  "viewports": [
+    [
+      1440,
+      960
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "measured": {
+    "bodyBackground": "#FAFAFA",
+    "panelBackground": "#F6F6F6",
+    "menuBackground": "rgba(246,246,246,0.8)",
+    "textColor": "#636363",
+    "selectedPill": "#E3E3E3",
+    "font": "Europa Prima",
+    "observedBodyPx": 14,
+    "panelRadiusPx": 10,
+    "menuWidthDesktopPx": 360,
+    "menuWidthMobilePx": 333,
+    "desktopLogoWidthPx": 130,
+    "backdropBlurPx": 10,
+    "playerFilter": "drop-shadow(rgba(0,0,0,.25) 0px 24px 48px)",
+    "navTransitionsSeconds": [
+      0.3,
+      0.2,
+      0.2
+    ],
+    "studioTransitionsSeconds": [
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "confirmedInteractions": [
+    "Studio 펼침·Contact 전환·선택 pill",
+    "패널 펼침 시 영상 창 scale .6(720→432)·배경 유지",
+    "폴더 단일 클릭 선택·더블클릭 영상 열기",
+    "모바일 닫기→영상 폭0/폴더 복귀",
+    "자동 재생/무음/반복·기본 controls 없음",
+    "Tab: 로고에서 IG로 이동; Studio/Contact DIV tabindex -1",
+    "모바일 중앙 로고/상단 메뉴·아래 영상 창 재배치"
+  ],
+  "notConfirmed": [
+    "자유 드래그 이동(시도 후 위치 변화 없음)",
+    "Escape 닫기(브라우저 입력 오류로 확인 못함)",
+    "원래 모바일 터치 이벤트/실제 기기의 더블탭",
+    "프로젝트 상세 페이지",
+    "전체 키보드·스크린리더/회귀 평가"
+  ],
+  "curiDecision": "시각적 작업공간과 점진적 펼침을 차용. 중요 작업은 단일 클릭·고정 배치·명시 저장·버튼 의미/포커스 확보."
+}

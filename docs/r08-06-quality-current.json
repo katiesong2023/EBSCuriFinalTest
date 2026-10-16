@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-05T13:57:32.964Z",
+  "cases": [
+    {
+      "name": "none",
+      "passed": true
+    },
+    {
+      "name": "repeated",
+      "passed": true
+    },
+    {
+      "name": "production",
+      "passed": true
+    },
+    {
+      "name": "short",
+      "passed": true
+    },
+    {
+      "name": "detailed",
+      "passed": true
+    },
+    {
+      "name": "시청 기관·소재 제작 설명을 편성 안내로 오인하지 않음",
+      "passed": true
+    },
+    {
+      "name": "최소 조건과 깊이 구분",
+      "passed": true
+    },
+    {
+      "name": "편성 설명 후 실제 내용 보존",
+      "passed": true
+    },
+    {
+      "name": "같은 제목은 내용 있는 판본 우선·원문 보존",
+      "passed": true
+    },
+    {
+      "name": "날짜 정렬은 유지",
+      "passed": true
+    },
+    {
+      "name": "필터/배지 판정 일치 none",
+      "passed": true
+    },
+    {
+      "name": "필터/배지 판정 일치 repeated",
+      "passed": true
+    },
+    {
+      "name": "필터/배지 판정 일치 production",
+      "passed": true
+    },
+    {
+      "name": "필터/배지 판정 일치 short",
+      "passed": true
+    },
+    {
+      "name": "필터/배지 판정 일치 detailed",
+      "passed": true
+    },
+    {
+      "name": "원본 보존 curi-store.json",
+      "passed": true
+    },
+    {
+      "name": "원본 보존 semantic-layer.sqlite",
+      "passed": true
+    }
+  ],
+  "baseCatalog": {
+    "version": "source-text-v3",
+    "total": 22118,
+    "distribution": {
+      "none": 12643,
+      "repeated": 1185,
+      "production": 422,
+      "short": 7029,
+      "detailed": 839
+    },
+    "minimumPassed": 4685,
+    "minimumRatio": 0.21181842842933357
+  },
+  "allVariants": {
+    "version": "source-text-v3",
+    "total": 23360,
+    "distribution": {
+      "none": 13080,
+      "repeated": 1210,
+      "production": 426,
+      "short": 7793,
+      "detailed": 851
+    },
+    "minimumPassed": 4711,
+    "minimumRatio": 0.2016695205479452
+  },
+  "paidApiCalls": 0
+}

@@ -1,0 +1,118 @@
+{
+  "receivedAt": "2026-10-13T19:11:49.045251+00:00",
+  "sourceRoot": "/Users/yunseo/.codex/visualizations/2026/10/13/01a134d1-9719-7cd0-82c4-d22963bbca37/teacher-discovery-track",
+  "evidenceFiles": [
+    {
+      "path": "teacher-critique.md",
+      "sha256": "67fd57b1e3473089fbaa60d13848a493069f3abb18ec0f4ba5a7368a5a75743f",
+      "bytes": 7687
+    },
+    {
+      "path": "track-summary.json",
+      "sha256": "a2d250bfa530c313ff8a9e98ff92a7339feea6677ed35066d495557f53a12972",
+      "bytes": 865
+    },
+    {
+      "path": "protected-store-check.json",
+      "sha256": "55db5b3b68c6cb3b319827d6f1c350bbdd3be07f87b2c6b0e8992467065ff398",
+      "bytes": 1143
+    },
+    {
+      "path": "round-1/design.md",
+      "sha256": "cd151752dc6c51a9d106f781ac0e43bc046b119feb655fcb23e745287c8f41ea",
+      "bytes": 4772
+    },
+    {
+      "path": "round-1/sealed-generalization.json",
+      "sha256": "d38754531169017a09c24e32b8e14f8f57a815ee20cf926d8e67d57e97f12da1",
+      "bytes": 6776
+    },
+    {
+      "path": "round-1/sealed-manifest.json",
+      "sha256": "1e485bf83cf8c1f6cbd4c5273cf10cc276950e1fd2a84c0c200783cd6e042c0e",
+      "bytes": 402
+    },
+    {
+      "path": "round-2/request-interpretation.schema.json",
+      "sha256": "800b1300f576f158808bf9668d8bfa9e5f469eb6d1cfb28d1e89706380e2bfa8",
+      "bytes": 24872
+    },
+    {
+      "path": "round-2/preview.html",
+      "sha256": "0c49d5e1e4d4ac9f272fe7d6b96db02de03c63b11bb8b0e0219ad7eb0d68a253",
+      "bytes": 43318
+    },
+    {
+      "path": "round-2/manifest.json",
+      "sha256": "25769d95a6ec4da9e52b5444167197055e946daddc4885e9e5b2177ea3c4e88f",
+      "bytes": 2183
+    },
+    {
+      "path": "round-3/report.md",
+      "sha256": "b80bbf180227325270d3ac954f7adf1cf38ac09f5827ee380658a8d44e6d443b",
+      "bytes": 6548
+    },
+    {
+      "path": "round-3/evaluation-results.json",
+      "sha256": "4d5dd4571bf412655699e986ab19a341d3a530f4fbe16dbe0bb12d0c56609000",
+      "bytes": 9640
+    },
+    {
+      "path": "round-3/oracle-fixtures.json",
+      "sha256": "fb4dc1d7f3bf5edb6838e41f2475265cc2236b00888c5cf4bf0bc551e7f93926",
+      "bytes": 35731
+    },
+    {
+      "path": "round-3/source-reviews.json",
+      "sha256": "67eb14daf76326dc83d4dc7b5c2d0683d9e28e0dd2913eab660dd0559e930491",
+      "bytes": 26043
+    },
+    {
+      "path": "round-3/manifest-verification.json",
+      "sha256": "7735a00e744ac5679999e28c256fcf6818de89bf2cacd1560dc391a986d030f1",
+      "bytes": 6503
+    },
+    {
+      "path": "round-3/test-results.json",
+      "sha256": "1ddf8243d7b40bf7d5a6513ad999b4ba3876d11774b61fc2440be8153781a291",
+      "bytes": 233
+    }
+  ],
+  "scope": "사용자 제공 별도 문자열 프로토타입/수작성 oracle/에이전트 대리 검토. 이번 작업은 보고서 수신·대조이며 실험 재실행이나 독립 의미 재검토가 아님.",
+  "schemaVersion": "curi-request-v2",
+  "productSchemaVersion": "curi-request-v1",
+  "productQualityMeasured": false,
+  "actualTeacherStudy": false,
+  "paidApiCalls": 0,
+  "reportedEvaluation": {
+    "corpusRows": 23360,
+    "fixtureOrigin": "hand-authored oracle; no LLM execution",
+    "modelCalls": 0,
+    "relevanceCounts": {
+      "부분": 5,
+      "부적합": 13,
+      "원문부족": 12
+    },
+    "reviewedDenominator": 30,
+    "top5Slots": 50,
+    "top5Unreviewed": 20,
+    "confirmed": 0,
+    "pending": 200,
+    "recall": null,
+    "confirmedConditionViolationRate": null,
+    "notes": [
+      "원문 인용·hash 검사는 의미적합성·영상검증과 별개",
+      "처음보는질문12개 실제LLM해석미실행",
+      "2차source-reviews의새관계요구재사용0",
+      "지역미지원 국내조건 실제충족은 이범위에서 검증불가",
+      "홈페이지 직접비교/실제교사효용평가미실시"
+    ]
+  },
+  "revalidationStatus": "12질문과30판정은 이제 알려진 개발 회귀 자료. 이후 독립 최종 평가는 별도 새 질문으로 한다.",
+  "differencesFromProduct": [
+    "제품은 LOCAL_E5 및 지역 근거 어휘 대조가 존재하나 전체 국가 판정 효용은 미입증",
+    "제품에는 방송/소개문 출처 링크가 이미 존재하며 이번 정적 미리보기만 href0",
+    "실제 LLM A/B 미연결과 일반 관계 UNKNOWN은 제품에도 남음",
+    "v2는 typed value가 추가되어 v1에 버전 문자열만 바꾸거나 필드를 삭제해서 주입하지 않음"
+  ]
+}

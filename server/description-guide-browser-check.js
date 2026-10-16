@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict'),fs=require('node:fs/promises');
+const {createAdminBrowserFixture}=require('./admin-browser-fixture');const {openBroadcastStore,saveBroadcastPage}=require('./broadcast-store');
+(async()=>{const fixture=await createAdminBrowserFixture(),cases=[],errors=[];let browser;
+ try{
+  const db=openBroadcastStore(fixture.broadcastFile);const rows=[['제목 반복','소개보충회귀 제목 반복'],['잘린 소개','동물의 행동과 서식 환경을 비교한다. 먹이를 찾는 과정에서…'],['짧은 질문','말하기 위해 또 입어야 할까요?'],['문자 손상','소개가 �손상되었다.']];
+  saveBroadcastPage(db,{job:'DESCRIPTION_GUIDE',sourceUrl:'https://www.ebs.co.kr/fixture',fetchedAt:new Date().toISOString()},rows.map(([name,summary],i)=>({title:'소개보충회귀 '+name,summary,program:'설명 보충 검사',url:'https://www.ebs.co.kr/tv/show?courseId=950030&stepId=1&lectId='+(950031+i)})));db.close();
+  const {chromium}=require(process.env.CURI_PLAYWRIGHT_MODULE||'/Users/yunseo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');browser=await chromium.launch({headless:true,executablePath:process.env.CURI_BROWSER_EXECUTABLE||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+  const page=await browser.newPage({viewport:{width:1440,height:1000}});page.on('pageerror',e=>errors.push(e.message));await page.route('**/*',r=>r.request().url().startsWith(fixture.base)?r.continue():r.abort());
+  await page.goto(fixture.base+'/?q='+encodeURIComponent('소개보충회귀'));await page.waitForFunction(()=>document.querySelector('#result-cards')?.getAttribute('aria-busy')==='false');
+  const card=name=>page.locator('#result-cards > article').filter({has:page.locator('h3',{hasText:'소개보충회귀 '+name})});
+  const repeat=card('제목 반복');await repeat.locator('.content-preview > summary').click();assert.match(await repeat.locator('.preview-text').innerText(),/설명 보충 검사.*제목 반복.*회차입니다/);assert.match(await repeat.locator('.preview-label').first().innerText(),/제목·프로그램/);cases.push('제목 반복도 설명 제공·작성 근거 표시');
+  const clipped=card('잘린 소개');await clipped.locator('.content-preview > summary').click();assert.match(await clipped.locator('.preview-text').innerText(),/동물의 행동과 서식 환경/);assert.doesNotMatch(await clipped.locator('.preview-text').innerText(),/먹이를 찾는 과정/);assert.equal(await clipped.locator('.preview-review-note').count(),0);assert.match(await clipped.locator('.content-preview').innerText(),/추정하지 않았습니다/);await clipped.locator('.semantic-details > summary').click();await clipped.locator('.source-description > summary').click();assert.match(await clipped.locator('.full-description').innerText(),/먹이를 찾는 과정에서…/);cases.push('경고 대신 보충 설명·원문 손상/생략 범위 보존');
+  const question=card('짧은 질문');await question.locator('.content-preview > summary').click();assert.match(await question.locator('.preview-text').innerText(),/말하기 위해/);cases.push('짧은 질문형 소개의 간략 설명');
+  const damaged=card('문자 손상');await damaged.locator('.content-preview > summary').click();assert.doesNotMatch(await damaged.locator('.preview-text').innerText(),/�/);assert.match(await damaged.locator('.preview-label').first().innerText(),/제목·프로그램/);cases.push('손상 내용을 창작하지 않고 제목 안내');
+  await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await repeat.screenshot({path:'docs/r12-description-repair-mobile.png'});cases.push('390px 설명 표시·가로 넘침 없음');assert.deepEqual(errors,[]);
+  await fs.writeFile('docs/r12-description-repair-browser.json',JSON.stringify({date:'2026-10-15',passed:cases.length,cases,errors,paidApiCalls:0},null,2)+'\n');console.log(cases.length,'설명 보충 화면 검사 통과');
+ }finally{await browser?.close();await fixture.close();}
+})().catch(e=>{console.error(e);process.exitCode=1});

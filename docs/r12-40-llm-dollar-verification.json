@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-16",
+  "responses": 370,
+  "uniqueQueries": 370,
+  "promptHashesVerified": 370,
+  "models": [
+    "gpt-4.1-mini-2025-04-14"
+  ],
+  "attempts": 372,
+  "unknownAttempts": 2,
+  "completedResponses": 353,
+  "incompleteResponses": 17,
+  "pending": 0,
+  "conservativeUsd": 0.3315776000000001,
+  "usageUpperUsd": 0.3166580000000002,
+  "rawValidationErrors": {
+    "source span mismatch": 336,
+    "unaccounted query text": 327,
+    "unknown clause reference": 45,
+    "blocking clause lost from expression": 35,
+    "adjacent mandatory clause weakened in logic": 36,
+    "unrecognized content hidden in grammar": 10,
+    "preference/context used as blocking condition": 13,
+    "content hidden as purpose": 1,
+    "purpose cannot become a blocking condition": 1,
+    "original query changed": 1,
+    "OR needs original connector": 3,
+    "$.expression: anyOf": 1
+  },
+  "sourceQuoteChecks": 670,
+  "uniqueTop3Pairs": 226,
+  "top3Exposures": 373,
+  "allNewPairsReviewed": 141,
+  "changedStoresNow": [],
+  "changedBaselineModules": [
+    "server/extension-popup-check.js",
+    "server/request-model-client.js",
+    "server/segment-bookmarks-check.js"
+  ],
+  "searchModulesUnchanged": true,
+  "unrelatedConcurrentCheckChanges": [
+    "server/extension-popup-check.js",
+    "server/segment-bookmarks-check.js"
+  ],
+  "ledgerResponseHashAndUsageMatches": 370,
+  "finalPaidAttempts": 372,
+  "noOutstandingModelCalls": true,
+  "budgetWithinOneDollar": true
+}

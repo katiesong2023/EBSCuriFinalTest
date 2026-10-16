@@ -1,0 +1,130 @@
+/* B안 시각 체계. 최신 웹 동선은 기존 스크립트가 담당한다. */
+body {
+  --ink:var(--b-ink); --muted:var(--b-muted); --green:var(--b-primary);
+  --line:var(--b-line); --white:var(--b-paper); --paper:var(--b-canvas);
+  color:var(--ink); background:var(--b-canvas); font:400 16px/1.65 var(--curi-font);
+}
+a {color:inherit}
+button {color:var(--curi-ink);font-size:14px;font-weight:700;min-height:44px;border-radius:8px;border:1px solid var(--curi-controlBorder)}
+button:hover:not(:disabled) {background:#DDD8CE}
+button:active:not(:disabled) {transform:translateY(1px)}
+:where(button,a,input,textarea,select,summary):focus-visible {outline:2px solid var(--b-focus);outline-offset:3px}
+.site-header {max-width:1360px;margin:auto;grid-template-columns:auto 1fr auto;min-height:96px;padding:20px 48px;border-color:var(--b-line)}
+.brand {justify-self:start}.brand-wordmark {width:144px;height:40px;object-fit:contain;object-position:left}
+.header-context {grid-column:2;grid-row:1;justify-self:center;font-size:13px;color:var(--b-muted)}
+.site-header nav {background:transparent;gap:8px}
+.site-header nav a {color:var(--b-ink);min-height:44px;font-size:14px}
+.site-header nav a[aria-current=page] {background:var(--b-primary);color:var(--curi-ink);box-shadow:none}
+.site-header nav a:hover {background:var(--b-surfaceRaised);color:var(--b-ink)}
+.shell {max-width:1360px;padding:0 48px 48px}
+.hero,.has-query .hero {padding:72px 0 32px;text-align:left}
+.hero h1 {font-size:48px;line-height:1.3;letter-spacing:-1px;font-weight:800;max-width:900px}
+.hero h1 em {color:var(--b-primary)}
+.hero-description {font-size:16px;color:var(--b-muted);margin-top:16px}
+.search-panel,.has-query .search-panel {max-width:960px;margin:0 0 32px;background:var(--b-surface);border:1px solid var(--b-controlBorder);border-radius:20px;padding:20px 24px;box-shadow:none;color:var(--b-ink)}
+.search-panel input {color:var(--b-ink);font-size:16px;min-height:48px}
+#search-input::placeholder {color:var(--b-muted)}
+.search-panel form #search-submit {min-height:48px;background:var(--b-primary);color:var(--curi-ink);font-size:14px}
+.search-panel form #search-submit:hover {background:var(--b-primaryHover)}
+.search-panel form #clear-query {background:var(--b-surfaceRaised);color:var(--b-ink)}
+.search-examples,.search-panel .examples {color:var(--b-muted);font-size:13px}
+.examples button {background:transparent;border:1px solid var(--b-controlBorder);color:var(--b-ink);min-height:44px;font-size:14px;padding:8px 12px;border-radius:8px}
+.examples button:hover:not(:disabled) {background:var(--b-surfaceRaised)}
+.examples>span {color:var(--b-primary)}.examples+.examples>span {color:var(--b-science)}.examples+.examples+.examples>span {color:var(--b-cross)}
+.search-examples>summary {min-height:44px;font-size:14px;color:var(--b-muted)}
+/* 밝은 면에서 상속되는 텍스트·포커스·선택색을 한 묶음으로 전환한다. */
+.results-section,.folder-main,dialog {
+  --ink:var(--curi-ink); --muted:var(--curi-muted); --green:var(--curi-primary);
+  --line:var(--curi-line); --paper:var(--b-paper); --white:var(--b-paper);
+  color:var(--ink); background:var(--b-paper);
+}
+:is(.results-section,.folder-main,dialog) :where(button,a,input,textarea,select,summary):focus-visible {outline-color:var(--curi-focus)}
+.results-section {padding:24px;background:transparent;box-shadow:none;border-radius:20px;--ink:var(--b-ink);--muted:var(--b-muted);--line:var(--b-line);color:var(--ink);padding-inline:0}
+.results-heading {background:transparent;margin:0 0 24px;padding:0 0 16px;border-radius:0;border-bottom:1px solid var(--b-line);gap:12px}
+.results-heading h2 {font-size:26px;line-height:1.4}.results-heading h2 span {font-size:16px;color:var(--b-muted)}
+.sort-control,.result-status,.ranking-note,.filter-help {color:var(--muted);font-size:13px}
+.results-section input,.results-section select {color:var(--curi-ink);background:var(--b-paper)}
+.result-filters {padding:16px;border:1px solid var(--b-line);border-radius:12px;margin-bottom:24px}
+.kind-filters button,.has-query .kind-filters button {color:var(--b-ink);border:1px solid var(--b-controlBorder);min-height:44px;font-size:14px}
+.kind-filters button:hover:not(:disabled) {background:var(--b-surfaceRaised)}
+.kind-filters button[aria-pressed=true] {background:var(--b-primary);border-color:var(--b-primary);color:var(--curi-ink)}
+.view-switch {background:var(--b-surfaceRaised)}.view-switch button {min-height:44px;background:transparent;color:var(--b-ink);border:0;font-size:14px}
+.view-switch button[aria-pressed=true] {background:var(--b-paper);color:var(--curi-ink);box-shadow:none}
+.cards {gap:24px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.resource-card {--ink:var(--curi-ink);--muted:var(--curi-muted);--green:var(--curi-primary);--line:var(--curi-line);color:var(--ink);background:var(--b-paper);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.resource-thumbnail-link {border-radius:0;flex:none;background:var(--curi-surfaceMuted);--type-color:var(--curi-surfaceMuted)}
+.resource-thumbnail {transition:none}.resource-card:hover .resource-thumbnail,.resource-card:focus-within .resource-thumbnail {transform:none}
+.resource-card .card-banner {padding:16px 20px 0;margin:0;gap:8px}.resource-card .card-body {padding:16px 20px 20px}
+.type-tag {background:var(--curi-surfaceMuted);color:var(--curi-ink);font-size:13px;line-height:1.4}
+.subject-tag {background:var(--b-science);color:var(--curi-ink);font-size:13px;line-height:1.4}
+.resource-card h3 {font-size:20px;line-height:1.4;font-weight:700;display:block;overflow:visible;margin:0 0 12px;letter-spacing:0}
+.resource-card .program,.resource-card .broadcast-date,.resource-card .content-preview,.resource-card .content-preview summary {font-size:13px;line-height:1.6}
+.resource-card .preview-text {font-size:16px;line-height:1.65}
+.resource-card .card-actions {display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.resource-card .card-actions a {font-size:14px;min-height:44px}
+.resource-card .card-actions button[data-folder-save],.cards.is-list .resource-card .card-actions button[data-folder-save] {position:static;opacity:1;background:var(--curi-ink);color:var(--b-paper);box-shadow:none;min-height:44px;font-size:14px;padding:10px 12px}
+.resource-card .card-actions button[data-folder-save]:hover {background:#343840}
+.resource-card .saved-meta {color:#3E5415;font-size:13px}
+.cards.is-list .resource-card {grid-template-columns:180px minmax(0,1fr);padding:16px;gap:0 20px}
+.cards.is-list .resource-thumbnail-link {border-radius:12px}.cards.is-list .card-banner {padding:0 0 12px}.cards.is-list .card-body {padding:0}
+/* 폴더 탐색은 어두운 면, 자료·메모와 재생 목록은 밝은 면에 둔다. */
+.lesson-heading {padding:48px 0 24px}.lesson-heading h1 {font-size:36px;line-height:1.3}.lesson-heading>p {font-size:16px;color:var(--b-muted)}
+.library-folder-group {grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}.library-folder-group>h2 {font-size:18px}
+#folder-list .folder-select {color:var(--b-ink)}#folder-list b {font-size:18px;line-height:1.4}#folder-list small {color:var(--b-muted);font-size:13px}
+.folder-art {background:var(--curi-folder);border-radius:12px}.folder-select:hover .folder-art img {transform:rotate(-4deg)}.folder-select:hover .folder-art img:nth-child(2) {transform:rotate(3deg)}.folder-select:hover .folder-art img:nth-child(3) {transform:none}
+.folder-select[aria-pressed=true] .folder-art {background:var(--b-primary);border-color:var(--b-primary)}
+.folder-card[data-current=true] {box-shadow:none;background:transparent}
+.folder-main {padding:24px;border-radius:20px;box-shadow:none;margin-top:32px}
+#lesson-title {font-size:28px;line-height:1.4} .folder-description {font-size:18px;line-height:1.65}
+.library-resource,.folder-video,.lesson-playlist {border-radius:12px;background:var(--curi-surfaceMuted)}
+.folder-video h3,.library-resource h3 {font-size:20px;font-weight:700}
+.new-folder-panel>summary {color:var(--b-muted);border-color:var(--b-controlBorder);font-size:14px}
+.new-folder-panel input,.folder-sidebar input {color:var(--curi-ink)}
+.scene-caption,.scene-caption small,.scene-note {font-size:13px;line-height:1.6}.scene-poster {border-radius:12px}.scene-poster b {font-size:16px;line-height:1.4}.scene-number,.playlist-number {font:13px/1.6 var(--b-mono);height:auto;border-radius:8px 8px 0 0}
+.scene-note-card .scene-note {font-size:16px}.segment-card-actions button {min-height:44px}
+.guide {margin-top:64px;color:var(--b-muted);border-color:var(--b-line)}.guide h2,.guide b {color:var(--b-ink)}
+.guide li {background:var(--b-surface);border:1px solid var(--b-line);border-radius:12px;color:var(--b-muted)}
+.site-footer {color:var(--b-muted);border-color:var(--b-line)}.site-footer b {color:var(--b-ink)}
+.curi-toast,.toast {background:var(--b-surfaceRaised);color:var(--b-ink);border:1px solid var(--b-controlBorder);border-radius:12px;box-shadow:none}
+.curi-toast::before {color:var(--b-cross)}.curi-toast button {color:var(--b-ink);min-height:44px}
+dialog {border-radius:20px;box-shadow:0 16px 48px #0004}dialog[open] {animation:curi-b-open 220ms var(--curi-ease)}dialog::backdrop,#folder-picker-dialog::backdrop {background:#0009}
+#folder-picker-confirm {background:var(--curi-ink);color:var(--b-paper);min-height:44px}
+@keyframes curi-b-open {from {opacity:0;transform:translateY(10px)}to {opacity:1;transform:none}}
+@media(min-width:1200px) {.folder-layout {display:grid;grid-template-columns:minmax(240px,3fr) minmax(0,9fr);gap:32px;align-items:start}.folder-sidebar .library-folder-group {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}.folder-main {margin-top:0}.folder-main.has-playlist {grid-template-columns:minmax(0,1fr)}.lesson-playlist {position:static}}
+@media(max-width:1199px) {.site-header {padding-inline:24px}.shell {padding:0 24px 32px}.cards {grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.library-folder-group {grid-template-columns:repeat(4,minmax(0,1fr))}.header-context {display:none}.site-header {grid-template-columns:auto 1fr}.site-header nav {grid-column:2}}
+@media(max-width:767px) {
+ .site-header {padding:16px;min-height:80px;gap:8px}.brand-wordmark {width:112px;height:32px}.site-header nav a {font-size:13px;padding:8px;min-height:44px}.site-header nav {gap:0}
+ .shell {padding:0 16px 32px}.hero,.has-query .hero {padding:40px 0 24px}.hero h1 {font-size:32px;line-height:1.3}.hero-description {font-size:16px}
+ .search-panel,.has-query .search-panel {padding:16px;margin-bottom:24px}.search-panel input {font-size:16px}.search-panel form {flex-wrap:wrap}.search-panel form #search-submit {font-size:14px;min-height:48px}.search-panel form input {flex-basis:100%}
+ .results-heading {margin:0 0 20px;gap:8px}.results-heading h2 {font-size:24px}.sort-control {margin:0}.results-section {padding:16px 0}.result-filters {padding:12px}
+ .cards {grid-template-columns:1fr;gap:24px}.cards .resource-card {display:flex;gap:0}.cards .resource-thumbnail-link {border-radius:0}.cards .card-banner {padding:16px 20px 0;margin:0}.cards .card-body {padding:16px 20px 20px}.resource-card .content-preview {display:block}.resource-card h3 {font-size:20px;line-height:1.4}.cards.is-list .resource-card {display:grid;grid-template-columns:96px minmax(0,1fr);gap:8px 12px;padding:12px}.cards.is-list .card-banner,.cards.is-list .card-body {padding:0}.cards.is-list .resource-card h3 {font-size:18px}.cards.is-list .content-preview {display:none}
+ .library-folder-group {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.lesson-heading h1 {font-size:28px}.folder-main {padding:16px}#lesson-title {font-size:24px}
+}
+@media(prefers-reduced-motion:reduce) {*,*::before,*::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* 어두운 탐색면 밖의 기존 입력·구간 요약도 읽기 면 대비를 사용한다. */
+.video-search-label input {color:var(--curi-ink);border-color:var(--curi-controlBorder)}
+.lesson-segment-overview {--ink:var(--curi-ink);--muted:var(--curi-muted);--green:var(--curi-primary);--line:var(--curi-line);color:var(--ink);background:var(--b-paper);border-radius:20px;padding:24px}
+.folder-sidebar>.primary-link {background:var(--b-primary);color:var(--curi-ink);min-height:44px}
+.folder-sidebar>.primary-link:hover {background:var(--b-primaryHover);color:var(--curi-ink)}
+#folder-list b {color:var(--b-ink)}.folder-empty-label {color:var(--curi-muted)}
+.subject-tag[data-subject="사회"] {background:var(--b-social)}
+.subject-tag[data-subject="과학"] {background:var(--b-science)}
+.subject-tag:not([data-subject="사회"]):not([data-subject="과학"]) {background:var(--b-cross)}
+.resource-card :where(button,a,input,textarea,select,summary):focus-visible {outline-color:var(--curi-focus)}
+.results-section :where(button,a,summary):focus-visible {outline-color:var(--b-focus)}
+.results-section .resource-card :where(button,a,summary):focus-visible {outline-color:var(--curi-focus)}
+.examples {border-top-color:var(--b-line)}
+.skip-link {color:var(--curi-ink);background:var(--b-paper)}
+/* 카드 안의 절대 배치 이미지가 좁은 폭에서도 전체 너비를 갖는다. */
+.cards:not(.is-list) .resource-card {align-items:stretch}
+.resource-thumbnail-link {width:100%}
+
+/* 제목과 조작 문구를 굵게 하여 B안의 타이포 위계를 강화한다. */
+.lesson-heading h1 {font-weight:800}
+.results-heading h2,.library-folder-group>h2,#lesson-title,#folder-list b,
+.folder-main h2,.guide h2,dialog h2,.scene-poster b {font-weight:700}
+.site-header nav a,.site-header nav a[aria-current=page],
+.search-panel form button,.examples button,.kind-filters button,
+.has-query .kind-filters button,.view-switch button,
+.resource-card .card-actions button[data-folder-save],#folder-picker-confirm,
+.import-tabs button {font-weight:700}

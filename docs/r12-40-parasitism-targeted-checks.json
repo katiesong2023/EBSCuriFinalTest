@@ -1,0 +1,44 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "cases": [
+    "생물 관계 검색의 기존5개 회차 모두 보존",
+    "기생1부·생명의 전략 기생1부가 기존 검색에서 반환",
+    "숙주 관계·공생/기생 표현에서도 회차 반환",
+    "생물학 기생과 조선시대 기생 동음이의어 분리",
+    "기존 인권 검색4건 유지",
+    "시리즈 목록을 개별 회차로 둔갑시키지 않음",
+    "같은 질문 반복 결과·순서 유지·추가 호출0",
+    "요청한 방송 메타데이터 외4저장소 불변"
+  ],
+  "stores": [
+    {
+      "path": "server/data/broadcast-catalog.sqlite",
+      "changed": true
+    },
+    {
+      "path": "server/data/semantic-layer.sqlite",
+      "changed": false
+    },
+    {
+      "path": "server/data/automatic-assets.sqlite",
+      "changed": false
+    },
+    {
+      "path": "server/data/broadcast-semantic-search.sqlite",
+      "changed": false
+    },
+    {
+      "path": "server/data/curi-store.json",
+      "changed": false
+    }
+  ],
+  "repeatModelSearch": {
+    "status": "ALL_CONDITIONS_SUPPORTED",
+    "paidCalls": 0,
+    "cacheHits": 5
+  },
+  "whole370Test": "NOT_RUN_USER_INSTRUCTION",
+  "cost": 1.427397475,
+  "approvedRemainingUsd": 0.572602525
+}

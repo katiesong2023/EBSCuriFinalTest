@@ -1,0 +1,27 @@
+{
+  "episodeCountBefore": 22753,
+  "episodeCountAfter": 22753,
+  "changedEpisodeIds": [
+    "BCAST-1870571a4c8023ee97f0",
+    "BCAST-0b7ff14710d2df1732ca",
+    "BCAST-0b137ace4edf72dc23f0",
+    "BCAST-24cb7586692e2a707640",
+    "BCAST-2d032ce4b233bfe29ceb",
+    "BCAST-2d093401c6622a3a2018",
+    "BCAST-07b8b46343e67388b36a",
+    "BCAST-a9724a68de2228ab9f0d",
+    "BCAST-03936ad26b0793250d0e"
+  ],
+  "changes": "4소개문 복구 + 다른5회차 보조 자막 payload 연결",
+  "protectedThreeStoresUnchanged": true,
+  "protectedThreeHashes": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "broadcastHashBefore": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+  "broadcastHashAfter": "273ed68f62676dc4425e2b80437147a77a7a77b0fe78639a35599faf4f343655",
+  "indexRefresh": "r07-21-semantic-refresh.json",
+  "paidApiCalls": 0,
+  "backupHash": "a6f9e1654fefa90302228cd38486e41f4181afd41ad94f1d8e6d4a150d9f7474"
+}

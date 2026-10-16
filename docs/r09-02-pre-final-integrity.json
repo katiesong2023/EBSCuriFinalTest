@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-10T23:55:53.165Z",
+  "frozenHashesValid": true,
+  "sampleRelations": 33,
+  "currentHeldoutSourceChanged": 0,
+  "currentHeldoutSourceMissing": 0,
+  "sampleIdsMissingFromExclusions": 0,
+  "stage2Files": [
+    {
+      "file": "r09-02-stage2-same-source-code.json.gz",
+      "exists": true,
+      "sha256": "d33060681180b784e49c66b990b88c3e94d40e8ef92a1cd761ab7c0b9d5b4308"
+    },
+    {
+      "file": "r09-02-stage2-same-source-details.json.gz",
+      "exists": true,
+      "sha256": "c49efbbd0071af9e2d4a09a3117febe715885cd41adc00fc446a630d016f0f14"
+    },
+    {
+      "file": "r09-02-stage2-same-source-summary.json",
+      "exists": true,
+      "sha256": "83b2964c517c8fed393aae7b4ca7d45ddc7794f5dadb68785c22b8feb4109a55"
+    }
+  ],
+  "individualResultsDisclosed": false,
+  "heldoutSupplementalSources": 0
+}

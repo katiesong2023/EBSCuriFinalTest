@@ -1,0 +1,32 @@
+{
+  "scope": "actual extension HTML/CSS via localhost; Chrome extension APIs unavailable in this layout-only view",
+  "checks": [
+    {
+      "bodyWidth": 300,
+      "overflow": false,
+      "shortButtons": 0,
+      "timeColumns": "268px",
+      "width": 300,
+      "passed": true
+    },
+    {
+      "bodyWidth": 360,
+      "overflow": false,
+      "shortButtons": 0,
+      "timeColumns": "164px 156px",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "bodyWidth": 480,
+      "overflow": false,
+      "shortButtons": 0,
+      "timeColumns": "284px 156px",
+      "width": 480,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "nativeSidePanelVerified": false,
+  "nativeBlock": "Browser URL policy disallowed chrome://extensions; no workaround attempted"
+}

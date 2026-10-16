@@ -1,0 +1,392 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 216,
+        "contentLeft": 244,
+        "contentTop": 76,
+        "indexBottom": 968,
+        "overflow": false
+      },
+      "typography": {
+        "#lesson-title": {
+          "size": "28px",
+          "weight": "600",
+          "line": "36px"
+        },
+        "#videos-heading": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#lesson-goal-overview>h3": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        ".playlist-heading h2": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#folder-settings>label": {
+          "size": "13px",
+          "weight": "500",
+          "line": "20.15px"
+        },
+        ".folder-note>summary": {
+          "size": "14px",
+          "weight": "500",
+          "line": "21.7px"
+        },
+        ".folder-description": {
+          "size": "14px",
+          "weight": "400",
+          "line": "23.1px"
+        },
+        "#folder-settings>.filter-help": {
+          "size": "12px",
+          "weight": "400",
+          "line": "19.8px"
+        },
+        "#lesson-grade": {
+          "size": "14px",
+          "weight": "400",
+          "line": "normal"
+        },
+        "#folder-actions button": {
+          "size": "13px",
+          "weight": "500",
+          "line": "19.5px"
+        },
+        ".playlist-total strong": {
+          "size": "24px",
+          "weight": "600",
+          "line": "31.2px"
+        },
+        ".folder-video h3": {
+          "size": "16px",
+          "weight": "600",
+          "line": "24px"
+        }
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 1000,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 188,
+        "contentLeft": 208,
+        "contentTop": 76,
+        "indexBottom": 968,
+        "overflow": false
+      },
+      "typography": {
+        "#lesson-title": {
+          "size": "28px",
+          "weight": "600",
+          "line": "36px"
+        },
+        "#videos-heading": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#lesson-goal-overview>h3": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        ".playlist-heading h2": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#folder-settings>label": {
+          "size": "13px",
+          "weight": "500",
+          "line": "20.15px"
+        },
+        ".folder-note>summary": {
+          "size": "14px",
+          "weight": "500",
+          "line": "21.7px"
+        },
+        ".folder-description": {
+          "size": "14px",
+          "weight": "400",
+          "line": "23.1px"
+        },
+        "#folder-settings>.filter-help": {
+          "size": "12px",
+          "weight": "400",
+          "line": "19.8px"
+        },
+        "#lesson-grade": {
+          "size": "14px",
+          "weight": "400",
+          "line": "normal"
+        },
+        "#folder-actions button": {
+          "size": "13px",
+          "weight": "500",
+          "line": "19.5px"
+        },
+        ".playlist-total strong": {
+          "size": "24px",
+          "weight": "600",
+          "line": "31.2px"
+        },
+        ".folder-video h3": {
+          "size": "16px",
+          "weight": "600",
+          "line": "24px"
+        }
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 768,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 188,
+        "contentLeft": 208,
+        "contentTop": 76,
+        "indexBottom": 968,
+        "overflow": false
+      },
+      "typography": {
+        "#lesson-title": {
+          "size": "28px",
+          "weight": "600",
+          "line": "36px"
+        },
+        "#videos-heading": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#lesson-goal-overview>h3": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        ".playlist-heading h2": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#folder-settings>label": {
+          "size": "13px",
+          "weight": "500",
+          "line": "20.15px"
+        },
+        ".folder-note>summary": {
+          "size": "14px",
+          "weight": "500",
+          "line": "21.7px"
+        },
+        ".folder-description": {
+          "size": "14px",
+          "weight": "400",
+          "line": "23.1px"
+        },
+        "#folder-settings>.filter-help": {
+          "size": "12px",
+          "weight": "400",
+          "line": "19.8px"
+        },
+        "#lesson-grade": {
+          "size": "14px",
+          "weight": "400",
+          "line": "normal"
+        },
+        "#folder-actions button": {
+          "size": "13px",
+          "weight": "500",
+          "line": "19.5px"
+        },
+        ".playlist-total strong": {
+          "size": "24px",
+          "weight": "600",
+          "line": "31.2px"
+        },
+        ".folder-video h3": {
+          "size": "16px",
+          "weight": "600",
+          "line": "24px"
+        }
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 390,
+      "layout": {
+        "position": "sticky",
+        "left": 16,
+        "right": 374,
+        "contentLeft": 16,
+        "contentTop": 318,
+        "indexBottom": 318,
+        "overflow": false
+      },
+      "typography": {
+        "#lesson-title": {
+          "size": "24px",
+          "weight": "600",
+          "line": "32px"
+        },
+        "#videos-heading": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#lesson-goal-overview>h3": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        ".playlist-heading h2": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#folder-settings>label": {
+          "size": "13px",
+          "weight": "500",
+          "line": "20.15px"
+        },
+        ".folder-note>summary": {
+          "size": "14px",
+          "weight": "500",
+          "line": "21.7px"
+        },
+        ".folder-description": {
+          "size": "14px",
+          "weight": "400",
+          "line": "23.1px"
+        },
+        "#folder-settings>.filter-help": {
+          "size": "12px",
+          "weight": "400",
+          "line": "19.8px"
+        },
+        "#lesson-grade": {
+          "size": "14px",
+          "weight": "400",
+          "line": "normal"
+        },
+        "#folder-actions button": {
+          "size": "13px",
+          "weight": "500",
+          "line": "19.5px"
+        },
+        ".playlist-total strong": {
+          "size": "24px",
+          "weight": "600",
+          "line": "31.2px"
+        },
+        ".folder-video h3": {
+          "size": "16px",
+          "weight": "600",
+          "line": "24px"
+        }
+      },
+      "stickyTop": 0,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 360,
+      "layout": {
+        "position": "sticky",
+        "left": 16,
+        "right": 344,
+        "contentLeft": 16,
+        "contentTop": 337,
+        "indexBottom": 337,
+        "overflow": false
+      },
+      "typography": {
+        "#lesson-title": {
+          "size": "24px",
+          "weight": "600",
+          "line": "32px"
+        },
+        "#videos-heading": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#lesson-goal-overview>h3": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        ".playlist-heading h2": {
+          "size": "18px",
+          "weight": "600",
+          "line": "26.1px"
+        },
+        "#folder-settings>label": {
+          "size": "13px",
+          "weight": "500",
+          "line": "20.15px"
+        },
+        ".folder-note>summary": {
+          "size": "14px",
+          "weight": "500",
+          "line": "21.7px"
+        },
+        ".folder-description": {
+          "size": "14px",
+          "weight": "400",
+          "line": "23.1px"
+        },
+        "#folder-settings>.filter-help": {
+          "size": "12px",
+          "weight": "400",
+          "line": "19.8px"
+        },
+        "#lesson-grade": {
+          "size": "14px",
+          "weight": "400",
+          "line": "normal"
+        },
+        "#folder-actions button": {
+          "size": "13px",
+          "weight": "500",
+          "line": "19.5px"
+        },
+        ".playlist-total strong": {
+          "size": "24px",
+          "weight": "600",
+          "line": "31.2px"
+        },
+        ".folder-video h3": {
+          "size": "16px",
+          "weight": "600",
+          "line": "24px"
+        }
+      },
+      "stickyTop": 0,
+      "navigationPassed": true,
+      "renamePassed": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "createDeletePassed": true
+}

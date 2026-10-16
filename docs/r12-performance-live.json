@@ -1,0 +1,58 @@
+{
+  "baselineApiMs": [
+    5506,
+    6382
+  ],
+  "runs": [
+    {
+      "run": 0,
+      "elapsedMs": 36316,
+      "total": 379,
+      "ids": [
+        "BCAST-c1c8fc70a44d027ddf67",
+        "BCAST-5d6f431429ed22065d60",
+        "BCAST-5e30c3216a38be7cd6cb",
+        "BCAST-ae48647f3c062e9cbe3a",
+        "BCAST-0d842a37035803e83363",
+        "BCAST-57e941f1261cb45b6c29",
+        "BCAST-2063bafd994d2bc8c685",
+        "BCAST-b3160a0170fd8a355c38",
+        "BCAST-d870d556d5e078a075a4"
+      ]
+    },
+    {
+      "run": 1,
+      "elapsedMs": 447,
+      "total": 379,
+      "ids": [
+        "BCAST-c1c8fc70a44d027ddf67",
+        "BCAST-5d6f431429ed22065d60",
+        "BCAST-5e30c3216a38be7cd6cb",
+        "BCAST-ae48647f3c062e9cbe3a",
+        "BCAST-0d842a37035803e83363",
+        "BCAST-57e941f1261cb45b6c29",
+        "BCAST-2063bafd994d2bc8c685",
+        "BCAST-b3160a0170fd8a355c38",
+        "BCAST-d870d556d5e078a075a4"
+      ]
+    },
+    {
+      "run": 2,
+      "elapsedMs": 107,
+      "total": 379,
+      "ids": [
+        "BCAST-c1c8fc70a44d027ddf67",
+        "BCAST-5d6f431429ed22065d60",
+        "BCAST-5e30c3216a38be7cd6cb",
+        "BCAST-ae48647f3c062e9cbe3a",
+        "BCAST-0d842a37035803e83363",
+        "BCAST-57e941f1261cb45b6c29",
+        "BCAST-2063bafd994d2bc8c685",
+        "BCAST-b3160a0170fd8a355c38",
+        "BCAST-d870d556d5e078a075a4"
+      ]
+    }
+  ],
+  "sameTotalAndOrder": true,
+  "resultsDeepEqual": true
+}

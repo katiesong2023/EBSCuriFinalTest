@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-10-05T01:11:16.331Z",
+  "snapshotSha256": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+  "cases": [
+    {
+      "name": "주제 미정도 단일 목록·주제 필터 제공, 대표 후보 제거",
+      "passed": true
+    },
+    {
+      "name": "우주 단일 목록의 천문 근거와 이전 세부 주제 주소 호환",
+      "passed": true
+    },
+    {
+      "name": "같은 고정 자료에서 AND·OR·제외·프로그램·유형·링크 조건 보존",
+      "passed": true
+    },
+    {
+      "name": "시간·학년·장면은 경고 유지, 빈 결과·주제 오류·승인 필터 검증",
+      "passed": true
+    },
+    {
+      "name": "같은 제목 판본만 묶고 다른 회차·프로그램을 보존",
+      "passed": true
+    },
+    {
+      "name": "기후 단일 목록의 비유·극 배경과 꿀벌 방향의 수분 동음이의어 제외",
+      "passed": true
+    },
+    {
+      "name": "현재 승인 지문 적용과 원문 변경 후 표시·필터 무효화",
+      "passed": true
+    },
+    {
+      "name": "후보 부족 시 채우지 않음, 과학 비유와 극 배경을 해당 주제 검색에서 제외",
+      "passed": true
+    },
+    {
+      "name": "필터별 개수·페이지·판본 수와 명시적 전체 목록",
+      "passed": true
+    }
+  ],
+  "examples": [
+    {
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "results": [
+        {
+          "id": "BCAST-ada4449888ed4e9d873e",
+          "title": "68화_블랙홀, 어떻게 우주 대스타가 됐나?",
+          "program": "취미는 과학",
+          "relevanceReason": "제목에서 ‘우주’ 표현 확인"
+        },
+        {
+          "id": "BCAST-ab96ec83b73d0d8cdf5a",
+          "title": "가장 작은 우주선, 우주복",
+          "program": "지식채널e",
+          "relevanceReason": "소개문에서 ‘우주’ 표현 확인"
+        },
+        {
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "program": "지식채널e",
+          "relevanceReason": "소개문에서 ‘천체’ 표현 확인"
+        },
+        {
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "relevanceReason": "제목에서 ‘행성’ 표현 확인"
+        },
+        {
+          "id": "BCAST-58407eac3a4a313d3035",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "relevanceReason": "제목에서 ‘태양계’ 표현 확인"
+        },
+        {
+          "id": "BCAST-012ead6030a246fe0eeb",
+          "title": "딱 하루만",
+          "program": "지식채널e",
+          "relevanceReason": "소개문에서 ‘행성’ 표현 확인"
+        },
+        {
+          "id": "BCAST-b5a6cb02e4c98e426800",
+          "title": "소행성이 온다",
+          "program": "과학 다큐 비욘드",
+          "relevanceReason": "소개문에서 ‘우주’ 표현 확인"
+        },
+        {
+          "id": "BCAST-08b30e2888cc7d8f5ff0",
+          "title": "숨 쉬는 행성 지구 - 10부 인류의 안식처",
+          "program": "과학 다큐 비욘드",
+          "relevanceReason": "제목에서 ‘행성’ 표현 확인"
+        },
+        {
+          "id": "BCAST-8c3eb75d7b812074390b",
+          "title": "숨 쉬는 행성 지구 - 1부 생명의 숨결",
+          "program": "과학 다큐 비욘드",
+          "relevanceReason": "제목에서 ‘행성’ 표현 확인"
+        }
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "server/data/curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "server/data/broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106"
+  },
+  "storesUnchanged": true,
+  "networkAttempts": 0,
+  "paidApiCalls": 0,
+  "limits": "개발용 기능·근거 경계 검사이며 실제 교사 평가·최종 검색 품질 검증이 아니다."
+}

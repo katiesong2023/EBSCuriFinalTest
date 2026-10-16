@@ -1,0 +1,13 @@
+{
+  "extensionVersion": "1.2.18",
+  "pngSizes": [
+    16,
+    32,
+    48,
+    128
+  ],
+  "sameWebExtensionZipBytes": true,
+  "folderSvgInZip": true,
+  "noLogoColonInPopup": true,
+  "extensionConnectionBehaviorTested": false
+}

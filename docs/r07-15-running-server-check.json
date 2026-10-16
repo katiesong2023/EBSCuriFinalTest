@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-12",
+  "cases": [
+    {
+      "q": "빅오션",
+      "title": "심장으로 듣는 아이돌 빅오션! 그 매니저가 되다",
+      "keywords": [
+        {
+          "label": "음악",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 66,
+            "end": 68,
+            "quote": "음악",
+            "context": "평소, 아이돌을 잘 모르던 이PD는 빅오션의 음악에 빠져 무작정 그들의 매니저가 되어봤는데",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "공연",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 158,
+            "end": 160,
+            "quote": "공연",
+            "context": "무대 위 아이돌을 빛나게 만들기 위한, 무대 뒤 매니저의 역할과 고군분투하며 그들의 공연을 완성해본다",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "장애인",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 11,
+            "end": 14,
+            "quote": "장애인",
+            "context": "자막세계 최초 청각 장애인 아이돌 빅오션",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        }
+      ]
+    },
+    {
+      "q": "억만장자",
+      "title": "역사의 빛, 청년 제6부 억만장자의 독립운동",
+      "keywords": [
+        {
+          "label": "독립운동",
+          "conceptId": "independence",
+          "kind": "REGISTERED_CONCEPT",
+          "evidence": {
+            "field": "summary",
+            "start": 15,
+            "end": 19,
+            "quote": "독립운동",
+            "context": "유일한 박사의 생애를 통해 독립운동이 주는 교훈을 배운다",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055811&lectId=20134741"
+          }
+        }
+      ]
+    },
+    {
+      "q": "사찰음식",
+      "title": "한 그릇에 담은 수행의 맛, 사찰음식",
+      "keywords": [
+        {
+          "label": "사찰음식",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 0,
+            "end": 4,
+            "quote": "사찰음식",
+            "context": "사찰음식은 단순한 요리가 아닌 수행의 과정이다",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "수행",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 17,
+            "end": 19,
+            "quote": "수행",
+            "context": "사찰음식은 단순한 요리가 아닌 수행의 과정이다",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "요리",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 10,
+            "end": 12,
+            "quote": "요리",
+            "context": "사찰음식은 단순한 요리가 아닌 수행의 과정이다",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "식재료",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 31,
+            "end": 34,
+            "quote": "식재료",
+            "context": "신선한 식재료로 생명을 소중히 대하는 마음을 담아 완성하는 사찰음식",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        }
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

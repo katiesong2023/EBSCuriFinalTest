@@ -1,0 +1,142 @@
+/* 자료 본문 전체를 폴더 외곽선으로 감싸고 돌출된 탭에서 이름을 편집한다. */
+.library-workspace-main .folder-main.is-folder-detail {--folder-outline:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 65%,var(--curi-controlBorder));position:relative;margin-top:96px;padding:24px;border:1.5px solid var(--folder-outline);border-radius:0 14px 14px 14px;background:white;box-shadow:none}
+.folder-detail-header {position:absolute;top:-88px;left:-1.5px;z-index:1;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-end;gap:6px;width:min(350px,calc(100% - 24px));height:88px;padding:12px 44px 0 20px;isolation:isolate}
+.folder-detail-header[hidden] {display:none}
+.folder-tab-outline {position:absolute;inset:0;width:100%;height:100%;overflow:visible;z-index:-1;pointer-events:none}
+.folder-tab-outline path {fill:white;stroke:var(--folder-outline);stroke-width:1.5;stroke-linejoin:round}
+.folder-title-edit {display:flex;align-items:center;gap:10px;width:100%;min-width:0;flex-shrink:0}
+.folder-title-edit #lesson-title {display:block;flex:1;width:100%;min-width:0;min-height:36px;margin:0;padding:2px 0;border:0;border-bottom:1px solid var(--curi-muted);border-radius:0;background:transparent;font-size:28px;line-height:36px;font-weight:600;letter-spacing:-.4px;box-shadow:none}
+.folder-title-edit #lesson-title:hover {border-bottom-color:var(--curi-ink)}
+.folder-title-edit #lesson-title:focus {outline:2px solid var(--curi-selection);outline-offset:2px;border-radius:3px}
+.folder-title-edit>svg {width:14px;height:14px;flex-shrink:0;color:var(--curi-muted)}
+@media(max-width:767px) {
+  .library-workspace-main .folder-main.is-folder-detail {margin-top:92px;padding:16px 12px}
+  .folder-detail-header {padding-left:16px;padding-right:36px}
+  .folder-title-edit #lesson-title {font-size:24px;line-height:32px}
+}
+
+/* 본문 위계: 탭 제목28/24 → 섹션18 → 자료 제목16 → 본문14 → 라벨13 → 보조12. */
+.folder-main {
+  --folder-section-size:18px;
+  --folder-item-size:16px;
+  --folder-body-size:14px;
+  --folder-label-size:13px;
+  --folder-caption-size:12px;
+  font-size:var(--folder-body-size);font-weight:400;line-height:1.65;
+}
+.folder-main :is(p,li,td,blockquote) {font-size:var(--folder-body-size);font-weight:400;line-height:1.65}
+.folder-main :is(h2,h3) {font-size:var(--folder-section-size);font-weight:600;line-height:1.45;letter-spacing:-.2px}
+.folder-main :is(h4,summary) {font-size:var(--folder-body-size);font-weight:500;line-height:1.55}
+.folder-main :is(b,strong) {font-weight:500}
+.folder-main label,.folder-main th {font-size:var(--folder-label-size);font-weight:500;line-height:1.55}
+.folder-main :is(input,textarea,select) {font-size:var(--folder-body-size);font-weight:400;line-height:1.6}
+.folder-main :is(button,.primary-link),.folder-main .folder-actions button {font-size:var(--folder-label-size);font-weight:500;line-height:1.5}
+.folder-main .folder-curriculum-content>label {display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:var(--folder-label-size);font-weight:500;line-height:1.55;color:var(--curi-ink)}
+.folder-main #folder-label-colors {font-size:var(--folder-label-size);font-weight:500}
+.folder-main #folder-label-colors button {font-size:var(--folder-caption-size);font-weight:500}
+.folder-main #videos-heading {margin:0}
+.folder-main :is(.folder-video,.library-resource,.playlist-card) h3 {font-size:var(--folder-item-size);font-weight:600;line-height:1.5}
+.folder-main :is(.segment-card-heading b,.scene-title) {font-size:var(--folder-item-size);font-weight:600;line-height:1.5}
+.folder-main :is(.selection-context>summary,.library-location>summary) {font-size:var(--folder-body-size);font-weight:500}
+.folder-main :is(.filter-help,.broadcast-date,.program,.folder-hint,.playlist-help,.playlist-empty,.playlist-source,.playlist-total small,.playlist-heading>span,.library-resource>p,.scene-caption,.scene-caption small,.choice-snapshot,.choice-current),.folder-main #video-count,.folder-main #lesson-playlist-status {font-size:var(--folder-caption-size);font-weight:400;line-height:1.65;color:var(--curi-muted)}
+.folder-main .broadcast-date b {font-weight:400}
+.folder-main .playlist-total {font-size:var(--folder-label-size);font-weight:500}
+.folder-main .playlist-total strong {font-size:24px;font-weight:600;line-height:1.3}
+.folder-main :is(.content-keywords li,.playlist-number,.scene-number) {font-size:var(--folder-caption-size);font-weight:500}
+/* 탭 제목은 본문 입력란 규칙보다 우선한다. */
+.folder-main .folder-title-edit #lesson-title {font-size:28px;font-weight:600;line-height:36px}
+@media(max-width:767px) {.folder-main .folder-title-edit #lesson-title {font-size:24px;line-height:32px}}
+
+/* 수업 대상 선택은 설정 라벨 옆의 작은 컨트롤로 유지한다. */
+.folder-main #lesson-grade {width:148px;max-width:100%;min-height:32px;height:32px;padding:4px 8px;border-radius:6px;line-height:20px}
+
+/* 폴더명 위에 작은 색상 칩을 모으고 선택 링은 원에 밀착한다. */
+.folder-main #folder-label-colors {gap:2px;margin:0;flex-wrap:nowrap;flex-shrink:0;height:24px}
+.folder-main #folder-label-colors button {display:grid;place-items:center;width:24px;height:24px;min-width:24px;min-height:24px;padding:3px;border:0;border-radius:50%;background:transparent;box-shadow:none}
+.folder-main #folder-label-colors button i {position:relative;display:block;width:18px;height:18px;border-radius:50%}
+.folder-main #folder-label-colors button:hover {background:var(--curi-surfaceMuted)}
+.folder-main #folder-label-colors button[aria-pressed=true] {outline:none;background:transparent;box-shadow:none}
+.folder-main #folder-label-colors button[aria-pressed=true] i::after {content:'✓';position:absolute;inset:0;display:grid;place-items:center;color:var(--curi-ink);font-size:11px;font-weight:600;line-height:18px}
+
+.folder-main #folder-label-colors button[aria-pressed=true] i {outline:2px solid var(--curi-selection);outline-offset:0}
+.folder-main #folder-label-colors button:focus-visible {outline:2px solid var(--curi-selection);outline-offset:0}
+
+/* 수업 대상과 기준 선택은 폴더 색을 따른 하나의 교육과정 연결 박스에 묶는다. */
+.folder-main .folder-curriculum-box {margin:0 0 16px;border:0;border-radius:10px;background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 16%,white)}
+.folder-main .folder-curriculum-box>details>summary {padding:12px 14px;cursor:pointer;color:var(--curi-ink)}
+.folder-main .folder-curriculum-box>details>summary span {margin-left:6px;font-size:var(--folder-caption-size);font-weight:400;color:var(--curi-muted)}
+.folder-main .folder-curriculum-content {padding:0 14px 14px;min-width:0}
+.folder-main .folder-curriculum-content .curriculum-select {margin-bottom:0}
+@media(max-width:767px) {
+  .folder-main .folder-curriculum-box>details>summary {padding:10px 12px}
+  .folder-main .folder-curriculum-content {padding:0 12px 12px}
+}
+
+/* 선택한 기준 원문은 토글 밖에서도 항상 읽을 수 있게 표시한다. */
+.folder-main .folder-selected-standards {display:grid;gap:8px;list-style:none;margin:0 0 16px;padding:0}
+.folder-main .folder-selected-standards[hidden] {display:none}
+.folder-main .folder-selected-standards>li {position:relative;min-width:0;padding:12px 44px 12px 14px;border:1px solid color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 50%,var(--curi-line));border-radius:10px;background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 8%,white);overflow-wrap:anywhere}
+.folder-main .folder-selected-standards .selected-standard-remove {position:absolute;top:6px;right:6px;display:grid;place-items:center;width:28px;height:28px;min-width:28px;min-height:28px;padding:0;border:0;border-radius:6px;background:transparent;color:var(--curi-ink);font-size:20px;font-weight:400;line-height:1;cursor:pointer}
+.folder-main .folder-selected-standards .selected-standard-remove:hover {background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 35%,white)}
+.folder-main .folder-selected-standards .selected-standard-remove:focus-visible {outline:2px solid var(--curi-selection);outline-offset:1px}
+.selected-standard-meta {display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 10px}
+.folder-main .selected-standard-meta>b {font-size:var(--folder-label-size);font-weight:500;color:var(--curi-ink)}
+.selected-standard-meta>span {font-size:var(--folder-caption-size);font-weight:400;color:var(--curi-muted)}
+.folder-main .folder-selected-standards p {margin:8px 0 0;font-size:var(--folder-body-size);font-weight:400;line-height:1.65}
+
+/* 교육과정 연결의 반복 안내는 감추고 선택 컨트롤과 기준 내용만 표시한다. */
+.folder-main #folder-curriculum .curriculum-select-intro {display:none}
+
+/* 선택 원문도 같은 배경 박스 안에 두되 접힌 토글 밖에서 보이게 한다. */
+.folder-main .folder-curriculum-box>details {margin:0}
+.folder-main .folder-curriculum-box>.folder-selected-standards {margin:0;padding:0 14px 14px}
+@media(max-width:767px) {.folder-main .folder-curriculum-box>.folder-selected-standards {padding:0 12px 12px}}
+
+/* 수업 대상 → 과정 → 교과 → 검색. 좁은 화면도 순서를 유지해 가로로 탐색한다. */
+.folder-main #folder-curriculum .curriculum-select {margin-top:0}
+.folder-main #folder-curriculum .curriculum-select-controls {display:grid;grid-template-columns:148px 148px 104px minmax(180px,1fr);gap:10px;align-items:end;overflow-x:auto;padding:4px 3px 8px;scrollbar-width:thin}
+.folder-main #folder-curriculum .curriculum-select-controls label {display:grid;gap:6px;min-width:0;font-size:var(--folder-label-size);font-weight:500;line-height:1.55}
+.folder-main #folder-curriculum .curriculum-select-controls :is(input,select) {width:100%;min-width:0;min-height:32px;height:32px;padding:4px 8px;border-radius:6px;font-size:var(--folder-body-size);font-weight:400;line-height:20px}
+
+/* 수업 목표와 노트는 같은 폴더 색 박스 안에서 각각 편집한다. */
+.folder-main #folder-settings>.folder-note {margin:0 0 16px;border-radius:10px;background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 16%,white);color:var(--curi-ink)}
+.folder-main #folder-settings>.folder-note>summary {padding:12px 14px;cursor:pointer}
+.folder-notes-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 14px 14px}
+.folder-main .folder-note-field {display:block;min-width:0;padding:12px;border:1px solid color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 50%,var(--curi-line));border-radius:8px;background:white}
+.folder-note-field>span {display:block;font-size:var(--folder-body-size);font-weight:500}
+.folder-main .folder-notes-grid textarea {display:block;width:100%;min-height:132px;margin:8px 0 0;padding:0;border:0;border-radius:2px;background:transparent;font-size:var(--folder-body-size);font-weight:400;line-height:1.65;color:var(--curi-ink);box-shadow:none;resize:vertical}
+.folder-main .folder-notes-grid textarea:focus-visible {outline:2px solid var(--curi-selection);outline-offset:3px}
+.folder-main #legacy-topic {margin:0 14px 12px;font-size:var(--folder-caption-size)}
+@media(max-width:767px) {
+  .folder-main #folder-settings>.folder-note>summary {padding:10px 12px}
+  .folder-notes-grid {grid-template-columns:1fr;padding:0 12px 12px}
+}
+
+/* 가져온 자료 제목과 폴더 동작을 같은 줄에서 정렬한다. */
+.imported-materials-heading {display:flex;align-items:center;justify-content:space-between;gap:12px;margin:24px 0 8px}
+.imported-materials-heading>h2 {flex-shrink:0}
+.folder-main .imported-materials-heading #folder-actions {display:flex;align-items:stretch;flex-wrap:nowrap;justify-content:flex-end;gap:8px;min-width:0;margin:0}
+.folder-main .imported-materials-heading #folder-actions button {display:flex;align-items:center;justify-content:center;flex:0 1 auto;min-width:0;min-height:36px;padding:8px 10px;border:1px solid color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 65%,var(--curi-line));border-radius:8px;background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 40%,white);color:var(--curi-ink);font-size:12px;font-weight:500;line-height:18px;white-space:normal;word-break:keep-all}
+.folder-main .imported-materials-heading #folder-actions button:hover {background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 65%,white)}
+@media(max-width:767px) {
+  .imported-materials-heading {gap:8px}
+  .folder-main .imported-materials-heading #folder-actions {flex:1;gap:6px}
+  .folder-main .imported-materials-heading #folder-actions button {flex:1;padding:6px 8px}
+}
+
+/* 수업 영상 리스트도 현재 폴더 라벨의 연한 배경을 공유한다. */
+.folder-main .lesson-playlist {background:color-mix(in srgb,var(--detail-folder-color,var(--curi-folder)) 16%,white)}
+
+/* 오른쪽 목록은 파일 박스 안에서 고정하고 구간만 내부에서 스크롤한다. */
+@media(min-width:1280px) {
+  .folder-main.has-playlist {min-height:calc(100dvh - 40px)}
+  .folder-main.has-playlist #folder-content {grid-column:1}
+  .folder-main .lesson-playlist {position:sticky;top:20px;display:flex;flex-direction:column;box-sizing:border-box;height:var(--playlist-viewport-height,calc(100dvh - 40px));min-height:0;overflow:hidden}
+  .folder-main .lesson-playlist[hidden] {display:none}
+  .folder-main .lesson-playlist>:not(#lesson-playlist-items):not(.playlist-empty) {flex-shrink:0}
+  .folder-main #lesson-playlist-items {flex:1;min-height:0;max-height:none;align-content:start;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable}
+  .folder-main .playlist-empty {flex:1;min-height:0;margin:0}
+  .folder-main .playlist-empty:not([hidden])+#lesson-playlist-items {display:none}
+  .folder-main #lesson-playlist-status:empty {display:none}
+  .folder-main .playlist-total {margin-top:16px}
+}

@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-15T10:33:41.995Z",
+  "passed": 41,
+  "cases": [
+    {
+      "name": "과학: 명시적 설명·인용 통과와 전체 성취기준 미확인",
+      "passed": true
+    },
+    {
+      "name": "과학: 부분 설명은 미충족 요구와 함께 제한 제공",
+      "passed": true
+    },
+    {
+      "name": "과학: 단어 동시 등장만으로 관계 통과 금지",
+      "passed": true
+    },
+    {
+      "name": "과학: 긍정 문장이 있어도 상충·부정은 보류",
+      "passed": true
+    },
+    {
+      "name": "과학: 제목뿐·제목 반복·편성/홍보 안내 보류",
+      "passed": true
+    },
+    {
+      "name": "사회: 명시적 설명·인용 통과와 전체 성취기준 미확인",
+      "passed": true
+    },
+    {
+      "name": "사회: 부분 설명은 미충족 요구와 함께 제한 제공",
+      "passed": true
+    },
+    {
+      "name": "사회: 단어 동시 등장만으로 관계 통과 금지",
+      "passed": true
+    },
+    {
+      "name": "사회: 긍정 문장이 있어도 상충·부정은 보류",
+      "passed": true
+    },
+    {
+      "name": "사회: 제목뿐·제목 반복·편성/홍보 안내 보류",
+      "passed": true
+    },
+    {
+      "name": "무관한 일반방송은 고정 기준 보충 없이 후보 0건",
+      "passed": true
+    },
+    {
+      "name": "꿀벌·식물 언급을 꽃가루받이 학습 관계로 보충하지 않음",
+      "passed": true
+    },
+    {
+      "name": "다른 공식 기준은 인용 통과와 관계 미지원을 구분",
+      "passed": true
+    },
+    {
+      "name": "의문·추측·잘못된 원인 설명은 현재 통과로 제공하지 않음",
+      "passed": true
+    },
+    {
+      "name": "미지원 학년·교과·시리즈는 후보 제공 보류",
+      "passed": true
+    },
+    {
+      "name": "위조 인용: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "틀린 위치: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "범위 밖 위치: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "다른 원문 필드: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "인용 누락: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "잘못된 인용 형식: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "다른 자료 인용: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "다른 판본: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "공식 후보 밖 ID: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "공식 코드 위조: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "기준 버전 위조: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "규칙 버전 변경: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "연결 설명 위조: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "미확인 요구 삭제: 자동 통과 차단",
+      "passed": true
+    },
+    {
+      "name": "고유한 원본 버전 변경은 과거 통과를 무효로 판정",
+      "passed": true
+    },
+    {
+      "name": "공식 원문 변경은 이전 근거 무효·새 규칙 미지원",
+      "passed": true
+    },
+    {
+      "name": "공식 출처 필수값 누락·비활성 기준은 통과 금지",
+      "passed": true
+    },
+    {
+      "name": "비활성 자료·다른 출처·알려진 출처 불일치 통과 금지",
+      "passed": true
+    },
+    {
+      "name": "인용 위치는 이모지·줄바꿈이 있는 실제 원문에서 재현",
+      "passed": true
+    },
+    {
+      "name": "유사도·confidence·과거 PASS 플래그로 현재 실패를 덮어쓸 수 없음",
+      "passed": true
+    },
+    {
+      "name": "관리 서비스는 임의 원문·검사 결과·모호한 ID를 받지 않음",
+      "passed": true
+    },
+    {
+      "name": "현재·과거 승인 원본 검사: 읽기 전용·취소 보존·새 사람 기록 없음",
+      "passed": true
+    },
+    {
+      "name": "실제 방송 원본 ID: 가져오기 없이 정확한 판본의 제목·소개문 검사",
+      "passed": true
+    },
+    {
+      "name": "HTTP: 자동 검사 API의 미인증·다른 Origin·메서드 제한",
+      "passed": true
+    },
+    {
+      "name": "HTTP: 실제 원본 검사·no-store·형식/없는 자료 오류 구분",
+      "passed": true
+    },
+    {
+      "name": "HTTP: 저장소 읽기 실패는 보류·과거 통과와 구분된 FAILED",
+      "passed": true
+    }
+  ],
+  "fixtureNote": "관계 긍정/부정 사례는 합성 개발용 텍스트이며 실제 방송의 의미 정확도 평가가 아닙니다.",
+  "before": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/semantic-layer.sqlite": "bdedca88233ab1a5050ff0c68529462ebd7f372d7802f1b8f83fa46b7ad1fce9"
+  },
+  "after": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/semantic-layer.sqlite": "bdedca88233ab1a5050ff0c68529462ebd7f372d7802f1b8f83fa46b7ad1fce9"
+  },
+  "storesUnchanged": true,
+  "existingApprovedAssets": 0,
+  "operationalApprovals": {
+    "currentHumanApproved": 0,
+    "currentApprovedSearchProjection": 0,
+    "preservedWithdrawals": 4,
+    "source": "docs/r09-01-approval-revocation.json"
+  },
+  "paidApiCalls": 0
+}

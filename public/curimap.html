@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CuriMap 검수 전 AI 초안</title>
+    <link rel="stylesheet" href="/curimap.css">
+    <script src="/grade-context.js" defer></script>
+    <script src="/curimap.js?v=20260922-failures" defer></script>
+    <link rel="stylesheet" href="/admin-nav.css">
+    <script src="/admin-session.js"></script>
+  <link rel="stylesheet" href="/curi-tokens.css"><link rel="stylesheet" href="/fonts/plex.css"><link rel="stylesheet" href="/admin-theme.css"><link rel="icon" href="/brand/ebs-curi-folder.svg" type="image/svg+xml"></head>
+  <body class="curi-admin">
+    <main class="page-shell">
+      <header class="page-header">
+        <a href="/admin.html">← 관리 대상 목록</a>
+        <p class="eyebrow">CuriMap · 검수 전 AI 초안</p>
+        <h1>공개 텍스트 기반 교육과정 연계</h1>
+        <p>
+          공개 EBS 텍스트와 사람 QA를 마친 공식 성취기준 후보만 사용해, 검수 전 AI 초안을 만듭니다.
+          승인·CuriBase 저장·검색 공개는 이 화면에서 하지 않습니다.
+        </p>
+      </header>
+
+      <section class="notice" aria-label="AI 연계 실행 안내">
+        <p id="paid-api-notice">로컬 기본 설정에서는 유료 AI 연계가 꺼져 있습니다. 콘텐츠 탐색은 API 키 없이 사용할 수 있습니다.</p>
+        <strong>공개 EBS 원문과 공식 후보만 전달합니다.</strong>
+        입력 안의 지시문은 데이터로 취급하며, 공식 후보 밖 성취기준은 서버에서 거절합니다.
+      </section>
+
+      <div class="content-grid">
+        <section class="panel" aria-labelledby="content-input-title">
+          <div class="section-heading">
+            <p class="section-number">01</p>
+            <div>
+              <h2 id="content-input-title">저장 콘텐츠 선택</h2>
+              <p>사회·과학 P0와 인접 일반 방송의 실제 EBS 메타데이터를 불러옵니다.</p>
+            </div>
+          </div>
+
+          <form id="mapping-form" class="content-form" novalidate>
+            <label for="content-select">
+              콘텐츠
+              <select id="content-select" name="contentCuriId" disabled required>
+                <option value="">콘텐츠 목록을 불러오는 중입니다.</option>
+              </select>
+            </label>
+
+            <label for="curriculum-subject">
+              교육과정 후보 교과
+              <select id="curriculum-subject" name="curriculumSubject" disabled required>
+                <option value="">콘텐츠를 먼저 선택하세요.</option>
+                <option value="사회">사회</option>
+                <option value="과학">과학</option>
+              </select>
+            </label>
+            <label for="curriculum-grade">연계할 학교급·과정<select id="curriculum-grade" name="curriculumGradeBand"><option value="초등 3~4학년군">초등 3~4학년군</option><option value="초등 5~6학년군" selected>초등 5~6학년군</option><option value="중학교 1학년">중학교 1학년 · EBS 편성 참고</option></select></label><p class="source-note">선택한 과정의 공식 기준을 조회합니다. 방송 자체의 학년 적합성·사람 확인 여부와는 별도입니다.</p><p id="curriculum-subject-note" class="source-note">
+              일반 방송은 원본 분류를 확인한 뒤 사회 또는 과학 공식 기준 범위를 사람이 선택합니다.
+            </p>
+
+            <label for="public-text">
+              공개 EBS 텍스트
+              <textarea
+                id="public-text"
+                name="publicText"
+                rows="5"
+                minlength="20"
+                maxlength="1200"
+                placeholder="EBS 공개 원문에서 확인한 콘텐츠 소개 또는 단원차시 텍스트를 입력합니다."
+                required
+              ></textarea>
+            </label>
+
+            <label for="public-text-source-url">
+              공개 텍스트 EBS 원문 URL
+              <input
+                id="public-text-source-url"
+                name="publicTextSourceUrl"
+                type="url"
+                placeholder="https://primary.ebs.co.kr/..."
+                required
+              >
+            </label>
+
+            <label class="confirmation-label" for="public-text-confirmed">
+              <input id="public-text-confirmed" type="checkbox">
+              입력한 텍스트가 선택한 콘텐츠의 공개 EBS 원문과 일치함을 직접 확인했습니다.
+            </label>
+            <p class="source-note">저장된 소개문·출처를 바꿨다면 원문 확인이 필요합니다. URL의 내용을 자동으로 가져오지 않습니다.</p>
+
+            <div class="form-actions">
+              <button id="candidate-submit" class="secondary-button" type="button" disabled>
+                공식 후보 확인
+              </button>
+              <button id="mapping-submit" type="submit" disabled>AI 연계 초안 생성</button>
+            </div>
+          </form>
+
+          <article id="content-preview" class="content-preview is-empty" aria-live="polite">
+            <p class="card-label">선택된 콘텐츠</p>
+            <p>콘텐츠를 선택하면 실제 저장 메타데이터를 표시합니다.</p>
+          </article>
+        </section>
+
+        <section class="panel result-panel" aria-labelledby="candidate-title">
+          <div class="section-heading">
+            <p class="section-number">02</p>
+            <div>
+              <h2 id="candidate-title">공식 성취기준 후보</h2>
+              <p>사회·과학 공식 목록만 후보로 사용합니다. 일반 방송은 학년 범위를, 환경·사회경제 방송은 교과 분류를 사람이 확인합니다.</p>
+            </div>
+          </div>
+
+          <div id="candidate-status" class="result-status" role="status" aria-live="polite">
+            <span class="status-dot" aria-hidden="true"></span>
+            콘텐츠와 공개 텍스트를 확인한 뒤 공식 후보를 확인하세요.
+          </div>
+
+          <div id="candidate-results" class="candidate-results" aria-live="polite"></div>
+
+          <p class="source-note">
+            후보 반환은 공식 목록 제약 확인용이며, 교육과정 의미 정확도·최종 승인을 뜻하지 않습니다. AI가 후보를 제시한 뒤 보류하면 검수 화면에서 사람 수정으로 확인할 수 있습니다.
+          </p>
+        </section>
+      </div>
+
+      <section class="panel mapping-panel" aria-labelledby="mapping-title">
+        <div class="section-heading">
+          <p class="section-number">03</p>
+          <div>
+            <h2 id="mapping-title">검수 전 AI 연계 초안</h2>
+            <p>초안과 호출 기록은 남기지만, 사람 검수 전에는 승인·저장·검색에 사용하지 않습니다.</p>
+          </div>
+        </div>
+
+        <div id="mapping-status" class="result-status" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          AI 연계 초안을 생성할 준비가 되었습니다.
+        </div>
+
+        <p id="retry-status" class="source-note" role="status">
+          콘텐츠별 24시간 내 최대 3회 실행합니다. 자동 재시도는 없으며, 같은 입력의 최근 성공 결과는 재사용합니다.
+        </p>
+        <div id="mapping-result" class="mapping-result" aria-live="polite">
+          <p class="empty-result">콘텐츠를 선택하면 해당 콘텐츠의 최근 검수 전 초안을 확인합니다.</p>
+        </div>
+
+        <a id="review-link" class="review-link" href="/review.html" aria-disabled="true">
+          검수 화면에서 연계 결과 확인
+        </a>
+        <p id="review-link-note" class="review-link-note">
+          콘텐츠를 선택하면 해당 콘텐츠의 검수 화면을 열 수 있습니다.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

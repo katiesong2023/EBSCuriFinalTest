@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-10-02T06:54:05.077589+00:00",
+  "results": [
+    {
+      "command": "node server/review-actions-check.js",
+      "exitCode": 0,
+      "output": "review checks passed (decisions, official list, conflicts, history, original preservation, write failure)\nreview UI checks passed (confirmation, edit, duplicate submit, reload, failed draft)\nreview route checks passed (options, decisions, conflict, invalid input, write failure)"
+    },
+    {
+      "command": "node server/verified-save-check.js",
+      "exitCode": 0,
+      "output": "verified UI/API checks passed (save, reload, repeat, shared lock, stale tab, exclusion, load failure)\nverified save checks passed (Gate, atomic multi-relation save, retries, review invalidation, versions, restart, partial write/rename failure)"
+    },
+    {
+      "command": "node server/curimap-failures-check.js",
+      "exitCode": 0,
+      "output": "curimap UI checks passed (stale responses, duplicate submit, failure state)\ncurimap failure checks passed (isolated store, no API calls or keychain access)\ncurimap route checks passed (status codes, failure payload, shared write lock)"
+    },
+    {
+      "command": "node server/search-index-check.js",
+      "exitCode": 0,
+      "output": "search index API checks passed (GET/HEAD, stale input, RUNNING, shared write lock)\nsearch index UI checks passed (loading, duplicate click, failure, retry, usage, stale response)\nsearch index checks passed (atomic publish, cache retry, versions, exclusion, restart, invalid vectors, write failure, timeout)"
+    },
+    {
+      "command": "node server/natural-search-check.js",
+      "exitCode": 0,
+      "output": "search conditions passed (inference, explicit conflicts, ambiguity, school, input/config validation)\nsearch ranking passed (all matches, dedupe, threshold, dates, pages, cache, invalidation, concurrency, retry, no writes)\nsearch API passed (GET/HEAD, validation, method, no-store, no CuriMap calls)\nsearch UI passed (loading, results, safe text, pages, stale response, errors, empty, clarification)"
+    },
+    {
+      "command": "node server/source-links-check.js",
+      "exitCode": 0,
+      "output": "source link checks passed (exact clip/episode IDs, stale title/URL, unconfirmed fallback, safe query, direct-only filter, saved-link refresh)"
+    },
+    {
+      "report": "r07-workspace-check.json",
+      "result": {
+        "generatedAt": "2026-10-02T06:51:02.305Z",
+        "snapshotSha256": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+        "cases": [
+          {
+            "name": "주제 미정은 사회·과학 근거 방향만 제시하고 무관한 대표 후보를 채우지 않음",
+            "passed": true
+          },
+          {
+            "name": "우주 주제 요청→방향→대표 자료, 천문 근거와 프로그램 다양성",
+            "passed": true
+          },
+          {
+            "name": "같은 고정 자료에서 AND·OR·제외·프로그램·유형·링크 조건 보존",
+            "passed": true
+          },
+          {
+            "name": "시간·학년·장면은 경고 유지, 빈 결과·주제 오류·승인 필터 검증",
+            "passed": true
+          },
+          {
+            "name": "같은 제목 판본만 묶고 다른 회차·프로그램을 보존",
+            "passed": true
+          },
+          {
+            "name": "현재 승인 지문 적용과 원문 변경 후 표시·필터 무효화",
+            "passed": true
+          },
+          {
+            "name": "후보 부족 시 채우지 않음, 과학 비유와 극 배경을 대표 추천에서 제외",
+            "passed": true
+          },
+          {
+            "name": "필터별 개수·페이지·판본 수와 명시적 전체 목록",
+            "passed": true
+          }
+        ],
+        "examples": [
+          {
+            "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+            "directions": [
+              {
+                "id": "space-planets",
+                "label": "행성과 태양계",
+                "parent": "space",
+                "terms": [
+                  "행성",
+                  "태양계",
+                  "자전",
+                  "공전"
+                ],
+                "description": "행성의 특징과 자전·공전 같은 움직임에 주목합니다. 지구와 다른 행성을 비교하며 태양계를 이루는 천체를 이해하는 방향입니다.",
+                "question": "행성마다 하루와 일 년의 길이가 다른 이유는 무엇일까요?",
+                "count": 17,
+                "example": {
+                  "id": "BCAST-012ead6030a246fe0eeb",
+                  "title": "딱 하루만",
+                  "field": "summary",
+                  "quote": "행성",
+                  "excerpt": "만 마음 편하게 쉬고 싶은데 어떤 기준으로 하루냐고? 행성의 하루는 행성들이 자전과 공전을 동시에 하기 때문에 태양일과 항성일로 나뉜다고 한다. 이왕 쉬는거 오래 푹 쉬고 싶다면 우린 어떤 행성으로 가야할까?"
+                }
+              },
+              {
+                "id": "space-explore",
+                "label": "우주를 탐사하는 방법",
+                "parent": "space",
+                "terms": [
+                  "탐사",
+                  "우주선",
+                  "망원경"
+                ],
+                "description": "망원경으로 관측하거나 탐사선을 보내는 방법에 주목합니다. 멀리 있는 우주에 대해 어떤 정보를 얻고, 무엇을 알아낼 수 있는지 살펴보는 방향입니다.",
+                "question": "직접 가기 어려운 우주를 어떻게 알아볼 수 있을까요?",
+                "count": 3,
+                "example": {
+                  "id": "BCAST-d8d2298f82c6061f9fa1",
+                  "title": "그의 이름은 134340 Pluto",
+                  "field": "summary",
+                  "quote": "탐사",
+                  "excerpt": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ..."
+                }
+              },
+              {
+                "id": "space-environment",
+                "label": "우주 개발과 환경",
+                "parent": "space",
+                "terms": [
+                  "우주 쓰레기",
+                  "우주쓰레기",
+                  "인공위성"
+                ],
+                "description": "인공위성 등 우주 개발의 이점과 우주 쓰레기 문제를 함께 살펴봅니다. 우주를 이용할 때 필요한 책임과 공동의 규칙을 생각해 보는 방향입니다.",
+                "question": "우주를 계속 이용하려면 어떤 약속이 필요할까요?",
+                "count": 3,
+                "example": {
+                  "id": "BCAST-98b56fa27d0b607fa585",
+                  "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+                  "field": "title",
+                  "quote": "우주 쓰레기",
+                  "excerpt": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?"
+                }
+              }
+            ],
+            "representatives": [
+              {
+                "id": "BCAST-012ead6030a246fe0eeb",
+                "title": "딱 하루만",
+                "program": "지식채널e",
+                "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 다른 프로그램과 비교할 자료 · 소개문 근거 보유"
+              },
+              {
+                "id": "BCAST-98b56fa27d0b607fa585",
+                "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+                "program": "지식채널e",
+                "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 같은 프로그램의 다른 자료 · 소개문 근거 보유"
+              },
+              {
+                "id": "BCAST-d8d2298f82c6061f9fa1",
+                "title": "그의 이름은 134340 Pluto",
+                "program": "지식채널e",
+                "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 같은 프로그램의 다른 자료 · 소개문 근거 보유"
+              },
+              {
+                "id": "BCAST-b5a6cb02e4c98e426800",
+                "title": "소행성이 온다",
+                "program": "과학 다큐 비욘드",
+                "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 다른 프로그램과 비교할 자료 · 소개문 근거 보유"
+              }
+            ]
+          }
+        ],
+        "protectedHashes": {
+          "server/data/curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+          "server/data/broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106"
+        },
+        "storesUnchanged": true,
+        "networkAttempts": 0,
+        "paidApiCalls": 0,
+        "limits": "개발용 기능·근거 경계 검사이며 실제 교사 평가·최종 검색 품질 검증이 아니다."
+      }
+    },
+    {
+      "report": "semantic-check.json",
+      "result": {
+        "generatedAt": "2026-10-02T06:51:03.194Z",
+        "ruleVersion": "2026-09-30.2",
+        "cases": [
+          {
+            "name": "근거 위치·구절·출처는 원문과 일치",
+            "passed": true
+          },
+          {
+            "name": "제목만 있는 자료에 소개문 근거를 생성하지 않음",
+            "passed": true
+          },
+          {
+            "name": "프로그램명·추측 메타데이터로 주제 태그를 만들지 않음",
+            "passed": true
+          },
+          {
+            "name": "활용해·빛나는 부분 일치 오탐 방지",
+            "passed": true
+          },
+          {
+            "name": "동의어·띄어쓰기·조사 해석",
+            "passed": true
+          },
+          {
+            "name": "개발 예문과 다른 자연어 문장",
+            "passed": true
+          },
+          {
+            "name": "복수 주제 AND는 같은 자료의 원문 근거 필요",
+            "passed": true
+          },
+          {
+            "name": "또는 OR 해석",
+            "passed": true
+          },
+          {
+            "name": "복합 개념 내부 단어를 별도 AND 조건으로 중복 해석하지 않음",
+            "passed": true
+          },
+          {
+            "name": "제외어를 결과에도 적용",
+            "passed": true
+          },
+          {
+            "name": "알려지지 않은 이름·조건은 검색어로 보존",
+            "passed": true
+          },
+          {
+            "name": "시간·자막·학년·무료 조건을 충족했다고 주장하지 않음",
+            "passed": true
+          },
+          {
+            "name": "관계·비교·장르 요청의 확인 한계 표시",
+            "passed": true
+          },
+          {
+            "name": "상위 개념 추론 후보를 직접 원문 일치로 승격하지 않음",
+            "passed": true
+          },
+          {
+            "name": "원문 변경은 내용 지문과 태그를 갱신",
+            "passed": true
+          },
+          {
+            "name": "카탈로그 스냅샷 캐시 재사용·다음 스냅샷 분리",
+            "passed": true
+          },
+          {
+            "name": "추론용 컨텍스트 크기·개수 상한과 출처 보존",
+            "passed": true
+          },
+          {
+            "name": "빈 검색 결과의 컨텍스트에 가짜 자료 없음",
+            "passed": true
+          },
+          {
+            "name": "승인·재생 상태는 검색 후에도 미판정",
+            "passed": true
+          }
+        ],
+        "passed": 19,
+        "networkAttempts": 0,
+        "paidApiCalls": 0,
+        "note": "고정 원문 기반 계약 검사. 실데이터 정답률 및 교육적 적합성 평가와 별도."
+      }
+    }
+  ]
+}

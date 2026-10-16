@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-10-04T05:44:07.019Z",
+  "cases": [
+    {
+      "name": "관리 화면 직접 접근·인코딩·중복 슬래시 우회 차단",
+      "passed": true
+    },
+    {
+      "name": "모든 관리 API GET·HEAD·쓰기 미인증 401",
+      "passed": true
+    },
+    {
+      "name": "교사 화면과 탐색은 로그인 없이 제공",
+      "passed": true
+    },
+    {
+      "name": "쿠키 속성·잘못된 코드·외부 Origin·Host·출처 없는 쓰기 차단",
+      "passed": true
+    },
+    {
+      "name": "관리 자료 수·원문 불일치·검수 대기·상태 필터·페이지",
+      "passed": true
+    },
+    {
+      "name": "미선택 검수·연계는 목록으로 이동, 유료 초안은 차단",
+      "passed": true
+    },
+    {
+      "name": "로그아웃은 서버 세션을 폐기",
+      "passed": true
+    },
+    {
+      "name": "운영 환경 설정 누락·약한 코드 거절",
+      "passed": true
+    },
+    {
+      "name": "세션 만료·로그인 시도 제한·운영 Secure 쿠키",
+      "passed": true
+    },
+    {
+      "name": "방송 가져오기 후 중복·원문 변경·비활성 검색 반영",
+      "passed": true
+    },
+    {
+      "name": "원문 변경·제외 후 관리 상태는 현재 Gate와 함께 무효화",
+      "passed": true
+    },
+    {
+      "name": "승인 JSON·방송 DB·시맨틱 DB 해시 불변",
+      "passed": true
+    }
+  ],
+  "browserCases": [
+    {
+      "name": "직접 검수 접근→로그인→미선택 목록 복귀",
+      "passed": true
+    },
+    {
+      "name": "목록→원문·태그→CuriMap→검수→관리 목록",
+      "passed": true
+    },
+    {
+      "name": "상태 필터·빈 목록·검색·상세 URL 재접속",
+      "passed": true
+    },
+    {
+      "name": "방송 선택→가져오기 입력만 준비·자동 저장 없음",
+      "passed": true
+    },
+    {
+      "name": "조회 실패→재시도·잘못된 자료→목록 복귀",
+      "passed": true
+    },
+    {
+      "name": "데스크톱·모바일 표시·교사 폴더 불변·로그아웃",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "dataHashes": {
+    "server/data/curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "server/data/broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "server/data/semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "dataUnchanged": true,
+  "paidApiCalls": 0
+}

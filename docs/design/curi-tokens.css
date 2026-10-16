@@ -1,0 +1,47 @@
+:root {
+  --curi-canvas: #FAFAF8;
+  --curi-surface: #FFFFFF;
+  --curi-surfaceMuted: #F2F3F0;
+  --curi-ink: #202523;
+  --curi-muted: #626963;
+  --curi-line: #E1E4DE;
+  --curi-controlBorder: #849087;
+  --curi-primary: #1E5843;
+  --curi-primaryHover: #164534;
+  --curi-primarySoft: #E7EFE9;
+  --curi-focus: #266EAA;
+  --curi-warning: #8C6114;
+  --curi-warningSoft: #FFF4DF;
+  --curi-error: #A33A35;
+  --curi-errorSoft: #FBEAE7;
+  --curi-font-size-body: 16px;
+  --curi-font-size-compact: 14px;
+  --curi-font-size-meta: 13px;
+  --curi-line-height-body: 1.6;
+  --curi-control-min: 44px;
+  --curi-web-max: 1240px;
+  --curi-extension-width: 360px;
+  --curi-font: Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --curi-space-4: 4px;
+  --curi-space-8: 8px;
+  --curi-space-12: 12px;
+  --curi-space-16: 16px;
+  --curi-space-20: 20px;
+  --curi-space-24: 24px;
+  --curi-space-32: 32px;
+  --curi-space-48: 48px;
+  --curi-space-64: 64px;
+  --curi-radius-control: 8px;
+  --curi-radius-panel: 12px;
+  --curi-radius-media: 8px;
+  --curi-radius-pill: 999px;
+  --curi-shadow-panel: 0 16px 48px rgba(32,37,35,.12);
+  --curi-shadow-popup: 0 4px 16px rgba(32,37,35,.08);
+  --curi-motion-fast: 120ms;
+  --curi-motion-disclosure: 180ms;
+  --curi-motion-panel: 240ms;
+  --curi-ease: cubic-bezier(.2,.8,.2,1);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --curi-motion-fast: 0ms; --curi-motion-disclosure: 0ms; --curi-motion-panel: 0ms; }
+}

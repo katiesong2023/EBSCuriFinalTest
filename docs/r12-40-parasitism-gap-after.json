@@ -1,0 +1,172 @@
+{
+  "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+  "total": 6,
+  "status": "ALL_CONDITIONS_SUPPORTED",
+  "requirements": [
+    {
+      "anchors": [
+        0
+      ],
+      "meaning": "생태계에서 다양한 생물 사이의 관계를 보여준다.",
+      "kind": "content"
+    },
+    {
+      "anchors": [
+        1
+      ],
+      "meaning": "다큐멘터리 형식이다.",
+      "kind": "format"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "BLIND_QUERY_CONTRACT",
+      "model": "gpt-6-luna"
+    },
+    {
+      "stage": "ANCHORED_CONDITION_SOURCE_REVIEW",
+      "model": "gpt-6-luna"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "BCAST-01bb5774b712efe912db",
+      "title": "자연다큐 죽음 1부 생명에서 생명으로",
+      "states": [
+        "partial",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-386650585bd5c99e533c",
+      "title": "비밀의 왕국 2부 위험한 동거",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-b35d0be0fa6ebdb063ed",
+      "title": "기생 1부 - 보이지 않는 손",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-15fd00a3f3bb3a86637d",
+      "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+      "states": [
+        "partial",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-cd0c078e7a1571114665",
+      "title": "곤충 밀리미터의 세계 1부 위대한 생존 전략",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-52add5515810a0979368",
+      "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-fdebb738780220746825",
+      "title": "벌레의 침공 해충이 몰려온다",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-1b0470c1dd1731e9818a",
+      "title": "베이비부머, 은퇴 없는 세대",
+      "states": [
+        "unknown",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-f68b5843dfa3b2d3c1d7",
+      "title": "다큐프라임 <모멘트> 1부 영원과 순간의 사이",
+      "states": [
+        "partial",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-cf6767d667fe2fb14a5a",
+      "title": "습지 생명을 품다",
+      "states": [
+        "yes",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-e28b77d1e4dcd1601d60",
+      "title": "연애기계 - 2부",
+      "states": [
+        "partial",
+        "yes"
+      ]
+    },
+    {
+      "id": "BCAST-080c44c8881ce2f4bdc0",
+      "title": "조용한 포식자! 벌레잡이 식물",
+      "states": [
+        "partial",
+        "yes"
+      ]
+    }
+  ],
+  "parasitismResources": [
+    {
+      "id": "DP-60055761",
+      "kind": "collection",
+      "title": "생명의 전략, 기생",
+      "summary": "기생충학자들은 지구의 생물 종 중 적어도 절반이 기생생물이라고 이야기한다. 어떤 면에서 기생은 가장 효율적인 생존전략인지도 모른다. 그러나 이 효율적 생존전략을 완성시키는 핵심은 기생체 내의 공생미생물이다. 단세포 생물 둘이 결합해 하나가 되던, 진핵생물 탄생의 그 순간에서부터 지구상의 모든 생명은 공생이라는 과정을 통해 만들어지고 발전해왔다. 인간을 비롯해 지금 우린 눈에 보이는 모든 생명체는 하나의 숙주와 수많은 공생미생물로 이루어진 통합의 유기체, 전생물체다. 우리는 모두 공생의 역사적 결과물이며 현재의 삶 역시 다양한 공생의 관계 속에서 진행되고 있다. 사고를 좀 더 확대해보면 우리가 살아가는 지구 또한 수많은 생명이 서로 관계를 맺으며 살아가는 전생물체라고 할 수 있을 것이다. 그렇다면, 기생과 공생의 생존전략을 이해하는 것은 왜 중요할까? 통합의 유기체라는 생명의 본질을 이해하면 생명 간의 균형과 조화가 왜 중요한지, 생태계의 건강과 안녕을 위해 우리가 무엇을 하고 무엇을 하지 말아야 할지 명확해진다. 한 번 깨진 균형을 되돌리는 데는 수많은 노력과 시간이 필요하다. 엄청난 노력에도 불구하고 복구가 불가능할 수도 있다. 과거에 서로 떨어져 살아가던 시절에는 아무 문제없던 다양한 관습들이 지나치게 밀접해진 현대세계에서는 치명적인 결과를 초래할 수도 있다는 사실을 이번 코로나19 팬데믹 사태에서 우리는 확실히 알았다. 분명한 사실은, 우리가 지금 지구 생태계의 균형을 되돌릴 기회의 마지막 시점에 서 있다는 사실이다.",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055761",
+      "candidateFound": false
+    },
+    {
+      "id": "DP-60055952",
+      "kind": "collection",
+      "title": "기생",
+      "summary": "기생충이란 무엇일까. 어디서부터 어디까지가 기생충일까. 아주 먼 옛날 한 생물이 색다른 삶의 방식을 선택했다. 남의 몸속에 들어가 기생생활을 하기 시작한 것이다. 기생은 배고픔과 추위, 천적의 위협과 자연재해를 피할 수 있는 혁신적인 생존방식이었다. 기생생물이 번성하자 숙주가 되는 비기생생물은 자신의 몸을 지키기 위해 거센 반격을 시작했다. 이제 세상은 기생과 비기생 생물로 나뉘어 눈에 보이지 않는 경쟁을 시작하게 되었다. 기생충과 숙주 간의 끝없는 싸움, 이것을 우리는 진화의 역사라 부른다. 다큐멘타리 은 과학다큐와 자연다큐 그리고 휴먼다큐의 중간쯤에 서있는 프로그램이다. 기생충이라는 극소형 생물체를 다루기 위해 과학적인 접근이 필요했고, 우리가 몰랐던 지구 생태계의 비밀과 역사를 뒤지는 눈이 필요했으며, 그것은 결국 사람의 이야기이고 사람의 역사였다는 사실을 말하는 내용이기 때문이다. 이 프로그램에는 수많은 기생충과 숙주가 등장하고 수많은 역사적 사실과 현재의 이야기가 나오지만 우리의 결론은 하나다. 기생충과 숙주는 결국 서로를 필요로 하는 진화의 동반자라는 사실. 기생충을 더러운 버러지쯤으로 치부하던 우리의 인식은 이제 바뀌어야 할 것이다. 중요한 것은 기생충은 박멸의 대상이 아니라 꼭 필요한 진화의 파트너라는 사실이다.",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055952",
+      "candidateFound": false
+    },
+    {
+      "id": "BCAST-d66dfffeafe7eaaeb2bd",
+      "kind": "episode",
+      "title": "<생명의 전략, 기생> 제2부 - 적과의 동행",
+      "summary": "전 세계에 퍼져 있는 모기, 이들이 준 피해는 어마어마하다. 인류는 모기를 통제하기 위해 노력해왔다. 과연 인류는 이 강력한 적과의 동행을 끊어낼 수 있을까?",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60316750",
+      "candidateFound": false
+    },
+    {
+      "id": "BCAST-d346f3468d29c4e74ee2",
+      "kind": "episode",
+      "title": "<생명의 전략, 기생> 제3부 - 나는 우리다",
+      "summary": "지구의 모든 생명은 함께 살아가고 함께가 아니라면 생명을 존속할 수 없다. 그 과정에서는 균형이 중요하지만, 그 균형을 깨뜨리는 것 또한 사람이다. 이제는 서로 분리되어 살던 과거처럼 살수 없다.",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60317196",
+      "candidateFound": false
+    },
+    {
+      "id": "BCAST-52add5515810a0979368",
+      "kind": "episode",
+      "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+      "summary": "인간의 입장에서가 아니라 기생생물, 바이러스의 입장에서 고찰한 기생생물의 생존방식을 고찰하는 다큐멘터리",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60315447",
+      "candidateFound": true
+    }
+  ],
+  "paidCalls": 0
+}

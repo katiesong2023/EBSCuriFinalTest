@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-10T14:49:02.338Z",
+  "method": "CUA Chrome 실제 화면·DOM",
+  "origin": "http://127.0.0.1:3319",
+  "cases": [
+    {
+      "name": "교사 교육과정 화면 전체214 로딩·중1 과학26개 목록",
+      "passed": true
+    },
+    {
+      "name": "9과07-03 공식1~3학년군과 중1 EBS참고·학교편성미확인·규칙미지원 분리",
+      "passed": true
+    },
+    {
+      "name": "후보 내자료 담기→검증용 폴더→중1선택→새로고침 이후 선택기준과문맥보존",
+      "passed": true
+    },
+    {
+      "name": "폴더 내려받기 후 최신정보확인 완료 메시지",
+      "passed": true,
+      "note": "브라우저 다운로드 완료 안내를 확인. 다운로드 이벤트 도구 대기는 시간초과했고 파일본문은 VM 내보내기 계약검사로 별도 검증."
+    },
+    {
+      "name": "관리자 교육과정 직접접근 로그인 경계·선택한 URL복원",
+      "passed": true
+    },
+    {
+      "name": "관리자 여섯구간 구조검사/의미판정/실제사람결정/현재승인 분리",
+      "passed": true
+    },
+    {
+      "name": "교육과정→관리자 상세 중1·과학교과 유지",
+      "passed": true
+    },
+    {
+      "name": "관리자 상세 선택기준9과07-03 유지와 실제 중1 미리보기: 후보1·구조통과·의미미지원·공개0",
+      "passed": true,
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "persisted": false
+    }
+  ],
+  "productionWrites": 0,
+  "paidApiCalls": 0,
+  "humanDecisions": 0,
+  "notes": [
+    "검증 포트의 브라우저 개인 폴더1개만 생성했다. 실제 저장소에 자동/사람 결정을 쓰지 않았다.",
+    "모든 여섯구간 데이터·검색 경계는 grade-discovery/evidence/search/legacy-review 계약검사에서 별도 대조했다."
+  ]
+}

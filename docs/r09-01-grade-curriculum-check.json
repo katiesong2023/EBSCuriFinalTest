@@ -1,0 +1,215 @@
+{
+  "checkedAt": "2026-10-10T14:45:38.424Z",
+  "cases": [
+    {
+      "name": "공식136 기준을 원문 지문·실제 PDF 판본과 대조",
+      "passed": true
+    },
+    {
+      "name": "초등3~4 사회22·과학51과 중1 사회37·과학26을 구별",
+      "passed": true
+    },
+    {
+      "name": "중학 공식1~3학년군과 중1 참고 편성은 별도 필드",
+      "passed": true
+    },
+    {
+      "name": "EBS 뉴런 교재·강좌19 편성과 단원·강의 범위가 일치",
+      "passed": true
+    },
+    {
+      "name": "중복 성취기준 ID를 거절",
+      "passed": true
+    },
+    {
+      "name": "CURI ID와 성취기준 ID 불일치를 거절",
+      "passed": true
+    },
+    {
+      "name": "원본 성취기준 ID 연결 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "성취기준 본문 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "원문 지문 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "허용 공식 PDF 밖의 경로를 거절",
+      "passed": true
+    },
+    {
+      "name": "공식 문서 제목 연결 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "사회·과학 문서 교과 연결 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "성취기준의 문서 지문 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "목록과 기준의 지문을 함께 바꿔도 실제 PDF 판본과 대조",
+      "passed": true
+    },
+    {
+      "name": "중1 편성 누락을 거절",
+      "passed": true
+    },
+    {
+      "name": "중1 단원 편성 참조의 강의 구간 변조를 거절",
+      "passed": true
+    },
+    {
+      "name": "학교 편성 확정을 공식 출처 확인으로 대신하지 않음",
+      "passed": true
+    },
+    {
+      "name": "원문 확인 자료를 사람 승인 상태로 바꾸는 입력을 거절",
+      "passed": true
+    },
+    {
+      "name": "공식 학년군과 충돌하는 과정 ID를 거절",
+      "passed": true
+    },
+    {
+      "name": "첫 병합136 추가·전체214·기존78 원문과 승인4 완전 보존",
+      "passed": true
+    },
+    {
+      "name": "기존5~6 기준을 덮어쓰려는 병합은 거절",
+      "passed": true
+    },
+    {
+      "name": "두 번째 병합은 중복·변경 없이136 모두 재사용",
+      "passed": true
+    },
+    {
+      "name": "실제4 저장소·확장 원본·공식 PDF는 파일 해시까지 보존",
+      "passed": true
+    }
+  ],
+  "sourceVersion": "R09-01-20261010-v1",
+  "counts": {
+    "existing": 78,
+    "elementary34": {
+      "사회": 22,
+      "과학": 51
+    },
+    "middle1": {
+      "사회": 37,
+      "과학": 26
+    },
+    "added": 136,
+    "merged": 214,
+    "referencePlacements": 19
+  },
+  "firstMerge": {
+    "created": 136,
+    "updated": 0,
+    "unchanged": 0,
+    "total": 214
+  },
+  "secondMerge": {
+    "created": 0,
+    "updated": 0,
+    "unchanged": 136,
+    "total": 214
+  },
+  "preservedFields": {
+    "schemaVersion": {
+      "count": null,
+      "sha256": "6f53351a53a43518b8e07f4d4d739e641c63217bcd1b06d22c5cec0767b6ee19"
+    },
+    "createdAt": {
+      "count": null,
+      "sha256": "be86e3835497bcfe5106da1b6e5fe02a0c7ae629b6e675f16010a2fa6f06976d"
+    },
+    "updatedAt": {
+      "count": null,
+      "sha256": "1bc0b4f87ffd9ff559e14a417e487a5071bde72521ed990637a0fd359de6ef0d"
+    },
+    "contents": {
+      "count": 144,
+      "sha256": "21ebdbdf4a3f2b7101ee17e579a9031114adc1577def50f1ba153dc14518610c"
+    },
+    "contentCurriculumMaps": {
+      "count": 6,
+      "sha256": "4efe8962ed75d98e49d9c31d26b13f5de7161b0e7c804696fe163a7a8a8f0f8a"
+    },
+    "officialEvidenceChecks": {
+      "count": 78,
+      "sha256": "50ebd9250816b4d504d23ec77b01e3f3f801ab1dcf7fe1101fe33482d2954461"
+    },
+    "functionalVerificationRuns": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "verifiedAssets": {
+      "count": 4,
+      "sha256": "228a00e49ce921be4fd15b62890d5d3b1091d9a3f0a9ac472f025de86e2d3b7f"
+    },
+    "searchProjection": {
+      "count": 4,
+      "sha256": "25410df78b0a4eb115328b3d62239a248f8c42647f8010f6a92ec31d3f4b944d"
+    },
+    "mappingContract": {
+      "count": null,
+      "sha256": "66e05a3c1db610c8974a05e052d882ed178c76d83ffe46f830751cecae893a36"
+    },
+    "assetBoundaries": {
+      "count": null,
+      "sha256": "29b50a0f4ee86736499c4f504d43cede56664e3d1414fbcf17839391a1715518"
+    },
+    "lastSeed": {
+      "count": null,
+      "sha256": "b06214b9583c1bd09e38c36e44afc9b7497e10f1771d2a245cee67cedfed688c"
+    },
+    "ingestionRuns": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "lastIngestion": {
+      "count": null,
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    "mappingRuns": {
+      "count": 14,
+      "sha256": "939c1ee3405b54a3f4da37b41200764da91dffdc6f61c729bc899816f86d52b6"
+    },
+    "verifiedAssetHistory": {
+      "count": 2,
+      "sha256": "f454395a4d8ab6c2d0ffb0bfdfa0b76ecac6c02273e896a5daac5e11c982feb7"
+    },
+    "searchIndexRuns": {
+      "count": 4,
+      "sha256": "fbd3525aec5b4ce19fcc3917e2d0da627e4e8a26d1640fd6e98fd726cde0d7c1"
+    },
+    "embeddingCache": {
+      "count": 4,
+      "sha256": "6687a4d69405aece6b7451a43434c77c6c2f865ae6f8df8ce915623d503c9856"
+    },
+    "curriculumExpansion": {
+      "count": null,
+      "sha256": "ba396466109764e7af44b9f62027f357b7eaaa618b1225b20f1dc4bdcf078025"
+    }
+  },
+  "protectedHashes": {
+    "server/data/curi-store.json": "9ec9d3161d28e1aca844e013561b6c53df83b45e63f74077f9be2b140031716b",
+    "server/data/broadcast-catalog.sqlite": "153807f71a0e819a6792d474947fef8f472a66ee1de221939fe36240b71e547b",
+    "server/data/semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "server/data/automatic-assets.sqlite": "d5e523f0bb88f362890c380c7107916e51f92e3d1b42b697ea3b458b1532800a",
+    "server/data/curriculum-expansion.json": "9e0859635e55a497bdbdfa3e3ca2252c8d628bcbf7ddbf22189cb55d4ddf3089",
+    "[별책7] 사회과 교육과정.pdf": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+    "[별책9] 과학과 교육과정.pdf": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738"
+  },
+  "scope": "현재 저장소의 기존5~6 기준78을 메모리 기준으로 구성한 통합 전후 재현 시험. 실제 저장소·성취기준·PDF 파일 쓰기 없음.",
+  "sourceFilesMutated": false,
+  "storageFilesMutated": false,
+  "paidApiCalls": 0
+}

@@ -1,0 +1,33 @@
+/* C 매거진 사이드 패널 — 가변 폭, 카드/필 선택과 기존 초안 유지. */
+.curi-c-panel {padding:0 16px 88px;font:400 14px/20px var(--curi-font);background:var(--curi-canvas)}
+.curi-c-panel .popup-header {margin:0 -16px 16px;padding:12px 16px;background:var(--curi-canvas);min-height:64px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--curi-line)}
+.curi-c-panel .popup-header .wordmark {width:72px;height:36px}.curi-c-panel .popup-header h1 {display:none}
+.curi-c-panel .popup-header .magazine-search-chip {min-height:36px;padding:6px 10px;margin-left:auto}
+.curi-c-panel #close-panel {min-width:36px;min-height:36px;width:36px;height:36px;border:0;padding:0;font-size:20px}
+.curi-c-panel .popup-header #connection-state {font-size:12px;color:var(--curi-ink);font-weight:500}.curi-c-panel #connection-state::first-letter {color:var(--curi-green)}.curi-c-panel #connection-state.is-error::first-letter {color:var(--curi-coral)}
+.curi-c-panel section {padding:16px 0;border:0}.curi-c-panel h2,.curi-c-panel .video-heading-row h2 {font-size:16px;line-height:24px;font-weight:700;margin-bottom:12px}.curi-c-panel .video-heading-row h2 {margin:0}
+.curi-c-panel .current-video {background:white;border-radius:16px;padding:10px;margin:16px 0}
+.curi-c-panel .video-choice {display:block;min-width:0;width:100%;padding:10px;text-align:left;background:white;border:1px solid transparent;border-radius:16px;font-size:16px;line-height:24px;font-weight:700}
+.curi-c-panel .video-choice:hover {background:var(--curi-canvas);color:var(--curi-ink)}.curi-c-panel .video-choice[aria-pressed=true] {border-color:var(--curi-ink);padding:10px}
+.curi-c-panel .video-thumb {display:flex;width:100%;aspect-ratio:16/9;margin-bottom:12px;position:relative;border-radius:10px;background:var(--curi-coral);font:700 18px var(--curi-font-latin)}
+.curi-c-panel .video-thumb img {width:100%;height:100%;object-fit:cover}.curi-c-panel .play-position {border-radius:999px;background:var(--curi-ink);color:var(--curi-canvas)}
+.curi-c-panel #folder-cards {display:flex;flex-wrap:wrap;gap:8px;padding:4px}
+.curi-c-panel .mini-folder {display:flex;align-items:center;gap:6px;min-height:44px;min-width:0;padding:10px 16px;border:1px solid var(--curi-ink);border-radius:999px;background:transparent;color:var(--curi-ink);isolation:auto}
+.curi-c-panel .mini-folder::before,.curi-c-panel .mini-folder::after {display:none}
+.curi-c-panel .mini-folder strong,.curi-c-panel .mini-folder small {font-size:14px;line-height:20px;font-weight:500;color:inherit}
+.curi-c-panel .mini-folder small::before {content:'· ';}.curi-c-panel .mini-folder[aria-pressed=true] {background:var(--curi-ink);color:var(--curi-canvas);border-color:var(--curi-ink);box-shadow:none}
+.curi-c-panel .mini-folder:hover:not(:disabled) {background:var(--curi-sun);color:var(--curi-ink)}
+.curi-c-panel .import-tabs {border:1px solid var(--curi-ink);border-radius:999px;background:transparent;padding:4px;gap:4px}
+.curi-c-panel .import-tabs button {border:0;border-radius:999px;min-height:36px;background:transparent;font-size:14px;padding:8px 12px}
+.curi-c-panel .import-tabs button[aria-selected=true] {background:var(--curi-ink);color:var(--curi-canvas);box-shadow:none}
+.curi-c-panel .times {grid-template-columns:minmax(0,1fr) auto;gap:8px}.curi-c-panel .times button {font-size:13px}
+.curi-c-panel #save {background:var(--curi-ink);color:var(--curi-canvas);border:0;min-height:48px;font-size:14px;border-radius:999px}
+.curi-c-panel #save:hover:not(:disabled) {background:var(--curi-coral);color:var(--curi-ink)}
+.curi-c-panel .folder-name-control input {min-height:56px;padding-right:84px}.curi-c-panel .folder-name-control button {top:6px;right:6px;min-height:44px;height:44px;padding:8px 12px}
+.curi-c-panel .small-poster {border-radius:14px;background:var(--curi-sun)}.curi-c-panel .scene-tab {border-radius:999px;background:var(--curi-ink);color:var(--curi-canvas);top:-10px}
+.curi-c-panel #status {background:var(--curi-surfaceMuted);color:var(--curi-ink);border:0;border-radius:16px;font-size:14px;line-height:20px}
+.curi-c-panel #scene-preview strong {font-size:16px;line-height:24px;font-weight:700}.curi-c-panel .help {font-size:14px;line-height:20px}
+.curi-c-panel .panel-settings {margin-block:12px}.curi-c-panel .panel-settings summary {min-height:36px}.curi-c-panel .panel-settings[open] {background:var(--curi-surfaceMuted);border-radius:16px}
+@media(max-width:340px) {.curi-c-panel .times {grid-template-columns:1fr}.curi-c-panel .popup-header {gap:6px}.curi-c-panel .popup-header #connection-state {font-size:11px}}
+.curi-c-panel .icon-button {width:44px;height:44px;min-width:44px;padding:10px;display:inline-flex;align-items:center;justify-content:center}
+.curi-c-panel .icon-button svg {flex-shrink:0}

@@ -1,0 +1,28 @@
+/* v1.1 레이아웃 위에 적용하는 밝은 화면용 B 참고 컬러. */
+.search-panel form #search-submit,#folder-picker-confirm,#save,
+.resource-card .card-actions button[data-folder-save] {
+  background:var(--curi-accent);color:var(--curi-ink);border-color:var(--curi-accent);box-shadow:none;
+}
+.search-panel form #search-submit:hover:not(:disabled),#folder-picker-confirm:hover:not(:disabled),
+#save:hover:not(:disabled),.resource-card .card-actions button[data-folder-save]:hover:not(:disabled) {
+  background:var(--curi-accentHover);color:var(--curi-ink);
+}
+.site-header nav a[aria-current=page],
+.library-views button[aria-current=true],.import-tabs button[aria-selected=true] {
+  background:var(--curi-selectionSoft);color:var(--curi-ink);box-shadow:inset 0 0 0 1px var(--curi-selection);
+}
+.kind-filters button[aria-pressed=true],.has-query .kind-filters button[aria-pressed=true] {
+  background:var(--curi-accent);color:var(--curi-ink);border-color:var(--curi-primary);
+}
+.subject-tag {background:var(--curi-sun);color:var(--curi-ink);border-color:transparent}
+.subject-tag[data-subject="사회"] {background:var(--curi-coral)}
+.subject-tag[data-subject="과학"] {background:var(--curi-lilac)}
+:where(button,a,input,textarea,select,summary):focus-visible {outline-color:var(--curi-focus)}
+#folder-label-colors button[aria-pressed=true] {border-color:var(--curi-selection);color:var(--curi-ink);background:var(--curi-selectionSoft)}
+.curi-toast::before {color:var(--curi-sun)}
+.popup-header #connection-state {color:var(--curi-primary)}
+
+/* 연결 상태는 응답 결과로 구분하며 브랜드색과 분리한다. */
+.popup-header #connection-state[data-state=connected] {color:#2D6A43}
+.popup-header #connection-state[data-state=connecting] {color:#A85D0A}
+.popup-header #connection-state[data-state=failed] {color:var(--curi-error)}

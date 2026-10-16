@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-15T23:28:43.104Z",
+  "before": {
+    "checkedAt": "2026-10-15T23:06:17.250Z",
+    "rows": [
+      {
+        "query": "자본주의",
+        "status": 200,
+        "total": 29,
+        "terms": [
+          "자본주"
+        ],
+        "topIds": [
+          "BCAST-70031dda2ba5a1736f9d",
+          "BCAST-46d8f3856b5a0301e85f",
+          "BCAST-0e751eca1951b2975093",
+          "BCAST-6fe01776ade36661a46a",
+          "BCAST-08d2a2f44f0a99caf661",
+          "BCAST-1cd1c2a730bcfda00dc8",
+          "BCAST-5ee5b04ea0b5c43c96c7",
+          "BCAST-553db99d599ed33ea1c1",
+          "BCAST-927c3bf6f79e890251e3"
+        ],
+        "retrieval": {
+          "keyword": true,
+          "semantic": "LOCAL_E5",
+          "elapsedMs": 0,
+          "externalApiCalls": 0
+        }
+      },
+      {
+        "query": "자본주의 초등학생 교육용 자료",
+        "status": 200,
+        "total": 0,
+        "terms": [
+          "자본주",
+          "초등학생",
+          "교육용"
+        ],
+        "topIds": [],
+        "retrieval": {
+          "keyword": true,
+          "semantic": "LOCAL_E5",
+          "elapsedMs": 0,
+          "externalApiCalls": 0
+        }
+      }
+    ]
+  },
+  "after": [
+    {
+      "query": "자본주의",
+      "status": 200,
+      "total": 29,
+      "terms": [
+        "자본주의"
+      ],
+      "emptyReason": null,
+      "topIds": [
+        "BCAST-3544eebc6cf4065becc9",
+        "BCAST-46d8f3856b5a0301e85f",
+        "BCAST-1cd1c2a730bcfda00dc8",
+        "BCAST-553db99d599ed33ea1c1",
+        "BCAST-927c3bf6f79e890251e3",
+        "BCAST-0a7e8a145d65a1381cc5",
+        "BCAST-70031dda2ba5a1736f9d",
+        "BCAST-0e751eca1951b2975093",
+        "BCAST-502fee2a816c6249ff8e"
+      ],
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 2206,
+        "externalApiCalls": 0
+      },
+      "projection": {
+        "version": "curi-context-projection-v1",
+        "originalQuery": "자본주의",
+        "contentQuery": "자본주의",
+        "contextClauses": [],
+        "conditionClauses": [],
+        "grammarSpans": [],
+        "origin": "LOCAL_EXPLICIT_CONTEXT",
+        "suitability": "UNCONFIRMED"
+      }
+    },
+    {
+      "query": "자본주의 초등학생 교육용 자료",
+      "status": 200,
+      "total": 29,
+      "terms": [
+        "자본주의"
+      ],
+      "emptyReason": null,
+      "topIds": [
+        "BCAST-3544eebc6cf4065becc9",
+        "BCAST-46d8f3856b5a0301e85f",
+        "BCAST-1cd1c2a730bcfda00dc8",
+        "BCAST-553db99d599ed33ea1c1",
+        "BCAST-927c3bf6f79e890251e3",
+        "BCAST-0a7e8a145d65a1381cc5",
+        "BCAST-70031dda2ba5a1736f9d",
+        "BCAST-0e751eca1951b2975093",
+        "BCAST-502fee2a816c6249ff8e"
+      ],
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 226,
+        "externalApiCalls": 0
+      },
+      "projection": {
+        "version": "curi-context-projection-v1",
+        "originalQuery": "자본주의 초등학생 교육용 자료",
+        "contentQuery": "자본주의            ",
+        "contextClauses": [
+          {
+            "id": "context2",
+            "kind": "audience",
+            "mode": "context",
+            "label": "초등학생",
+            "sourceSpans": [
+              {
+                "start": 5,
+                "end": 9,
+                "quote": "초등학생"
+              }
+            ]
+          },
+          {
+            "id": "context1",
+            "kind": "purpose",
+            "mode": "context",
+            "label": "교육용",
+            "sourceSpans": [
+              {
+                "start": 10,
+                "end": 13,
+                "quote": "교육용"
+              }
+            ]
+          }
+        ],
+        "conditionClauses": [],
+        "grammarSpans": [
+          {
+            "start": 14,
+            "end": 16,
+            "quote": "자료"
+          }
+        ],
+        "origin": "LOCAL_EXPLICIT_CONTEXT",
+        "suitability": "UNCONFIRMED"
+      }
+    },
+    {
+      "query": "초등학생 교육용 자료",
+      "status": 200,
+      "total": 0,
+      "terms": [],
+      "emptyReason": "TOPIC_REQUIRED",
+      "topIds": [],
+      "retrieval": {
+        "keyword": true,
+        "semantic": "NOT_REQUESTED",
+        "elapsedMs": 0,
+        "externalApiCalls": 0
+      },
+      "projection": {
+        "version": "curi-context-projection-v1",
+        "originalQuery": "초등학생 교육용 자료",
+        "contentQuery": "           ",
+        "contextClauses": [
+          {
+            "id": "context2",
+            "kind": "audience",
+            "mode": "context",
+            "label": "초등학생",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 4,
+                "quote": "초등학생"
+              }
+            ]
+          },
+          {
+            "id": "context1",
+            "kind": "purpose",
+            "mode": "context",
+            "label": "교육용",
+            "sourceSpans": [
+              {
+                "start": 5,
+                "end": 8,
+                "quote": "교육용"
+              }
+            ]
+          }
+        ],
+        "conditionClauses": [],
+        "grammarSpans": [
+          {
+            "start": 9,
+            "end": 11,
+            "quote": "자료"
+          }
+        ],
+        "origin": "LOCAL_EXPLICIT_CONTEXT",
+        "suitability": "UNCONFIRMED"
+      }
+    }
+  ],
+  "formalGrammar": {
+    "status": 200,
+    "total": 29,
+    "adopted": true,
+    "topIds": [
+      "BCAST-3544eebc6cf4065becc9",
+      "BCAST-46d8f3856b5a0301e85f",
+      "BCAST-1cd1c2a730bcfda00dc8",
+      "BCAST-553db99d599ed33ea1c1",
+      "BCAST-927c3bf6f79e890251e3",
+      "BCAST-0a7e8a145d65a1381cc5",
+      "BCAST-70031dda2ba5a1736f9d",
+      "BCAST-0e751eca1951b2975093",
+      "BCAST-502fee2a816c6249ff8e"
+    ],
+    "paidApiCalls": 0
+  },
+  "invariant": true,
+  "paidApiCalls": 0,
+  "scope": "실제 로컬 GET/구조화 POST 읽기 요청. 사용자 재현 요청과 기존 계약 문법 소유권 확인. 새 정확도 표본·실제 모델 실행·학년 적합성 평가 아님."
+}

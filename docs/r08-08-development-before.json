@@ -1,0 +1,115 @@
+[
+  {
+    "id": "synonym-election",
+    "standardId": "6사08-01",
+    "synopsis": "국민은 표를 던져 대표자를 뽑는다. 국민은 투표를 통해 주권을 행사한다.",
+    "assessment": {
+      "ruleId": "election-and-sovereignty",
+      "status": "PARTIAL",
+      "reason": "지원하는 명시적 설명을 소개문에서 확인했습니다. 전체 성취기준 충족은 미확인입니다.",
+      "supportedRequirements": [
+        {
+          "id": "sovereign-expression",
+          "text": "선거 참여와 시민 주권 행사의 연결"
+        }
+      ],
+      "connectedParts": [
+        "선거 참여와 시민 주권 행사의 연결"
+      ],
+      "unconfirmedParts": [
+        "시민이 투표로 대표를 뽑는 선거의 역할",
+        "학생이 선거의 의미·역할을 이해했는지",
+        "실제 선거 참여 태도와 수업 활용 적합성"
+      ],
+      "standardCoverage": "PARTIAL",
+      "evidence": [
+        {
+          "field": "synopsis",
+          "start": 20,
+          "end": 40,
+          "quote": "국민은 투표를 통해 주권을 행사한다."
+        }
+      ]
+    }
+  },
+  {
+    "id": "synonym-rotation",
+    "standardId": "6과12-02",
+    "synopsis": "지구는 스스로 돈다. 지구가 스스로 돌기 때문에 낮과 밤이 번갈아 나타난다.",
+    "assessment": {
+      "ruleId": "rotation-and-day-night",
+      "status": "HELD",
+      "reason": "관련 단어만으로는 지원하는 학습 관계를 확인할 수 없습니다.",
+      "supportedRequirements": [],
+      "connectedParts": [],
+      "unconfirmedParts": [
+        "지구가 스스로 회전한다는 자전 설명",
+        "지구 자전이 낮과 밤을 만드는 원인이라는 설명",
+        "영상 속 관찰·모형·장면의 실제 내용",
+        "학생이 낮과 밤의 원인을 설명할 수 있는지"
+      ],
+      "standardCoverage": "NONE",
+      "evidence": []
+    }
+  },
+  {
+    "id": "unrelated-negation",
+    "standardId": "6사08-01",
+    "synopsis": "시민은 투표로 대표를 선출한다. 시민은 선거 참여를 통해 주권을 행사한다. 선거는 폭력을 사용하지 않고도 분쟁을 해결하는 방법이다.",
+    "assessment": {
+      "ruleId": "election-and-sovereignty",
+      "status": "CONFLICT",
+      "reason": "관련 문장에 부정·상충 표현이 있어 자동 제공을 보류합니다.",
+      "supportedRequirements": [],
+      "connectedParts": [],
+      "unconfirmedParts": [
+        "시민이 투표로 대표를 뽑는 선거의 역할",
+        "선거 참여와 시민 주권 행사의 연결",
+        "학생이 선거의 의미·역할을 이해했는지",
+        "실제 선거 참여 태도와 수업 활용 적합성"
+      ],
+      "standardCoverage": "NONE",
+      "evidence": []
+    }
+  },
+  {
+    "id": "same-relation-conflict",
+    "standardId": "6과12-02",
+    "synopsis": "지구는 자전한다. 지구의 자전 때문에 낮과 밤이 생긴다. 지구의 자전과 낮과 밤은 관계가 없다.",
+    "assessment": {
+      "ruleId": "rotation-and-day-night",
+      "status": "CONFLICT",
+      "reason": "관련 문장에 부정·상충 표현이 있어 자동 제공을 보류합니다.",
+      "supportedRequirements": [],
+      "connectedParts": [],
+      "unconfirmedParts": [
+        "지구가 스스로 회전한다는 자전 설명",
+        "지구 자전이 낮과 밤을 만드는 원인이라는 설명",
+        "영상 속 관찰·모형·장면의 실제 내용",
+        "학생이 낮과 밤의 원인을 설명할 수 있는지"
+      ],
+      "standardCoverage": "NONE",
+      "evidence": []
+    }
+  },
+  {
+    "id": "partial-uncertain",
+    "standardId": "6과12-02",
+    "synopsis": "지구는 자전한다. 지구가 자전하므로 낮과 밤이 생길 수 있다.",
+    "assessment": {
+      "ruleId": "rotation-and-day-night",
+      "status": "HELD",
+      "reason": "관련 문장이 의문·추측·인용·조건을 포함해 자동 제공을 보류합니다.",
+      "supportedRequirements": [],
+      "connectedParts": [],
+      "unconfirmedParts": [
+        "지구가 스스로 회전한다는 자전 설명",
+        "지구 자전이 낮과 밤을 만드는 원인이라는 설명",
+        "영상 속 관찰·모형·장면의 실제 내용",
+        "학생이 낮과 밤의 원인을 설명할 수 있는지"
+      ],
+      "standardCoverage": "NONE",
+      "evidence": []
+    }
+  }
+]

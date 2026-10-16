@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const {discoverTeacherContents}=require('./teacher-discovery');
+const {isListingResource,resourcePresentation}=require('./resource-presentation');
+const url='https://www.ebs.co.kr/tv/show?courseId=100&lectId=1';
+const item=(id,kind,navigationKind)=>({id,title:'관찰 자료 '+id,program:'검사 프로그램',summary:'식물의 잎을 관찰하고 살아가는 모습을 알아본다.',kind,sourceUrl:url+id,navigation:{url:url+id,kind:navigationKind,status:'PUBLISHED'},relations:[],semanticTags:[],coreTags:[]});
+(async()=>{const resources=[item('EP','episode','EPISODE'),item('CL','clip','CLIP'),item('CO','collection','COLLECTION'),item('LE','lesson','LESSON_LIST'),item('LV','lesson','EPISODE')],catalog={resources,searchVariants:[],concepts:[],version:'test'},store={verifiedAssets:[]},cases=[];
+ const before=JSON.stringify(catalog);const search=input=>discoverTeacherContents(input,catalog,store,{useSemantic:false});
+ let r=await search({});assert.deepEqual(new Set(r.results.map(i=>i.id)),new Set(['EP','CL','LV']));assert.equal(r.filters.kind.find(o=>o.value==='listing').count,2);cases.push('개별 영상에 강의 목록/프로그램 목록을 섞지 않음');
+ r=await search({kind:'listing'});assert.deepEqual(new Set(r.results.map(i=>i.id)),new Set(['CO','LE']));assert.ok(r.results.every(i=>i.resourcePresentation.unit==='LISTING'));cases.push('같은 검색 경로로 두 목록 유형을 조회');
+ assert.deepEqual((await search({kind:'lesson'})).results.map(i=>i.id),['LV']);assert.deepEqual((await search({kind:'clip'})).results.map(i=>i.id),['CL']);cases.push('강의 형식과 목록 단위를 분리하고 클립 필터 유지');
+ assert.equal(resourcePresentation({...resources[0],genreEvidence:[{label:'다큐멘터리'}]}).formats[0],'다큐멘터리');assert.equal(resourcePresentation(resources[1]).destination,'CLIP');assert.ok(isListingResource(resources[3]));assert.equal(JSON.stringify(catalog),before);cases.push('단위·형식·이동 대상 분리/원본 불변');
+ fs.writeFileSync('docs/r12-05-resource-types-check.json',JSON.stringify({date:new Date().toISOString(),passed:cases.length,cases,paidApiCalls:0},null,2)+'\n');console.log(cases.length,'자료 단위 계약 통과');
+})().catch(e=>{console.error(e);process.exitCode=1});

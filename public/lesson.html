@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FBF7EF">
+  <title>Curi — 내 수업 자료</title>
+  <link rel="stylesheet" href="/discover.css">
+  <link rel="stylesheet" href="/teacher-workspace.css">
+  <link rel="stylesheet" href="/segment-bookmarks.css">
+  <script src="/grade-context.js" defer></script><script src="/segment-core.js" defer></script>
+  <script src="/segment-store.js" defer></script>
+  <script src="/segment-ui.js" defer></script>
+  <script src="/teacher-storage.js" defer></script>
+  <script src="/teacher-guidance.js" defer></script><script src="/teacher-evidence.js" defer></script><script src="/lesson-context.js" defer></script>
+  <script src="/lesson-folders.js" defer></script><script src="/curriculum-selection.js" defer></script>
+  <script src="/teacher-cards.js" defer></script>
+  <script src="/lesson-material-curriculum.js" defer></script>
+  <script src="/lesson-clips.js" defer></script>
+  <script src="/teacher-library.js" defer></script><script src="/teacher-folder-picker.js" defer></script><script src="/lesson-playlist.js" defer></script><script src="/lesson-resource-actions.js" defer></script><script src="/lesson.js" defer></script>
+  <script src="/extension-library.js" defer></script>
+  <script src="/lesson-segments.js" defer></script>
+<link rel="stylesheet" href="/curriculum-selection.css">  <link rel="icon" href="/brand/ebs-curi-folder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/curi-tokens.css">
+  <link rel="stylesheet" href="/fonts/plex.css">
+  <link rel="stylesheet" href="/curi-ui.css">
+  <link rel="stylesheet" href="/lesson-playlist.css">
+  <link rel="stylesheet" href="/curi-v11.css">
+  <link rel="stylesheet" href="/curi-colors.css">
+  <link rel="stylesheet" href="/curi-icons.css">
+  <link rel="stylesheet" href="/lesson-index.css">
+  <link rel="stylesheet" href="/lesson-folder.css">
+  <link rel="stylesheet" href="/lesson-cards.css">
+  <script src="/curi-v11.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#video-search">저장한 자료 찾기로 바로가기</a>
+  <header class="site-header">
+    <span class="header-context">EBS 수업 자료<span>교사의 수업 바탕화면</span></span>
+    <a href="/" class="brand" aria-label="EBS CURI 홈"><span class="wordmark" aria-hidden="true"><img class="brand-symbol" src="/brand/ebs-curi-folder.svg" alt="" width="30" height="30"><span class="brand-name"><span class="brand-prefix">EBS</span> CURI</span></span></a>
+    <nav aria-label="주 메뉴"><a href="/">자료 찾기</a><a href="/lesson.html" aria-current="page">내 수업 자료</a></nav>
+  </header>
+  <main class="shell lesson-shell">
+    <div class="library-workspace">
+      <aside class="library-index" aria-label="수업 자료 인덱스">
+        <nav aria-label="자료 보기">
+          <button id="show-all-materials" type="button"><span>전체 자료</span><small id="all-material-count"></small></button>
+          <p class="library-index-label"><span>수업 폴더</span><small id="folder-count">0</small></p>
+          <div id="index-folder-list"></div>
+          <button id="show-unfiled-materials" type="button"><span>폴더 미지정</span><small id="unfiled-material-count"></small></button>
+        </nav>
+        <details class="new-folder-panel"><summary>새 수업 폴더 만들기</summary><form id="create-folder"><div class="folder-create-heading"><label for="new-folder-title">새 수업 이름</label><button id="close-create-folder" type="button" aria-label="새 폴더 만들기 닫기" title="닫기"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="folder-create"><input id="new-folder-title" maxlength="200" required placeholder="예: 6학년 우주 탐사"><button type="submit" aria-label="수업 폴더 만들기">＋ 만들기</button></div><details class="folder-curriculum"><summary>연관 교육과정 · 선택 사항</summary><div id="new-folder-curriculum"></div></details></form></details>
+        <a class="primary-link" id="find-more" href="/">자료 더 찾기 ↗</a>
+      </aside>
+      <div class="library-workspace-main">
+    <section class="lesson-heading">
+      <div class="lesson-heading-row">
+        <h1>내 수업 자료</h1>
+        <div class="lesson-heading-tools">
+        <label class="video-search-label" for="video-search" title="현재 보기에서 자료 제목·폴더·개인 기록 검색">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input id="video-search" type="search" maxlength="200" aria-label="저장한 자료 찾기" placeholder="저장한 자료 찾기">
+        </label>
+        <details class="library-more" id="library-more">
+          <summary aria-label="더보기" title="더보기"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></summary>
+          <div class="library-more-panel"><button id="export-library" type="button">전체 목록 내려받기</button></div>
+        </details>
+        </div>
+      </div>
+      <p>가져온 자료를 전체로 보거나 수업 폴더별로 정리하세요. 변경 내용은 이 브라우저에 자동 저장됩니다.</p>
+    </section>
+    <div class="lesson-save-feedback"><p id="save-status" role="status" aria-live="polite"></p><button id="save-folders" type="button" hidden>다시 저장</button></div>
+    <div class="folder-layout">
+      <section class="folder-main" aria-label="폴더에 담은 자료">
+        <div id="folder-detail-header" class="folder-detail-header" hidden>
+          <svg class="folder-tab-outline" aria-hidden="true" viewBox="-1 -1 352 58" preserveAspectRatio="none"><path d="M0 57V12Q0 0 12 0H306Q314 0 319 8L350 57" vector-effect="non-scaling-stroke"/></svg>
+          <label class="sr-only" for="lesson-title">수업 폴더 이름</label>
+          <div class="folder-title-edit"><input id="lesson-title" maxlength="200" placeholder="수업 폴더 이름"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15z"/></svg></div>
+        </div>
+        <div id="folder-empty" class="empty-state"><h2>수업 폴더가 없습니다</h2><p>‘새 수업 이름’을 입력해 폴더를 만든 뒤, 내 자료에서 필요한 자료를 담으세요.</p></div>
+        <div id="folder-content" hidden>
+          <div id="folder-settings">
+            <div class="folder-curriculum-box">
+            <details id="folder-curriculum-panel" class="folder-curriculum">
+              <summary>연관 교육과정 <span id="folder-standard-count"></span></summary>
+              <div class="folder-curriculum-content">
+                <label for="lesson-grade">수업 대상<select id="lesson-grade"><option value="all">대상 학년 미지정</option><option value="초등 3학년">초등 3학년</option><option value="초등 4학년">초등 4학년</option><option value="초등 3~4학년군">초등 3~4학년군</option><option value="초등 5학년">초등 5학년</option><option value="초등 6학년">초등 6학년</option><option value="초등 5~6학년군">초등 5~6학년군</option><option value="중학교 1학년">중학교 1학년</option></select></label>
+                <p class="filter-help" hidden>대상 학년은 수업 문맥입니다. 학년군 연계와 영상 난이도·선수개념·장면 확인은 자료별 선택 이유에 각각 남길 수 있습니다.</p>
+                <p class="filter-help" hidden>폴더의 수업 목표입니다. 자료별 연결·기존 선택 이유에는 자동으로 적용하지 않습니다.</p>
+                <div id="folder-curriculum"></div>
+              </div>
+            </details>
+            <ul id="folder-selected-standards" class="folder-selected-standards" aria-label="선택한 교육과정" hidden></ul>
+            </div>
+            <details class="folder-note"><summary>수업 노트</summary>
+              <p id="legacy-topic" hidden></p>
+              <div class="folder-notes-grid">
+                <label class="folder-note-field" for="lesson-goal"><span>수업 목표</span><textarea id="lesson-goal" data-folder-goal maxlength="1000" rows="4" placeholder="이번 수업에서 다룰 목표를 적어주세요."></textarea></label>
+                <label class="folder-note-field" for="lesson-note"><span>수업 노트</span><textarea id="lesson-note" maxlength="4000" rows="4" placeholder="자료 활용 순서, 수업 질문, 진행 기록 등을 적어주세요."></textarea></label>
+              </div>
+            </details></div>
+          <div class="imported-materials-heading">
+            <h2 id="videos-heading" tabindex="-1"></h2>
+            <div class="folder-actions" id="folder-actions"><button type="button" id="add-videos" class="primary-link">폴더 미지정 자료 가져오기</button><button type="button" id="export-folder">폴더 목록 내려받기</button></div>
+          </div><p id="video-count" class="result-status" role="status"></p><div id="folder-videos" class="folder-videos library-cards cards"></div>
+        </div>
+        <aside id="lesson-playlist" class="lesson-playlist" hidden aria-labelledby="lesson-playlist-heading">
+          <div class="playlist-heading"><h2 id="lesson-playlist-heading">수업 영상 리스트</h2><span id="lesson-playlist-count"></span></div>
+          <p class="playlist-help">순서는 드래그로 바꿀 수 있습니다.</p>
+          <p id="lesson-playlist-status" role="status" aria-live="polite"></p>
+          <p id="lesson-playlist-empty" class="playlist-empty">이곳에 구간 클립 카드를 담아 주세요</p>
+          <ol id="lesson-playlist-items" aria-label="수업 영상 재생 순서"></ol>
+          <div class="playlist-total"><span>총 영상 길이</span><strong id="lesson-playlist-total">0:00</strong><small id="lesson-playlist-total-note"></small></div>
+        </aside>
+      </section>
+    </div>
+    <details class="lesson-segment-overview"><summary id="lesson-segments-heading">저장한 수업용 구간</summary><p id="lesson-segment-status" role="status" aria-live="polite"></p><div id="lesson-segment-items"></div></details>
+      </div>
+    </div>
+  </main>
+  <dialog id="add-dialog" aria-labelledby="add-heading"><div class="dialog-header"><h2 id="add-heading">폴더 미지정 자료 가져오기</h2><button id="close-add" type="button" aria-label="자료 담기 닫기">✕</button></div><p id="add-note" role="status"></p><div id="lesson-shelf-items"></div><a class="primary-link" id="find-more-dialog" href="/">자료 더 찾기 ↗</a></dialog>
+  <dialog id="delete-folder-dialog" aria-labelledby="delete-folder-heading" aria-describedby="delete-folder-question"><h2 id="delete-folder-heading">수업 폴더 삭제</h2><p id="delete-folder-name"></p><p id="delete-folder-question">폴더에 저장된 자료들도 함께 삭제됩니다. 삭제하시겠습니까?</p><p id="delete-folder-error" role="alert"></p><div class="delete-folder-options"><button id="cancel-delete-folder" type="button" autofocus>아니오</button><button id="confirm-delete-folder" type="button">예</button></div></dialog>
+  <footer class="site-footer"><span><b>EBS CURI</b> · 내 수업 자료</span><span>같은 브라우저·주소에 저장되며 다른 기기로 자동 동기화되지 않습니다.</span></footer>
+<dialog id="segment-dialog" class="segment-shell" aria-labelledby="segment-dialog-heading"><div class="dialog-header"><h2 id="segment-dialog-heading">영상 구간 편집</h2><button type="button" id="close-segment-dialog" aria-label="구간 편집 닫기">✕</button></div><p id="segment-status" role="status" aria-live="polite"></p><label>저장 위치<select id="segment-target"></select></label><p id="target-note"></p><a id="segment-original" target="_blank" rel="noopener noreferrer" hidden>원본 전체 영상 보기 ↗</a>
+<form id="segment-form"><h2 id="edit-heading">구간 추가</h2><label>구간 이름<input id="segment-name" maxlength="200" required></label><div class="segment-times"><label>시작 (분:초 / 초)<input id="segment-start" placeholder="0:00" required></label><label>끝 (분:초 / 초)<input id="segment-end" placeholder="2:30" required></label></div><label>메모<textarea id="segment-note" maxlength="4000" rows="3"></textarea></label><button id="segment-save" type="submit" disabled>구간 저장</button> <button id="segment-reset" type="button">새 구간</button></form>
+<section aria-labelledby="segment-list-title"><h2 id="segment-list-title">저장 구간</h2><div id="segment-list"></div></section></dialog>
+</body>
+</html>

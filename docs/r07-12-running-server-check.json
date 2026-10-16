@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-12T11:44:19.631Z",
+  "base": "http://127.0.0.1:3000",
+  "rows": [
+    {
+      "q": "생태계 다큐멘터리",
+      "total": 22,
+      "checkedResults": 22,
+      "requiredGenres": [
+        "다큐멘터리"
+      ],
+      "genrePreferences": [],
+      "programs": [
+        "EBS 다큐프라임",
+        "다큐 오늘"
+      ]
+    },
+    {
+      "q": "생태계 다큐",
+      "total": 22,
+      "checkedResults": 22,
+      "requiredGenres": [
+        "다큐멘터리"
+      ],
+      "genrePreferences": [],
+      "programs": [
+        "EBS 다큐프라임",
+        "다큐 오늘"
+      ]
+    },
+    {
+      "q": "생태계 다큐 같은",
+      "total": 82,
+      "checkedResults": 9,
+      "requiredGenres": [],
+      "genrePreferences": [
+        "다큐멘터리"
+      ],
+      "programs": [
+        "EBS 다큐프라임"
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0
+}

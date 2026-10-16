@@ -1,0 +1,122 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "sizes": [
+        {
+          "width": 255.1875,
+          "height": 127.59375
+        },
+        {
+          "width": 255.203125,
+          "height": 127.59375
+        },
+        {
+          "width": 255.203125,
+          "height": 127.59375
+        },
+        {
+          "width": 255.203125,
+          "height": 127.59375
+        },
+        {
+          "width": 255.203125,
+          "height": 127.59375
+        },
+        {
+          "width": 255.1875,
+          "height": 127.59375
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "sizes": [
+        {
+          "width": 216,
+          "height": 108
+        },
+        {
+          "width": 216,
+          "height": 108
+        },
+        {
+          "width": 216,
+          "height": 108
+        },
+        {
+          "width": 216,
+          "height": 108
+        },
+        {
+          "width": 216,
+          "height": 108
+        },
+        {
+          "width": 216,
+          "height": 108
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "sizes": [
+        {
+          "width": 159,
+          "height": 79.5
+        },
+        {
+          "width": 159,
+          "height": 79.5
+        },
+        {
+          "width": 159,
+          "height": 79.5
+        },
+        {
+          "width": 159,
+          "height": 79.5
+        },
+        {
+          "width": 159,
+          "height": 79.5
+        },
+        {
+          "width": 159,
+          "height": 79.5
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "sizes": [
+        {
+          "width": 144,
+          "height": 72
+        },
+        {
+          "width": 144,
+          "height": 72
+        },
+        {
+          "width": 144,
+          "height": 72
+        },
+        {
+          "width": 144,
+          "height": 72
+        },
+        {
+          "width": 144,
+          "height": 72
+        },
+        {
+          "width": 144,
+          "height": 72
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

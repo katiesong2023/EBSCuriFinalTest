@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15",
+  "query": "다문화 가족",
+  "count": 2,
+  "checks": [
+    {
+      "name": "보조 정보 숨김",
+      "pass": true
+    },
+    {
+      "name": "숨긴 항목 화면 텍스트 제외",
+      "pass": true
+    },
+    {
+      "name": "이전 회차 문구 없음",
+      "pass": true
+    },
+    {
+      "name": "가져가기 문구",
+      "pass": true
+    },
+    {
+      "name": "기존 가져오기 창 진입",
+      "pass": true
+    },
+    {
+      "name": "1440px 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "390px 가로 넘침 없음",
+      "pass": true
+    },
+    {
+      "name": "브라우저 오류 없음",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "note": "개별 회차 주소 미확인 자료의 EBS 제목 검색 링크는 기존 안내 유지. 최종 저장 실행하지 않음."
+}

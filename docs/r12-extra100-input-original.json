@@ -1,0 +1,4662 @@
+[
+  {
+    "id": "Q001",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "교통_통신_변화",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "옛날 교통수단",
+    "lesson_goal": "옛날 사람들이 이용한 교통수단의 종류와 모습을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "옛날 교통수단"
+      ],
+      "requested_content_or_relation": [
+        "옛날 교통수단의 종류·모습 소개"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제. '옛날'의 시대 범위는 원문에 없으므로 특정 시대로 좁히지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "어떤 시대의 교통수단을 다루는지는 소개문에 없을 수 있음"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "오늘날 교통수단만 다루는 결과를 적합으로 판정",
+      "'옛날'을 특정 왕조로 임의 한정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "가마·말·배·우마차 등 과거 교통수단이 내용의 중심으로 확인됨",
+      "partial": "교통수단 변천 전체를 다루며 옛날 교통수단은 일부로 언급됨",
+      "insufficient_evidence": "제목에 '교통'만 있고 옛날 교통수단이 나오는지 확인 불가",
+      "unsuitable": "현대 교통 안전 교육, 교통수단과 무관한 역사 영상"
+    },
+    "empty_result_interpretation": "흔한 주제라 빈 결과면 검색 실패 가능성이 큼. '옛날 탈것', '교통수단의 변화' 등 동의어 색인 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q002",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "지도_기초",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "방위표와 지도 기호",
+    "lesson_goal": "지도의 방위표와 기호를 읽는 방법을 익힌다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "방위표",
+        "지도 기호"
+      ],
+      "requested_content_or_relation": [
+        "지도 읽기 요소 설명"
+      ],
+      "required_conditions": [
+        {
+          "condition": "방위표 내용",
+          "supporting_phrase": "방위표"
+        },
+        {
+          "condition": "지도 기호 내용",
+          "supporting_phrase": "지도 기호"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 요소를 '와'로 나열. 둘 다 다루는 자료가 가장 적합하나 교사가 엄격한 AND를 명시하지 않았으므로 하나만 다룬 자료는 부분 관련으로 처리",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "축척·등고선만 다룬 자료를 적합으로 판정",
+      "'기호'를 수학 기호 등으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "방위표와 지도 기호를 모두 설명함",
+      "partial": "둘 중 하나만 설명하거나 지도 읽기 전반 중 일부로만 다룸",
+      "insufficient_evidence": "'지도 읽기'라는 제목만 있고 구체 요소를 확인 불가",
+      "unsuitable": "지도와 무관한 방향 감각 놀이, 세계지도 국가 소개만 있는 자료"
+    },
+    "empty_result_interpretation": "기초 주제이므로 빈 결과는 검색 실패 가능성이 큼. 두 요소를 분리 검색했을 때 결과가 있는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q003",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "공공기관",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "대표 개념명 대신 일상 표현을 사용한 요청"
+    ],
+    "query": "우리 고장 공공기관 조사하기 전에 아이들이 소방서, 우체국, 주민센터가 각각 무슨 일을 하는지 감 잡을 수 있게 도입으로 보여줄 영상 찾아요",
+    "lesson_goal": "공공기관 조사 활동 전, 주요 공공기관의 역할을 대략 이해한다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "공공기관의 역할"
+      ],
+      "requested_content_or_relation": [
+        "소방서·우체국·주민센터 각각의 하는 일"
+      ],
+      "required_conditions": [
+        {
+          "condition": "소방서 역할",
+          "supporting_phrase": "소방서"
+        },
+        {
+          "condition": "우체국 역할",
+          "supporting_phrase": "우체국"
+        },
+        {
+          "condition": "주민센터 역할",
+          "supporting_phrase": "주민센터"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "세 기관을 '각각' 알고 싶다고 했으므로 세 기관 모두 다룬 자료가 가장 적합. 한 자료로 못 찾으면 기관별 자료 조합도 가능",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "세 기관이 모두 등장하는지는 소개문만으로 확인이 어려울 수 있음"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'우리 고장'을 특정 지역 조건으로 해석해 지역명을 요구",
+      "공공기관 아닌 상점·회사 소개를 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "세 기관의 역할이 모두 설명됨",
+      "partial": "공공기관 일반을 다루며 세 기관 중 일부만 나옴",
+      "insufficient_evidence": "'공공기관'이라는 제목만 있고 어느 기관이 나오는지 확인 불가",
+      "unsuitable": "소방 안전 수칙만, 우편 요금 안내 등 역할 설명이 아닌 자료"
+    },
+    "empty_result_interpretation": "세 기관 동시 조건 때문에 빈 결과일 수 있음. 기관별 개별 검색 결과가 있는지 먼저 확인하고, 있으면 조건 결합 처리 문제로 분류",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q004",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "세시풍속",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "복수 필수 조건·AND/OR를 포함한 요청"
+    ],
+    "query": "세시풍속 단원 마무리로 설날, 단오, 추석에 하던 놀이와 음식을 정리해 줄 수 있는 자료 있을까요? 학생들이 표로 정리하는 활동에 쓰려고요",
+    "lesson_goal": "명절별 놀이와 음식을 정리한다",
+    "usage_purpose": "정리·활동 자료",
+    "expected_interpretation": {
+      "core_topic": [
+        "세시풍속",
+        "명절"
+      ],
+      "requested_content_or_relation": [
+        "명절별 놀이와 음식"
+      ],
+      "required_conditions": [
+        {
+          "condition": "설날",
+          "supporting_phrase": "설날"
+        },
+        {
+          "condition": "단오",
+          "supporting_phrase": "단오"
+        },
+        {
+          "condition": "추석",
+          "supporting_phrase": "추석"
+        },
+        {
+          "condition": "놀이 내용",
+          "supporting_phrase": "놀이"
+        },
+        {
+          "condition": "음식 내용",
+          "supporting_phrase": "음식"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "세 명절 × (놀이 AND 음식)을 정리하려는 목적. 표 정리는 활동 방식이지 영상 형식 조건이 아님",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "명절마다 놀이와 음식이 모두 나오는지는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'표로 정리'를 영상 속 표·인포그래픽 필수 조건으로 해석",
+      "명절 하나만 다룬 자료를 적합으로 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "세 명절의 놀이와 음식이 모두 다뤄짐",
+      "partial": "일부 명절만 다루거나 놀이·음식 중 하나만 다룸",
+      "insufficient_evidence": "'세시풍속'이라는 제목만으로 어떤 명절이 나오는지 확인 불가",
+      "unsuitable": "현대 명절 교통·소비 뉴스, 다른 나라 명절만 다룬 자료"
+    },
+    "empty_result_interpretation": "세 명절 동시 포함이 드물어 정당한 빈 결과일 수 있음. 명절별 개별 결과 존재 여부를 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q005",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "통신_변화",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "옛날 통신 수단에서 오늘날 통신 수단으로 바뀐 모습을 보고 학생들이 '편리해진 점과 새로 생긴 문제'를 토의하게 하려고 합니다",
+    "lesson_goal": "통신 수단의 변화와 그에 따른 장단점을 토의한다",
+    "usage_purpose": "토론",
+    "expected_interpretation": {
+      "core_topic": [
+        "통신 수단의 변화"
+      ],
+      "requested_content_or_relation": [
+        "옛날→오늘날 변화",
+        "편리해진 점",
+        "새로 생긴 문제"
+      ],
+      "required_conditions": [
+        {
+          "condition": "옛날 통신 수단",
+          "supporting_phrase": "옛날 통신 수단"
+        },
+        {
+          "condition": "오늘날 통신 수단",
+          "supporting_phrase": "오늘날 통신 수단"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "변화 과정(옛날 AND 오늘날)이 핵심. 편리함·문제점은 토의 주제이므로 영상에 문제점까지 나오면 더 좋지만 원문상 영상의 필수 조건으로 명시되지 않음",
+      "needs_clarification": [
+        "영상 자체에 문제점(예: 개인정보, 과의존)이 꼭 나와야 하는지, 토의는 교사가 이끌지"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "오늘날 스마트폰 사용법만 다룬 자료를 적합으로 판정",
+      "편리함·문제점을 필수 조건으로 단정해 좋은 후보를 제외"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "옛날과 오늘날 통신 수단이 함께 나오며 변화가 드러남",
+      "partial": "한쪽 시대만 다루거나 변화 언급이 짧음",
+      "insufficient_evidence": "소개문에 시대 대비가 드러나지 않음",
+      "unsuitable": "통신과 무관한 교통 변화, 휴대폰 광고성 자료"
+    },
+    "empty_result_interpretation": "흔한 주제이므로 빈 결과면 검색 실패 가능성. '통신의 발달', '봉수·파발' 등으로 재검색 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q006",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "생산_유통_소비",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "아이들이 시장에서 물건 사는 거랑 마트에서 사는 거 말고, 물건이 어디서 만들어져서 우리 손에 오는지 궁금해해요. 그걸 보여줄 수 있는 거요",
+    "lesson_goal": "물건이 생산되어 소비자에게 오기까지의 과정을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "생산·유통·소비"
+      ],
+      "requested_content_or_relation": [
+        "물건이 만들어져 소비자에게 오는 과정"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [
+        {
+          "condition": "구매 장소(시장·마트) 비교 자체가 목적이 아님",
+          "supporting_phrase": "말고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "'시장/마트에서 사는 것'은 출발점일 뿐 제외 대상은 구매 장소 비교 중심 내용. 핵심은 생산→유통 과정",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "'시장'과 '마트'를 핵심 주제로 보고 장보기 비교 영상을 추천",
+      "'유통'이라는 개념어가 없어서 경제 영상을 놓침"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "생산지에서 만들어져 운송·판매를 거쳐 소비자에게 오는 과정이 보임",
+      "partial": "생산 또는 판매 중 한 단계만 다룸",
+      "insufficient_evidence": "'경제 활동' 제목만 있고 과정이 나오는지 불명",
+      "unsuitable": "시장과 마트 장보기 비교, 용돈 관리만 다룬 자료"
+    },
+    "empty_result_interpretation": "일상 표현을 '생산·유통·소비'로 연결하지 못한 검색 실패 가능성 큼. 개념어 검색 결과와 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q007",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "촌락_생활",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "두 대상이나 사례를 비교하는 요청"
+    ],
+    "query": "산골 마을이랑 바닷가 마을 사람들이 먹고사는 방법이 어떻게 다른지 보여주는 영상",
+    "lesson_goal": "자연환경에 따라 촌락 사람들의 생업이 다름을 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "산지촌",
+        "어촌",
+        "생업"
+      ],
+      "requested_content_or_relation": [
+        "두 촌락의 생업 차이"
+      ],
+      "required_conditions": [
+        {
+          "condition": "산지 촌락의 생업",
+          "supporting_phrase": "산골 마을"
+        },
+        {
+          "condition": "해안 촌락의 생업",
+          "supporting_phrase": "바닷가 마을"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비교 요청이므로 두 촌락 모두 필요(AND). 별도 자료 두 개 조합도 활용 가능",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "'먹고사는'을 음식·요리로 해석",
+      "농촌만 다룬 자료를 적합으로 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "산지촌과 어촌의 생업이 모두 나오고 차이가 드러남",
+      "partial": "둘 중 한 촌락만 다룸",
+      "insufficient_evidence": "'촌락' 제목만으로 어떤 촌락인지 확인 불가",
+      "unsuitable": "여행 맛집 소개, 도시 생활만 다룬 자료"
+    },
+    "empty_result_interpretation": "'산골 마을', '바닷가 마을'을 '산지촌·어촌'으로 연결하지 못했는지 확인. 개별 촌락 결과 존재 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q008",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "옛날_생활",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "할머니 할아버지 어릴 적에는 집안일을 어떻게 했는지, 그때 쓰던 물건들이 나오는 거 찾아요",
+    "lesson_goal": "옛날 생활 도구와 집안일 방식을 안다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "옛날 생활 도구",
+        "옛날 집안일"
+      ],
+      "requested_content_or_relation": [
+        "과거 집안일 방식",
+        "당시 사용한 생활 도구"
+      ],
+      "required_conditions": [
+        {
+          "condition": "집안일 방식",
+          "supporting_phrase": "집안일을 어떻게 했는지"
+        },
+        {
+          "condition": "당시 물건(생활 도구)",
+          "supporting_phrase": "그때 쓰던 물건들"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "집안일 방식 AND 생활 도구. '조부모 어린 시절'은 대략 수십 년 전의 생활로 해석하되 특정 연도를 만들지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "어느 시기의 생활인지 소개문에 명시되지 않을 수 있음"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'할머니 할아버지'를 노인 돌봄·효도 주제로 해석",
+      "조선 시대 궁중 생활로 지나치게 거슬러 올라감"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "빨래·밥 짓기 등 과거 집안일과 사용 도구가 함께 나옴",
+      "partial": "생활 도구 소개만 있거나 집안일 방식만 있음",
+      "insufficient_evidence": "'옛날 생활'이라는 제목만으로 집안일 내용 확인 불가",
+      "unsuitable": "현대 가사 분담 캠페인, 노인 복지 자료"
+    },
+    "empty_result_interpretation": "'옛날 생활 도구' 개념어로 바꿔 검색해 결과가 있는지 확인. 있으면 일상 표현 처리 실패",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q009",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "교통_생활변화",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "고장에 새 도로나 지하철이 생기면 사람들 생활이 어떻게 달라지는지 알려주는 자료",
+    "lesson_goal": "교통 시설 변화가 생활에 미치는 영향을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "교통 시설",
+        "생활 변화"
+      ],
+      "requested_content_or_relation": [
+        "교통 시설 건설 → 생활 변화의 인과"
+      ],
+      "required_conditions": [
+        {
+          "condition": "교통 시설이 생긴 뒤 생활 변화가 설명됨",
+          "supporting_phrase": "생활이 어떻게 달라지는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "'새 도로 OR 지하철' 중 하나여도 됨. 단, 그로 인한 생활 변화(결과)는 필수",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "도로·지하철 건설 공법 영상을 적합으로 판정",
+      "교통수단 종류 소개만 있는 자료를 적합으로 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "도로나 지하철 개통 후 이동 시간·생활권·상권 등 변화가 설명됨",
+      "partial": "교통 발달을 다루나 생활 변화는 짧게 언급",
+      "insufficient_evidence": "교통 시설은 나오지만 영향 설명이 있는지 확인 불가",
+      "unsuitable": "교통 안전 교육, 건설 기술 다큐"
+    },
+    "empty_result_interpretation": "인과 관계 서술이 소개문에 드러나지 않아 놓쳤을 가능성. '교통 발달과 생활' 등으로 재검색",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q010",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "자연환경_생활",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "논이 많은 지역에서는 왜 쌀농사를 많이 짓게 됐는지, 땅 모양이나 물이랑 연결해서 설명해 주는 영상",
+    "lesson_goal": "자연환경(지형·물)과 생업의 관계를 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "자연환경과 생업"
+      ],
+      "requested_content_or_relation": [
+        "평야·하천 등 조건 → 벼농사 발달의 이유"
+      ],
+      "required_conditions": [
+        {
+          "condition": "벼농사 발달 이유 설명",
+          "supporting_phrase": "왜 쌀농사를 많이 짓게 됐는지"
+        },
+        {
+          "condition": "지형 또는 물과 연결",
+          "supporting_phrase": "땅 모양이나 물이랑 연결해서"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "이유 설명은 필수, 근거는 지형 OR 물 중 하나 이상",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "모내기 방법 등 농사 기술만 다룬 자료를 적합으로 판정",
+      "쌀 영양·요리 자료"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "평야·강·물 대기 등과 벼농사의 관계를 설명",
+      "partial": "벼농사 지역을 소개하지만 이유 설명이 약함",
+      "insufficient_evidence": "벼농사 장면만 있고 이유 설명 여부 확인 불가",
+      "unsuitable": "쌀 가공식품, 농업 기계화 뉴스"
+    },
+    "empty_result_interpretation": "관계 설명 자료가 적을 수 있음. '평야 지역 생활', '자연환경과 생활 모습' 결과에서 부분 관련 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q011",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "옛날_오늘날_의례",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "옛날 결혼식과 오늘날 결혼식을 비교해 볼 수 있는 자료",
+    "lesson_goal": "옛날과 오늘날 의례의 차이를 비교한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "결혼식 변화"
+      ],
+      "requested_content_or_relation": [
+        "옛날과 오늘날 결혼식 비교"
+      ],
+      "required_conditions": [
+        {
+          "condition": "옛날 결혼식",
+          "supporting_phrase": "옛날 결혼식"
+        },
+        {
+          "condition": "오늘날 결혼식",
+          "supporting_phrase": "오늘날 결혼식"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비교이므로 두 시대 모두 필요(AND)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "전통 혼례만 다룬 자료를 적합으로 판정",
+      "결혼 제도·법률 등 상위 주제로 확장"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "전통 혼례와 오늘날 결혼식이 함께 나오며 차이가 드러남",
+      "partial": "한쪽만 다룸",
+      "insufficient_evidence": "'혼례' 제목만 있고 오늘날과의 비교 여부 불명",
+      "unsuitable": "연예 결혼 뉴스, 결혼 준비 비용 정보"
+    },
+    "empty_result_interpretation": "비교형 자료가 드물 수 있음. '전통 혼례' 단독 결과가 있으면 정당한 빈 결과 쪽으로 분류",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q012",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "지도_종류",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [
+      "수업 목표와 활용 목적을 포함한 요청"
+    ],
+    "query": "종이 지도랑 디지털 영상 지도가 쓰임새가 어떻게 다른지 비교해서 보여줄 만한 거",
+    "lesson_goal": "지도 종류별 특징과 쓰임을 비교한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "종이 지도",
+        "디지털 영상 지도"
+      ],
+      "requested_content_or_relation": [
+        "두 지도의 쓰임새 차이"
+      ],
+      "required_conditions": [
+        {
+          "condition": "종이 지도",
+          "supporting_phrase": "종이 지도"
+        },
+        {
+          "condition": "디지털 영상 지도",
+          "supporting_phrase": "디지털 영상 지도"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비교이므로 두 지도 모두 필요(AND)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "지도 앱 사용법 광고를 적합으로 판정",
+      "'영상 지도'를 영상(동영상) 자료로 오해"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 지도의 특징·쓰임새가 비교됨",
+      "partial": "한 종류만 다루거나 비교 없이 나열",
+      "insufficient_evidence": "'지도' 제목만으로 디지털 지도 포함 여부 불명",
+      "unsuitable": "특정 지도 앱 홍보, 지도와 무관한 영상 편집 강좌"
+    },
+    "empty_result_interpretation": "'영상 지도'라는 표현이 '영상'과 겹쳐 검색이 흐려졌는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q013",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "문화유산_건축",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+    "lesson_goal": "문화유산에 담긴 옛사람의 기술과 재료를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "문화유산",
+        "석탑",
+        "목조 건축물"
+      ],
+      "requested_content_or_relation": [
+        "만든 방법 또는 재료"
+      ],
+      "required_conditions": [
+        {
+          "condition": "만든 방법 또는 재료 설명",
+          "supporting_phrase": "반드시 만든 방법이나 재료 설명이 있어야"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(석탑 OR 목조 건축물) AND (제작 방법 OR 재료 설명). '우리나라' 문화유산으로 한정",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "재료·제작 설명이 실제로 나오는지는 소개문만으로 확인하기 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "대상(석탑/목조)을 AND로 잘못 처리해 결과를 과도하게 줄임",
+      "문화유산 소개만 있고 재료·방법이 없는 자료를 적합으로 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "석탑 또는 목조 건축물과 그 재료·제작 방법 설명이 확인됨",
+      "partial": "대상은 맞으나 재료·방법 설명이 확인되지 않음",
+      "insufficient_evidence": "대상은 확인되나 제작 설명 존재 여부를 소개문으로 확인 불가",
+      "unsuitable": "외국 문화유산, 문화유산 관람 예절 자료"
+    },
+    "empty_result_interpretation": "OR 조건을 AND로 처리했는지, '반드시' 조건을 소개문 키워드로만 찾았는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q014",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "지역_축제",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "고장 대표 축제 소개 영상 찾는데, 관광 홍보처럼 볼거리만 나열하는 건 빼고 축제가 생겨난 배경이 나오는 걸로요",
+    "lesson_goal": "지역 축제가 생겨난 배경과 고장의 특징을 연결한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "지역 축제"
+      ],
+      "requested_content_or_relation": [
+        "축제가 생겨난 배경"
+      ],
+      "required_conditions": [
+        {
+          "condition": "축제 생성 배경 설명",
+          "supporting_phrase": "축제가 생겨난 배경이 나오는"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "볼거리 나열 위주의 관광 홍보물",
+          "supporting_phrase": "관광 홍보처럼 볼거리만 나열하는 건 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "축제 소개 AND 생성 배경. 볼거리 나열 중심 홍보물은 제외. 특정 지역은 지정되지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "홍보성 여부는 내용 확인 없이는 판단하기 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'고장'을 특정 지역 조건으로 보고 확인 질문을 과도하게 요구",
+      "축제가 언급되기만 하면 모두 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "특정 축제의 유래·지역 특성과의 관계가 설명됨",
+      "partial": "축제 소개는 있으나 배경 설명이 짧음",
+      "insufficient_evidence": "홍보성인지 배경 설명형인지 소개문만으로 구분 불가",
+      "unsuitable": "행사 일정·먹거리 나열 위주 홍보 영상"
+    },
+    "empty_result_interpretation": "제외 조건이 과도하게 적용됐는지 확인. 축제 관련 결과 전체 수와 제외 후 수를 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q015",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "전통_놀이",
+    "primary_test_type": "선호 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "옛날 어린이들이 하던 놀이 영상 찾아요. 가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요",
+    "lesson_goal": "옛날 놀이를 알고 직접 해 본다",
+    "usage_purpose": "활동 안내",
+    "expected_interpretation": {
+      "core_topic": [
+        "전통 놀이"
+      ],
+      "requested_content_or_relation": [
+        "놀이 소개"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "놀이 방법 안내 포함",
+          "supporting_phrase": "가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요"
+        }
+      ],
+      "logical_structure": "필수는 옛날 어린이 놀이. 놀이 방법 안내는 선호 조건으로 순위에만 반영, 미충족이 제외 사유는 아님",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "선호 조건을 필수로 처리해 방법 설명 없는 자료를 탈락",
+      "현대 놀이·게임을 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "옛날 놀이가 나오고 방법 설명이 있으면 상위",
+      "partial": "놀이 소개만 있고 방법 설명은 없음(여전히 후보)",
+      "insufficient_evidence": "'민속' 제목만으로 놀이 내용 확인 불가",
+      "unsuitable": "현대 체육 활동, 전자 게임"
+    },
+    "empty_result_interpretation": "선호 조건이 필수처럼 걸려 결과가 사라졌는지 확인. 필수 조건만으로 재검색",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q016",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "지명_유래",
+    "primary_test_type": "시간·자막·방송 형식·프로그램 조건 요청",
+    "secondary_test_types": [],
+    "query": "EBS 애니메이션 형식으로 된 고장 이름 유래 이야기, 10분 안쪽으로 찾아요",
+    "lesson_goal": "고장 이름에 담긴 유래를 이야기로 이해한다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "지명 유래"
+      ],
+      "requested_content_or_relation": [
+        "고장 이름이 생긴 이야기"
+      ],
+      "required_conditions": [
+        {
+          "condition": "애니메이션 형식",
+          "supporting_phrase": "애니메이션 형식"
+        },
+        {
+          "condition": "10분 이내 분량",
+          "supporting_phrase": "10분 안쪽"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "지명 유래 AND 애니메이션 AND 10분 이내",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "애니메이션 형식 여부는 메타데이터가 없으면 소개문만으로 확인 어려움",
+        "길이는 메타데이터 필드로 확인 필요"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "실사 다큐를 애니메이션으로 오판",
+      "길이 메타데이터 없이 추정해 적합 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "지명 유래를 다루는 애니메이션이며 길이 10분 이내가 확인됨",
+      "partial": "주제는 맞으나 형식이나 길이 중 하나가 확인되지 않음",
+      "insufficient_evidence": "형식·길이 메타데이터가 없음",
+      "unsuitable": "실사 여행 영상, 10분을 넘는 강의"
+    },
+    "empty_result_interpretation": "형식·길이 필터가 메타데이터 부재로 결과를 모두 지웠는지 확인. 주제만으로 결과가 있으면 필터 처리 문제",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q017",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "사회",
+    "topic_family": "지역_특산물",
+    "primary_test_type": "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "우리 지역 특산물이 만들어지는 과정을 보여주고 싶어요",
+    "lesson_goal": "고장의 특산물과 생산 과정을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "지역 특산물"
+      ],
+      "requested_content_or_relation": [
+        "특산물 생산 과정"
+      ],
+      "required_conditions": [
+        {
+          "condition": "생산 과정이 나옴",
+          "supporting_phrase": "만들어지는 과정"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "'우리 지역'이 어디인지 정보가 없어 지역 조건을 확정할 수 없음",
+      "needs_clarification": [
+        "'우리 지역'이 어느 시·군·구인지",
+        "특산물이 무엇인지(농산물·수산물·공예품 등)"
+      ],
+      "not_verifiable_from_description_alone": [
+        "지역을 모르면 적합성 판정 자체 불가"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "사용자 위치나 임의의 지역을 넣어 검색",
+      "아무 지역 특산물을 적합으로 판정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "(지역 확인 후) 해당 지역 특산물의 생산 과정이 나옴",
+      "partial": "지역 미확인 상태의 일반 특산물 생산 과정 자료",
+      "insufficient_evidence": "지역 정보가 없어 판단 보류",
+      "unsuitable": "특산물 판매 홍보, 생산 과정이 없는 자료"
+    },
+    "empty_result_interpretation": "지역 미지정 상태의 빈 결과는 판단 불가. 확인 질문을 먼저 해야 하며, 확인 후에도 없으면 자료 부족 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q018",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "동물_한살이",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "배추흰나비 한살이",
+    "lesson_goal": "배추흰나비의 알-애벌레-번데기-어른벌레 과정을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "배추흰나비",
+        "한살이"
+      ],
+      "requested_content_or_relation": [
+        "한살이 단계"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "다른 나비·곤충 한살이를 동일하게 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "배추흰나비의 한살이 단계가 다뤄짐",
+      "partial": "곤충 한살이 일반 중 배추흰나비가 일부 등장",
+      "insufficient_evidence": "'나비' 제목만으로 종 확인 불가",
+      "unsuitable": "나비 표본·채집, 다른 곤충만 다룬 자료"
+    },
+    "empty_result_interpretation": "대표 주제라 빈 결과면 검색 실패 가능성이 큼",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q019",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "자석_극",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "자석 N극 S극",
+    "lesson_goal": "자석의 두 극과 극 사이의 성질을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "자석의 극"
+      ],
+      "requested_content_or_relation": [
+        "N극·S극 성질"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "전자석·발전기 등 확장 주제를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "자석의 두 극과 끌어당김·밀어냄이 다뤄짐",
+      "partial": "자석 일반 소개에서 극이 짧게 언급",
+      "insufficient_evidence": "'자석' 제목만으로 극 설명 여부 불명",
+      "unsuitable": "자석 장난감 광고, 지구 자기장 심화"
+    },
+    "empty_result_interpretation": "대표 주제라 빈 결과면 검색 실패 가능성이 큼. 'N극', 'S극' 토큰 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q020",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "소리_성질",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "소리의 세기랑 높낮이 실험 전에, 아이들이 '큰 소리'와 '높은 소리'를 헷갈리지 않게 구분해 주는 자료가 필요해요",
+    "lesson_goal": "소리의 세기와 높낮이를 구분한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "소리의 세기",
+        "소리의 높낮이"
+      ],
+      "requested_content_or_relation": [
+        "두 개념의 구분"
+      ],
+      "required_conditions": [
+        {
+          "condition": "세기와 높낮이를 구분해 설명",
+          "supporting_phrase": "헷갈리지 않게 구분해 주는"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "세기 AND 높낮이를 함께 다루며 차이를 짚어 주어야 함",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한 개념만 설명한 자료를 적합 처리",
+      "음악 수업 음정 연습 자료로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 개념을 대비해 구분해 줌",
+      "partial": "두 개념이 나오지만 구분이 명확하지 않거나 하나만 나옴",
+      "insufficient_evidence": "'소리' 제목만으로 두 개념 포함 여부 불명",
+      "unsuitable": "소음 공해, 악기 연주 영상"
+    },
+    "empty_result_interpretation": "'큰 소리/높은 소리' 일상 표현과 개념어 연결 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q021",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "물질_상태",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "고체, 액체, 기체를 처음 배울 때 주변 물건을 분류하는 활동 직전에 보여줄 영상",
+    "lesson_goal": "물질의 세 가지 상태를 알고 분류한다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "고체·액체·기체"
+      ],
+      "requested_content_or_relation": [
+        "세 상태의 특징",
+        "주변 물질 예시"
+      ],
+      "required_conditions": [
+        {
+          "condition": "세 상태 모두 다룸",
+          "supporting_phrase": "고체, 액체, 기체"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "세 상태 모두 필요. '주변 물건' 예시가 있으면 활용에 유리하나 필수로 명시되진 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "상태 변화(얼음→물)만 다룬 자료를 적합 처리",
+      "기체 한 가지만 다룬 자료"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "세 상태의 특징과 예시가 다뤄짐",
+      "partial": "일부 상태만 다룸",
+      "insufficient_evidence": "'물질' 제목만 있어 상태 구분 여부 불명",
+      "unsuitable": "화학 반응·원소 주기율표"
+    },
+    "empty_result_interpretation": "기초 주제라 빈 결과면 검색 실패 가능성이 큼",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q022",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "달_모양",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+    "lesson_goal": "달의 모양 변화에 관심을 갖고 관찰을 시작한다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "달의 모양 변화"
+      ],
+      "requested_content_or_relation": [
+        "날짜에 따른 달 모양 변화"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제와 도입 목적",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "달 탐사·우주선 영상을 적합 처리",
+      "월식과 혼동"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "날짜에 따라 달 모양이 달라지는 모습이 나옴",
+      "partial": "달 일반 소개 중 모양 변화가 일부",
+      "insufficient_evidence": "'달' 제목만으로 위상 변화 내용 불명",
+      "unsuitable": "달 착륙 역사, 추석 풍습"
+    },
+    "empty_result_interpretation": "흔한 주제라 빈 결과면 검색 실패 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q023",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "증발",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "젖은 빨래가 마르면 그 물은 어디로 간 건지 아이가 물어봤어요. 물이 눈에 안 보이게 날아가는 걸 보여줄 수 있는 거요",
+    "lesson_goal": "증발 현상을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "증발"
+      ],
+      "requested_content_or_relation": [
+        "액체 물이 수증기로 변해 공기 중으로 가는 현상"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 현상을 '증발'로 연결해야 함",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "세탁 방법·빨래 건조기 자료로 해석",
+      "끓음과 증발 구분 없이 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "증발 개념과 일상 예가 나옴",
+      "partial": "물의 상태 변화 전반에서 증발이 일부",
+      "insufficient_evidence": "'물의 변화' 제목만 있고 증발 포함 여부 불명",
+      "unsuitable": "세탁 생활 정보"
+    },
+    "empty_result_interpretation": "일상 표현을 개념어로 바꾸지 못한 검색 실패 가능성. '증발' 검색과 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q024",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "자석_물체",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "제외·부정 조건을 포함한 요청"
+    ],
+    "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+    "lesson_goal": "자석에 붙는 물체와 붙지 않는 물체를 구분한다",
+    "usage_purpose": "활동",
+    "expected_interpretation": {
+      "core_topic": [
+        "자석에 붙는 물체"
+      ],
+      "requested_content_or_relation": [
+        "붙는 물체와 붙지 않는 물체 구분"
+      ],
+      "required_conditions": [
+        {
+          "condition": "붙는 물체",
+          "supporting_phrase": "붙는 물건"
+        },
+        {
+          "condition": "안 붙는 물체",
+          "supporting_phrase": "안 붙는 물건"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "붙는 것 AND 안 붙는 것 모두 필요. '냉장고'는 예시 상황이며 냉장고 자체가 주제 아님",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "냉장고 원리·가전 영상으로 해석",
+      "'안 붙는'을 제외 조건으로 오해해 붙지 않는 예를 걸러냄"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "자석에 붙는 물체와 붙지 않는 물체가 모두 나옴",
+      "partial": "붙는 물체만 나옴",
+      "insufficient_evidence": "'자석' 제목만으로 구분 활동 여부 불명",
+      "unsuitable": "냉장고 사용법, 전자석"
+    },
+    "empty_result_interpretation": "'안 붙는'의 부정 표현이 제외 조건으로 잘못 처리됐는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q025",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "동물_겨울나기",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "겨울만 되면 개구리랑 뱀이 다 어디 갔냐고 아이들이 궁금해해요",
+    "lesson_goal": "동물의 겨울잠과 겨울나기 방법을 안다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "동물의 겨울나기",
+        "겨울잠"
+      ],
+      "requested_content_or_relation": [
+        "개구리·뱀이 겨울을 나는 방법"
+      ],
+      "required_conditions": [
+        {
+          "condition": "개구리 또는 뱀의 겨울나기",
+          "supporting_phrase": "개구리랑 뱀"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 동물이 예시로 나왔으나 둘 다 나와야 한다는 표현은 없음. 겨울잠 개념 자료면 둘 중 하나만 나와도 적합 가능",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "개구리 한살이·뱀 생태 일반을 적합 처리",
+      "'어디 갔냐'를 서식지 이동(철새 등)으로 한정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "개구리나 뱀 등의 겨울잠이 설명됨",
+      "partial": "동물 겨울나기 전반에서 다른 동물만 예시",
+      "insufficient_evidence": "'겨울 동물' 제목만으로 겨울잠 여부 불명",
+      "unsuitable": "개구리 해부, 뱀 위험 안전 교육"
+    },
+    "empty_result_interpretation": "'겨울잠' 개념으로 연결 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q026",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "식물_한살이",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+    "lesson_goal": "식물의 한살이 과정을 순서대로 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "식물의 한살이"
+      ],
+      "requested_content_or_relation": [
+        "싹 틈→자람→꽃→열매의 순서"
+      ],
+      "required_conditions": [
+        {
+          "condition": "씨앗부터 열매까지 순서",
+          "supporting_phrase": "어떤 순서로 자라는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "과정의 순서가 핵심. 특정 식물은 지정되지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "씨앗 구조만 다룬 자료를 적합 처리",
+      "식물 이름 소개만 있는 자료"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "한살이 전 단계가 순서대로 나옴",
+      "partial": "일부 단계(발아만 등)만 나옴",
+      "insufficient_evidence": "'식물 기르기' 제목만으로 단계 확인 불가",
+      "unsuitable": "채소 요리, 텃밭 상품 광고"
+    },
+    "empty_result_interpretation": "대표 주제라 빈 결과면 검색 실패 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q027",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "소리_전달",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [
+      "두 대상이나 사례를 비교하는 요청"
+    ],
+    "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+    "lesson_goal": "소리가 물체를 통해 전달되는 원리를 이해한다",
+    "usage_purpose": "실험 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "소리의 전달"
+      ],
+      "requested_content_or_relation": [
+        "실을 통한 진동 전달 과정",
+        "실의 상태에 따른 차이"
+      ],
+      "required_conditions": [
+        {
+          "condition": "실 전화기 소리 전달 원리",
+          "supporting_phrase": "어떻게 전달되는지"
+        },
+        {
+          "condition": "팽팽할 때와 느슨할 때 차이",
+          "supporting_phrase": "팽팽할 때랑 느슨할 때 차이까지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "전달 원리 AND 조건별 차이",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "실의 상태 비교 장면이 있는지는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "실 전화기 만들기 공작만 다룬 자료를 적합 처리",
+      "'전화기'를 통신 기기 역사로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "원리와 실 상태별 차이가 모두 나옴",
+      "partial": "원리만 있고 차이 비교가 없음",
+      "insufficient_evidence": "실 전화기 등장은 확인되나 비교 장면 여부 불명",
+      "unsuitable": "휴대전화 역사, 공작 키트 홍보"
+    },
+    "empty_result_interpretation": "세부 조건 때문에 정당한 빈 결과일 수 있음. '소리의 전달' 결과에서 부분 관련 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q028",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "곤충_거미",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "곤충이랑 거미가 몸 구조에서 어떻게 다른지 비교해 주는 영상",
+    "lesson_goal": "곤충과 거미의 몸 구조 차이를 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "곤충",
+        "거미"
+      ],
+      "requested_content_or_relation": [
+        "몸 구조 비교(몸의 마디·다리 수 등)"
+      ],
+      "required_conditions": [
+        {
+          "condition": "곤충",
+          "supporting_phrase": "곤충"
+        },
+        {
+          "condition": "거미",
+          "supporting_phrase": "거미"
+        },
+        {
+          "condition": "몸 구조 차이",
+          "supporting_phrase": "몸 구조에서 어떻게 다른지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비교이므로 두 대상 모두 필요(AND)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "곤충만 다룬 자료를 적합 처리",
+      "거미줄 사냥 등 행동 영상을 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 동물의 몸 구조가 비교됨",
+      "partial": "한쪽만 몸 구조 설명",
+      "insufficient_evidence": "둘 다 등장하는지 소개문만으로 불명",
+      "unsuitable": "거미 공포 예능, 해충 방제"
+    },
+    "empty_result_interpretation": "비교형 자료 부족일 수 있음. 각 대상 개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q029",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "환경_적응",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "사막이나 극지방 중 한 곳에 사는 동물이 그 환경에 맞게 생긴 모습이 나오는 영상이요. 둘 중 하나만 나와도 괜찮아요",
+    "lesson_goal": "동물의 생김새가 사는 환경에 적응한 모습임을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "동물의 환경 적응"
+      ],
+      "requested_content_or_relation": [
+        "환경에 맞는 생김새"
+      ],
+      "required_conditions": [
+        {
+          "condition": "생김새와 환경의 관계",
+          "supporting_phrase": "그 환경에 맞게 생긴 모습"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(사막 OR 극지방) AND 적응한 생김새. 두 환경이 모두 나올 필요 없음을 원문이 명시",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "두 환경을 AND로 처리해 결과를 과도하게 줄임",
+      "동물 소개만 있고 적응 설명 없는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "사막 또는 극지방 동물의 적응 형태가 설명됨",
+      "partial": "해당 환경 동물이 나오나 적응 설명이 약함",
+      "insufficient_evidence": "동물 등장만 확인",
+      "unsuitable": "사막·극지 여행기, 동물원 관람"
+    },
+    "empty_result_interpretation": "OR 조건이 AND로 처리됐는지 우선 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q030",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "흙_생성",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "흙이 만들어지는 과정을 보여주는데, 반드시 바위가 부서지는 장면과 식물·동물 같은 것이 섞이는 설명이 둘 다 있어야 해요",
+    "lesson_goal": "흙이 만들어지는 과정을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "흙의 생성"
+      ],
+      "requested_content_or_relation": [
+        "바위의 부서짐",
+        "생물 물질이 섞임"
+      ],
+      "required_conditions": [
+        {
+          "condition": "바위가 부서지는 장면",
+          "supporting_phrase": "바위가 부서지는 장면"
+        },
+        {
+          "condition": "생물 물질이 섞이는 설명",
+          "supporting_phrase": "식물·동물 같은 것이 섞이는 설명"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 요소 AND('반드시', '둘 다')",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "특정 장면 포함 여부는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "둘 중 하나만 있는 자료를 적합 처리",
+      "흙 종류 비교 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 요소가 모두 확인됨",
+      "partial": "한 요소만 확인됨",
+      "insufficient_evidence": "'흙' 주제는 맞으나 장면 확인 불가",
+      "unsuitable": "화분 흙 고르기, 흙놀이"
+    },
+    "empty_result_interpretation": "엄격 AND로 정당한 빈 결과 가능성. 개별 요소 결과 존재 여부를 따로 기록",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q031",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "화산",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "화산 영상 찾는데 실제 재난 피해 장면이나 사람이 다치는 장면은 빼 주세요. 화산 생김새랑 분출물 위주로요",
+    "lesson_goal": "화산의 생김새와 분출물을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "화산"
+      ],
+      "requested_content_or_relation": [
+        "화산 생김새",
+        "분출물"
+      ],
+      "required_conditions": [
+        {
+          "condition": "화산 생김새·분출물 중심",
+          "supporting_phrase": "화산 생김새랑 분출물 위주로"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "재난 피해 장면",
+          "supporting_phrase": "실제 재난 피해 장면"
+        },
+        {
+          "condition": "사람이 다치는 장면",
+          "supporting_phrase": "사람이 다치는 장면은 빼 주세요"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "화산 생김새·분출물 중심 AND NOT(재난 피해 OR 부상 장면)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "피해 장면 포함 여부는 소개문만으로 확인이 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'화산'만 보고 재난 뉴스까지 적합 처리",
+      "제외 조건을 이유로 화산 관련 자료를 전부 걸러냄"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "생김새·분출물 설명이 있고 피해 장면이 없음이 확인됨",
+      "partial": "주제는 맞으나 피해 장면 포함 여부 미확인",
+      "insufficient_evidence": "장면 정보가 없음",
+      "unsuitable": "화산 재난 뉴스, 인명 피해 다큐"
+    },
+    "empty_result_interpretation": "제외 조건이 '재난' 단어만으로 과잉 필터링했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q032",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "물의_상태",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "물의 세 가지 상태 설명 자료요. 실험실 기구 쓰는 건 말고 집에서 볼 수 있는 예로 보여주는 거",
+    "lesson_goal": "얼음·물·수증기를 생활 속 예로 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "물의 상태"
+      ],
+      "requested_content_or_relation": [
+        "얼음·물·수증기"
+      ],
+      "required_conditions": [
+        {
+          "condition": "집에서 볼 수 있는 예",
+          "supporting_phrase": "집에서 볼 수 있는 예로"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "실험실 기구 사용 장면 중심",
+          "supporting_phrase": "실험실 기구 쓰는 건 말고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "물의 세 상태 AND 생활 예 AND NOT 실험실 기구 중심",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "실험 장면 유무는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "실험 영상이라는 이유만으로 생활 예가 함께 나오는 자료까지 제외",
+      "증발만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "세 상태를 생활 예로 설명하며 실험실 장면 중심이 아님",
+      "partial": "세 상태는 다루나 생활 예와 실험 장면이 섞임",
+      "insufficient_evidence": "예시 유형 확인 불가",
+      "unsuitable": "실험 기구 조작법 위주 자료"
+    },
+    "empty_result_interpretation": "제외 조건 처리로 결과가 과도하게 줄었는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q033",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "동물_한살이_일반",
+    "primary_test_type": "선호 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "동물의 한살이 자료요. 있으면 좋겠는 건 실제 촬영 장면인데, 그림으로 된 것도 괜찮아요",
+    "lesson_goal": "동물이 자라는 과정을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "동물의 한살이"
+      ],
+      "requested_content_or_relation": [
+        "한살이 단계"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "실사 촬영",
+          "supporting_phrase": "있으면 좋겠는 건 실제 촬영 장면"
+        }
+      ],
+      "logical_structure": "필수는 동물 한살이. 실사는 선호, 그림 자료도 허용",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "실사 여부는 메타데이터 없으면 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "선호를 필수로 처리해 그림 자료 제외",
+      "식물 한살이 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "동물 한살이를 다루며 실사면 상위",
+      "partial": "한살이 일부 단계만 다룸",
+      "insufficient_evidence": "한살이 내용 여부 불명",
+      "unsuitable": "애완동물 돌보기, 식물 한살이"
+    },
+    "empty_result_interpretation": "선호 조건이 필터로 작동했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q034",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등3~4",
+    "subject": "과학",
+    "topic_family": "지층",
+    "primary_test_type": "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청",
+    "secondary_test_types": [],
+    "query": "아까 본 거 같은, 돌이 층층이 쌓여 있는 이런 모습 다른 지역 것도 보여주고 싶어요",
+    "lesson_goal": "층을 이룬 암석(지층으로 추정)의 여러 사례를 본다",
+    "usage_purpose": "사례 제시",
+    "expected_interpretation": {
+      "core_topic": [
+        "층을 이룬 암석(지층 추정)"
+      ],
+      "requested_content_or_relation": [
+        "다른 지역 사례"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "'이런 모습'과 '아까 본 거'가 무엇을 가리키는지 원문에 없음. 지층으로 추정되나 확정 불가. 기준이 된 지역도 불명",
+      "needs_clarification": [
+        "'아까 본' 자료나 장소가 무엇인지",
+        "지층을 말하는지, 돌탑·주상절리 등 다른 모습인지",
+        "'다른 지역'이 국내인지 해외인지"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "'이런 모습'을 임의로 확정하고 대화 맥락 없이 검색",
+      "돌탑 쌓기 같은 다른 의미로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "(대상 확인 후) 기준과 다른 지역의 해당 지형이 나옴",
+      "partial": "지층 일반 자료",
+      "insufficient_evidence": "지시 대상 미확인으로 판단 보류",
+      "unsuitable": "돌 공예, 건축 벽돌"
+    },
+    "empty_result_interpretation": "지시 대상이 불명이라 빈 결과는 판단 불가. 확인 질문 후 재검색",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q035",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "영토_독도",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "독도",
+    "lesson_goal": "독도의 위치와 자연환경, 우리 영토로서의 의미를 다룬다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "독도"
+      ],
+      "requested_content_or_relation": [
+        "독도에 관한 내용"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제. 영토·자연·역사 중 어느 측면인지는 미지정",
+      "needs_clarification": [
+        "자연환경·역사·영토 주권 중 어떤 측면이 필요한지(필요 시)"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "울릉도 관광만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "독도가 중심 주제",
+      "partial": "동해·울릉도 자료 중 독도가 일부",
+      "insufficient_evidence": "독도 포함 여부 불명",
+      "unsuitable": "독도와 무관한 섬 여행"
+    },
+    "empty_result_interpretation": "대표 주제라 빈 결과면 검색 실패 가능성이 큼",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q036",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "삼권분립",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "삼권 분립",
+    "lesson_goal": "국가 권력을 입법·행정·사법으로 나누는 원리를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "삼권 분립"
+      ],
+      "requested_content_or_relation": [
+        "권력 분립 원리"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "국회 한 기관만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "세 권력의 분립과 견제가 설명됨",
+      "partial": "국가 기관 중 일부만 설명",
+      "insufficient_evidence": "'민주주의' 제목만으로 포함 여부 불명",
+      "unsuitable": "정당 뉴스, 특정 정치인 관련 자료"
+    },
+    "empty_result_interpretation": "띄어쓰기('삼권분립') 차이로 실패했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q037",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "선거_원칙",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "모의 학급 선거를 하기 전에 선거의 기본 원칙을 실제 사례로 이해시킬 영상 찾습니다",
+    "lesson_goal": "선거의 기본 원칙을 이해하고 모의 선거에 적용한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "선거의 기본 원칙"
+      ],
+      "requested_content_or_relation": [
+        "원칙 설명",
+        "실제 사례"
+      ],
+      "required_conditions": [
+        {
+          "condition": "실제 사례 포함",
+          "supporting_phrase": "실제 사례로"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "선거 원칙 AND 사례. 원칙의 개수·종류는 원문이 지정하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "원칙 목록(보통·평등·직접·비밀)을 원문 조건으로 추가",
+      "특정 실제 선거 뉴스를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "선거 원칙과 사례가 함께 설명됨",
+      "partial": "원칙 설명만 있고 사례가 없음",
+      "insufficient_evidence": "'선거' 제목만으로 원칙 포함 여부 불명",
+      "unsuitable": "특정 후보·정당 홍보, 선거 결과 보도"
+    },
+    "empty_result_interpretation": "'선거 원칙' 결과에서 사례 유무가 확인되지 않아 생긴 빈 결과인지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q038",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "인권_생활",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "선호 조건을 포함한 요청"
+    ],
+    "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+    "lesson_goal": "생활 속 인권 침해를 찾고 해결 방안을 토론한다",
+    "usage_purpose": "토론",
+    "expected_interpretation": {
+      "core_topic": [
+        "인권 침해"
+      ],
+      "requested_content_or_relation": [
+        "사례",
+        "해결 방법"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "학교·생활 속 사례",
+          "supporting_phrase": "학교나 생활 속 사례가 나오는 자료면 좋겠어요"
+        }
+      ],
+      "logical_structure": "필수는 인권 침해 사례. 학교·생활 사례는 선호. 해결 방법은 토론 주제로, 영상에 반드시 나와야 한다고 명시되진 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "역사적 인권 침해만 다룬 자료를 부적합 처리(선호 미충족일 뿐)",
+      "인권 개념 정의만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "구체적 침해 사례가 나오고 생활 사례면 상위",
+      "partial": "인권 개념 설명 중 사례가 짧음",
+      "insufficient_evidence": "사례 포함 여부 불명",
+      "unsuitable": "인권과 무관한 학교 생활 안내"
+    },
+    "empty_result_interpretation": "선호 조건이 필수처럼 작동했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q039",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "조선후기_실학",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "조선 후기 실학자들의 생각을 소개하고, 학생들이 '내가 실학자라면 무엇을 바꿀까' 글쓰기를 하게 하려고요",
+    "lesson_goal": "실학자들의 개혁 사상을 이해하고 자기 생각으로 표현한다",
+    "usage_purpose": "글쓰기 활동",
+    "expected_interpretation": {
+      "core_topic": [
+        "실학"
+      ],
+      "requested_content_or_relation": [
+        "실학자들의 주장·개혁안"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "실학자 사상 소개가 핵심. 글쓰기는 활동",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "특정 실학자 생애만 다룬 자료를 적합 처리",
+      "조선 전기 학자 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "실학자들의 개혁 주장이 소개됨",
+      "partial": "실학자 한 명의 생애 위주",
+      "insufficient_evidence": "'조선 후기' 제목만으로 실학 포함 여부 불명",
+      "unsuitable": "조선 후기 서민 문화만 다룬 자료"
+    },
+    "empty_result_interpretation": "빈 결과면 '정약용', '박지원' 등 인물명 검색과 대조하되 원문에 없는 인물 조건을 추가하지 않음",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q040",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "도시화",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "사람들이 시골을 떠나서 도시로 몰려가면서 생긴 문제들 보여주는 영상",
+    "lesson_goal": "도시화로 생긴 문제를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "도시화",
+        "이촌향도"
+      ],
+      "requested_content_or_relation": [
+        "인구 이동으로 생긴 문제"
+      ],
+      "required_conditions": [
+        {
+          "condition": "그로 인해 생긴 문제",
+          "supporting_phrase": "생긴 문제들"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "인구 이동 → 문제(결과). 도시 문제와 농촌 문제 모두 해당 가능",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "도시 관광·도시 소개 영상을 적합 처리",
+      "'문제'를 도시 문제만으로 한정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "인구 이동과 그로 인한 문제(주택·교통·농촌 공동화 등)가 설명됨",
+      "partial": "인구 이동만 다루고 문제 설명이 약함",
+      "insufficient_evidence": "문제 언급 여부 불명",
+      "unsuitable": "귀농 성공 사례 홍보"
+    },
+    "empty_result_interpretation": "일상 표현을 '도시화'로 연결하지 못했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q041",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "무역",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+    "lesson_goal": "나라 간 무역의 의미를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "무역"
+      ],
+      "requested_content_or_relation": [
+        "수출·수입"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 표현을 '무역·수출입'으로 연결",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "해외 직구 쇼핑 정보로 해석",
+      "외교·선물 교환으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "수출·수입 개념과 사례가 나옴",
+      "partial": "세계 경제 일반 중 무역이 일부",
+      "insufficient_evidence": "무역 내용 포함 여부 불명",
+      "unsuitable": "해외 쇼핑 광고"
+    },
+    "empty_result_interpretation": "'무역' 개념어 검색과 대조해 일상 표현 처리 실패인지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q042",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "일제_토지조사",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "일제가 토지 조사 사업을 하면서 농민들 삶이 어떻게 바뀌었는지",
+    "lesson_goal": "일제 강점기 경제 수탈이 농민 생활에 끼친 영향을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "토지 조사 사업"
+      ],
+      "requested_content_or_relation": [
+        "정책 → 농민 생활 변화"
+      ],
+      "required_conditions": [
+        {
+          "condition": "농민 삶의 변화",
+          "supporting_phrase": "농민들 삶이 어떻게 바뀌었는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "원인(토지 조사 사업) → 결과(농민 생활 변화)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "일제 강점기 전반 개요만 있는 자료를 적합 처리",
+      "독립운동 위주 자료"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "사업 내용과 농민 생활 변화가 연결됨",
+      "partial": "사업은 언급되나 농민 영향은 짧음",
+      "insufficient_evidence": "해당 정책 언급 여부 불명",
+      "unsuitable": "현대 토지 측량, 부동산 정보"
+    },
+    "empty_result_interpretation": "세부 주제라 자료 부족 가능성. '일제 강점기 경제 수탈' 결과로 부분 관련 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q043",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "고려_몽골",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "고려가 몽골의 침입에 어떻게 맞섰고, 그 과정에서 팔만대장경을 왜 만들었는지 알려주는 자료",
+    "lesson_goal": "몽골 침입에 대한 고려의 대응과 팔만대장경 제작 배경을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "고려",
+        "몽골 침입",
+        "팔만대장경"
+      ],
+      "requested_content_or_relation": [
+        "대응 과정",
+        "제작 이유"
+      ],
+      "required_conditions": [
+        {
+          "condition": "몽골 침입 대응",
+          "supporting_phrase": "어떻게 맞섰고"
+        },
+        {
+          "condition": "팔만대장경 제작 이유",
+          "supporting_phrase": "팔만대장경을 왜 만들었는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "대응 과정 AND 제작 이유",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "팔만대장경 보존·건축(장경판전)만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 내용이 연결되어 설명됨",
+      "partial": "둘 중 하나만",
+      "insufficient_evidence": "소개문만으로 제작 배경 포함 여부 불명",
+      "unsuitable": "몽골 여행, 원나라 문화"
+    },
+    "empty_result_interpretation": "두 주제 결합 자료 부족 가능성. 개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q044",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "저출산_고령화",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "저출산이랑 고령화가 계속되면 사회에 어떤 변화가 생기는지",
+    "lesson_goal": "인구 구조 변화가 사회에 미치는 영향을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "저출산",
+        "고령화"
+      ],
+      "requested_content_or_relation": [
+        "사회적 영향"
+      ],
+      "required_conditions": [
+        {
+          "condition": "사회 변화(결과)",
+          "supporting_phrase": "사회에 어떤 변화가 생기는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(저출산 AND 고령화) → 사회 변화. 둘 중 하나만 다룬 자료는 부분 관련",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "인구 통계 수치만 나열한 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 현상과 사회적 영향이 설명됨",
+      "partial": "한 현상만 다루거나 영향 설명이 짧음",
+      "insufficient_evidence": "영향 설명 여부 불명",
+      "unsuitable": "노인 건강 정보, 육아 팁"
+    },
+    "empty_result_interpretation": "흔한 주제라 빈 결과면 검색 실패 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q045",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "법의_역할",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "고조선 8조법과 오늘날 법이 하는 역할을 비교해 볼 수 있는 자료",
+    "lesson_goal": "법의 역할이 시대를 넘어 사회 질서 유지에 있음을 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "8조법",
+        "오늘날 법"
+      ],
+      "requested_content_or_relation": [
+        "법의 역할 비교"
+      ],
+      "required_conditions": [
+        {
+          "condition": "고조선 8조법",
+          "supporting_phrase": "고조선 8조법"
+        },
+        {
+          "condition": "오늘날 법",
+          "supporting_phrase": "오늘날 법"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비교이므로 두 대상 모두 필요(AND). 한 자료에 없으면 두 자료 조합 가능",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "고조선 건국 신화만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 법의 역할이 함께 다뤄짐",
+      "partial": "한쪽만",
+      "insufficient_evidence": "8조법 포함 여부 불명",
+      "unsuitable": "법률 상담, 고조선 유물만"
+    },
+    "empty_result_interpretation": "비교 자료가 드물어 정당한 빈 결과 가능. 개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q046",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "민주화운동",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "4·19 혁명과 6월 민주 항쟁의 공통점과 차이점을 정리할 수 있는 자료",
+    "lesson_goal": "두 민주화 운동을 비교한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "4·19 혁명",
+        "6월 민주 항쟁"
+      ],
+      "requested_content_or_relation": [
+        "공통점과 차이점"
+      ],
+      "required_conditions": [
+        {
+          "condition": "4·19 혁명",
+          "supporting_phrase": "4·19 혁명"
+        },
+        {
+          "condition": "6월 민주 항쟁",
+          "supporting_phrase": "6월 민주 항쟁"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 사건 모두 필요(AND)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "5·18만 다룬 자료를 적합 처리",
+      "'4·19' 특수문자 처리 실패"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 사건이 모두 다뤄짐",
+      "partial": "한 사건만",
+      "insufficient_evidence": "둘 다 포함되는지 불명",
+      "unsuitable": "현대 정치 뉴스"
+    },
+    "empty_result_interpretation": "'4·19' 가운뎃점 토큰화 문제 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q047",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "세계_기후_주거",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [
+      "두 대상이나 사례를 비교하는 요청"
+    ],
+    "query": "세계 여러 나라의 기후랑 거기에 맞는 집 모양이 함께 나와야 하고, 열대와 한대 지역이 반드시 둘 다 들어간 영상이요",
+    "lesson_goal": "기후에 따른 주거 형태의 차이를 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "세계의 기후",
+        "주거"
+      ],
+      "requested_content_or_relation": [
+        "기후와 집 모양의 관계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "기후와 집 모양이 함께",
+          "supporting_phrase": "기후랑 거기에 맞는 집 모양이 함께 나와야"
+        },
+        {
+          "condition": "열대 지역",
+          "supporting_phrase": "열대"
+        },
+        {
+          "condition": "한대 지역",
+          "supporting_phrase": "한대 지역"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(기후 AND 주거) AND 열대 AND 한대",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "두 지역 모두 포함되는지 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "한 지역만 나와도 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 지역의 기후와 주거가 모두 나옴",
+      "partial": "한 지역만 또는 주거 설명 없음",
+      "insufficient_evidence": "포함 지역 불명",
+      "unsuitable": "건축 디자인 광고"
+    },
+    "empty_result_interpretation": "엄격 AND 때문에 정당한 빈 결과 가능. 개별 지역 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q048",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "임진왜란",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "임진왜란 수업 자료인데 전투 장면은 빼 주세요. 백성들이 의병으로 나서게 된 배경이랑 생활 위주로요",
+    "lesson_goal": "임진왜란 당시 백성의 삶과 의병 활동 배경을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "임진왜란",
+        "의병"
+      ],
+      "requested_content_or_relation": [
+        "의병이 일어난 배경",
+        "백성 생활"
+      ],
+      "required_conditions": [
+        {
+          "condition": "의병 봉기 배경과 백성 생활 중심",
+          "supporting_phrase": "의병으로 나서게 된 배경이랑 생활 위주로"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "전투 장면",
+          "supporting_phrase": "전투 장면은 빼 주세요"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "임진왜란 AND (의병 배경·백성 생활) AND NOT 전투 장면",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "전투 장면 포함 여부는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'전투'를 이유로 임진왜란 자료를 전부 제외",
+      "이순신 해전 위주 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "의병·백성 생활 중심이며 전투 장면이 없음이 확인됨",
+      "partial": "주제는 맞으나 전투 장면 포함 여부 미확인",
+      "insufficient_evidence": "장면 정보 없음",
+      "unsuitable": "해전·전투 재현 위주 영상"
+    },
+    "empty_result_interpretation": "제외 조건이 '전쟁' 관련어 전체를 걸러냈는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q049",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "경제성장",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "우리나라 경제 성장 과정 영상인데, 특정 기업 홍보 같은 건 빼고 1960~70년대 산업이 어떻게 바뀌었는지 나오는 거요",
+    "lesson_goal": "1960~70년대 산업 구조 변화를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "경제 성장"
+      ],
+      "requested_content_or_relation": [
+        "1960~70년대 산업 변화"
+      ],
+      "required_conditions": [
+        {
+          "condition": "1960~70년대 산업 변화",
+          "supporting_phrase": "1960~70년대 산업이 어떻게 바뀌었는지"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "특정 기업 홍보",
+          "supporting_phrase": "특정 기업 홍보 같은 건 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "시기 AND 산업 변화 AND NOT 기업 홍보",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "기업 이름이 나온다는 이유만으로 제외(홍보와 언급 구분 필요)",
+      "1980년대 이후만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "해당 시기 산업 변화가 나오고 홍보성이 아님",
+      "partial": "경제 성장 전반 중 해당 시기가 일부",
+      "insufficient_evidence": "시기 범위 확인 불가",
+      "unsuitable": "기업 광고, 현재 주식 정보"
+    },
+    "empty_result_interpretation": "제외 조건이 기업명 언급만으로 작동했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q050",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "조선_신분",
+    "primary_test_type": "선호 조건을 포함한 요청",
+    "secondary_test_types": [
+      "복수 필수 조건·AND/OR를 포함한 요청",
+      "시간·자막·방송 형식·프로그램 조건 요청"
+    ],
+    "query": "조선의 신분 제도 자료요. 가능하면 드라마보다 다큐 형식이었으면 하고, 반드시 양반·중인·상민·천민 구분이 나와야 해요",
+    "lesson_goal": "조선의 신분 구조를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "조선 신분 제도"
+      ],
+      "requested_content_or_relation": [
+        "네 신분의 구분"
+      ],
+      "required_conditions": [
+        {
+          "condition": "네 신분 구분",
+          "supporting_phrase": "반드시 양반·중인·상민·천민 구분이 나와야"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "다큐 형식 선호",
+          "supporting_phrase": "가능하면 드라마보다 다큐 형식이었으면"
+        }
+      ],
+      "logical_structure": "네 신분 구분은 필수, 다큐 형식은 선호",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "형식 정보가 메타데이터에 없을 수 있음"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "다큐 형식을 필수로 처리",
+      "선호와 필수를 반대로 적용"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "네 신분 구분이 나오고 다큐 형식이면 상위",
+      "partial": "신분 일부만 언급",
+      "insufficient_evidence": "구분 내용 확인 불가",
+      "unsuitable": "사극 하이라이트로만 이루어진 오락물"
+    },
+    "empty_result_interpretation": "선호 조건이 필터로 작동했는지 먼저 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q051",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "사회",
+    "topic_family": "인권_차별",
+    "primary_test_type": "시간·자막·방송 형식·프로그램 조건 요청",
+    "secondary_test_types": [],
+    "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+    "lesson_goal": "차별과 인권 문제를 생각해 본다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "차별",
+        "인권"
+      ],
+      "requested_content_or_relation": [
+        "특정 프로그램의 관련 편"
+      ],
+      "required_conditions": [
+        {
+          "condition": "지식채널e 프로그램",
+          "supporting_phrase": "지식채널e"
+        },
+        {
+          "condition": "자막 포함",
+          "supporting_phrase": "자막이 같이 나오는"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "프로그램 AND (차별 OR 인권) AND 자막",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "자막 여부는 영상 확인 없이 소개문만으로 알기 어려움",
+        "해당 프로그램이 서비스 자료에 포함됐는지 미확인"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "다른 프로그램 자료를 프로그램 조건 충족으로 처리",
+      "자막 확인 없이 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "해당 프로그램의 인권·차별 편이며 자막 확인됨",
+      "partial": "프로그램·주제는 맞으나 자막 미확인",
+      "insufficient_evidence": "자막 정보 없음",
+      "unsuitable": "다른 프로그램, 무관한 주제"
+    },
+    "empty_result_interpretation": "프로그램이 색인에 없을 가능성(자료 부족)과 프로그램명 매칭 실패를 구분. 자막 메타데이터 존재 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q052",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "전자석",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "전자석",
+    "lesson_goal": "전자석의 성질을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "전자석"
+      ],
+      "requested_content_or_relation": [
+        "전자석 성질·만들기"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "영구 자석만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "전자석이 중심",
+      "partial": "자석 일반 중 전자석이 일부",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "전자 제품 광고"
+    },
+    "empty_result_interpretation": "대표 주제라 검색 실패 가능성이 큼",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q053",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "용해",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "용해와 용액",
+    "lesson_goal": "용해와 용액의 의미를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "용해",
+        "용액"
+      ],
+      "requested_content_or_relation": [
+        "개념 설명"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 관련 개념 나열",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "'용해'를 금속 녹이기(제련) 등으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "물질이 물에 녹아 용액이 되는 과정 설명",
+      "partial": "둘 중 하나만",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "제철 공정"
+    },
+    "empty_result_interpretation": "기초 주제라 검색 실패 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q054",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "연소_조건",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "연소 조건 실험 전에 안전 교육도 겸해서 '불이 붙으려면 무엇이 필요할까' 질문을 던질 수 있는 도입 자료",
+    "lesson_goal": "연소의 조건에 관심을 갖고 안전 의식을 기른다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "연소의 조건"
+      ],
+      "requested_content_or_relation": [
+        "불이 붙는 데 필요한 요소"
+      ],
+      "required_conditions": [
+        {
+          "condition": "연소에 필요한 요소에 대한 질문·제시",
+          "supporting_phrase": "불이 붙으려면 무엇이 필요할까"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "연소 조건 도입. 안전 교육은 겸하는 목적으로, 영상의 필수 요소인지 불명",
+      "needs_clarification": [
+        "영상에 화재 안전 내용이 반드시 포함돼야 하는지"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "소화기 사용법만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "연소의 조건을 질문이나 현상으로 제시",
+      "partial": "연소 일반 설명",
+      "insufficient_evidence": "조건 설명 여부 불명",
+      "unsuitable": "캠핑 불 피우기 팁"
+    },
+    "empty_result_interpretation": "안전 교육 조건을 필수로 처리했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q055",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "먹이그물",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "먹이 사슬이랑 먹이 그물 배운 뒤에 '한 생물이 사라지면 어떻게 될까' 토론 자료로 쓸 영상",
+    "lesson_goal": "생태계 구성 요소 간 관계를 토론한다",
+    "usage_purpose": "토론",
+    "expected_interpretation": {
+      "core_topic": [
+        "먹이 그물"
+      ],
+      "requested_content_or_relation": [
+        "한 생물이 사라질 때의 연쇄 영향"
+      ],
+      "required_conditions": [
+        {
+          "condition": "생물이 사라졌을 때의 영향",
+          "supporting_phrase": "한 생물이 사라지면 어떻게 될까"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "먹이 관계 AND 사라짐에 따른 영향",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "먹이 사슬 정의만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "특정 생물의 감소·소멸이 생태계에 미친 영향이 나옴",
+      "partial": "먹이 관계 설명만",
+      "insufficient_evidence": "영향 내용 확인 불가",
+      "unsuitable": "동물 사냥 장면 모음"
+    },
+    "empty_result_interpretation": "관계 서술 처리 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q056",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "응결",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "추운 날 안경에 김 서리는 거랑 아침에 풀잎에 물방울 맺히는 게 같은 원리라는 걸 보여주는 거",
+    "lesson_goal": "응결 현상과 이슬을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "응결",
+        "이슬"
+      ],
+      "requested_content_or_relation": [
+        "두 현상의 공통 원리"
+      ],
+      "required_conditions": [
+        {
+          "condition": "같은 원리임을 연결",
+          "supporting_phrase": "같은 원리라는 걸"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 일상 현상을 하나의 원리(응결)로 연결",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "안경 관리 생활 팁으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "응결 원리와 일상 예가 설명됨",
+      "partial": "응결이나 이슬 하나만",
+      "insufficient_evidence": "원리 설명 여부 불명",
+      "unsuitable": "안경 김 서림 방지 제품"
+    },
+    "empty_result_interpretation": "일상 표현 → 개념어 연결 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q057",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "열대우림_비유",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "아이들이 '지구의 허파'가 왜 점점 줄어드는지 물어봤어요",
+    "lesson_goal": "열대 우림 감소 원인을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "열대 우림(비유)"
+      ],
+      "requested_content_or_relation": [
+        "감소 원인"
+      ],
+      "required_conditions": [
+        {
+          "condition": "줄어드는 원인",
+          "supporting_phrase": "왜 점점 줄어드는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "비유 '지구의 허파'를 열대 우림(주로 아마존 등)으로 해석해야 함",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "'허파'를 인체 호흡 기관으로 해석",
+      "대기 오염 일반으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "열대 우림 감소 원인이 설명됨",
+      "partial": "열대 우림 소개만",
+      "insufficient_evidence": "원인 설명 여부 불명",
+      "unsuitable": "폐 건강 정보"
+    },
+    "empty_result_interpretation": "비유 표현 처리 실패 가능성이 큼. '열대 우림 파괴' 검색과 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q058",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "열의_이동",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "숟가락 끝을 뜨거운 국에 담그면 손잡이까지 뜨거워지는 거 설명하는 영상",
+    "lesson_goal": "고체에서 열이 이동하는 방식을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "전도"
+      ],
+      "requested_content_or_relation": [
+        "고체에서의 열 이동"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 현상을 '전도'로 연결",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "요리 영상으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "전도 현상이 설명됨",
+      "partial": "열의 이동 전반 중 일부",
+      "insufficient_evidence": "전도 포함 여부 불명",
+      "unsuitable": "주방용품 소개"
+    },
+    "empty_result_interpretation": "일상 표현 처리 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q059",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "계절_원인",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "여름은 덥고 겨울은 추운 이유를 태양 남중 고도랑 연결해서 설명하는 영상",
+    "lesson_goal": "계절 변화의 원인을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "계절 변화",
+        "태양 남중 고도"
+      ],
+      "requested_content_or_relation": [
+        "남중 고도와 기온의 관계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "남중 고도와 연결",
+          "supporting_phrase": "태양 남중 고도랑 연결해서"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "원인 설명에 남중 고도가 반드시 포함",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "지구-태양 거리로 설명하는 오개념 자료를 적합 처리",
+      "계절별 풍경만 있는 자료"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "남중 고도와 기온 관계로 계절을 설명",
+      "partial": "자전축 기울기만 언급",
+      "insufficient_evidence": "설명 방식 확인 불가",
+      "unsuitable": "계절 옷차림"
+    },
+    "empty_result_interpretation": "세부 조건 때문에 부분 관련으로 확장 검토",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q060",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "연소_생성물",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "초가 타고 나면 어떤 물질이 생기는지 확인하는 과정이 나오는 영상",
+    "lesson_goal": "연소 후 생성되는 물질을 확인한다",
+    "usage_purpose": "실험 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "연소 생성물"
+      ],
+      "requested_content_or_relation": [
+        "생성 물질 확인 과정"
+      ],
+      "required_conditions": [
+        {
+          "condition": "확인 과정",
+          "supporting_phrase": "확인하는 과정"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "연소 생성물 AND 확인 과정(실험)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "확인 실험 장면은 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "초 만들기 공예로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "생성물(물·이산화 탄소 등) 확인 과정이 나옴",
+      "partial": "생성물 결과만 언급",
+      "insufficient_evidence": "장면 확인 불가",
+      "unsuitable": "향초 판매"
+    },
+    "empty_result_interpretation": "실험 장면 조건 때문에 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q061",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "전기회로",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [
+      "두 대상이나 사례를 비교하는 요청"
+    ],
+    "query": "전구를 직렬로 연결할 때랑 병렬로 연결할 때 밝기가 왜 다른지",
+    "lesson_goal": "연결 방법에 따른 전구 밝기 차이의 이유를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "직렬연결",
+        "병렬연결"
+      ],
+      "requested_content_or_relation": [
+        "밝기 차이의 이유"
+      ],
+      "required_conditions": [
+        {
+          "condition": "이유 설명",
+          "supporting_phrase": "왜 다른지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 연결 방식 비교 AND 이유",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "회로 기호만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 방식과 밝기 차이 이유가 설명됨",
+      "partial": "차이만 보여주고 이유 없음",
+      "insufficient_evidence": "이유 포함 여부 불명",
+      "unsuitable": "가정 전기 수리"
+    },
+    "empty_result_interpretation": "띄어쓰기 변형('직렬 연결') 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q062",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "산염기",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "산성 용액과 염기성 용액에 지시약을 넣었을 때 색이 어떻게 달라지는지 비교하는 영상",
+    "lesson_goal": "지시약으로 산성·염기성을 구분한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "산성 용액",
+        "염기성 용액",
+        "지시약"
+      ],
+      "requested_content_or_relation": [
+        "색 변화 비교"
+      ],
+      "required_conditions": [
+        {
+          "condition": "산성 용액",
+          "supporting_phrase": "산성 용액"
+        },
+        {
+          "condition": "염기성 용액",
+          "supporting_phrase": "염기성 용액"
+        },
+        {
+          "condition": "지시약 색 변화",
+          "supporting_phrase": "지시약"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 용액 모두 AND 지시약",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한쪽만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 용액의 지시약 색 변화가 모두 나옴",
+      "partial": "한쪽만",
+      "insufficient_evidence": "지시약 사용 여부 불명",
+      "unsuitable": "세제 광고"
+    },
+    "empty_result_interpretation": "개별 결과 존재 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q063",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "행성_비교",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "지구와 화성의 환경을 비교해서, 왜 지구에만 생물이 사는지 생각해 볼 수 있는 자료",
+    "lesson_goal": "행성 환경 차이와 생물 생존 조건을 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "지구",
+        "화성"
+      ],
+      "requested_content_or_relation": [
+        "환경 비교",
+        "생물 존재 조건"
+      ],
+      "required_conditions": [
+        {
+          "condition": "지구",
+          "supporting_phrase": "지구"
+        },
+        {
+          "condition": "화성",
+          "supporting_phrase": "화성"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 행성 모두 필요. '왜 지구에만'은 원문 속 전제로 교사의 질문 의도이며 사실 판정은 하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "화성 탐사선 역사만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 행성의 환경 비교가 있음",
+      "partial": "한 행성만",
+      "insufficient_evidence": "비교 여부 불명",
+      "unsuitable": "SF 영화 소개"
+    },
+    "empty_result_interpretation": "개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q064",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "생태계_회복",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+    "lesson_goal": "생태계 평형이 깨지고 회복되는 과정을 안다",
+    "usage_purpose": "사례 분석",
+    "expected_interpretation": {
+      "core_topic": [
+        "생태계 평형"
+      ],
+      "requested_content_or_relation": [
+        "파괴 원인",
+        "회복 과정"
+      ],
+      "required_conditions": [
+        {
+          "condition": "회복 과정 포함",
+          "supporting_phrase": "반드시 깨진 뒤 다시 회복되는 과정까지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(국내 OR 해외) AND 평형 파괴 AND 회복 과정",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "회복 과정까지 다루는지는 소개문만으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "파괴만 다룬 자료를 적합 처리",
+      "지역을 하나로 한정"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "파괴와 회복 과정이 모두 나옴",
+      "partial": "파괴만",
+      "insufficient_evidence": "회복 내용 확인 불가",
+      "unsuitable": "동물원·사육 이야기"
+    },
+    "empty_result_interpretation": "회복 조건으로 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q065",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "빛의_굴절",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "빛의 굴절 보여주는 영상인데 물과 유리 두 경우가 모두 나와야 해요",
+    "lesson_goal": "여러 물질에서 빛의 굴절을 관찰한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "빛의 굴절"
+      ],
+      "requested_content_or_relation": [
+        "물에서의 굴절",
+        "유리에서의 굴절"
+      ],
+      "required_conditions": [
+        {
+          "condition": "물",
+          "supporting_phrase": "물"
+        },
+        {
+          "condition": "유리",
+          "supporting_phrase": "유리"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "굴절 AND 물 AND 유리",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한 경우만 있는 자료를 적합 처리",
+      "반사와 혼동"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 경우 모두",
+      "partial": "하나만",
+      "insufficient_evidence": "장면 확인 불가",
+      "unsuitable": "안경 광고"
+    },
+    "empty_result_interpretation": "엄격 AND 때문에 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q066",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "소화기관",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "우리 몸 소화 기관 영상인데 실제 수술 장면이나 내시경 같은 실물 장면은 빼고 그래픽으로 된 거",
+    "lesson_goal": "소화 기관의 구조와 기능을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "소화 기관"
+      ],
+      "requested_content_or_relation": [
+        "구조와 기능"
+      ],
+      "required_conditions": [
+        {
+          "condition": "그래픽 표현",
+          "supporting_phrase": "그래픽으로 된 거"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "수술 장면",
+          "supporting_phrase": "실제 수술 장면"
+        },
+        {
+          "condition": "내시경 등 실물 장면",
+          "supporting_phrase": "내시경 같은 실물 장면은 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "소화 기관 AND 그래픽 AND NOT 실물 장면",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "실물 장면 포함 여부는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "의료 정보 영상 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "그래픽 위주이며 실물 장면 없음 확인",
+      "partial": "주제 맞으나 장면 정보 없음",
+      "insufficient_evidence": "표현 방식 확인 불가",
+      "unsuitable": "수술 다큐"
+    },
+    "empty_result_interpretation": "제외 조건 과잉 적용 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q067",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "속력",
+    "primary_test_type": "선호 조건을 포함한 요청",
+    "secondary_test_types": [
+      "복수 필수 조건·AND/OR를 포함한 요청"
+    ],
+    "query": "물체의 속력 구하는 방법 자료요. 실생활 교통수단 예시가 있으면 좋겠고, 꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면이에요",
+    "lesson_goal": "속력을 계산할 수 있다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "속력"
+      ],
+      "requested_content_or_relation": [
+        "거리와 시간으로 계산"
+      ],
+      "required_conditions": [
+        {
+          "condition": "거리·시간으로 계산하는 장면",
+          "supporting_phrase": "꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "교통수단 예시",
+          "supporting_phrase": "실생활 교통수단 예시가 있으면 좋겠고"
+        }
+      ],
+      "logical_structure": "계산 장면은 필수, 교통수단 예시는 선호",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "계산 장면 여부는 소개문으로 확인 어려울 수 있음"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "선호와 필수 뒤바뀜"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "계산 장면이 있고 교통 예시면 상위",
+      "partial": "속력 개념만",
+      "insufficient_evidence": "계산 장면 확인 불가",
+      "unsuitable": "자동차 성능 리뷰"
+    },
+    "empty_result_interpretation": "선호 조건 필터화 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q068",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "초등5~6",
+    "subject": "과학",
+    "topic_family": "용해_장면",
+    "primary_test_type": "시간·자막·방송 형식·프로그램 조건 요청",
+    "secondary_test_types": [],
+    "query": "용질이 다 녹아서 더 이상 안 녹는 순간이 영상 몇 분쯤 나오는지 알 수 있는 거요. 수업 중에 그 부분만 틀려고요",
+    "lesson_goal": "포화 상태 개념을 장면으로 확인한다",
+    "usage_purpose": "장면 활용",
+    "expected_interpretation": {
+      "core_topic": [
+        "용해",
+        "포화"
+      ],
+      "requested_content_or_relation": [
+        "더 이상 녹지 않는 장면"
+      ],
+      "required_conditions": [
+        {
+          "condition": "해당 장면의 시점 정보",
+          "supporting_phrase": "몇 분쯤 나오는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "주제 AND 장면 위치(타임스탬프)",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "장면 시점은 소개문만으로 확인 불가. 자막·챕터 정보가 필요"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "주제만 맞으면 시점 조건 충족으로 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "포화 장면과 시점이 확인됨",
+      "partial": "주제는 맞으나 시점 정보 없음",
+      "insufficient_evidence": "시점 정보 부재",
+      "unsuitable": "요리 설탕 녹이기"
+    },
+    "empty_result_interpretation": "타임스탬프 메타데이터 부재가 원인인지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q069",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "경도_시차",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "경도와 시차",
+    "lesson_goal": "경도에 따른 시차를 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "경도",
+        "시차"
+      ],
+      "requested_content_or_relation": [
+        "경도와 시차의 관계"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 개념 나열(관련 개념). 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "위도만 다룬 자료를 적합 처리",
+      "해외여행 시차 적응 팁"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "경도와 시차 관계 설명",
+      "partial": "하나만",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "여행 피로 해소법"
+    },
+    "empty_result_interpretation": "기초 주제라 검색 실패 가능성",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q070",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "문화_상대주의",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "문화 상대주의랑 자문화 중심주의를 구분하는 토론 수업 도입 자료가 필요해요. 학생들이 바로 판단 내리지 않고 생각해 볼 만한 사례 중심으로요",
+    "lesson_goal": "문화를 이해하는 태도를 구분하고 토론한다",
+    "usage_purpose": "토론 도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "문화 상대주의",
+        "자문화 중심주의"
+      ],
+      "requested_content_or_relation": [
+        "태도 구분",
+        "사례"
+      ],
+      "required_conditions": [
+        {
+          "condition": "사례 중심",
+          "supporting_phrase": "사례 중심으로"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 개념 AND 사례. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "문화 소개만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 태도와 사례가 나옴",
+      "partial": "개념 설명만",
+      "insufficient_evidence": "사례 여부 불명",
+      "unsuitable": "여행 문화 예절"
+    },
+    "empty_result_interpretation": "개념어 검색 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q071",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "청소년_정치참여",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+    "lesson_goal": "청소년 정치 참여 방법을 알고 실천한다",
+    "usage_purpose": "활동",
+    "expected_interpretation": {
+      "core_topic": [
+        "청소년 정치 참여"
+      ],
+      "requested_content_or_relation": [
+        "참여 방법"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "참여 방법이 핵심. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "선거 결과 보도를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "청소년 참여 방법·사례가 나옴",
+      "partial": "정치 참여 일반",
+      "insufficient_evidence": "청소년 대상 여부 불명",
+      "unsuitable": "정당 홍보"
+    },
+    "empty_result_interpretation": "일반 결과에서 부분 관련 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q072",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "지역갈등_기피시설",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "쓰레기 소각장이나 공항 같은 시설이 들어온다고 하면 다들 반대하는 현상, 그거 다룬 영상이요",
+    "lesson_goal": "지역 이기주의와 공공시설 입지 갈등을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "기피 시설",
+        "지역 갈등"
+      ],
+      "requested_content_or_relation": [
+        "반대 현상"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 표현을 '님비·지역 이기주의'로 연결. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "소각장 기술 다큐를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "입지 갈등 현상이 설명됨",
+      "partial": "갈등 사례만",
+      "insufficient_evidence": "갈등 포함 여부 불명",
+      "unsuitable": "공항 이용 안내"
+    },
+    "empty_result_interpretation": "개념어 연결 실패 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q073",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "사회화",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "사람이 태어나서 가족이나 학교, 친구들한테 배우면서 사회 구성원이 되어 가는 거",
+    "lesson_goal": "사회화의 의미와 기관을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "사회화"
+      ],
+      "requested_content_or_relation": [
+        "사회화 과정과 기관"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 표현을 '사회화'로 연결. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "육아 정보로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "사회화 과정 설명",
+      "partial": "일부 기관만",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "자녀 교육법"
+    },
+    "empty_result_interpretation": "개념어 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q074",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "열대_농업",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "열대 우림 지역에서 이동식 화전 농업을 하게 된 이유랑 그게 숲에 준 영향",
+    "lesson_goal": "기후와 농업 방식, 환경 영향의 관계를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "이동식 화전 농업"
+      ],
+      "requested_content_or_relation": [
+        "원인",
+        "숲에 미친 영향"
+      ],
+      "required_conditions": [
+        {
+          "condition": "하게 된 이유",
+          "supporting_phrase": "하게 된 이유"
+        },
+        {
+          "condition": "숲에 준 영향",
+          "supporting_phrase": "숲에 준 영향"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "원인 AND 영향. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "열대 우림 생물만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "원인과 영향이 모두 나옴",
+      "partial": "하나만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "열대 여행"
+    },
+    "empty_result_interpretation": "세부 주제라 자료 부족 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q075",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "자연재해_지형",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "지진이나 해일 같은 자연재해가 일어나는 곳이 판의 경계와 어떤 관계가 있는지",
+    "lesson_goal": "자연재해 분포와 판의 경계를 연결한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "자연재해",
+        "판의 경계"
+      ],
+      "requested_content_or_relation": [
+        "분포와 경계의 관계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "판의 경계와의 관계",
+          "supporting_phrase": "판의 경계와 어떤 관계가 있는지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(지진 OR 해일) AND 판 경계와 관계. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "대피 요령만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "분포와 판 경계의 관계 설명",
+      "partial": "재해 소개만",
+      "insufficient_evidence": "관계 설명 여부 불명",
+      "unsuitable": "재난 피해 뉴스"
+    },
+    "empty_result_interpretation": "과학 단원 자료로 분류되어 놓쳤는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q076",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "자원_갈등",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "석유 같은 자원이 몇몇 지역에 몰려 있어서 나라들 사이에 생기는 갈등",
+    "lesson_goal": "자원 편재와 국제 갈등의 관계를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "자원 편재",
+        "자원 갈등"
+      ],
+      "requested_content_or_relation": [
+        "편재 → 갈등"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "원인(편재) → 결과(갈등). 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "유가 뉴스 등 경제 시황을 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "자원 분포와 갈등 연결",
+      "partial": "자원 분포만",
+      "insufficient_evidence": "갈등 내용 확인 불가",
+      "unsuitable": "주유 정보"
+    },
+    "empty_result_interpretation": "개념어 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q077",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "인구구조",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "선진국과 개발도상국 인구 구조 차이를 인구 피라미드로 비교한 자료",
+    "lesson_goal": "인구 구조 차이를 그래프로 비교한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "인구 구조",
+        "인구 피라미드"
+      ],
+      "requested_content_or_relation": [
+        "두 집단 비교"
+      ],
+      "required_conditions": [
+        {
+          "condition": "선진국",
+          "supporting_phrase": "선진국"
+        },
+        {
+          "condition": "개발도상국",
+          "supporting_phrase": "개발도상국"
+        },
+        {
+          "condition": "인구 피라미드 활용",
+          "supporting_phrase": "인구 피라미드로"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 집단 AND 피라미드. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "피라미드 그래프 사용 여부는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "한 나라만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 집단 피라미드 비교",
+      "partial": "비교는 있으나 그래프 없음",
+      "insufficient_evidence": "그래프 확인 불가",
+      "unsuitable": "이집트 피라미드"
+    },
+    "empty_result_interpretation": "'피라미드' 동음이의 검색 오염 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q078",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "기후변화_주민",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+    "lesson_goal": "기후 변화가 지역 주민 생활에 미치는 영향을 안다",
+    "usage_purpose": "사례 분석",
+    "expected_interpretation": {
+      "core_topic": [
+        "기후 변화 사례"
+      ],
+      "requested_content_or_relation": [
+        "주민 생활 변화"
+      ],
+      "required_conditions": [
+        {
+          "condition": "해수면 상승 또는 사막화",
+          "supporting_phrase": "해수면 상승이나 사막화 중 하나 이상"
+        },
+        {
+          "condition": "주민 인터뷰 또는 생활 모습",
+          "supporting_phrase": "주민 인터뷰나 주민 생활 모습은 반드시"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(해수면 OR 사막화) AND (인터뷰 OR 생활 모습). 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "주민 등장 여부는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "OR를 AND로 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 조건 충족",
+      "partial": "현상만, 주민 없음",
+      "insufficient_evidence": "주민 등장 확인 불가",
+      "unsuitable": "기후 과학 이론만"
+    },
+    "empty_result_interpretation": "OR/AND 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q079",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "도시재개발",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [
+      "두 대상이나 사례를 비교하는 요청"
+    ],
+    "query": "도시 재개발 영상인데 찬성하는 입장과 반대하는 입장이 모두 나와야 해요",
+    "lesson_goal": "재개발을 둘러싼 다양한 입장을 비교한다",
+    "usage_purpose": "토론",
+    "expected_interpretation": {
+      "core_topic": [
+        "도시 재개발"
+      ],
+      "requested_content_or_relation": [
+        "찬반 입장"
+      ],
+      "required_conditions": [
+        {
+          "condition": "찬성 입장",
+          "supporting_phrase": "찬성하는 입장"
+        },
+        {
+          "condition": "반대 입장",
+          "supporting_phrase": "반대하는 입장"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "찬성 AND 반대. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한쪽 입장 홍보물을 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "양측 입장이 모두 나옴",
+      "partial": "한쪽만",
+      "insufficient_evidence": "입장 구성 확인 불가",
+      "unsuitable": "분양 광고"
+    },
+    "empty_result_interpretation": "엄격 AND로 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q080",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "다문화",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+    "lesson_goal": "다문화 사회를 존중의 관점에서 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "다문화 사회"
+      ],
+      "requested_content_or_relation": [
+        "다문화 사회 이해"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [
+        {
+          "condition": "특정 출신 조롱·희화화",
+          "supporting_phrase": "특정 나라 출신을 우스꽝스럽게 그리거나"
+        },
+        {
+          "condition": "고정관념 강화",
+          "supporting_phrase": "고정관념을 키우는 내용은 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "다문화 AND NOT 희화화·고정관념. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "고정관념 여부는 내용 시청 없이 판단 불가"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'고정관념'이 언급된 자료(이를 비판하는 자료)까지 제외"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "존중적 관점이 확인됨",
+      "partial": "주제 맞으나 내용 미확인",
+      "insufficient_evidence": "표현 방식 판단 불가",
+      "unsuitable": "희화화 예능"
+    },
+    "empty_result_interpretation": "키워드 기반 제외가 과잉 작동했는지 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q081",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "종교경관",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "세계의 종교 경관 자료 찾는데 교리 설명은 빼고 건축물이나 거리 풍경만 나오는 걸로요",
+    "lesson_goal": "종교가 경관에 미친 영향을 안다",
+    "usage_purpose": "사례 제시",
+    "expected_interpretation": {
+      "core_topic": [
+        "종교 경관"
+      ],
+      "requested_content_or_relation": [
+        "건축물·거리 풍경"
+      ],
+      "required_conditions": [
+        {
+          "condition": "건축물·풍경만",
+          "supporting_phrase": "건축물이나 거리 풍경만"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "교리 설명",
+          "supporting_phrase": "교리 설명은 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "경관 AND NOT 교리. '만'은 경관 이외 내용을 원치 않는 강한 조건. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "교리 설명 포함 여부는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "'만'을 선호로 약화"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "경관 위주이며 교리 설명 없음",
+      "partial": "경관과 교리 혼합",
+      "insufficient_evidence": "구성 판단 불가",
+      "unsuitable": "종교 교리 강의"
+    },
+    "empty_result_interpretation": "'만' 조건으로 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q082",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "지역브랜드",
+    "primary_test_type": "선호 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+    "lesson_goal": "지역화 전략과 지역 브랜드를 이해한다",
+    "usage_purpose": "사례 제시",
+    "expected_interpretation": {
+      "core_topic": [
+        "지역 브랜드"
+      ],
+      "requested_content_or_relation": [
+        "사례"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "외국 사례 포함",
+          "supporting_phrase": "가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요"
+        }
+      ],
+      "logical_structure": "필수는 지역 브랜드 사례, 외국 사례는 선호. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "외국 사례를 필수로 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "지역 브랜드 사례, 외국 포함 시 상위",
+      "partial": "개념만",
+      "insufficient_evidence": "사례 확인 불가",
+      "unsuitable": "기업 브랜드 광고"
+    },
+    "empty_result_interpretation": "선호 필터화 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q083",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "극지_생활",
+    "primary_test_type": "시간·자막·방송 형식·프로그램 조건 요청",
+    "secondary_test_types": [],
+    "query": "EBS 다큐 중에 북극 지방 사람들 생활을 다룬 거요. 한국어 자막이 나오는 걸로요",
+    "lesson_goal": "극지방 주민의 생활 모습을 안다",
+    "usage_purpose": "사례 제시",
+    "expected_interpretation": {
+      "core_topic": [
+        "북극 지방 생활"
+      ],
+      "requested_content_or_relation": [
+        "주민 생활"
+      ],
+      "required_conditions": [
+        {
+          "condition": "EBS 다큐 형식",
+          "supporting_phrase": "EBS 다큐"
+        },
+        {
+          "condition": "한국어 자막",
+          "supporting_phrase": "한국어 자막이 나오는"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "주제 AND 다큐 형식 AND 자막. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "자막 여부는 영상 확인 필요"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "남극 연구 기지 자료를 적합 처리",
+      "북극곰 생태 다큐"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "북극 주민 생활 다큐이며 자막 확인",
+      "partial": "자막 미확인",
+      "insufficient_evidence": "자막 정보 없음",
+      "unsuitable": "동물 다큐"
+    },
+    "empty_result_interpretation": "자막 메타데이터 부재 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q084",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "사회",
+    "topic_family": "재판",
+    "primary_test_type": "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청",
+    "secondary_test_types": [],
+    "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+    "lesson_goal": "재판 과정을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "재판 과정"
+      ],
+      "requested_content_or_relation": [
+        "재판 단계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "실제 법정 촬영 장면",
+          "supporting_phrase": "실제 법정 촬영 장면이 반드시 나와야"
+        },
+        {
+          "condition": "실사 없이 그림만",
+          "supporting_phrase": "실사 장면 없이 그림으로만"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 필수 조건이 정면 충돌(실사 필수 vs 실사 배제). 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [
+        "실사 장면과 그림 자료 중 어느 조건을 우선할지"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한 조건을 임의로 버리고 결과 제시",
+      "충돌을 알리지 않음"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "(우선 조건 확인 후) 해당 조건 충족 자료",
+      "partial": "재판 과정 자료이나 형식 조건 판단 보류",
+      "insufficient_evidence": "형식 확인 불가",
+      "unsuitable": "법률 드라마 하이라이트"
+    },
+    "empty_result_interpretation": "조건 충돌로 정당한 빈 결과. 사용자에게 충돌을 알리고 확인 요청",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q085",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "광물",
+    "primary_test_type": "짧은 주제 검색",
+    "secondary_test_types": [],
+    "query": "광물의 조흔색",
+    "lesson_goal": "조흔색으로 광물을 구별한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "조흔색"
+      ],
+      "requested_content_or_relation": [
+        "광물 구별"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "단일 주제. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "보석 소개만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "조흔색 설명",
+      "partial": "광물 특성 일반",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "보석 판매"
+    },
+    "empty_result_interpretation": "전문 용어라 자료 부족 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q086",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "생물분류",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "생물 분류 단원에서 학생들이 직접 분류 기준을 세워 보기 전에, 기준에 따라 결과가 달라질 수 있다는 걸 보여줄 자료",
+    "lesson_goal": "분류 기준의 의미를 이해한다",
+    "usage_purpose": "도입",
+    "expected_interpretation": {
+      "core_topic": [
+        "생물 분류"
+      ],
+      "requested_content_or_relation": [
+        "기준에 따른 결과 차이"
+      ],
+      "required_conditions": [
+        {
+          "condition": "기준에 따라 결과가 달라짐",
+          "supporting_phrase": "기준에 따라 결과가 달라질 수 있다는"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "분류 AND 기준 비교. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "분류 체계 암기 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "기준 차이에 따른 결과 차이가 보임",
+      "partial": "분류 개념만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "동물 도감"
+    },
+    "empty_result_interpretation": "관계 서술 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q087",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "보일법칙",
+    "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+    "secondary_test_types": [
+      "선호 조건을 포함한 요청"
+    ],
+    "query": "보일 법칙 설명할 때 주사기 실험을 화면으로 보여주려고 해요. 압력과 부피 관계가 그래프로 정리되면 더 좋고요",
+    "lesson_goal": "기체의 압력과 부피 관계를 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "보일 법칙"
+      ],
+      "requested_content_or_relation": [
+        "압력-부피 관계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "주사기 실험",
+          "supporting_phrase": "주사기 실험"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "그래프 정리",
+          "supporting_phrase": "그래프로 정리되면 더 좋고요"
+        }
+      ],
+      "logical_structure": "보일 법칙 AND 주사기 실험, 그래프는 선호. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "실험 장면 여부 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "그래프를 필수로 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "주사기 실험 포함",
+      "partial": "개념만",
+      "insufficient_evidence": "실험 확인 불가",
+      "unsuitable": "의료용 주사기"
+    },
+    "empty_result_interpretation": "선호 필터화 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q088",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "마찰력",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [],
+    "query": "운동화 바닥이 닳는 거나 빙판길에서 미끄러지는 거 같은 걸 설명하는 영상",
+    "lesson_goal": "마찰력을 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "마찰력"
+      ],
+      "requested_content_or_relation": [
+        "일상 속 마찰"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 표현을 '마찰력'으로 연결. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "운동화 리뷰, 빙판 안전 수칙으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "마찰력 설명",
+      "partial": "힘 일반",
+      "insufficient_evidence": "포함 여부 불명",
+      "unsuitable": "신발 광고"
+    },
+    "empty_result_interpretation": "개념어 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q089",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "기화열",
+    "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+    "secondary_test_types": [
+      "원인·결과·과정·관계를 찾는 요청"
+    ],
+    "query": "여름에 마당에 물 뿌리면 시원해지는 거, 그게 왜 그런지",
+    "lesson_goal": "상태 변화와 열에너지 출입을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "기화열"
+      ],
+      "requested_content_or_relation": [
+        "시원해지는 이유"
+      ],
+      "required_conditions": [
+        {
+          "condition": "이유 설명",
+          "supporting_phrase": "왜 그런지"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "일상 현상 → 기화와 열 흡수. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "여름 더위 대처 생활 팁으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "기화 시 열 흡수 설명",
+      "partial": "상태 변화 일반",
+      "insufficient_evidence": "원리 포함 여부 불명",
+      "unsuitable": "에어컨 광고"
+    },
+    "empty_result_interpretation": "개념어 대조",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q090",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "화성암",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "마그마가 식는 속도에 따라 화성암 결정 크기가 어떻게 달라지는지",
+    "lesson_goal": "냉각 속도와 결정 크기의 관계를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "화성암"
+      ],
+      "requested_content_or_relation": [
+        "냉각 속도 → 결정 크기"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "관계 설명 필수. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "암석 종류 나열만 있는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "관계 설명",
+      "partial": "화성암 소개만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "화산 관광"
+    },
+    "empty_result_interpretation": "세부 주제라 자료 부족 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q091",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "판구조",
+    "primary_test_type": "원인·결과·과정·관계를 찾는 요청",
+    "secondary_test_types": [],
+    "query": "판이 움직이면서 습곡 산맥이나 해구가 만들어지는 과정",
+    "lesson_goal": "판 운동과 지형 형성을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "판 운동"
+      ],
+      "requested_content_or_relation": [
+        "지형 형성 과정"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(습곡 산맥 OR 해구) 형성 과정. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "지진 피해만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "형성 과정 설명",
+      "partial": "판 소개만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "등산 정보"
+    },
+    "empty_result_interpretation": "OR 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q092",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "암석_비교",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "현무암과 화강암을 비교 관찰하는 장면이 나오는 영상",
+    "lesson_goal": "두 화성암의 특징을 비교한다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "현무암",
+        "화강암"
+      ],
+      "requested_content_or_relation": [
+        "비교 관찰"
+      ],
+      "required_conditions": [
+        {
+          "condition": "현무암",
+          "supporting_phrase": "현무암"
+        },
+        {
+          "condition": "화강암",
+          "supporting_phrase": "화강암"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 암석 AND 비교. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "관찰 장면 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "한 암석만 다룬 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "둘 다 비교",
+      "partial": "하나만",
+      "insufficient_evidence": "장면 확인 불가",
+      "unsuitable": "건축 자재 판매"
+    },
+    "empty_result_interpretation": "개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q093",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "색_혼합",
+    "primary_test_type": "두 대상이나 사례를 비교하는 요청",
+    "secondary_test_types": [],
+    "query": "빛의 색을 섞는 것과 물감 색을 섞는 게 어떻게 다른지",
+    "lesson_goal": "빛의 합성과 물감 혼합의 차이를 안다",
+    "usage_purpose": "비교",
+    "expected_interpretation": {
+      "core_topic": [
+        "빛의 합성",
+        "물감 혼합"
+      ],
+      "requested_content_or_relation": [
+        "차이"
+      ],
+      "required_conditions": [
+        {
+          "condition": "빛의 색 섞기",
+          "supporting_phrase": "빛의 색을 섞는 것"
+        },
+        {
+          "condition": "물감 색 섞기",
+          "supporting_phrase": "물감 색을 섞는 게"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "두 대상 AND 비교. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "미술 채색 기법으로 해석"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "두 혼합 비교",
+      "partial": "하나만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "미술 강좌"
+    },
+    "empty_result_interpretation": "개별 결과 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q094",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "탄성력",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "탄성력 예시인데 용수철, 고무줄, 트램펄린 중 아무거나 하나 이상이면 되고, 늘어난 길이와 힘의 관계 설명은 꼭 있어야 해요",
+    "lesson_goal": "탄성력과 변형의 관계를 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "탄성력"
+      ],
+      "requested_content_or_relation": [
+        "늘어난 길이와 힘의 관계"
+      ],
+      "required_conditions": [
+        {
+          "condition": "용수철·고무줄·트램펄린 중 하나 이상",
+          "supporting_phrase": "중 아무거나 하나 이상"
+        },
+        {
+          "condition": "길이와 힘의 관계",
+          "supporting_phrase": "늘어난 길이와 힘의 관계 설명은 꼭"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "(용수철 OR 고무줄 OR 트램펄린) AND 관계 설명. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "OR을 AND로 처리",
+      "관계 설명 없는 자료를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "예시 하나 이상과 관계 설명",
+      "partial": "예시만",
+      "insufficient_evidence": "관계 설명 확인 불가",
+      "unsuitable": "트램펄린 놀이 영상"
+    },
+    "empty_result_interpretation": "OR/AND 처리 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q095",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "샤를법칙",
+    "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+    "secondary_test_types": [],
+    "query": "기체의 온도와 부피 관계 영상인데 풍선 실험과 찌그러진 탁구공 펴기 같은 일상 예시가 둘 다 나와야 해요",
+    "lesson_goal": "기체의 온도와 부피 관계를 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "기체 온도-부피 관계"
+      ],
+      "requested_content_or_relation": [
+        "실험과 일상 예시"
+      ],
+      "required_conditions": [
+        {
+          "condition": "풍선 실험",
+          "supporting_phrase": "풍선 실험"
+        },
+        {
+          "condition": "일상 예시",
+          "supporting_phrase": "일상 예시가 둘 다 나와야"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "풍선 실험 AND 일상 예시(탁구공은 예시의 하나). 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "탁구공을 필수 대상으로 오해"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "둘 다 나옴",
+      "partial": "하나만",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "탁구 경기"
+    },
+    "empty_result_interpretation": "엄격 AND로 정당한 빈 결과 가능",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q096",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "생물다양성",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "생물 다양성이 줄어드는 걸 다룬 자료인데, 동물이 죽어 있는 사진이나 잔인한 사냥 장면은 빼 주세요",
+    "lesson_goal": "생물 다양성 감소 원인과 보전을 안다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "생물 다양성 감소"
+      ],
+      "requested_content_or_relation": [
+        "원인과 보전"
+      ],
+      "required_conditions": [],
+      "excluded_conditions": [
+        {
+          "condition": "동물 사체 사진",
+          "supporting_phrase": "동물이 죽어 있는 사진"
+        },
+        {
+          "condition": "잔인한 사냥 장면",
+          "supporting_phrase": "잔인한 사냥 장면은 빼 주세요"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "생물 다양성 감소 AND NOT 사체·사냥. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "장면 포함 여부는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "밀렵 주제 자료 전체를 제외"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "주제 맞고 제외 장면 없음 확인",
+      "partial": "장면 미확인",
+      "insufficient_evidence": "판단 불가",
+      "unsuitable": "사냥 다큐"
+    },
+    "empty_result_interpretation": "제외 과잉 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q097",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "중력",
+    "primary_test_type": "제외·부정 조건을 포함한 요청",
+    "secondary_test_types": [],
+    "query": "중력 설명 영상인데 공식이나 계산 위주는 빼고, 우주 정거장에서 둥둥 뜨는 것 같은 현상 위주로요",
+    "lesson_goal": "중력을 현상 중심으로 이해한다",
+    "usage_purpose": "개념 설명",
+    "expected_interpretation": {
+      "core_topic": [
+        "중력"
+      ],
+      "requested_content_or_relation": [
+        "현상 중심 설명"
+      ],
+      "required_conditions": [
+        {
+          "condition": "현상 위주",
+          "supporting_phrase": "현상 위주로"
+        }
+      ],
+      "excluded_conditions": [
+        {
+          "condition": "공식·계산 위주",
+          "supporting_phrase": "공식이나 계산 위주는 빼고"
+        }
+      ],
+      "preferences": [],
+      "logical_structure": "중력 AND 현상 위주 AND NOT 계산 위주. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "공식이 잠깐 나와도 제외('위주'의 의미 무시)"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "현상 위주 설명",
+      "partial": "현상과 계산 혼합",
+      "insufficient_evidence": "구성 확인 불가",
+      "unsuitable": "물리 문제 풀이"
+    },
+    "empty_result_interpretation": "제외 과잉 여부 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q098",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "상태변화_실험",
+    "primary_test_type": "시간·자막·방송 형식·프로그램 조건 요청",
+    "secondary_test_types": [],
+    "query": "EBS 과학 프로그램 중에 진행자가 직접 상태 변화 실험을 하는 형식인 거요. 실험 장면이 영상 앞부분에 나오면 좋겠어요",
+    "lesson_goal": "상태 변화를 실험으로 관찰한다",
+    "usage_purpose": "실험 시청",
+    "expected_interpretation": {
+      "core_topic": [
+        "상태 변화"
+      ],
+      "requested_content_or_relation": [
+        "진행자 실험"
+      ],
+      "required_conditions": [
+        {
+          "condition": "진행자 직접 실험 형식",
+          "supporting_phrase": "진행자가 직접 상태 변화 실험을 하는 형식"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [
+        {
+          "condition": "실험이 앞부분에",
+          "supporting_phrase": "영상 앞부분에 나오면 좋겠어요"
+        }
+      ],
+      "logical_structure": "주제 AND 형식, 장면 위치는 선호. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": [
+        "진행자 실험 여부와 장면 위치는 소개문으로 확인 어려움"
+      ]
+    },
+    "interpretation_errors_to_watch": [
+      "위치 조건을 필수로 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "형식 충족",
+      "partial": "주제만",
+      "insufficient_evidence": "형식 확인 불가",
+      "unsuitable": "요리 프로그램"
+    },
+    "empty_result_interpretation": "형식 메타데이터 부재 확인",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q099",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "가상행성",
+    "primary_test_type": "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청",
+    "secondary_test_types": [
+      "수업 목표와 활용 목적을 포함한 요청"
+    ],
+    "query": "가상의 행성에 생물이 살려면 어떤 조건이 필요할지 상상해 보는 수업인데, 가상 행성 환경을 설정해서 보여주는 영상 있을까요?",
+    "lesson_goal": "생물이 살 수 있는 환경 조건을 탐구한다",
+    "usage_purpose": "탐구 활동",
+    "expected_interpretation": {
+      "core_topic": [
+        "생명 가능 조건"
+      ],
+      "requested_content_or_relation": [
+        "가상 행성 환경 설정"
+      ],
+      "required_conditions": [
+        {
+          "condition": "가상 행성 설정",
+          "supporting_phrase": "가상 행성 환경을 설정해서"
+        }
+      ],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "명시적 가상 대상. 실제 행성 자료는 부분 관련. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "실제 외계 행성 뉴스를 적합 처리",
+      "SF 영화 소개를 적합 처리"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "가상 행성 환경 설정 자료",
+      "partial": "실제 행성의 생명 가능 조건 자료",
+      "insufficient_evidence": "확인 불가",
+      "unsuitable": "SF 오락물"
+    },
+    "empty_result_interpretation": "가상 대상이라 정당한 빈 결과 가능성이 큼. 부분 관련 자료로 대체 가능 여부 기록",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  },
+  {
+    "id": "Q100",
+    "origin": "AI_AUTHORED_TEACHER_PROXY",
+    "grade_context": "중학교1학년(참고)",
+    "subject": "과학",
+    "topic_family": "저항_동음이의",
+    "primary_test_type": "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청",
+    "secondary_test_types": [],
+    "query": "저항에 대한 영상 찾아요. 수업에서 바로 쓰게요",
+    "lesson_goal": "(확인 필요)",
+    "usage_purpose": "(확인 필요)",
+    "expected_interpretation": {
+      "core_topic": [
+        "저항(의미 미확정)"
+      ],
+      "requested_content_or_relation": [],
+      "required_conditions": [],
+      "excluded_conditions": [],
+      "preferences": [],
+      "logical_structure": "'저항'이 전기 저항·공기 저항 등 여러 뜻을 가짐. 중1 문맥은 참고용이며 공식 학년군·특정 학교 진도와 동일시하지 않음",
+      "needs_clarification": [
+        "전기 저항인지 공기 저항(마찰 등)인지"
+      ],
+      "not_verifiable_from_description_alone": []
+    },
+    "interpretation_errors_to_watch": [
+      "한 의미로 임의 확정",
+      "역사 속 저항 운동 포함"
+    ],
+    "candidate_judgment_criteria": {
+      "suitable": "(의미 확인 후) 해당 개념 자료",
+      "partial": "의미 미확정 상태의 과학 자료",
+      "insufficient_evidence": "의미 미확정",
+      "unsuitable": "독립운동 자료"
+    },
+    "empty_result_interpretation": "의미 확인이 먼저. 빈 결과는 판단 불가",
+    "known_answer_ids": [],
+    "independent_human_review": "NOT_REVIEWED"
+  }
+]

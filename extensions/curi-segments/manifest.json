@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "EBS CURI 수업용 구간 북마크",
+  "version": "1.2.25",
+  "description": "지식채널e·다큐프라임 본편 구간과 영상을 Curi 내 수업·CuriBase에 저장합니다.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "https://*.ebs.co.kr/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "EBS CURI 수업 자료 패널 열기",
+    "default_icon": {
+      "16": "brand/icon-16.png",
+      "32": "brand/icon-32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost/lesson.html*",
+        "http://127.0.0.1/lesson.html*"
+      ],
+      "js": [
+        "segment-core.js",
+        "curi-bridge.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://*.ebs.co.kr/*"
+      ],
+      "exclude_matches": [
+        "https://sso.ebs.co.kr/*",
+        "https://auth.ebs.co.kr/*"
+      ],
+      "js": [
+        "segment-core.js",
+        "source-reader.js",
+        "player.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "brand/icon-16.png",
+    "32": "brand/icon-32.png",
+    "48": "brand/icon-48.png",
+    "128": "brand/icon-128.png"
+  },
+  "minimum_chrome_version": "116",
+  "side_panel": {
+    "default_path": "popup.html"
+  }
+}

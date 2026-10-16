@@ -1,0 +1,21 @@
+{
+  "cases": [
+    "과거 한정1·새 기본 우선3·확장2에 선택 기준 확인 기록 없음",
+    "확인 기록 한정·임의 요구 거절",
+    "인용 변조·다른 Origin·개인 필드 제출 거절·관리 경계",
+    "명시 접수·중복방지·관리자 검토 상태·승인 자동 변경 없음",
+    "목표 입력 영역의 범위 전환 버튼→실제 후보1/우선3",
+    "카드 구분/목표 표시·빠른 담기에서 개인 목표/역할 유지",
+    "제안 미리보기→직접 제출→미승인 접수 안내",
+    "폴더 공통 목표·자료별 역할/남은 활동·390px"
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "273ed68f62676dc4425e2b80437147a77a7a77b0fe78639a35599faf4f343655",
+    "semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "teacherStudy": false
+}

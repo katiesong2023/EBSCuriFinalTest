@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-15T10:53:16.727Z",
+  "cases": [
+    {
+      "query": "무대감독",
+      "width": 1440,
+      "keywords": [
+        "무대감독",
+        "공연"
+      ]
+    },
+    {
+      "query": "어깨관절",
+      "width": 390,
+      "keywords": [
+        "질환어깨관절",
+        "수술통증어깨관절무릎인공관절",
+        "어깨어깨관절",
+        "어깨어깨관절",
+        "운동"
+      ]
+    }
+  ],
+  "errors": [],
+  "personalStorageWrites": false,
+  "paidApiCalls": 0
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15T05:22:05.525Z",
+  "before": {
+    "total": 23403,
+    "rawEmpty": 13080,
+    "cleanEmpty": 13085,
+    "issues": 533,
+    "emptyOrIssues": 13618,
+    "repeat": 540
+  },
+  "after": {
+    "total": 23403,
+    "empty": 1378,
+    "issues": 181,
+    "repeated": 971,
+    "production": 426,
+    "content": 20448,
+    "minimumPassed": 18272
+  },
+  "targetBefore": {
+    "total": 13618,
+    "empty": 13085,
+    "issues": 533,
+    "repeated": 5,
+    "production": 0,
+    "content": 0,
+    "minimumPassed": 524
+  },
+  "targetAfter": {
+    "total": 13618,
+    "empty": 1378,
+    "issues": 181,
+    "repeated": 436,
+    "production": 0,
+    "content": 11627,
+    "minimumPassed": 10953
+  },
+  "targetResolved": 11627,
+  "targetRemaining": 1991,
+  "transitions": {
+    "빈 소개→내용 설명": 11275,
+    "빈 소개→빈 소개": 1378,
+    "오류 의심→오류 의심": 181,
+    "오류 의심→내용 설명": 352,
+    "빈 소개→repeated": 432
+  },
+  "broadcastRows": 22794,
+  "rawIntroductionChanges": 11696,
+  "sourceEventsChecked": 11696,
+  "patches": 363,
+  "excerptPatches": 38,
+  "ftsChecks": 22794,
+  "protectedStores": {
+    "curi-store.json": {
+      "before": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+      "after": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+      "unchanged": true
+    },
+    "automatic-assets.sqlite": {
+      "before": "f5576fc38f7fafe63a72a0b7f319677b6bacd0a4d1666d5d8a058f7d726d6443",
+      "after": "f5576fc38f7fafe63a72a0b7f319677b6bacd0a4d1666d5d8a058f7d726d6443",
+      "unchanged": true
+    },
+    "teacher-resources.sqlite": {
+      "before": "21d887ea91b52f9a6e842187fbdfb4209bd34a7fea642a46be427fde2b70bc10",
+      "after": "21d887ea91b52f9a6e842187fbdfb4209bd34a7fea642a46be427fde2b70bc10",
+      "unchanged": true
+    }
+  },
+  "integrity": {
+    "broadcast-catalog.sqlite": "ok",
+    "semantic-layer.sqlite": "ok",
+    "broadcast-semantic-search.sqlite": "ok"
+  },
+  "remainingWithoutSourceAttempt": [],
+  "paidApiCalls": 0,
+  "mediaDownloads": 0
+}

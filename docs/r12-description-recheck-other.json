@@ -1,0 +1,4159 @@
+{
+  "date": "2026-10-15T04:41:24.395Z",
+  "targets": 500,
+  "processed": 500,
+  "counts": {
+    "NO_VERIFIED_DESCRIPTION": 117,
+    "UPDATED": 324,
+    "METADATA_ONLY": 56,
+    "UNAVAILABLE": 3
+  },
+  "rows": [
+    {
+      "id": "TEACHER-cfcf95576e7a73119bea8ce4",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "세종대왕 1부 책을 사랑한 셋째아들",
+      "program": "덩이랑 쾡이랑 인물 한국사",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?courseId=40055067&stepId=60060073&lectId=60771803"
+    },
+    {
+      "id": "BROAD-001",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "모두 모두 자란다",
+      "program": "딩동댕 딩동댕",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=25&month=05&type=tv&year=2026"
+    },
+    {
+      "id": "DP-60058964",
+      "status": "UPDATED",
+      "descriptionLength": 200,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058964",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신의 글씨는 안녕한가요",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "BROAD-002",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아기 염소와 오리 가족",
+      "program": "딩동댕 딩동댕",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=15&month=06&year=2026"
+    },
+    {
+      "id": "BROAD-003",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "꿀벌 마야의 모험",
+      "program": "딩동댕 딩동댕",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=24&month=06&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-005",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "미국사 9강 남북전쟁과 통합의 역사",
+      "program": "나의 두 번째 교과서",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=25&month=05&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-006",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "한국사 1강 편견을 깬 전곡리 주먹도끼",
+      "program": "나의 두 번째 교과서",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=15&month=06&year=2026"
+    },
+    {
+      "id": "BROAD-007",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "한국사 7강 이상 도시 수원화성",
+      "program": "나의 두 번째 교과서",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=24&month=06&type=tv&year=2026"
+    },
+    {
+      "id": "ECLIP-001",
+      "status": "METADATA_ONLY",
+      "title": "옛날 민속놀이의 장난감(민속놀이 장난감의 재료)",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "ECLIP-003",
+      "status": "METADATA_ONLY",
+      "title": "물체를 이루고 있는 여러 가지 물질 찾아보기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "DP-60058901",
+      "status": "UPDATED",
+      "descriptionLength": 705,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058901",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "1942 조세이 탄광",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-004",
+      "status": "METADATA_ONLY",
+      "title": "기초 탐구활동 익히기 관찰 (1)",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "DP-60058373",
+      "status": "UPDATED",
+      "descriptionLength": 153,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058373",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "피지컬 AI,신입사원이 되다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-005",
+      "status": "METADATA_ONLY",
+      "title": "물질의 성질 알아보기 (1) - 가장 단단한 물질은?",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "ECLIP-006",
+      "status": "METADATA_ONLY",
+      "title": "물질의 성질 알아보기 (3) - 가장 잘 구부러지는 물질은?",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "ECLIP-007",
+      "status": "METADATA_ONLY",
+      "title": "자갈, 물, 공기의 비교 1",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "ECLIP-008",
+      "status": "METADATA_ONLY",
+      "title": "새끼를 낳는 동물의 한살이 알아보기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "ECLIP-009",
+      "status": "METADATA_ONLY",
+      "title": "무슨 소리일까요?",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "BROAD-004",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "둥근 해가 떴습니다",
+      "program": "딩동댕 딩동댕",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=20&month=07&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-009",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "미국사 1강 자유, 미국 독립과 새로운 권리의 시작",
+      "program": "나의 두 번째 교과서",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=20&month=07&type=tv&year=2026"
+    },
+    {
+      "id": "ECLIP-002",
+      "status": "METADATA_ONLY",
+      "title": "학용품을 이루고 있는 물질을 기준으로 분류",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008392"
+    },
+    {
+      "id": "DP-60058255",
+      "status": "UPDATED",
+      "descriptionLength": 271,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058255",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아이의 시간",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "BROAD-008",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "체육 3강 강한 엉덩이가 나를 살린다!",
+      "program": "나의 두 번째 교과서",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=06&month=07&type=tv&year=2026"
+    },
+    {
+      "id": "ECLIP-010",
+      "status": "METADATA_ONLY",
+      "title": "식물의 한살이 관찰을 위한 씨앗 심기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008393"
+    },
+    {
+      "id": "DP-60058170",
+      "status": "UPDATED",
+      "descriptionLength": 372,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058170",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "백세부자",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-011",
+      "status": "METADATA_ONLY",
+      "title": "벼의 한살이",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10008393"
+    },
+    {
+      "id": "BROAD-010",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "유전, 내 머리는 누굴 닮았을까",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=5&option=&pageNo=53&postId=30004757250&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "DP-60058162",
+      "status": "UPDATED",
+      "descriptionLength": 377,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058162",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "베이비부머 은퇴 없는 세대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "BROAD-011",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "오가노이드, 인공 장기 어디까지 왔나?",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=7&pageNo=40&postId=30004863515&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "DP-60058062",
+      "status": "UPDATED",
+      "descriptionLength": 260,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058062",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "자연다큐 죽음",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-012",
+      "status": "METADATA_ONLY",
+      "title": "건습구 온도계",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "BROAD-012",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "심해, 그 깊은 곳에 어떻게 생명이 사나?",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=3&option=&pageNo=1&postId=30004892137&searchCondition=title&searchKeyword=%EC%83%9D%EB%AA%85"
+    },
+    {
+      "id": "ECLIP-014",
+      "status": "METADATA_ONLY",
+      "title": "이슬과 안개의 원리",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-015",
+      "status": "METADATA_ONLY",
+      "title": "구름이 발생하는 현상",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-016",
+      "status": "METADATA_ONLY",
+      "title": "지면과 수면의 온도 변화",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-017",
+      "status": "METADATA_ONLY",
+      "title": "공기의 무게와 기압의 관계",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-018",
+      "status": "METADATA_ONLY",
+      "title": "계절별 날씨의 특징",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-019",
+      "status": "METADATA_ONLY",
+      "title": "별자리를 이용하여 북극성 찾기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-020",
+      "status": "METADATA_ONLY",
+      "title": "식물의 증산작용",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-021",
+      "status": "METADATA_ONLY",
+      "title": "기공을 통한 증산작용",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "DP-60058042",
+      "status": "UPDATED",
+      "descriptionLength": 279,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058042",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "자연모사",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-022",
+      "status": "METADATA_ONLY",
+      "title": "물의 양에 따라 달라지는 녹는 양",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-023",
+      "status": "METADATA_ONLY",
+      "title": "물의 온도에 달라지는 녹는 양",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "ECLIP-024",
+      "status": "METADATA_ONLY",
+      "title": "용액의 진하기를 비교하는 방법",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "DP-60057990",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교는 사라지는가",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "ECLIP-013",
+      "status": "METADATA_ONLY",
+      "title": "건습구 온도계의 원리",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019660"
+    },
+    {
+      "id": "BROAD-013",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "핵융합, K-기술은 어떻게 판을 뒤집었나",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=14&option=&pageNo=4&postId=30004929387&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "ECLIP-025",
+      "status": "METADATA_ONLY",
+      "title": "달빛의 원리",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-027",
+      "status": "METADATA_ONLY",
+      "title": "태양, 지구, 달의 위치에 따른 달의 모양 변화",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-028",
+      "status": "METADATA_ONLY",
+      "title": "기체 모으기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-029",
+      "status": "METADATA_ONLY",
+      "title": "산소를 만들어 성질 알아보기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "BROAD-014",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "부피, 콩알을 쪼개서 태양을 만들 수 있을까",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=12&pageNo=20&postId=30005050724&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "ECLIP-030",
+      "status": "METADATA_ONLY",
+      "title": "이산화탄소 만들어 성질 알아보기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-031",
+      "status": "METADATA_ONLY",
+      "title": "화재가 났을 때 어떻게 해야 할까?",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-032",
+      "status": "METADATA_ONLY",
+      "title": "불을 끄는 방법",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "ECLIP-033",
+      "status": "METADATA_ONLY",
+      "title": "물질이 타면 생성되는 것",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "DP-60057963",
+      "status": "UPDATED",
+      "descriptionLength": 264,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057963",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생존체육",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "BROAD-015",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "은하, 우리는 왜 그렇게 먼 곳을 볼까",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=7&pageNo=4&postId=30005125021&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "ECLIP-026",
+      "status": "METADATA_ONLY",
+      "title": "달의 모양이 변하는 이유",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019664"
+    },
+    {
+      "id": "DP-60057405",
+      "status": "UPDATED",
+      "descriptionLength": 298,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057405",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "주식의 시대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-035",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "고인돌의 제작과정",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-036",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "다양한 고인돌",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-037",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "연맹국가, 가야",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-038",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "무령왕릉",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-039",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "발해와 고구려의 유물",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-040",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "만파식적 이야기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-041",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "통일신라시대 귀족의 생활",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-042",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "불국사",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-043",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "공산전투",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-044",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "고려의 과거제와 음서제",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "ECLIP-034",
+      "status": "METADATA_ONLY",
+      "title": "도구의 사용과 불의 발견",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600"
+    },
+    {
+      "id": "BROAD-016",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "식물, 넌 이름이 뭐니",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=9&option=&pageNo=1&postId=30005222061&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "DP-60057398",
+      "status": "UPDATED",
+      "descriptionLength": 200,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057398",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신의 뇌는 뛰고 있는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "BROAD-017",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "치매, 치료제는 어떻게 나왔나?",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30005279587"
+    },
+    {
+      "id": "BROAD-019",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "달에 병아리콩이 피었습니다",
+      "program": "지식채널e",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=25&month=05&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-020",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "그들 각자의 사연 - 동물편",
+      "program": "지식채널e",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=25&month=05&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-021",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "첫째는 서러워! 외",
+      "program": "수상한 방송국",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=24&month=06&type=tv&year=2026"
+    },
+    {
+      "id": "BROAD-022",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "도덕감정론 6강 내 안에 공정한 관찰자",
+      "program": "AI 고전, 역사를 바꾼 100책",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=15&month=06&year=2026"
+    },
+    {
+      "id": "BROAD-023",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "내 아이의 사생활",
+      "program": "부모의 첫 성교육",
+      "sourceUrl": "https://about.ebs.co.kr/kor/pr/weekly?day=15&month=06&year=2026"
+    },
+    {
+      "id": "DP-60057365",
+      "status": "UPDATED",
+      "descriptionLength": 623,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057365",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천하제일 중국명산",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-045",
+      "status": "METADATA_ONLY",
+      "title": "강강술래",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019659"
+    },
+    {
+      "id": "ECLIP-047",
+      "status": "METADATA_ONLY",
+      "title": "우리나라의 영해",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019659"
+    },
+    {
+      "id": "ECLIP-049",
+      "status": "METADATA_ONLY",
+      "title": "반도와 섬",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019659"
+    },
+    {
+      "id": "BROAD-018",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "과학 수사, DNA는 어디까지 알고 있나",
+      "program": "취미는 과학",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=7&option=&pageNo=1&postId=30005297662&searchCondition=title&searchKeyword="
+    },
+    {
+      "id": "DP-60057337",
+      "status": "UPDATED",
+      "descriptionLength": 156,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057337",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "알파고 10년, AI와 바둑",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-046",
+      "status": "METADATA_ONLY",
+      "title": "동고서저 지형, 산맥",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019659"
+    },
+    {
+      "id": "DP-60057316",
+      "status": "UPDATED",
+      "descriptionLength": 833,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057316",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "더 도그2",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-050",
+      "status": "METADATA_ONLY",
+      "title": "조선시대의 공예품",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10024321"
+    },
+    {
+      "id": "DP-60057296",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "화장실 전쟁",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "ECLIP-051",
+      "status": "METADATA_ONLY",
+      "title": "삼종지도와 조선시대 여성의 삶",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10024321"
+    },
+    {
+      "id": "DP-60057229",
+      "status": "UPDATED",
+      "descriptionLength": 259,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057229",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "예술하는 인간",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-052",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "대한제국",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-054",
+      "status": "METADATA_ONLY",
+      "title": "대한제국 선포",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-055",
+      "status": "METADATA_ONLY",
+      "title": "근대 교육",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-056",
+      "status": "METADATA_ONLY",
+      "title": "근대 문물의 수용",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-057",
+      "status": "METADATA_ONLY",
+      "title": "전봉준",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-058",
+      "status": "METADATA_ONLY",
+      "title": "동학농민운동 2차 봉기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-059",
+      "status": "METADATA_ONLY",
+      "title": "동학농민운동 1차 봉기",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-060",
+      "status": "METADATA_ONLY",
+      "title": "갑신정변의 주역들",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "DP-60057187",
+      "status": "UPDATED",
+      "descriptionLength": 109,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057187",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "AI 다큐 - 한식 더 오리진",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "ECLIP-061",
+      "status": "METADATA_ONLY",
+      "title": "갑신정변의 발발과 결과",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-062",
+      "status": "METADATA_ONLY",
+      "title": "갑신정변의 발생 배경",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-063",
+      "status": "METADATA_ONLY",
+      "title": "강화도 조약",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-064",
+      "status": "METADATA_ONLY",
+      "title": "운요호 사건",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-065",
+      "status": "METADATA_ONLY",
+      "title": "병인양요",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-066",
+      "status": "METADATA_ONLY",
+      "title": "대동여지도",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-067",
+      "status": "METADATA_ONLY",
+      "title": "홍경래의 난",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-068",
+      "status": "METADATA_ONLY",
+      "title": "조선전기 남녀의 평등",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "ECLIP-053",
+      "status": "METADATA_ONLY",
+      "title": "광무개혁",
+      "program": "교과연계 클립",
+      "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId="
+    },
+    {
+      "id": "DP-60057111",
+      "status": "UPDATED",
+      "descriptionLength": 245,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057111",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "공부불안-왜 공부할수록 더 불안한가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60057132",
+      "status": "UPDATED",
+      "descriptionLength": 203,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057132",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "지금, 불안하세요?",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056661",
+      "status": "UPDATED",
+      "descriptionLength": 32,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056661",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "잡초선생",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60057021",
+      "status": "UPDATED",
+      "descriptionLength": 624,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057021",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "시민 미완: 경계의 청년들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60057013",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "계층 사다리는 끊어졌나",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056659",
+      "status": "UPDATED",
+      "descriptionLength": 85,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056659",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "음모론의 심리학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056315",
+      "status": "UPDATED",
+      "descriptionLength": 608,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "SF 자연다큐멘터리 꿀벌",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056312",
+      "status": "UPDATED",
+      "descriptionLength": 271,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056312",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생각보다 화학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055740",
+      "status": "UPDATED",
+      "descriptionLength": 506,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055740",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "드론과 인류",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055741",
+      "status": "UPDATED",
+      "descriptionLength": 278,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055741",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "태평양",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055742",
+      "status": "UPDATED",
+      "descriptionLength": 199,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055742",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "위대한 영혼, 발리",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055743",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "암컷들",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055745",
+      "status": "UPDATED",
+      "descriptionLength": 917,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055745",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생성형 AI 다큐 위대한 인도",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055747",
+      "status": "UPDATED",
+      "descriptionLength": 676,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055747",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "내 마지막 집은 어디인가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055749",
+      "status": "UPDATED",
+      "descriptionLength": 1468,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055749",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "날씨의 시대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055750",
+      "status": "UPDATED",
+      "descriptionLength": 722,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055750",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "더 도그",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055751",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "마지막 도전",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055751"
+    },
+    {
+      "id": "DP-60055752",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "겨울의 송가",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055752"
+    },
+    {
+      "id": "DP-60055753",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "대리석 유랑기",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055754",
+      "status": "UPDATED",
+      "descriptionLength": 581,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055754",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "커넥션",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055755",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "버퍼존",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055755"
+    },
+    {
+      "id": "DP-60055756",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "고양이감리",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055756"
+    },
+    {
+      "id": "DP-60055757",
+      "status": "UPDATED",
+      "descriptionLength": 283,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055757",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "자연다큐멘터리 귀환",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055758",
+      "status": "UPDATED",
+      "descriptionLength": 610,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055758",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "쿠킹포유",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055759",
+      "status": "UPDATED",
+      "descriptionLength": 744,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055759",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생선의 종말",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055760",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "가축",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055761",
+      "status": "UPDATED",
+      "descriptionLength": 751,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055761",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생명의 전략, 기생",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055763",
+      "status": "UPDATED",
+      "descriptionLength": 711,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055763",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "바다의 점령자",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055764",
+      "status": "UPDATED",
+      "descriptionLength": 232,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055764",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "가족 탄생의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055765",
+      "status": "UPDATED",
+      "descriptionLength": 229,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055765",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "다이어트 혁명 0.5%의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055766",
+      "status": "UPDATED",
+      "descriptionLength": 601,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055766",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "여성백년사 - 그때도 틀리고 지금도 틀리다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055767",
+      "status": "UPDATED",
+      "descriptionLength": 1589,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055767",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "게임에 진심인 편",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055768",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교폭력 공감 프로젝트",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055769",
+      "status": "UPDATED",
+      "descriptionLength": 4748,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055769",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "넘버스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055770",
+      "status": "UPDATED",
+      "descriptionLength": 755,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055770",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "진화의 신비, 독(毒)",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055771",
+      "status": "UPDATED",
+      "descriptionLength": 247,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055771",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생존",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055772",
+      "status": "UPDATED",
+      "descriptionLength": 420,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055772",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "창사특집 지독한 끌림",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055773",
+      "status": "UPDATED",
+      "descriptionLength": 233,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055773",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아동인권 6부작 어린人권",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055774",
+      "status": "UPDATED",
+      "descriptionLength": 269,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055774",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "900개의 영혼,파푸아뉴기니",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055775",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "독버섯 죽음에 이르는 유혹",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055777",
+      "status": "UPDATED",
+      "descriptionLength": 710,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055777",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "백성의 물고기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055779",
+      "status": "UPDATED",
+      "descriptionLength": 417,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055779",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "연애기계",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055780",
+      "status": "UPDATED",
+      "descriptionLength": 344,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055780",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천국의 아이들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055781",
+      "status": "UPDATED",
+      "descriptionLength": 934,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055781",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "강제혁신",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055782",
+      "status": "UPDATED",
+      "descriptionLength": 517,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055782",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "코로나19 교육보고서 사라진 학교",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055783",
+      "status": "UPDATED",
+      "descriptionLength": 530,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055783",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "여섯 번째 대멸종",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055784",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "알파 우먼",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055785",
+      "status": "UPDATED",
+      "descriptionLength": 50,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055785",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "혼빌 레이디",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055786",
+      "status": "UPDATED",
+      "descriptionLength": 126,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055786",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "저키보이",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055787",
+      "status": "UPDATED",
+      "descriptionLength": 300,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055787",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "탐라국의 해저",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055788",
+      "status": "UPDATED",
+      "descriptionLength": 2415,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055788",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "도시예찬",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055789",
+      "status": "UPDATED",
+      "descriptionLength": 247,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055789",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천국의 새",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055790",
+      "status": "UPDATED",
+      "descriptionLength": 605,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055790",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "예술의 쓸모",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055791",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아이",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055792",
+      "status": "UPDATED",
+      "descriptionLength": 604,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055792",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "중앙아시아, 살아남은 야생의 기록",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055793",
+      "status": "UPDATED",
+      "descriptionLength": 256,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055793",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "불멸의 진시황",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055794",
+      "status": "UPDATED",
+      "descriptionLength": 230,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055794",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "Z세대, 오래된 미래 속으로",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055795",
+      "status": "UPDATED",
+      "descriptionLength": 458,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055795",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생명의 해류 2000km",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055796",
+      "status": "UPDATED",
+      "descriptionLength": 1249,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055796",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "면역, 위대한 여정",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055797",
+      "status": "UPDATED",
+      "descriptionLength": 1286,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055797",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "3.1절 특집 다큐멘터리 후손",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055798",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "곤충, 전략의 귀재들",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056106",
+      "status": "UPDATED",
+      "descriptionLength": 991,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056106",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "포스트 코로나",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055799",
+      "status": "UPDATED",
+      "descriptionLength": 302,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055799",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세이모어 번스타인의 특별한 수업",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055800",
+      "status": "UPDATED",
+      "descriptionLength": 212,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055800",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "의자",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055801",
+      "status": "UPDATED",
+      "descriptionLength": 182,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055801",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "시티",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055802",
+      "status": "UPDATED",
+      "descriptionLength": 297,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055802",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "요리의 과학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055803",
+      "status": "UPDATED",
+      "descriptionLength": 166,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055803",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "60세 미만 출입금지",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055804",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "바닷속 밀리미터의 세상",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055805",
+      "status": "UPDATED",
+      "descriptionLength": 431,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055805",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "야수의 방주",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055806",
+      "status": "UPDATED",
+      "descriptionLength": 1163,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055806",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "메모리즈 합창단",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055807",
+      "status": "UPDATED",
+      "descriptionLength": 432,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055807",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "범의 땅",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055808",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "혼돈시대의 중앙은행",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055808"
+    },
+    {
+      "id": "DP-60055809",
+      "status": "UPDATED",
+      "descriptionLength": 593,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055809",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "패밀리 아시아",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056107",
+      "status": "UPDATED",
+      "descriptionLength": 1235,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056107",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "시민의 탄생",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055810",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "뇌로 보는 인간",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056108",
+      "status": "UPDATED",
+      "descriptionLength": 670,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056108",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "무엇이 학교를 바꾸는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056109",
+      "status": "UPDATED",
+      "descriptionLength": 1367,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056109",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "교육대기획 다시, 학교",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055811",
+      "status": "UPDATED",
+      "descriptionLength": 1910,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "역사의 빛, 청년",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055812",
+      "status": "UPDATED",
+      "descriptionLength": 972,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055812",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천상의 녹색 계단 바나우에 라이스 테라스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055813",
+      "status": "UPDATED",
+      "descriptionLength": 911,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055813",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "사랑의 과학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055814",
+      "status": "UPDATED",
+      "descriptionLength": 522,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055814",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "송광",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055815",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "진정성시대",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055816",
+      "status": "UPDATED",
+      "descriptionLength": 244,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055816",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "야생리포트 DMZ",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055817",
+      "status": "UPDATED",
+      "descriptionLength": 739,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055817",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "미스터리 아일랜드 붉은 크리스마스 섬",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055818",
+      "status": "UPDATED",
+      "descriptionLength": 406,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055818",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "부모와 다른 아이들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055819",
+      "status": "UPDATED",
+      "descriptionLength": 1412,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055819",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "제노사이",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055820",
+      "status": "UPDATED",
+      "descriptionLength": 2227,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055820",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "절망을 이기는 철학 제자백가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055821",
+      "status": "UPDATED",
+      "descriptionLength": 807,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055821",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인류세",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055822",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "휴식의 기술",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055823",
+      "status": "UPDATED",
+      "descriptionLength": 372,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055823",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "100세 쇼크",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055824",
+      "status": "UPDATED",
+      "descriptionLength": 526,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055824",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "수컷들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055825",
+      "status": "UNAVAILABLE",
+      "error": "공식 소개문의 식별·본문 대조 실패",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055825"
+    },
+    {
+      "id": "DP-60055826",
+      "status": "UPDATED",
+      "descriptionLength": 313,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055826",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "비밀의 왕국",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055827",
+      "status": "UPDATED",
+      "descriptionLength": 387,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055827",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "카레남녀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055828",
+      "status": "UPDATED",
+      "descriptionLength": 420,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055828",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "돼지전",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055829",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "2019 신년특집 교육대기획 미래학교",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055830",
+      "status": "UPDATED",
+      "descriptionLength": 405,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055830",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "청춘 전당포",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055831",
+      "status": "UPDATED",
+      "descriptionLength": 748,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055831",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "경제대기획 빚",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055832",
+      "status": "UPDATED",
+      "descriptionLength": 254,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055832",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "알츠하이머 보고서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055833",
+      "status": "UPDATED",
+      "descriptionLength": 2130,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055833",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한글날 특집",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055834",
+      "status": "UPDATED",
+      "descriptionLength": 430,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055834",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천불천탑의 신비 미얀마",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055835",
+      "status": "UPDATED",
+      "descriptionLength": 386,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055835",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "위대한 로마",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055836",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "내 운동화는 몇 명인가",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055837",
+      "status": "UPDATED",
+      "descriptionLength": 493,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055837",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "진화와 공존의 섬 갈라파고스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055838",
+      "status": "UPDATED",
+      "descriptionLength": 546,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055838",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "5원소, 문명의 기원",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055839",
+      "status": "UPDATED",
+      "descriptionLength": 2059,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055839",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국사 오천년, 생존의 길",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055840",
+      "status": "UPDATED",
+      "descriptionLength": 232,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055840",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "밤의 제국",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055841",
+      "status": "UPDATED",
+      "descriptionLength": 175,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055841",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "맛의 배신",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055842",
+      "status": "UPDATED",
+      "descriptionLength": 353,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055842",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "뼈",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055843",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "불의 검",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055844",
+      "status": "UPDATED",
+      "descriptionLength": 461,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055844",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "예술, 할까요?",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055845",
+      "status": "UPDATED",
+      "descriptionLength": 681,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055845",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "4차 인간",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055846",
+      "status": "UPDATED",
+      "descriptionLength": 315,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055846",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "개띠열전",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055847",
+      "status": "UPDATED",
+      "descriptionLength": 621,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055847",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "번 아웃 키즈",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055848",
+      "status": "UPDATED",
+      "descriptionLength": 195,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055848",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "미래人교육",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055849",
+      "status": "UPDATED",
+      "descriptionLength": 495,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055849",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "4차 산업혁명, 교육 패러다임의 대전환",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055850",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "꿈, 떠나다",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055851",
+      "status": "UPDATED",
+      "descriptionLength": 556,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055851",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "철학하라",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055852",
+      "status": "UPDATED",
+      "descriptionLength": 430,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055852",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "4차 산업혁명시대 교육대혁명",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055853",
+      "status": "UPDATED",
+      "descriptionLength": 302,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055853",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "행복한 주거",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055854",
+      "status": "UPDATED",
+      "descriptionLength": 416,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055854",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "대학 입시의 진실",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055855",
+      "status": "UPDATED",
+      "descriptionLength": 380,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055855",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "대통령은 누구인가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055856",
+      "status": "UPDATED",
+      "descriptionLength": 571,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055856",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아시아 원시 부족 탐험",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055857",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "먼지",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055858",
+      "status": "UPDATED",
+      "descriptionLength": 260,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055858",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "달의 기적",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055859",
+      "status": "UPDATED",
+      "descriptionLength": 264,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055859",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "글로벌 인재전쟁",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055860",
+      "status": "UPDATED",
+      "descriptionLength": 167,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055860",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "2017 시대탐구 청년",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055861",
+      "status": "UPDATED",
+      "descriptionLength": 581,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055861",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "긴팔인간",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055862",
+      "status": "UPDATED",
+      "descriptionLength": 1045,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055862",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "슬픈 늑대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055863",
+      "status": "UPDATED",
+      "descriptionLength": 467,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055863",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "감정시대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055864",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "사라진 인류",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055865",
+      "status": "UPDATED",
+      "descriptionLength": 789,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055865",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "시험",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055866",
+      "status": "UPDATED",
+      "descriptionLength": 600,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "극한의 땅",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055867",
+      "status": "UPDATED",
+      "descriptionLength": 191,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055867",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "김연수의 열하일기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055868",
+      "status": "UPDATED",
+      "descriptionLength": 332,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055868",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "부부는 무엇으로 사는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055870",
+      "status": "UPDATED",
+      "descriptionLength": 192,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055870",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "모멘트",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055871",
+      "status": "UPDATED",
+      "descriptionLength": 1003,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055871",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "앙트레프레너, 경제강국의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055872",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "청춘, 사라진 100년 그들의 목소리",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055873",
+      "status": "UPDATED",
+      "descriptionLength": 1748,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055873",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "비밀의 땅 파미르",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055874",
+      "status": "UPDATED",
+      "descriptionLength": 1740,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055874",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "X10",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055875",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "호랑이의 땅",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055875"
+    },
+    {
+      "id": "DP-60055876",
+      "status": "UPDATED",
+      "descriptionLength": 644,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055876",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한라산 늑대개",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055877",
+      "status": "UPDATED",
+      "descriptionLength": 1238,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055877",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신의 대변은 건강하십니까?",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055878",
+      "status": "UPDATED",
+      "descriptionLength": 427,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055878",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "민주주의",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055879",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "공부의 배신",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055880",
+      "status": "UPDATED",
+      "descriptionLength": 199,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055880",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한반도 대서사시 나무",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056111",
+      "status": "UPDATED",
+      "descriptionLength": 1703,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056111",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "커뮤니케이션의 힘",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055881",
+      "status": "UPDATED",
+      "descriptionLength": 463,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055881",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "우리집 꼰대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055882",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "어메이징 데이",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055882"
+    },
+    {
+      "id": "DP-60055883",
+      "status": "UPDATED",
+      "descriptionLength": 464,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055883",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "교육패러다임 대기획 공부의 재구성",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055884",
+      "status": "UPDATED",
+      "descriptionLength": 733,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055884",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "행복한 건축",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055885",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교의 기적",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055886",
+      "status": "UPDATED",
+      "descriptionLength": 589,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055886",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "이웃소통프로젝트-밥 한번 먹자",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055887",
+      "status": "UPDATED",
+      "descriptionLength": 916,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055887",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "가족쇼크",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055888",
+      "status": "UPDATED",
+      "descriptionLength": 564,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055888",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "우리 WE",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055889",
+      "status": "UPDATED",
+      "descriptionLength": 2864,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055889",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "또 하나의 독립운동",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055890",
+      "status": "UPDATED",
+      "descriptionLength": 810,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055890",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "결혼의 진화",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055891",
+      "status": "UPDATED",
+      "descriptionLength": 448,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055891",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "감각의 제국",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055893",
+      "status": "UPDATED",
+      "descriptionLength": 556,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055893",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "교육대동여지도, 교사고수전",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055892",
+      "status": "UPDATED",
+      "descriptionLength": 571,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055892",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인간과 패션",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055894",
+      "status": "UPDATED",
+      "descriptionLength": 1858,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055894",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "의학, 동과 서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055895",
+      "status": "UPDATED",
+      "descriptionLength": 2036,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055895",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "기적의 대학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055896",
+      "status": "UPDATED",
+      "descriptionLength": 805,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055896",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "공부 못하는 아이",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055897",
+      "status": "UPDATED",
+      "descriptionLength": 400,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055897",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "원령공주의 땅 야쿠시마",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055898",
+      "status": "UPDATED",
+      "descriptionLength": 612,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055898",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "삶과 죽음의 그래프",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055899",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "제국의 수도, 앙코르톰",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055899"
+    },
+    {
+      "id": "DP-60055900",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "앙코르 와트",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055901",
+      "status": "UPDATED",
+      "descriptionLength": 469,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055901",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "데스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055902",
+      "status": "UPDATED",
+      "descriptionLength": 489,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055902",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "닐로로 키둘의 아이들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055903",
+      "status": "UNAVAILABLE",
+      "error": "공식 소개문의 식별·본문 대조 실패",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055903"
+    },
+    {
+      "id": "DP-60055904",
+      "status": "UPDATED",
+      "descriptionLength": 1114,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055904",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "슬로리딩, 생각을 키우는 힘",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055905",
+      "status": "UPDATED",
+      "descriptionLength": 521,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055905",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "악기는 무엇으로 사는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055906",
+      "status": "UPDATED",
+      "descriptionLength": 417,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055906",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세계문화유산 양동마을 이야기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055907",
+      "status": "UPDATED",
+      "descriptionLength": 271,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055907",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "맛이란 무엇인가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055908",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "수학 대기획2 생명의 디자인",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055909",
+      "status": "UPDATED",
+      "descriptionLength": 722,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "황금비율의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055910",
+      "status": "UPDATED",
+      "descriptionLength": 2764,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055910",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "문명과 수학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055911",
+      "status": "UPDATED",
+      "descriptionLength": 428,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055911",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "미래를 바꾸는 교육",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055912",
+      "status": "UPDATED",
+      "descriptionLength": 3444,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055912",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "잡초",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055913",
+      "status": "UPDATED",
+      "descriptionLength": 447,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055913",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신이 화내는 진짜 이유",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055914",
+      "status": "UPDATED",
+      "descriptionLength": 778,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055914",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "중앙아시아의스위스,키르기스스탄",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055915",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "인간탐구 욕망 황금",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055916",
+      "status": "UPDATED",
+      "descriptionLength": 1429,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055916",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "불멸의 마야",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055917",
+      "status": "UPDATED",
+      "descriptionLength": 767,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055917",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "법과 정의",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055918",
+      "status": "UPDATED",
+      "descriptionLength": 416,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055918",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아버지의 성",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055919",
+      "status": "UPDATED",
+      "descriptionLength": 2846,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055919",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "오래된 미래, 전통육아의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055921",
+      "status": "UPDATED",
+      "descriptionLength": 1199,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055921",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인간과 애니메이션",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055922",
+      "status": "UPDATED",
+      "descriptionLength": 1125,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055922",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "조선두부 왜국을 깨우다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055923",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "교육혁명 15세에 주목하라",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055924",
+      "status": "UPDATED",
+      "descriptionLength": 2940,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055924",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "참매와 나",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055925",
+      "status": "UPDATED",
+      "descriptionLength": 297,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055925",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "수학의 위대한 여정",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055926",
+      "status": "UPDATED",
+      "descriptionLength": 1037,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055926",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아파트 중독",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055927",
+      "status": "UPDATED",
+      "descriptionLength": 891,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055927",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "왜 우리는 대학에 가는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055928",
+      "status": "UPDATED",
+      "descriptionLength": 1202,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055928",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "학교의 발견",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055929",
+      "status": "UPDATED",
+      "descriptionLength": 2034,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055929",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국의 지네",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055930",
+      "status": "UPDATED",
+      "descriptionLength": 867,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055930",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "곤충 밀리미터의 세계",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055931",
+      "status": "UPDATED",
+      "descriptionLength": 1119,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055931",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "챠강티메 - 흰 낙타 이야기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055932",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "우포늪의 사람들",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055933",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "해독, 몸의 복수",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055933"
+    },
+    {
+      "id": "DP-60055934",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아이들이 위험하다! 미세먼지의 습격",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055934"
+    },
+    {
+      "id": "DP-60055935",
+      "status": "UPDATED",
+      "descriptionLength": 221,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055935",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "놀이터 프로젝트",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055936",
+      "status": "UPDATED",
+      "descriptionLength": 2004,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055936",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "다시 사랑한다 말할까",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055937",
+      "status": "UPDATED",
+      "descriptionLength": 742,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055937",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국인과 영어",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055938",
+      "status": "UPDATED",
+      "descriptionLength": 1321,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055938",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "길위의 천사",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055939",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "초등 성장 보고서",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055940",
+      "status": "UPDATED",
+      "descriptionLength": 2401,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055940",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "바람의 혼, 참매",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055941",
+      "status": "UPDATED",
+      "descriptionLength": 995,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055941",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "사냥의기술",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055942",
+      "status": "UPDATED",
+      "descriptionLength": 276,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055942",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "빛의 물리학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055943",
+      "status": "UPDATED",
+      "descriptionLength": 1728,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055943",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인간과 개",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055944",
+      "status": "UPDATED",
+      "descriptionLength": 168,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055944",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "은밀한 문명사",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055945",
+      "status": "UPDATED",
+      "descriptionLength": 468,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055945",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "33분마다 떠나는 사람들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055946",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "히말라야",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055947",
+      "status": "UPDATED",
+      "descriptionLength": 128,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055947",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "술의 경고",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055948",
+      "status": "UPDATED",
+      "descriptionLength": 1818,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055948",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "어머니의 강 메콩",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055949",
+      "status": "UPDATED",
+      "descriptionLength": 557,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055949",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천장",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055950",
+      "status": "UPDATED",
+      "descriptionLength": 463,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055950",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "진화의 비밀,음식",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055951",
+      "status": "UPDATED",
+      "descriptionLength": 1987,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055951",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국의 강",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055952",
+      "status": "UPDATED",
+      "descriptionLength": 639,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055952",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "기생",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055953",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "한태수교 55주년기념특별기획국제공동제작",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055954",
+      "status": "UPDATED",
+      "descriptionLength": 520,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055954",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생과 사의 강, 브라마푸트라",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055955",
+      "status": "UPDATED",
+      "descriptionLength": 1729,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055955",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "퍼펙트 베이비",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055956",
+      "status": "UPDATED",
+      "descriptionLength": 2886,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055956",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세상을 바꾸는 착한 여행",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055957",
+      "status": "UPDATED",
+      "descriptionLength": 1307,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055957",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "백색의 은둔자 눈표범",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055958",
+      "status": "UPDATED",
+      "descriptionLength": 852,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055958",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "파더 쇼크",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055959",
+      "status": "UPDATED",
+      "descriptionLength": 1879,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055959",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "황혼의 반란",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055960",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아시아 음식의 비밀,장",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055961",
+      "status": "UPDATED",
+      "descriptionLength": 425,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055961",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세계의 섬",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055962",
+      "status": "UPDATED",
+      "descriptionLength": 295,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055962",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인간탐구 욕망 호모 컨슈머리쿠스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055963",
+      "status": "UPDATED",
+      "descriptionLength": 1593,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055963",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "과학 대기획-다섯개의 열쇠",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055964",
+      "status": "UPDATED",
+      "descriptionLength": 724,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055964",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "그린란드의 여름 이야기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055965",
+      "status": "UPDATED",
+      "descriptionLength": 215,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055965",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "사교육제로프로젝트 꼴찌 날개를달다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055966",
+      "status": "UPDATED",
+      "descriptionLength": 636,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055966",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "우랄ㆍ알타이를 가다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055967",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "언어폭력개선 프로젝트",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055968",
+      "status": "UPDATED",
+      "descriptionLength": 451,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055968",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "10대 자살에 관한 보고서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055969",
+      "status": "UPDATED",
+      "descriptionLength": 340,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055969",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아시아의 허브 말레이시아",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056112",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교폭력",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056112"
+    },
+    {
+      "id": "DP-60055970",
+      "status": "UPDATED",
+      "descriptionLength": 1601,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055970",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아시아대평원",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055971",
+      "status": "UPDATED",
+      "descriptionLength": 973,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055971",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "위대한 바빌론",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055972",
+      "status": "UPDATED",
+      "descriptionLength": 492,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055972",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "행복의 조건, 복지국가를 가다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055973",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "굿모닝카자흐스탄",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055974",
+      "status": "UPDATED",
+      "descriptionLength": 828,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055974",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "안데스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055975",
+      "status": "UPDATED",
+      "descriptionLength": 1726,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055975",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "골목은 동사다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055976",
+      "status": "UPDATED",
+      "descriptionLength": 456,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055976",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "호랑이 수난사",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055977",
+      "status": "UPDATED",
+      "descriptionLength": 958,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055977",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인터넷 폭력예방 프로젝트",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056113",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교의 고백",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056113"
+    },
+    {
+      "id": "DP-60055978",
+      "status": "UPDATED",
+      "descriptionLength": 3127,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055978",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "달팽이, 손으로 런던을 보다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055979",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "킹메이커",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055980",
+      "status": "UPDATED",
+      "descriptionLength": 753,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055980",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "학교체육, 미래를 만나다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055981",
+      "status": "UPDATED",
+      "descriptionLength": 293,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055981",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "자본주의",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055982",
+      "status": "UNAVAILABLE",
+      "error": "공식 소개문의 식별·본문 대조 실패",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055982"
+    },
+    {
+      "id": "DP-60055983",
+      "status": "UPDATED",
+      "descriptionLength": 375,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055983",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "탈북, 그후",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055984",
+      "status": "UPDATED",
+      "descriptionLength": 3269,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055984",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "음악은 어떻게 우리를 사로잡는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055985",
+      "status": "UPDATED",
+      "descriptionLength": 2836,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055985",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "북극열전",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055986",
+      "status": "UPDATED",
+      "descriptionLength": 2087,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055986",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "굿모닝 판다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055987",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "학교의 재탄생",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055988",
+      "status": "UPDATED",
+      "descriptionLength": 1031,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055988",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "치매를 부탁해2",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055989",
+      "status": "UPDATED",
+      "descriptionLength": 3195,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055989",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아르덴 숲의 오래된 친구",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055990",
+      "status": "UPDATED",
+      "descriptionLength": 456,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055990",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "놀이의 반란",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055991",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "한국-콜롬비아 국제공동제작",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055991"
+    },
+    {
+      "id": "DP-60055992",
+      "status": "UPDATED",
+      "descriptionLength": 698,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055992",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한반도 최초의 인류",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055993",
+      "status": "UPDATED",
+      "descriptionLength": 669,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055993",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "학교, 300일간의 기록",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055994",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "심리다큐 '남자'",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60055995",
+      "status": "UPDATED",
+      "descriptionLength": 262,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055995",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "엄마도 모르는 우리 아이의 정서지능",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055996",
+      "status": "UPDATED",
+      "descriptionLength": 1630,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055996",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "링크",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055997",
+      "status": "UPDATED",
+      "descriptionLength": 687,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055997",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "마더 쇼크",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055998",
+      "status": "UPDATED",
+      "descriptionLength": 228,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055998",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "화산",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055999",
+      "status": "UPDATED",
+      "descriptionLength": 1616,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055999",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "신자산어보 '청어'",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056000",
+      "status": "UPDATED",
+      "descriptionLength": 538,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056000",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국음식을 말하다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056001",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "욕해도 될까요?",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056002",
+      "status": "UPDATED",
+      "descriptionLength": 467,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056002",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "치매를 부탁해",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056003",
+      "status": "UPDATED",
+      "descriptionLength": 1829,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056003",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생명 40억년의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056004",
+      "status": "UPDATED",
+      "descriptionLength": 273,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056004",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아시아의 열대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056005",
+      "status": "UPDATED",
+      "descriptionLength": 251,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056005",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "IT문명, 세상을 바꾸다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056006",
+      "status": "UPDATED",
+      "descriptionLength": 1578,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056006",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "안토니오 가우디",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056114",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "선생님이 달라졌어요",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056114"
+    },
+    {
+      "id": "DP-60056115",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "진로교육 나는 꿈꾸고싶다",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056007",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "남편이 달라졌어요",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056007"
+    },
+    {
+      "id": "DP-60056008",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "바람을 향한 인류의 진화 목포대교",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056008"
+    },
+    {
+      "id": "DP-60056009",
+      "status": "UPDATED",
+      "descriptionLength": 812,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056009",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천국의 국경2",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056116",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "엄마가 달라졌어요",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056116"
+    },
+    {
+      "id": "DP-60056011",
+      "status": "UPDATED",
+      "descriptionLength": 677,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056011",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "과학혁명의 이정표",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056012",
+      "status": "UPDATED",
+      "descriptionLength": 486,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056012",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인류문명탐험",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056013",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "숲 속의 인간, 오랑우탄",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056014",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아이의 사생활",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056014"
+    },
+    {
+      "id": "DP-60056015",
+      "status": "UPDATED",
+      "descriptionLength": 934,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056015",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "1935코레아-스텐베리만의 기억",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056016",
+      "status": "UPDATED",
+      "descriptionLength": 1221,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056016",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "잠",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056017",
+      "status": "UPDATED",
+      "descriptionLength": 6798,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056017",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한양의 뒷 골목",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056018",
+      "status": "UPDATED",
+      "descriptionLength": 1751,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056018",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "남과 여",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056019",
+      "status": "UPDATED",
+      "descriptionLength": 289,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056019",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "편지",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056020",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "서당",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056021",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "탐라계곡에서의 한철",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056021"
+    },
+    {
+      "id": "DP-60056022",
+      "status": "UPDATED",
+      "descriptionLength": 906,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056022",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세계의 섬- 봄",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056023",
+      "status": "UPDATED",
+      "descriptionLength": 1305,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056023",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "영상기록",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056024",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "한반도의 매머드",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056024"
+    },
+    {
+      "id": "DP-60056025",
+      "status": "UPDATED",
+      "descriptionLength": 2111,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056025",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "살아있는 생태박물관, 북 술라웨시",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056026",
+      "status": "UPDATED",
+      "descriptionLength": 386,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056026",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "원자력, 공존을 꿈꾸다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056117",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "교육대기획 학교란 무엇인가",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056027",
+      "status": "UPDATED",
+      "descriptionLength": 2040,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056027",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "서울 G20 정상회의 특집",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056028",
+      "status": "UPDATED",
+      "descriptionLength": 1412,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056028",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "내 아이의 전쟁,알레르기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056029",
+      "status": "UPDATED",
+      "descriptionLength": 1491,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056029",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "착한 기술, 희망을 쏘다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056030",
+      "status": "UPDATED",
+      "descriptionLength": 775,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056030",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "학교, 미래를 준비하다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056031",
+      "status": "UPDATED",
+      "descriptionLength": 2278,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056031",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "EBS 기획특집 국가경쟁력 리포트",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056032",
+      "status": "UPDATED",
+      "descriptionLength": 1414,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056032",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "계곡을 잇는 비행 케이블 마을의 여름",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056033",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "사비성 사라진 미래 도시",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056034",
+      "status": "UPDATED",
+      "descriptionLength": 537,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056034",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "이야기의 힘",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056035",
+      "status": "UPDATED",
+      "descriptionLength": 2053,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056035",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "허영만과 집단가출호",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056036",
+      "status": "UPDATED",
+      "descriptionLength": 198,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056036",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한일강제병합 100년 특별기획 잊혀진나라 13년",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056037",
+      "status": "UPDATED",
+      "descriptionLength": 3238,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056037",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "조선의 프로페셔널 화인",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056038",
+      "status": "UPDATED",
+      "descriptionLength": 647,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056038",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인센스로드 최초의 무역로대탐험",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056039",
+      "status": "UPDATED",
+      "descriptionLength": 959,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056039",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "마리온이야기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056118",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "히말라야 커피 로드",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056040",
+      "status": "UPDATED",
+      "descriptionLength": 645,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056040",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "춤, 세상을 흔들다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056041",
+      "status": "UPDATED",
+      "descriptionLength": 784,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056041",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "10대 성장 보고서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056042",
+      "status": "UPDATED",
+      "descriptionLength": 1113,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056042",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "매를 가진 사람들",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056043",
+      "status": "UPDATED",
+      "descriptionLength": 245,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056043",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신은 호모 컨버전스인가?",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056044",
+      "status": "UPDATED",
+      "descriptionLength": 387,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056044",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "말하기의 다른 방법",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056045",
+      "status": "UPDATED",
+      "descriptionLength": 583,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056045",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "삼동초등학교 180일의 기록",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056046",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "당신의 성격",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056047",
+      "status": "UPDATED",
+      "descriptionLength": 417,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056047",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "부적",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056048",
+      "status": "UPDATED",
+      "descriptionLength": 538,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056048",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천재들의 생각구조",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056049",
+      "status": "UPDATED",
+      "descriptionLength": 1485,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056049",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "개항과 전쟁",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056050",
+      "status": "UPDATED",
+      "descriptionLength": 429,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056050",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아이의 밥상",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056051",
+      "status": "UPDATED",
+      "descriptionLength": 381,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056051",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생명",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056052",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "2010 한・러수교 20주년 특집",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056052"
+    },
+    {
+      "id": "DP-60056053",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "미래의 학교",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056054",
+      "status": "UPDATED",
+      "descriptionLength": 255,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056054",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "최고의 교수",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056055",
+      "status": "UPDATED",
+      "descriptionLength": 1944,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056055",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아동범죄, 미스터리의 과학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056056",
+      "status": "UPDATED",
+      "descriptionLength": 1903,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056056",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한반도의 인류",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056057",
+      "status": "UPDATED",
+      "descriptionLength": 260,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056057",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "바퀴",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056058",
+      "status": "UPDATED",
+      "descriptionLength": 1215,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056058",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "레인보우 합창단, 100일의 꿈",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056059",
+      "status": "UPDATED",
+      "descriptionLength": 947,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056059",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "하늘이 내린 소리 코리안 벨",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056060",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "동양의학기행",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056061",
+      "status": "UPDATED",
+      "descriptionLength": 2019,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056061",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인간과 고양이",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056062",
+      "status": "UPDATED",
+      "descriptionLength": 2293,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056062",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생명의 디자인",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056063",
+      "status": "UPDATED",
+      "descriptionLength": 1484,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056063",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "피오르와 리아스",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60055683",
+      "status": "UPDATED",
+      "descriptionLength": 1491,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055683",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "예술, 일상을 만나다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056064",
+      "status": "UPDATED",
+      "descriptionLength": 497,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056064",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "동과서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056065",
+      "status": "UPDATED",
+      "descriptionLength": 629,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056065",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "천상의 춤, 기적의 무대 천수관음",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056066",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "혈액",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056067",
+      "status": "UPDATED",
+      "descriptionLength": 479,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056067",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "아프리카 원시문명 대탐험",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056068",
+      "status": "UPDATED",
+      "descriptionLength": 758,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056068",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "햄버거 커넥션",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056069",
+      "status": "UPDATED",
+      "descriptionLength": 1112,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056069",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "위대한 칸, 칭기즈의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056070",
+      "status": "UPDATED",
+      "descriptionLength": 606,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056070",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한국신화를 찾아서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056071",
+      "status": "UPDATED",
+      "descriptionLength": 573,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056071",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세계의 섬-마다가스카르의 리머, 그리고 카멜레온",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056072",
+      "status": "UPDATED",
+      "descriptionLength": 1042,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056072",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "기억력의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056073",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "아이의 사생활2",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056074",
+      "status": "UPDATED",
+      "descriptionLength": 1629,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056074",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "위대한 발명",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056076",
+      "status": "UPDATED",
+      "descriptionLength": 293,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056076",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "피타고라스 정리의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056075",
+      "status": "UPDATED",
+      "descriptionLength": 2471,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056075",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "16인의 성공도전 설득의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056077",
+      "status": "UPDATED",
+      "descriptionLength": 1121,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056077",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "엄마는 무엇으로 사는가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056078",
+      "status": "UPDATED",
+      "descriptionLength": 926,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056078",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "생체시계의 비밀",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056079",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "우주빅뱅과 철의 기원",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056079"
+    },
+    {
+      "id": "DP-60056080",
+      "status": "UPDATED",
+      "descriptionLength": 506,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056080",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "행복한 섬, 바누아투",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056081",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "8주간의 기적",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056082",
+      "status": "UPDATED",
+      "descriptionLength": 465,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056082",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "모성탐구 엄마가 달라졌어요",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056083",
+      "status": "UPDATED",
+      "descriptionLength": 566,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056083",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "신과 다윈의 시대",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056084",
+      "status": "UPDATED",
+      "descriptionLength": 555,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056084",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인도의 얼굴",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056085",
+      "status": "UPDATED",
+      "descriptionLength": 2724,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056085",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "하노이, 천년의 붓",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056086",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "영상무예도보통지",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056086"
+    },
+    {
+      "id": "DP-60056087",
+      "status": "UPDATED",
+      "descriptionLength": 1460,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056087",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "예술나눔프로젝트-나의노래는나의힘",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056088",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "상상에 빠지다",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056089",
+      "status": "UPDATED",
+      "descriptionLength": 641,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056089",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신이 모르는 호주",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056090",
+      "status": "UPDATED",
+      "descriptionLength": 592,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056090",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "문명의3대교차로를가다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056091",
+      "status": "UPDATED",
+      "descriptionLength": 850,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056091",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "한중일 궁중생활사",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056092",
+      "status": "UPDATED",
+      "descriptionLength": 3439,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056092",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "당신의 과학",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056093",
+      "status": "UPDATED",
+      "descriptionLength": 1811,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056093",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "창의성을 찾아서",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056094",
+      "status": "UPDATED",
+      "descriptionLength": 745,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056094",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "공부의 왕도",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056095",
+      "status": "UPDATED",
+      "descriptionLength": 1019,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056095",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "결혼안식휴가",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056096",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "세계자연유산",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056097",
+      "status": "UPDATED",
+      "descriptionLength": 1039,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056097",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "감기",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056098",
+      "status": "UPDATED",
+      "descriptionLength": 1984,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056098",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "서울은 사랑할 것이 많다",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056099",
+      "status": "UPDATED",
+      "descriptionLength": 2138,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056099",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "조기유학 리포트",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056100",
+      "status": "UPDATED",
+      "descriptionLength": 623,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056100",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인터뷰다큐 성장통",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056101",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "매혹의 에너지,색",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056101"
+    },
+    {
+      "id": "DP-60056102",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "원시 고래잡이 마을 라마레라",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056102"
+    },
+    {
+      "id": "DP-60056103",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "미국의 국립공원",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DP-60056104",
+      "status": "UPDATED",
+      "descriptionLength": 1583,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056104",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "태고의 땅, 몽골",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DP-60056105",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "자연다큐멘터리 <흙>",
+      "program": "EBS 다큐프라임",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056105"
+    },
+    {
+      "id": "DP-60055682",
+      "status": "UPDATED",
+      "descriptionLength": 796,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055682",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "하늘의 땅, 몽골",
+      "program": "EBS 다큐프라임"
+    },
+    {
+      "id": "DK-60057317",
+      "status": "UPDATED",
+      "descriptionLength": 284,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60057317",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "샘 리처드의 한국 초저출생 리포트",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60057207",
+      "status": "UPDATED",
+      "descriptionLength": 109,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60057207",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "독서만세",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60049318",
+      "status": "UPDATED",
+      "descriptionLength": 106,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60049318",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "AI 교육, 앞서는 국가가 미래를 주도한다",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056119",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "인구대기획 초저출생 골든타임",
+      "program": "다큐멘터리K",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DK-60056120",
+      "status": "UPDATED",
+      "descriptionLength": 382,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056120",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "독자생존",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056121",
+      "status": "UPDATED",
+      "descriptionLength": 534,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056121",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "우리는 선생님입니다",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056122",
+      "status": "UPDATED",
+      "descriptionLength": 807,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056122",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "책맹인류",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056123",
+      "status": "UPDATED",
+      "descriptionLength": 533,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056123",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "세계의 교육",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056124",
+      "status": "UPDATED",
+      "descriptionLength": 233,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056124",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "인구대기획-초저출생",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056125",
+      "status": "UPDATED",
+      "descriptionLength": 191,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60056125",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "대학혁신",
+      "program": "다큐멘터리K"
+    },
+    {
+      "id": "DK-60056126",
+      "status": "NO_VERIFIED_DESCRIPTION",
+      "title": "교과서 혁명",
+      "program": "다큐멘터리K",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/refreshAlert.html"
+    },
+    {
+      "id": "DK-60055684",
+      "status": "UPDATED",
+      "descriptionLength": 600,
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=40046257&stepId=60055684",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "title": "교육격차",
+      "program": "다큐멘터리K"
+    }
+  ],
+  "paidApiCalls": 0
+}

@@ -1,0 +1,104 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { createModelBudget, model } = require('./request-model-budget');
+const { createRequestModelClient } = require('./request-model-client');
+async function main() {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'curi-model-budget-'));
+  const originalFetch = global.fetch;
+  const oldKey = process.env.OPENAI_API_KEY, oldAllow = process.env.CURI_ALLOW_PAID_API;
+  let networkAttempts = 0;
+  global.fetch = async () => { networkAttempts++; return { ok: true, json: async () => ({ status: 'completed', usage: { input_tokens: 100, output_tokens: 100 } }) }; };
+  process.env.OPENAI_API_KEY = 'OFFLINE_TEST_NOT_A_KEY';
+  process.env.CURI_ALLOW_PAID_API = 'true';
+  const prepared = { payload: { input: [{ role: 'user', content: '오프라인 검증' }], store: false, text: { format: { type: 'text' } } } };
+  const ledgerPath = path.join(dir, 'ledger.json');
+  let budget;
+  const cases = [];
+  try {
+    await assert.rejects(createRequestModelClient().respond(prepared), /MODEL_CALL_DISABLED/);
+    await assert.rejects(createRequestModelClient({ allowExternal: true, model, approvedBudgetUsd: 1, maxCalls: 1 }).respond(prepared), /MODEL_COST_GUARD_REQUIRED/);
+    assert.equal(networkAttempts, 0); cases.push('기본 차단·비용 검사 없는 호출 차단');
+    budget = createModelBudget({ path: ledgerPath, approvedBudgetUsd: 1, scope: 'offline' });
+    assert.throws(() => createModelBudget({ path: ledgerPath, approvedBudgetUsd: 1, scope: 'offline' }), /EEXIST/);
+    cases.push('동일 예산 동시 실행 잠금');
+    const client = createRequestModelClient({ allowExternal: true, model, approvedBudgetUsd: 1, maxCalls: 1, budget, maxOutputTokens: 100 });
+    await client.respond(prepared);
+    assert.equal(networkAttempts, 1);
+    assert.equal(budget.snapshot.calls.length, 1);
+    assert.equal(budget.snapshot.chargedUpperUsd, 0.0002);
+    await assert.rejects(client.respond(prepared), /MODEL_EXECUTION_SCOPE_REQUIRED/);
+    cases.push('실제 usage 기준 과대 비용 집계·호출 수 상한');
+    budget.close(); budget = null;
+    budget = createModelBudget({ path: ledgerPath, approvedBudgetUsd: 1, scope: 'offline' });
+    assert.equal(budget.snapshot.calls.length, 1); cases.push('재실행 비용 이력 보존');
+    delete process.env.CURI_ALLOW_PAID_API;
+    await assert.rejects(createRequestModelClient({ allowExternal: true, model, approvedBudgetUsd: 1, maxCalls: 1, budget,
+      budgetAuthorization: { kind: 'APPROVED_TEACHER_SEARCH', scope: 'different', budgetUsd: 1 } }).respond(prepared), /MODEL_CALL_DISABLED/);
+    const authorized = createRequestModelClient({ allowExternal: true, model, approvedBudgetUsd: 1, maxCalls: 1, budget,
+      budgetAuthorization: { kind: 'APPROVED_TEACHER_SEARCH', scope: 'offline', budgetUsd: 1 } });
+    await authorized.respond(prepared);
+    assert.equal(process.env.CURI_ALLOW_PAID_API, undefined);
+    await assert.rejects(createRequestModelClient({ allowExternal: true, model, approvedBudgetUsd: 1, maxCalls: 1, budget }).respond(prepared), /MODEL_CALL_DISABLED/);
+    cases.push('승인 검색만 제한 호출·다른 유료 경로와 전역 설정 차단 유지');
+    process.env.CURI_ALLOW_PAID_API = 'true';
+    assert.throws(() => budget.reserve({ ...prepared.payload, model, max_output_tokens: 100, tools: [] }), /MODEL_BUDGET_TEXT_ONLY/);
+    assert.throws(() => budget.reserve({ ...prepared.payload, model: 'other-model', max_output_tokens: 100 }), /MODEL_BUDGET_TEXT_ONLY/);
+    cases.push('도구·미승인 모델 비용 경로 차단');
+    assert.throws(() => budget.reserve({ ...prepared.payload, input: [{ role: 'user', content: 'a'.repeat(3e6) }], model, max_output_tokens: 100 }), /MODEL_BUDGET_EXHAUSTED/);
+    assert.equal(budget.snapshot.calls.length, 2); cases.push('잔여 예산보다 큰 요청은 전송 전 차단');
+    const pending1 = budget.reserve({ ...prepared.payload, model, max_output_tokens: 100 });
+    const pending2 = budget.reserve({ ...prepared.payload, model, max_output_tokens: 100 });
+    assert.equal(budget.snapshot.pending.length, 2);
+    budget.settle({ input_tokens: 100, output_tokens: 100 }, 'completed', pending2);
+    assert.equal(budget.snapshot.pending.length, 1);
+    cases.push('병렬 예약 합산·역순 응답 결제');
+    budget.settle(null, 'TIMEOUT_UNKNOWN', pending1);
+    assert.equal(budget.snapshot.halted, true);
+    assert.throws(() => budget.reserve({ ...prepared.payload, model, max_output_tokens: 100 }), /MODEL_BUDGET_UNCERTAIN_STOP/);
+    cases.push('사용량 불명은 최대 비용을 보류하고 후속 호출 중지');
+    budget.close(); budget = null;
+    budget = createModelBudget({ path: ledgerPath, approvedBudgetUsd: 1, scope: 'offline' });
+    assert.equal(budget.snapshot.halted, true); cases.push('불명 상태도 재시작 후 유지');
+    budget.close(); budget = null;
+    budget = createModelBudget({ path: path.join(dir, 'parallel-cap.json'), approvedBudgetUsd: 0.01, scope: 'parallel' });
+    const reservation = budget.reserve({ ...prepared.payload, model, max_output_tokens: 4096 });
+    assert.throws(() => budget.reserve({ ...prepared.payload, model, max_output_tokens: 4096 }), /MODEL_BUDGET_EXHAUSTED/);
+    cases.push('아직 응답 없는 예약도 전체 예산에 포함');
+    budget.settle(null, 'TRANSPORT_OR_RESPONSE_UNKNOWN', reservation);
+    const beforeRecovery = budget.snapshot.chargedUpperUsd;
+    budget.resumeReservedTransportFailure();
+    assert.equal(budget.snapshot.chargedUpperUsd, beforeRecovery);
+    assert.equal(budget.snapshot.calls[0].reservedRecoveryAt.length > 0, true);
+    assert.throws(() => budget.settle({ input_tokens: 1, output_tokens: 1 }, 'completed', reservation), /MODEL_BUDGET_NO_RESERVATION/);
+    cases.push('명시적 복구에도 실패 최대 비용 보존·이중 정산 차단');
+    const amendmentPath = path.join(dir, 'amendment.json');
+    const first = createModelBudget({ path: amendmentPath, approvedBudgetUsd: 1, scope: 'amendment' });
+    const firstId = first.reserve({ ...prepared.payload, model, max_output_tokens: 100 });
+    first.settle({ input_tokens: 100, output_tokens: 100 }, 'completed', firstId); first.close();
+    assert.throws(() => createModelBudget({ path: amendmentPath, approvedBudgetUsd: 2, scope: 'amendment' }), /MODEL_BUDGET_SCOPE_CHANGED/);
+    cases.push('추가 승인 정보 없이 기존 한도 증액 차단');
+    const amended = createModelBudget({ path: amendmentPath, approvedBudgetUsd: 2, scope: 'amendment', amendment: { previousBudgetUsd: 1, reason: 'USER_ADDITIONAL_USD1_2026_10_16' } });
+    try {
+      assert.equal(amended.snapshot.chargedUpperUsd, 0.0002); assert.equal(amended.snapshot.approvals.length, 1);
+      assert(amended.allowsModel('gpt-6-luna'));
+      const nextId = amended.reserve({ ...prepared.payload, model: 'gpt-6-luna', max_output_tokens: 100, reasoning: { effort: 'low' }, service_tier: 'default' });
+      amended.settle({ input_tokens: 1000, output_tokens: 100 }, 'completed', nextId);
+      assert.equal(amended.snapshot.chargedUpperUsd, 0.000375);
+      cases.push('추가1달러 승인·기존 비용 보존·모델별 단가 합산');
+      assert.throws(() => amended.reserve({ ...prepared.payload, model: 'gpt-6-luna', max_output_tokens: 100, service_tier: 'priority' }), /MODEL_BUDGET_TEXT_ONLY/);
+      cases.push('미승인 고가 처리 등급 차단');
+    } finally { amended.close(); }
+    const report = { passed: cases.length, failed: 0, cases, mockedNetworkAttempts: networkAttempts, paidApiCalls: 0 };
+    fs.writeFileSync('docs/r12-40-llm-dollar-budget-checks.json', JSON.stringify(report, null, 2) + '\n');
+    console.log(JSON.stringify(report));
+  } finally {
+    if (budget) budget.close();
+    global.fetch = originalFetch;
+    if (oldKey === undefined) delete process.env.OPENAI_API_KEY; else process.env.OPENAI_API_KEY = oldKey;
+    if (oldAllow === undefined) delete process.env.CURI_ALLOW_PAID_API; else process.env.CURI_ALLOW_PAID_API = oldAllow;
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+main().catch(error => { console.error(error.message); process.exitCode = 1; });

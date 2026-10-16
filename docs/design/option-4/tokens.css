@@ -1,0 +1,30 @@
+:root {
+ --o-about: #CCCCCC;
+ --o-community: #05AA82;
+ --o-jobs: #FF6432;
+ --o-library: #B4DCDC;
+ --o-canvas: #FBF7EF;
+ --o-ink: #000000;
+ --o-surface: #FFFFFF;
+ --o-muted: #5B5B57;
+ --o-paper: #FFFFFF;
+ --o-paperInk: #000000;
+ --o-paperMuted: #5B5B57;
+ --o-action: #000000;
+ --o-actionInk: #FFFFFF;
+ --o-line: #C8C4BA;
+ --o-border: #7D7A70;
+ --o-focus: #2459B8;
+ --o-error: #A32D35;
+ --o-errorPaper: #A32D35;
+ --o-social: #FFC828;
+ --o-science: #ED91FA;
+ --o-selected: #EBE6DA;
+ --o-selectedInk: #000000;
+ --o-radius: 0px;
+ --o-control-radius: 24px;
+ --o-display: 56px;
+ --o-panel-ms: 180ms;
+ --o-font: -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+ --o-mono: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}

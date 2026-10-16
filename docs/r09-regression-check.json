@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-10-04T05:50:53.087749+00:00",
+  "status": "TECHNICAL_CHECKS_PASSED_HUMAN_PENDING",
+  "protectedAndHistoricalFiles": {
+    "server/data/curi-store.json": {
+      "sha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+      "matchesSessionStart": true
+    },
+    "server/data/broadcast-catalog.sqlite": {
+      "sha256": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+      "matchesSessionStart": true
+    },
+    "server/data/semantic-layer.sqlite": {
+      "sha256": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+      "matchesSessionStart": true
+    },
+    "server/data/quality-catalog-20260930.json.gz": {
+      "sha256": "974fad65d67aed96cde5e622fb3d070725daa976295ed15066e51bd0107a763d",
+      "matchesSessionStart": true
+    },
+    "docs/r4-source-samples.json": {
+      "sha256": "5795b8f636875254d2a09e0408208d393e8acc59289ff12486d8daa7cb294294",
+      "matchesSessionStart": true
+    },
+    "docs/r4-quality-check.json": {
+      "sha256": "5aaa17178dc4f469d314f606b4f59cd6e9e41299a52bb266404dbd485ffb50b8",
+      "matchesSessionStart": true
+    },
+    "docs/query-regression-before.json": {
+      "sha256": "64118db98bf97df3517a7e59ee3b499cb3fe5f1456087b57f02ea3b2ba800062",
+      "matchesSessionStart": true
+    },
+    "docs/teacher-query-before.json": {
+      "sha256": "6966a2c4943832623718f11eaa8635ff08a25a315a5bc023e122a5b6aaaaa99f",
+      "matchesSessionStart": true
+    }
+  },
+  "reports": {
+    "source-gates": {
+      "path": "docs/r09-source-gates.json",
+      "sha256": "b528d41357210ac0ba7187c9942c5fc9967f30ca7c2ce31512ffa0a5133a980a"
+    },
+    "query-regression": {
+      "path": "docs/r09-query-regression.json",
+      "sha256": "81ecf6be7ec19cffaf1b5364ed9bb19217a23a62be2fb9e2bdce12e56b89b596"
+    },
+    "teacher-query": {
+      "path": "docs/r09-teacher-query.json",
+      "sha256": "716ab092d882b76916512d105457e48d7a18455ab8dc3a20069448e2297a10f2"
+    },
+    "semantic": {
+      "path": "docs/r09-semantic.json",
+      "sha256": "df7cf22c5615af76ee8f837f982b187af20a9c9842e9f07406599f7f00482bc8"
+    },
+    "workspace-contract": {
+      "path": "docs/r09-workspace-contract.json",
+      "sha256": "58b7390badaca754117223c009ce67bc6783ff22466b967367d1ec10a9d69472"
+    },
+    "verified-topic": {
+      "path": "docs/r09-verified-topic.json",
+      "sha256": "1136d7b6a933cc81eedfe6e29aa239797bfe0e883cc583cd515b8d37cd0d8391"
+    },
+    "http": {
+      "path": "docs/r09-http.json",
+      "sha256": "a2fd2e85a46a7bceddd018b7052511962cbe0d7cf51b892046e17f28210ee7cf"
+    },
+    "workspace-browser": {
+      "path": "docs/r09-workspace-browser.json",
+      "sha256": "e51525453eb47d8106e0b055b2ebd2755294508d32cdcfe6140096220182c5fd"
+    },
+    "folder-browser-check": {
+      "path": "docs/r09-folder-browser-check.json",
+      "sha256": "0f53416d7e63c9a0f3c8ede7b9276d2cfc64a6107200057af45055d4d669a22d"
+    },
+    "local-browser-simulation": {
+      "path": "docs/r09-local-browser-simulation.json",
+      "sha256": "8b5b3b2f99ba8b70a297980c532dacd21c4b52f8c184ed11f677cef2302be35c"
+    },
+    "admin-check": {
+      "path": "docs/r09-admin-check.json",
+      "sha256": "5c1ceb2414f9ccb53050f9d0d763bdc53c16d01bf9585b63254c9c7458f33e43"
+    },
+    "workspace-quality": {
+      "path": "docs/r09-workspace-quality.json",
+      "sha256": "8f9f9c792e912d0c6e53917e8ceb9fdb810523e11482ecce408ff72e225abd31"
+    }
+  },
+  "existingTeacherQueryComparison": [
+    {
+      "id": 1,
+      "previousTotal": 1,
+      "currentTotal": 1,
+      "unchanged": true
+    },
+    {
+      "id": 2,
+      "previousTotal": 39,
+      "currentTotal": 39,
+      "unchanged": true
+    },
+    {
+      "id": 3,
+      "previousTotal": 0,
+      "currentTotal": 0,
+      "unchanged": true
+    },
+    {
+      "id": 4,
+      "previousTotal": 0,
+      "currentTotal": 0,
+      "unchanged": true
+    },
+    {
+      "id": 5,
+      "previousTotal": 27,
+      "currentTotal": 27,
+      "unchanged": true
+    },
+    {
+      "id": 6,
+      "previousTotal": 0,
+      "currentTotal": 0,
+      "unchanged": true
+    },
+    {
+      "id": 7,
+      "previousTotal": 48,
+      "currentTotal": 48,
+      "unchanged": true
+    },
+    {
+      "id": 8,
+      "previousTotal": 0,
+      "currentTotal": 0,
+      "unchanged": true
+    },
+    {
+      "id": 9,
+      "previousTotal": 0,
+      "currentTotal": 0,
+      "unchanged": true
+    },
+    {
+      "id": 10,
+      "previousTotal": 29,
+      "currentTotal": 29,
+      "unchanged": true
+    }
+  ],
+  "temporaryStoreRegressionLogs": {
+    "gate": "verified UI/API checks passed (save, reload, repeat, shared lock, stale tab, exclusion, load failure)\nverified save checks passed (Gate, atomic multi-relation save, retries, review invalidation, versions, restart, partial write/rename failure)",
+    "review": "review checks passed (decisions, official list, conflicts, history, original preservation, write failure)\nreview UI checks passed (confirmation, edit, duplicate submit, reload, failed draft)\nreview route checks passed (options, decisions, conflict, invalid input, write failure)"
+  },
+  "humanEvaluations": 0,
+  "paidApiCalls": 0,
+  "limits": [
+    "기술 회귀이며 실제 교사 효용·교육적 정답률 검증이 아니다.",
+    "빈 요청 4개와 초기 지연은 미해결 기록이며 테스트 통과가 그 해결을 뜻하지 않는다."
+  ]
+}

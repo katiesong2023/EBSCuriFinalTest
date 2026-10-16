@@ -1,0 +1,55 @@
+(() => {
+  'use strict';
+  const $=selector=>document.querySelector(selector);
+  const resources=[
+    {id:'water',title:'물의 세 가지 모습',subject:'science',label:'과학',summary:'얼음·물·수증기가 변하는 과정을 비교하는 가상 자료입니다.',quote:'가열과 냉각에 따라 물의 상태가 달라집니다.',graphic:'◒'},
+    {id:'town',title:'우리 동네에서 함께 쓰는 물',subject:'social',label:'사회',summary:'지역의 자원 이용과 공동생활을 살펴보는 가상 자료입니다.',quote:'주민들은 물을 함께 이용하고 아끼는 방법을 생각합니다.',graphic:'▥'},
+    {id:'forest',title:'숲에서 만난 생태계의 연결',subject:'science',label:'과학',summary:'생태계에서 생물과 환경의 관계를 관찰하는 가상 자료입니다.',quote:'숲의 생물은 서로 영향을 주며 살아갑니다.',graphic:'◎'}
+  ];
+  const escape=text=>String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let subject='all',current=resources[0],saved=[],mode='whole',connected=true,busy=false,failNext=false,toastTimer;
+  const openers=new Map();
+  function toast(text){$('#toast').textContent=text;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,4500);}
+  function open(dialog,trigger){openers.set(dialog,trigger);dialog.showModal();}
+  function section(name){document.querySelectorAll('.view').forEach(e=>e.hidden=e.id!==name);document.querySelectorAll('[data-section]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.section===name)));if(name==='grid')measureGrid();}
+  function screen(name){$('#discover-screen').hidden=name!=='discover';$('#library-screen').hidden=name!=='library';document.querySelectorAll('[data-screen]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.screen===name)));}
+  function render(){const query=$('#query').value.trim();const found=resources.filter(r=>(subject==='all'||r.subject===subject)&&(!query||(r.title+r.summary).includes(query)));$('#count').textContent=String(found.length);$('#result-status').textContent=query?`「${query}」의 가상 예시 ${found.length}개 · 실제 EBS 검색 결과가 아닙니다.`:'가상 자료 3개 · 실제 방송/원문이 아닌 비교용 예시입니다.';$('#empty').hidden=found.length>0;$('#results').innerHTML=found.map((r,i)=>`<article class="card"><div class="visual" aria-hidden="true"><span class="graphic">${r.graphic}</span><span class="index">0${i+1}</span></div><div class="card-body"><span class="badge">${r.label} · 가상 예시</span><h3>${r.title}</h3><p class="meta">시안 자료 · 실제 방송 아님</p><p>${r.summary}</p><blockquote>소개문 예시: “${r.quote}”</blockquote><p class="meta">확인 필요 · 실제 장면·길이·대상 수업 적합성</p><div class="card-actions"><button type="button" data-evidence="${r.id}">근거 보기 ↗</button><button type="button" data-bring="${r.id}" class="primary">가져가기</button></div></div></article>`).join('');}
+  function setSubject(value){subject=value;document.querySelectorAll('[data-subject]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.subject===value)));render();}
+  document.querySelectorAll('[data-section]').forEach(b=>b.addEventListener('click',()=>section(b.dataset.section)));
+  document.querySelectorAll('[data-screen]').forEach(b=>b.addEventListener('click',()=>screen(b.dataset.screen)));
+  document.querySelectorAll('[data-subject]').forEach(b=>b.addEventListener('click',()=>setSubject(b.dataset.subject)));
+  $('#search-form').addEventListener('submit',e=>{e.preventDefault();render();});
+  $('#reset-search').addEventListener('click',()=>{$('#query').value='';setSubject('all');});
+  function searchOpen(trigger){$('#dialog-query').value=$('#query').value;open($('#search-dialog'),trigger);$('#dialog-query').focus();}
+  $('#search-open').addEventListener('click',e=>searchOpen(e.currentTarget));
+  $('#feature-search')?.addEventListener('click',e=>searchOpen(e.currentTarget));
+  $('#dialog-search-form').addEventListener('submit',e=>{e.preventDefault();$('#query').value=$('#dialog-query').value;render();screen('discover');$('#search-dialog').close();});
+  $('#menu-open').addEventListener('click',e=>{$('#menu-open').setAttribute('aria-expanded','true');open($('#nav-dialog'),e.currentTarget);});
+  function evidence(resource,trigger){current=resource;$('#evidence-title').textContent=resource.title;$('#evidence-quote').textContent='가상 인용: '+resource.quote;open($('#evidence-dialog'),trigger);}
+  document.querySelectorAll('[data-context]').forEach(b=>b.addEventListener('click',()=>{const value=b.dataset.context;$('#nav-dialog').close();if(value==='library')screen('library');else if(value==='evidence')evidence(current,$('#menu-open'));else{screen('discover');if(value!=='discover')setSubject(value);}document.querySelectorAll('[data-context]').forEach(c=>{if(c===b)c.setAttribute('aria-current','page');else c.removeAttribute('aria-current');});}));
+  function bringPage(page){$('#bring-one').hidden=page!==1;$('#bring-two').hidden=page!==2;$('#bring-step').textContent=page===1?'1 / 2 · 교육과정':'2 / 2 · 폴더';$('#bring-error').textContent='';summary();}
+  function summary(){const folder=$('#bring-folder').value==='new'?$('#new-folder').value.trim()||'새 폴더 이름 필요':$('#bring-folder').value;$('#bring-summary').textContent=`${current.title} · 대상: ${folder} · 교육과정 ${$('#standard').checked?'예시 1개':'선택 안 함'}`;}
+  $('#results').addEventListener('click',e=>{const a=e.target.closest('[data-evidence]');if(a)return evidence(resources.find(r=>r.id===a.dataset.evidence),a);const b=e.target.closest('[data-bring]');if(!b)return;current=resources.find(r=>r.id===b.dataset.bring);$('#bring-title').textContent=current.title;$('#standard').checked=false;$('#bring-folder').value='물의 상태 변화';$('#new-folder').value='';$('#new-folder-field').hidden=true;bringPage(1);open($('#bring-dialog'),b);});
+  $('#bring-next').addEventListener('click',()=>{bringPage(2);$('#bring-folder').focus();});
+  $('#bring-skip').addEventListener('click',()=>{$('#standard').checked=false;bringPage(2);$('#bring-folder').focus();});
+  $('#bring-back').addEventListener('click',()=>{bringPage(1);$('#standard').focus();});
+  $('#bring-folder').addEventListener('change',()=>{$('#new-folder-field').hidden=$('#bring-folder').value!=='new';summary();});
+  $('#new-folder').addEventListener('input',summary);
+  $('#bring-save').addEventListener('click',()=>{const folder=$('#bring-folder').value==='new'?$('#new-folder').value.trim():$('#bring-folder').value;if(!folder){$('#bring-error').textContent='새 폴더 이름을 입력하세요. 선택은 유지됩니다.';$('#new-folder').focus();return;}const exists=saved.some(r=>r.id===current.id&&r.folder===folder);if(!exists)saved.push({...current,folder,standard:$('#standard').checked});$('#library-items').innerHTML=saved.map(r=>`<article class="library-item"><h3>${r.title}</h3><p>폴더: ${escape(r.folder)} · 교육과정 ${r.standard?'가상 기준 1개':'미선택'}</p></article>`).join('');$('#bring-dialog').close();toast(`시안: 「${folder}」에 ${exists?'이미 담긴 자료를 확인했어요':'가져왔어요'}. 실제 저장은 하지 않았습니다.`);});
+  document.querySelectorAll('dialog').forEach(dialog=>{dialog.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>dialog.close()));dialog.addEventListener('close',()=>{if(dialog.id==='nav-dialog')$('#menu-open').setAttribute('aria-expanded','false');const trigger=openers.get(dialog);if(trigger?.isConnected&&!document.querySelector('dialog[open]'))trigger.focus();});dialog.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const controls=[...dialog.querySelectorAll('button,input,select,textarea,a[href]')].filter(c=>!c.disabled&&c.getClientRects().length);const first=controls[0],last=controls.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});});
+  function connection(){ $('#connection-status').textContent=connected?'연결됨 · 가상 예시':'연결 필요 · Curi에 다시 연결해야 가져갈 수 있어요.';$('#reconnect').hidden=connected;$('#ext-save').disabled=!connected||busy; }
+  $('#connection-toggle').addEventListener('click',()=>{if(busy)return;connected=!connected;connection();});
+  $('#reconnect').addEventListener('click',()=>{connected=true;connection();});
+  $('#fail-next').addEventListener('click',()=>{failNext=true;toast('확장의 다음 저장은 실패 상태를 보여줍니다.');});
+  document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.mode;$('#segment-fields').hidden=mode!=='segment';document.querySelectorAll('[data-mode]').forEach(c=>c.setAttribute('aria-pressed',String(c===b)));$('#ext-save').textContent=mode==='whole'?'영상 가져가기 ↗':'영상과 구간 가져가기 ↗';}));
+  $('#example-time').addEventListener('click',()=>{$('#start').value='01:20';$('#ext-result').textContent='시안 현재 시간 01:20을 시작에 넣었습니다. 실제 플레이어를 읽지 않습니다.';});
+  const seconds=s=>{if(!/^\d{1,2}:[0-5]\d$/.test(s.trim()))return NaN;const [m,n]=s.trim().split(':').map(Number);return m*60+n;};
+  $('#ext-save').addEventListener('click',()=>{if(busy||!connected)return;const result=$('#ext-result');result.classList.remove('error');const start=seconds($('#start').value),end=seconds($('#end').value);if(mode==='segment'&&(!$('#segment-title').value.trim()||!Number.isFinite(start)||!Number.isFinite(end)||end<=start||end>510)){result.classList.add('error');result.textContent='구간 이름과 분:초를 입력하고 시작 < 끝 ≤ 08:30으로 설정하세요.';return;}busy=true;connection();$('#ext-save').textContent='가져오는 중…';result.textContent='저장 결과를 확인하는 시뮬레이션입니다.';const controls=[...document.querySelectorAll('.extension-body input,.extension-body select,.extension-body button')];controls.forEach(c=>c.disabled=true);setTimeout(()=>{busy=false;controls.forEach(c=>c.disabled=false);connection();$('#ext-save').textContent=mode==='whole'?'영상 가져가기 ↗':'영상과 구간 가져가기 ↗';if(failNext){failNext=false;result.classList.add('error');result.textContent='저장 실패 예시 · 입력은 유지했습니다. 다시 가져가기를 눌러보세요.';}else result.textContent=`시안 완료 · 「${$('#ext-folder').value}」에 영상1개${mode==='segment'?'·구간1개':''}를 가져왔어요. 실제 저장은 하지 않았습니다.`;},650);});
+  document.querySelectorAll('[data-sample]').forEach(b=>b.addEventListener('click',()=>$('#sample-status').textContent='기본·hover·focus·pressed를 확인하는 스타일 예시입니다.'));
+  $('#sample-selected').addEventListener('click',e=>e.currentTarget.setAttribute('aria-pressed',String(e.currentTarget.getAttribute('aria-pressed')!=='true')));
+  function measureGrid(){if(!$('.grid-demo').getClientRects().length)return;const node=$('.grid-demo'),style=getComputedStyle(node),cols=Number(style.getPropertyValue('--cols')),gap=parseFloat(style.getPropertyValue('--gutter')),width=$('.grid-areas').getBoundingClientRect().width;if($('.columns').children.length!==cols)$('.columns').replaceChildren(...Array.from({length:cols},()=>document.createElement('i')));$('#grid-measure').textContent=`${cols}열 / gutter ${gap}px / 내부 ${Math.round(width)}px / 열폭 약${((width-(cols-1)*gap)/cols).toFixed(1)}px`;}
+  $('#grid-toggle').addEventListener('click',()=>{const show=$('.columns').hidden;$('.columns').hidden=!show;$('#grid-toggle').setAttribute('aria-pressed',String(show));measureGrid();});
+  $('#reduce-motion').addEventListener('change',()=>{document.body.classList.toggle('reduce-motion',$('#reduce-motion').checked);toast('모션 감소 시안 '+($('#reduce-motion').checked?'켜짐':'꺼짐')+' · OS 설정은 바꾸지 않습니다.');});
+  new ResizeObserver(measureGrid).observe($('.grid-demo'));
+  render();connection();
+})();

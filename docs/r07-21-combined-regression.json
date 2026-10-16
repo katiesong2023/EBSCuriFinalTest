@@ -1,0 +1,257 @@
+{
+  "checkedAt": "2026-10-13T19:33:50.626Z",
+  "passed": 20,
+  "cases": [
+    {
+      "name": "질문만·기준만·결합·전체와 기준/질문 개별 해제",
+      "passed": true
+    },
+    {
+      "name": "기준 후보는 전체 페이지에서 기존 역방향 검색과 동일",
+      "passed": true
+    },
+    {
+      "name": "AND/OR·제외 조건을 기준 결합에서도 유지",
+      "passed": true
+    },
+    {
+      "name": "필수 프로그램과 선호·미확인 요청 경고 보존",
+      "passed": true
+    },
+    {
+      "name": "같은 제목 다른 ID는 교집합·근거를 공유하지 않음",
+      "passed": true
+    },
+    {
+      "name": "전체 정렬 뒤 판본 대표·필터 밖 판본 제외",
+      "passed": true
+    },
+    {
+      "name": "날짜 정렬·미확인 마지막·페이지 초과 보정",
+      "passed": true
+    },
+    {
+      "name": "각 필터 건수는 결합 전체에서 해당 필터만 변경한 묶음 수",
+      "passed": true
+    },
+    {
+      "name": "원문 부족·미지원 중복과 미지원 후보·요구 원문 유지",
+      "passed": true
+    },
+    {
+      "name": "관계 설명이 많은 단어 나열보다 우선·인용은 해당 회차 원문",
+      "passed": true
+    },
+    {
+      "name": "명시적 상충·해석 보류·개념 일치·부분근거 독립 필터",
+      "passed": true
+    },
+    {
+      "name": "대상 학년과 공식 기준 과정 차이로 후보·선택 관계를 제거하지 않음",
+      "passed": true
+    },
+    {
+      "name": "일반 교과 태그와 공식 기준 교과는 독립 필터",
+      "passed": true
+    },
+    {
+      "name": "다른 기준 승인과 선택 기준 승인·원문 변경·다른 판본 분리",
+      "passed": true
+    },
+    {
+      "name": "자동 공개는 선택 기준/회차에만, 계산한 부분 설명은 공개 검사 자산이 아님",
+      "passed": true
+    },
+    {
+      "name": "공식 보조문서는 후보 발견만·소개문 품질과 요구 충족 승격 없음",
+      "passed": true
+    },
+    {
+      "name": "잘못된 기준·조건·페이지는 오류, 조건 무시 없음",
+      "passed": true
+    },
+    {
+      "name": "기준 후보 없음·교집합 없음·필터 후 빈 결과 구분",
+      "passed": true
+    },
+    {
+      "name": "실제 자료 사회·과학 대표10입력·여섯 과정/교과·해제·전체 후보 교집합",
+      "passed": true
+    },
+    {
+      "name": "원본4저장소·독립평가 입력·승인 취소 이력 보존",
+      "passed": true
+    }
+  ],
+  "live": [
+    {
+      "id": "S-Q",
+      "input": {
+        "q": "선거에서 시민이 대표를 뽑는 자료를 찾아줘",
+        "standard": "",
+        "grade": "초등 5학년"
+      },
+      "total": 13,
+      "searchMode": "QUERY",
+      "emptyReason": null,
+      "standardRuleSupported": null,
+      "firstIds": [
+        "BCAST-7fd1bfb95415f72166b0",
+        "BCAST-64937fea1e995473ee42",
+        "BCAST-1ea7db5bb98bac94287c",
+        "BCAST-2879e35e0d97ad7d18df",
+        "BCAST-c38795425c6f0c8ce8d5",
+        "BCAST-d356777fc3abba17bae4",
+        "BCAST-9d8c578db0f9810f5fb9",
+        "BCAST-d558c56405c835d19207",
+        "BCAST-1ecdafb8e6976d436a6b"
+      ]
+    },
+    {
+      "id": "S-S",
+      "input": {
+        "q": "",
+        "standard": "6사04-01",
+        "grade": "all"
+      },
+      "total": 10,
+      "searchMode": "STANDARD",
+      "emptyReason": null,
+      "standardRuleSupported": true,
+      "firstIds": [
+        "BCAST-edc5b3f9fd8742c0b2f0",
+        "BCAST-9e648259d576ddd0d6a5",
+        "BCAST-72068bc9ce898f97da8c",
+        "BCAST-0e6786e007b16522e6bd",
+        "BCAST-b6ac5b923f72e8e289c9",
+        "BCAST-7d8d154cf86ea3a35b7b",
+        "BCAST-2af324ae0139f69c9514",
+        "BCAST-ea1a9ccba830674799af",
+        "BCAST-a5ed1e2bc0c5e1190565"
+      ]
+    },
+    {
+      "id": "S-QS",
+      "input": {
+        "q": "농경문 청동기",
+        "standard": "6사04-01",
+        "grade": "all"
+      },
+      "total": 1,
+      "searchMode": "COMBINED",
+      "emptyReason": null,
+      "standardRuleSupported": true,
+      "firstIds": [
+        "BCAST-edc5b3f9fd8742c0b2f0"
+      ]
+    },
+    {
+      "id": "S-U34",
+      "input": {
+        "q": "주변 장소",
+        "standard": "4사01-01",
+        "grade": "초등 3학년"
+      },
+      "total": 0,
+      "searchMode": "COMBINED",
+      "emptyReason": "COMBINED_NO_MATCH",
+      "standardRuleSupported": false,
+      "firstIds": []
+    },
+    {
+      "id": "S-UM1",
+      "input": {
+        "q": "사막",
+        "standard": "9사(지리)01-01",
+        "grade": "중학교 1학년"
+      },
+      "total": 0,
+      "searchMode": "COMBINED",
+      "emptyReason": "STANDARD_NO_CANDIDATES",
+      "standardRuleSupported": false,
+      "firstIds": []
+    },
+    {
+      "id": "C-Q",
+      "input": {
+        "q": "지구 자전과 낮과 밤을 설명하는 자료",
+        "standard": "",
+        "grade": "초등 6학년"
+      },
+      "total": 0,
+      "searchMode": "QUERY",
+      "emptyReason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "standardRuleSupported": null,
+      "firstIds": []
+    },
+    {
+      "id": "C-S",
+      "input": {
+        "q": "",
+        "standard": "6과12-02",
+        "grade": "all"
+      },
+      "total": 3,
+      "searchMode": "STANDARD",
+      "emptyReason": null,
+      "standardRuleSupported": true,
+      "firstIds": [
+        "BCAST-012ead6030a246fe0eeb",
+        "BCAST-418eb389c28af0afd751",
+        "BCAST-4280dd3cf2aaac6c3584"
+      ]
+    },
+    {
+      "id": "C-QS",
+      "input": {
+        "q": "지구 자전",
+        "standard": "6과12-02",
+        "grade": "all"
+      },
+      "total": 2,
+      "searchMode": "COMBINED",
+      "emptyReason": null,
+      "standardRuleSupported": true,
+      "firstIds": [
+        "BCAST-4280dd3cf2aaac6c3584",
+        "BCAST-418eb389c28af0afd751"
+      ]
+    },
+    {
+      "id": "C-U34",
+      "input": {
+        "q": "물체를 밀거나 당기는 현상",
+        "standard": "4과01-01",
+        "grade": "초등 4학년"
+      },
+      "total": 0,
+      "searchMode": "COMBINED",
+      "emptyReason": "COMBINED_NO_MATCH",
+      "standardRuleSupported": false,
+      "firstIds": []
+    },
+    {
+      "id": "C-UM1",
+      "input": {
+        "q": "마찰력",
+        "standard": "9과05-02",
+        "grade": "중학교 1학년"
+      },
+      "total": 1,
+      "searchMode": "COMBINED",
+      "emptyReason": null,
+      "standardRuleSupported": false,
+      "firstIds": [
+        "BCAST-3c891a33de46b51c2a4b"
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "273ed68f62676dc4425e2b80437147a77a7a77b0fe78639a35599faf4f343655",
+    "semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "기능 fixture와 실제 대표 입력의 전체 판본 후보 대조. 독립 품질/교사 효용/영상 학년 적합성 평가 아님"
+}

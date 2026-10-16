@@ -1,0 +1,26 @@
+{
+  "resources": 23403,
+  "examined": 181,
+  "searchable": 180,
+  "excludedCount": 1,
+  "reasons": {
+    "DISTINCT_EPISODE_TITLE": 180,
+    "PROGRAM_TITLE_ONLY_EPISODE_UNCONFIRMED": 1
+  },
+  "excluded": [
+    {
+      "resourceId": "BCAST-8f2dc771f2004cd78e01",
+      "title": "하나뿐인 지구",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-01-25",
+      "summary": "자막인류가 맞닥뜨린 에너지 문제의 궁극적인 대안으로 언급되는 태양열 에너지. 그 활용방법과 가능성에 대해 알아본다.",
+      "supplementId": "abb3d41d9a811565af8248a3",
+      "supplementTitle": "EBS 하나뿐인 지구-무균사회(18일 오후 11시 10분)",
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000132376",
+      "reason": "PROGRAM_TITLE_ONLY_EPISODE_UNCONFIRMED"
+    }
+  ],
+  "rawCatalogFingerprint": "94ab780ee3345ffc38504cbc6d3c2b243187b4dcd3ae5bdf1756a8ab7bba7ac5",
+  "changedStores": [],
+  "caveat": "프로그램명·임시 제목뿐인 자료에는 정확한 회차 페이지 또는 명시된 방송일 일치를 요구한다. 제외는 검색 근거 보류이며 원문 데이터·첨부 기록 삭제나 오류 확정이 아니다."
+}

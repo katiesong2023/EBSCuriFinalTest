@@ -1,0 +1,4716 @@
+{
+  "generatedAt": "2026-10-05T01:13:42.786Z",
+  "fixture": {
+    "version": "r09-20261004",
+    "author": "AGENT",
+    "use": "TECHNICAL_HOLDOUT_THEN_DEVELOPMENT",
+    "limits": "실행 전에 고정한 새 표현이다. 실제 교사 요청·독립 최종 사람 평가가 아니며, 진단 이후에는 개발용으로 관리한다.",
+    "queries": [
+      {
+        "id": "S01",
+        "subject": "사회",
+        "query": "민주주의 수업 자료를 찾아주세요.",
+        "keyword": "민주주의",
+        "topic": "democracy-participation",
+        "requestedRelation": "민주주의 주제 자료; 시민 참여 방향은 선택 이후 확인"
+      },
+      {
+        "id": "S02",
+        "subject": "사회",
+        "query": "다양한 문화가 함께 사는 모습을 보여 주는 방송을 찾고 있어요.",
+        "keyword": "다문화",
+        "requestedRelation": "서로 다른 문화의 사람들이 함께 살아가는 모습"
+      },
+      {
+        "id": "S03",
+        "subject": "사회",
+        "query": "사막 또는 툰드라 생활 자료를 추천해 주세요.",
+        "keyword": "사막 생활",
+        "requestedRelation": "사막 또는 툰드라 환경에서의 생활"
+      },
+      {
+        "id": "S04",
+        "subject": "사회",
+        "query": "고조선 유물 발굴 과정을 살펴볼 자료를 찾아주세요.",
+        "keyword": "고조선",
+        "requestedRelation": "고조선 유물의 발굴 과정"
+      },
+      {
+        "id": "N01",
+        "subject": "과학",
+        "query": "우주 탐사 자료를 추천해 주세요.",
+        "keyword": "우주 탐사",
+        "topic": "space-explore",
+        "requestedRelation": "우주를 탐사하는 방법"
+      },
+      {
+        "id": "N02",
+        "subject": "과학",
+        "query": "생태계 수업 자료를 찾아주세요.",
+        "keyword": "생태계",
+        "topic": "ecosystem-bees",
+        "requestedRelation": "생태계 주제 자료; 꿀벌 방향은 선택 이후 확인"
+      },
+      {
+        "id": "N03",
+        "subject": "과학",
+        "query": "심장이나 소화기관의 움직임을 보여주는 자료를 찾아주세요.",
+        "keyword": "심장 또는 소화기관",
+        "requestedRelation": "심장 또는 소화기관의 움직임을 보여주는 장면"
+      },
+      {
+        "id": "N04",
+        "subject": "과학",
+        "query": "산성비 또는 바다 산성화 사례를 찾아주세요.",
+        "keyword": "산성비 또는 산성화",
+        "requestedRelation": "산성비 또는 바다 산성화의 실제 사례"
+      }
+    ]
+  },
+  "snapshotSha256": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+  "querySha256": "942aa69538fa841947cddbe2aed6145b18fd75336654d9054bcbb0b371a5e85e",
+  "codeHashes": {
+    "discovery-search.js": "17cbff84a33007326538ed69386d60fc69ed648f517c3df819eec93747bd1393",
+    "discovery-intent.js": "ead2705f027873ae29573b21b8a374a1b6d5ccbf710a30e9009fd87caabd5a2d",
+    "discovery-request.js": "8daa88a66e65b2f57a24095ca8fbcd8c253c8342ed38fe999c142b823a3330bb",
+    "teacher-discovery.js": "d35eb74fe6afc4eb48f375bb7e6cea6c6bb508bdeadbc0c5726643d7b985904a",
+    "teacher-curation.js": "a3f5504561983d4ece6de76a6c6fd0787cfeae68df768cab444fe8d465699b27",
+    "semantic-layer.js": "2c62abee47a2bb23504b603ac0b9506e243a6b0dcc5ef37e7fe0ac01703cb56b"
+  },
+  "cases": [
+    {
+      "name": "S01 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "S02 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "S03 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "S04 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "N01 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "N02 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "N03 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    },
+    {
+      "name": "N04 조건·근거·모든 페이지 판본 보존·반복 결정성",
+      "passed": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "S01",
+      "subject": "사회",
+      "query": "민주주의 수업 자료를 찾아주세요.",
+      "keyword": "민주주의",
+      "topic": "democracy-participation",
+      "requestedRelation": "민주주의 주제 자료; 시민 참여 방향은 선택 이후 확인",
+      "total": 21,
+      "rawTotal": 37,
+      "terms": [],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "democracy",
+            "label": "민주주의",
+            "subject": "사회",
+            "aliases": [
+              "민주주의",
+              "민주 정치",
+              "민주정치"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "민주주의 수업 자료를 찾아주세요.",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "democracy"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 21,
+      "keywordTop": [
+        {
+          "id": "BCAST-41236586c72656a2741e",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+          "summary": "지역의 사소한 변화는, 어쩌면 작은 질문에서 시작되는 것인지 모른다. 한국에도 지역을 변화시키고, 지역민들의 더 나은 삶을 위해 작은 질문과 큰 결정을 하는 곳이 있다. 바로 지방의회다. 국회가 행정부를 감시·견제하고 법을 제정하는 곳이라면, 각 지방의 행정기관을 감독하고 지역민의 생활과 밀접한 조례를 만드는 지방의회. 1991년 본격적으로 시작된 이후 중앙 정부를 대신해 지역 문제를 파악하고 해결하는 지방의회는 어떤 곳이며, 지방의회 의원들의 역할은 무엇인지 살펴본다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:17.237Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "0817428ad807ae9884ba306107f66e26e5e8bf50c5368e8ae3386ae758e8eeae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "summary": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례다. 조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다. 국민을 대상으로 한 헌법이나 법률과는 달리, 각 지역의 특성을 고려해 지역 현안을 해결하기 때문에 우리의 삶과 맞닿아 있다. 약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례. 이뿐만 아니라 전국 곳곳에서 지역과 지역민의 삶을 바꿔 가는 작은 시도와 변화들은, 지방의회가 가진 조례의 힘이다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:15.839Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            },
+            {
+              "conceptId": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "차별",
+                "excerpt": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:57:15.839Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ce1721b43f7741c59028",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "summary": "‘사소하지만 일상에 밀접한’ 조례들로 각계각층의 시민들에게 다가서는 지방의회! 시민에게 더욱더 가까운 지방의회로 변모하기 위해서는 시민의 참여가 무엇보다 중요하다. 지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국 지방의회와 시민이 함께 할 때 비로소 가능하다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:18.433Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            },
+            {
+              "conceptId": "citizen",
+              "label": "시민 참여",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 129,
+                "end": 134,
+                "quote": "시민 참여",
+                "excerpt": "의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:57:18.433Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 3518.83,
+      "warmMs": [
+        11.58,
+        12.43,
+        13.32
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 4,
+        "counts": {
+          "지식채널e": 3,
+          "위대한 수업, 그레이트 마인즈": 1
+        },
+        "unique": 2,
+        "largestShare": 0.75
+      },
+      "firstPagePrograms": {
+        "sampleSize": 9,
+        "counts": {
+          "지식채널e": 3,
+          "위대한 수업, 그레이트 마인즈": 6
+        },
+        "unique": 2,
+        "largestShare": 0.6666666666666666
+      },
+      "allPrograms": {
+        "sampleSize": 21,
+        "counts": {
+          "지식채널e": 3,
+          "위대한 수업, 그레이트 마인즈": 13,
+          "EBS 다큐프라임": 5
+        },
+        "unique": 3,
+        "largestShare": 0.6190476190476191
+      },
+      "groupedAlternativeCount": 16,
+      "variantGroups": [
+        {
+          "id": "BCAST-663d31118a337a6cbbc5",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+                "checkedAt": "2026-09-30T13:30:11.218Z",
+                "contentHash": "58b792ab2a13903f9b5f41f89fcdc5a9c4e9de58374d0807d27303f9551d4ab1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-6814ef941aa74b6f7d2f",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-305050b615d836ec4f4e",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>1강 무엇이 민주주의를 만드나",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-8181215f948a87299174",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+                "checkedAt": "2026-09-30T13:30:11.218Z",
+                "contentHash": "bc38ac62aaaee9f98f78feb921a039a1010a6902cfeb753b382760ad42e0af06"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-28678e8cf9b05194c9c4",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-c87fc36fa9017510d83b",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>2강 민주주의가 소중한 이유",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-ded9ed0b7f69a36e1f6c",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "69c48daea42e54a08c2d6af186c5e3e600c7d7edb1cea67769e8ed86620fa405"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-0977334db0b21ef5fcdf",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-0a37a5eaff66d9d15fc8",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>3강 히틀러는 어떻게 탄생했나",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-1a5698514fb865a6cb2c",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "0f024c2312c30e554229729598e90d7a9e8e85ab96f47faf4d581db6461ebf4a"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-288f6dca2204afecccab",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-c1f760967df37fecf556",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>4강 위기를 알리는 경고 신호들",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-f1f82e7732fb93b6e0bb",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "88e07e5d518e594619123ca847b130998bc2e89469bd1f5bb9efa1f2c19ad0d1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-db668a13cf619e335aaa",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-beee9384f865339a5c72",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>5강 권위주의자들의 권력 장악 시나리오",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-8533cd47698b1dc7511d",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "558a85f75f400fd402c9c4b1ce155c42919be0e10b907917d32cf1ed599f0b50"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-af3fcd9b478dc44e4390",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-a9d9010ea60ccdd63e4b",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>6강 민주주의의 다섯 가지 생존 전략",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-7c410ab5ff5e28ec1319",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 7강 어떻게 회복할 것인가(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 7강 어떻게 회복할 것인가(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681446",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681446",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 7강 어떻게 회복할 것인가(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681446",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "d6b802c12ac260b74d7197af34ef12ad5b9e5ec9634fe99ead71c2251de28df7"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-3784bfb5182727cc1d71",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 7강 어떻게 회복할 것인가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-15ae7c3335197d6438bf",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>7강 어떻게 회복할 것인가",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-c7c4070ac02a3a870c9f",
+          "title": "카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가",
+          "summary": "자막카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057920&lectId=60554239",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057920&lectId=60554239",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 26,
+                "end": 30,
+                "quote": "민주주의",
+                "excerpt": "카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057920&lectId=60554239",
+                "checkedAt": "2026-09-30T13:30:25.586Z",
+                "contentHash": "559d06e452ce1e5a4bae79f3fcbd16c0d302db9dec22ffa408237428bfafe634"
+              }
+            },
+            {
+              "conceptId": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 11,
+                "end": 13,
+                "quote": "차별",
+                "excerpt": "카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057920&lectId=60554239",
+                "checkedAt": "2026-09-30T13:30:25.586Z",
+                "contentHash": "559d06e452ce1e5a4bae79f3fcbd16c0d302db9dec22ffa408237428bfafe634"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-769236efc5153cb4aca9",
+              "title": "카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-1877c716047cf57b7115",
+              "title": "카스 무데 <혐오와 차별의 정치학> 4강 누가 민주주의를 위기라고 하는가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        }
+      ],
+      "top": [
+        {
+          "id": "BCAST-41236586c72656a2741e",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+          "summary": "지역의 사소한 변화는, 어쩌면 작은 질문에서 시작되는 것인지 모른다. 한국에도 지역을 변화시키고, 지역민들의 더 나은 삶을 위해 작은 질문과 큰 결정을 하는 곳이 있다. 바로 지방의회다. 국회가 행정부를 감시·견제하고 법을 제정하는 곳이라면, 각 지방의 행정기관을 감독하고 지역민의 생활과 밀접한 조례를 만드는 지방의회. 1991년 본격적으로 시작된 이후 중앙 정부를 대신해 지역 문제를 파악하고 해결하는 지방의회는 어떤 곳이며, 지방의회 의원들의 역할은 무엇인지 살펴본다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:17.237Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "0817428ad807ae9884ba306107f66e26e5e8bf50c5368e8ae3386ae758e8eeae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "summary": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례다. 조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다. 국민을 대상으로 한 헌법이나 법률과는 달리, 각 지역의 특성을 고려해 지역 현안을 해결하기 때문에 우리의 삶과 맞닿아 있다. 약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례. 이뿐만 아니라 전국 곳곳에서 지역과 지역민의 삶을 바꿔 가는 작은 시도와 변화들은, 지방의회가 가진 조례의 힘이다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:15.839Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            },
+            {
+              "conceptId": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "차별",
+                "excerpt": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:57:15.839Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ce1721b43f7741c59028",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "summary": "‘사소하지만 일상에 밀접한’ 조례들로 각계각층의 시민들에게 다가서는 지방의회! 시민에게 더욱더 가까운 지방의회로 변모하기 위해서는 시민의 참여가 무엇보다 중요하다. 지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국 지방의회와 시민이 함께 할 때 비로소 가능하다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:18.433Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            },
+            {
+              "conceptId": "citizen",
+              "label": "시민 참여",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 129,
+                "end": 134,
+                "quote": "시민 참여",
+                "excerpt": "의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:57:18.433Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstPage": [
+        {
+          "id": "BCAST-41236586c72656a2741e",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+          "summary": "지역의 사소한 변화는, 어쩌면 작은 질문에서 시작되는 것인지 모른다. 한국에도 지역을 변화시키고, 지역민들의 더 나은 삶을 위해 작은 질문과 큰 결정을 하는 곳이 있다. 바로 지방의회다. 국회가 행정부를 감시·견제하고 법을 제정하는 곳이라면, 각 지방의 행정기관을 감독하고 지역민의 생활과 밀접한 조례를 만드는 지방의회. 1991년 본격적으로 시작된 이후 중앙 정부를 대신해 지역 문제를 파악하고 해결하는 지방의회는 어떤 곳이며, 지방의회 의원들의 역할은 무엇인지 살펴본다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:17.237Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "0817428ad807ae9884ba306107f66e26e5e8bf50c5368e8ae3386ae758e8eeae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "summary": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례다. 조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다. 국민을 대상으로 한 헌법이나 법률과는 달리, 각 지역의 특성을 고려해 지역 현안을 해결하기 때문에 우리의 삶과 맞닿아 있다. 약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례. 이뿐만 아니라 전국 곳곳에서 지역과 지역민의 삶을 바꿔 가는 작은 시도와 변화들은, 지방의회가 가진 조례의 힘이다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:15.839Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            },
+            {
+              "conceptId": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "차별",
+                "excerpt": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640",
+                "checkedAt": "2026-09-29T13:57:15.839Z",
+                "contentHash": "107037792cac3b14399c1f9dfec25f8df8d74c71c08725e1d6b82f09979a409e"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ce1721b43f7741c59028",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "summary": "‘사소하지만 일상에 밀접한’ 조례들로 각계각층의 시민들에게 다가서는 지방의회! 시민에게 더욱더 가까운 지방의회로 변모하기 위해서는 시민의 참여가 무엇보다 중요하다. 지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국 지방의회와 시민이 함께 할 때 비로소 가능하다.",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-29T13:57:18.433Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            },
+            {
+              "conceptId": "citizen",
+              "label": "시민 참여",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 129,
+                "end": 134,
+                "quote": "시민 참여",
+                "excerpt": "의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:57:18.433Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-663d31118a337a6cbbc5",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681440",
+                "checkedAt": "2026-09-30T13:30:11.218Z",
+                "contentHash": "58b792ab2a13903f9b5f41f89fcdc5a9c4e9de58374d0807d27303f9551d4ab1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-6814ef941aa74b6f7d2f",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 1강 무엇이 민주주의를 만드나(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-305050b615d836ec4f4e",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>1강 무엇이 민주주의를 만드나",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-8181215f948a87299174",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681441",
+                "checkedAt": "2026-09-30T13:30:11.218Z",
+                "contentHash": "bc38ac62aaaee9f98f78feb921a039a1010a6902cfeb753b382760ad42e0af06"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-28678e8cf9b05194c9c4",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 2강 민주주의가 소중한 이유(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-c87fc36fa9017510d83b",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>2강 민주주의가 소중한 이유",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-ded9ed0b7f69a36e1f6c",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681442",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "69c48daea42e54a08c2d6af186c5e3e600c7d7edb1cea67769e8ed86620fa405"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-0977334db0b21ef5fcdf",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 3강 히틀러는 어떻게 탄생했나(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-0a37a5eaff66d9d15fc8",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>3강 히틀러는 어떻게 탄생했나",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-1a5698514fb865a6cb2c",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681443",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "0f024c2312c30e554229729598e90d7a9e8e85ab96f47faf4d581db6461ebf4a"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-288f6dca2204afecccab",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 4강 위기를 알리는 경고 신호들(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-c1f760967df37fecf556",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>4강 위기를 알리는 경고 신호들",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-f1f82e7732fb93b6e0bb",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681444",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "88e07e5d518e594619123ca847b130998bc2e89469bd1f5bb9efa1f2c19ad0d1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-db668a13cf619e335aaa",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 5강 권위주의자들의 권력 장악 시나리오(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-beee9384f865339a5c72",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>5강 권위주의자들의 권력 장악 시나리오",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-8533cd47698b1dc7511d",
+          "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+          "summary": "더빙대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 13,
+                "quote": "민주주의",
+                "excerpt": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(더빙)",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60681445",
+                "checkedAt": "2026-09-30T13:30:10.203Z",
+                "contentHash": "558a85f75f400fd402c9c4b1ce155c42919be0e10b907917d32cf1ed599f0b50"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-af3fcd9b478dc44e4390",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가> 6강 민주주의의 다섯 가지 생존 전략(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-a9d9010ea60ccdd63e4b",
+              "title": "대니얼 지블랫 <민주주의는 어떻게 죽는가>6강 민주주의의 다섯 가지 생존 전략",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        }
+      ],
+      "selectedTopic": {
+        "id": "democracy-participation",
+        "total": 2,
+        "firstPage": [
+          {
+            "id": "BCAST-ce1721b43f7741c59028",
+            "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+            "summary": "‘사소하지만 일상에 밀접한’ 조례들로 각계각층의 시민들에게 다가서는 지방의회! 시민에게 더욱더 가까운 지방의회로 변모하기 위해서는 시민의 참여가 무엇보다 중요하다. 지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국 지방의회와 시민이 함께 할 때 비로소 가능하다.",
+            "program": "지식채널e",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+            "navigation": {
+              "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+              "label": "해당 회차 열기",
+              "kind": "EPISODE",
+              "status": "MATCHED",
+              "checkedAt": "2026-09-29T13:57:18.433Z",
+              "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+            },
+            "evidenceLevel": "SOURCE_DESCRIPTION",
+            "semanticTags": [
+              {
+                "conceptId": "democracy",
+                "label": "민주주의",
+                "subject": "사회",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "title",
+                  "start": 16,
+                  "end": 20,
+                  "quote": "민주주의",
+                  "excerpt": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+                  "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                  "checkedAt": "2026-09-29T13:29:22.585Z",
+                  "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+                }
+              },
+              {
+                "conceptId": "citizen",
+                "label": "시민 참여",
+                "subject": "사회",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "summary",
+                  "start": 129,
+                  "end": 134,
+                  "quote": "시민 참여",
+                  "excerpt": "의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국",
+                  "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                  "checkedAt": "2026-09-29T13:57:18.433Z",
+                  "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+                }
+              }
+            ],
+            "requestedDetails": [],
+            "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+            "curriculumStatus": "NOT_ASSESSED",
+            "playbackStatus": "NOT_CHECKED",
+            "alternatives": []
+          },
+          {
+            "id": "BCAST-9d8c578db0f9810f5fb9",
+            "title": "아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+            "summary": "자막아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+            "program": "위대한 수업, 그레이트 마인즈",
+            "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057740&lectId=60298283",
+            "navigation": {
+              "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057740&lectId=60298283",
+              "label": "해당 회차 열기",
+              "kind": "EPISODE",
+              "status": "PUBLISHED",
+              "checkedAt": null,
+              "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+            },
+            "evidenceLevel": "SOURCE_DESCRIPTION",
+            "semanticTags": [
+              {
+                "conceptId": "democracy",
+                "label": "민주주의",
+                "subject": "사회",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "title",
+                  "start": 11,
+                  "end": 15,
+                  "quote": "민주주의",
+                  "excerpt": "아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+                  "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057740&lectId=60298283",
+                  "checkedAt": "2026-09-30T13:31:23.839Z",
+                  "contentHash": "7011e784a8c9830a68a1e227185ab348cd5d1af2dcff6fd0680f4ffdf7c5315e"
+                }
+              }
+            ],
+            "requestedDetails": [],
+            "reason": "민주주의 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+            "curriculumStatus": "NOT_ASSESSED",
+            "playbackStatus": "NOT_CHECKED",
+            "alternatives": []
+          }
+        ]
+      },
+      "humanJudgment": null
+    },
+    {
+      "id": "S02",
+      "subject": "사회",
+      "query": "다양한 문화가 함께 사는 모습을 보여 주는 방송을 찾고 있어요.",
+      "keyword": "다문화",
+      "requestedRelation": "서로 다른 문화의 사람들이 함께 살아가는 모습",
+      "total": 0,
+      "rawTotal": 0,
+      "terms": [
+        "함께",
+        "사는",
+        "찾고",
+        "있어요"
+      ],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "culture",
+            "label": "문화",
+            "subject": "사회",
+            "aliases": [
+              "문화",
+              "전통문화",
+              "문화유산"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [
+          "함께",
+          "사는",
+          "찾고",
+          "있어요"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "다양한 문화가 함께 사는 모습을 방송을 찾고 있어요.",
+        "intent": "OBSERVE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "culture"
+            ],
+            "geographyIds": [],
+            "terms": [
+              "함께",
+              "사는",
+              "찾고",
+              "있어요"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 15,
+      "keywordTop": [
+        {
+          "id": "BCAST-b8f06109d73274759c2e",
+          "title": "나는 다문화 DJ입니다",
+          "summary": "",
+          "program": "다큐 오늘",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10466439",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10466439",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "TITLE_ONLY",
+          "semanticTags": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 3,
+                "end": 6,
+                "quote": "다문화",
+                "excerpt": "나는 다문화 DJ입니다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10466439",
+                "checkedAt": "2026-09-30T13:32:53.246Z",
+                "contentHash": "847708c8301b5a3d35fab2d4ba90acb276a219d46e9c84f8b411bf647e76f007"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+          "program": "PD로그",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60584697",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "MATCHED",
+            "checkedAt": "2026-09-28T13:58:13.342Z",
+            "note": "도착 페이지의 콘텐츠 일치 확인 · 재생·로그인 조건은 별도"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 10,
+                "end": 13,
+                "quote": "다문화",
+                "excerpt": "다 함께 자라요, 다문화 초등 교실",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+                "checkedAt": "2026-09-27T05:46:28.439Z",
+                "contentHash": "6f5e809948af6bd5f6a2aa1023ccaebdd4e9ccc37133484ba17a704beee6df55"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-85d72913fc864cac86dd",
+          "title": "산골 마을 촘린의 겨울",
+          "summary": "자막기존 프로그램 <다문화 사랑>을 재구성하여 제작",
+          "program": "다큐 오늘",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10428495",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10428495",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "다문화",
+                "excerpt": "자막기존 프로그램 <다문화 사랑>을 재구성하여 제작",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/194/list?courseId=10008202&stepId=10009338&c.page=1",
+                "checkedAt": "2026-09-30T13:32:38.941Z",
+                "contentHash": "934154fcfb98011dd4799f2e193db98f5d3766e59c6a516bdb9c881042a48e2f"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 54.14,
+      "warmMs": [
+        4.39,
+        4.49,
+        4.95
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "firstPagePrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "allPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "groupedAlternativeCount": 0,
+      "variantGroups": [],
+      "top": [],
+      "firstPage": [],
+      "selectedTopic": null,
+      "humanJudgment": null
+    },
+    {
+      "id": "S03",
+      "subject": "사회",
+      "query": "사막 또는 툰드라 생활 자료를 추천해 주세요.",
+      "keyword": "사막 생활",
+      "requestedRelation": "사막 또는 툰드라 환경에서의 생활",
+      "total": 3,
+      "rawTotal": 27,
+      "terms": [],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "desert",
+            "label": "사막",
+            "subject": "공통",
+            "aliases": [
+              "사막"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          },
+          {
+            "id": "tundra",
+            "label": "툰드라",
+            "subject": "공통",
+            "aliases": [
+              "툰드라"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "사막 또는 툰드라 생활 자료를 추천해 주세요.",
+        "intent": "EXPLORE",
+        "connector": "OR",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "desert"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          },
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "tundra"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 3,
+      "keywordTop": [
+        {
+          "id": "BCAST-b7ea99f0dd385b579d34",
+          "title": "극한의 땅 1부 다나킬의 소금 카라반",
+          "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 221,
+                "end": 223,
+                "quote": "용암",
+                "excerpt": "래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "ocean",
+              "label": "바다",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 372,
+                "end": 374,
+                "quote": "바다",
+                "excerpt": "살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 238,
+                "end": 240,
+                "quote": "사막",
+                "excerpt": "3도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 ",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-c114de34a48a27a5a63b",
+          "title": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+          "summary": "자막기후 변화로 인해 몽골과 중국의 초원이 사막화 되어가고 있다. 사막화로 인해 피해를 입는 사람들을 취재해본다.",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 4,
+                "quote": "기후변화",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 8,
+                "end": 10,
+                "quote": "사막",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ee6c729aaf350fa7b033",
+          "title": "챠강티메 - 흰 낙타 이야기 1부",
+          "summary": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 60,
+                "end": 62,
+                "quote": "사막",
+                "excerpt": "척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055931",
+                "checkedAt": "2026-09-29T13:33:00.602Z",
+                "contentHash": "1107dc3ec3c2ab77cbcb1944fef866f631c2c33f74806ee10cce3a312d4654c1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 63.32,
+      "warmMs": [
+        7.39,
+        7.7,
+        7.35
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 4,
+        "counts": {
+          "다큐 오늘": 1,
+          "지식채널e": 1,
+          "딩동댕 유치원": 1,
+          "EBS 다큐프라임": 1
+        },
+        "unique": 4,
+        "largestShare": 0.25
+      },
+      "firstPagePrograms": {
+        "sampleSize": 3,
+        "counts": {
+          "EBS 다큐프라임": 2,
+          "하나뿐인 지구": 1
+        },
+        "unique": 2,
+        "largestShare": 0.6666666666666666
+      },
+      "allPrograms": {
+        "sampleSize": 3,
+        "counts": {
+          "EBS 다큐프라임": 2,
+          "하나뿐인 지구": 1
+        },
+        "unique": 2,
+        "largestShare": 0.6666666666666666
+      },
+      "groupedAlternativeCount": 24,
+      "variantGroups": [],
+      "top": [
+        {
+          "id": "BCAST-b7ea99f0dd385b579d34",
+          "title": "극한의 땅 1부 다나킬의 소금 카라반",
+          "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 221,
+                "end": 223,
+                "quote": "용암",
+                "excerpt": "래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "ocean",
+              "label": "바다",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 372,
+                "end": 374,
+                "quote": "바다",
+                "excerpt": "살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 238,
+                "end": 240,
+                "quote": "사막",
+                "excerpt": "3도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 ",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-c114de34a48a27a5a63b",
+          "title": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+          "summary": "자막기후 변화로 인해 몽골과 중국의 초원이 사막화 되어가고 있다. 사막화로 인해 피해를 입는 사람들을 취재해본다.",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 4,
+                "quote": "기후변화",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 8,
+                "end": 10,
+                "quote": "사막",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ee6c729aaf350fa7b033",
+          "title": "챠강티메 - 흰 낙타 이야기 1부",
+          "summary": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 60,
+                "end": 62,
+                "quote": "사막",
+                "excerpt": "척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055931",
+                "checkedAt": "2026-09-29T13:33:00.602Z",
+                "contentHash": "1107dc3ec3c2ab77cbcb1944fef866f631c2c33f74806ee10cce3a312d4654c1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstPage": [
+        {
+          "id": "BCAST-b7ea99f0dd385b579d34",
+          "title": "극한의 땅 1부 다나킬의 소금 카라반",
+          "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 221,
+                "end": 223,
+                "quote": "용암",
+                "excerpt": "래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "ocean",
+              "label": "바다",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 372,
+                "end": 374,
+                "quote": "바다",
+                "excerpt": "살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 238,
+                "end": 240,
+                "quote": "사막",
+                "excerpt": "3도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 ",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+                "checkedAt": "2026-09-29T13:31:47.895Z",
+                "contentHash": "ad7a1e439d3f3116a26ceefa903e51b2b209323fcda6d56726b3ba836ffc914d"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-c114de34a48a27a5a63b",
+          "title": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+          "summary": "자막기후 변화로 인해 몽골과 중국의 초원이 사막화 되어가고 있다. 사막화로 인해 피해를 입는 사람들을 취재해본다.",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 4,
+                "quote": "기후변화",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            },
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 8,
+                "end": 10,
+                "quote": "사막",
+                "excerpt": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10208738",
+                "checkedAt": "2026-09-30T13:27:03.736Z",
+                "contentHash": "0d75fbb55a127c554ff7fd31532a8abdb1d0ab1955f402eb4d3d18c9bfd63ad0"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-ee6c729aaf350fa7b033",
+          "title": "챠강티메 - 흰 낙타 이야기 1부",
+          "summary": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "desert",
+              "label": "사막",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 60,
+                "end": 62,
+                "quote": "사막",
+                "excerpt": "척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055931",
+                "checkedAt": "2026-09-29T13:33:00.602Z",
+                "contentHash": "1107dc3ec3c2ab77cbcb1944fef866f631c2c33f74806ee10cce3a312d4654c1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "사막 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "selectedTopic": null,
+      "humanJudgment": null
+    },
+    {
+      "id": "S04",
+      "subject": "사회",
+      "query": "고조선 유물 발굴 과정을 살펴볼 자료를 찾아주세요.",
+      "keyword": "고조선",
+      "requestedRelation": "고조선 유물의 발굴 과정",
+      "total": 0,
+      "rawTotal": 0,
+      "terms": [],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "gojoseon",
+            "label": "고조선",
+            "subject": "사회",
+            "aliases": [
+              "고조선"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          },
+          {
+            "id": "artifact",
+            "label": "유물·유적",
+            "subject": "사회",
+            "aliases": [
+              "유물",
+              "유적"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          },
+          {
+            "id": "excavation",
+            "label": "발굴",
+            "subject": "공통",
+            "aliases": [
+              "발굴"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "발굴 과정·현장",
+            "terms": [
+              "발굴"
+            ]
+          }
+        ],
+        "positiveQuery": "고조선 유물 발굴 과정을 살펴볼 자료를 찾아주세요.",
+        "intent": "EXPLAIN",
+        "connector": "AND",
+        "relationNeeds": [
+          "원리·과정 설명"
+        ],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [
+          "요청한 발굴 과정·현장은 주제 후보와 별도로 원문·영상 확인이 필요합니다.",
+          "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+        ],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "gojoseon",
+              "artifact",
+              "excavation"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 1,
+      "keywordTop": [
+        {
+          "id": "BCAST-b6ac5b923f72e8e289c9",
+          "title": "<불의 검> 3부 전사의 고백",
+          "summary": "한반도 최초의 국가 고조선 집중 해부",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055843&lectId=10878880",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055843&lectId=10878880",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "gojoseon",
+              "label": "고조선",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "고조선",
+                "excerpt": "한반도 최초의 국가 고조선 집중 해부",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055843",
+                "checkedAt": "2026-09-29T13:31:22.541Z",
+                "contentHash": "cc51c28b9263b7b044a9430ae8cb074b5d5407c3bc7252fd1bb5887f3379cd53"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "고조선 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 44.19,
+      "warmMs": [
+        4.44,
+        4.46,
+        5.53
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "firstPagePrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "allPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "groupedAlternativeCount": 0,
+      "variantGroups": [],
+      "top": [],
+      "firstPage": [],
+      "selectedTopic": null,
+      "humanJudgment": null
+    },
+    {
+      "id": "N01",
+      "subject": "과학",
+      "query": "우주 탐사 자료를 추천해 주세요.",
+      "keyword": "우주 탐사",
+      "topic": "space-explore",
+      "requestedRelation": "우주를 탐사하는 방법",
+      "total": 3,
+      "rawTotal": 15,
+      "terms": [
+        "탐사"
+      ],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "space",
+            "label": "우주",
+            "subject": "과학",
+            "aliases": [
+              "우주",
+              "은하",
+              "태양계",
+              "천체",
+              "행성"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [
+          "탐사"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "우주 탐사 자료를 추천해 주세요.",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [
+          "탐사 방법"
+        ],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [
+          "요청한 탐사 방법의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+        ],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "space"
+            ],
+            "geographyIds": [],
+            "terms": [
+              "탐사"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 3,
+      "keywordTop": [
+        {
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "행성",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "6e5d6b45142531c696639d2d6e2617d888b03c486b0619a0dc2c0f2001c28544"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-5ca8f7874cf7fc672053",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-e45ccb8cb9255aa6f4fd",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-58407eac3a4a313d3035",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 30,
+                "end": 33,
+                "quote": "태양계",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "e0e7f16cc4d18d7e13031dbba9b8fa79d907335d2a2599b2ec99bdc93cbe0ef3"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-e20e71d4232bd588d7fb",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-ce8a07e0bba94865d42a",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "summary": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 45,
+                "end": 47,
+                "quote": "천체",
+                "excerpt": "호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+                "checkedAt": "2026-09-29T13:32:20.041Z",
+                "contentHash": "cc2f00a11d416c31a8e53921fbcbe8ecdf5bc2005e8753c7ee526580241a1779"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 62.5,
+      "warmMs": [
+        9.4,
+        8.45,
+        8.72
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 4,
+        "counts": {
+          "위대한 수업, 그레이트 마인즈": 4
+        },
+        "unique": 1,
+        "largestShare": 1
+      },
+      "firstPagePrograms": {
+        "sampleSize": 3,
+        "counts": {
+          "위대한 수업, 그레이트 마인즈": 2,
+          "지식채널e": 1
+        },
+        "unique": 2,
+        "largestShare": 0.6666666666666666
+      },
+      "allPrograms": {
+        "sampleSize": 3,
+        "counts": {
+          "위대한 수업, 그레이트 마인즈": 2,
+          "지식채널e": 1
+        },
+        "unique": 2,
+        "largestShare": 0.6666666666666666
+      },
+      "groupedAlternativeCount": 12,
+      "variantGroups": [
+        {
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "행성",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "6e5d6b45142531c696639d2d6e2617d888b03c486b0619a0dc2c0f2001c28544"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-5ca8f7874cf7fc672053",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-e45ccb8cb9255aa6f4fd",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-58407eac3a4a313d3035",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 30,
+                "end": 33,
+                "quote": "태양계",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "e0e7f16cc4d18d7e13031dbba9b8fa79d907335d2a2599b2ec99bdc93cbe0ef3"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-e20e71d4232bd588d7fb",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-ce8a07e0bba94865d42a",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        }
+      ],
+      "top": [
+        {
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "행성",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "6e5d6b45142531c696639d2d6e2617d888b03c486b0619a0dc2c0f2001c28544"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-5ca8f7874cf7fc672053",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-e45ccb8cb9255aa6f4fd",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-58407eac3a4a313d3035",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 30,
+                "end": 33,
+                "quote": "태양계",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "e0e7f16cc4d18d7e13031dbba9b8fa79d907335d2a2599b2ec99bdc93cbe0ef3"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-e20e71d4232bd588d7fb",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-ce8a07e0bba94865d42a",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "summary": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 45,
+                "end": 47,
+                "quote": "천체",
+                "excerpt": "호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+                "checkedAt": "2026-09-29T13:32:20.041Z",
+                "contentHash": "cc2f00a11d416c31a8e53921fbcbe8ecdf5bc2005e8753c7ee526580241a1779"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstPage": [
+        {
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "행성",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "6e5d6b45142531c696639d2d6e2617d888b03c486b0619a0dc2c0f2001c28544"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-5ca8f7874cf7fc672053",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-e45ccb8cb9255aa6f4fd",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-58407eac3a4a313d3035",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 30,
+                "end": 33,
+                "quote": "태양계",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60546158",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "e0e7f16cc4d18d7e13031dbba9b8fa79d907335d2a2599b2ec99bdc93cbe0ef3"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": [
+            {
+              "id": "BCAST-e20e71d4232bd588d7fb",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(더빙)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            },
+            {
+              "id": "BCAST-ce8a07e0bba94865d42a",
+              "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 2강 우리 태양계는 왜 특별한가(수어)",
+              "program": "위대한 수업, 그레이트 마인즈"
+            }
+          ]
+        },
+        {
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "summary": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+          "program": "지식채널e",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+          "navigation": {
+            "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 45,
+                "end": 47,
+                "quote": "천체",
+                "excerpt": "호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+                "checkedAt": "2026-09-29T13:32:20.041Z",
+                "contentHash": "cc2f00a11d416c31a8e53921fbcbe8ecdf5bc2005e8753c7ee526580241a1779"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "selectedTopic": {
+        "id": "space-explore",
+        "total": 1,
+        "firstPage": [
+          {
+            "id": "BCAST-d8d2298f82c6061f9fa1",
+            "title": "그의 이름은 134340 Pluto",
+            "summary": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+            "program": "지식채널e",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+            "navigation": {
+              "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+              "label": "해당 회차 열기",
+              "kind": "EPISODE",
+              "status": "PUBLISHED",
+              "checkedAt": null,
+              "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+            },
+            "evidenceLevel": "SOURCE_DESCRIPTION",
+            "semanticTags": [
+              {
+                "conceptId": "space",
+                "label": "우주",
+                "subject": "과학",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "summary",
+                  "start": 45,
+                  "end": 47,
+                  "quote": "천체",
+                  "excerpt": "호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+                  "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+                  "checkedAt": "2026-09-29T13:32:20.041Z",
+                  "contentHash": "cc2f00a11d416c31a8e53921fbcbe8ecdf5bc2005e8753c7ee526580241a1779"
+                }
+              }
+            ],
+            "requestedDetails": [],
+            "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+            "curriculumStatus": "NOT_ASSESSED",
+            "playbackStatus": "NOT_CHECKED",
+            "alternatives": []
+          }
+        ]
+      },
+      "humanJudgment": null
+    },
+    {
+      "id": "N02",
+      "subject": "과학",
+      "query": "생태계 수업 자료를 찾아주세요.",
+      "keyword": "생태계",
+      "topic": "ecosystem-bees",
+      "requestedRelation": "생태계 주제 자료; 꿀벌 방향은 선택 이후 확인",
+      "total": 82,
+      "rawTotal": 82,
+      "terms": [],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "ecosystem",
+            "label": "생태계",
+            "subject": "과학",
+            "aliases": [
+              "생태계",
+              "생태",
+              "생물 관계",
+              "먹이 사슬",
+              "먹이사슬"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "생태계 수업 자료를 찾아주세요.",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "ecosystem"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 82,
+      "keywordTop": [
+        {
+          "id": "BCAST-c795af87c725960152da",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "summary": "장수말벌의 침공 속에서 간신히 살아남은 꿀벌 여왕은 새로운 왕국을 꾸리고, 공공의 적이 된 장수 여왕벌은 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 93,
+                "end": 96,
+                "quote": "생태계",
+                "excerpt": " 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            },
+            {
+              "conceptId": "bee",
+              "label": "꿀벌",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 18,
+                "end": 20,
+                "quote": "꿀벌",
+                "excerpt": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-8884e8ccb039f1a20324",
+          "title": "<밤의 제국> 1부-밤의 지배자",
+          "summary": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 21,
+                "end": 23,
+                "quote": "생태",
+                "excerpt": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055840",
+                "checkedAt": "2026-09-29T13:31:19.401Z",
+                "contentHash": "920a058fa0fea08d9a250ef75ccb2f98d034f44550c8bea358f91e7e79de5e72"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-46fdfd928611d5b641bc",
+          "title": "20년간의 격변, 새만금에 길을 묻다",
+          "summary": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 10,
+                "end": 12,
+                "quote": "생태",
+                "excerpt": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=16",
+                "checkedAt": "2026-09-30T13:27:12.648Z",
+                "contentHash": "8c5bc0e15192d2ca00bd80c670bec52cc7ff0522d38fc594f6b2488960081808"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 77.42,
+      "warmMs": [
+        9.59,
+        10.33,
+        9.06
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 4,
+        "counts": {
+          "EBS 다큐프라임": 2,
+          "하나뿐인 지구": 2
+        },
+        "unique": 2,
+        "largestShare": 0.5
+      },
+      "firstPagePrograms": {
+        "sampleSize": 9,
+        "counts": {
+          "EBS 다큐프라임": 4,
+          "하나뿐인 지구": 5
+        },
+        "unique": 2,
+        "largestShare": 0.5555555555555556
+      },
+      "allPrograms": {
+        "sampleSize": 82,
+        "counts": {
+          "EBS 다큐프라임": 21,
+          "하나뿐인 지구": 44,
+          "지식채널e": 9,
+          "딩동댕 딩동댕": 3,
+          "다큐 오늘": 1,
+          "고향민국": 1,
+          "허풍선이 과학쇼": 2,
+          "해요와 해요": 1
+        },
+        "unique": 8,
+        "largestShare": 0.5365853658536586
+      },
+      "groupedAlternativeCount": 0,
+      "variantGroups": [],
+      "top": [
+        {
+          "id": "BCAST-c795af87c725960152da",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "summary": "장수말벌의 침공 속에서 간신히 살아남은 꿀벌 여왕은 새로운 왕국을 꾸리고, 공공의 적이 된 장수 여왕벌은 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 93,
+                "end": 96,
+                "quote": "생태계",
+                "excerpt": " 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            },
+            {
+              "conceptId": "bee",
+              "label": "꿀벌",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 18,
+                "end": 20,
+                "quote": "꿀벌",
+                "excerpt": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-8884e8ccb039f1a20324",
+          "title": "<밤의 제국> 1부-밤의 지배자",
+          "summary": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 21,
+                "end": 23,
+                "quote": "생태",
+                "excerpt": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055840",
+                "checkedAt": "2026-09-29T13:31:19.401Z",
+                "contentHash": "920a058fa0fea08d9a250ef75ccb2f98d034f44550c8bea358f91e7e79de5e72"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-46fdfd928611d5b641bc",
+          "title": "20년간의 격변, 새만금에 길을 묻다",
+          "summary": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 10,
+                "end": 12,
+                "quote": "생태",
+                "excerpt": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=16",
+                "checkedAt": "2026-09-30T13:27:12.648Z",
+                "contentHash": "8c5bc0e15192d2ca00bd80c670bec52cc7ff0522d38fc594f6b2488960081808"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstPage": [
+        {
+          "id": "BCAST-c795af87c725960152da",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "summary": "장수말벌의 침공 속에서 간신히 살아남은 꿀벌 여왕은 새로운 왕국을 꾸리고, 공공의 적이 된 장수 여왕벌은 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 93,
+                "end": 96,
+                "quote": "생태계",
+                "excerpt": " 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            },
+            {
+              "conceptId": "bee",
+              "label": "꿀벌",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 18,
+                "end": 20,
+                "quote": "꿀벌",
+                "excerpt": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-8884e8ccb039f1a20324",
+          "title": "<밤의 제국> 1부-밤의 지배자",
+          "summary": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055840&lectId=10893265",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 21,
+                "end": 23,
+                "quote": "생태",
+                "excerpt": "낮 보다 밤을 선택한 야행성 동식물의 생태를 관찰한다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055840",
+                "checkedAt": "2026-09-29T13:31:19.401Z",
+                "contentHash": "920a058fa0fea08d9a250ef75ccb2f98d034f44550c8bea358f91e7e79de5e72"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-46fdfd928611d5b641bc",
+          "title": "20년간의 격변, 새만금에 길을 묻다",
+          "summary": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062978",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 10,
+                "end": 12,
+                "quote": "생태",
+                "excerpt": "자막새만금 지역의 생태, 오폐수 문제 등 취재",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=16",
+                "checkedAt": "2026-09-30T13:27:12.648Z",
+                "contentHash": "8c5bc0e15192d2ca00bd80c670bec52cc7ff0522d38fc594f6b2488960081808"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-5341a1c4b7ecfdabcf05",
+          "title": "4대강, 강물은 지금 숨 쉬고 있나?",
+          "summary": "자막4대강 생태의 현황과 건강성을 회복하기 위한 대안을 모색한다",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10244023",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10244023",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 6,
+                "end": 8,
+                "quote": "생태",
+                "excerpt": "자막4대강 생태의 현황과 건강성을 회복하기 위한 대안을 모색한다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=7",
+                "checkedAt": "2026-09-30T13:27:02.777Z",
+                "contentHash": "00636a7d428ef77cf09c7f6501da04eed9cfe772e94f41a537abe8bcad648320"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-47ec0db8e0f78a73b3ca",
+          "title": "가축의 권리를 말하다",
+          "summary": "염병 증가, 품질 저하 등 그 부작용이 심각한 밀집사육. 대형 축산농가들의 밀집사육 현장을 고발하고 가축의 생명권 보장과 생태계 보호에 일조하는 축산업계의 순환농법, 가축복지농장을 소개",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3052451",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3052451",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 68,
+                "end": 71,
+                "quote": "생태계",
+                "excerpt": "형 축산농가들의 밀집사육 현장을 고발하고 가축의 생명권 보장과 생태계 보호에 일조하는 축산업계의 순환농법, 가축복지농장을 소개",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=17",
+                "checkedAt": "2026-09-30T13:27:13.708Z",
+                "contentHash": "fcde9897035e5906bfb082a24ae0f6bfc9c824e441ff551c1a485f733956aa15"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-15fd00a3f3bb3a86637d",
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "summary": "어디에선가 조용히 우리가 사는 세상을 만들어가는 존재들, 곤충. 곤충의 일생은 인간에 비해 슬프도록 짧지만, 그 생애 안에는 우주의 모든 원리가 투영된다. 곤충들에게는 각자 삶의 터인 무대가 있다. 땅 아래, 나무 위에, 또 작은 나뭇잎 하나에도 곤충은 존재한다. 그 무대에서 펼쳐지는 곤충들의 먹고 먹히는 관계를 넘어 다양한 곤충들의 삶을 지혜를 생생하게 보여준다.지금 우리 주변에 흔하게 살고 있는 곤충은, 지구 역사의 오랜 수수께끼들을 품고 있는 신비로운 존재다. 그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다. 그동안 곤충을 익충과 해충으로 나누는 이분법적 논리에서 벗어나 인간이 곤충과 함께 살아가는 방법에 대해 생각해보는 시간을 마련한다.□ 주요 곤충- 양서류 천적, 큰노란테먼지벌레- 개미와의 동거, 쌍꼬리부전나비- 의태의 달인, 이끼개미귀신- 신비한 늦반딧불이- 확률 게임 도전 남가뢰",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 284,
+                "end": 287,
+                "quote": "생태계",
+                "excerpt": " 있는 신비로운 존재다. 그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다. 그동안 곤충을 익충과 해충으로 나누는 이분법적 논리에서 벗어나 인간이 곤",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055930",
+                "checkedAt": "2026-09-29T13:32:59.578Z",
+                "contentHash": "4ef0b225b6ab4e79e4e55e9869507c6a54a1e04c2bbeb54946c71031f7e382c7"
+              }
+            },
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 21,
+                "end": 23,
+                "quote": "우주",
+                "excerpt": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+                "checkedAt": "2026-09-29T13:32:59.578Z",
+                "contentHash": "4ef0b225b6ab4e79e4e55e9869507c6a54a1e04c2bbeb54946c71031f7e382c7"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-3db2c9583e3e11a8d6b9",
+          "title": "곤충, 전략의 귀재들. 2부 숨바꼭질",
+          "summary": "도토리거위벌레, 노랑뿔잠자리 등 곤충의 먹고먹히는 생태계를 살펴본다",
+          "program": "EBS 다큐프라임",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055798&lectId=20456084",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055798&lectId=20456084",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 28,
+                "end": 31,
+                "quote": "생태계",
+                "excerpt": "도토리거위벌레, 노랑뿔잠자리 등 곤충의 먹고먹히는 생태계를 살펴본다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055798",
+                "checkedAt": "2026-09-29T13:30:28.576Z",
+                "contentHash": "e2d15cb0703690c99f6a9e132102cca9dd195579feeb1ad0ae4caf3a484b6ce1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-e94f3610ddc2ed615fbe",
+          "title": "공존의 그늘, 유해조수",
+          "summary": "섬 지역에 방사한 사슴 염소 때문에 생기는 생태 교란 취재",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3069918",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3069918",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 24,
+                "end": 26,
+                "quote": "생태",
+                "excerpt": "섬 지역에 방사한 사슴 염소 때문에 생기는 생태 교란 취재",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=15",
+                "checkedAt": "2026-09-30T13:27:11.594Z",
+                "contentHash": "07fdeb4e55ce02bca12a2a237fc86f64d8f9dc8f4c5178d109923559beb8822e"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-6679f6aa49b7d84b5a3b",
+          "title": "그 많던 고등어는 어디로 갔을까",
+          "summary": "자막'국민 생선'인 고등어의 어획량이 갈수록 줄어들고 있다. 한국인의 삶 속에 깃든 고등어의 문화와 생태를 알아본다.",
+          "program": "하나뿐인 지구",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10254676",
+          "navigation": {
+            "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10254676",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "semanticTags": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 56,
+                "end": 58,
+                "quote": "생태",
+                "excerpt": "갈수록 줄어들고 있다. 한국인의 삶 속에 깃든 고등어의 문화와 생태를 알아본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+                "checkedAt": "2026-09-30T13:27:01.915Z",
+                "contentHash": "b98754bde606dfb72d53642e4499ea2d37e12891c7338194250143b62df92aa0"
+              }
+            },
+            {
+              "conceptId": "culture",
+              "label": "문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 52,
+                "end": 54,
+                "quote": "문화",
+                "excerpt": "획량이 갈수록 줄어들고 있다. 한국인의 삶 속에 깃든 고등어의 문화와 생태를 알아본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+                "checkedAt": "2026-09-30T13:27:01.915Z",
+                "contentHash": "b98754bde606dfb72d53642e4499ea2d37e12891c7338194250143b62df92aa0"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "selectedTopic": {
+        "id": "ecosystem-bees",
+        "total": 2,
+        "firstPage": [
+          {
+            "id": "BCAST-c795af87c725960152da",
+            "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+            "summary": "장수말벌의 침공 속에서 간신히 살아남은 꿀벌 여왕은 새로운 왕국을 꾸리고, 공공의 적이 된 장수 여왕벌은 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+            "program": "EBS 다큐프라임",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+            "navigation": {
+              "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+              "label": "해당 회차 열기",
+              "kind": "EPISODE",
+              "status": "PUBLISHED",
+              "checkedAt": null,
+              "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+            },
+            "evidenceLevel": "SOURCE_DESCRIPTION",
+            "semanticTags": [
+              {
+                "conceptId": "ecosystem",
+                "label": "생태계",
+                "subject": "과학",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "summary",
+                  "start": 93,
+                  "end": 96,
+                  "quote": "생태계",
+                  "excerpt": " 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+                  "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+                  "checkedAt": "2026-09-29T13:29:20.200Z",
+                  "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+                }
+              },
+              {
+                "conceptId": "bee",
+                "label": "꿀벌",
+                "subject": "과학",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "title",
+                  "start": 18,
+                  "end": 20,
+                  "quote": "꿀벌",
+                  "excerpt": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+                  "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+                  "checkedAt": "2026-09-29T13:29:20.200Z",
+                  "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+                }
+              }
+            ],
+            "requestedDetails": [],
+            "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+            "curriculumStatus": "NOT_ASSESSED",
+            "playbackStatus": "NOT_CHECKED",
+            "alternatives": []
+          },
+          {
+            "id": "BCAST-a69ff8287bbbf05be4e4",
+            "title": "꿀벌이 사라지고 있다.",
+            "summary": "바이러스 등 여러 원인으로 꿀벌이 사라지고 있다. 꿀벌 집단 폐사로 인한 생태계 피해 등 취재",
+            "program": "하나뿐인 지구",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3076067",
+            "navigation": {
+              "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3076067",
+              "label": "해당 회차 열기",
+              "kind": "EPISODE",
+              "status": "PUBLISHED",
+              "checkedAt": null,
+              "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+            },
+            "evidenceLevel": "SOURCE_DESCRIPTION",
+            "semanticTags": [
+              {
+                "conceptId": "ecosystem",
+                "label": "생태계",
+                "subject": "과학",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "summary",
+                  "start": 41,
+                  "end": 44,
+                  "quote": "생태계",
+                  "excerpt": " 여러 원인으로 꿀벌이 사라지고 있다. 꿀벌 집단 폐사로 인한 생태계 피해 등 취재",
+                  "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=15",
+                  "checkedAt": "2026-09-30T13:27:11.594Z",
+                  "contentHash": "422007183fcbb79936a730335bf6b348ea3d441ff85dcdd5f9c545c789f0a20f"
+                }
+              },
+              {
+                "conceptId": "bee",
+                "label": "꿀벌",
+                "subject": "과학",
+                "status": "SOURCE_MENTION",
+                "method": "LOCAL_RULE",
+                "ruleVersion": "2026-09-30.2",
+                "evidence": {
+                  "field": "title",
+                  "start": 0,
+                  "end": 2,
+                  "quote": "꿀벌",
+                  "excerpt": "꿀벌이 사라지고 있다.",
+                  "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3076067",
+                  "checkedAt": "2026-09-30T13:27:11.594Z",
+                  "contentHash": "422007183fcbb79936a730335bf6b348ea3d441ff85dcdd5f9c545c789f0a20f"
+                }
+              }
+            ],
+            "requestedDetails": [],
+            "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+            "curriculumStatus": "NOT_ASSESSED",
+            "playbackStatus": "NOT_CHECKED",
+            "alternatives": []
+          }
+        ]
+      },
+      "humanJudgment": null
+    },
+    {
+      "id": "N03",
+      "subject": "과학",
+      "query": "심장이나 소화기관의 움직임을 보여주는 자료를 찾아주세요.",
+      "keyword": "심장 또는 소화기관",
+      "requestedRelation": "심장 또는 소화기관의 움직임을 보여주는 장면",
+      "total": 0,
+      "rawTotal": 0,
+      "terms": [
+        "움직임"
+      ],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "heart",
+            "label": "심장",
+            "subject": "과학",
+            "aliases": [
+              "심장",
+              "심장병",
+              "심장 질환",
+              "심박수"
+            ],
+            "broader": "body",
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          },
+          {
+            "id": "digestion",
+            "label": "소화",
+            "subject": "과학",
+            "aliases": [
+              "소화기관",
+              "소화 기관",
+              "소화 작용",
+              "소화과정",
+              "소화 과정"
+            ],
+            "broader": "body",
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [
+          "움직임"
+        ],
+        "alternativeGroups": [
+          [
+            {
+              "text": "심장",
+              "concepts": [
+                {
+                  "id": "heart",
+                  "label": "심장",
+                  "subject": "과학",
+                  "aliases": [
+                    "심장",
+                    "심장병",
+                    "심장 질환",
+                    "심박수"
+                  ],
+                  "broader": "body",
+                  "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                  "ruleVersion": "2026-09-30.2"
+                }
+              ],
+              "terms": []
+            },
+            {
+              "text": "소화기관",
+              "concepts": [
+                {
+                  "id": "digestion",
+                  "label": "소화",
+                  "subject": "과학",
+                  "aliases": [
+                    "소화기관",
+                    "소화 기관",
+                    "소화 작용",
+                    "소화과정",
+                    "소화 과정"
+                  ],
+                  "broader": "body",
+                  "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                  "ruleVersion": "2026-09-30.2"
+                }
+              ],
+              "terms": []
+            }
+          ]
+        ],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "기관의 움직임",
+            "terms": [
+              "움직",
+              "박동",
+              "펌프",
+              "수축",
+              "소화"
+            ]
+          }
+        ],
+        "positiveQuery": "의 움직임을 자료를 찾아주세요.",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [
+          "요청한 기관의 움직임은 주제 후보와 별도로 원문·영상 확인이 필요합니다."
+        ],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [],
+            "terms": [
+              "움직임"
+            ],
+            "alternatives": [
+              [
+                {
+                  "text": "심장",
+                  "concepts": [
+                    {
+                      "id": "heart",
+                      "label": "심장",
+                      "subject": "과학",
+                      "aliases": [
+                        "심장",
+                        "심장병",
+                        "심장 질환",
+                        "심박수"
+                      ],
+                      "broader": "body",
+                      "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                      "ruleVersion": "2026-09-30.2"
+                    }
+                  ],
+                  "terms": []
+                },
+                {
+                  "text": "소화기관",
+                  "concepts": [
+                    {
+                      "id": "digestion",
+                      "label": "소화",
+                      "subject": "과학",
+                      "aliases": [
+                        "소화기관",
+                        "소화 기관",
+                        "소화 작용",
+                        "소화과정",
+                        "소화 과정"
+                      ],
+                      "broader": "body",
+                      "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                      "ruleVersion": "2026-09-30.2"
+                    }
+                  ],
+                  "terms": []
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      "keywordTotal": 48,
+      "keywordTop": [
+        {
+          "id": "BCAST-a0bbc388a35b124e0c15",
+          "title": "[명의 스페셜] 막힌 심장 혈관을 뚫어라!",
+          "summary": "",
+          "program": "명의",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=60461974",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=60461974",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "TITLE_ONLY",
+          "semanticTags": [
+            {
+              "conceptId": "heart",
+              "label": "심장",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "심장",
+                "excerpt": "[명의 스페셜] 막힌 심장 혈관을 뚫어라!",
+                "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=60461974",
+                "checkedAt": "2026-09-30T13:26:05.191Z",
+                "contentHash": "28221e8ec013b62aca1d88e44af392ad77632e48b4b255107bffdb391dd0e93b"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "심장 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-b25b4a6cb2d94ab5f0c5",
+          "title": "[명의 스페셜] 심장의 경고 - 부정맥, 심장판막증",
+          "summary": "",
+          "program": "명의",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20281198",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20281198",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "TITLE_ONLY",
+          "semanticTags": [
+            {
+              "conceptId": "heart",
+              "label": "심장",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 11,
+                "quote": "심장",
+                "excerpt": "[명의 스페셜] 심장의 경고 - 부정맥, 심장판막증",
+                "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20281198",
+                "checkedAt": "2026-09-30T13:26:16.309Z",
+                "contentHash": "31b0ea1e2500c2eec2a5b6bd9d5118ba7977e399a469d3a97614aa8580f527e1"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "심장 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        },
+        {
+          "id": "BCAST-30b3d2ef79c8fd8196c4",
+          "title": "100세 시대 심장을 지켜라 - 심장판막증",
+          "summary": "",
+          "program": "명의",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20168941",
+          "navigation": {
+            "url": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20168941",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "evidenceLevel": "TITLE_ONLY",
+          "semanticTags": [
+            {
+              "conceptId": "heart",
+              "label": "심장",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 8,
+                "end": 10,
+                "quote": "심장",
+                "excerpt": "100세 시대 심장을 지켜라 - 심장판막증",
+                "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20168941",
+                "checkedAt": "2026-09-30T13:26:17.269Z",
+                "contentHash": "100b55ba816bd8a2f54b98e31236aae524cb0e076ffa8e8bbada03f020f8b07b"
+              }
+            }
+          ],
+          "requestedDetails": [],
+          "reason": "심장 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED",
+          "alternatives": []
+        }
+      ],
+      "firstMs": 47.17,
+      "warmMs": [
+        4.94,
+        4.6,
+        4.31
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "firstPagePrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "allPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "groupedAlternativeCount": 0,
+      "variantGroups": [],
+      "top": [],
+      "firstPage": [],
+      "selectedTopic": null,
+      "humanJudgment": null
+    },
+    {
+      "id": "N04",
+      "subject": "과학",
+      "query": "산성비 또는 바다 산성화 사례를 찾아주세요.",
+      "keyword": "산성비 또는 산성화",
+      "requestedRelation": "산성비 또는 바다 산성화의 실제 사례",
+      "total": 0,
+      "rawTotal": 0,
+      "terms": [
+        "사례"
+      ],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "acidrain",
+            "label": "산성비",
+            "subject": "과학",
+            "aliases": [
+              "산성비"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          },
+          {
+            "id": "acidification",
+            "label": "산성화",
+            "subject": "과학",
+            "aliases": [
+              "바다 산성화",
+              "해양 산성화",
+              "산성화"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [
+          "사례"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "산성비 또는 바다 산성화 사례를 찾아주세요.",
+        "intent": "EXPLORE",
+        "connector": "OR",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "acidrain"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          },
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "acidification"
+            ],
+            "geographyIds": [],
+            "terms": [
+              "사례"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "keywordTotal": 0,
+      "keywordTop": [],
+      "firstMs": 45.94,
+      "warmMs": [
+        5.98,
+        5.28,
+        5.92
+      ],
+      "rawTopPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "firstPagePrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "allPrograms": {
+        "sampleSize": 0,
+        "counts": {},
+        "unique": 0,
+        "largestShare": null
+      },
+      "groupedAlternativeCount": 0,
+      "variantGroups": [],
+      "top": [],
+      "firstPage": [],
+      "selectedTopic": null,
+      "humanJudgment": null
+    }
+  ],
+  "errors": [],
+  "networkAttempts": 0,
+  "protectedBefore": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "humanEvaluations": 0,
+  "playbackChecks": 0,
+  "paidApiCalls": 0,
+  "limits": [
+    "에이전트 작성 새 표현의 기능·텍스트 검사. 실제 교사 효용·최종 정확도 평가가 아니다.",
+    "함수 지연은 단일 프로세스 측정이며 서버·브라우저 시간 및 동시 부하를 포함하지 않는다.",
+    "원문 대조는 저장된 스냅샷 대상이며 외부 EBS 재접속 검사가 아니다."
+  ],
+  "summary": {
+    "사회": {
+      "queries": 4,
+      "measured": 4,
+      "withCandidates": 2,
+      "empty": [
+        "S02",
+        "S04"
+      ],
+      "singleProgramFirstPages": []
+    },
+    "과학": {
+      "queries": 4,
+      "measured": 4,
+      "withCandidates": 2,
+      "empty": [
+        "N03",
+        "N04"
+      ],
+      "singleProgramFirstPages": []
+    }
+  },
+  "protectedAfter": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "storesUnchanged": true,
+  "passed": true
+}

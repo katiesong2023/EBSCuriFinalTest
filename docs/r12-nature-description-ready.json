@@ -1,0 +1,3004 @@
+{
+  "date": "2026-10-15T02:47:11.299Z",
+  "apply": false,
+  "scope": [
+    "하나뿐인 지구",
+    "이것이 야생이다",
+    "EBS 다큐프라임",
+    "과학 다큐 비욘드",
+    "경이로운 자연의 세계",
+    "자연 다큐",
+    "다큐 오늘"
+  ],
+  "targets": 1362,
+  "attached": 0,
+  "ready": 175,
+  "skipped": [
+    {
+      "url": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000138848",
+      "reason": "MULTI_EPISODE_DOCUMENT"
+    },
+    {
+      "url": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000137057",
+      "reason": "MULTI_EPISODE_DOCUMENT"
+    }
+  ],
+  "rows": [
+    {
+      "id": "BCAST-291df2ab7a34d064e2b0",
+      "title": "어느 날 내가 죽었습니다 -존엄사이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2017-01-27",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003100238",
+      "publishedAt": "2017-01-26",
+      "textLength": 1294,
+      "identityEvidence": [
+        "어느 날 내가 죽었습니다 - 존엄사 이야기",
+        "하나뿐인 지구",
+        "2017-01-26"
+      ]
+    },
+    {
+      "id": "BCAST-8cd727acb3725410151a",
+      "title": "늘 푸른 집, 반려식물과 살다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2017-01-20",
+      "status": "READY",
+      "previousSummaryLength": 73,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003087420",
+      "publishedAt": "2017-01-19",
+      "textLength": 1408,
+      "identityEvidence": [
+        "늘 푸른 집, 반려 식물과 살다",
+        "하나뿐인 지구",
+        "2017-01-19"
+      ]
+    },
+    {
+      "id": "BCAST-fd4d8a43f55242d456a8",
+      "title": "지의류를 아십니까?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-12-30",
+      "status": "READY",
+      "previousSummaryLength": 15,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003042523",
+      "publishedAt": "2016-12-29",
+      "textLength": 1800,
+      "identityEvidence": [
+        "지의류를 아십니까",
+        "하나뿐인 지구",
+        "2016-12-29"
+      ]
+    },
+    {
+      "id": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-12-23",
+      "status": "READY",
+      "previousSummaryLength": 31,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003029249",
+      "publishedAt": "2016-12-22",
+      "textLength": 1394,
+      "identityEvidence": [
+        "유독 가스 은밀하게 치명적인",
+        "하나뿐인 지구",
+        "2016-12-22"
+      ]
+    },
+    {
+      "id": "BCAST-31c7b0b11c5a8ecdb939",
+      "title": "미니멀 육아 장난감 없이 살아보기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-12-02",
+      "status": "READY",
+      "previousSummaryLength": 15,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002964678",
+      "publishedAt": "2016-12-01",
+      "textLength": 2166,
+      "identityEvidence": [
+        "미니멀 육아, 장난감 없이 살아 보기",
+        "하나뿐인 지구",
+        "2016-12-01"
+      ]
+    },
+    {
+      "id": "BCAST-bb73783c681a03c28fad",
+      "title": "新전원 일기 - 도시 남녀, 시골 가다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-11-25",
+      "status": "READY",
+      "previousSummaryLength": 54,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002951619",
+      "publishedAt": "2016-11-24",
+      "textLength": 1702,
+      "identityEvidence": [
+        "新전원 일기 – 도시 남녀, 시골 가다",
+        "하나뿐인 지구",
+        "2016-11-24"
+      ]
+    },
+    {
+      "id": "BCAST-33351d32cfa832367010",
+      "title": "신인류의 탄생 - 모던파더",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-11-18",
+      "status": "READY",
+      "previousSummaryLength": 60,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002937364",
+      "publishedAt": "2016-11-17",
+      "textLength": 1513,
+      "identityEvidence": [
+        "신인류의 탄생 - 모던파더",
+        "하나뿐인 지구",
+        "2016-11-17"
+      ]
+    },
+    {
+      "id": "BCAST-e0ca0f5516d89862b025",
+      "title": "어쩌면 사라질 당신의 고향에 관한 기록",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-11-11",
+      "status": "READY",
+      "previousSummaryLength": 78,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002920622",
+      "publishedAt": "2016-11-10",
+      "textLength": 2030,
+      "identityEvidence": [
+        "어쩌면 사라질 당신의 고향에 관한 기록",
+        "하나뿐인 지구",
+        "2016-11-10"
+      ]
+    },
+    {
+      "id": "BCAST-c113e9ccb76b6cc8448d",
+      "title": "백두대간의 중추 태백산, 국립공원이 되다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-10-14",
+      "status": "READY",
+      "previousSummaryLength": 23,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002869167",
+      "publishedAt": "2016-10-13",
+      "textLength": 1839,
+      "identityEvidence": [
+        "백두대간의 중추 태백산국립공원이 되다",
+        "하나뿐인 지구",
+        "2016-10-13"
+      ]
+    },
+    {
+      "id": "BCAST-dd060f979621467815fd",
+      "title": "생태 덕후-그들만의 세상",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-10-07",
+      "status": "READY",
+      "previousSummaryLength": 91,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002852616",
+      "publishedAt": "2016-10-06",
+      "textLength": 1547,
+      "identityEvidence": [
+        "생태 덕후 – 그들만의 세상",
+        "하나뿐인 지구",
+        "2016-10-06"
+      ]
+    },
+    {
+      "id": "BCAST-cb35650fd1504589e3f5",
+      "title": "당신이 몰랐던 식용개 이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-09-30",
+      "status": "READY",
+      "previousSummaryLength": 15,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002838128",
+      "publishedAt": "2016-09-27",
+      "textLength": 1058,
+      "identityEvidence": [
+        "당신이 몰랐던 식용개 이야기",
+        "하나뿐인 지구",
+        "2016-09-27"
+      ]
+    },
+    {
+      "id": "BCAST-600304d4969f62c777a6",
+      "title": "오래된 미래, 전기 자동차",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-09-23",
+      "status": "READY",
+      "previousSummaryLength": 64,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002829359",
+      "publishedAt": "2016-09-22",
+      "textLength": 1642,
+      "identityEvidence": [
+        "오래된 미래, 전기 자동차",
+        "하나뿐인 지구",
+        "2016-09-22"
+      ]
+    },
+    {
+      "id": "BCAST-983d1994a3e5f094e105",
+      "title": "숲, 사람을 부르다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-08-26",
+      "status": "READY",
+      "previousSummaryLength": 10,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002774855",
+      "publishedAt": "2016-08-25",
+      "textLength": 1748,
+      "identityEvidence": [
+        "숲, 사람을 부르다",
+        "하나뿐인 지구",
+        "2016-08-25"
+      ]
+    },
+    {
+      "id": "BCAST-88e7c8d33b858e405533",
+      "title": "사라진 검은 소 이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-08-19",
+      "status": "READY",
+      "previousSummaryLength": 44,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002762479",
+      "publishedAt": "2016-08-18",
+      "textLength": 1365,
+      "identityEvidence": [
+        "사라진 검은 소 이야기",
+        "하나뿐인 지구",
+        "2016-08-18"
+      ]
+    },
+    {
+      "id": "BCAST-15581db1e74f55b12642",
+      "title": "자연주의 출산을 아시나요?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-08-12",
+      "status": "READY",
+      "previousSummaryLength": 14,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002752094",
+      "publishedAt": "2016-08-11",
+      "textLength": 1421,
+      "identityEvidence": [
+        "자연주의 출산을 아시나요",
+        "하나뿐인 지구",
+        "2016-08-11"
+      ]
+    },
+    {
+      "id": "BCAST-95d51ef0e512d6e6c9ef",
+      "title": "도시, 벌을 받다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-07-08",
+      "status": "READY",
+      "previousSummaryLength": 19,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002686246",
+      "publishedAt": "2016-07-07",
+      "textLength": 1935,
+      "identityEvidence": [
+        "도시, 벌을 받다",
+        "하나뿐인 지구",
+        "2016-07-07"
+      ]
+    },
+    {
+      "id": "BCAST-63bfd2aa48247451cb9c",
+      "title": "곤충은 알고 있다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-07-01",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002673866",
+      "publishedAt": "2016-06-30",
+      "textLength": 1870,
+      "identityEvidence": [
+        "곤충은 알고 있다",
+        "하나뿐인 지구",
+        "2016-06-30"
+      ]
+    },
+    {
+      "id": "BCAST-545d268a9f9314b4b8a2",
+      "title": "남산, 어미새의 사랑",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-06-24",
+      "status": "READY",
+      "previousSummaryLength": 11,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002663915",
+      "publishedAt": "2016-06-23",
+      "textLength": 1633,
+      "identityEvidence": [
+        "남산, 어미새의 사랑",
+        "하나뿐인 지구",
+        "2016-06-23"
+      ]
+    },
+    {
+      "id": "BCAST-f83e4aff90176fc600e4",
+      "title": "이상한 나라의 죽음",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-06-10",
+      "status": "READY",
+      "previousSummaryLength": 25,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002642791",
+      "publishedAt": "2016-06-09",
+      "textLength": 1460,
+      "identityEvidence": [
+        "이상한 나라의 죽음",
+        "하나뿐인 지구",
+        "2016-06-09"
+      ]
+    },
+    {
+      "id": "BCAST-41138738eca3f87ada17",
+      "title": "당신만 모르는 잡초 사용법",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-05-27",
+      "status": "READY",
+      "previousSummaryLength": 14,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002624179",
+      "publishedAt": "2016-05-26",
+      "textLength": 2186,
+      "identityEvidence": [
+        "당신만 모르는 잡초 사용법",
+        "하나뿐인 지구",
+        "2016-05-26"
+      ]
+    },
+    {
+      "id": "BCAST-c6fe818d027359b596f6",
+      "title": "조릿대의 난 - 한라산 생태탐방기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-04-29",
+      "status": "READY",
+      "previousSummaryLength": 62,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002575770",
+      "publishedAt": "2016-04-28",
+      "textLength": 2334,
+      "identityEvidence": [
+        "조릿대의 난 – 한라산 생태탐방기",
+        "하나뿐인 지구",
+        "2016-04-28"
+      ]
+    },
+    {
+      "id": "BCAST-b2feca51059125fcc7c0",
+      "title": "그 많은 반려동물은 어디로 갔을까?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-04-08",
+      "status": "READY",
+      "previousSummaryLength": 69,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002520616",
+      "publishedAt": "2016-04-07",
+      "textLength": 2027,
+      "identityEvidence": [
+        "그 많은 반려동물은 어디로 갔을까",
+        "하나뿐인 지구",
+        "2016-04-07"
+      ]
+    },
+    {
+      "id": "BCAST-a32a7837933a881b83b5",
+      "title": "세상 어디에도 없던 쓰레기 줍는 섬 여행",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-03-25",
+      "status": "READY",
+      "previousSummaryLength": 33,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002488543",
+      "publishedAt": "2016-03-24",
+      "textLength": 2172,
+      "identityEvidence": [
+        "세상 어디에도 없던 쓰레기 줍는 섬 여행",
+        "하나뿐인 지구",
+        "2016-03-24"
+      ]
+    },
+    {
+      "id": "BCAST-152d355425e4cddd6e40",
+      "title": "우리가 청바지를 입는다는 것은",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-03-18",
+      "status": "READY",
+      "previousSummaryLength": 95,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002477704",
+      "publishedAt": "2016-03-17",
+      "textLength": 2067,
+      "identityEvidence": [
+        "우리가 청바지를 입는다는 것은",
+        "하나뿐인 지구",
+        "2016-03-17"
+      ]
+    },
+    {
+      "id": "BCAST-88c5810b90cdbe524e09",
+      "title": "도시탈출 백패킹",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-03-04",
+      "status": "READY",
+      "previousSummaryLength": 8,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002453419",
+      "publishedAt": "2016-03-03",
+      "textLength": 1801,
+      "identityEvidence": [
+        "도시탈출 백패킹",
+        "하나뿐인 지구",
+        "2016-03-03"
+      ]
+    },
+    {
+      "id": "BCAST-8d2f7ec46538f04bba52",
+      "title": "못 버리는 사람들",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-02-19",
+      "status": "READY",
+      "previousSummaryLength": 78,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002428765",
+      "publishedAt": "2016-02-18",
+      "textLength": 1680,
+      "identityEvidence": [
+        "못 버리는 사람들",
+        "하나뿐인 지구",
+        "2016-02-18"
+      ]
+    },
+    {
+      "id": "BCAST-a00fc49350a75702fcc7",
+      "title": "빅 피쉬를 찾아서",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-01-29",
+      "status": "READY",
+      "previousSummaryLength": 80,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002400481",
+      "publishedAt": "2016-01-28",
+      "textLength": 1980,
+      "identityEvidence": [
+        "빅 피쉬를 찾아서",
+        "하나뿐인 지구",
+        "2016-01-28"
+      ]
+    },
+    {
+      "id": "BCAST-e0a071fac8428c97bb27",
+      "title": "올해부터 편식하세요",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2016-01-01",
+      "status": "READY",
+      "previousSummaryLength": 56,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002327860",
+      "publishedAt": "2015-12-31",
+      "textLength": 2155,
+      "identityEvidence": [
+        "올해부터 편식하세요",
+        "하나뿐인 지구",
+        "2015-12-31"
+      ]
+    },
+    {
+      "id": "BCAST-792615171b6c41811653",
+      "title": "오대산의 겨울",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-12-18",
+      "status": "READY",
+      "previousSummaryLength": 8,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002302903",
+      "publishedAt": "2015-12-17",
+      "textLength": 2147,
+      "identityEvidence": [
+        "오대산의 겨울",
+        "하나뿐인 지구",
+        "2015-12-17"
+      ]
+    },
+    {
+      "id": "BCAST-abba2a4980bf17166ac7",
+      "title": "연어와 장어의 마지막 여행",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-12-11",
+      "status": "READY",
+      "previousSummaryLength": 37,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002292419",
+      "publishedAt": "2015-12-10",
+      "textLength": 2072,
+      "identityEvidence": [
+        "연어와 장어의 마지막 여행",
+        "하나뿐인 지구",
+        "2015-12-10"
+      ]
+    },
+    {
+      "id": "BCAST-cabce3e3e045f3fde55f",
+      "title": "물건 다이어트",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-12-04",
+      "status": "READY",
+      "previousSummaryLength": 97,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002282253",
+      "publishedAt": "2015-12-03",
+      "textLength": 1449,
+      "identityEvidence": [
+        "물건 다이어트",
+        "하나뿐인 지구",
+        "2015-12-03"
+      ]
+    },
+    {
+      "id": "BCAST-15eb6f5f4ce98fe752c7",
+      "title": "편의점 삼시 세끼",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-11-20",
+      "status": "READY",
+      "previousSummaryLength": 53,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002258563",
+      "publishedAt": "2015-11-19",
+      "textLength": 1774,
+      "identityEvidence": [
+        "편의점 삼시 세끼",
+        "하나뿐인 지구",
+        "2015-11-19"
+      ]
+    },
+    {
+      "id": "BCAST-cf6767d667fe2fb14a5a",
+      "title": "습지 생명을 품다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-11-06",
+      "status": "READY",
+      "previousSummaryLength": 31,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002235735",
+      "publishedAt": "2015-11-05",
+      "textLength": 861,
+      "identityEvidence": [
+        "습지, 생명을 품다",
+        "하나뿐인 지구",
+        "2015-11-05"
+      ]
+    },
+    {
+      "id": "BCAST-c2db962b15359dd36419",
+      "title": "파도가 치면 서핑을",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-10-23",
+      "status": "READY",
+      "previousSummaryLength": 93,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002213497",
+      "publishedAt": "2015-10-22",
+      "textLength": 1727,
+      "identityEvidence": [
+        "파도가 치면 서핑을",
+        "하나뿐인 지구",
+        "2015-10-22"
+      ]
+    },
+    {
+      "id": "BCAST-487b95afc9103eaf2599",
+      "title": "헌 집 줄게 새집 다오",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-10-16",
+      "status": "READY",
+      "previousSummaryLength": 91,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002200170",
+      "publishedAt": "2015-10-15",
+      "textLength": 2600,
+      "identityEvidence": [
+        "헌 집 줄게 새집 다오",
+        "하나뿐인 지구",
+        "2015-10-15"
+      ]
+    },
+    {
+      "id": "BCAST-a7562d63a492d0a50d39",
+      "title": "야생동물이 배송되었습니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-10-02",
+      "status": "READY",
+      "previousSummaryLength": 54,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002177900",
+      "publishedAt": "2015-10-01",
+      "textLength": 2188,
+      "identityEvidence": [
+        "야생동물이 배송되었습니다",
+        "하나뿐인 지구",
+        "2015-10-01"
+      ]
+    },
+    {
+      "id": "BCAST-06f594c2c5d525293fa1",
+      "title": "고양이는 버려도 되나요?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-09-25",
+      "status": "READY",
+      "previousSummaryLength": 90,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002170138",
+      "publishedAt": "2015-09-24",
+      "textLength": 1541,
+      "identityEvidence": [
+        "고양이는 버려도 되나요",
+        "하나뿐인 지구",
+        "2015-09-24"
+      ]
+    },
+    {
+      "id": "BCAST-26bec858fe5fc4966422",
+      "title": "생태원의 괴짜들",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-09-18",
+      "status": "READY",
+      "previousSummaryLength": 14,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002156323",
+      "publishedAt": "2015-09-17",
+      "textLength": 2024,
+      "identityEvidence": [
+        "생태원의 괴짜들",
+        "하나뿐인 지구",
+        "2015-09-17"
+      ]
+    },
+    {
+      "id": "BCAST-43185a89ca9f28fe7208",
+      "title": "모래가 사라졌다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-08-07",
+      "status": "READY",
+      "previousSummaryLength": 68,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002072671",
+      "publishedAt": "2015-08-06",
+      "textLength": 1833,
+      "identityEvidence": [
+        "모래가 사라졌다",
+        "하나뿐인 지구",
+        "2015-08-06"
+      ]
+    },
+    {
+      "id": "BCAST-d04427984c155a8b01e0",
+      "title": "금강에 가보셨나요",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-07-31",
+      "status": "READY",
+      "previousSummaryLength": 74,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002061321",
+      "publishedAt": "2015-07-30",
+      "textLength": 1705,
+      "identityEvidence": [
+        "금강에 가보셨나요",
+        "하나뿐인 지구",
+        "2015-07-30"
+      ]
+    },
+    {
+      "id": "BCAST-f2dd58948940a65216e6",
+      "title": "인류의 오랜 장난감, 흙",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-07-24",
+      "status": "READY",
+      "previousSummaryLength": 54,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002050686",
+      "publishedAt": "2015-07-23",
+      "textLength": 2153,
+      "identityEvidence": [
+        "인류의 오랜 장난감, 흙",
+        "하나뿐인 지구",
+        "2015-07-23"
+      ]
+    },
+    {
+      "id": "BCAST-08662f063a4f2acbb6dd",
+      "title": "바당 여자 이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-07-10",
+      "status": "READY",
+      "previousSummaryLength": 78,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002023624",
+      "publishedAt": "2015-07-09",
+      "textLength": 1870,
+      "identityEvidence": [
+        "바당 여자 이야기",
+        "하나뿐인 지구",
+        "2015-07-09"
+      ]
+    },
+    {
+      "id": "BCAST-6a9b3591c5623d19b4df",
+      "title": "제주도 바람났네",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-06-19",
+      "status": "READY",
+      "previousSummaryLength": 47,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001987691",
+      "publishedAt": "2015-06-18",
+      "textLength": 1819,
+      "identityEvidence": [
+        "제주도 바람났네",
+        "하나뿐인 지구",
+        "2015-06-18"
+      ]
+    },
+    {
+      "id": "BCAST-ac772f3e1142dd6037d7",
+      "title": "설악산에 케이블카가 생긴다면?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-06-12",
+      "status": "READY",
+      "previousSummaryLength": 83,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001976572",
+      "publishedAt": "2015-06-11",
+      "textLength": 1509,
+      "identityEvidence": [
+        "설악산에 케이블카가 생긴다면",
+        "하나뿐인 지구",
+        "2015-06-11"
+      ]
+    },
+    {
+      "id": "BCAST-995e7790116ad079a69a",
+      "title": "숲이 있었던 자리",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-06-05",
+      "status": "READY",
+      "previousSummaryLength": 34,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001965421",
+      "publishedAt": "2015-06-04",
+      "textLength": 1221,
+      "identityEvidence": [
+        "숲이 있었던 자리",
+        "하나뿐인 지구",
+        "2015-06-04"
+      ]
+    },
+    {
+      "id": "BCAST-1d48c3843f8b25bd9046",
+      "title": "강아지 공장에 갑니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-04-10",
+      "status": "READY",
+      "previousSummaryLength": 35,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001818519",
+      "publishedAt": "2015-04-09",
+      "textLength": 1783,
+      "identityEvidence": [
+        "강아지 공장에 갑니다",
+        "하나뿐인 지구",
+        "2015-04-09"
+      ]
+    },
+    {
+      "id": "BCAST-a83bc822c535e428f523",
+      "title": "강아지 공장을 아시나요?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-03-13",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001602261",
+      "publishedAt": "2015-03-12",
+      "textLength": 1522,
+      "identityEvidence": [
+        "강아지 공장을 아시나요",
+        "하나뿐인 지구",
+        "2015-03-12"
+      ]
+    },
+    {
+      "id": "BCAST-98de85150e272a7e9056",
+      "title": "우리는 도시 가족입니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-03-06",
+      "status": "READY",
+      "previousSummaryLength": 43,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001590586",
+      "publishedAt": "2015-03-05",
+      "textLength": 1531,
+      "identityEvidence": [
+        "우리는 도시 가족입니다",
+        "하나뿐인 지구",
+        "2015-03-05"
+      ]
+    },
+    {
+      "id": "BCAST-c12746a87ed7404b69a2",
+      "title": "인도네시아, 사라져 가는 숲의 기록",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-02-20",
+      "status": "READY",
+      "previousSummaryLength": 85,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001563301",
+      "publishedAt": "2015-02-17",
+      "textLength": 1709,
+      "identityEvidence": [
+        "인도네시아, 사라져 가는 숲의 기록",
+        "하나뿐인 지구",
+        "2015-02-17"
+      ]
+    },
+    {
+      "id": "BCAST-2caf77cf747d11a36cad",
+      "title": "집 나간 명태를 찾습니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2015-02-06",
+      "status": "READY",
+      "previousSummaryLength": 41,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001541373",
+      "publishedAt": "2015-02-05",
+      "textLength": 1905,
+      "identityEvidence": [
+        "집 나간 명태를 찾습니다",
+        "하나뿐인 지구",
+        "2015-02-05"
+      ]
+    },
+    {
+      "id": "BCAST-8d79990904a70755393c",
+      "title": "적정기술, 겨울을 녹이다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-12-26",
+      "status": "READY",
+      "previousSummaryLength": 85,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001448191",
+      "publishedAt": "2014-12-26",
+      "textLength": 1422,
+      "identityEvidence": [
+        "적정기술, 겨울을 녹이다",
+        "하나뿐인 지구",
+        "2014-12-26"
+      ]
+    },
+    {
+      "id": "BCAST-0c2a0df5479f94adf06f",
+      "title": "냉장고 없이 일주일 살아보기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-12-19",
+      "status": "READY",
+      "previousSummaryLength": 73,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001417061",
+      "publishedAt": "2014-12-18",
+      "textLength": 1434,
+      "identityEvidence": [
+        "냉장고 없이 일주일 살아보기",
+        "하나뿐인 지구",
+        "2014-12-18"
+      ]
+    },
+    {
+      "id": "BCAST-d5eb33137e12eb422fdc",
+      "title": "지구를 구하는 음식, 곤충食",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-12-05",
+      "status": "READY",
+      "previousSummaryLength": 74,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000540848",
+      "publishedAt": "2014-12-04",
+      "textLength": 1968,
+      "identityEvidence": [
+        "지구를 구하는 음식, 곤충食",
+        "하나뿐인 지구",
+        "2014-12-04"
+      ]
+    },
+    {
+      "id": "BCAST-bebb4c0281a72aeed961",
+      "title": "빈집, 드립니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-11-28",
+      "status": "READY",
+      "previousSummaryLength": 36,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+      "publishedAt": "2014-11-27",
+      "textLength": 1333,
+      "identityEvidence": [
+        "빈집, 드립니다",
+        "하나뿐인 지구",
+        "2014-11-27"
+      ]
+    },
+    {
+      "id": "BCAST-7b6faa4f5907ad4d1d54",
+      "title": "나는 작은 집에 산다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-11-21",
+      "status": "READY",
+      "previousSummaryLength": 93,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000536972",
+      "publishedAt": "2014-11-20",
+      "textLength": 1557,
+      "identityEvidence": [
+        "나는 작은 집에 산다",
+        "하나뿐인 지구",
+        "2014-11-20"
+      ]
+    },
+    {
+      "id": "BCAST-218914929a90125c7652",
+      "title": "동물원 월요병",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-11-14",
+      "status": "READY",
+      "previousSummaryLength": 74,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000535456",
+      "publishedAt": "2014-11-13",
+      "textLength": 1140,
+      "identityEvidence": [
+        "동물원 월요병",
+        "하나뿐인 지구",
+        "2014-11-13"
+      ]
+    },
+    {
+      "id": "BCAST-6679f6aa49b7d84b5a3b",
+      "title": "그 많던 고등어는 어디로 갔을까",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-10-03",
+      "status": "READY",
+      "previousSummaryLength": 65,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000527295",
+      "publishedAt": "2014-10-02",
+      "textLength": 1874,
+      "identityEvidence": [
+        "그 많던 고등어는 어디로 갔을까",
+        "하나뿐인 지구",
+        "2014-10-02"
+      ]
+    },
+    {
+      "id": "BCAST-beb65efb034a49ae59f2",
+      "title": "땅이 꺼지는 공포, 싱크홀",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-09-26",
+      "status": "READY",
+      "previousSummaryLength": 84,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000525908",
+      "publishedAt": "2014-09-25",
+      "textLength": 1497,
+      "identityEvidence": [
+        "땅이 꺼지는 공포 싱크홀",
+        "하나뿐인 지구",
+        "2014-09-25"
+      ]
+    },
+    {
+      "id": "BCAST-2fad69e77c019f648c69",
+      "title": "빈집에서 살아볼까요",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-09-19",
+      "status": "READY",
+      "previousSummaryLength": 63,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000523966",
+      "publishedAt": "2014-09-18",
+      "textLength": 1391,
+      "identityEvidence": [
+        "빈집에서 살아볼까요",
+        "하나뿐인 지구",
+        "2014-09-18"
+      ]
+    },
+    {
+      "id": "BCAST-08b922c85e08450addbc",
+      "title": "19g을 위한 사육, 나는 반달가슴곰입니다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-09-05",
+      "status": "READY",
+      "previousSummaryLength": 91,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000520863",
+      "publishedAt": "2014-09-04",
+      "textLength": 1745,
+      "identityEvidence": [
+        "19g을 위한 사육, 나는 반달가슴곰입니다",
+        "하나뿐인 지구",
+        "2014-09-04"
+      ]
+    },
+    {
+      "id": "BCAST-5341a1c4b7ecfdabcf05",
+      "title": "4대강, 강물은 지금 숨 쉬고 있나?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-08-22",
+      "status": "READY",
+      "previousSummaryLength": 35,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000503351",
+      "publishedAt": "2014-08-21",
+      "textLength": 2038,
+      "identityEvidence": [
+        "4대강, 강물은 지금 숨 쉬고 있나",
+        "하나뿐인 지구",
+        "2014-08-21"
+      ]
+    },
+    {
+      "id": "BCAST-4df4adb8b3762e4fb2fe",
+      "title": "잃어버린 정원",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-08-01",
+      "status": "READY",
+      "previousSummaryLength": 110,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000497673",
+      "publishedAt": "2014-07-31",
+      "textLength": 1840,
+      "identityEvidence": [
+        "잃어버린 정원",
+        "하나뿐인 지구",
+        "2014-07-31"
+      ]
+    },
+    {
+      "id": "BCAST-0538513d7c918fa511ff",
+      "title": "브라질, 월드컵과 아마존",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-06-06",
+      "status": "READY",
+      "previousSummaryLength": 45,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000486531",
+      "publishedAt": "2014-06-05",
+      "textLength": 1491,
+      "identityEvidence": [
+        "브라질, 월드컵과 아마존",
+        "하나뿐인 지구",
+        "2014-06-05"
+      ]
+    },
+    {
+      "id": "BCAST-d37b7e4b8d008e1e3d11",
+      "title": "녹색여가 1부 야구, 녹색세상을 꿈꾸다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-05-16",
+      "status": "READY",
+      "previousSummaryLength": 86,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000481668",
+      "publishedAt": "2014-05-15",
+      "textLength": 1492,
+      "identityEvidence": [
+        "녹색여가 1부 야구, 녹색 세상을 꿈꾸다",
+        "하나뿐인 지구",
+        "2014-05-15"
+      ]
+    },
+    {
+      "id": "BCAST-d6bfb09c4df90f432e83",
+      "title": "우리가 건강한 광어를 먹으려면!!",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-03-07",
+      "status": "READY",
+      "previousSummaryLength": 38,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000447080",
+      "publishedAt": "2014-03-06",
+      "textLength": 1926,
+      "identityEvidence": [
+        "우리가 건강한 광어를 먹으려면",
+        "하나뿐인 지구",
+        "2014-03-06"
+      ]
+    },
+    {
+      "id": "BCAST-55214e9b32ec543ed409",
+      "title": "당신의 캠핑은 몇 g입니까?",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-02-28",
+      "status": "READY",
+      "previousSummaryLength": 43,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000444875",
+      "publishedAt": "2014-02-27",
+      "textLength": 1583,
+      "identityEvidence": [
+        "당신의 캠핑은 몇 g입니까",
+        "하나뿐인 지구",
+        "2014-02-27"
+      ]
+    },
+    {
+      "id": "BCAST-9321d819722d09e37515",
+      "title": "우유, 소젖을 먹는다는 것에 대하여",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-01-17",
+      "status": "READY",
+      "previousSummaryLength": 38,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000432928",
+      "publishedAt": "2014-01-16",
+      "textLength": 2102,
+      "identityEvidence": [
+        "우유, 소젖을 먹는다는 것에 대하여",
+        "하나뿐인 지구",
+        "2014-01-16"
+      ]
+    },
+    {
+      "id": "BCAST-8731c6362d5d855f4d59",
+      "title": "패스트 패션이 말해주지 않는 것들",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2014-01-10",
+      "status": "READY",
+      "previousSummaryLength": 60,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000430672",
+      "publishedAt": "2014-01-09",
+      "textLength": 2465,
+      "identityEvidence": [
+        "패스트패션이 말해주지 않는 것들",
+        "하나뿐인 지구",
+        "2014-01-09"
+      ]
+    },
+    {
+      "id": "BCAST-048c7b7acd96f79d7046",
+      "title": "원전과 생존, 후쿠시마를 가다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-12-20",
+      "status": "READY",
+      "previousSummaryLength": 31,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000425714",
+      "publishedAt": "2013-12-19",
+      "textLength": 2376,
+      "identityEvidence": [
+        "원전과 생존, 후쿠시마를 가다",
+        "하나뿐인 지구",
+        "2013-12-19"
+      ]
+    },
+    {
+      "id": "BCAST-a334e0c4d27f7656da86",
+      "title": "얼굴있는 먹거리 로컬푸드 학교급식을 바꾸다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-12-13",
+      "status": "READY",
+      "previousSummaryLength": 51,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000266834",
+      "publishedAt": "2013-12-12",
+      "textLength": 1768,
+      "identityEvidence": [
+        "얼굴있는 먹거리 로컬푸드, 학교급식을 바꾸다",
+        "하나뿐인 지구",
+        "2013-12-12"
+      ]
+    },
+    {
+      "id": "BCAST-32466f94833e5576e50d",
+      "title": "행복의 조건, 선애마을",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-04-12",
+      "status": "READY",
+      "previousSummaryLength": 68,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000156420",
+      "publishedAt": "2013-04-11",
+      "textLength": 2100,
+      "identityEvidence": [
+        "행복의 조건, 선애마을",
+        "하나뿐인 지구",
+        "2013-04-11"
+      ]
+    },
+    {
+      "id": "BCAST-80609d9c7bd32e4368e7",
+      "title": "기후변화, 투발루의 증언",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-03-29",
+      "status": "READY",
+      "previousSummaryLength": 25,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000151298",
+      "publishedAt": "2013-03-28",
+      "textLength": 1908,
+      "identityEvidence": [
+        "기후변화, 투발루의 증언",
+        "하나뿐인 지구",
+        "2013-03-28"
+      ]
+    },
+    {
+      "id": "BCAST-8f2dc771f2004cd78e01",
+      "title": "하나뿐인 지구",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2013-01-25",
+      "status": "READY",
+      "previousSummaryLength": 64,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000132376",
+      "publishedAt": "2013-01-17",
+      "textLength": 2302,
+      "identityEvidence": [
+        "하나뿐인 지구",
+        "하나뿐인 지구",
+        "2013-01-17"
+      ]
+    },
+    {
+      "id": "BCAST-ee4de9bd6ff77e35ba28",
+      "title": "0927 두 달 후 - 구미 불산 사고가 남긴 것들",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-12-21",
+      "status": "READY",
+      "previousSummaryLength": 28,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000124294",
+      "publishedAt": "2012-12-20",
+      "textLength": 1212,
+      "identityEvidence": [
+        "0927 두 달 후-구미 불산 사고가 남긴 것들",
+        "하나뿐인 지구",
+        "2012-12-20"
+      ]
+    },
+    {
+      "id": "BCAST-5f0d60b5ea3fab4131ee",
+      "title": "유기농을 아십니까",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-11-29",
+      "status": "READY",
+      "previousSummaryLength": 30,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000121871",
+      "publishedAt": "2012-11-29",
+      "textLength": 1934,
+      "identityEvidence": [
+        "유기농을 아십니까",
+        "하나뿐인 지구",
+        "2012-11-29"
+      ]
+    },
+    {
+      "id": "BCAST-698f602d12df55e559cb",
+      "title": "청산도, 두 개의 시간",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-11-22",
+      "status": "READY",
+      "previousSummaryLength": 95,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000121027",
+      "publishedAt": "2012-11-20",
+      "textLength": 1933,
+      "identityEvidence": [
+        "청산도, 두 개의 시간",
+        "하나뿐인 지구",
+        "2012-11-20"
+      ]
+    },
+    {
+      "id": "BCAST-e68370bdf81fbc83d3c8",
+      "title": "가파도의 도전, 탄소 제로 섬",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-10-25",
+      "status": "READY",
+      "previousSummaryLength": 31,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000116820",
+      "publishedAt": "2012-10-25",
+      "textLength": 1444,
+      "identityEvidence": [
+        "가파도의 도전, 탄소 제로 섬",
+        "하나뿐인 지구",
+        "2012-10-25"
+      ]
+    },
+    {
+      "id": "BCAST-eaa224ef977f03a6796b",
+      "title": "우도 모래없는 해변의 비밀",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-10-11",
+      "status": "READY",
+      "previousSummaryLength": 19,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000114819",
+      "publishedAt": "2012-10-11",
+      "textLength": 2225,
+      "identityEvidence": [
+        "우도, 모래 없는 해변의 비밀",
+        "하나뿐인 지구",
+        "2012-10-11"
+      ]
+    },
+    {
+      "id": "BCAST-2b665a04bab9bb38affb",
+      "title": "모래가 만든 내성천이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-09-27",
+      "status": "READY",
+      "previousSummaryLength": 17,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000114051",
+      "publishedAt": "2012-09-28",
+      "textLength": 2308,
+      "identityEvidence": [
+        "모래가 만든 내성천 이야기",
+        "하나뿐인 지구",
+        "2012-09-28"
+      ]
+    },
+    {
+      "id": "BCAST-1ec3e5b4c8845d1b5031",
+      "title": "강화갯벌이 살아있는 까닭",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-08-30",
+      "status": "READY",
+      "previousSummaryLength": 16,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000109272",
+      "publishedAt": "2012-08-30",
+      "textLength": 2064,
+      "identityEvidence": [
+        "강화갯벌이 살아있는 까닭",
+        "하나뿐인 지구",
+        "2012-08-30"
+      ]
+    },
+    {
+      "id": "BCAST-24fc362b1088c2730c4b",
+      "title": "15년간의 휴식, 영월 내리계곡",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-09-06",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000110330",
+      "publishedAt": "2012-09-06",
+      "textLength": 2084,
+      "identityEvidence": [
+        "15년간의 휴식, 영월 내리계곡",
+        "하나뿐인 지구",
+        "2012-09-06"
+      ]
+    },
+    {
+      "id": "BCAST-05226aaf9f9495c4bb0d",
+      "title": "종다양성의 보고, 팔라완 대탐사 제2부",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-07-29",
+      "status": "READY",
+      "previousSummaryLength": 27,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000061012",
+      "publishedAt": "2012-07-27",
+      "textLength": 1368,
+      "identityEvidence": [
+        "종 다양성의 보고, 팔라완 대탐사 제2부",
+        "하나뿐인 지구",
+        "2012-07-27"
+      ]
+    },
+    {
+      "id": "BCAST-c2af7ac41ebde7172762",
+      "title": "살아있는 모래언덕 소황사구",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-07-15",
+      "status": "READY",
+      "previousSummaryLength": 26,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000046138",
+      "publishedAt": "2012-07-16",
+      "textLength": 2119,
+      "identityEvidence": [
+        "살아있는 모래언덕, 소황사구",
+        "하나뿐인 지구",
+        "2012-07-16"
+      ]
+    },
+    {
+      "id": "BCAST-f3a96ad2bc7e6d909366",
+      "title": "6급수에서 1급수로, 생태하천 태화강",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-07-08",
+      "status": "READY",
+      "previousSummaryLength": 22,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000045400",
+      "publishedAt": "2012-07-06",
+      "textLength": 1023,
+      "identityEvidence": [
+        "6급수에서 1급수로, 생태하천 태화강",
+        "하나뿐인 지구",
+        "2012-07-06"
+      ]
+    },
+    {
+      "id": "BCAST-839bb0828e393109b217",
+      "title": "인공, 자연을 불러오다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-07-01",
+      "status": "READY",
+      "previousSummaryLength": 35,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000044559",
+      "publishedAt": "2012-06-29",
+      "textLength": 2078,
+      "identityEvidence": [
+        "인공, 자연을 불러오다",
+        "하나뿐인 지구",
+        "2012-06-29"
+      ]
+    },
+    {
+      "id": "BCAST-fdebb738780220746825",
+      "title": "벌레의 침공 해충이 몰려온다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-06-24",
+      "status": "READY",
+      "previousSummaryLength": 27,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000044047",
+      "publishedAt": "2012-06-24",
+      "textLength": 1040,
+      "identityEvidence": [
+        "벌레의 침공, 해충이 몰려온다",
+        "하나뿐인 지구",
+        "2012-06-24"
+      ]
+    },
+    {
+      "id": "BCAST-10639074b320eca87fff",
+      "title": "최초보고 김포공항 담장너머에 습지가 있다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-06-17",
+      "status": "READY",
+      "previousSummaryLength": 30,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000043176",
+      "publishedAt": "2012-06-15",
+      "textLength": 1435,
+      "identityEvidence": [
+        "최초 보고, 김포공항 담장 너머에 습지가 있다",
+        "하나뿐인 지구",
+        "2012-06-15"
+      ]
+    },
+    {
+      "id": "BCAST-44b8db12573eeaebde03",
+      "title": "섬 속의 늪, 장도 습지를 가다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-06-03",
+      "status": "READY",
+      "previousSummaryLength": 24,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000042108",
+      "publishedAt": "2012-06-03",
+      "textLength": 2013,
+      "identityEvidence": [
+        "섬 속의 늪, 장도습지를 가다",
+        "하나뿐인 지구",
+        "2012-06-03"
+      ]
+    },
+    {
+      "id": "BCAST-29b3312b45abb429d2ab",
+      "title": "자연의 쉼터, 고산습지를 가다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-05-20",
+      "status": "READY",
+      "previousSummaryLength": 24,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000040595",
+      "publishedAt": "2012-05-18",
+      "textLength": 1173,
+      "identityEvidence": [
+        "자연의 쉼터, 고산습지를 가다",
+        "하나뿐인 지구",
+        "2012-05-18"
+      ]
+    },
+    {
+      "id": "BCAST-b9136bc0032564d0bf22",
+      "title": "하천, 생명을 품다 (4)갑천",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-04-29",
+      "status": "READY",
+      "previousSummaryLength": 15,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000034988",
+      "publishedAt": "2012-04-27",
+      "textLength": 1777,
+      "identityEvidence": [
+        "하천, 생명을 품다 (4) 갑천",
+        "하나뿐인 지구",
+        "2012-04-27"
+      ]
+    },
+    {
+      "id": "BCAST-bcf6f1e5b192556fa91f",
+      "title": "하천, 생명을 품다 (2)동강",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-04-15",
+      "status": "READY",
+      "previousSummaryLength": 15,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000033125",
+      "publishedAt": "2012-04-13",
+      "textLength": 2124,
+      "identityEvidence": [
+        "하천, 생명을 품다 (2) 동강",
+        "하나뿐인 지구",
+        "2012-04-13"
+      ]
+    },
+    {
+      "id": "BCAST-98fc61b6122ed020c28f",
+      "title": "꺼지지 않는 불씨, 산불",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-04-01",
+      "status": "READY",
+      "previousSummaryLength": 27,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000031391",
+      "publishedAt": "2012-03-30",
+      "textLength": 1983,
+      "identityEvidence": [
+        "꺼지지 않는 불씨, 산불",
+        "하나뿐인 지구",
+        "2012-03-30"
+      ]
+    },
+    {
+      "id": "BCAST-0789ed9135ad1cfc311d",
+      "title": "도시의 방랑자. 길고양이",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-03-04",
+      "status": "READY",
+      "previousSummaryLength": 21,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000027441",
+      "publishedAt": "2012-03-02",
+      "textLength": 1767,
+      "identityEvidence": [
+        "도시의 방랑자, 길고양이",
+        "하나뿐인 지구",
+        "2012-03-02"
+      ]
+    },
+    {
+      "id": "BCAST-2a3c055b1fbeedee140f",
+      "title": "자연과 함께 사는 사람들",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-02-20",
+      "status": "READY",
+      "previousSummaryLength": 26,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000025933",
+      "publishedAt": "2012-02-20",
+      "textLength": 1658,
+      "identityEvidence": [
+        "자연과 함께 사는 사람들",
+        "하나뿐인 지구",
+        "2012-02-20"
+      ]
+    },
+    {
+      "id": "BCAST-476930fd6c046ab2c55c",
+      "title": "유부도 겨울철새 이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-02-06",
+      "status": "READY",
+      "previousSummaryLength": 24,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+      "publishedAt": "2012-02-06",
+      "textLength": 1823,
+      "identityEvidence": [
+        "유부도 겨울철새 이야기",
+        "하나뿐인 지구",
+        "2012-02-06"
+      ]
+    },
+    {
+      "id": "BCAST-362881e54eb47a943321",
+      "title": "야생동물, 겨울나기 수난사",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-01-16",
+      "status": "READY",
+      "previousSummaryLength": 38,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000021515",
+      "publishedAt": "2012-01-16",
+      "textLength": 1626,
+      "identityEvidence": [
+        "야생동물, 겨울나기 수난사",
+        "하나뿐인 지구",
+        "2012-01-16"
+      ]
+    },
+    {
+      "id": "BCAST-666d8745a10db8bf3745",
+      "title": "영암호 가창오리에 물들다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2012-01-09",
+      "status": "READY",
+      "previousSummaryLength": 30,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000020575",
+      "publishedAt": "2012-01-09",
+      "textLength": 1949,
+      "identityEvidence": [
+        "영암호, 가창오리에 물들다",
+        "하나뿐인 지구",
+        "2012-01-09"
+      ]
+    },
+    {
+      "id": "BCAST-3f19c8077cf5fe28e6ef",
+      "title": "육지 속 비밀의 섬, 방우리",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-12-12",
+      "status": "READY",
+      "previousSummaryLength": 37,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000017119",
+      "publishedAt": "2011-12-08",
+      "textLength": 1841,
+      "identityEvidence": [
+        "육지 속 비밀의 섬, 방우리",
+        "하나뿐인 지구",
+        "2011-12-08"
+      ]
+    },
+    {
+      "id": "BCAST-2995c7b8bd7257e023f9",
+      "title": "도시, 자연을 품다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-12-05",
+      "status": "READY",
+      "previousSummaryLength": 28,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000016910",
+      "publishedAt": "2011-12-05",
+      "textLength": 1514,
+      "identityEvidence": [
+        "도시, 자연을 품다",
+        "하나뿐인 지구",
+        "2011-12-05"
+      ]
+    },
+    {
+      "id": "BCAST-d2be1b8af8ce0090bbac",
+      "title": "유해조수의 역습",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-11-28",
+      "status": "READY",
+      "previousSummaryLength": 13,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000016238",
+      "publishedAt": "2011-11-25",
+      "textLength": 1889,
+      "identityEvidence": [
+        "유해조수의 역습",
+        "하나뿐인 지구",
+        "2011-11-25"
+      ]
+    },
+    {
+      "id": "BCAST-43454b9fb0a2fc8b46c0",
+      "title": "버려진 동물들의 역습",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-11-21",
+      "status": "READY",
+      "previousSummaryLength": 22,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000015840",
+      "publishedAt": "2011-11-18",
+      "textLength": 2163,
+      "identityEvidence": [
+        "버려진 동물들의 역습",
+        "하나뿐인 지구",
+        "2011-11-18"
+      ]
+    },
+    {
+      "id": "BCAST-507f7a599d77494ace04",
+      "title": "일본, 에너지와의 전쟁을 선포하다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-09-26",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000012142",
+      "publishedAt": "2011-09-23",
+      "textLength": 2248,
+      "identityEvidence": [
+        "일본, 에너지와의 전쟁을 선포하다",
+        "하나뿐인 지구",
+        "2011-09-23"
+      ]
+    },
+    {
+      "id": "BCAST-3452e1e4f92edceecb87",
+      "title": "누에가 사라지면 안 되는 몇 가지 이유",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-09-19",
+      "status": "READY",
+      "previousSummaryLength": 19,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000011770",
+      "publishedAt": "2011-09-19",
+      "textLength": 1884,
+      "identityEvidence": [
+        "누에가 사라지면 안 되는 몇 가지 이유",
+        "하나뿐인 지구",
+        "2011-09-19"
+      ]
+    },
+    {
+      "id": "BCAST-6a22e2ddd1df9d19b09e",
+      "title": "구멍난 수해대책, 재앙은 되풀이된다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-08-29",
+      "status": "READY",
+      "previousSummaryLength": 19,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000009340",
+      "publishedAt": "2011-08-26",
+      "textLength": 2129,
+      "identityEvidence": [
+        "구멍 난 수해대책, 재앙은 되풀이된다",
+        "하나뿐인 지구",
+        "2011-08-26"
+      ]
+    },
+    {
+      "id": "BCAST-d7a47cc85df7e4c94055",
+      "title": "빛, 그 아름다움의 두 얼굴",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-08-17",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008448",
+      "publishedAt": "2011-08-17",
+      "textLength": 1326,
+      "identityEvidence": [
+        "빛, 그 아름다움의 두 얼굴",
+        "하나뿐인 지구",
+        "2011-08-17"
+      ]
+    },
+    {
+      "id": "BCAST-080c44c8881ce2f4bdc0",
+      "title": "조용한 포식자! 벌레잡이 식물",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-08-10",
+      "status": "READY",
+      "previousSummaryLength": 10,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008397",
+      "publishedAt": "2011-08-08",
+      "textLength": 1849,
+      "identityEvidence": [
+        "조용한 포식자! 벌레잡이 식물",
+        "하나뿐인 지구",
+        "2011-08-08"
+      ]
+    },
+    {
+      "id": "BCAST-69efc08763c5b58a88d9",
+      "title": "2011 여름, 미호종개 이야기",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-07-27",
+      "status": "READY",
+      "previousSummaryLength": 18,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008326",
+      "publishedAt": "2011-07-26",
+      "textLength": 2031,
+      "identityEvidence": [
+        "2011 여름, 미호종개 이야기",
+        "하나뿐인 지구",
+        "2011-07-26"
+      ]
+    },
+    {
+      "id": "BCAST-5fc2e1ea5aa7b4e821d5",
+      "title": "2011년 여름, 모기와의 전쟁",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-07-20",
+      "status": "READY",
+      "previousSummaryLength": 29,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008298",
+      "publishedAt": "2011-07-19",
+      "textLength": 1595,
+      "identityEvidence": [
+        "2011년 여름, 모기와의 전쟁",
+        "하나뿐인 지구",
+        "2011-07-19"
+      ]
+    },
+    {
+      "id": "BCAST-6240991810522222abd1",
+      "title": "학교숲이 교육을 바꾼다!",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-07-13",
+      "status": "READY",
+      "previousSummaryLength": 22,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008273",
+      "publishedAt": "2011-07-13",
+      "textLength": 1926,
+      "identityEvidence": [
+        "학교숲이 교육을 바꾼다",
+        "하나뿐인 지구",
+        "2011-07-13"
+      ]
+    },
+    {
+      "id": "BCAST-171710548c231d6436ed",
+      "title": "오송에는 금개구리와 맹꽁이가 산다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-07-06",
+      "status": "READY",
+      "previousSummaryLength": 12,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000008204",
+      "publishedAt": "2011-07-05",
+      "textLength": 1589,
+      "identityEvidence": [
+        "오송에는 금개구리와 맹꽁이가 산다",
+        "하나뿐인 지구",
+        "2011-07-05"
+      ]
+    },
+    {
+      "id": "BCAST-e9938a125dc90128afac",
+      "title": "생명의 숲, 곶자왈",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-05-04",
+      "status": "READY",
+      "previousSummaryLength": 13,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000007392",
+      "publishedAt": "2011-05-03",
+      "textLength": 2186,
+      "identityEvidence": [
+        "생명의 숲 ‘곶자왈",
+        "하나뿐인 지구",
+        "2011-05-03"
+      ]
+    },
+    {
+      "id": "BCAST-c9d9b292bf3626288c4f",
+      "title": "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-04-13",
+      "status": "READY",
+      "previousSummaryLength": 73,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000007292",
+      "publishedAt": "2011-04-12",
+      "textLength": 1617,
+      "identityEvidence": [
+        "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램",
+        "하나뿐인지구",
+        "2011-04-12"
+      ]
+    },
+    {
+      "id": "BCAST-a15f198c2a40a29ceff6",
+      "title": "백색의 유혹, 형광증백제",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-04-06",
+      "status": "READY",
+      "previousSummaryLength": 81,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000007271",
+      "publishedAt": "2011-04-06",
+      "textLength": 2566,
+      "identityEvidence": [
+        "백색의 유혹, 형광증백제",
+        "하나뿐인 지구",
+        "2011-04-06"
+      ]
+    },
+    {
+      "id": "BCAST-f34d5321ace5f18f41bd",
+      "title": "오래된 미래, 한일 친환경 농촌을 가다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2011-02-09",
+      "status": "READY",
+      "previousSummaryLength": 67,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000001339",
+      "publishedAt": "2011-02-08",
+      "textLength": 2344,
+      "identityEvidence": [
+        "오래된 미래 - 한일 친환경 농촌을 가다",
+        "하나뿐인 지구",
+        "2011-02-08"
+      ]
+    },
+    {
+      "id": "BCAST-b5dff0a2733a257b3397",
+      "title": "친환경 축산물에 대한 불편한 진실",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2010-11-24",
+      "status": "READY",
+      "previousSummaryLength": 33,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=1234110",
+      "publishedAt": "2010-11-22",
+      "textLength": 2528,
+      "identityEvidence": [
+        "친환경 축산물에 대한 불편한 진실",
+        "하나뿐인 지구",
+        "2010-11-22"
+      ]
+    },
+    {
+      "id": "BCAST-5087c51d217d53f34520",
+      "title": "자전거, 녹색도시를 꿈꾸다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2010-11-10",
+      "status": "READY",
+      "previousSummaryLength": 52,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=1234010",
+      "publishedAt": "2010-11-09",
+      "textLength": 850,
+      "identityEvidence": [
+        "자전거, 녹색도시를 꿈꾸다",
+        "하나뿐인 지구",
+        "2010-11-09"
+      ]
+    },
+    {
+      "id": "BCAST-3f5f0e585f338840776f",
+      "title": "뜨거워지는 한반도, 밥상이 변하고 있다",
+      "program": "하나뿐인 지구",
+      "broadcastDate": "2010-10-13",
+      "status": "READY",
+      "previousSummaryLength": 48,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=1233819",
+      "publishedAt": "2010-10-12",
+      "textLength": 3604,
+      "identityEvidence": [
+        "뜨거워지는 한반도, 밥상이 변하고 있다",
+        "하나뿐인 지구",
+        "2010-10-12"
+      ]
+    },
+    {
+      "id": "BCAST-17b49b656eeabd655058",
+      "title": "자막최후의 진객 점박이 물범은 살아있다",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2022-08-11",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+      "publishedAt": "2022-08-10",
+      "textLength": 1587,
+      "identityEvidence": [
+        "최후의 진객 점박이물범은 살아있다",
+        "이것이 야생이다",
+        "2022-08-10"
+      ]
+    },
+    {
+      "id": "BCAST-6844fe391f0057a70b08",
+      "title": "자막새들의 신도시",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2022-08-04",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001343167",
+      "publishedAt": "2022-08-03",
+      "textLength": 1296,
+      "identityEvidence": [
+        "새들의 신도시",
+        "이것이 야생이다",
+        "2022-08-03"
+      ]
+    },
+    {
+      "id": "BCAST-3225002c08823553e9cf",
+      "title": "자막갯벌의 방랑자들",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2022-07-07",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001277134",
+      "publishedAt": "2022-07-06",
+      "textLength": 1811,
+      "identityEvidence": [
+        "갯벌의 방랑자들",
+        "이것이 야생이다",
+        "2022-07-06"
+      ]
+    },
+    {
+      "id": "BCAST-be228c05bb2896ec1379",
+      "title": "자막우리 바다, 우리 고래를 찾아서",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2022-06-16",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001227363",
+      "publishedAt": "2022-06-15",
+      "textLength": 1652,
+      "identityEvidence": [
+        "우리 바다, 우리 고래를 찾아서",
+        "이것이 야생이다",
+        "2022-06-15"
+      ]
+    },
+    {
+      "id": "BCAST-54ae86ab7a765ab1b91e",
+      "title": "10부 독수리",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2018-02-04",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003954277",
+      "publishedAt": "2018-02-02",
+      "textLength": 1851,
+      "identityEvidence": [
+        "10부. 독수리",
+        "이것이 야생이다",
+        "2018-02-02"
+      ]
+    },
+    {
+      "id": "BCAST-eaef6c2c5c921588355b",
+      "title": "9부 살쾡이 두 번째 이야기",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2018-01-28",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003934916",
+      "publishedAt": "2018-01-26",
+      "textLength": 1592,
+      "identityEvidence": [
+        "9부 살쾡이 두 번째 이야기",
+        "이것이 야생이다",
+        "2018-01-26"
+      ]
+    },
+    {
+      "id": "BCAST-199bc7135757b55e1434",
+      "title": "7부 떼까마귀",
+      "program": "이것이 야생이다",
+      "broadcastDate": "2018-01-14",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003903072",
+      "publishedAt": "2018-01-12",
+      "textLength": 1964,
+      "identityEvidence": [
+        "7부 떼까마귀",
+        "이것이 야생이다",
+        "2018-01-12"
+      ]
+    },
+    {
+      "id": "BCAST-d81e377497db0a5acc6e",
+      "title": "1942 조세이 탄광 2부 우리를 기억해 주오",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-08-17",
+      "status": "READY",
+      "previousSummaryLength": 38,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30005358336",
+      "publishedAt": "2026-08-13",
+      "textLength": 1710,
+      "identityEvidence": [
+        "1942 조세이 탄광2부 우리를 기억해 주오",
+        "다큐프라임",
+        "2026-08-13"
+      ]
+    },
+    {
+      "id": "BCAST-1b0470c1dd1731e9818a",
+      "title": "베이비부머, 은퇴 없는 세대",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-04-06",
+      "status": "READY",
+      "previousSummaryLength": 74,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004994702",
+      "publishedAt": "2026-04-02",
+      "textLength": 2632,
+      "identityEvidence": [
+        "베이비부머, 은퇴 없는 세대",
+        "다큐프라임",
+        "2026-04-02"
+      ]
+    },
+    {
+      "id": "BCAST-6fc4e8d943a7eba8b1ee",
+      "title": "자연다큐 죽음 2부 군비경쟁",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-03-30",
+      "status": "READY",
+      "previousSummaryLength": 70,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004957497",
+      "publishedAt": "2026-03-23",
+      "textLength": 1005,
+      "identityEvidence": [
+        "자연다큐 죽음> ‘2부. 군비경쟁",
+        "다큐프라임",
+        "2026-03-23"
+      ]
+    },
+    {
+      "id": "BCAST-01bb5774b712efe912db",
+      "title": "자연다큐 죽음 1부 생명에서 생명으로",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-03-23",
+      "status": "READY",
+      "previousSummaryLength": 81,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004947281",
+      "publishedAt": "2026-03-18",
+      "textLength": 1578,
+      "identityEvidence": [
+        "자연다큐 죽음> ‘1부. 생명에서 생명으로",
+        "다큐프라임",
+        "2026-03-18"
+      ]
+    },
+    {
+      "id": "BCAST-9159ea23b42239698a94",
+      "title": "학교는 사라지는가",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-03-02",
+      "status": "READY",
+      "previousSummaryLength": 40,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004885618",
+      "publishedAt": "2026-02-23",
+      "textLength": 1872,
+      "identityEvidence": [
+        "학교는 사라지는가",
+        "다큐프라임",
+        "2026-02-23"
+      ]
+    },
+    {
+      "id": "BCAST-58693ef00be705007ba7",
+      "title": "주식의 시대_2부 AI버블, 역사는 반복될까",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-02-09",
+      "status": "READY",
+      "previousSummaryLength": 38,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004841911",
+      "publishedAt": "2026-02-05",
+      "textLength": 1997,
+      "identityEvidence": [
+        "주식의 시대> 2부. AI 버블, 역사는 반복될까",
+        "다큐프라임",
+        "2026-02-05"
+      ]
+    },
+    {
+      "id": "BCAST-9d4b6e34d94968524375",
+      "title": "알파고 10년, AI와 바둑",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2026-01-05",
+      "status": "READY",
+      "previousSummaryLength": 63,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30004737984",
+      "publishedAt": "2025-12-31",
+      "textLength": 1634,
+      "identityEvidence": [
+        "알파고 10년, AI와 바둑",
+        "다큐프라임",
+        "2025-12-31"
+      ]
+    },
+    {
+      "id": "BCAST-9ee1327add0558928897",
+      "title": "더 도그 - 1부 신이라 불린 개, 살루키",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2024-01-22",
+      "status": "READY",
+      "previousSummaryLength": 86,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30002920720",
+      "publishedAt": "2024-01-19",
+      "textLength": 1298,
+      "identityEvidence": [
+        "더 도그>1부. 신이라 불린 개, 살루키",
+        "다큐프라임",
+        "2024-01-19"
+      ]
+    },
+    {
+      "id": "BCAST-6998a10b7de63e82b3d4",
+      "title": "저출생 보고서 인구에서 인간으로 - 2부 밀도",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2023-01-17",
+      "status": "READY",
+      "previousSummaryLength": 33,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001832036",
+      "publishedAt": "2023-01-16",
+      "textLength": 1079,
+      "identityEvidence": [
+        "저출생 보고서 - 인구에서 인간으로>2부. 밀도",
+        "다큐프라임",
+        "2023-01-16"
+      ]
+    },
+    {
+      "id": "BCAST-95cde06223e3b1919195",
+      "title": "저출생 보고서 인구에서 인간으로 - 1부 선택",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2023-01-16",
+      "status": "READY",
+      "previousSummaryLength": 34,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001825249",
+      "publishedAt": "2023-01-13",
+      "textLength": 1213,
+      "identityEvidence": [
+        "저출생 보고서 - 인구에서 인간으로>1부. 선택",
+        "다큐프라임",
+        "2023-01-13"
+      ]
+    },
+    {
+      "id": "BCAST-a4af5a0c168f60e92fd3",
+      "title": "여성백년사 - 그때도 틀리고 지금도 틀리다 1부 - 신여성 내음새",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2022-11-07",
+      "status": "READY",
+      "previousSummaryLength": 102,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001634766",
+      "publishedAt": "2022-11-04",
+      "textLength": 1151,
+      "identityEvidence": [
+        "여성백년사-그때도 틀리고 지금도 틀리다>1부. 신여성 내음새",
+        "다큐프라임",
+        "2022-11-04"
+      ]
+    },
+    {
+      "id": "BCAST-7f901b53df38d9965ea4",
+      "title": "아동인권 6부작 어린人권 1부 아동학대 자진신고 1년의 기록: 내 이웃의 아이",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2022-05-09",
+      "status": "READY",
+      "previousSummaryLength": 32,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001144552",
+      "publishedAt": "2022-05-09",
+      "textLength": 1566,
+      "identityEvidence": [
+        "아동인권 6부작<어린人권>1부. 아동학대 자진신고 1년의 기록: 내 이웃의 아이",
+        "다큐프라임",
+        "2022-05-09"
+      ]
+    },
+    {
+      "id": "BCAST-6b41b8eca590d288bc19",
+      "title": "아동인권 6부작 어린人권 2부 살아남은 아이들",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2022-05-10",
+      "status": "READY",
+      "previousSummaryLength": 47,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001143830",
+      "publishedAt": "2022-05-09",
+      "textLength": 1682,
+      "identityEvidence": [
+        "아동인권 6부작<어린人권>2부. 살아남은 아이들",
+        "다큐프라임",
+        "2022-05-09"
+      ]
+    },
+    {
+      "id": "BCAST-e28b77d1e4dcd1601d60",
+      "title": "연애기계 - 2부",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2022-02-15",
+      "status": "READY",
+      "previousSummaryLength": 42,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30000909095",
+      "publishedAt": "2022-02-14",
+      "textLength": 2383,
+      "identityEvidence": [
+        "연애기계> 2부",
+        "다큐프라임",
+        "2022-02-14"
+      ]
+    },
+    {
+      "id": "BCAST-d9b55681218d111eff51",
+      "title": "연애기계 - 1부",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2022-02-14",
+      "status": "READY",
+      "previousSummaryLength": 34,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30000900475",
+      "publishedAt": "2022-02-11",
+      "textLength": 1779,
+      "identityEvidence": [
+        "연애기계> 1부",
+        "다큐프라임",
+        "2022-02-11"
+      ]
+    },
+    {
+      "id": "BCAST-5d8e926d1f0903ba4e77",
+      "title": "시민의 탄생 - 5부 연결자들",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-04-28",
+      "status": "READY",
+      "previousSummaryLength": 59,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006345439",
+      "publishedAt": "2020-04-27",
+      "textLength": 2307,
+      "identityEvidence": [
+        "시민의 탄생’5부. 연결자들",
+        "다큐프라임",
+        "2020-04-27"
+      ]
+    },
+    {
+      "id": "BCAST-143436bd604426e911f1",
+      "title": "시민의 탄생 - 4부 당신은 누구세요?",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-04-27",
+      "status": "READY",
+      "previousSummaryLength": 40,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006336748",
+      "publishedAt": "2020-04-24",
+      "textLength": 2202,
+      "identityEvidence": [
+        "시민의 탄생>4부 ‘당신은 누구세요",
+        "다큐프라임",
+        "2020-04-24"
+      ]
+    },
+    {
+      "id": "BCAST-01334b5855509be2a044",
+      "title": "시민의 탄생 - 2부 이런다고 바뀔까요?",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-04-21",
+      "status": "READY",
+      "previousSummaryLength": 25,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006321984",
+      "publishedAt": "2020-04-20",
+      "textLength": 2428,
+      "identityEvidence": [
+        "시민의 탄생>2부 ‘이런다고 바뀔까요",
+        "다큐프라임",
+        "2020-04-20"
+      ]
+    },
+    {
+      "id": "BCAST-b77fcf57f79910d31e8b",
+      "title": "시민의 탄생 - 1부 악플수집가",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-04-20",
+      "status": "READY",
+      "previousSummaryLength": 96,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006313276",
+      "publishedAt": "2020-04-17",
+      "textLength": 1623,
+      "identityEvidence": [
+        "시민의 탄생’ 1부 ‘악플수집가",
+        "다큐프라임",
+        "2020-04-17"
+      ]
+    },
+    {
+      "id": "BCAST-f19081b104fc590862cc",
+      "title": "뇌로 보는 인간 - 3 부. 예술",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-04-01",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006248172",
+      "publishedAt": "2020-03-31",
+      "textLength": 1015,
+      "identityEvidence": [
+        "뇌로 보는 인간> 3부 ‘예술",
+        "다큐프라임",
+        "2020-03-31"
+      ]
+    },
+    {
+      "id": "BCAST-b3e4db443478d6ee98cc",
+      "title": "뇌로 보는 인간 - 2 부. 폭력",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-31",
+      "status": "READY",
+      "previousSummaryLength": 0,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006243392",
+      "publishedAt": "2020-03-30",
+      "textLength": 1020,
+      "identityEvidence": [
+        "뇌로 보는 인간> 2부 폭력",
+        "다큐프라임",
+        "2020-03-30"
+      ]
+    },
+    {
+      "id": "BCAST-2a532640c1b318f61cec",
+      "title": "뇌로 보는 인간 - 1 부. 돈",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-30",
+      "status": "READY",
+      "previousSummaryLength": 17,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006230700",
+      "publishedAt": "2020-03-27",
+      "textLength": 1831,
+      "identityEvidence": [
+        "뇌로 보는 인간> 1부 돈",
+        "다큐프라임",
+        "2020-03-27"
+      ]
+    },
+    {
+      "id": "BCAST-63a63f71ebe4c92aac10",
+      "title": "무엇이 학교를 바꾸는가 4부 - 대학 갈 수 있을까?",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-23",
+      "status": "READY",
+      "previousSummaryLength": 46,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006199530",
+      "publishedAt": "2020-03-20",
+      "textLength": 733,
+      "identityEvidence": [
+        "무엇이 학교를 바꾸는가>4부. 대학 갈 수 있을까",
+        "다큐프라임",
+        "2020-03-20"
+      ]
+    },
+    {
+      "id": "BCAST-8f995928b6d740bd2e0a",
+      "title": "무엇이 학교를 바꾸는가 3부 - 혁신의 또 다른 상상",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-18",
+      "status": "READY",
+      "previousSummaryLength": 22,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006186148",
+      "publishedAt": "2020-03-17",
+      "textLength": 965,
+      "identityEvidence": [
+        "무엇이 학교를 바꾸는가>3부. 혁신의 또 다른 상상",
+        "다큐프라임",
+        "2020-03-17"
+      ]
+    },
+    {
+      "id": "BCAST-796af98249555e21c942",
+      "title": "무엇이 학교를 바꾸는가 2부 - 수업의 주인",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-17",
+      "status": "READY",
+      "previousSummaryLength": 59,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006180563",
+      "publishedAt": "2020-03-16",
+      "textLength": 877,
+      "identityEvidence": [
+        "무엇이 학교를 바꾸는가>2부. 수업의 주인",
+        "다큐프라임",
+        "2020-03-16"
+      ]
+    },
+    {
+      "id": "BCAST-b504ff2dbd3c556c19b7",
+      "title": "무엇이 학교를 바꾸는가 1부 - 학교 변화의 열쇠",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-03-16",
+      "status": "READY",
+      "previousSummaryLength": 66,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10006169377",
+      "publishedAt": "2020-03-13",
+      "textLength": 1138,
+      "identityEvidence": [
+        "무엇이 학교를 바꾸는가>1부. 학교 변화의 열쇠",
+        "다큐프라임",
+        "2020-03-13"
+      ]
+    },
+    {
+      "id": "BCAST-2a0700678effc59d4eec",
+      "title": "교육대기획 다시, 학교 9부 움직이는 학교",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-01-22",
+      "status": "READY",
+      "previousSummaryLength": 85,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005948049",
+      "publishedAt": "2020-01-21",
+      "textLength": 1072,
+      "identityEvidence": [
+        "교육대기획 <다시, 학교> 9부 “움직이는 학교",
+        "다큐프라임",
+        "2020-01-21"
+      ]
+    },
+    {
+      "id": "BCAST-8c3b93e879c96efe7351",
+      "title": "교육대기획 다시, 학교 5부 창의성의 발견",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-01-14",
+      "status": "READY",
+      "previousSummaryLength": 83,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005915735",
+      "publishedAt": "2020-01-13",
+      "textLength": 1204,
+      "identityEvidence": [
+        "교육대기획 다시, 학교> 5부 “창의성의 발견",
+        "다큐프라임",
+        "2020-01-13"
+      ]
+    },
+    {
+      "id": "BCAST-7b7f377b8e2ec77992b4",
+      "title": "교육대기획 다시, 학교 4부 최고의 수업",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-01-13",
+      "status": "READY",
+      "previousSummaryLength": 76,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005912814",
+      "publishedAt": "2020-01-12",
+      "textLength": 1171,
+      "identityEvidence": [
+        "교육대기획 다시, 학교> 4부 “최고의 수업",
+        "다큐프라임",
+        "2020-01-12"
+      ]
+    },
+    {
+      "id": "BCAST-648c9693add9e1f60a78",
+      "title": "교육대기획 다시, 학교 3부 시험을 시험하다",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2020-01-08",
+      "status": "READY",
+      "previousSummaryLength": 103,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005894756",
+      "publishedAt": "2020-01-07",
+      "textLength": 1539,
+      "identityEvidence": [
+        "교육대기획 <다시, 학교> 3부 ’시험을 시험하다",
+        "다큐프라임",
+        "2020-01-07"
+      ]
+    },
+    {
+      "id": "BCAST-dbba84f5d6fa43d629d5",
+      "title": "진정성시대 6부 진정성이란 무엇인가",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2019-10-02",
+      "status": "READY",
+      "previousSummaryLength": 42,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005550725",
+      "publishedAt": "2019-10-02",
+      "textLength": 1765,
+      "identityEvidence": [
+        "진정성 시대>6부. 진정성이란 무엇인가",
+        "다큐프라임",
+        "2019-10-02"
+      ]
+    },
+    {
+      "id": "BCAST-d91cd522ea3d41341bca",
+      "title": "진정성시대 2부 진정성 마케팅",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2019-09-24",
+      "status": "READY",
+      "previousSummaryLength": 91,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005523865",
+      "publishedAt": "2019-09-23",
+      "textLength": 2370,
+      "identityEvidence": [
+        "진정성 시대 - 2부 진정성 마케팅",
+        "다큐프라임",
+        "2019-09-23"
+      ]
+    },
+    {
+      "id": "BCAST-ad45ff420ebabc86c622",
+      "title": "제노사이드: 학살의 기억들",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2019-08-07",
+      "status": "READY",
+      "previousSummaryLength": 36,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005386468",
+      "publishedAt": "2019-08-06",
+      "textLength": 1199,
+      "identityEvidence": [
+        "제노사이드 – 학살의 기억들",
+        "다큐프라임",
+        "2019-08-06"
+      ]
+    },
+    {
+      "id": "BCAST-031dd330152db343aa77",
+      "title": "인류세 3부 안드레의 바다",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2019-06-19",
+      "status": "READY",
+      "previousSummaryLength": 32,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005245150",
+      "publishedAt": "2019-06-18",
+      "textLength": 863,
+      "identityEvidence": [
+        "인류세> 3부. 안드레의 바다",
+        "다큐프라임",
+        "2019-06-18"
+      ]
+    },
+    {
+      "id": "BCAST-d43de0eb136fabf517d5",
+      "title": "인류세 2부 플라스틱 화석",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2019-06-18",
+      "status": "READY",
+      "previousSummaryLength": 32,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10005241657",
+      "publishedAt": "2019-06-17",
+      "textLength": 1529,
+      "identityEvidence": [
+        "인류세> 2부. 플라스틱 화석",
+        "다큐프라임",
+        "2019-06-17"
+      ]
+    },
+    {
+      "id": "BCAST-2aedb655c308a454a94d",
+      "title": "내 운동화는 몇 명인가",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2018-08-27",
+      "status": "READY",
+      "previousSummaryLength": 50,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10004401369",
+      "publishedAt": "2018-08-27",
+      "textLength": 2257,
+      "identityEvidence": [
+        "내 운동화는 몇 명인가",
+        "다큐프라임",
+        "2018-08-27"
+      ]
+    },
+    {
+      "id": "BCAST-91c74055675aef30a31a",
+      "title": "역사의 빛, 청년 제1부 프롤로그: 하와이애국단을 찾아서",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2018-08-15",
+      "status": "READY",
+      "previousSummaryLength": 58,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10004362716",
+      "publishedAt": "2018-08-14",
+      "textLength": 2088,
+      "identityEvidence": [
+        "역사의 빛 청년> 제1부 프롤로그: 하와이애국단을 찾아서",
+        "다큐프라임",
+        "2018-08-14"
+      ]
+    },
+    {
+      "id": "BCAST-0a9be006f36206207b60",
+      "title": "<4차 인간> 3부 어떻게 기계와 공존할 것인가?",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2018-03-07",
+      "status": "READY",
+      "previousSummaryLength": 71,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10004015849",
+      "publishedAt": "2018-03-06",
+      "textLength": 1263,
+      "identityEvidence": [
+        "4차인간 3부.어떻게 기계와 공존할 것인가",
+        "다큐프라임",
+        "2018-03-06"
+      ]
+    },
+    {
+      "id": "BCAST-80320a22f3ac3aa656f6",
+      "title": "<4차 인간> 2부 인간은 기계인가?",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2018-03-06",
+      "status": "READY",
+      "previousSummaryLength": 77,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10004013570",
+      "publishedAt": "2018-03-05",
+      "textLength": 1449,
+      "identityEvidence": [
+        "4차인간 2부. 인간은 기계인가",
+        "다큐프라임",
+        "2018-03-05"
+      ]
+    },
+    {
+      "id": "BCAST-6b7e3245ecfbfa6d3e71",
+      "title": "<한국사 오천년, 생존의 길> 제5부 - 고종, 열강의 덫에 빠지다",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2018-02-06",
+      "status": "READY",
+      "previousSummaryLength": 3,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003958138",
+      "publishedAt": "2018-02-05",
+      "textLength": 2319,
+      "identityEvidence": [
+        "한국사 오천년, 생존의 길> 제5부 ‘고종, 열강의 덫에 빠지다",
+        "다큐프라임",
+        "2018-02-05"
+      ]
+    },
+    {
+      "id": "BCAST-c763bf02171718662d76",
+      "title": "긴팔인간 - 2부. 가족 본능",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2017-02-07",
+      "status": "READY",
+      "previousSummaryLength": 44,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003116549",
+      "publishedAt": "2017-02-06",
+      "textLength": 898,
+      "identityEvidence": [
+        "긴팔인간> 2부. 가족 본능",
+        "다큐프라임",
+        "2017-02-06"
+      ]
+    },
+    {
+      "id": "BCAST-66c182d26aa380355243",
+      "title": "긴팔인간 - 1부. 음악 본능",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2017-02-06",
+      "status": "READY",
+      "previousSummaryLength": 103,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10003116548",
+      "publishedAt": "2017-02-06",
+      "textLength": 890,
+      "identityEvidence": [
+        "긴팔인간> 1부. 음악 본능",
+        "다큐프라임",
+        "2017-02-06"
+      ]
+    },
+    {
+      "id": "BCAST-255cbb345b2d6d33b91b",
+      "title": "한라산 늑대개",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2016-06-20",
+      "status": "READY",
+      "previousSummaryLength": 66,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002657726",
+      "publishedAt": "2016-06-20",
+      "textLength": 1028,
+      "identityEvidence": [
+        "한라산 늑대개",
+        "다큐프라임",
+        "2016-06-20"
+      ]
+    },
+    {
+      "id": "BCAST-b3802dae21bae84c84b4",
+      "title": "공부의 배신 3부-꿈의 자격",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2016-05-18",
+      "status": "READY",
+      "previousSummaryLength": 55,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002609051",
+      "publishedAt": "2016-05-17",
+      "textLength": 1941,
+      "identityEvidence": [
+        "공부의 배신> 3부 꿈의 자격",
+        "다큐프라임",
+        "2016-05-17"
+      ]
+    },
+    {
+      "id": "BCAST-0f12361bcec88bb731b5",
+      "title": "커뮤니케이션의 힘",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2016-04-20",
+      "status": "READY",
+      "previousSummaryLength": 95,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002551838",
+      "publishedAt": "2016-04-19",
+      "textLength": 2278,
+      "identityEvidence": [
+        "커뮤니케이션의 힘",
+        "다큐프라임",
+        "2016-04-19"
+      ]
+    },
+    {
+      "id": "BCAST-84f17144450eeb263954",
+      "title": "우리 WE, 6부 함께 산다는 것",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2015-09-09",
+      "status": "READY",
+      "previousSummaryLength": 26,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002133815",
+      "publishedAt": "2015-09-08",
+      "textLength": 767,
+      "identityEvidence": [
+        "우리 We 6부. 함께 산다는 것",
+        "다큐프라임",
+        "2015-09-08"
+      ]
+    },
+    {
+      "id": "BCAST-0e2de03110a8162af28b",
+      "title": "우리 WE, 5부 나일 수도 있었던 , 나의 이야기",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2015-09-08",
+      "status": "READY",
+      "previousSummaryLength": 88,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002130264",
+      "publishedAt": "2015-09-07",
+      "textLength": 1079,
+      "identityEvidence": [
+        "우리 We 5부. 나일 수도 있었던 나의 이야기",
+        "다큐프라임",
+        "2015-09-07"
+      ]
+    },
+    {
+      "id": "BCAST-97fe3fc13d46e37f5ce4",
+      "title": "우리 WE, 4부 끝나지 않은 전쟁, 한국의 지역감정을 말하다",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2015-09-07",
+      "status": "READY",
+      "previousSummaryLength": 89,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002127270",
+      "publishedAt": "2015-09-04",
+      "textLength": 785,
+      "identityEvidence": [
+        "우리 We 4부. 끝나지 않은 전쟁, 한국의 지역감정을 말하다",
+        "다큐프라임",
+        "2015-09-04"
+      ]
+    },
+    {
+      "id": "BCAST-5993332ca253ea09e305",
+      "title": "감각의 제국 4부 봄(seeing)의 기적",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2015-06-29",
+      "status": "READY",
+      "previousSummaryLength": 65,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10001999518",
+      "publishedAt": "2015-06-26",
+      "textLength": 990,
+      "identityEvidence": [
+        "감각의 제국 4부. 봄(Seeing)의 기적",
+        "다큐프라임",
+        "2015-06-26"
+      ]
+    },
+    {
+      "id": "BCAST-746f3602385cafca9fb7",
+      "title": "맛이란 무엇인가 2부 맛의 기억",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2014-09-02",
+      "status": "READY",
+      "previousSummaryLength": 23,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000518901",
+      "publishedAt": "2014-09-01",
+      "textLength": 1521,
+      "identityEvidence": [
+        "맛이란 무엇인가 2부 맛의 기억",
+        "다큐프라임",
+        "2014-09-01"
+      ]
+    },
+    {
+      "id": "BCAST-a9c33a88beed0f4ee69a",
+      "title": "불멸의 마야 - 3부 인디오는 어디로 가나",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2014-06-11",
+      "status": "READY",
+      "previousSummaryLength": 95,
+      "previousSupplementCount": 0,
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000487318",
+      "publishedAt": "2014-06-10",
+      "textLength": 2450,
+      "identityEvidence": [
+        "불멸의 마야> 3부. 인디오는 어디로 가나",
+        "다큐프라임",
+        "2014-06-10"
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1220" viewBox="0 0 1600 1220" role="img" aria-label="EBS Curi · 데이터베이스 전체 구조">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#64748b"/></marker></defs>
+<style>text{font-family:"Apple SD Gothic Neo","Noto Sans CJK KR",Arial,sans-serif;fill:#172033}.mono{font-family:Menlo,Consolas,monospace} .small{fill:#64748b}</style>
+<rect width="1600" height="1220" fill="#f7f9fc"/>
+<text x="48" y="65" font-size="34" font-weight="700">EBS Curi · 데이터베이스 전체 구조</text>
+<text x="48" y="104" font-size="19" font-weight="400" style="fill:#64748b">2026-10-05 실제 구현 기준 · 서버 저장소와 교사 개인 저장을 구분</text>
+<rect x="48" y="146" width="472" height="382" rx="18" fill="white" stroke="#dbe2ec"/>
+<rect x="48" y="146" width="472" height="7" rx="3" fill="#2563eb"/>
+<text x="70" y="188" font-size="24" font-weight="700" style="fill:#2563eb">01  방송 원본</text>
+<text x="70" y="218" font-size="17" font-weight="400" class="mono">broadcast-catalog.sqlite</text>
+<text x="70" y="252" font-size="19" font-weight="600" class="mono">episodes</text>
+<text x="70" y="274" font-size="17" font-weight="400" style="fill:#64748b">회차 ID·제목·소개문·방송일·판본</text>
+<text x="70" y="295" font-size="19" font-weight="600" class="mono">pages</text>
+<text x="70" y="317" font-size="17" font-weight="400" style="fill:#64748b">공식 목록 수집·실패 체크포인트</text>
+<text x="70" y="338" font-size="19" font-weight="600" class="mono">link_checks</text>
+<text x="70" y="360" font-size="17" font-weight="400" style="fill:#64748b">회차 ID·제목·주소 대조</text>
+<text x="70" y="381" font-size="19" font-weight="600" class="mono">episode_text</text>
+<text x="70" y="403" font-size="17" font-weight="400" style="fill:#64748b">FTS5 텍스트 색인</text>
+<text x="70" y="424" font-size="19" font-weight="600" class="mono">source_enrichments</text>
+<text x="70" y="446" font-size="17" font-weight="400" style="fill:#64748b">원문 보강 전·후 이력</text>
+<text x="70" y="488" font-size="16" font-weight="400" style="fill:#64748b">출처·시간 메타데이터: episodes.payload</text>
+<text x="70" y="512" font-size="16" font-weight="400" style="fill:#64748b">회차 간 관계는 논리 참조 · SQL FK 없음</text>
+<rect x="564" y="146" width="472" height="382" rx="18" fill="white" stroke="#dbe2ec"/>
+<rect x="564" y="146" width="472" height="7" rx="3" fill="#7c3aed"/>
+<text x="586" y="188" font-size="24" font-weight="700" style="fill:#7c3aed">02  시맨틱 근거 스냅샷</text>
+<text x="586" y="218" font-size="17" font-weight="400" class="mono">semantic-layer.sqlite</text>
+<text x="586" y="252" font-size="19" font-weight="600" class="mono">builds</text>
+<text x="586" y="274" font-size="17" font-weight="400" style="fill:#64748b">생성 시점·규칙 버전</text>
+<text x="586" y="295" font-size="19" font-weight="600" class="mono">resources</text>
+<text x="586" y="317" font-size="17" font-weight="400" style="fill:#64748b">검색 자료 ID·원문 지문</text>
+<text x="586" y="338" font-size="19" font-weight="600" class="mono">concepts</text>
+<text x="586" y="360" font-size="17" font-weight="400" style="fill:#64748b">개념·교과 분류·동의 표현</text>
+<text x="586" y="381" font-size="19" font-weight="600" class="mono">tags</text>
+<text x="586" y="403" font-size="17" font-weight="400" style="fill:#64748b">원문 구절·위치·출처·태그 상태</text>
+<text x="586" y="488" font-size="16" font-weight="400" style="fill:#64748b">원문 언급과 추론 후보를 구분</text>
+<text x="586" y="512" font-size="16" font-weight="400" style="fill:#64748b">감사·재현용 재빌드 · 일반 검색은 메모리 태그</text>
+<rect x="1080" y="146" width="472" height="382" rx="18" fill="white" stroke="#dbe2ec"/>
+<rect x="1080" y="146" width="472" height="7" rx="3" fill="#0f766e"/>
+<text x="1102" y="188" font-size="24" font-weight="700" style="fill:#0f766e">03  자동 연계 자산·이력</text>
+<text x="1102" y="218" font-size="17" font-weight="400" class="mono">automatic-assets.sqlite</text>
+<text x="1102" y="252" font-size="19" font-weight="600" class="mono">sources / runs</text>
+<text x="1102" y="274" font-size="17" font-weight="400" style="fill:#64748b">원문 사본·실행·재시도·보류</text>
+<text x="1102" y="295" font-size="19" font-weight="600" class="mono">relations</text>
+<text x="1102" y="317" font-size="17" font-weight="400" style="fill:#64748b">성취기준 후보·인용·검사 JSON</text>
+<text x="1102" y="338" font-size="19" font-weight="600" class="mono">assets</text>
+<text x="1102" y="360" font-size="17" font-weight="400" style="fill:#64748b">유효 관계 자산·무효화 상태</text>
+<text x="1102" y="381" font-size="19" font-weight="600" class="mono">search_projection</text>
+<text x="1102" y="403" font-size="17" font-weight="400" style="fill:#64748b">공개 검색용 근거 JSON</text>
+<text x="1102" y="424" font-size="19" font-weight="600" class="mono">events</text>
+<text x="1102" y="446" font-size="17" font-weight="400" style="fill:#64748b">저장·실패·검색 준비·변경 이력</text>
+<text x="1102" y="488" font-size="16" font-weight="400" style="fill:#64748b">실제 SQLite FK로 관계 연결</text>
+<text x="1102" y="512" font-size="16" font-weight="400" style="fill:#64748b">인용·검사는 별도 테이블 없이 evidence에 저장</text>
+<rect x="48" y="574" width="988" height="310" rx="18" fill="white" stroke="#dbe2ec"/>
+<rect x="48" y="574" width="988" height="7" rx="3" fill="#b45309"/>
+<text x="70" y="616" font-size="24" font-weight="700" style="fill:#b45309">04  공식 교육과정·사람 확인 자산</text>
+<text x="70" y="646" font-size="17" font-weight="400" class="mono">curi-store.json · JSON schemaVersion 1.4</text>
+<text x="70" y="692" font-size="17" font-weight="600" class="mono">curriculumStandards</text>
+<text x="70" y="717" font-size="17" font-weight="400" style="fill:#64748b">공식 성취기준·원문·문서·쪽</text>
+<text x="558" y="692" font-size="17" font-weight="600" class="mono">contents</text>
+<text x="558" y="717" font-size="17" font-weight="400" style="fill:#64748b">관리 콘텐츠·출처·원문 버전</text>
+<text x="70" y="750" font-size="17" font-weight="600" class="mono">mappingRuns / contentCurriculumMaps</text>
+<text x="70" y="775" font-size="17" font-weight="400" style="fill:#64748b">기존 초안·연계·묶음 검토 이력</text>
+<text x="558" y="750" font-size="17" font-weight="600" class="mono">verifiedAssets / searchProjection</text>
+<text x="558" y="775" font-size="17" font-weight="400" style="fill:#64748b">사람 확인 자산·승인 검색용 벡터</text>
+<text x="70" y="808" font-size="17" font-weight="600" class="mono">relationReviews*</text>
+<text x="70" y="833" font-size="17" font-weight="400" style="fill:#64748b">원문 × 성취기준의 선택적 사람 결정</text>
+<text x="558" y="808" font-size="17" font-weight="600" class="mono">verifiedAssetHistory / searchIndexRuns</text>
+<text x="558" y="833" font-size="17" font-weight="400" style="fill:#64748b">무효화 사본·검색 준비 이력</text>
+<text x="70" y="862" font-size="16" font-weight="400" style="fill:#64748b">* 구현된 선택 배열 · 최초 실제 사람 결정 때 생성 · JSON 관계는 논리 ID 참조</text>
+<rect x="1080" y="574" width="472" height="310" rx="18" fill="white" stroke="#dbe2ec"/>
+<rect x="1080" y="574" width="472" height="7" rx="3" fill="#475569"/>
+<text x="1102" y="616" font-size="24" font-weight="700" style="fill:#475569">05  교사 개인 수업 준비</text>
+<text x="1102" y="646" font-size="17" font-weight="400" class="mono">브라우저 localStorage</text>
+<text x="1102" y="692" font-size="20" font-weight="600">내 자료</text>
+<text x="1210" y="692" font-size="17" font-weight="400" style="fill:#64748b">선택 자료 사본·검색 맥락</text>
+<text x="1102" y="741" font-size="20" font-weight="600">수업 폴더</text>
+<text x="1210" y="741" font-size="17" font-weight="400" style="fill:#64748b">폴더별 자료 사본·메모</text>
+<text x="1102" y="790" font-size="20" font-weight="600">검색 상태</text>
+<text x="1210" y="790" font-size="17" font-weight="400" style="fill:#64748b">검색어·필터·정렬·페이지</text>
+<text x="1102" y="850" font-size="17" font-weight="400" style="fill:#64748b">같은 브라우저·같은 주소에서 저장</text>
+<text x="1102" y="874" font-size="16" font-weight="400" style="fill:#64748b">서버 사용자·폴더 테이블은 없음</text>
+<text x="48" y="943" font-size="24" font-weight="700">현재 검색의 데이터 흐름</text>
+<text x="48" y="974" font-size="17" font-weight="400" style="fill:#64748b">아래 화살표는 처리 흐름이며 SQL 외래키를 뜻하지 않습니다.</text>
+<rect x="48" y="1000" width="346" height="98" rx="14" fill="white" stroke="#cbd5e1"/>
+<text x="68" y="1038" font-size="23" font-weight="600">방송·CSV·관리 원문</text>
+<text x="68" y="1071" font-size="17" font-weight="400" style="fill:#64748b">공식 교육과정·현재 연계</text>
+<path d="M395,1049 L433,1049" fill="none" stroke="#64748b" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="434" y="1000" width="346" height="98" rx="14" fill="white" stroke="#cbd5e1"/>
+<text x="454" y="1038" font-size="23" font-weight="600">메모리 카탈로그</text>
+<text x="454" y="1071" font-size="17" font-weight="400" style="fill:#64748b">원문 태그·품질·필터·정렬</text>
+<path d="M781,1049 L819,1049" fill="none" stroke="#64748b" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="820" y="1000" width="346" height="98" rx="14" fill="white" stroke="#cbd5e1"/>
+<text x="840" y="1038" font-size="23" font-weight="600">교사 검색 API</text>
+<text x="840" y="1071" font-size="17" font-weight="400" style="fill:#64748b">자동 후보 / 사람 확인 구분</text>
+<path d="M1167,1049 L1205,1049" fill="none" stroke="#64748b" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="1206" y="1000" width="346" height="98" rx="14" fill="white" stroke="#cbd5e1"/>
+<text x="1226" y="1038" font-size="23" font-weight="600">내 자료·수업 폴더</text>
+<text x="1226" y="1071" font-size="17" font-weight="400" style="fill:#64748b">현재 정보 재조회 후 재사용</text>
+<text x="48" y="1150" font-size="20" font-weight="600">자동 후보와 실제 사람 확인은 별도 경로 · 현재 원문·기준·판본·버전으로 제공 유효성을 재대조</text>
+<text x="48" y="1184" font-size="17" font-weight="400" style="fill:#64748b">상세 PK·FK·JSON 필드와 저장 규칙은 docs/ERD.md에 수록</text>
+</svg>

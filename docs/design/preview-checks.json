@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-15",
+  "scope": "Static design proposal only; no production app/API/storage changes",
+  "reference": "https://go-od.co/?ref=httpster.net",
+  "checks": [
+    {
+      "name": "reference_home_studio_contact_folder_video",
+      "result": "observed; teaser-only scope; drag/Escape unconfirmed"
+    },
+    {
+      "name": "javascript_syntax",
+      "result": "pass"
+    },
+    {
+      "name": "html_dependencies_svg_json",
+      "result": "pass"
+    },
+    {
+      "name": "token_contrast",
+      "result": "11/11 proposed opaque pairs pass; see contrast-checks.json"
+    },
+    {
+      "name": "web_desktop_width",
+      "result": "1440 and 1280 match scrollWidth; visual review"
+    },
+    {
+      "name": "web_mobile_width",
+      "result": "390 and 360 match scrollWidth; visual review at 390"
+    },
+    {
+      "name": "extension_width",
+      "result": "360px desktop; responsive board at 360px no overflow after grid min-width fix"
+    },
+    {
+      "name": "logo_mobile_width",
+      "result": "360px no overflow; monochrome/inverse/vector sizes reviewed"
+    },
+    {
+      "name": "curriculum_multiple_new_folder_back",
+      "result": "two checks + new-folder draft preserved across previous/next; empty name error; success contains destination"
+    },
+    {
+      "name": "material_identity",
+      "result": "second card summary shows second title after correction"
+    },
+    {
+      "name": "dialog_keyboard",
+      "result": "Escape closes and returns focus; Shift+Tab/Tab loop stays inside after explicit focus-boundary fix"
+    },
+    {
+      "name": "library_folder_view",
+      "result": "single click changes selected folder and filters mock list"
+    },
+    {
+      "name": "extension_segment_validation",
+      "result": "end before start error; valid 01:20–02:30 success simulation"
+    },
+    {
+      "name": "extension_connectivity",
+      "result": "disconnect disables save; end-time draft preserved; recovery retains inputs"
+    },
+    {
+      "name": "extension_video_only",
+      "result": "segment fields hidden; whole-video simulation succeeds"
+    }
+  ],
+  "not_verified": [
+    "Production accessibility/keyboard/200% zoom",
+    "OS reduced-motion runtime (CSS rule provided and statically reviewed)",
+    "Production network/storage failures, partial-save consistency and draft reopen",
+    "Actual teacher selection and repeat-use usefulness"
+  ],
+  "artifacts": [
+    "curi-web-preview.jpg",
+    "curi-extension-preview.jpg",
+    "curi-logo-preview.jpg",
+    "curi-web-mobile.jpg",
+    "curi-bring-mobile.jpg",
+    "curi-web-screen.jpg"
+  ]
+}

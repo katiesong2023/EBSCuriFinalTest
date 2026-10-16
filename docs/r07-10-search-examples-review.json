@@ -1,0 +1,925 @@
+{
+  "checkedAt": "2026-10-11",
+  "groups": [
+    {
+      "course": "elementary34",
+      "subject": "사회",
+      "examples": [
+        {
+          "q": "도시",
+          "standardId": "4사10-02",
+          "standardText": "사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "33",
+            "sourcePrintedPage": "27",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "b4a3237bae66c452ad25c6a73b58a3b6938b1b861fef84305c00eda3bcd0188c",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4사10-02",
+            "rawExtractedText": "사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해\r\n한다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 176,
+          "minimumText": 102,
+          "top": [
+            {
+              "title": "[위대한 로마] 제국의 도시 - 폼페이",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            },
+            {
+              "title": "도시예찬 1부 서울은 정말 과밀할까?",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            },
+            {
+              "title": "도시예찬 2부 안녕, 가든테라스",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "생활 공간·도시"
+        },
+        {
+          "q": "다문화",
+          "standardId": "4사03-02",
+          "standardText": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "27",
+            "sourcePrintedPage": "21",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "eca1ad1278f1dd5d919f1cd2a877a3d27747468d9c881f9e0690e91099f6f7da",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4사03-02",
+            "rawExtractedText": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 \r\n다른 사람이나 집단의 문화를 존중하는 태도를 기른다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 15,
+          "minimumText": 4,
+          "top": [
+            {
+              "title": "다 함께 자라요, 다문화 초등 교실",
+              "program": "PD로그",
+              "quality": "detailed",
+              "reason": "제목에서 ‘다문화’ 표현 확인"
+            },
+            {
+              "title": "잘 지내나요, 이방인?",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘다문화’ 표현 확인"
+            },
+            {
+              "title": "시민 미완: 경계의 청년들",
+              "program": "EBS 다큐프라임",
+              "quality": "short",
+              "reason": "소개문에서 ‘이주민’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "문화·다양성"
+        },
+        {
+          "q": "경제",
+          "standardId": "4사07-01",
+          "standardText": "자원의 희소성으로 인해 경제활동에서 선택의 문제가 발생함을 이해하고, 경제활동에서 합리적 선택의 방법을 탐색한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "31",
+            "sourcePrintedPage": "25",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "cfb79db326d82992294ee116e046e83bb5c755606788e7e90499f19f95006b9d",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4사07-01",
+            "rawExtractedText": "자원의 희소성으로 인해 경제활동에서 선택의 문제가 발생함을 이해하고, 경제활동에서 합\r\n리적 선택의 방법을 탐색한다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 25,
+          "minimumText": 11,
+          "top": [
+            {
+              "title": "미래를 바꾸는 교육 - 3부 경제, 자본주의를 살아가는 힘",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘경제’ 표현 확인"
+            },
+            {
+              "title": "수산자원 과학으로 일구다",
+              "program": "하나뿐인 지구",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘경제’ 표현 확인"
+            },
+            {
+              "title": "주식의 시대_1부 우리는 왜 투자에 실패하는가",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘경제’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "경제생활"
+        }
+      ]
+    },
+    {
+      "course": "elementary34",
+      "subject": "과학",
+      "examples": [
+        {
+          "q": "동물",
+          "standardId": "4과02-02",
+          "standardText": "다양한 환경에 서식하는 동물을 조사하여 동물의 생김새와 생활 방식이 환경과 관련되어 있음을 설명할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "20",
+            "sourcePrintedPage": "14",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "94e1b67f66c27f07af7e0b75f9c1daa370abaa747a6d3f5610e46eebfbb31070",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4과02-02",
+            "rawExtractedText": "다양한 환경에 서식하는 동물을 조사하여 동물의 생김새와 생활 방식이 환경과 관련되어 \r\n있음을 설명할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 319,
+          "minimumText": 148,
+          "top": [
+            {
+              "title": "당신이 동물을 버리는 이유",
+              "program": "하나뿐인 지구",
+              "quality": "detailed",
+              "reason": "제목에서 ‘동물’ 표현 확인 / 소개문에서 ‘동물’ 표현 확인"
+            },
+            {
+              "title": "동물원 동물은 행복할까?",
+              "program": "하나뿐인 지구",
+              "quality": "detailed",
+              "reason": "제목에서 ‘동물’ 표현 확인 / 소개문에서 ‘동물’ 표현 확인"
+            },
+            {
+              "title": "살리겠소, 대동물 수의사",
+              "program": "PD로그",
+              "quality": "detailed",
+              "reason": "제목에서 ‘동물’ 표현 확인 / 소개문에서 ‘동물’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "생물"
+        },
+        {
+          "q": "소리",
+          "standardId": "4과07-01",
+          "standardText": "여러 가지 물체를 이용하여 소리를 내보고, 소리가 나는 물체는 떨림이 있음을 설명할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "24",
+            "sourcePrintedPage": "18",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "a887882eeb08019166f9d37fbdcbf3ad61792b03379608292d3d346ce6a74aa1",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4과07-01",
+            "rawExtractedText": "여러 가지 물체를 이용하여 소리를 내보고, 소리가 나는 물체는 떨림이 있음을 설명할 수\r\n있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 191,
+          "minimumText": 107,
+          "top": [
+            {
+              "title": "2분 40초, 소리",
+              "reason": "제목에서 ‘소리’ 표현 확인 / 소개문에서 ‘소리’ 표현 확인"
+            },
+            {
+              "title": "83화 턱에서 소리가 난다면? 관절염을 의심할 때!",
+              "reason": "제목에서 ‘소리’ 표현 확인 / 소개문에서 ‘소리’ 표현 확인"
+            },
+            {
+              "title": "내가 원치 않는 소리, 소음",
+              "reason": "제목에서 ‘소리’ 표현 확인 / 소개문에서 ‘소리’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "소리·물리"
+        },
+        {
+          "q": "화산",
+          "standardId": "4과11-02",
+          "standardText": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "27",
+            "sourcePrintedPage": "21",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "64091b5bf1f61f06b3b835321ee7b8e1dfc34e42265cb5594c71c9839529557e",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "4과11-02",
+            "rawExtractedText": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 17,
+          "minimumText": 14,
+          "top": [
+            {
+              "title": "제7호 한라산 국립공원",
+              "program": "EBS 중학 국립공원",
+              "quality": "short",
+              "reason": "소개문에서 ‘화산’ 표현 확인"
+            },
+            {
+              "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘화산’ 표현 확인"
+            },
+            {
+              "title": "극한의 땅 1부 다나킬의 소금 카라반",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘용암’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "지구"
+        }
+      ]
+    },
+    {
+      "course": "elementary56",
+      "subject": "사회",
+      "examples": [
+        {
+          "q": "독립운동",
+          "standardId": "6사06-01",
+          "standardText": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourcePdfPage": "39",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-17T11:39:57.405Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "946b2bf347e8c0a320001013673a7165af34b54153f094a74587e46ab235e28f"
+          },
+          "total": 22,
+          "minimumText": 19,
+          "top": [
+            {
+              "title": "역사의 빛, 청년 - 제10부 명문의 조건",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘독립운동’ 표현 확인"
+            },
+            {
+              "title": "역사의 빛, 청년 - 제9부 교가재창",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘독립운동’ 표현 확인"
+            },
+            {
+              "title": "역사의 빛, 청년 제3부 역사의 빛 청년",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘독립운동’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "역사"
+        },
+        {
+          "q": "인권",
+          "standardId": "6사03-02",
+          "standardText": "일상생활에서 인권이 침해되는 사례를 찾아 그 해결 방안을 탐색하고, 인권을 보호하는 활동에 참여한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourcePdfPage": "36",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-17T11:39:57.405Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "cd9a355235243e7338625f6285b3a0500ba5a04f7cc2928cf12275126b80aed7"
+          },
+          "total": 31,
+          "minimumText": 19,
+          "top": [
+            {
+              "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+              "reason": "소개문에서 ‘차별’ 표현 확인"
+            },
+            {
+              "title": "법과 정의 1부 - 법은 누구 편인가?",
+              "reason": "소개문에서 ‘인권’ 표현 확인"
+            },
+            {
+              "title": "법과 정의 3부 - 죄와 벌 - 인간을 처벌하는 어려움에 관하여",
+              "reason": "소개문에서 ‘평등’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "인권"
+        },
+        {
+          "q": "인구",
+          "standardId": "6사02-02",
+          "standardText": "우리나라의 지역별 인구 분포의 특징을 알아보고, 이에 따른 문제점과 해결 방안을 탐색한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourcePdfPage": "35",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-17T11:39:57.405Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "4e4dadf088cc67cde8f5a3ccb1d40a88aaf358a2919be76d2d5bc4208baf8101"
+          },
+          "total": 28,
+          "minimumText": 19,
+          "top": [
+            {
+              "title": "[위대한 로마] 제국의 도시 - 폼페이",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘인구’ 표현 확인"
+            },
+            {
+              "title": "기후 우울증에 걸린 사람들",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘저출산’ 표현 확인"
+            },
+            {
+              "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+              "program": "하나뿐인 지구",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘인구’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "인구·공간"
+        }
+      ]
+    },
+    {
+      "course": "elementary56",
+      "subject": "과학",
+      "examples": [
+        {
+          "q": "인체",
+          "standardId": "6과04-02",
+          "standardText": "소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 우리 몸의 여러 기관이 서로 관련되어 있음을 설명할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourcePdfPage": "34",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-27T05:46:28.439Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "14b4b3b5925b4f9a2c66970b41c422a45399ee253795f1ebf1209337711c6b82"
+          },
+          "total": 24,
+          "minimumText": 15,
+          "top": [
+            {
+              "title": "교감장군과 부교감장군",
+              "program": "최고다! 호기심딱지",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘우리 몸’ 표현 확인"
+            },
+            {
+              "title": "냉방병에 걸린 호떡이",
+              "program": "최고다! 호기심딱지",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘몸속’ 표현 확인"
+            },
+            {
+              "title": "면역, 위대한 여정 2부 잘못된 신호, 나를 공격하다",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘우리 몸’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "생명"
+        },
+        {
+          "q": "전기",
+          "standardId": "6과15-01",
+          "standardText": "전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourcePdfPage": "44",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-27T05:46:28.439Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "4540f7b1d918e25c8eb545286b2e4573024c248171a51bd04dca99d2c7e7e936"
+          },
+          "total": 63,
+          "minimumText": 41,
+          "top": [
+            {
+              "title": "1g 과의 전쟁, 탄소를 줄여라",
+              "reason": "소개문에서 ‘전기’ 표현 확인"
+            },
+            {
+              "title": "88화_MOF, 세상을 구할 물질인가?",
+              "reason": "소개문에서 ‘에너지’ 표현 확인"
+            },
+            {
+              "title": "가짜 번개맨이 나타났어요",
+              "reason": "소개문에서 ‘에너지’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "전기·물리"
+        },
+        {
+          "q": "연소",
+          "standardId": "6과14-02",
+          "standardText": "물질이 연소할 때 나타나는 공통적인 현상을 관찰하고, 연소의 조건을 찾을 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourcePdfPage": "43",
+            "sourceOriginalModifiedAt": null,
+            "sourceFirstSeenAt": "2026-09-27T05:46:28.439Z",
+            "sourceLastSeenAt": "2026-09-27T05:46:28.439Z",
+            "contentFingerprint": "083605cb27db7f3541844bd91398239db8509844132a6a6a74511906aa2ecb7b"
+          },
+          "total": 4,
+          "minimumText": 4,
+          "top": [
+            {
+              "title": "당신의 집은 따뜻합니까?",
+              "reason": "소개문에서 ‘연소’ 표현 확인"
+            },
+            {
+              "title": "어른도감 - 스무 살, 나는 얇고 길게 살겠다",
+              "reason": "소개문에서 ‘연소’ 표현 확인"
+            },
+            {
+              "title": "유독가스- 은밀하게 치명적인",
+              "reason": "소개문에서 ‘연소’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "물질 변화"
+        }
+      ]
+    },
+    {
+      "course": "middle1",
+      "subject": "사회",
+      "examples": [
+        {
+          "q": "도시",
+          "standardId": "9사(지리)03-02",
+          "standardText": "다양한 유형의 유럽 도시를 탐색하고, 기후위기에 대응하여 지속가능한 도시를 만들기 위한 노력을 조사한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "49",
+            "sourcePrintedPage": "43",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "d517a1e52025d4c03655fe6d5965933bd929983ce69c7d5b7d19d0e374496a16",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9사(지리)03-02",
+            "rawExtractedText": "다양한 유형의 유럽 도시를 탐색하고, 기후위기에 대응하여 지속가능한 도시를 만\r\n들기 위한 노력을 조사한다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 176,
+          "minimumText": 102,
+          "top": [
+            {
+              "title": "[위대한 로마] 제국의 도시 - 폼페이",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            },
+            {
+              "title": "도시예찬 1부 서울은 정말 과밀할까?",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            },
+            {
+              "title": "도시예찬 2부 안녕, 가든테라스",
+              "program": "EBS 다큐프라임",
+              "quality": "detailed",
+              "reason": "제목에서 ‘도시’ 표현 확인 / 소개문에서 ‘도시’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "생활 공간·도시"
+        },
+        {
+          "q": "민주주의",
+          "standardId": "9사(일사)03-01",
+          "standardText": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의 의미와 필요성을 도출한다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "63",
+            "sourcePrintedPage": "57",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "f17624c1066b3331d1f30704f11adfad28510a4bb768bd46d8fae26c235ee85c",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9사(일사)03-01",
+            "rawExtractedText": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의\r\n의미와 필요성을 도출한다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 22,
+          "minimumText": 10,
+          "top": [
+            {
+              "title": "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "소개문에서 ‘민주주의’ 표현 확인"
+            },
+            {
+              "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "제목에서 ‘민주주의’ 표현 확인"
+            },
+            {
+              "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+              "program": "지식채널e",
+              "quality": "detailed",
+              "reason": "제목에서 ‘민주주의’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "정치"
+        },
+        {
+          "q": "문화 다양성",
+          "standardId": "9사(지리)02-02",
+          "standardText": "종교와 관련된 아시아의 다양한 문화경관과 생활양식을 파악하고, 세계시민으로서 문화 다양성에 대한 이해와 수용성을 높인다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+            "sourceLocalPath": "[별책7] 사회과 교육과정.pdf",
+            "sourcePdfPage": "48",
+            "sourcePrintedPage": "42",
+            "documentSha256": "a852e8da3e6aea7d1c95690dcae140be02e014b779ac2e5cc0801200cfb16923",
+            "contentFingerprint": "81965aaa069189ac88d1e460ae1b31dfbec2a2a4c90d9679e39c5a1a46eddcf6",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9사(지리)02-02",
+            "rawExtractedText": "종교와 관련된 아시아의 다양한 문화경관과 생활양식을 파악하고, 세계시민으로서 문화 \r\n다양성에 대한 이해와 수용성을 높인다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 15,
+          "minimumText": 4,
+          "top": [
+            {
+              "title": "다 함께 자라요, 다문화 초등 교실",
+              "reason": "제목에서 ‘다문화’ 표현 확인"
+            },
+            {
+              "title": "잘 지내나요, 이방인?",
+              "reason": "소개문에서 ‘다문화’ 표현 확인"
+            },
+            {
+              "title": "시민 미완: 경계의 청년들",
+              "reason": "소개문에서 ‘이주민’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "문화·다양성"
+        }
+      ]
+    },
+    {
+      "course": "middle1",
+      "subject": "과학",
+      "examples": [
+        {
+          "q": "세포",
+          "standardId": "9과02-01",
+          "standardText": "세포는 생명 활동이 일어나는 기본 단위임을 이해하고, 세포의 구조와 기능의 관계를 추론할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "47",
+            "sourcePrintedPage": "41",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "5a89b999faaee5e43dfa56d296da9d56490d04823ebd8f978a08957a006b4a03",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9과02-01",
+            "rawExtractedText": "세포는 생명 활동이 일어나는 기본 단위임을 이해하고, 세포의 구조와 기능의 관계를 추\r\n론할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 23,
+          "minimumText": 16,
+          "top": [
+            {
+              "title": "19화_생명, 최초의 세포는 어떻게 나왔나?",
+              "reason": "제목에서 ‘세포’ 표현 확인 / 소개문에서 ‘세포’ 표현 확인"
+            },
+            {
+              "title": "도둑맞은 세포",
+              "reason": "제목에서 ‘세포’ 표현 확인 / 소개문에서 ‘세포’ 표현 확인"
+            },
+            {
+              "title": "세포를 지켜라! 면역 삼총사",
+              "reason": "제목에서 ‘세포’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "생명"
+        },
+        {
+          "q": "중력",
+          "standardId": "9과05-02",
+          "standardText": "중력, 탄성력, 마찰력, 부력을 이해하고, 각 힘의 특징을 크기와 방향으로 설명할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "50",
+            "sourcePrintedPage": "44",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "c3cff6801ecc54f59eefb29db6e6488822a34187718d571ed1c0cf7bac07e318",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9과05-02",
+            "rawExtractedText": "중력, 탄성력, 마찰력, 부력을 이해하고, 각 힘의 특징을 크기와 방향으로 설명할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 3,
+          "minimumText": 2,
+          "top": [
+            {
+              "title": "17화_중력, 달은 왜 떨어지지 않는가?",
+              "reason": "제목에서 ‘중력’ 표현 확인"
+            },
+            {
+              "title": "관성의 법칙",
+              "reason": "제목에서 ‘관성’ 표현 확인"
+            },
+            {
+              "title": "돌아와요, 지구인",
+              "reason": "소개문에서 ‘중력’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "힘·물리"
+        },
+        {
+          "q": "온도",
+          "standardId": "9과03-01",
+          "standardText": "온도와 열평형 과정을 물질을 구성하는 입자들의 배치나 움직임 등으로 설명할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "48",
+            "sourcePrintedPage": "42",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "0a66e484fe3d2fb8630049956fc813a4382818bcd69781cd56911905bd11fdc0",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9과03-01",
+            "rawExtractedText": "온도와 열평형 과정을 물질을 구성하는 입자들의 배치나 움직임 등으로 설명할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 16,
+          "minimumText": 10,
+          "top": [
+            {
+              "title": "느껴봐요 온도의 맛",
+              "reason": "제목에서 ‘온도’ 표현 확인 / 소개문에서 ‘온도’ 표현 확인"
+            },
+            {
+              "title": "극한의 온도를 견뎌라!얼음공장 vs 무쇠솥공장",
+              "reason": "제목에서 ‘온도’ 표현 확인 / 소개문에서 ‘온도’ 표현 확인"
+            },
+            {
+              "title": "너와 나의 온도 차",
+              "reason": "제목에서 ‘온도’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "열"
+        },
+        {
+          "q": "증발",
+          "standardId": "9과04-01",
+          "standardText": "확산 및 증발 현상을 관찰하여 물질을 구성하는 입자가 운동하고 있음을 추론할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "49",
+            "sourcePrintedPage": "43",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "1e160181b8b3f2712e0cc958a6823f747b63fd1a1b0fde59cc5ac478307cd1eb",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9과04-01",
+            "rawExtractedText": "확산 및 증발 현상을 관찰하여 물질을 구성하는 입자가 운동하고 있음을 추론할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 1,
+          "minimumText": 1,
+          "top": [
+            {
+              "title": "극한의 땅 1부 다나킬의 소금 카라반",
+              "reason": "소개문에서 ‘증발’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "물질의 상태 변화"
+        },
+        {
+          "q": "태양계",
+          "standardId": "9과07-01",
+          "standardText": "태양계를 구성하는 천체의 특징을 알고, 행성을 목성형 행성과 지구형 행성으로 구분할 수 있다.",
+          "standardSource": {
+            "sourceDocument": "교육부 고시 제2022-33호 [별책 9] 과학과 교육과정",
+            "sourceLocalPath": "[별책9] 과학과 교육과정.pdf",
+            "sourcePdfPage": "52",
+            "sourcePrintedPage": "46",
+            "documentSha256": "0cf53427691d54366d6805767c428a15b0e817580807b4354947de7e3b58b738",
+            "contentFingerprint": "4a09834d3419531bc8d81b76d188637263559a1667d294119cecda01c6bb390f",
+            "fingerprintMethod": "sha256-code-newline-text-v1",
+            "originalStandardId": "9과07-01",
+            "rawExtractedText": "태양계를 구성하는 천체의 특징을 알고, 행성을 목성형 행성과 지구형 행성으로 구분할 수 있다.",
+            "extractionMethod": "pdfium-text-with-pypdf-line-boundaries-v1",
+            "sourceFirstSeenAt": "2026-10-10",
+            "sourceLastSeenAt": "2026-10-10"
+          },
+          "total": 26,
+          "minimumText": 15,
+          "top": [
+            {
+              "title": "딱 하루만",
+              "reason": "소개문에서 ‘행성’ 표현 확인"
+            },
+            {
+              "title": "소행성이 온다",
+              "reason": "소개문에서 ‘우주’ 표현 확인"
+            },
+            {
+              "title": "여섯 번째 대멸종 3부-탄소 행성",
+              "reason": "제목에서 ‘행성’ 표현 확인"
+            }
+          ],
+          "scope": "단원의 탐색 주제 대응. 전체 성취기준 충족·영상 학년 적합성·해당 학교 진도 판정 아님.",
+          "topicArea": "우주"
+        }
+      ]
+    }
+  ],
+  "common": {
+    "q": "기후 변화",
+    "total": 40,
+    "scope": "사회·과학 공통 탐색"
+  },
+  "excluded": [
+    "열: 열다섯 등 부분문자 일치",
+    "물의 상태 변화: 일반적인 물/상태 표현으로 오탐",
+    "자전: 자전거·광문자전 등 오탐",
+    "열전달: 후보 없음"
+  ],
+  "method": "공식 기준의 주제 대응 + 실제 필터 없는 검색량/상위3결과 텍스트 확인. 자료 변경과 추가 검색 조건에 따라 건수 변화.",
+  "selectionOrder": [
+    "과정·영역의 균형",
+    "검색 관련성",
+    "원문 확보",
+    "결과 수"
+  ],
+  "selectionPolicy": "세 과정×사회·과학의 여섯 묶음과 주요 주제 영역을 먼저 확보하고, 상위 결과의 관련성·제목 외 소개문 확보를 검토한 뒤 결과 수를 보조 지표로 비교한다. 정렬 점수나 교육적 적합성 확정이 아니며 희소 핵심 주제를 결과 수만으로 제외하지 않는다.",
+  "topicAreaNote": "검토용 주제 분류이며 공식 교육과정 영역명이나 자동 연계 판정은 아니다.",
+  "primaryExamples": {
+    "사회": [
+      "도시",
+      "독립운동",
+      "인권",
+      "민주주의",
+      "다문화",
+      "경제",
+      "인구"
+    ],
+    "과학": [
+      "생태계",
+      "소리",
+      "전기",
+      "연소",
+      "태양계",
+      "동물",
+      "인체",
+      "화산"
+    ],
+    "공통": [
+      "기후 변화",
+      "자원",
+      "에너지"
+    ]
+  },
+  "balanceReview": {
+    "courseSubjectGroups": 6,
+    "mainChanges": [
+      "독립운동을 기본 예시에 추가하여 역사 주제 노출",
+      "연소를 기본 예시에 추가하여 물질 변화 노출",
+      "태양계를 기본 예시에 추가하여 중1 참고의 우주 주제 노출",
+      "화산은 초3~4 과학의 과정별 예시에 유지"
+    ],
+    "retainedSparseExamples": [
+      {
+        "q": "연소",
+        "total": 4,
+        "minimumText": 4,
+        "reason": "초5~6 물질 변화 주제 유지"
+      },
+      {
+        "q": "중력",
+        "total": 3,
+        "minimumText": 2,
+        "reason": "중1 참고의 힘 주제 유지"
+      },
+      {
+        "q": "증발",
+        "total": 1,
+        "minimumText": 1,
+        "reason": "중1 참고의 물질 상태 변화 주제 유지"
+      }
+    ],
+    "scope": "현재 지원 과정의 주요 주제 균형이며 전체 교육과정의 영역별 완전한 망라가 아니다."
+  },
+  "additionalCommonReview": [
+    {
+      "q": "자원",
+      "total": 20,
+      "minimumText": 17,
+      "top": [
+        {
+          "title": "수산자원 과학으로 일구다",
+          "summary": "자막인류의 미래이자 국가 발전의 큰 영역, 바다 3면이 바다인 우리나라는 천혜의 수산자원으로 가득하다. 그러나 극심한 환경변화와 오염으로 인해 우리나라의 큰 자원인 수산자원이 줄어들고 있다. 이는 단순히 먹을거리가 사라지는 것을 넘어, 우리 어민들의 생계에도 큰 영향을 미친다. 2013년 현재, 바다 생태계를 복원하고 수산자원을 일구는 과학 수산의 현장을 가본다. 바다의 사막화, 이를 막기 위한 바다목장설립 제주와 동해일대를 중신으로 연안 암반지역에 해조류가 사라지고 석회조류가 번식해 돌이 하얗게 변하는 현상이 일어나고 있다. 이른바 바다사막화라 불리는 갯녹음 현상이다. 점차 확산되는 갯녹음 현상으로 바다속은 사막처럼 변해가고 해조류가 없어진 바다 속 물고기들은 먹이는 물론 서식처를 제공받기 어려운 상황이다. 이를 극복하고자 하는 방안으로 설립된 인공어초를 통한 바다목장 사업! 인공어초의 제작부터 바다목장의 결과를 살펴보았다. 수산생물의 쉼터, 바다목장 어족에 대한 무분별한 남획과 기후변화에 따른 갯녹음현상 등으로 위협받는 수산자원을 지키기 위한 바다목장 . 1998년에 처음 추진되어 10여 년이 지난 지금, 바다목장의 상황은 어떨까? 물고기, 패류, 해조류 등 다양한 수산생물의 활기 넘치는 바닷속을 들여다본다. 흔히 '광어'로 불리우는 넙치가 대중화된 까닭은? 1980년대 넙치양식기술의 개발로 횟감으로 대중들로 부터 가장 큰 인기를 얻게된 넙치. 국립수산과학원에서는 늘어가는 넙치수요량에 맞추어 현재까지 4세대째 육종개발중이다. 현재 우리나라의 넙치 육종기술은 세계1위! 일반 양식 넙치보다 성장속도가 30%이상 빠른 육종넙치(킹넙치)를 통해 육종기술의 현재를 살펴보고 앞으로 해외수출의 확대 및 질병에 의한 집단폐사를 막고자하는 연구원들의 노력을 살펴본다. '잡는' 어업에서 '기르는'어업으로 경제와 기술의 발전으로 우리는 대량소비시대속에 살고 있다. 우리가 편해지는만큼 많은 것들을 소비하고 이중에 상당부분은 자연에서 온다. '잡는' 어업에서 '기르는'어업으로의 전환가능성을 살펴본다."
+        },
+        {
+          "title": "신 로열티 전쟁, 생물자원이 금이다!",
+          "summary": "자막생물자원에 대한 권리가 강화되는 나고야협약이 최근 체결되었다. 이와 관련 생물자원 보호 및 개발에 대응하는 국내의 대응자세를 취재하였다."
+        },
+        {
+          "title": "자원의 새활용! 헌 옷과 스티로폼의 변신",
+          "summary": "자막자원의 새활용! 헌 옷과 스티로폼의 변신"
+        }
+      ]
+    },
+    {
+      "q": "에너지",
+      "total": 63,
+      "minimumText": 41,
+      "top": [
+        {
+          "title": "1g 과의 전쟁, 탄소를 줄여라",
+          "summary": "당신의 하루 속 이산화탄소는 얼마나 배출되고 있는지 아십니까? 남태평양 적도 부근에 아름다운 섬 국가, 투발루 맑은 바닷물과 신선한 과일, 아이들의 웃음소리가 끊이지 않던 이곳에 재앙이라는 어둠의 그림자가 집어삼켰다. 지구온난화로 인한 해수면 상승으로 9개의 섬 중 2개의 섬을 잃은 투발루. 남은 7개의 섬도 차오르는 바닷물에 언제 잠길지 모르는 상황. 갈 곳을 잃은 투발루 주민들은 오늘도 하루하루를 기도하며 보낸다. 대체 무엇이 투발루 주민들의 터전을 빼앗은 걸까? 인류의 대재앙을 예고하고 있는 지구 온난화. 그 원인 중 90%는 화석연료를 사용할 때 발생하는 이산화탄소 때문이다. 사람은 하루 평균 13.3kg의 이산화탄소를 배출한다. 전기를 쓰고 물을 쓰고 가스를 쓸 때마다 이산화탄소는 배출된다. 유엔 ‘정부 간 기후변화위원회’는 지구를 구할 수 있는 시간이 8년 밖에 남지 않았다고 경고한다. 이러한 지구온난화에 대한 경고는 계속 이어졌지만 지난 해 오히려 이산화탄소 배출량은 약 330억 톤으로 1990년에 비해 45%나 증가했다. 인간의 빠르고 편리한 삶과 맞바꾼 지구의 환경. 처음으로 되돌릴 수도 다른 것으로 대체할 수도 없다. 변해가고 있는 지구의 모습을 천천히 찾을 수 있는 길을 만드는 것이 우리가 할 수 있는 일이 아닐까?"
+        },
+        {
+          "title": "88화_MOF, 세상을 구할 물질인가?",
+          "summary": "원하는 물질만 골라 담고 필요할 때 다시 꺼낼 수 있다면 어떨까? MOF는 특정 분자를 선택적으로 포집하는 신물질로, 기후 위기와 에너지 문제 해결의 새로운 열쇠로 주목받고 있다. 2025년 노벨화학상의 주인공이 된 MOF는 이산화탄소와 금까지 포집할 수 있다는데?! MOF는 과연 세상을 구할 수 있을까? 인류의 미래를 바꿀 분자 세계의 가능성을 들여다본다."
+        },
+        {
+          "title": "가짜 번개맨이 나타났어요",
+          "summary": "가시별 대장이 가시 에너지를 이용해 가짜 번개맨을 만든다. 가짜 번개맨은 지구로 와서 어린이들을 위협하며 사고를 치고 다니는데... 탐험대 앞에 나타난 번개맨과 가짜 번개맨. 탐험대는 똑같이 생긴 두 명의 번개맨을 보고 혼란에 빠진다. 탐험대는 처음에는 속지만 자신들을 지켜려한 진짜 번개맨을 알아본다. 번개맨에 대한 믿음으로 탐험대는 결국 번개맨을 구하게 된다."
+        }
+      ]
+    }
+  ],
+  "additionalCommonReviewNote": "자원: 사회 경제생활의 희소성(4사07-01)과 과학 자원 이용(6과08-01/03)의 교차 탐색. 에너지: 사회 자원 이용·환경 문제와 과학 효율적 이용(6과08-03)을 함께 탐색하는 주제. 주제 대응이며 모든 영상에 두 교과의 근거가 있다는 뜻은 아니다. 에너지 상위3건 중 허구의 에너지 표현이 있는 어린이 드라마가 섞여 있으므로 제목·소개문 확인이 필요하다.",
+  "excludedAdditionalCommon": {
+    "환경/환경오염/재활용": "현재 검색 확장으로 생활 환경·예술 등 다른 뜻의 상위 결과 혼입",
+    "재생 에너지": "현재 결과0",
+    "바다": "상위 음식·가족 여행 결과로 과학 탐색 관련성이 낮음"
+  },
+  "presentation": {
+    "task": "R07-11",
+    "primaryExampleCount": 18,
+    "courseGroupsVisible": false,
+    "note": "과정별 대응/원문/검색 결과는 내부 선정 기록으로 보존. 화면에서는 기본18예시만 표시하고 검색 후 접는다."
+  }
+}

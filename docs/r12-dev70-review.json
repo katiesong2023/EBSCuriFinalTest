@@ -1,0 +1,2459 @@
+{
+  "date": "2026-10-14",
+  "scope": "개발70만 실행·반환 상위5 전부14쌍의 구현 에이전트 원문 검토. 영상/사람/독립 평가 아님. 최종30 미열람/미실행.",
+  "actualTeacherRequests": 0,
+  "finalEvaluationUsed": false,
+  "metrics": {
+    "requests": 70,
+    "empty": 65,
+    "withCandidates": 5,
+    "top5OpportunitySlots": 350,
+    "returnedTop5Slots": 14,
+    "reviewedTop5Slots": 14,
+    "judgmentCounts": {
+      "TEXT_SUPPORTED": 4,
+      "PARTIAL": 5,
+      "UNRELATED": 2,
+      "INSUFFICIENT_SOURCE": 3
+    },
+    "requestsWithTextSupportedTop5": 3,
+    "quoteChecks": 24,
+    "quoteMatchFailures": 0,
+    "excludedRequests": 7,
+    "excludedParseMismatches": 7,
+    "preferencesRequests": 3,
+    "candidatePairsWithRequiredCondition": 2,
+    "exclusionCandidatePairs": 0,
+    "exclusionComplianceRate": null,
+    "knownAnswerRecall": null,
+    "teacherUsefulness": null,
+    "latencyTop20MedianMs": 429.0
+  },
+  "requestReviews": [
+    {
+      "id": "Q001",
+      "query": "방위와 지도 기호",
+      "total": 0,
+      "apiTerms": [
+        "방위",
+        "지도",
+        "기호"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q003",
+      "query": "처음 지도를 배우는 아이들에게 길을 찾는 방법을 소개하는 도입 자료가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "처음",
+        "지도",
+        "배우",
+        "아이들",
+        "길을",
+        "찾는",
+        "소개하",
+        "도입",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q004",
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "total": 0,
+      "apiTerms": [
+        "마을",
+        "시설",
+        "이야기하기",
+        "주민"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q006",
+      "query": "종이에 그려 놓은 동네 그림을 보고 찾아가는 모습을 보여주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "종이",
+        "그려",
+        "놓은",
+        "동네",
+        "그림",
+        "보고",
+        "찾아가"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q007",
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "시설",
+        "하는",
+        "일을",
+        "소개하",
+        "필요해요",
+        "가능하면",
+        "사람"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "PREFERENCE_AS_SEARCH_TERM",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "현장 설명 선호의 가능하면/사람 등이 양의terms에 남고 preferences는 비어 있음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q008",
+      "query": "소방서가 마을 사람들의 안전을 어떻게 지키는지 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "소방서",
+        "마을",
+        "사람들",
+        "안전",
+        "지키는지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q009",
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "지도",
+        "사용하",
+        "약속된",
+        "그림",
+        "장소",
+        "찾는",
+        "데",
+        "도움",
+        "주는지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q011",
+      "query": "시장에서 물건을 사는 모습과 온라인으로 사는 모습을 비교할 자료",
+      "total": 0,
+      "apiTerms": [
+        "시장",
+        "물건",
+        "사는",
+        "온라인"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "total": 0,
+      "apiTerms": [
+        "도서관이나",
+        "주민센터",
+        "한",
+        "곳의",
+        "소개하",
+        "자료면",
+        "돼요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "도서관 또는 주민센터 역할",
+          "supporting_phrase": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "OR_NOT_REPRESENTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "둘 중 한 곳이면 되는 요청에서 도서관이나/주민센터가 함께terms에 남고 OR 해석을 확인하지 못함.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q014",
+      "query": "지도 기호와 방위를 모두 사용해서 길을 찾는 사례를 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "지도",
+        "기호",
+        "방위",
+        "사용해서",
+        "길을",
+        "찾는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "기호 AND 방위로 길 찾기",
+          "supporting_phrase": "지도 기호와 방위를 모두 사용해서 길을 찾는 사례를 보여주세요"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q015",
+      "query": "마을 축제",
+      "total": 0,
+      "apiTerms": [
+        "마을",
+        "축제"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q016",
+      "query": "지도 읽는 방법을 보여주는 자료 중 자동차 운전 경로 안내만 하는 것은 제외해주세요",
+      "total": 0,
+      "apiTerms": [
+        "지도",
+        "읽는",
+        "자동차",
+        "운전",
+        "경로",
+        "안내만",
+        "하는",
+        "해주세요"
+      ],
+      "apiExcluded": [
+        "것"
+      ],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "자동차 운전 경로 안내만 하는 것은",
+          "supporting_phrase": "자동차 운전 경로 안내만 하는 것은 제외해주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_TARGET_MISMATCH",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자동차 운전 경로 안내만 하는 자료 제외인데 excluded=[것], 해당 제외 대상은 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q018",
+      "query": "자석의 두 극",
+      "total": 1,
+      "apiTerms": [
+        "두",
+        "극"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "SEE_CANDIDATE_REVIEWS",
+      "rootCauseTags": [],
+      "notes": [],
+      "reviewedTop5": 1
+    },
+    {
+      "id": "Q020",
+      "query": "자석 수업 도입에 아이들이 결과를 예상해 볼 관찰 자료가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "아이",
+        "결과",
+        "예상해",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q021",
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "달라지",
+        "것을"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q023",
+      "query": "쇠붙이를 끌어당기는 자석의 성질을 보여주세요 가능하면 가까이 찍은 화면이 있으면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "쇠붙이",
+        "끌어당기",
+        "성질",
+        "가능하면",
+        "가까",
+        "찍은",
+        "화면"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "PREFERENCE_AS_SEARCH_TERM",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "가까운 화면 선호의 가능하면/가까/찍은/화면 등이 양의terms에 남고 preferences는 비어 있음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q024",
+      "query": "젖은 빨래가 햇볕 아래에서 마르는 과정을 보여주는 자료",
+      "total": 0,
+      "apiTerms": [
+        "젖은",
+        "빨래",
+        "햇볕",
+        "아래",
+        "마르"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q025",
+      "query": "자석을 뒤집어 가까이 대면 붙거나 밀리는 까닭을 설명해주세요",
+      "total": 0,
+      "apiTerms": [
+        "뒤집어",
+        "가까",
+        "대면",
+        "붙거나",
+        "밀리",
+        "까닭"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q026",
+      "query": "찬 컵 겉에 물방울이 생기는 과정을 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "찬",
+        "컵",
+        "겉에",
+        "물방울"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q028",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "total": 0,
+      "apiTerms": [
+        "끌리",
+        "물체",
+        "끌리지",
+        "않는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q030",
+      "query": "물이 얼 때와 얼음이 녹을 때의 모습을 둘 다 보여주는 자료",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "얼",
+        "때와",
+        "얼음",
+        "녹을",
+        "때의",
+        "둘",
+        "다"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "얼기 AND 녹기",
+          "supporting_phrase": "물이 얼 때와 얼음이 녹을 때의 모습을 둘 다 보여주는 자료"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q031",
+      "query": "막대자석과 말굽자석에서 극의 위치를 확인하고 비교하는 실험 자료",
+      "total": 0,
+      "apiTerms": [
+        "막대자석",
+        "말굽자석",
+        "극의",
+        "위치",
+        "확인하고"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q032",
+      "query": "물이 마르는 과정을 찾고 있어요 피부가 건조해진다는 비유는 제외해주세요",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "마르",
+        "피부",
+        "건조해진다",
+        "해주세요"
+      ],
+      "apiExcluded": [
+        "비유"
+      ],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "피부가 건조해진다는 비유는",
+          "supporting_phrase": "피부가 건조해진다는 비유는 제외해주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_TARGET_MISMATCH",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "피부 건조 비유를 제외해야 하나 excluded=[비유], 피부·건조해진다는 표현은 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q033",
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "움직이"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q035",
+      "query": "어린이의 권리",
+      "total": 1,
+      "apiTerms": [
+        "어린이",
+        "권리"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "SEE_CANDIDATE_REVIEWS",
+      "rootCauseTags": [],
+      "notes": [],
+      "reviewedTop5": 1
+    },
+    {
+      "id": "Q037",
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "시작할",
+        "때",
+        "아이",
+        "문제",
+        "찾아볼",
+        "일상",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "CLASSROOM_PURPOSE_AS_FORMAT",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "교실 인권 토론의 도입 목적을 대담·인터뷰 필수 형식으로 오해함.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q038",
+      "query": "학급의 규칙을 함께 정하는 활동 전에 의사결정 과정을 보여주고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "학급",
+        "규칙",
+        "함께",
+        "정하",
+        "의사결정"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q040",
+      "query": "누구든 태어날 때부터 존중받아야 한다는 내용을 실제 사례로 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "누구든",
+        "태어날",
+        "때부터",
+        "존중받아야",
+        "한다",
+        "내용"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q041",
+      "query": "여러 사람이 서로 의견을 듣고 하나의 약속을 정하는 모습을 찾고 있어요",
+      "total": 0,
+      "apiTerms": [
+        "여러",
+        "사람",
+        "서로",
+        "의견",
+        "듣고",
+        "하나",
+        "약속",
+        "정하"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q042",
+      "query": "일상에서 차별이 생겼을 때 권리를 지키기 위해 어떤 도움을 받을 수 있는지 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "일상",
+        "생겼",
+        "때",
+        "권리",
+        "지키기",
+        "위해",
+        "도움",
+        "받을"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q043",
+      "query": "주민들의 의견이 지역 정책에 반영되는 과정을 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "주민들",
+        "의견",
+        "정책",
+        "반영되"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q045",
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "법이",
+        "권리",
+        "보호한",
+        "침해된",
+        "비교하고"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q047",
+      "query": "주민 의견을 모으는 과정과 최종 결정을 내리는 과정이 모두 있는 자료",
+      "total": 0,
+      "apiTerms": [
+        "주민",
+        "의견",
+        "모으",
+        "최종",
+        "결정",
+        "내리"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "의견 수렴 AND 결정",
+          "supporting_phrase": "주민 의견을 모으는 과정과 최종 결정을 내리는 과정이 모두 있는 자료"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q048",
+      "query": "학교의 규칙이 어린이의 권리를 어떻게 지키는지 사례로 설명해주세요",
+      "total": 0,
+      "apiTerms": [
+        "학교",
+        "규칙",
+        "어린이",
+        "권리",
+        "지키는지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q049",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "total": 0,
+      "apiTerms": [
+        "선거",
+        "참여",
+        "찾되",
+        "특정",
+        "후보",
+        "지지하라",
+        "해주세요"
+      ],
+      "apiExcluded": [
+        "내용"
+      ],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "특정 후보를 지지하라는 내용은",
+          "supporting_phrase": "특정 후보를 지지하라는 내용은 제외해주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_TARGET_MISMATCH",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "특정 후보 지지 내용 제외인데 excluded=[내용], 후보/지지 표현을 양의terms로 검색함.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q050",
+      "query": "인권 침해를 해결한 사례를 찾고 있어요 잔인한 폭력 장면은 빼주세요",
+      "total": 0,
+      "apiTerms": [
+        "침해",
+        "해결한",
+        "잔인한",
+        "폭력",
+        "장면",
+        "빼주세요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "잔인한 폭력 장면은",
+          "supporting_phrase": "잔인한 폭력 장면은 빼주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_NOT_REPRESENTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "폭력 장면 제외인데 excluded=[]; 잔인한/폭력/장면/빼주세요가 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q052",
+      "query": "불이 타는 데 필요한 것",
+      "total": 0,
+      "apiTerms": [
+        "불이",
+        "타는",
+        "데",
+        "필요한",
+        "것"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q054",
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "total": 0,
+      "apiTerms": [
+        "연소",
+        "불을",
+        "끄는",
+        "예상하게",
+        "도입"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q055",
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "먹이",
+        "그리",
+        "생물",
+        "먹고",
+        "먹히"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q057",
+      "query": "같은 재료인데 공기가 통하지 않으면 불이 꺼지는 모습을 보여주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "같은",
+        "재료인데",
+        "공기",
+        "통하지",
+        "않으면",
+        "불이",
+        "꺼지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q058",
+      "query": "어떤 생물이 줄어들자 그 생물을 먹던 동물도 영향을 받는 모습을 찾고 있어요",
+      "total": 0,
+      "apiTerms": [
+        "생물",
+        "줄어들자",
+        "그",
+        "먹던",
+        "동물도",
+        "받는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q059",
+      "query": "연료와 공기만 있다고 항상 불이 붙는 것은 아닌 까닭을 설명해주세요",
+      "total": 0,
+      "apiTerms": [
+        "연료",
+        "공기만",
+        "있다고",
+        "항상",
+        "불이",
+        "붙는",
+        "것은",
+        "아닌",
+        "까닭"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q060",
+      "query": "한 종류의 생물이 사라졌을 때 먹이 관계가 달라지는 과정을 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "한",
+        "종류",
+        "생물",
+        "사라졌",
+        "때",
+        "먹이",
+        "달라지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q062",
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "뿌려",
+        "끄는",
+        "공기",
+        "막아"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q064",
+      "query": "물이 증발하는 과정과 수증기가 물방울로 바뀌는 과정이 모두 나오는 자료",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "증발하",
+        "수증기",
+        "물방울"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "증발 AND 응결",
+          "supporting_phrase": "물이 증발하는 과정과 수증기가 물방울로 바뀌는 과정이 모두 나오는 자료"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q065",
+      "query": "숲이나 연못 중 한 곳의 먹이 관계를 보여주는 사례면 돼요",
+      "total": 0,
+      "apiTerms": [
+        "숲이나",
+        "연못",
+        "한",
+        "곳의",
+        "먹이",
+        "사례면",
+        "돼요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "숲 OR 연못 사례",
+          "supporting_phrase": "숲이나 연못 중 한 곳의 먹이 관계를 보여주는 사례면 돼요"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "OR_NOT_REPRESENTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "숲 또는 연못 한 곳 요청에서 숲이나/연못이 함께terms에 남고 OR 해석을 확인하지 못함.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q066",
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "total": 0,
+      "apiTerms": [
+        "안전한",
+        "연소",
+        "화재",
+        "피해자",
+        "고통",
+        "해주세요"
+      ],
+      "apiExcluded": [
+        "장면"
+      ],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "화재 피해자의 고통을 보여주는 장면은",
+          "supporting_phrase": "화재 피해자의 고통을 보여주는 장면은 제외해주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_TARGET_MISMATCH",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "화재 피해자의 고통 장면 제외인데 excluded=[장면], 피해자/고통 표현은 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "total": 0,
+      "apiTerms": [
+        "먹이",
+        "경제적",
+        "먹이사슬이라",
+        "비유",
+        "빼주세요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "경제적 먹이사슬이라는 비유는",
+          "supporting_phrase": "경제적 먹이사슬이라는 비유는 빼주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_NOT_REPRESENTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "경제적 먹이사슬 비유 제외인데 excluded=[]; 경제적/먹이사슬이라/비유/빼주세요가 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q069",
+      "query": "세계의 기후와 생활",
+      "total": 6,
+      "apiTerms": [
+        "세계",
+        "기후"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "SEE_CANDIDATE_REVIEWS",
+      "rootCauseTags": [
+        "TOP5_NO_FULL_TEXT_SUPPORTED_CANDIDATE"
+      ],
+      "notes": [],
+      "reviewedTop5": 5
+    },
+    {
+      "id": "Q070",
+      "query": "기후에 맞는 생활 모습을 토론할 때 근거로 쓸 실제 지역 사례가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "기후",
+        "맞는",
+        "토론할",
+        "때",
+        "근거",
+        "쓸",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q072",
+      "query": "비가 적게 오는 곳에서 사람들이 물을 아껴 쓰며 살아가는 자료",
+      "total": 0,
+      "apiTerms": [
+        "비가",
+        "적게",
+        "오는",
+        "곳",
+        "사람",
+        "물",
+        "아껴",
+        "쓰며"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q073",
+      "query": "시민들이 동네의 불편한 점을 알리고 함께 바꾸는 이야기를 찾고 있어요",
+      "total": 0,
+      "apiTerms": [
+        "동네",
+        "불편한",
+        "점을",
+        "알리고",
+        "함께",
+        "바꾸",
+        "이야기"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q075",
+      "query": "날씨가 오랫동안 덥거나 추운 것이 집의 모습에 어떤 영향을 주는지 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "오랫동안",
+        "덥거나",
+        "추운",
+        "것이",
+        "집의",
+        "주는지"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q077",
+      "query": "비가 많은 지역과 적은 지역에서 농사짓는 모습을 비교하고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "비가",
+        "많은",
+        "적은",
+        "농사짓",
+        "비교하고"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q079",
+      "query": "추운 지역의 주거를 다룬 자료 중 관광 숙소 광고만 하는 영상은 제외해주세요",
+      "total": 0,
+      "apiTerms": [
+        "추운",
+        "관광",
+        "숙소",
+        "광고만",
+        "하는",
+        "해주세요"
+      ],
+      "apiExcluded": [
+        "영상"
+      ],
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "관광 숙소 광고만 하는 영상은",
+          "supporting_phrase": "관광 숙소 광고만 하는 영상은 제외해주세요"
+        }
+      ],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "EXCLUSION_TARGET_MISMATCH",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "관광 숙소 광고만인 영상 제외인데 excluded=[영상], 관광/숙소/광고 표현은 양의terms에 남음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q080",
+      "query": "자연환경에 맞춘 옷차림을 찾고 있어요 가능하면 현지 사람의 설명이 있으면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "맞춘",
+        "옷차림",
+        "가능하면",
+        "현지",
+        "사람"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "PREFERENCE_AS_SEARCH_TERM",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "현지 설명 선호의 가능하면/현지/사람 등이 양의terms에 남고 preferences는 비어 있음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q081",
+      "query": "주민이 공공 문제를 해결하는 지식채널e 회차를 찾아주세요",
+      "total": 0,
+      "apiTerms": [
+        "주민",
+        "공공",
+        "문제",
+        "해결하",
+        "회차"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "프로그램: 지식채널e",
+          "supporting_phrase": "지식채널e"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q082",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "total": 2,
+      "apiTerms": [],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "방송 형식: 다큐멘터리",
+          "supporting_phrase": "다큐멘터리만"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "SEE_CANDIDATE_REVIEWS",
+      "rootCauseTags": [],
+      "notes": [],
+      "reviewedTop5": 2
+    },
+    {
+      "id": "Q083",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "total": 45,
+      "apiTerms": [
+        "동네"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "SEE_CANDIDATE_REVIEWS",
+      "rootCauseTags": [
+        "CLARIFICATION_NOT_REQUESTED",
+        "TOP5_NO_FULL_TEXT_SUPPORTED_CANDIDATE",
+        "SOURCE_TEXT_INSUFFICIENT"
+      ],
+      "notes": [
+        "우리 동네/변화 측면이 미지정인데 추가 확인 없이 일반 동네45후보를 반환함."
+      ],
+      "reviewedTop5": 5
+    },
+    {
+      "id": "Q085",
+      "query": "힘의 평형",
+      "total": 0,
+      "apiTerms": [
+        "힘",
+        "평형"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q087",
+      "query": "물체를 양쪽에서 똑같이 밀었는데 움직이지 않는 모습을 보여주세요",
+      "total": 0,
+      "apiTerms": [
+        "물체",
+        "양쪽",
+        "똑같",
+        "밀었는데",
+        "움직이지",
+        "않는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q088",
+      "query": "물속에 넣은 물체가 위로 떠오르려는 힘을 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "물속",
+        "넣은",
+        "물체",
+        "위로",
+        "떠오르려",
+        "힘"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q089",
+      "query": "그릇에 담아 둔 물이 조금씩 줄어드는 모습을 관찰할 자료",
+      "total": 0,
+      "apiTerms": [
+        "그릇",
+        "담아",
+        "둔",
+        "물",
+        "조금씩",
+        "줄어드"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q091",
+      "query": "물체가 움직이는 방향과 반대로 마찰력이 작용하는 까닭을 설명해주세요",
+      "total": 0,
+      "apiTerms": [
+        "물체",
+        "움직이",
+        "방향",
+        "반대",
+        "까닭"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q093",
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "total": 0,
+      "apiTerms": [
+        "물체",
+        "함께"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "중력 AND 부력",
+          "supporting_phrase": "물체에 작용하는 중력과 부력을 함께 설명하는 자료"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q094",
+      "query": "저런 힘이 물체를 멈추게 하는 과정을 알려주는 자료",
+      "total": 0,
+      "apiTerms": [
+        "저런",
+        "힘",
+        "물체",
+        "멈추게",
+        "하는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "CLARIFICATION_NOT_REQUESTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "저런 힘의 지시 대상 불명확; 반환0이지만 추가 확인 없음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q095",
+      "query": "물체에 작용하는 힘을 그리는 활동 전에 움직임을 관찰할 자료가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "물체",
+        "힘",
+        "그리",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q097",
+      "query": "물이 증발하는 모습을 실제로 관찰하는 실험 영상만 찾아주세요",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "증발하",
+        "영상만"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "실험 형태",
+          "supporting_phrase": "실험 영상만"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q098",
+      "query": "저런 힘 때문에 움직이는 모습을 설명하는 자료가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "저런",
+        "힘",
+        "때문",
+        "움직이",
+        "필요해요"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "CLARIFICATION_NOT_REQUESTED",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "저런 힘의 지시 대상 불명확; 반환0이지만 추가 확인 없음.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    },
+    {
+      "id": "Q099",
+      "query": "가상의 블루드래곤광석이 자석에 붙는 실제 실험 영상을 찾아주세요",
+      "total": 0,
+      "apiTerms": [
+        "가상",
+        "블루드래곤광석",
+        "붙는"
+      ],
+      "apiExcluded": [],
+      "expectedRequired": [
+        {
+          "condition": "실험 형태",
+          "supporting_phrase": "실제 실험"
+        },
+        {
+          "condition": "원문에 명시된 가상 대상 유지",
+          "supporting_phrase": "가상의 블루드래곤광석"
+        }
+      ],
+      "expectedExcluded": [],
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "rootCauseTags": [
+        "FICTIONAL_TARGET_NO_CANDIDATE",
+        "NO_CANDIDATE_ROOT_CAUSE_NOT_FULLY_ISOLATED"
+      ],
+      "notes": [
+        "가상 광석의 실제 실험0건은 정당한 보류 가능. 실제 자석 영상으로 몰래 대체하지 않은 것은 유지하되 안내/확인 필요.",
+        "자료 부족/검색 누락을 빈 결과만으로 확정하지 않음. 각 필수·제외 조건의 후보 준수 판정 분모0."
+      ],
+      "reviewedTop5": 0
+    }
+  ],
+  "candidateReviews": [
+    {
+      "requestId": "Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "title": "힘센 내 자석",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "공개 대본에 두 극과 같은/다른 극의 끌림·밀림이 명시됨. 소개문은 없지만 보조 원문으로 주제 판단 가능. 실제 영상/학년 적합성은 미확인.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "자석에는 두 가지 극이 있는데 이렇게 같은 색끼리 만나면 잘 봐.",
+          "start": 232,
+          "end": 268,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "supplementId": "0d1ba2c767d3dac99df15fdc",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+        }
+      ],
+      "evidenceSourceSha256": "3ece69eaaeb14422e49d2a4df56e87b1cbc5e8f7c45ad07ad384250337464501",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "보유 원문과 별도로 API가 선택한 인용이 요청 관계까지 설명하는지 확인 필요"
+    },
+    {
+      "requestId": "Q035",
+      "candidateId": "BCAST-26e69ead6e14d727c26d",
+      "title": "이런 놀이터 어때요?",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "무장애 놀이터를 통해 어린이의 놀 권리를 다루는 소개문이 있음. 넓은 권리 주제에 적합한 텍스트 후보.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "모든 어린이들의 놀 권리를 위해 만들어진 '무장애 놀이터'.",
+          "start": 0,
+          "end": 33,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "e5bc7913296e3ce42bc45497142a13bc1dc84126379c83f197f0af8c3fab833f",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "title": "기후 우울증에 걸린 사람들",
+      "rank": 1,
+      "judgment": "PARTIAL",
+      "reason": "기후 위기가 정신 건강·출산 결정에 미치는 영향. 기후와 생활이라는 넓은 주제의 일부이나 지역별 기후/생활 모습 비교 근거는 없음. 그 비교를 원문 필수조건으로 추가하지 않음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "기후 위기가 불러온 정신적 고통과 저출산으로 이어지는 이유를 돌아본다.",
+          "start": 296,
+          "end": 335,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "02f11dc3a486a69c22f555d684180746eeba113769164b6f704e15953c600f16",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "reason": "히말라야 기후 변화·홍수와 주민 피해를 다루는 일부 사례. 세계의 기후와 생활을 폭넓게 설명하는지는 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "만년설이 녹으면서 생기는 홍수로 피해입는 사람들을 취재해본다.",
+          "start": 38,
+          "end": 72,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "4a9271ef9c3311dead10483a7a9bc46d7d32191b50da6bc2b6442109c56f8282",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "title": "88화_MOF, 세상을 구할 물질인가?",
+      "rank": 3,
+      "judgment": "UNRELATED",
+      "reason": "주제는 분자를 포집하는 신물질 MOF. 기후 위기는 기술 필요성의 배경이고 기후와 생활 모습의 내용 근거는 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "MOF는 특정 분자를 선택적으로 포집하는 신물질로, 기후 위기와 에너지 문제 해결의 새로운 열쇠로 주목받고 있다.",
+          "start": 37,
+          "end": 100,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "a9d2c581c0d3647cd9b8c83d12020d2c6cf1d9c1e8752187a3da92cba243f56a",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-63f4a6b059325a2aa328",
+      "title": "여섯 번째 대멸종 5부-멸종위기종 인류",
+      "rank": 4,
+      "judgment": "PARTIAL",
+      "reason": "기후 위기에 따른 인간/생물의 위협을 다루는 주변 내용. 기후별 생활 설명의 근거로 확정할 수 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "기후 위기는 약 80억 세계 인구를 위협하고 있다.",
+          "start": 93,
+          "end": 121,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "8f0d52cd8c97ca93798f5cbd2f8be1a586c1e75ca6bcd4274079a059a1526c6f",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-0c7602db364d6d0cd2be",
+      "title": "38억 년 생존의 기술, 자연이 답이다",
+      "rank": 5,
+      "judgment": "UNRELATED",
+      "reason": "생체모방 미래 기술 소개이며 기후·세계 표현이 배경에 등장한다. 기후와 생활을 설명하는 자료라는 근거 부족.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "인류의 난제를 풀어줄 지속가능한 미래 기술, 생체모방 기술의 세계를 소개한다.",
+          "start": 71,
+          "end": 114,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "fd233aa6e91698cfffe5e5c792cff67763e8d69cfa3b21cb75bb3ba44e8debbb",
+      "conditions": [],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "소금 사막에서 소금을 캐고 운반하며 생계를 유지하는 삶이 명시됨. 다큐 형식은 프로그램 설명 단서 수준으로만 대조.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.",
+          "start": 394,
+          "end": 426,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "1c6215beb1e5e3da139465f57dd666e5976821722fc09e0abae398143457cce0",
+      "conditions": [
+        {
+          "mode": "required_conditions",
+          "condition": "방송 형식: 다큐멘터리",
+          "supportingPhrase": "다큐멘터리만",
+          "status": "MATCH_METADATA_ONLY",
+          "reason": "다큐프라임 프로그램명과 반환된 genreEvidence의 다큐멘터리 단서 일치. 실제 영상 형식은 미확인."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "title": "챠강티메 - 흰 낙타 이야기 1부",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "몽골 고비 사막 유목민의 다양한 삶을 보여준다는 내용 근거가 있음. 실제 영상 형식/장면은 별도 확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+          "start": 54,
+          "end": 84,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "8b49b31bec31a63b2652db7b90c8fab26e331acbfbb6617168fbc08d957f0df3",
+      "conditions": [
+        {
+          "mode": "required_conditions",
+          "condition": "방송 형식: 다큐멘터리",
+          "supportingPhrase": "다큐멘터리만",
+          "status": "MATCH_METADATA_ONLY",
+          "reason": "다큐프라임 프로그램명과 반환된 genreEvidence의 다큐멘터리 단서 일치. 실제 영상 형식은 미확인."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-dd00bb970222169873c2",
+      "title": "동네의 맛 - 첫눈 내리던 날",
+      "rank": 1,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "시적 단문에서 동네가 돌아왔다는 내용만 확인됨. 구체적인 변화나 사용자의 실제 동네를 판단할 근거 부족.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "춥고 혹독한 계절 우리에게 '동네'가 돌아왔다.",
+          "start": 0,
+          "end": 26,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "7dd5a546e84b6b171a6236185fbe78f64ea439546c7d22e89410bb197f9c841f",
+      "conditions": [
+        {
+          "mode": "clarification",
+          "condition": "우리 동네와 변화의 범위",
+          "status": "UNKNOWN",
+          "reason": "사용자가 장소와 변화의 측면을 지정하지 않음; 어떤 후보도 전체 충족으로 확정하지 않음."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "title": "나의 오래된 단골집 4부 우리 동네 사랑방",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "reason": "40년 된 미용실이 사랑방 역할을 한다는 사례. 사용자 지역과 어떤 변화가 필요한지 미지정이므로 전체 충족은 보류.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "면 소재지에 40년 전 들어선 미용실이 동네 사랑방이 된 건",
+          "start": 65,
+          "end": 98,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "b4a2a0427eac322256150cda873d83dc6a0f37bb8eb9c6114d66bcab4abf535a",
+      "conditions": [
+        {
+          "mode": "clarification",
+          "condition": "우리 동네와 변화의 범위",
+          "status": "UNKNOWN",
+          "reason": "사용자가 장소와 변화의 측면을 지정하지 않음; 어떤 후보도 전체 충족으로 확정하지 않음."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-10314e095244cb754377",
+      "title": "동네의 색 - 살아갑니다, 사랑합니다",
+      "rank": 3,
+      "judgment": "PARTIAL",
+      "reason": "구멍가게가 사라지는 변화 소재는 있음. 사용자 지역/변화 요구를 확인하지 않아 적합 확정은 안 함.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "점점 사라져가는 동네 구멍가게를 그리다.",
+          "start": 0,
+          "end": 22,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "a720dd910a6c6a527aebc95eef7b8836cb2a2fcb8992eaaf0453caf0154a0af2",
+      "conditions": [
+        {
+          "mode": "clarification",
+          "condition": "우리 동네와 변화의 범위",
+          "status": "UNKNOWN",
+          "reason": "사용자가 장소와 변화의 측면을 지정하지 않음; 어떤 후보도 전체 충족으로 확정하지 않음."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-59b631b537dc518d02ab",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 2강 부유한 동네와 가난한 동네",
+      "rank": 4,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "더빙 표기와 강의 제목 수준. 특정 동네의 변화 내용/원인을 판단할 본문이 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "2강 부유한 동네와 가난한 동네",
+          "start": 29,
+          "end": 46,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "b50bff8502e72998922d89d33e3849671b00402e27433b659beb68888f02e18f",
+      "conditions": [
+        {
+          "mode": "clarification",
+          "condition": "우리 동네와 변화의 범위",
+          "status": "UNKNOWN",
+          "reason": "사용자가 장소와 변화의 측면을 지정하지 않음; 어떤 후보도 전체 충족으로 확정하지 않음."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-1da970630a3f983fa0ca",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법",
+      "rank": 5,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "수어 표기와 강의 제목 수준. 바꾸는 법이라는 제목만으로 실제 변화 내용을 확정할 수 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "5강 빈곤한 동네를 바꾸는 법",
+          "start": 29,
+          "end": 45,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "evidenceSourceSha256": "16e9097bd50b23459fef88b097848337f1edcde18bb256d31728a117571bbbca",
+      "conditions": [
+        {
+          "mode": "clarification",
+          "condition": "우리 동네와 변화의 범위",
+          "status": "UNKNOWN",
+          "reason": "사용자가 장소와 변화의 측면을 지정하지 않음; 어떤 후보도 전체 충족으로 확정하지 않음."
+        }
+      ],
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "apiQuoteAdequacy": "자기회차 인용의 실제 요청 관련성은 이 판정과 구분"
+    }
+  ],
+  "apiQuoteChecks": [
+    {
+      "requestId": "Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "start": 345,
+      "end": 367,
+      "quote": "자석은 그냥 막 달라붙는 줄만 알았는데.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "start": 741,
+      "end": 751,
+      "quote": "내 자석에 붙어라.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q035",
+      "candidateId": "BCAST-26e69ead6e14d727c26d",
+      "field": "summary",
+      "start": 0,
+      "end": 33,
+      "quote": "모든 어린이들의 놀 권리를 위해 만들어진 '무장애 놀이터'.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "start": 0,
+      "end": 41,
+      "quote": "MZ세대는 태어나는 순간부터 죽을 때까지 기후 위기를 겪어야 하는 세대다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "start": 42,
+      "end": 103,
+      "quote": "극심한 기후 변화로 인해 환경은 점점 살기 힘들어졌고, 예측되지 않는 미래에 대한 두려움과 무력감을 느끼는데.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "start": 105,
+      "end": 151,
+      "quote": "환경 보호 활동을 해도 심해지는 기후 위기에 ‘현타’를 느끼는 사람들도 많은 상황.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "field": "summary",
+      "start": 98,
+      "end": 133,
+      "quote": "세계의 지붕 히말라야에선 지금 시한폭탄의 카운트다운이 시작됐다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "field": "summary",
+      "start": 134,
+      "end": 185,
+      "quote": "‘세계 인구 40% 식수원’, ‘만년설’ 히말라야가 기후 변화로 인해 새로운 재앙을 맞았다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "field": "summary",
+      "start": 37,
+      "end": 100,
+      "quote": "MOF는 특정 분자를 선택적으로 포집하는 신물질로, 기후 위기와 에너지 문제 해결의 새로운 열쇠로 주목받고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "field": "summary",
+      "start": 172,
+      "end": 201,
+      "quote": "인류의 미래를 바꿀 분자 세계의 가능성을 들여다본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-63f4a6b059325a2aa328",
+      "field": "summary",
+      "start": 59,
+      "end": 121,
+      "quote": "인수공통감염병 코로나19는 500만 명 넘는 희생을 낳았고, 기후 위기는 약 80억 세계 인구를 위협하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q069",
+      "candidateId": "BCAST-0c7602db364d6d0cd2be",
+      "field": "summary",
+      "start": 0,
+      "end": 114,
+      "quote": "자막지구온난화, 에너지ㆍ자원 고갈, 물 부족, 식량문제, 급격한 인구증가, 생물다양성의 열화 등 범지구적인 위기는 현재진행형이다인류의 난제를 풀어줄 지속가능한 미래 기술, 생체모방 기술의 세계를 소개한다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "summary",
+      "start": 221,
+      "end": 332,
+      "quote": "용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "summary",
+      "start": 470,
+      "end": 508,
+      "quote": "그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "program",
+      "start": 4,
+      "end": 6,
+      "quote": "다큐",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "summary",
+      "start": 0,
+      "end": 84,
+      "quote": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "summary",
+      "start": 0,
+      "end": 84,
+      "quote": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "program",
+      "start": 4,
+      "end": 6,
+      "quote": "다큐",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-dd00bb970222169873c2",
+      "field": "summary",
+      "start": 0,
+      "end": 26,
+      "quote": "춥고 혹독한 계절 우리에게 '동네'가 돌아왔다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "field": "summary",
+      "start": 65,
+      "end": 152,
+      "quote": "면 소재지에 40년 전 들어선 미용실이 동네 사랑방이 된 건, 여기 아니면 파마를 할 수 없는 할머니들, 그 할머니와 같이 오는 할아버지들이 있기 때문이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "field": "summary",
+      "start": 153,
+      "end": 196,
+      "quote": "무엇보다 동네 이웃들과 식구처럼 지내는 미용실 주인의 푸근한 마음이 있어서다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-10314e095244cb754377",
+      "field": "summary",
+      "start": 0,
+      "end": 22,
+      "quote": "점점 사라져가는 동네 구멍가게를 그리다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-59b631b537dc518d02ab",
+      "field": "summary",
+      "start": 29,
+      "end": 46,
+      "quote": "2강 부유한 동네와 가난한 동네",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "Q083",
+      "candidateId": "BCAST-1da970630a3f983fa0ca",
+      "field": "summary",
+      "start": 29,
+      "end": 45,
+      "quote": "5강 빈곤한 동네를 바꾸는 법",
+      "exactMatch": true,
+      "identityMatch": true
+    }
+  ],
+  "storedLiteralMentionCounts": {
+    "지도": {
+      "titleOrSummary": 89,
+      "anyTextIncludingSupplements": 89
+    },
+    "방위": {
+      "titleOrSummary": 2,
+      "anyTextIncludingSupplements": 2
+    },
+    "소방서": {
+      "titleOrSummary": 4,
+      "anyTextIncludingSupplements": 4
+    },
+    "재활용": {
+      "titleOrSummary": 11,
+      "anyTextIncludingSupplements": 11
+    },
+    "자석": {
+      "titleOrSummary": 13,
+      "anyTextIncludingSupplements": 13
+    },
+    "증발": {
+      "titleOrSummary": 1,
+      "anyTextIncludingSupplements": 1
+    },
+    "응결": {
+      "titleOrSummary": 0,
+      "anyTextIncludingSupplements": 0
+    },
+    "연소": {
+      "titleOrSummary": 4,
+      "anyTextIncludingSupplements": 4
+    },
+    "먹이": {
+      "titleOrSummary": 20,
+      "anyTextIncludingSupplements": 20
+    },
+    "마찰력": {
+      "titleOrSummary": 0,
+      "anyTextIncludingSupplements": 0
+    },
+    "부력": {
+      "titleOrSummary": 0,
+      "anyTextIncludingSupplements": 0
+    },
+    "평형": {
+      "titleOrSummary": 0,
+      "anyTextIncludingSupplements": 0
+    },
+    "주민": {
+      "titleOrSummary": 25,
+      "anyTextIncludingSupplements": 25
+    },
+    "도서관": {
+      "titleOrSummary": 10,
+      "anyTextIncludingSupplements": 10
+    }
+  },
+  "mentionLimit": "단순 부분문자열 계수: 오탐/비유 포함 가능. 의미 충족 자료 수나 누락률로 사용하지 않음."
+}

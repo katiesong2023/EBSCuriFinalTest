@@ -1,0 +1,593 @@
+{
+  "generatedAt": "2026-10-05T14:11:00.077Z",
+  "summary": {
+    "total": 22753,
+    "originalEpisodes": 22692,
+    "distinctProgramTitles": 21502,
+    "withDescription": 4602,
+    "sourceQuality": {
+      "version": "source-text-v3",
+      "total": 22753,
+      "distribution": {
+        "none": 12581,
+        "repeated": 1210,
+        "production": 426,
+        "short": 7762,
+        "detailed": 774
+      },
+      "minimumPassed": 4602,
+      "minimumRatio": 0.2022590427635916
+    },
+    "withAnySynopsis": 10175,
+    "matchedLinks": 206,
+    "programs": [
+      {
+        "program": "딩동댕 유치원",
+        "count": 2855,
+        "descriptions": 20
+      },
+      {
+        "program": "지식채널e",
+        "count": 2796,
+        "descriptions": 2793
+      },
+      {
+        "program": "위대한 수업, 그레이트 마인즈",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "최고의 요리비결",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "한국기행",
+        "count": 1261,
+        "descriptions": 52
+      },
+      {
+        "program": "명의",
+        "count": 974,
+        "descriptions": 0
+      },
+      {
+        "program": "극한 직업",
+        "count": 924,
+        "descriptions": 924
+      },
+      {
+        "program": "방귀대장 뿡뿡이",
+        "count": 885,
+        "descriptions": 20
+      },
+      {
+        "program": "모여라 딩동댕",
+        "count": 638,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 다큐프라임",
+        "count": 631,
+        "descriptions": 621
+      },
+      {
+        "program": "다큐 오늘",
+        "count": 559,
+        "descriptions": 539
+      },
+      {
+        "program": "우리집 유치원",
+        "count": 556,
+        "descriptions": 20
+      },
+      {
+        "program": "세계테마기행",
+        "count": 469,
+        "descriptions": 21
+      },
+      {
+        "program": "한글용사 아이야",
+        "count": 389,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 캠페인",
+        "count": 371,
+        "descriptions": 0
+      },
+      {
+        "program": "생방송 뭐든지 해결단",
+        "count": 352,
+        "descriptions": 20
+      },
+      {
+        "program": "고향민국",
+        "count": 344,
+        "descriptions": 10
+      },
+      {
+        "program": "하나뿐인 지구",
+        "count": 325,
+        "descriptions": 321
+      },
+      {
+        "program": "딩동댕 딩동댕",
+        "count": 318,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 톡! 톡! 보니 하니",
+        "count": 297,
+        "descriptions": 20
+      },
+      {
+        "program": "역사채널e",
+        "count": 263,
+        "descriptions": 263
+      },
+      {
+        "program": "서울대 음대 레슨노트",
+        "count": 255,
+        "descriptions": 0
+      },
+      {
+        "program": "고양이를 부탁해",
+        "count": 214,
+        "descriptions": 0
+      },
+      {
+        "program": "세상에 나쁜 개는 없다",
+        "count": 189,
+        "descriptions": 40
+      },
+      {
+        "program": "마샤와 곰",
+        "count": 184,
+        "descriptions": 20
+      },
+      {
+        "program": "내 친구 몬덕이",
+        "count": 161,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 148,
+        "descriptions": 140
+      },
+      {
+        "program": "GO! GO! Giggles",
+        "count": 147,
+        "descriptions": 20
+      },
+      {
+        "program": "해요와 해요",
+        "count": 145,
+        "descriptions": 20
+      },
+      {
+        "program": "왔다! 내 손주",
+        "count": 137,
+        "descriptions": 20
+      },
+      {
+        "program": "최고다! 호기심딱지",
+        "count": 134,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 방과 후 듄듄",
+        "count": 132,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요 (Eng.)",
+        "count": 128,
+        "descriptions": 120
+      },
+      {
+        "program": "Magic Ice Cream Truck",
+        "count": 112,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 속담과 관용어 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 어휘 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "숲 속 친구 파파룰라(HD)",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "위인극장",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "취미는 과학",
+        "count": 102,
+        "descriptions": 102
+      },
+      {
+        "program": "뇌가 젊어지는 체조",
+        "count": 100,
+        "descriptions": 0
+      },
+      {
+        "program": "춤추는 소녀 와와",
+        "count": 98,
+        "descriptions": 40
+      },
+      {
+        "program": "최고의 요리비결 공방",
+        "count": 85,
+        "descriptions": 0
+      },
+      {
+        "program": "EBS 평생학교",
+        "count": 84,
+        "descriptions": 0
+      },
+      {
+        "program": "귀하신 몸",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+        "count": 80,
+        "descriptions": 0
+      },
+      {
+        "program": "특집/기획/특강",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "희망풍경",
+        "count": 80,
+        "descriptions": 40
+      },
+      {
+        "program": "쓰담쓰담 동물원 프렌쥬",
+        "count": 78,
+        "descriptions": 20
+      },
+      {
+        "program": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 65,
+        "descriptions": 20
+      },
+      {
+        "program": "글로벌 아빠찾아 삼만리",
+        "count": 53,
+        "descriptions": 0
+      },
+      {
+        "program": "곰디와 친구들",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "뭐든지 뮤직박스",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "삐뽀삐뽀! 우리 몸 X파일",
+        "count": 51,
+        "descriptions": 20
+      },
+      {
+        "program": "발명이 팡팡!",
+        "count": 49,
+        "descriptions": 0
+      },
+      {
+        "program": "교육 특집 프로그램",
+        "count": 47,
+        "descriptions": 0
+      },
+      {
+        "program": "두근두근 방방",
+        "count": 47,
+        "descriptions": 20
+      },
+      {
+        "program": "공감 플러스",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "어린이 프로그램",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "일단 해봐요 생방송 오후 1시",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "출동! 슈퍼윙스",
+        "count": 40,
+        "descriptions": 20
+      },
+      {
+        "program": "과학 다큐 비욘드",
+        "count": 38,
+        "descriptions": 38
+      },
+      {
+        "program": "이것이 야생이다",
+        "count": 36,
+        "descriptions": 0
+      },
+      {
+        "program": "고고다이노 공룡탐험대",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "냉장고 나라 코코몽",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "명탐정 피트",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "허풍선이 과학쇼",
+        "count": 26,
+        "descriptions": 26
+      },
+      {
+        "program": "곽준빈의 세계 기사식당",
+        "count": 24,
+        "descriptions": 8
+      },
+      {
+        "program": "엄마 까투리",
+        "count": 23,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요",
+        "count": 17,
+        "descriptions": 17
+      },
+      {
+        "program": "과학/환경 특집 프로그램",
+        "count": 16,
+        "descriptions": 0
+      },
+      {
+        "program": "로보카 폴리",
+        "count": 16,
+        "descriptions": 16
+      },
+      {
+        "program": "지구 영웅 번개맨",
+        "count": 13,
+        "descriptions": 13
+      },
+      {
+        "program": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 12,
+        "descriptions": 0
+      },
+      {
+        "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 12,
+        "descriptions": 8
+      },
+      {
+        "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 10,
+        "descriptions": 0
+      },
+      {
+        "program": "과학/환경",
+        "count": 8,
+        "descriptions": 0
+      },
+      {
+        "program": "최태성 서경석의 여행본색",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "코봇 지구를 지켜라",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "딩동댕 보건실",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "취미는 과학여행",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "신계숙의 맛터사이클 다이어리",
+        "count": 5,
+        "descriptions": 5
+      },
+      {
+        "program": "채소가지구",
+        "count": 4,
+        "descriptions": 0
+      },
+      {
+        "program": "경이로운 자연의 세계",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "자연 다큐",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "과학 다큐멘터리",
+        "count": 1,
+        "descriptions": 1
+      },
+      {
+        "program": "우주탐사 이야기",
+        "count": 1,
+        "descriptions": 0
+      },
+      {
+        "program": "지구탐사 이야기",
+        "count": 1,
+        "descriptions": 1
+      }
+    ],
+    "pages": [
+      {
+        "status": "COMPLETE",
+        "count": 1682
+      }
+    ]
+  },
+  "catalog": {
+    "catalog": 22118,
+    "individual": 21674,
+    "collections": 444,
+    "withDescription": 4685,
+    "sourceQuality": {
+      "version": "source-text-v3",
+      "total": 22118,
+      "distribution": {
+        "none": 12643,
+        "repeated": 1185,
+        "production": 422,
+        "short": 7029,
+        "detailed": 839
+      },
+      "minimumPassed": 4685,
+      "minimumRatio": 0.21181842842933357
+    },
+    "workingSet": 144,
+    "indexedContents": 4,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22692,
+    "broadcastCatalog": 22753,
+    "broadcastDescriptions": 4602,
+    "broadcastPrograms": 88,
+    "broadcastTitleGroups": 21511,
+    "directLinks": 347
+  },
+  "queries": {
+    "동고서저": 10,
+    "민주주의": 37,
+    "기후 변화": 39,
+    "화산 지형": 17,
+    "해안 지형": 1
+  },
+  "benchmarks": [
+    {
+      "size": 500,
+      "localImportAndFtsIndexMs": 50.61,
+      "queryMedianMs": 0.61,
+      "queryP95Ms": 3.11
+    },
+    {
+      "size": 2000,
+      "localImportAndFtsIndexMs": 469.4,
+      "queryMedianMs": 0.72,
+      "queryP95Ms": 8.65
+    },
+    {
+      "size": 5000,
+      "localImportAndFtsIndexMs": 2602.66,
+      "queryMedianMs": 0.79,
+      "queryP95Ms": 21.74
+    }
+  ],
+  "methodology": "500/2000/5000건 실제 수집물의 임시 메모리 SQLite 재적재·FTS 색인과 캐시된 메모리 카탈로그 검색 각 30회. 외부 수집 시간·HTTP·화면 렌더는 벤치마크에 포함하지 않음. 제품 질의는 현재 메모리 검색이며 FTS로 처리했다고 주장하지 않음.",
+  "collectionPages": [
+    {
+      "source": "jisike",
+      "pages": 233
+    },
+    {
+      "source": "series",
+      "pages": 233
+    },
+    {
+      "source": "travel-all",
+      "pages": 233
+    },
+    {
+      "source": "travel-search",
+      "pages": 7
+    },
+    {
+      "source": "wide",
+      "pages": 976
+    }
+  ],
+  "titleRepeatedAsDescription": 1205,
+  "verifiedContracts": [
+    "공식 회차 ID·DB 무결성",
+    "중복 재실행",
+    "빈 소개문 보존",
+    "확인된 URL·소개문 출처·확인일 보존",
+    "변경된 링크 대조 무효화",
+    "다른 ID·같은 제목 원본 보존",
+    "실패 페이지 전체 롤백",
+    "빈 수집의 기존 항목 삭제 방지",
+    "완료 체크포인트",
+    "프로그램 조건",
+    "5개 주제 검색",
+    "실제 승인 저장소 불변"
+  ],
+  "classroomBefore": {
+    "scenarios": 30,
+    "requestsWithResults": 14,
+    "keywordsWithResults": 23,
+    "keywordsWithDirectResults": 18,
+    "uniqueKeywordCandidates": 31,
+    "keywordGaps": [
+      "G06",
+      "E01",
+      "E06",
+      "C05",
+      "C06",
+      "H06",
+      "S06"
+    ]
+  },
+  "classroomAfter": {
+    "scenarios": 30,
+    "requestsWithResults": 15,
+    "keywordsWithResults": 30,
+    "keywordsWithDirectResults": 22,
+    "uniqueKeywordCandidates": 425,
+    "keywordGaps": []
+  },
+  "paidApiCalls": 0,
+  "storeUnchanged": true,
+  "storeSha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200"
+}

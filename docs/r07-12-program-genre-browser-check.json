@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12T11:45:21.236Z",
+  "cases": [
+    {
+      "name": "주제+프로그램 약칭 조건·UI 해석·주소/새로고침 복원",
+      "passed": true
+    },
+    {
+      "name": "일반 다큐 요청의 다른 형식 제외·명시 선호/한정/제외·UI 설명",
+      "passed": true
+    },
+    {
+      "name": "선택 기준·장르 한정·상세 프로그램 조건 교집합·390px 표시",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "격리 브라우저·임시 저장소의 합성 장르 자료. 실제 영상 형식 판정 아님."
+}

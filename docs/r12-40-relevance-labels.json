@@ -1,0 +1,640 @@
+{
+  "rubric": {
+    "0": "무관·다른 뜻/대상·명시한 내용과 반대인 근거",
+    "1": "주제 일부 일치·배경 언급·요청 내용/관계 미확인",
+    "2": "제목·자기 회차 소개/공식 보조 설명에 핵심 주제와 요청 내용/관계의 직접 단서"
+  },
+  "scope": "기존370의 전후 상위3개 전체에 대한 에이전트 원문 잠정 평가. 교사 정답/영상 시청/학년·시간·안전성 판정 아님. 주제 단서가 명확한 제목은 인정하되 원문 부족은 별도. 같은 질의·자료·원문에는 같은 라벨 사용.",
+  "labels": {
+    "new200/Q001/BCAST-ee7209f90c567da3a49f": {
+      "score": 2,
+      "reason": "산청의 문화와 주민 생활",
+      "fingerprint": "ff144acc48567a885238e543ce1fc3bf6b127dfb07e2deb4e98a1281163bfa81",
+      "query": "우리 고장의 모습",
+      "title": "산청, 선비의 고장"
+    },
+    "new200/Q001/BCAST-62e0701270cde488821f": {
+      "score": 2,
+      "reason": "완도의 특산물·어민 생활",
+      "fingerprint": "ef1e06a0cf6392d94020519a028140f2f6a7ff1e736fd4c8a91d897e9ecce5eb",
+      "query": "우리 고장의 모습",
+      "title": "완도, 미역과 전복의 고장"
+    },
+    "new200/Q001/BCAST-ecf91354f05837d4910c": {
+      "score": 0,
+      "reason": "기계 고장이라는 다른 뜻",
+      "fingerprint": "db6bf188d4c0ea41132143b93348672feca18798d60d197de1fc19d4af1b1220",
+      "query": "우리 고장의 모습",
+      "title": "범인은 누구"
+    },
+    "new200/Q023/BCAST-e338391ea6f4ef309dae": {
+      "score": 2,
+      "reason": "다문화 가족과 이웃의 공동 생활",
+      "fingerprint": "53aa18c17e5b138608d2a2ca3f1410a9d7f1d836c54a370ec25594c2eda7d844",
+      "query": "다문화 가정 이웃",
+      "title": "무지갯빛 말레이시아의 골목대장 자매들!"
+    },
+    "new200/Q034/BCAST-ac15584839027a9ff488": {
+      "score": 1,
+      "reason": "고기후와 인류 이동으로 현재 기후 특징은 부분",
+      "fingerprint": "debcd9163aee2ca49162879c19ffb4f2874276df7d780ee5aa9d8e57337b8316",
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "title": "21화_한국인, 우리는 기후 난민의 후예인가?"
+    },
+    "new200/Q034/BCAST-562bff14dc981a775d0b": {
+      "score": 0,
+      "reason": "원자력 개발이 중심으로 한국 기후 특징과 무관",
+      "fingerprint": "701d555764b8b56c531d7f0741ae6549af875cc18130f073379a8bc361eed045",
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "title": "탄소 중립 시대 Zero를 위한 선택"
+    },
+    "new200/Q034/BCAST-e0593715d602a4ea9437": {
+      "score": 1,
+      "reason": "한국 겨울에 미치는 북극 영향은 확인되나 북극 탐사가 중심",
+      "fingerprint": "861da74b35b620fc67169b4c85b3a18627e84ce6111745802149a52c5e0853ae",
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "title": "[모자익 프로젝트] 1부 우리도 난센처럼"
+    },
+    "new200/Q038/BCAST-006958cbcbf16462144b": {
+      "score": 2,
+      "reason": "이주민 인권",
+      "fingerprint": "05d7a881abbd9de24dddd3af644111334fe71c0b619c012c3b2f435114178a2a",
+      "query": "지식채널e 인권 관련 편",
+      "title": "잘 지내나요, 이방인?"
+    },
+    "new200/Q038/BCAST-613368a98bbeed37d978": {
+      "score": 2,
+      "reason": "흑인 인권 운동",
+      "fingerprint": "f282951dc3b34a4a10d563dcabb5b4a68506418a4aae32ac6b3eed6e91d13243",
+      "query": "지식채널e 인권 관련 편",
+      "title": "루비의 등교"
+    },
+    "new200/Q038/BCAST-2a7e4c88a21d3f12d7b4": {
+      "score": 1,
+      "reason": "예술의 여러 주제 중 인권을 일부 언급",
+      "fingerprint": "050a4ee182ecf670ff745a8dd641de5246aa932ca8a12769e17829973390c566",
+      "query": "지식채널e 인권 관련 편",
+      "title": "미술관에 들어간 그라피티 킹"
+    },
+    "new200/Q039/BCAST-01c5def31d60db3f6267": {
+      "score": 2,
+      "reason": "헌법의 기본권 보장 역할을 원문에서 설명",
+      "fingerprint": "d632aba35edf7ccf97ae2ce46048f8419b7a12625aeab50a8813ce2e69a48e84",
+      "query": "헌법은 왜 필요한가요",
+      "title": "법과 정의 1부 - 법은 누구 편인가?"
+    },
+    "new200/Q043/BCAST-9cc59ef70388bf4005bb": {
+      "score": 1,
+      "reason": "고려청자 도굴·반출로 제작 과정 없음",
+      "fingerprint": "126dc2d7a0e8415ba8b4eb48b14154624def06f6710aba2d282e1da0b9b98a37",
+      "query": "고려청자는 어떻게 만들었을까",
+      "title": "고려청자를 찾아라"
+    },
+    "new200/Q043/BCAST-118b27bb04e8dd63f4d6": {
+      "score": 1,
+      "reason": "지역 관광·청자 축제로 제작 과정 없음",
+      "fingerprint": "b52afd10df6d96bf373d28af4b595a25ac7f19c00992f6a768140efdfc16b960",
+      "query": "고려청자는 어떻게 만들었을까",
+      "title": "강진, 청잣빛 자연과 사람들"
+    },
+    "new200/Q050/BCAST-237d622d9169910c301a": {
+      "score": 1,
+      "reason": "광복과 전쟁은 마을 배경으로 언급되고 역사 설명은 부족; 원문 연도 오류도 의심",
+      "fingerprint": "6e35ccf9bc55b477365956d54b791d9dab40e1f28308c48c6ac1798fb2e38ddb",
+      "query": "광복과 6·25 전쟁",
+      "title": "포천, 과거와 현재가 공존하는 마을"
+    },
+    "new200/Q052/BCAST-6bf85a6bbbea59cc5bba": {
+      "score": 2,
+      "reason": "민주주의 본질과 발전",
+      "fingerprint": "846520b6aa56648e79c205b7ebe48ea7ad438718db54624bfbf75c063307de89",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "title": "민주주의 1부 시민의 권력의지"
+    },
+    "new200/Q052/BCAST-7223c22691cb54b4b924": {
+      "score": 2,
+      "reason": "민주주의 수용과 역사",
+      "fingerprint": "cc89b6c88478c955c041aee2cf302bc1a40575357eb524b10d7ceffe18f4c52d",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "title": "아담 쉐보르스키 - 민주주의 난제 2강 어떻게 인기를 얻었을까"
+    },
+    "new200/Q052/BCAST-ce98e55c1c58597bfca3": {
+      "score": 2,
+      "reason": "민주주의 본질이라는 원문 단서; 초등 적합성은 별도",
+      "fingerprint": "eddb1a80380ad4aeb8c116d63e05c35ae0290cbfc588bb10ed8a531a47fc3457",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "title": "민주주의 4부 기업과 민주주의"
+    },
+    "new200/Q079/BCAST-ee6c729aaf350fa7b033": {
+      "score": 2,
+      "reason": "사막 유목민의 삶",
+      "fingerprint": "12e8f4af9047f9691b98c1f47536a0da0dde4bda89477e63b6c9291e72b21125",
+      "query": "사막 유목민 생활 다큐",
+      "title": "챠강티메 - 흰 낙타 이야기 1부"
+    },
+    "new200/Q086/BCAST-2a0700678effc59d4eec": {
+      "score": 1,
+      "reason": "학교의 사회화 장소 언급은 있으나 공간 혁신이 중심",
+      "fingerprint": "98bb6766563c1f33d115a2c8f01b67f84a059a1f2f1a7a13bb5e8c5170895931",
+      "query": "사회화 과정과 사회화 기관",
+      "title": "교육대기획 다시, 학교 9부 움직이는 학교"
+    },
+    "new200/Q091/BCAST-5d8e926d1f0903ba4e77": {
+      "score": 2,
+      "reason": "공식 보조 설명의 시민 참여와 마스크 정책 등 일상 정치",
+      "fingerprint": "873e10a8744ca871afc7f26cbdfa3d12cc4505bba7a111f19ffe705238e450c4",
+      "query": "정치는 왜 우리 일상과 관련이 있을까",
+      "title": "시민의 탄생 - 5부 연결자들"
+    },
+    "new200/Q099/BCAST-7c6c514d82144302fc08": {
+      "score": 2,
+      "reason": "도시 문제 해결을 명시한 짧은 소개",
+      "fingerprint": "38000e7da8fcfbd5b3c2c67b9f8465144a903643cb756becb6838b7b89e48622",
+      "query": "지식채널e 도시 문제",
+      "title": "방정식으로 풀다"
+    },
+    "new200/Q108/BCAST-b464ecdca1139922ae40": {
+      "score": 2,
+      "reason": "실 전화기 만들기와 소리 전달을 직접 다룸",
+      "fingerprint": "ab65a66bc972b9716a9d6fc880b714ae5ad03201eed5df61befc34cf883d6cd5",
+      "query": "실 전화기는 어떻게 소리가 전달될까",
+      "title": "여보세요?"
+    },
+    "new200/Q118/BCAST-e463b2c707a6739d767d": {
+      "score": 2,
+      "reason": "바닷물을 가두고 소금 수확하는 작업",
+      "fingerprint": "628b11e7a0e951955b7458234b5ae7416e5345a8a29c33e11d8de5509a4b0e4f",
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "title": "LNG 생산기지와 염전"
+    },
+    "new200/Q140/ECLIP-019": {
+      "score": 2,
+      "reason": "제목에 별자리로 북극성 찾기 명시; 본문 부족은 별도",
+      "fingerprint": "00ceeed5066d8d6e473cc97b8971a73806082bc3848ba3a28770eaefd625b7fc",
+      "query": "북극성은 어떻게 찾나요",
+      "title": "별자리를 이용하여 북극성 찾기"
+    },
+    "new200/Q145/BCAST-01bb5774b712efe912db": {
+      "score": 2,
+      "reason": "포식과 기생",
+      "fingerprint": "497afac046f2a55e09f9b32d607000150f430a90a0ecc98883de3f317172832f",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "title": "자연다큐 죽음 1부 생명에서 생명으로"
+    },
+    "new200/Q145/BCAST-386650585bd5c99e533c": {
+      "score": 2,
+      "reason": "곤충의 공생과 기생",
+      "fingerprint": "894504303a8da8d1686aba6e62eabe5b753ebdbeb78a0ad45057417544422c90",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "title": "비밀의 왕국 2부 위험한 동거"
+    },
+    "new200/Q145/BCAST-15fd00a3f3bb3a86637d": {
+      "score": 2,
+      "reason": "곤충의 먹고 먹히는 관계",
+      "fingerprint": "46d9a0406429917b2d170e6dd8fdc90bc7877d4e42b905f5cb926560bc992fa7",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주"
+    },
+    "new200/Q172/BCAST-4f6306403d88a35fdb76": {
+      "score": 1,
+      "reason": "폐 기능 일부를 다루나 폐암 관리가 중심",
+      "fingerprint": "36584a050e8ddced8faba49e8f1e9215e86eef92b086877a0f568d46513ea3a4",
+      "query": "숨을 쉬면 몸속에서 무슨 일이 일어날까",
+      "title": "무서운 폐암, 씨앗을 찾아라 - 폐결절과 조기폐암"
+    },
+    "new200/Q172/BCAST-ec0ae9334ce9dda625f1": {
+      "score": 0,
+      "reason": "폐암 치료가 중심이며 호흡은 배경 언급",
+      "fingerprint": "061cc1986e17921c8eb405c0115ddc38b8a4cd2425c11e338a9063e82e4da8b3",
+      "query": "숨을 쉬면 몸속에서 무슨 일이 일어날까",
+      "title": "재발과 전이가 잘 되는 암 - 폐암"
+    },
+    "new200/Q173/BCAST-68e0fb7462f5f827aaa0": {
+      "score": 1,
+      "reason": "배터리 개발·에너지 전환 표현은 있으나 전환 형태의 구체 예시는 미확인",
+      "fingerprint": "2b63338bc215c1404a8b7f2ffe1e72d1a0c13817dff69b260707af693541e535",
+      "query": "에너지 전환 예시",
+      "title": "15화_궁극의 배터리, 어디에서 찾을까?"
+    },
+    "new200/Q177/BCAST-3fe0bd9c418fbf8a0049": {
+      "score": 2,
+      "reason": "우주 쓰레기",
+      "fingerprint": "e0f38a9de19994d37345e818c16f63d38408878a0edc6c1af11960d33ac003c8",
+      "query": "지식채널e 우주 관련 편",
+      "title": "우주는 주인이 없다 2부 우주에 뛰어들 펭귄은 누구인가?"
+    },
+    "new200/Q177/BCAST-c993b6a79481d76b640b": {
+      "score": 2,
+      "reason": "우주 서버와 위성 기술",
+      "fingerprint": "c358bcfc56671d5b3d255dbb715b005847e875d0c20aeeeef55b7e5b58e9e225",
+      "query": "지식채널e 우주 관련 편",
+      "title": "[사이언스 핫이슈 - 데이터센터] 2부 우주로 간 서버"
+    },
+    "new200/Q177/BCAST-d404d9f861d2cf4b9cce": {
+      "score": 2,
+      "reason": "우주 쓰레기 해결",
+      "fingerprint": "ba49bf053e744d5b4a9981e8a330756d345d1d063099393df19e3cfae7f5aac5",
+      "query": "지식채널e 우주 관련 편",
+      "title": "우주는 주인이 없다 3부 우주를 구하는 수학 게임"
+    },
+    "previous170/D70-Q013/BCAST-3ae380d82bcd390fd2ed": {
+      "score": 2,
+      "reason": "도서관 대출 기능",
+      "fingerprint": "7a2ae35e091dd813040c34f0f7407df7dff693c3ea49ca9b60864e632069cd3c",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "title": "도서관에서 책 빌리기 도전!"
+    },
+    "previous170/D70-Q013/BCAST-42cb718c8c18c2a86d25": {
+      "score": 2,
+      "reason": "도서관 사서·대출 서비스",
+      "fingerprint": "d1f11f51fe4f8b03c3ba022c8062bddf3cf80910f7d5db58fa94d970543b4c9a",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "title": "도서관에 간 꺼병이들"
+    },
+    "previous170/D70-Q013/BCAST-143436bd604426e911f1": {
+      "score": 1,
+      "reason": "사람책 프로젝트로 공공 도서관 일반 역할은 부분",
+      "fingerprint": "b6f5ebb28c7b602baf33a0aaf1094c830c447578f5c86f8948074b1b47c88b03",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "title": "시민의 탄생 - 4부 당신은 누구세요?"
+    },
+    "previous170/D70-Q015/BCAST-2bf49f8a5fd512d04316": {
+      "score": 2,
+      "reason": "마을별 축제 현장",
+      "fingerprint": "38ab8ae773c26f759632c8b0767981f0316219fbce84e60b0d1d2cd26e4d95cc",
+      "query": "마을 축제",
+      "title": "인생은 피에스타, 스페인 모든 길은 축제로 향한다"
+    },
+    "previous170/D70-Q015/BCAST-dee4ff0e9f3ff630e22d": {
+      "score": 2,
+      "reason": "마을 축제 소개",
+      "fingerprint": "0705e70604ec96619d044256f6902c6995ec58f59c3f91fa5d405263e9861a8f",
+      "query": "마을 축제",
+      "title": "오지고 차이나 윈난・쓰촨 - 세상 밖 무릉도원"
+    },
+    "previous170/D70-Q015/BCAST-d89984a27c9cf30a4ad3": {
+      "score": 2,
+      "reason": "마을 축제 소개",
+      "fingerprint": "6b4fb75c7c2f407a5b8395b0e6af3f5f301c7c883dc3a865f6fae3c7a138f88d",
+      "query": "마을 축제",
+      "title": "루마니아 소문 탐사기-소문만복래 마라무레슈"
+    },
+    "previous170/D70-Q018/BCAST-2d032ce4b233bfe29ceb": {
+      "score": 2,
+      "reason": "공식 보조 대본에 두 극의 인력·척력 설명",
+      "fingerprint": "f504374868d0d74fae51b9323250db2cb3f05a9dfc61a5cadeee8dcf81006b16",
+      "query": "자석의 두 극",
+      "title": "힘센 내 자석"
+    },
+    "previous170/D70-Q028/BCAST-96e893fd838fc3739cc4": {
+      "score": 2,
+      "reason": "붙는 물체와 안 붙는 물체 비교",
+      "fingerprint": "85d65329b50db98f3546196ded6db6aa85ea1eb94c25dc818135e7f08aa66cbb",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "title": "자석을 찾아라"
+    },
+    "previous170/D70-Q028/BCAST-24cb7586692e2a707640": {
+      "score": 2,
+      "reason": "공식 보조 대본에 붙음/안 붙음 비교",
+      "fingerprint": "b38d863934209a2489a9639c0da52e8fc557db36bd814000e5412b25d1b1c05b",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "title": "268화 내 자석엔 뭐가 붙을까?"
+    },
+    "previous170/D70-Q035/BCAST-88cd4153bd0d6c517132": {
+      "score": 2,
+      "reason": "아동 권리 창시자",
+      "fingerprint": "f55574380ffbc82572ed4d01456e5d9d03e7fe20bea3f7aaf16e40c6e0d3a04e",
+      "query": "어린이의 권리",
+      "title": "아이들을 구하라"
+    },
+    "previous170/D70-Q035/BCAST-4c9a03b67a254591399f": {
+      "score": 2,
+      "reason": "교육받을 권리",
+      "fingerprint": "4e163fccc1dddf9039ee5431af43a59e57541b5ec347729eb41d412000deac85",
+      "query": "어린이의 권리",
+      "title": "당연하지 않은 것들"
+    },
+    "previous170/D70-Q035/BCAST-3ed3887ce9f5ee7c2463": {
+      "score": 2,
+      "reason": "놀 권리 침해",
+      "fingerprint": "824933c4d2cfa7874897760b9c74531e5d5fa0b52b3660669a8fdf79a963f9bc",
+      "query": "어린이의 권리",
+      "title": "우리 같이 놀아요"
+    },
+    "previous170/D70-Q049/BCAST-5d8e926d1f0903ba4e77": {
+      "score": 2,
+      "reason": "공식 보조 설명에 선거 참여 활동; 실제 장면·지지 요구 부재는 미확인",
+      "fingerprint": "873e10a8744ca871afc7f26cbdfa3d12cc4505bba7a111f19ffe705238e450c4",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "title": "시민의 탄생 - 5부 연결자들"
+    },
+    "previous170/D70-Q055/BCAST-793986e731a60a54b5e9": {
+      "score": 2,
+      "reason": "플랑크톤-물고기의 먹이 관계",
+      "fingerprint": "27acc12c5323ce0aba31891b3a54a67bc8e00156826cdfa103dda1165997bac3",
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+    },
+    "previous170/D70-Q066/BCAST-562bff14dc981a775d0b": {
+      "score": 0,
+      "reason": "연소 없이 에너지를 얻는 원전 개발로 연소 관찰이 아님",
+      "fingerprint": "701d555764b8b56c531d7f0741ae6549af875cc18130f073379a8bc361eed045",
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "title": "탄소 중립 시대 Zero를 위한 선택"
+    },
+    "previous170/D70-Q067/BCAST-793986e731a60a54b5e9": {
+      "score": 2,
+      "reason": "생태계 먹이 관계",
+      "fingerprint": "27acc12c5323ce0aba31891b3a54a67bc8e00156826cdfa103dda1165997bac3",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+    },
+    "previous170/D70-Q067/BCAST-c9d9b292bf3626288c4f": {
+      "score": 1,
+      "reason": "동물원 먹이 찾기 행동으로 생태 먹이 관계는 부분",
+      "fingerprint": "43b3517ddea117f8b99f6d26de11815393b1497272ab5991700b2169cada23c3",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "title": "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램"
+    },
+    "previous170/D70-Q067/BCAST-076b63322b8a48f4d42c": {
+      "score": 2,
+      "reason": "늑대 등 포식자와 먹이 관계",
+      "fingerprint": "cc2aa598514cda5727d73a4ba1c10107c78d719ecf747eea19bda64801d427e8",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "title": "비밀의 땅 파미르 - 1부 세계의 지붕"
+    },
+    "previous170/D70-Q082/BCAST-ee6c729aaf350fa7b033": {
+      "score": 2,
+      "reason": "사막 유목민 생활",
+      "fingerprint": "12e8f4af9047f9691b98c1f47536a0da0dde4bda89477e63b6c9291e72b21125",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "title": "챠강티메 - 흰 낙타 이야기 1부"
+    },
+    "previous170/D70-Q082/BCAST-b7ea99f0dd385b579d34": {
+      "score": 2,
+      "reason": "사막 소금 카라반의 생계",
+      "fingerprint": "52b783dc221160b2dcd739f69da316b317479f2cb43ecbb1674556ca20809348",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반"
+    },
+    "previous170/D70-Q083/BCAST-dd00bb970222169873c2": {
+      "score": 2,
+      "reason": "과거와 현재 동네 공동체의 변화",
+      "fingerprint": "f0562e017b18b180c9c0169ca275a9240dad4e1a76116835cbfdaf1d3bfc8385",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "title": "동네의 맛 - 첫눈 내리던 날"
+    },
+    "previous170/D70-Q083/BCAST-46ecf801db1d641a4e93": {
+      "score": 1,
+      "reason": "동네 지도 만들기로 변화는 없음",
+      "fingerprint": "3503a7ffd5332a45d5b61244105a73a38a9fb8ad8629c8e1f6a7b114b5f89de1",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "title": "우리 동네 지도 만들기 도전!"
+    },
+    "previous170/D70-Q083/BCAST-a5017cd5d1cbb9c7593e": {
+      "score": 0,
+      "reason": "아동 성폭력 예방 캠페인으로 동네 변화와 무관",
+      "fingerprint": "9658beceb27ce88682dc88a19782cd68e30c81ced528492b01d69a1dcb67dd02",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "title": "[아동성폭력 예방 캠페인] 우리 아이를 지켜주세요-우리 동네,우리 집앞이란 방심 금물"
+    },
+    "previous170/X100-Q024/BCAST-24cb7586692e2a707640": {
+      "score": 2,
+      "reason": "공식 보조 대본에 자석에 붙는/안 붙는 물건 비교",
+      "fingerprint": "b38d863934209a2489a9639c0da52e8fc557db36bd814000e5412b25d1b1c05b",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "title": "268화 내 자석엔 뭐가 붙을까?"
+    },
+    "previous170/X100-Q024/BCAST-96e893fd838fc3739cc4": {
+      "score": 2,
+      "reason": "붙는/안 붙는 물체 비교; 냉장고 장면은 별도",
+      "fingerprint": "85d65329b50db98f3546196ded6db6aa85ea1eb94c25dc818135e7f08aa66cbb",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "title": "자석을 찾아라"
+    },
+    "previous170/X100-Q033/ECLIP-008": {
+      "score": 2,
+      "reason": "제목에 동물 한살이 명시; 촬영 방식은 선택적 선호",
+      "fingerprint": "11cc7da822b24fd86bb30f0772e87a9b518e8d2472c288b4eb9b04b1d808b768",
+      "query": "동물의 한살이 자료요. 있으면 좋겠는 건 실제 촬영 장면인데, 그림으로 된 것도 괜찮아요",
+      "title": "새끼를 낳는 동물의 한살이 알아보기"
+    },
+    "previous170/X100-Q035/BCAST-67b56eeef93444a02545": {
+      "score": 2,
+      "reason": "독도의 날 캠페인이라는 주제 단서; 내용 깊이 미확인",
+      "fingerprint": "7e1400ef4279ccfd24029e02599dface2808062a6a5fb27f8c8d9dbba6f63777",
+      "query": "독도",
+      "title": "[EBS캠페인] 2016 독도의 날"
+    },
+    "previous170/X100-Q035/BCAST-a7d7600fe01735b38ac8": {
+      "score": 2,
+      "reason": "독도 해양 생태",
+      "fingerprint": "9ee2eb28479ccffa9d13e28fd8687a452b53e213c68f2d878675d14ad4463135",
+      "query": "독도",
+      "title": "독도 바다를 그리다"
+    },
+    "previous170/X100-Q035/BCAST-5a6d462f2b7f0f30aebb": {
+      "score": 2,
+      "reason": "독도 탐방",
+      "fingerprint": "5c0b7a9305b0ee6c5fa5b031bd52735f9e1168dab3940d5537202ff409a47c73",
+      "query": "독도",
+      "title": "설민석의 독도로-독도 교육편"
+    },
+    "previous170/X100-Q080/BCAST-5f49781a67f4ea133b7a": {
+      "score": 2,
+      "reason": "다문화주의 논의",
+      "fingerprint": "7292ff57baac46776f0986063ff39abc8ddddba73476da0f52fbbfddbb0d3a6c",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 5강 다문화주의라는 숭고한 위험"
+    },
+    "previous170/X100-Q080/PDLOG-048": {
+      "score": 2,
+      "reason": "이주배경 학생의 교실",
+      "fingerprint": "9e7f9c452772bb1466d50eea07d71388a542c3dc916842fa2868bf2f9dc62e0f",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "title": "다 함께 자라요, 다문화 초등 교실"
+    },
+    "previous170/X100-Q080/BCAST-9103eb5ea2e4e90d2e91": {
+      "score": 2,
+      "reason": "다문화와 공존; 실제 장면의 안전성은 별도",
+      "fingerprint": "39079b02c865ed6e5d73359e1555d3ac0f655be4c0940acee6fbfb2579b0769d",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+    },
+    "new200/Q001/BCAST-6a44a0cff4ca3f48a4b3": {
+      "score": 1,
+      "reason": "외국 소도시의 문화·생활로 우리 고장과의 직접 연결은 미확인",
+      "fingerprint": "29ea55398d9a9a1365547db603e4e440ff5b3cbd9f6b4b4a2b5e3e4abd7b9984",
+      "query": "우리 고장의 모습",
+      "title": "겨울 낭만여행, 포르투갈-숨은 보석 찾기, 소도시 기행"
+    },
+    "new200/Q009/BCAST-0c2a0df5479f94adf06f": {
+      "score": 1,
+      "reason": "가족의 소비·식습관 실험으로 시대별 가족 모습 변화는 부분",
+      "fingerprint": "c86661df5f7b81691d00b03b5634b2777b889bd4c83ec3f0a8c738ccde21a073",
+      "query": "가족의 모습은 시대에 따라 어떻게 달라졌을까",
+      "title": "냉장고 없이 일주일 살아보기"
+    },
+    "new200/Q013/BCAST-1ff9d037c9aea44f046b": {
+      "score": 1,
+      "reason": "지속 가능한 식량 생산·소비 시스템으로 뜻의 설명은 미확인",
+      "fingerprint": "75444728d6a04b5658f361645de1fbef86940cee394b3e271dff5811dba9700e",
+      "query": "생산과 소비의 뜻",
+      "title": "헬레나 호지 - 다시, 오래된 미래 6강 지역 식량 시스템으로의 회귀"
+    },
+    "new200/Q027/BCAST-5cf70af05ea91d1b1fad": {
+      "score": 2,
+      "reason": "양평 마을 밥집과 주민 생활",
+      "fingerprint": "cdac6332cd4138595dad37e662dcf4c0f7fcdec9b24e96e49bebf6e8d22e0419",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "title": "우리 동네 핫플레이스 5부 최고의 한 끼를 위하여"
+    },
+    "new200/Q027/BCAST-11c6c4076ac40f504bc9": {
+      "score": 2,
+      "reason": "담양 농가의 지역 생활 소개",
+      "fingerprint": "7a088c307fd62f3547d439d16b8e25cc204c235f862317135e0057015de8180b",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "title": "‘억’ 소리 나는 그녀들 1부 곰보배추로 13억"
+    },
+    "new200/Q027/BCAST-1ecfc5874bad21a3edfc": {
+      "score": 2,
+      "reason": "묵호항 생산자의 지역 생활 소개",
+      "fingerprint": "fbabddb94c191f6f8e387c147b04efada193d005df7685607f720fe11ca7c4f9",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "title": "‘억’ 소리 나는 그녀들 2부 꽃문어로 10억"
+    },
+    "new200/Q032/BCAST-b9bd9c450d9e9b9a0ad3": {
+      "score": 2,
+      "reason": "독도의 생태와 강치 탐사 다큐",
+      "fingerprint": "c2cb652a60c295bfe5535dd6b6e5ab1b1f1048d6ce21f9380ef395cc8f411055",
+      "query": "강의 말고 다큐로 된 독도 영상",
+      "title": "신년 특집 독도 바다사자를 찾아서"
+    },
+    "new200/Q032/BCAST-17b49b656eeabd655058": {
+      "score": 1,
+      "reason": "주제는 서해 물범이며 독도 강치는 배경 대비",
+      "fingerprint": "4ed3c6e005b7ab664e0f04aac3db4f7fdcccad02cfd363e739e8eb3998a016ac",
+      "query": "강의 말고 다큐로 된 독도 영상",
+      "title": "자막최후의 진객 점박이 물범은 살아있다"
+    },
+    "new200/Q038/BCAST-347bfb56432c11d6ea38": {
+      "score": 2,
+      "reason": "청소년의 기후 인권 소송과 헌법 판단을 직접 다룸",
+      "fingerprint": "0d090d9e8a05f2437a1835621fc903e5cc4b095d45f78ed90dd080fdc8bd454e",
+      "query": "지식채널e 인권 관련 편",
+      "title": "어른도감 - 멈추지 않는 어른"
+    },
+    "new200/Q135/BCAST-8031b372a93332406590": {
+      "score": 2,
+      "reason": "공기 무게에 따른 풍선의 부양 차이",
+      "fingerprint": "87620f9cc1d3eb0f0385e62640df903f51843c6f713cddcfab5dee54bcbd3b76",
+      "query": "공기는 무게가 있을까",
+      "title": "풍선 타고 둥실둥실"
+    },
+    "new200/Q135/ECLIP-017": {
+      "score": 2,
+      "reason": "제목에 공기 무게와 기압의 관계 명시",
+      "fingerprint": "714742bd92febee5956c5aebda7997b541955b1f0f80d5965af5e06d6a9a999f",
+      "query": "공기는 무게가 있을까",
+      "title": "공기의 무게와 기압의 관계"
+    },
+    "previous170/D70-Q069/BCAST-12043189f9ec2b1a500f": {
+      "score": 1,
+      "reason": "기후 위기와 도시 생활 정책으로 세계 기후별 생활은 부분",
+      "fingerprint": "2ea80d99bc7ae4925c8d4ab3cbd9cbb73a5a04b18c318be0c6e19eb01b336fe1",
+      "query": "세계의 기후와 생활",
+      "title": "카를로스 모레노 <이 도시를 어떻게 할 것인가> 1강 왜 15분 도시인가"
+    },
+    "previous170/D70-Q069/BCAST-0d08b1091a7cb6de865a": {
+      "score": 1,
+      "reason": "기후 위기와 경제 피해가 중심으로 기후별 생활은 부분",
+      "fingerprint": "b150b86ad12907c72e38373276f9f6dc4f258cb9c04f1bc5529d436bb7dd46a7",
+      "query": "세계의 기후와 생활",
+      "title": "누리엘 루비니 <재앙의 경제학> 5강 우리는 아무것도 안 하고 있다"
+    },
+    "previous170/D70-Q083/BCAST-1da970630a3f983fa0ca": {
+      "score": 2,
+      "reason": "동네 투자와 사회 자본·경제적 기회의 변화 사례",
+      "fingerprint": "52ca69b752488440cbea21530f62a2c423b715ba1515ba60d3e9b1f313a7e8f1",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법"
+    },
+    "previous170/D70-Q083/BCAST-59b631b537dc518d02ab": {
+      "score": 1,
+      "reason": "동네로 이사한 아이들의 소득 변화로 동네 자체 변화는 부분",
+      "fingerprint": "3a8990be4c9082aba40664f1225aa8389c475e1f6cd1387351e319733ec33084",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 2강 부유한 동네와 가난한 동네"
+    },
+    "previous170/X100-Q011/BCAST-959453546960108f1b5b": {
+      "score": 1,
+      "reason": "포랑족의 결혼 풍속을 소개하나 옛날/오늘날 비교 없음",
+      "fingerprint": "b8368b9102b615ea31c1b4295985f533d59ecf72a6bf42b6b79ff4db28f9a1db",
+      "query": "옛날 결혼식과 오늘날 결혼식을 비교해 볼 수 있는 자료",
+      "title": "차마고도 茶馬古道-마방의 추억, 불산차마고도"
+    },
+    "previous170/X100-Q051/BCAST-7c5470496fdc6b9adbb1": {
+      "score": 2,
+      "reason": "일상의 차별과 대응 전략",
+      "fingerprint": "5c7c627f47d5de40762b0f0dd6e75070f2cfcad1d20a191d8d3a910a9b593843",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "title": "먼지 같은 차별도 있습니다"
+    },
+    "previous170/X100-Q051/BCAST-7237e22384453e542437": {
+      "score": 2,
+      "reason": "소수자 차별과 복합 정체성",
+      "fingerprint": "c85db1219c5a3ce95abb16e76acd0007c1d2f55cd200d42c9b0b88247d1c1520",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "title": "모두의 차별"
+    },
+    "previous170/X100-Q051/BCAST-6530ff46a45d86afa081": {
+      "score": 1,
+      "reason": "차별 주제를 명시하나 짧은 소개로 구체적 내용 부족",
+      "fingerprint": "d3796e8201f2682d618bc9b1073523fe36d24cfb2cd0b192bc1e4dbc694594d7",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "title": "그들이 바라는 도시"
+    },
+    "previous170/X100-Q082/BCAST-212568f7e9fe9fe42c64": {
+      "score": 0,
+      "reason": "지역 정체성·지역 브랜드와 무관한 글로벌 향수 기업",
+      "fingerprint": "0cf0d92a2d17b57e39127bddd3390d1694fe626a8682276979bfa48b7f0d94ce",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "title": "조 말론 - 조향의 세계 3강 두 번째 글로벌 브랜드"
+    },
+    "previous170/X100-Q082/BCAST-c2d092d79930e757c6f3": {
+      "score": 0,
+      "reason": "지역 브랜드와 무관한 가구 제작·해외 명품",
+      "fingerprint": "a0ccd1844814f9ca1c93bf68037dbad6efcc09ca7ad44f0ea1b99a5aff463dad",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "title": "무엇이든 만들어 드립니다"
+    },
+    "previous170/X100-Q082/BCAST-001744000493c7305fb6": {
+      "score": 0,
+      "reason": "지역 브랜드와 무관한 한글 패션 디자인",
+      "fingerprint": "c04dfa5d68f204620d1fd6bba57186e3222b1788f4885d0d30b4afe1a39c7c51",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "title": "나랏말싸미 예술과 만나"
+    },
+    "new200/Q016/BCAST-2bf49f8a5fd512d04316": {
+      "score": 1,
+      "reason": "특산물 축제로 다른 지역으로의 이동 과정은 없음",
+      "fingerprint": "38ab8ae773c26f759632c8b0767981f0316219fbce84e60b0d1d2cd26e4d95cc",
+      "query": "우리 지역 특산물은 어떻게 다른 지역으로 갈까",
+      "title": "인생은 피에스타, 스페인 모든 길은 축제로 향한다"
+    },
+    "new200/Q016/BCAST-f1b6a199c131dd07f673": {
+      "score": 1,
+      "reason": "특산물 수확·조업으로 유통 이동 과정은 없음",
+      "fingerprint": "128e7ef78c72ebc7fd4afd16fbdb416874f6a678756cc99130b1d8e80d1e29c9",
+      "query": "우리 지역 특산물은 어떻게 다른 지역으로 갈까",
+      "title": "울릉도의 봄, 명이나물과 독도새우"
+    },
+    "new200/Q016/BCAST-3c2acd43c1843f8f17e8": {
+      "score": 1,
+      "reason": "지역 생산품 수매·가공·판매는 있으나 다른 지역으로의 이동은 미확인",
+      "fingerprint": "7b5f9dbcd72ab426a4f072759d464b197443f024c19a0401bb90d66e721f3d78",
+      "query": "우리 지역 특산물은 어떻게 다른 지역으로 갈까",
+      "title": "거제, 청춘은 살아있다"
+    }
+  }
+}

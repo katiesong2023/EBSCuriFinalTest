@@ -1,0 +1,177 @@
+{
+  "summaryRestored": 4,
+  "officialCaptionsAttached": 5,
+  "usableSourceBefore": 0,
+  "usableSourceAfter": 9,
+  "denominator": 12,
+  "queries": [
+    {
+      "id": "H01",
+      "query": "우리 지역에서 주민들이 함께 문제를 해결한 사례를 수업에 쓰고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H02",
+      "query": "옛날과 지금의 교통수단이 생활을 어떻게 바꿨는지 비교하는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H03",
+      "query": "물에서 사는 동물과 땅에서 사는 동물의 몸 생김새를 비교할 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H04",
+      "query": "자석에 붙는 물체와 붙지 않는 물체를 관찰하는 실험 영상만 찾아줘",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H05",
+      "query": "공장이 들어서면서 지역의 일자리와 환경이 어떻게 달라졌는지 알려주는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H06",
+      "query": "독립운동에서 사람들이 협력한 사례를 보고 싶어요 전투 장면은 빼주세요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H07",
+      "query": "물질이 탈 때 공기가 왜 필요한지 설명하는 실험 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H08",
+      "query": "물이 증발해서 비가 되는 과정을 10분 이내에 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H09",
+      "query": "사막이나 고산 지역에서 자연환경에 맞춰 살아가는 생활 모습을 비교하고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H10",
+      "query": "문화가 다른 사람들이 갈등을 해결하는 사례가 필요해요 가능하면 인터뷰가 있으면 좋겠어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H11",
+      "query": "지진파로 지구 내부를 알아내는 원리를 설명하는 자료 자막이 있는 것으로",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "H12",
+      "query": "블루드래곤가상광물이 물에 녹는 실험을 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "afterIds": []
+    },
+    {
+      "id": "P01",
+      "query": "제시 피난 생활",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "afterIds": [
+        "BCAST-2d093401c6622a3a2018"
+      ]
+    },
+    {
+      "id": "P02",
+      "query": "천연벽지 제작",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "afterIds": [
+        "BCAST-a9724a68de2228ab9f0d"
+      ]
+    },
+    {
+      "id": "P03",
+      "query": "자석",
+      "origin": "TOPIC_DISCOVERY_PROBE_NOT_FULL_EXPERIMENT_MATCH",
+      "beforeTotal": 0,
+      "afterTotal": 2,
+      "afterIds": [
+        "BCAST-24cb7586692e2a707640",
+        "BCAST-2d032ce4b233bfe29ceb"
+      ]
+    }
+  ],
+  "liveBrowserVerified": [
+    "실제3000: 새 소개문2검색·공식 자막 자석2회차 검색",
+    "자기 회차 보조 원문 인용 slice 대조",
+    "390px 실화면: 자막 인용·붙지 않는 물체 근거·영상 미확인·오류/넘침0",
+    "기존 개인 저장·새로고침 유지"
+  ],
+  "remaining": [
+    {
+      "id": "BCAST-070518ce0f686b0a0f8c",
+      "title": "생활 금속 공장 1부",
+      "reason": "공식 상세도 제목 수준; 회차별 보조자료/영상 확인 필요"
+    },
+    {
+      "id": "BCAST-09bf4f4792c629db0ec4",
+      "title": "방글라데시 가죽공장 1부",
+      "reason": "공식 상세도 제목 수준; 회차별 보조자료/영상 확인 필요"
+    },
+    {
+      "id": "BCAST-332fbd405c5ad9b47bee",
+      "title": "신기한 자석 놀이",
+      "reason": "플레이어 회차/제목/프로그램/자막 참조 미일치"
+    }
+  ],
+  "paidApiCalls": 0,
+  "playback": "NOT_CHECKED",
+  "qualityClaim": "원문 부족9/12 보강·알려진3검색의 후보 개선. 긴12질문/독립 의미품질·영상·학년 적합성 개선은 입증하지 못했다.",
+  "implementation": "기존 공식 복구/보조자료 연결을 재사용. 별도 회차 전용 검색 분기 없음. 자막은 소개문에 합치지 않고 회차·판본·해시 대조한 보조 원문으로 검색/인용.",
+  "searchLeads": [
+    {
+      "resource": "방글라데시 가죽공장 1부",
+      "url": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000014519",
+      "status": "SEARCH_LEAD_UNCONFIRMED",
+      "reason": "공식 보도자료 검색 단서 있음. 페이지 접근 미확인·검색에 나온 방송일10/26·27과 저장일10/25가 달라 회차/판본 연결하지 않음."
+    },
+    {
+      "resource": "신기한 자석 놀이",
+      "url": "https://tv.ebsnurisam.com/direct?IDX=VSK1004",
+      "status": "SEARCH_LEAD_UNCONFIRMED",
+      "reason": "제목 단서만 있음. 기존 courseId/lectId/판본 대조 없음. 연결하지 않음."
+    }
+  ]
+}

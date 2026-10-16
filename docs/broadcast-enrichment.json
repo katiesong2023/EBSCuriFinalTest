@@ -1,0 +1,68 @@
+{
+  "startedAt": "2026-09-29T13:57:15.821Z",
+  "finishedAt": "2026-09-29T13:57:23.086Z",
+  "requests": 10,
+  "target": 5500,
+  "maxPages": 20,
+  "total": 5548,
+  "originalEpisodes": 5544,
+  "distinctProgramTitles": 5424,
+  "withDescription": 3526,
+  "matchedLinks": 200,
+  "programs": [
+    {
+      "program": "지식채널e",
+      "count": 2796,
+      "descriptions": 2793
+    },
+    {
+      "program": "한국기행",
+      "count": 1261,
+      "descriptions": 52
+    },
+    {
+      "program": "EBS 다큐프라임",
+      "count": 629,
+      "descriptions": 621
+    },
+    {
+      "program": "세계테마기행",
+      "count": 469,
+      "descriptions": 21
+    },
+    {
+      "program": "고향민국",
+      "count": 344,
+      "descriptions": 10
+    },
+    {
+      "program": "곽준빈의 세계 기사식당",
+      "count": 24,
+      "descriptions": 8
+    },
+    {
+      "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+      "count": 12,
+      "descriptions": 8
+    },
+    {
+      "program": "최태성 서경석의 여행본색",
+      "count": 8,
+      "descriptions": 8
+    },
+    {
+      "program": "신계숙의 맛터사이클 다이어리",
+      "count": 5,
+      "descriptions": 5
+    }
+  ],
+  "pages": [
+    {
+      "status": "COMPLETE",
+      "count": 706
+    }
+  ],
+  "failures": [],
+  "paidApiCalls": 0,
+  "note": "공식 회차 목록 메타데이터. 목록 제공 주소와 개별 도착 대조는 별도 집계. 재생·학년 적합성 미판정."
+}

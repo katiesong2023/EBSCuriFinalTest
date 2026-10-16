@@ -1,0 +1,96 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "geometry": {
+        "top": 7,
+        "right": 7
+      },
+      "videoNoteAndNestedCurriculum": true,
+      "importPopup": true,
+      "cancelAndEscape": true,
+      "explicitCommit": true,
+      "folderUnion": true,
+      "trashAndKeyboard": true,
+      "notePersisted": true,
+      "emptyState": true,
+      "saveFailureRetry": true,
+      "ownerIsolation": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "geometry": {
+        "top": 7,
+        "right": 7
+      },
+      "videoNoteAndNestedCurriculum": true,
+      "importPopup": true,
+      "cancelAndEscape": true,
+      "explicitCommit": true,
+      "folderUnion": true,
+      "trashAndKeyboard": true,
+      "notePersisted": true,
+      "emptyState": true,
+      "saveFailureRetry": true,
+      "ownerIsolation": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "geometry": {
+        "top": 7,
+        "right": 7
+      },
+      "videoNoteAndNestedCurriculum": true,
+      "importPopup": true,
+      "cancelAndEscape": true,
+      "explicitCommit": true,
+      "folderUnion": true,
+      "trashAndKeyboard": true,
+      "notePersisted": true,
+      "emptyState": true,
+      "saveFailureRetry": true,
+      "ownerIsolation": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "geometry": {
+        "top": 7,
+        "right": 7
+      },
+      "videoNoteAndNestedCurriculum": true,
+      "importPopup": true,
+      "cancelAndEscape": true,
+      "explicitCommit": true,
+      "folderUnion": true,
+      "trashAndKeyboard": true,
+      "notePersisted": true,
+      "emptyState": true,
+      "saveFailureRetry": true,
+      "ownerIsolation": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "geometry": {
+        "top": 7,
+        "right": 7
+      },
+      "videoNoteAndNestedCurriculum": true,
+      "importPopup": true,
+      "cancelAndEscape": true,
+      "explicitCommit": true,
+      "folderUnion": true,
+      "trashAndKeyboard": true,
+      "notePersisted": true,
+      "emptyState": true,
+      "saveFailureRetry": true,
+      "ownerIsolation": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

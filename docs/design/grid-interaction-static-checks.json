@@ -1,0 +1,7 @@
+{
+  "productFilesCompared": 92,
+  "changedProductFiles": [],
+  "missingHtmlReferences": [],
+  "allPassed": true,
+  "scope": "guide-only; source observations and demo are separate; no live API checks"
+}

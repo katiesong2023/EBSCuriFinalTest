@@ -1,0 +1,93 @@
+{
+  "ids": [
+    "BCAST-0b7ff14710d2df1732ca",
+    "BCAST-24cb7586692e2a707640",
+    "BCAST-2d032ce4b233bfe29ceb",
+    "BCAST-332fbd405c5ad9b47bee",
+    "BCAST-070518ce0f686b0a0f8c",
+    "BCAST-09bf4f4792c629db0ec4",
+    "BCAST-2d093401c6622a3a2018",
+    "BCAST-a9724a68de2228ab9f0d",
+    "BCAST-07b8b46343e67388b36a",
+    "BCAST-03936ad26b0793250d0e",
+    "BCAST-0b137ace4edf72dc23f0",
+    "BCAST-1870571a4c8023ee97f0"
+  ],
+  "queries": [
+    {
+      "id": "H01",
+      "query": "우리 지역에서 주민들이 함께 문제를 해결한 사례를 수업에 쓰고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H02",
+      "query": "옛날과 지금의 교통수단이 생활을 어떻게 바꿨는지 비교하는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H03",
+      "query": "물에서 사는 동물과 땅에서 사는 동물의 몸 생김새를 비교할 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H04",
+      "query": "자석에 붙는 물체와 붙지 않는 물체를 관찰하는 실험 영상만 찾아줘",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H05",
+      "query": "공장이 들어서면서 지역의 일자리와 환경이 어떻게 달라졌는지 알려주는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H06",
+      "query": "독립운동에서 사람들이 협력한 사례를 보고 싶어요 전투 장면은 빼주세요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H07",
+      "query": "물질이 탈 때 공기가 왜 필요한지 설명하는 실험 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H08",
+      "query": "물이 증발해서 비가 되는 과정을 10분 이내에 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H09",
+      "query": "사막이나 고산 지역에서 자연환경에 맞춰 살아가는 생활 모습을 비교하고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H10",
+      "query": "문화가 다른 사람들이 갈등을 해결하는 사례가 필요해요 가능하면 인터뷰가 있으면 좋겠어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H11",
+      "query": "지진파로 지구 내부를 알아내는 원리를 설명하는 자료 자막이 있는 것으로",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "H12",
+      "query": "블루드래곤가상광물이 물에 녹는 실험을 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+    },
+    {
+      "id": "P01",
+      "query": "제시 피난 생활",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT"
+    },
+    {
+      "id": "P02",
+      "query": "천연벽지 제작",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT"
+    },
+    {
+      "id": "P03",
+      "query": "자석",
+      "origin": "TOPIC_DISCOVERY_PROBE_NOT_FULL_EXPERIMENT_MATCH"
+    }
+  ]
+}

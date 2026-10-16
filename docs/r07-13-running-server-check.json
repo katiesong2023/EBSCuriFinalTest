@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-12T12:41:17.499Z",
+  "base": "http://127.0.0.1:3000",
+  "rows": [
+    {
+      "q": "생태계 다큐멘터리",
+      "total": 66,
+      "forms": [
+        "다큐멘터리"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "생태계 애니메이션",
+      "total": 2,
+      "forms": [
+        "애니메이션"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "생태계 1부",
+          "program": "허풍선이 과학쇼",
+          "formEvidence": [
+            {
+              "label": "애니메이션",
+              "status": "OFFICIAL_PROGRAM_CATEGORY",
+              "sourceUrl": "https://www.ebs.co.kr/tv/search/programListNew"
+            }
+          ]
+        },
+        {
+          "title": "생태계 2부",
+          "program": "허풍선이 과학쇼",
+          "formEvidence": [
+            {
+              "label": "애니메이션",
+              "status": "OFFICIAL_PROGRAM_CATEGORY",
+              "sourceUrl": "https://www.ebs.co.kr/tv/search/programListNew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "인터뷰",
+      "total": 14,
+      "forms": [
+        "대담·인터뷰"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "게임에 진심인 편 2부 - 너의 게임은。",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "대담·인터뷰",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "아파트 중독-3부 우리는 왜 아파트에 사는가",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "대담·인터뷰",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "주식의 시대_1부 우리는 왜 투자에 실패하는가",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "대담·인터뷰",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "실험·시연",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "실험",
+      "total": 25,
+      "forms": [
+        "실험·시연"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "당신이 화내는 진짜 이유 - 1부 원초적 본능, 화의 비밀",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "실험·시연",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "맛이란 무엇인가 - 1부 맛의 비밀",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "실험·시연",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "미래를 바꾸는 교육 - 1부 자연, 성장의 밑거름",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "실험·시연",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "강의",
+      "total": 153,
+      "forms": [
+        "강연·강의"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "<한국사 오천년, 생존의 길> 제5부 - 고종, 열강의 덫에 빠지다",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "강연·강의",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "1부 - 전자담배, 왜 아무도 말리지 않나요?",
+          "program": "특집/기획/특강",
+          "formEvidence": [
+            {
+              "label": "강연·강의",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "1부 모든 강의 어머니 메콩",
+          "program": "다큐 오늘",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            },
+            {
+              "label": "강연·강의",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "뉴스",
+      "total": 7,
+      "forms": [
+        "뉴스·보도"
+      ],
+      "preferences": [],
+      "top": [
+        {
+          "title": "[샤샤와 함께하는 유아 교육] 횡단보도 건너기",
+          "program": "EBS 캠페인",
+          "formEvidence": [
+            {
+              "label": "뉴스·보도",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "공룡뉴스",
+          "program": "딩동댕 유치원",
+          "formEvidence": [
+            {
+              "label": "뉴스·보도",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "뉴스 알려주기 도전!",
+          "program": "딩동댕 유치원",
+          "formEvidence": [
+            {
+              "label": "뉴스·보도",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "생태계 다큐 같은",
+      "total": 82,
+      "forms": [],
+      "preferences": [
+        "다큐멘터리"
+      ],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "formEvidence": [
+            {
+              "label": "다큐멘터리",
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "broadcast-programs.json": "19af189d58c09f4db447e02fd1a391f5d6c750c88ee400d91ad8d3badc821553"
+  },
+  "paidApiCalls": 0
+}

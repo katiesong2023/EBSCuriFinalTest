@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "images": [
+    {
+      "id": "BCAST-8260804153e256f011a1",
+      "loaded": false,
+      "hidden": true,
+      "src": "http://127.0.0.1:3117/api/curi/discover/thumbnail?id=BCAST-8260804153e256f011a1"
+    },
+    {
+      "id": "BCAST-350ee97623108278772b",
+      "loaded": true,
+      "hidden": false,
+      "src": "http://127.0.0.1:3117/api/curi/discover/thumbnail?id=BCAST-350ee97623108278772b"
+    }
+  ],
+  "overflow": false,
+  "unknownIdStatus": 404,
+  "errors": [],
+  "metadataChecksPassed": 6,
+  "startupRetry": "새 서버 첫 검색 준비 중 시간 초과 후 같은 서버 재시도 성공",
+  "missingImageReason": "BCAST-8260804153e256f011a1: 공식 페이지가 다른 회차60407503 메타와 사이트 공통 이미지를 반환하여 제외"
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-15",
+  "url": "https://illuminating-radioactivity.com/5/?ref=httpster.net",
+  "sameReferenceAsOption2": true,
+  "newCheck": "initial composition reconfirmed in Chrome",
+  "viewport": [
+    1440,
+    663
+  ],
+  "posterRects": [
+    [
+      44,
+      394,
+      316,
+      603
+    ],
+    [
+      449,
+      394,
+      316,
+      602
+    ],
+    [
+      851,
+      394,
+      316,
+      602
+    ]
+  ],
+  "priorEvidence": "../reference-grid-interaction-observations.json",
+  "designInterpretation": "user-requested ivory canvas, dark typography, peach circles, lavender secondary accent",
+  "notMeasured": [
+    "exact easing/timeline",
+    "all chapters",
+    "physical touch",
+    "screen reader"
+  ],
+  "referenceAssetsCopied": false,
+  "revision": {
+    "date": "2026-10-15",
+    "sourceInitialBackground": "#000000",
+    "sourceMainBackground": "#FFFFFF",
+    "ivoryIsCuriProposal": true,
+    "userRequest": "검정 배경보다 미색 배경으로 재작업"
+  }
+}

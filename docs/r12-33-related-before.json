@@ -1,0 +1,1565 @@
+{
+  "checkedAt": "2026-10-15T14:17:55.272Z",
+  "rows": [
+    {
+      "query": "갯벌 생태계",
+      "id": "BCAST-3225002c08823553e9cf",
+      "title": "자막갯벌의 방랑자들",
+      "summary": "인간의 무분별한 개발로 인해 밀리고 밀려 공사장에서 서식하는 갯벌의 생명들 ",
+      "q": "자막갯벌의 방랑자들 인간의 무분별한 개발로 인해 밀리고 밀려 공사장에서 서식하는 갯벌의 생명들 ",
+      "summaryLength": 42,
+      "total": 5,
+      "candidates": [
+        {
+          "id": "4과06-03",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘갯벌’ 포함",
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과06-03",
+            "text": "밀물과 썰물의 차이를 알고, 갯벌의 가치와 보전의 필요성을 설득⋅홍보할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사03-01",
+          "score": 8.5625701297447,
+          "reason": "공식 문장에 ‘인해’ 포함",
+          "matchedTerms": [
+            "인해"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사03-01",
+            "text": "최근 사회 변화의 양상과 특징을 파악하고, 그로 인해 나타난 생활모습의 변화를 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사07-01",
+          "score": 8.5625701297447,
+          "reason": "공식 문장에 ‘인해’ 포함",
+          "matchedTerms": [
+            "인해"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사07-01",
+            "text": "자원의 희소성으로 인해 경제활동에서 선택의 문제가 발생함을 이해하고, 경제활동에서 합리적 선택의 방법을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사07-02",
+          "score": 8.5625701297447,
+          "reason": "공식 문장에 ‘인해’ 포함",
+          "matchedTerms": [
+            "인해"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사07-02",
+            "text": "민주화와 산업화로 인해 달라진 생활 문화를 사례를 들어 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사01-01",
+          "score": 2,
+          "reason": "기존 주제 어휘 해안 지형와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사01-01",
+            "text": "우리나라 산지, 하천, 해안 지형의 위치를 확인하고 지형의 분포 특징을 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "갯벌 생태계",
+      "id": "BCAST-1ec3e5b4c8845d1b5031",
+      "title": "강화갯벌이 살아있는 까닭",
+      "summary": "자막강화 갯벌에 대해 알아본다",
+      "q": "강화갯벌이 살아있는 까닭 자막강화 갯벌에 대해 알아본다",
+      "summaryLength": 16,
+      "total": 2,
+      "candidates": [
+        {
+          "id": "4과06-03",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘갯벌’ 포함",
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과06-03",
+            "text": "밀물과 썰물의 차이를 알고, 갯벌의 가치와 보전의 필요성을 설득⋅홍보할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사01-01",
+          "score": 2,
+          "reason": "기존 주제 어휘 해안 지형와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사01-01",
+            "text": "우리나라 산지, 하천, 해안 지형의 위치를 확인하고 지형의 분포 특징을 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "기후 변화",
+      "id": "BCAST-c758a0cc89b6305a56c0",
+      "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+      "summary": "자막기후 변화로 인해 만년동안 녹지않은 히말라야의 설산이 녹고있다. 만년설이 녹으면서 생기는 홍수로 피해입는 사람들을 취재해본다. 남극, 북극 그리고 제3의 극 “히말라야”. 세계의 지붕 히말라야에선 지금 시한폭탄의 카운트다운이 시작됐다. ‘세계 인구 40% 식수원’, ‘만년설’ 히말라야가 기후 변화로 인해 새로운 재앙을 맞았다. 거대한 빙하 호수가 터지면서 아래의 모든 것을 집어 삼키는 ‘빙하 쓰나미’. 뜨거워지는 지구의 다음 종착지 ‘빙하 쓰나미’는 지금 우리가 살고 있는 이 지구상에서 실제로 일어나고 있는 일이다.",
+      "q": "기후변화 특집 히말라야 대재앙 빙하 쓰나미 자막기후 변화로 인해 만년동안 녹지않은 히말라야의 설산이 녹고있다. 만년설이 녹으면서 생기는 홍수로 피해입는 사람들을 취재해본다. 남극, 북극 그리고 제3의 극 “히말라야”. 세계의 지붕 히말라야에선 지금 시한폭탄의 카운트다운이 시작됐다. ‘세계 인구 40% 식수원’, ‘만년설’ 히말라야가 기후 변화로 인해 새로운",
+      "summaryLength": 293,
+      "total": 14,
+      "candidates": [
+        {
+          "id": "6사02-01",
+          "score": 26.040995786380257,
+          "reason": "공식 문장에 ‘기후’ · ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후",
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사02-01",
+            "text": "우리나라의 계절별 기후 특징을 자료에서 탐구하고, 기후변화로 인한 자연재해의 심각성을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사10-02",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘기후’ 포함",
+          "matchedTerms": [
+            "기후"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사10-02",
+            "text": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4과16-01",
+          "score": 11.994602105007596,
+          "reason": "공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과16-01",
+            "text": "기후변화 현상의 예를 알고, 기후변화가 인간의 활동과 관련되어 있음을 토의할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과16-02",
+          "score": 11.994602105007596,
+          "reason": "공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과16-02",
+            "text": "기후변화의 심각성에 관심을 가지고, 기후변화가 우리 생활과 환경에 미치는 영향을 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과16-03",
+          "score": 11.994602105007596,
+          "reason": "공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과16-03",
+            "text": "기후변화 대응 방법을 조사하고, 생활 속에서 기후변화 대응 방법을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사10-02",
+            "text": "사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사02-02",
+            "text": "우리나라의 지역별 인구 분포의 특징을 알아보고, 이에 따른 문제점과 해결 방안을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사12-01",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사12-01",
+            "text": "세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "기후 변화",
+      "id": "BCAST-e62e352286bfdf0e7886",
+      "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+      "summary": "지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지.",
+      "q": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성 지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진,",
+      "summaryLength": 179,
+      "total": 29,
+      "candidates": [
+        {
+          "id": "6사10-02",
+          "score": 20.692865361757548,
+          "reason": "공식 문장에 ‘기후’ · ‘환경’ 포함",
+          "matchedTerms": [
+            "기후",
+            "환경"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사10-02",
+            "text": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4과11-04",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘지진’ 포함",
+          "matchedTerms": [
+            "지진"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과11-04",
+            "text": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사02-01",
+          "score": 16.04639368137266,
+          "reason": "공식 문장에 ‘기후’ 포함 / 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [
+            "기후"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사02-01",
+            "text": "우리나라의 계절별 기후 특징을 자료에서 탐구하고, 기후변화로 인한 자연재해의 심각성을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과06-01",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘기상’ 포함",
+          "matchedTerms": [
+            "기상"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과06-01",
+            "text": "기상 요소를 조사하고, 날씨가 우리 생활에 주는 영향을 인식할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과06-03",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘기상’ 포함",
+          "matchedTerms": [
+            "기상"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과06-03",
+            "text": "고기압과 저기압의 분포에 따른 날씨의 특징을 기상 요소로 표현할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과01-03",
+          "score": 13.550976785309766,
+          "reason": "공식 문장에 ‘환경’ · ‘지구’ 포함",
+          "matchedTerms": [
+            "환경",
+            "지구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과01-03",
+            "text": "화석의 생성 과정을 모형으로 설명하고, 지구의 과거 생물과 환경을 추리하는 활동을 통해 화석의 가치를 인식할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과04-01",
+          "score": 10.741276056255325,
+          "reason": "공식 문장에 ‘움직이’ 포함",
+          "matchedTerms": [
+            "움직이"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과04-01",
+            "text": "뼈와 근육의 생김새를 관찰하고 모형을 만들어 몸이 움직이는 원리를 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과14-04",
+          "score": 10.741276056255325,
+          "reason": "공식 문장에 ‘해결책’ 포함",
+          "matchedTerms": [
+            "해결책"
+          ],
+          "ruleSupported": true,
+          "standard": {
+            "id": "6과14-04",
+            "text": "연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "민주주의",
+      "id": "BCAST-6bf85a6bbbea59cc5bba",
+      "title": "민주주의 1부 시민의 권력의지",
+      "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+      "q": "민주주의 1부 시민의 권력의지 인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+      "summaryLength": 44,
+      "total": 17,
+      "candidates": [
+        {
+          "id": "9사(일사)03-03",
+          "score": 17.52897515534213,
+          "reason": "공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(일사)03-03",
+            "text": "현대 민주주의의 특징과 과제를 검토하고, 우리나라 민주주의의 발전을 위한 제도적 방안과 시민의 역할에 대해 토의한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "9사(일사)04-03",
+          "score": 17.52897515534213,
+          "reason": "공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(일사)04-03",
+            "text": "민주주의의 발전을 위한 지방 자치의 중요성을 설명하고, 지역사회의 문제를 해결하기 위한 시민 참여 활동을 계획한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "6사08-01",
+          "score": 14.205739315149689,
+          "reason": "공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": true,
+          "standard": {
+            "id": "6사08-01",
+            "text": "민주주의에서 선거의 의미와 역할을 파악하고, 시민의 주권 행사를 위해 선거에 참여하는 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4사02-01",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사02-01",
+            "text": "일상 속에서 시간의 흐름을 경험할 수 있는 사례를 살펴보고, 이를 바탕으로 역사의 시간 개념을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사02-03",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사02-03",
+            "text": "지역의 변화상을 보여주는 역사 자료를 분석하여 지역 사람들의 달라진 생활 모습을 파악한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사06-02",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사06-02",
+            "text": "지역의 박물관, 기념관, 유적지 등을 체험하고 지역의 역사를 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사09-02",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사09-02",
+            "text": "지역의 자연환경, 역사, 문화, 생산물 등을 알리려는 지역사회의 노력을 알고 관심을 갖는다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사08-01",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사08-01",
+            "text": "학교 자치 사례를 통하여 민주주의의 의미를 이해하고, 학교생활에서 민주주의를 실천하는 능력을 기른다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "민주주의",
+      "id": "BCAST-ce98e55c1c58597bfca3",
+      "title": "민주주의 4부 기업과 민주주의",
+      "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+      "q": "민주주의 4부 기업과 민주주의 인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+      "summaryLength": 44,
+      "total": 17,
+      "candidates": [
+        {
+          "id": "6사11-01",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘기업’ 포함",
+          "matchedTerms": [
+            "기업"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사11-01",
+            "text": "시장경제에서 가계와 기업의 역할을 이해하고, 근로자의 권리와 기업의 자유 및 사회적 책임을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4사02-01",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사02-01",
+            "text": "일상 속에서 시간의 흐름을 경험할 수 있는 사례를 살펴보고, 이를 바탕으로 역사의 시간 개념을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사02-03",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사02-03",
+            "text": "지역의 변화상을 보여주는 역사 자료를 분석하여 지역 사람들의 달라진 생활 모습을 파악한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사06-02",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사06-02",
+            "text": "지역의 박물관, 기념관, 유적지 등을 체험하고 지역의 역사를 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사09-02",
+          "score": 10.356757657387318,
+          "reason": "공식 문장에 ‘역사’ 포함",
+          "matchedTerms": [
+            "역사"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사09-02",
+            "text": "지역의 자연환경, 역사, 문화, 생산물 등을 알리려는 지역사회의 노력을 알고 관심을 갖는다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사08-01",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사08-01",
+            "text": "학교 자치 사례를 통하여 민주주의의 의미를 이해하고, 학교생활에서 민주주의를 실천하는 능력을 기른다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사08-02",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사08-02",
+            "text": "지역에서 이루어지는 민주주의 사례를 통해 주민 자치와 주민 참여의 중요성을 파악하고, 지역사회의 문제 해결에 참여하는 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사08-03",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사08-03",
+            "text": "민주주의에서 미디어의 의미와 역할을 이해하고, 여러 가지 미디어의 내용을 비판적으로 분석하여 올바르게 이용하는 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "다문화",
+      "id": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+      "q": "다 함께 자라요, 다문화 초등 교실 자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는,",
+      "summaryLength": 203,
+      "total": 2,
+      "candidates": [
+        {
+          "id": "6사12-02",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘지구촌’ 포함",
+          "matchedTerms": [
+            "지구촌"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사12-02",
+            "text": "지구촌을 위협하는 다양한 문제들을 파악하고, 지속가능한 미래를 위한 해결 방안을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "9사(지리)02-02",
+          "score": 2,
+          "reason": "기존 주제 어휘 다문화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(지리)02-02",
+            "text": "종교와 관련된 아시아의 다양한 문화경관과 생활양식을 파악하고, 세계시민으로서 문화 다양성에 대한 이해와 수용성을 높인다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        }
+      ]
+    },
+    {
+      "query": "다문화",
+      "id": "BCAST-0da6153d0ef4a3c2caa0",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가",
+      "summary": "과거 수많은 국가들은 민주주의와 복지 국가를 이루기 위해선 소수민족의 희생을 불가피한 일로 생각했다. 하지만 지난 50여 년에 걸쳐 <인권 혁명>을 비롯한 관점의 변화는 민족주의적 연대라는 핑계로 소수자를 희생해야 한다는 생각에 반감을 가져왔다. 그렇다면 다문화 민족국가 건설은 가능한 걸까? 지난 60년 사이 많은 국가들이 참여한 소위 ‘다문화주의 실험’은 어떤 결과를 가져왔을까? ",
+      "q": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가 과거 수많은 국가들은 민주주의와 복지 국가를 이루기 위해선 소수민족의 희생을 불가피한 일로 생각했다. 하지만 지난 50여 년에 걸쳐 <인권 혁명>을 비롯한 관점의 변화는 민족주의적 연대라는 핑계로 소수자를 희생해야 한다는 생각에 반감을 가져왔다. 그렇다면 다문화 민족국가 건설은 가능한 걸까?",
+      "summaryLength": 215,
+      "total": 25,
+      "candidates": [
+        {
+          "id": "4사02-02",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘과거’ 포함",
+          "matchedTerms": [
+            "과거"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사02-02",
+            "text": "오래된 물건이나 자료들을 주변에서 찾아보고, 이를 통해 과거의 모습을 살펴볼 수 있음을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사03-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사03-01",
+            "text": "일상 사례에서 법의 의미와 역할을 이해하고, 헌법에 규정된 인권이 일상생활에서 구현되는 사례를 조사하여 인권 친화적 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사03-02",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사03-02",
+            "text": "일상생활에서 인권이 침해되는 사례를 찾아 그 해결 방안을 탐색하고, 인권을 보호하는 활동에 참여한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "9사(일사)06-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(일사)06-01",
+            "text": "일상생활에서 인권이 침해되는 사례를 조사하고, 우리 헌법에 보장된 기본권의 종류를 탐색한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "4사08-01",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사08-01",
+            "text": "학교 자치 사례를 통하여 민주주의의 의미를 이해하고, 학교생활에서 민주주의를 실천하는 능력을 기른다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4사08-02",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사08-02",
+            "text": "지역에서 이루어지는 민주주의 사례를 통해 주민 자치와 주민 참여의 중요성을 파악하고, 지역사회의 문제 해결에 참여하는 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사08-03",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사08-03",
+            "text": "민주주의에서 미디어의 의미와 역할을 이해하고, 여러 가지 미디어의 내용을 비판적으로 분석하여 올바르게 이용하는 태도를 기른다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "9사(일사)03-01",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(일사)03-01",
+            "text": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의 의미와 필요성을 도출한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        }
+      ]
+    },
+    {
+      "query": "독립운동",
+      "id": "BCAST-2d093401c6622a3a2018",
+      "title": "어느 독립운동가 부부의 일기",
+      "summary": "1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+      "q": "어느 독립운동가 부부의 일기 1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+      "summaryLength": 94,
+      "total": 0,
+      "candidates": []
+    },
+    {
+      "query": "독립운동",
+      "id": "BCAST-468ae4bf5265da1006aa",
+      "title": "또 하나의 독립운동 - 2부 나라를 구하는데 귀천은 없다!",
+      "summary": "기생 독립운동에 앞장섰던 김향화, 현혜옥. 그리고 제주 해녀들의 독립운동 활동을 조명한다.",
+      "q": "또 하나의 독립운동 - 2부 나라를 구하는데 귀천은 없다! 기생 독립운동에 앞장섰던 김향화, 현혜옥. 그리고 제주 해녀들의 독립운동 활동을 조명한다.",
+      "summaryLength": 50,
+      "total": 0,
+      "candidates": []
+    },
+    {
+      "query": "인체",
+      "id": "BCAST-2f3a535e0d4903c63a21",
+      "title": "자막겨울, 몸속 노폐물 배출에 도움 주는 ‘해조류’",
+      "summary": "겨울, 우리의 면역력 강화는 물론 몸속 노폐물 배출을 책임져 주는 천연 영양제 해조류!<br>미네랄과 비타민이 풍부한 바다 채소 ‘미역’부터 몸속에 쌓인 유해 물질을 배출해 혈관 건강을 지켜주는 ‘파래’<br>그리고 남녀노소 누구나 즐겨 먹는 ‘김’까지! 각종 영양소가 풍부한 바닷속 천연 보약 ‘해조류’의 건강 상식과 집에서 더 맛있게 먹는 방법을 <일단 해봐요. 생방송 오후 1시>에서 공개한다.",
+      "q": "자막겨울, 몸속 노폐물 배출에 도움 주는 ‘해조류’ 겨울, 우리의 면역력 강화는 물론 몸속 노폐물 배출을 책임져 주는 천연 영양제 해조류!<br>미네랄과 비타민이 풍부한 바다 채소 ‘미역’부터 몸속에 쌓인 유해 물질을 배출해 혈관 건강을 지켜주는 ‘파래’<br>그리고 남녀노소 누구나 즐겨 먹는 ‘김’까지! 각종 영양소가 풍부한 바닷속 천연 보약 ‘해조류’의",
+      "summaryLength": 223,
+      "total": 27,
+      "candidates": [
+        {
+          "id": "4과06-01",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘바다’ 포함",
+          "matchedTerms": [
+            "바다"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과06-01",
+            "text": "지구가 대기로 둘러싸여 있음을 알고, 지구 표면을 구성하는 육지와 바다의 특징을 비교할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6과04-03",
+          "score": 12.741276056255325,
+          "reason": "공식 문장에 ‘건강’ 포함 / 기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [
+            "건강"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과04-03",
+            "text": "우리 몸의 여러 기관과 관련된 질병을 조사하고, 건강을 유지하기 위한 생활 방식을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4과05-01",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과05-01",
+            "text": "물체를 이루는 여러 가지 물질의 성질을 비교하고, 물질의 종류에 따라 물체를 분류할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과05-02",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과05-02",
+            "text": "물질의 세 가지 상태인 고체, 액체, 기체의 성질을 관찰하여 비교할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과05-03",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과05-03",
+            "text": "다양한 물질의 성질을 이용하여 쓰임새 있는 물체를 설계할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6과14-01",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과14-01",
+            "text": "물질의 성질이 달라지는 변화와 달라지지 않는 변화를 관찰하여 비교할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과14-02",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과14-02",
+            "text": "물질이 연소할 때 나타나는 공통적인 현상을 관찰하고, 연소의 조건을 찾을 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과14-03",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과14-03",
+            "text": "연소 전과 후의 물질을 비교하여 연소 과정에서 물질의 성질이 달라짐을 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "인체",
+      "id": "BCAST-fec3234717c50a22d199",
+      "title": "내 몸속의 돌, 결석",
+      "summary": "우리나라 인구 10명 중 1~1명은 갖고 있다는 몸속의 돌, 요로결석. 사람의 몸속에서 어떻게 돌이 생길 수 있으며 주의깊게 살펴보아야 할 증상, 그리고 최신 치료법을 알아보자.",
+      "q": "내 몸속의 돌, 결석 우리나라 인구 10명 중 1~1명은 갖고 있다는 몸속의 돌, 요로결석. 사람의 몸속에서 어떻게 돌이 생길 수 있으며 주의깊게 살펴보아야 할 증상, 그리고 최신 치료법을 알아보자.",
+      "summaryLength": 99,
+      "total": 7,
+      "candidates": [
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사10-02",
+            "text": "사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사02-02",
+            "text": "우리나라의 지역별 인구 분포의 특징을 알아보고, 이에 따른 문제점과 해결 방안을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사12-01",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사12-01",
+            "text": "세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "9사(지리)02-03",
+          "score": 7.559267634764801,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(지리)02-03",
+            "text": "아시아의 인구 특징을 파악하고 지역별 인구 구조 변화를 비교하여 지역 발전의 가능성 및 변화 모습을 추론한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "9사(지리)05-02",
+          "score": 7.559267634764801,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9사(지리)05-02",
+            "text": "다양한 민족(인종)으로 구성된 아메리카의 인구 특징을 살펴보고, 사례를 들어 아메리카의 문화 혼종성을 설명한다.",
+            "subject": "사회",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "6과04-02",
+          "score": 2,
+          "reason": "기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과04-02",
+            "text": "소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 우리 몸의 여러 기관이 서로 관련되어 있음을 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과04-03",
+          "score": 2,
+          "reason": "기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과04-03",
+            "text": "우리 몸의 여러 기관과 관련된 질병을 조사하고, 건강을 유지하기 위한 생활 방식을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "화산",
+      "id": "BCAST-c55fce5d55a4c0af8b22",
+      "title": "화산은 왜 폭발할까?",
+      "summary": "으아, 폭발한다! 시뻘건 불덩이가 터져 나오고, 엄청난 연기를 뿜어내는 화산! 화산 폭발로 멋진 자연이 만들어지기도 한다고? “화산에 대해 몰랐는데, 알았어!”",
+      "q": "화산은 왜 폭발할까? 으아, 폭발한다! 시뻘건 불덩이가 터져 나오고, 엄청난 연기를 뿜어내는 화산! 화산 폭발로 멋진 자연이 만들어지기도 한다고? “화산에 대해 몰랐는데, 알았어!”",
+      "summaryLength": 89,
+      "total": 2,
+      "candidates": [
+        {
+          "id": "4과11-02",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과11-02",
+            "text": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과11-04",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과11-04",
+            "text": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "화산",
+      "id": "BCAST-af19741ff313f1c6f411",
+      "title": "화산 곁에 사는 이유",
+      "summary": "인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+      "q": "화산 곁에 사는 이유 인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+      "summaryLength": 90,
+      "total": 20,
+      "candidates": [
+        {
+          "id": "4과11-02",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과11-02",
+            "text": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과11-04",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과11-04",
+            "text": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과14-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과14-01",
+            "text": "생태계의 구성 요소를 조사하여 생물 요소와 비생물 요소로 분류할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과14-03",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과14-03",
+            "text": "인간 활동이 생태계에 미치는 영향을 조사하고, 생태계 보전을 위해 우리가 할 수 있는 일을 토의하여 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6과14-04",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": true,
+          "standard": {
+            "id": "6과14-04",
+            "text": "연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4사10-02",
+            "text": "사례에서 도시의 인구, 교통, 산업 등의 특징을 탐구하고, 도시에서의 삶의 모습을 이해한다.",
+            "subject": "사회",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사02-02",
+            "text": "우리나라의 지역별 인구 분포의 특징을 알아보고, 이에 따른 문제점과 해결 방안을 탐색한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6사12-01",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6사12-01",
+            "text": "세계의 인구 분포를 파악하고 여러 국가의 인구 특징을 탐구한다.",
+            "subject": "사회",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    },
+    {
+      "query": "전기",
+      "id": "BCAST-35d03677c15100e1bb42",
+      "title": "32화_전기와 자기, 어떻게 하나가 되었나?",
+      "summary": "전혀 다른 힘이라고 여겨졌던 전기와 자기, 사실은 하나였다?! 전기와 자기 현상은 어떻게 발견됐으며, 각각의 힘은 어떤 원리로 작동하는 걸까? <취미는 과학> 최초 실험 공개! 실험물리학자 김갑진 교수의 생생한 실험을 통해 전자기학의 비밀을 파헤쳐 본다.",
+      "q": "32화_전기와 자기, 어떻게 하나가 되었나? 전혀 다른 힘이라고 여겨졌던 전기와 자기, 사실은 하나였다?! 전기와 자기 현상은 어떻게 발견됐으며, 각각의 힘은 어떤 원리로 작동하는 걸까? <취미는 과학> 최초 실험 공개! 실험물리학자 김갑진 교수의 생생한 실험을 통해 전자기학의 비밀을 파헤쳐 본다.",
+      "summaryLength": 142,
+      "total": 28,
+      "candidates": [
+        {
+          "id": "4과01-01",
+          "score": 16.84201449018502,
+          "reason": "공식 문장에 ‘현상’ · ‘힘’ 포함",
+          "matchedTerms": [
+            "현상",
+            "힘"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과01-01",
+            "text": "일상생활에서 힘과 관련된 현상에 흥미를 갖고, 물체를 밀거나 당길 때 나타나는 현상을 관찰할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "4과09-01",
+          "score": 13.240146413060712,
+          "reason": "공식 문장에 ‘현상’ · ‘힘’ 포함",
+          "matchedTerms": [
+            "현상",
+            "힘"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과09-01",
+            "text": "자석과 여러 가지 물체를 가까이했을 때 나타나는 현상을 관찰하고, 자석과 자석에 붙는 물체 사이에 작용하는 힘의 특징을 말할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "6과15-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-01",
+            "text": "전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과15-02",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-02",
+            "text": "전지 한 개를 연결한 전기 회로와 전지 두 개를 직렬연결한 전기 회로의 특징을 비교할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과15-04",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-04",
+            "text": "전기를 효율적이고 안전하게 사용하는 방법을 조사하여 실천 계획을 세우고 일상생활에서 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "4과01-04",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "4과01-04",
+            "text": "지레, 빗면과 같은 도구를 이용하면 물체를 들어 올릴 때 드는 힘의 크기가 달라짐을 알고, 도구가 일상생활에서 어떻게 쓰이는지 조사하여 공유할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary34",
+            "courseLabel": "초등 3~4학년군"
+          }
+        },
+        {
+          "id": "9과05-01",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9과05-01",
+            "text": "물체에 작용하는 힘을 화살표를 이용하여 나타내고, 힘의 평형을 이루는 조건을 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        },
+        {
+          "id": "9과05-02",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "9과05-02",
+            "text": "중력, 탄성력, 마찰력, 부력을 이해하고, 각 힘의 특징을 크기와 방향으로 설명할 수 있다.",
+            "subject": "과학",
+            "courseId": "middle1",
+            "courseLabel": "중학교 1학년"
+          }
+        }
+      ]
+    },
+    {
+      "query": "전기",
+      "id": "BCAST-50097e29c7678df133ee",
+      "title": "전기가 어떻게 우리 집에 올까? 딩동",
+      "summary": "딩동고와 함께 전기가 우리 집까지 오는 과정에 대해 알아본다. 발전기에서 만들어진 전기가 송전탑을 통해 집까지 오는 과정을 살펴본다.",
+      "q": "전기가 어떻게 우리 집에 올까? 딩동 딩동고와 함께 전기가 우리 집까지 오는 과정에 대해 알아본다. 발전기에서 만들어진 전기가 송전탑을 통해 집까지 오는 과정을 살펴본다.",
+      "summaryLength": 74,
+      "total": 5,
+      "candidates": [
+        {
+          "id": "6과15-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-01",
+            "text": "전지와 전구, 전선을 연결하여 전구에 불을 켜보고, 불이 켜지는 전기 회로의 특징을 말할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과15-02",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-02",
+            "text": "전지 한 개를 연결한 전기 회로와 전지 두 개를 직렬연결한 전기 회로의 특징을 비교할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과15-04",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과15-04",
+            "text": "전기를 효율적이고 안전하게 사용하는 방법을 조사하여 실천 계획을 세우고 일상생활에서 실천할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과08-02",
+          "score": 2,
+          "reason": "기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과08-02",
+            "text": "재생에너지의 종류를 조사하고, 에너지를 지속가능하게 이용하는 방법에 관심을 갖는다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        },
+        {
+          "id": "6과08-03",
+          "score": 2,
+          "reason": "기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "standard": {
+            "id": "6과08-03",
+            "text": "자원과 에너지의 효율적인 이용 방법에 대해 탐색하고, 생활 속에서 실천할 수 있는 다양한 사례를 공유할 수 있다.",
+            "subject": "과학",
+            "courseId": "elementary56",
+            "courseLabel": "초등 5~6학년군"
+          }
+        }
+      ]
+    }
+  ]
+}

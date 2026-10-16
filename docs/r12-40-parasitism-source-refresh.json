@@ -1,0 +1,100 @@
+{
+  "applied": true,
+  "startedAt": "2026-10-16T06:47:46.295Z",
+  "rows": [
+    {
+      "seriesId": "DP-60055952",
+      "title": "기생",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055952",
+      "responseHash": "dde5f3736877ec6773d85ff7c16ba6845f5a8b9e01290d752b3a2997de1b4274",
+      "episodes": [
+        {
+          "id": "BCAST-2067e9a33ac5b53b8490",
+          "title": "기생 4부 - 기생, 그리고 사람들",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10137627",
+          "descriptionLength": 486,
+          "enrichment": {
+            "id": "BCAST-2067e9a33ac5b53b8490",
+            "status": "UNCHANGED"
+          }
+        },
+        {
+          "id": "BCAST-50abc97bd882627b81f4",
+          "title": "기생 3부 - 대결에서 공존으로",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10137097",
+          "descriptionLength": 1500,
+          "enrichment": {
+            "id": "BCAST-50abc97bd882627b81f4",
+            "status": "UNCHANGED"
+          }
+        },
+        {
+          "id": "BCAST-0a0cab4e3ddd4613aed9",
+          "title": "기생 2부 - 끝없는 대결",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136934",
+          "descriptionLength": 1512,
+          "enrichment": {
+            "id": "BCAST-0a0cab4e3ddd4613aed9",
+            "status": "UNCHANGED"
+          }
+        },
+        {
+          "id": "BCAST-b35d0be0fa6ebdb063ed",
+          "title": "기생 1부 - 보이지 않는 손",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136540",
+          "descriptionLength": 1452,
+          "enrichment": {
+            "id": "BCAST-b35d0be0fa6ebdb063ed",
+            "status": "UNCHANGED"
+          }
+        }
+      ],
+      "added": 4
+    },
+    {
+      "seriesId": "DP-60055761",
+      "title": "생명의 전략, 기생",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055761",
+      "responseHash": "7568a1e39699f237b8dfe57e5a7b1fee8314ae43d3ee93b9bc3217a45105881c",
+      "episodes": [
+        {
+          "id": "BCAST-d346f3468d29c4e74ee2",
+          "title": "<생명의 전략, 기생> 제3부 - 나는 우리다",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60317196",
+          "descriptionLength": 109,
+          "enrichment": {
+            "id": "BCAST-d346f3468d29c4e74ee2",
+            "status": "UNCHANGED"
+          }
+        },
+        {
+          "id": "BCAST-d66dfffeafe7eaaeb2bd",
+          "title": "<생명의 전략, 기생> 제2부 - 적과의 동행",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60316750",
+          "descriptionLength": 88,
+          "enrichment": {
+            "id": "BCAST-d66dfffeafe7eaaeb2bd",
+            "status": "UPDATED",
+            "previousLength": 92,
+            "currentLength": 88,
+            "sourceKind": "OFFICIAL_LIST_ITEM"
+          }
+        },
+        {
+          "id": "BCAST-52add5515810a0979368",
+          "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60315447",
+          "descriptionLength": 57,
+          "enrichment": {
+            "id": "BCAST-52add5515810a0979368",
+            "status": "UNCHANGED"
+          }
+        }
+      ],
+      "added": 0
+    }
+  ],
+  "paidApiCalls": 0,
+  "whole370Test": "NOT_RUN_USER_INSTRUCTION",
+  "backup": "/var/folders/wm/l9tk7yz11kg2l7twp0gr96r40000gn/T/curi-series-before-1792133266299.sqlite"
+}

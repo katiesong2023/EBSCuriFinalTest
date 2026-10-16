@@ -1,0 +1,350 @@
+{
+  "runAt": "2026-10-15T09:23:36.199Z",
+  "scope": "실패 원인 분리용 별도 진단. 수정·축약 검색은 원래200문장의 성적에 포함하지 않는다. 제거한 조건의 충족을 의미하지 않는다.",
+  "paidApiCalls": 0,
+  "rows": [
+    {
+      "id": "Q015",
+      "query": "희소성",
+      "change": "오타를 바꾸고 설명 요청 문구 생략",
+      "total": 0,
+      "latencyMs": 3555,
+      "top5": []
+    },
+    {
+      "id": "Q046",
+      "query": "정약용 거중기",
+      "change": "인명 오타만 수정",
+      "total": 1,
+      "latencyMs": 1525,
+      "top5": [
+        {
+          "id": "BCAST-c262997b930ae52d1701",
+          "title": "정약용의 거중기",
+          "summary": "띠띠형 빵빵형과 함께 떠나는 신나는 체험여행. 정역용 생가를 찾아 거중기의 의미를 알아보러 떠난다.",
+          "program": "딩동댕 유치원",
+          "kind": "episode",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000009&lectId=3070575&stepId=01BA0AA000000000009"
+        }
+      ]
+    },
+    {
+      "id": "Q089",
+      "query": "문화접변",
+      "change": "오타 수정·예시 요청 문구 생략",
+      "total": 0,
+      "latencyMs": 1483,
+      "top5": []
+    },
+    {
+      "id": "Q110",
+      "query": "나침반 실험",
+      "change": "오타 수정·만드는 문구 생략",
+      "total": 0,
+      "latencyMs": 767,
+      "top5": []
+    },
+    {
+      "id": "Q158",
+      "query": "기체 압력과 부피",
+      "change": "오타만 수정",
+      "total": 0,
+      "latencyMs": 885,
+      "top5": []
+    },
+    {
+      "id": "Q160",
+      "query": "광합성 실험 영상",
+      "change": "오타만 수정",
+      "total": 0,
+      "latencyMs": 1529,
+      "top5": []
+    },
+    {
+      "id": "Q188",
+      "query": "융해열 응고열",
+      "change": "오타 수정·예시 요청 생략",
+      "total": 0,
+      "latencyMs": 945,
+      "top5": []
+    },
+    {
+      "id": "Q023",
+      "query": "다문화 가정",
+      "change": "이웃 조건 생략",
+      "total": 13,
+      "latencyMs": 2358,
+      "top5": [
+        {
+          "id": "BCAST-e338391ea6f4ef309dae",
+          "title": "무지갯빛 말레이시아의 골목대장 자매들!",
+          "summary": "동남아시아의 허브이자 다양한 민족과 문화가 공생하는 나라, 말레이시아! 다문화 국가 답게, 다국적의 사람들이 함께 살고 있다는 가족들의 아파트! 이웃들과 자연스럽게 공동 육아를 하게 된 이들의 독특한 생활 모습부터 말레이시아에서 맞이하는 이색적인 설날까지 매일 새로운 문화를 체험할 수 있는 진정한 다문화의 현장, 말레이시아에서 살아가는 자매들의 특별한 일상을 함께 만나보자!",
+          "program": "왔다! 내 손주",
+          "kind": "episode",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40049158&lectId=60576203&stepId=60053173"
+        },
+        {
+          "id": "BCAST-322dd97de14b1f057dc9",
+          "title": "말하지 않아도 알아요",
+          "summary": "이민자 가정에서 자란 작가 '숀 탠'이 만든 어느 낯선 나라 이야기",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20382039"
+        },
+        {
+          "id": "BCAST-cd589d033d8827a6686b",
+          "title": "\"우리 제법 친해졌어요\" 가깝고도 먼 한-태 가족의 7일",
+          "summary": "<왔다! 내 손주> 최초! 비즈니스 클래스 타고 한국에 온 손주들. 오랜만에 할머니, 할아버지와 상봉해 경기도 안양시에 있는 조부모님 집으로 향한다. 그런데 상봉의 기쁨도 잠시…. 집에 도착하자마자 “김밥!”을 요구하는 첫째 유민이! 하지만 아이들이 규칙적으로 하루를 보내길 바라는 태국인 엄마는 “No!”를 외치며 잠자리에 들라 말하고, 할머니는 내 새끼 입에 당장이라도 김밥을 넣어주고 싶은 마음이 굴뚝 같다.",
+          "program": "왔다! 내 손주",
+          "kind": "episode",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40049158&lectId=60474326&stepId=60053173"
+        },
+        {
+          "id": "BCAST-107f948b47dae5b1b271",
+          "title": "네팔 아빠의 두 번째 코리안 드림",
+          "summary": "빚을 청산하기 위해 다시 한국을 찾은 네팔 아빠 다울리야 디네쉬. 잔업까지 마다않고 억척같이 돈을 모으느라 2년 동안 가족들을 만나지 못했다. 아이들은 아빠에 대한 그리움으로 하루하루를 버티고 있다. 아빠를 찾아 한국으로 온 아디릉느 무사히 아빠를 만날 수 있을까",
+          "program": "글로벌 아빠찾아 삼만리",
+          "kind": "episode",
+          "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10016937&stepId=60058018&lectId=60706124"
+        },
+        {
+          "id": "BCAST-3d6cb8856631ef642ce6",
+          "title": "뭘 타고 떠나볼까~ 2부 꽃누나의 질주",
+          "summary": "177cm의 큰 키, 은빛 머리칼을 흩날리며 웅장한 배기음과 함께 오토바이를 타고 등장한 그녀! 올해로 66세의 나이, 전직 배구선수로 여전한 건강미를 뽐내는 그녀의 이름은 배선원 씨. 젊은 시절부터 남다른 취미를 즐겼다는데 그중 절대 빼놓을 수 없는 것이 공수도와 오토바이다. 이런 카리스마 넘치는 모습 이면에 섬세한 프로 살림꾼의 면모까지 겸비한 반전 매력의 소유자다. 미국인 남편 데이빗 블랙 씨와 함께 경기도 평택에 보금자리를 꾸몄다. 열혈 라이더 부부의 일상부터 가을맞이 여행까지 함께 떠나보자. ",
+          "program": "한국기행",
+          "kind": "episode",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60523454"
+        }
+      ]
+    },
+    {
+      "id": "Q038",
+      "query": "지식채널e 인권",
+      "change": "관련 편 요청 문구 생략",
+      "total": 27,
+      "latencyMs": 2060,
+      "top5": [
+        {
+          "id": "BCAST-7c5470496fdc6b9adbb1",
+          "title": "먼지 같은 차별도 있습니다",
+          "summary": "고등학생의 흑인 장례식 패러디 사진이 큰 논란을 불러일으켰다. 분명 상대를 비하하려는 의도는 아니었지만, 일상생활에서 자주 발견되는 '미세한 차별' '미세한 차별'은 2015년 옥스퍼드 사전에 등재될 정도다. '미세한 차별'을 연구하는 데럴드 윙 수 교수는 일상생활에서 '미세한 중재 전략'을 제시한다.",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20354609"
+        },
+        {
+          "id": "BCAST-7237e22384453e542437",
+          "title": "모두의 차별",
+          "summary": "대기업 회사원 성 소수자 김씨, 고학력자 중증 장애인 이씨. 모든 사람은 바라보는 기준에 따라 사회의 주류로 특권을 누리기도, 소수자로 차별을 받기도 한다. 이러한 복합적인 정체성을 사람들은 인지하지 못하고 자신을 향한 차별에만 분노하는 상대적 차별 감수성에 대해 이야기한다.<br>",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20404586"
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "summary": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다. 일명 ‘Intro. 209-A’. 직장 채용 시 키나 몸무게로 차별받는 것을 금지하는 조례다. 조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다. 국민을 대상으로 한 헌법이나 법률과는 달리, 각 지역의 특성을 고려해 지역 현안을 해결하기 때문에 우리의 삶과 맞닿아 있다. 약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례. 이뿐만 아니라 전국 곳곳에서 지역과 지역민의 삶을 바꿔 가는 작은 시도와 변화들은, 지방의회가 가진 조례의 힘이다.",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+        },
+        {
+          "id": "BCAST-cdd947c3da286f72854a",
+          "title": "당신의 튜브 3부- 새로운 노동자의 탄생",
+          "summary": "흥미를 유발하는 별난 콘텐츠. 그 안에 속해 있는 아이와 동물. 보기만 해도 귀엽고 사랑받는 존재이다. 하지만 더 큰 관심을 받기 위해선 항상 새로운 모습으로 나타난다. '좋아요' 앞에서 흔들리는 인권, 동물권. 이들은 누가 보호해줄 것인가.",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20308720"
+        },
+        {
+          "id": "BCAST-616ff468b33c8a32c3e3",
+          "title": "[공고에서 만나] 1부 수업을 시작하겠습니다",
+          "summary": "세상의 차별과 편견에 정면으로 맞서며, 아이들이 ‘바른 사회인’으로 성장할 수 있도록 든든한 어른의 역할을 해내고 있는 지한구 교사의 이야기를 조명한다. 그가 보여주는 진정한 교육의 가치와 아이들을 바라보는 따뜻한 시선이, 우리 곁을 다시 돌아보게 하는 뜻깊은 시간으로 이어질 수 있기를 기대한다.",
+          "program": "지식채널e",
+          "kind": "episode",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+        }
+      ]
+    },
+    {
+      "id": "Q052",
+      "query": "민주주의",
+      "change": "학년·설명하기 좋은 자료 요청 문구 생략",
+      "total": 32,
+      "latencyMs": 1924,
+      "top5": [
+        {
+          "id": "BCAST-6bf85a6bbbea59cc5bba",
+          "title": "민주주의 1부 시민의 권력의지",
+          "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055878&lectId=10515302"
+        },
+        {
+          "id": "BCAST-ce98e55c1c58597bfca3",
+          "title": "민주주의 4부 기업과 민주주의",
+          "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055878&lectId=10518401"
+        },
+        {
+          "id": "BCAST-9b68881971b88b0d3915",
+          "title": "민주주의 3부 민주주의가 우선한다",
+          "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055878&lectId=10515822"
+        },
+        {
+          "id": "BCAST-64c002f7b8f4402a44f2",
+          "title": "민주주의 5부 민주주의의 미래",
+          "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055878&lectId=10518677"
+        },
+        {
+          "id": "BCAST-c1a279dcb17b7743652c",
+          "title": "민주주의 2부 민주주의의 엔진, 갈등",
+          "summary": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055878&lectId=10515572"
+        }
+      ]
+    },
+    {
+      "id": "Q100",
+      "query": "기후 변화 섬나라",
+      "change": "사라지는 관계·짧은 길이 조건 생략",
+      "total": 1,
+      "latencyMs": 1851,
+      "top5": [
+        {
+          "id": "BCAST-80609d9c7bd32e4368e7",
+          "title": "기후변화, 투발루의 증언",
+          "summary": "자막투발루의 환경문제를 통해 기후변화를 말한다",
+          "program": "하나뿐인 지구",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10103252"
+        }
+      ]
+    },
+    {
+      "id": "Q131",
+      "query": "동물 위장",
+      "change": "흥미·대상·영상 요청 문구 생략",
+      "total": 0,
+      "latencyMs": 1455,
+      "top5": []
+    },
+    {
+      "id": "Q145",
+      "query": "생태계 다큐",
+      "change": "다양한 생물 관계·보여주는 요청 문구 생략",
+      "total": 119,
+      "latencyMs": 1943,
+      "top5": [
+        {
+          "id": "BCAST-dd060f979621467815fd",
+          "title": "생태 덕후-그들만의 세상",
+          "summary": "자막우린 생태계에 빠져있다 ! 생태계와 더불어 사는 삶의 방식에 흠뿍빠진 사람들! 그들을 통해 자연의 소중함과 우리가 모르는 또다른 자연친화적인 삶에 대해 알아본다",
+          "program": "하나뿐인 지구",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10578960"
+        },
+        {
+          "id": "BCAST-f64372d89f97ccaffff4",
+          "title": "원시의 생태계, 진동계곡",
+          "summary": "우리나라에서 가장 생태계가 잘 보존된 진동계곡을 소개",
+          "program": "하나뿐인 지구",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3111534"
+        },
+        {
+          "id": "BCAST-565369a14a195c62da91",
+          "title": "생태계의 보고 동강을 다시 보다",
+          "summary": "댐 재추진이 예정되어 있는 동강의 생태와 사람들의 모습을 통해 자연과 인간의 관계를 재정립해본다.",
+          "program": "하나뿐인 지구",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3062049"
+        },
+        {
+          "id": "BCAST-682fdb95b47ec57743bf",
+          "title": "진화의 신비, 독(毒) - 2부 교란된 독(毒)의 생태계",
+          "summary": "독을 가진 생물이라도 한 번에 생태계의 꼭대기로 올라갈 수 있는 것은 아니다. 독으로도 절대 극복할 수 없는 물리적인 격차도 있다. 그 중에서도 가장 거대한 생태계 교란자는 바로 사람이다.",
+          "program": "EBS 다큐프라임",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055770&lectId=10311364"
+        },
+        {
+          "id": "BCAST-6036d1f21fa7e904709c",
+          "title": "물이 만든 풍경",
+          "summary": "세계 물의 날<br>물은 생명을 잉태한다. 물이 있어 건강한 생태계가 유지되는 현장을 들여다 본다.",
+          "program": "하나뿐인 지구",
+          "kind": "episode",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10100525"
+        }
+      ]
+    },
+    {
+      "id": "Q172",
+      "query": "호흡",
+      "change": "질문 문장을 대표 개념으로 축약",
+      "total": 33,
+      "latencyMs": 1505,
+      "top5": [
+        {
+          "id": "BCAST-454fab7ea4f8eb86aaf0",
+          "title": "척추를 펴고, 호흡을 열어라",
+          "summary": "호흡에도 재활이 있다! 근육병 환자에게 숨을 불어 넣어주는 호흡재활! 그리고 더 나은 삶의 질은 제공하기 위한 수술! 강성웅 교수와 김학선 교수 환상의 호흡. 두 명의를 통해 근육병을 심도있게 알아보자.<br><br>환자를 위해 의사들이 뭉쳤다!<br> <br>  떼래야 뗄 수 없는 사이의 두 명의가 있다. 친해서가 아니다. 서로 도움을 주고받아야만 환자를 치료할 수가 있다. 정형외과 김학선 교수와 재활의학과 강성웅 교수는 근육병 재활치료의 세계적 권위자다. 온몸의 근육이 소실돼 마침내 숨이 멎는 근육병 환자들에게 새 삶을 불어넣기 위해서는 두 사람의 협진이 필요하다. 뼈가 무너져 앉을 수 없는 이들에게 김학선 교수의 척추수술이 필요하고, 호흡이 어려운 이들에게는 강성웅 교수의 호흡재활 훈련이 필요하다.<br> <br>  척추가 무너지고 호흡근육이 마비되어 의학 교과서에 수명이 20년 정도로 알려진 근육병. 두 명의의 협진으로 환자들은 40대를 넘기는 삶을 누릴 수 있게 됐다. 무너진 척추를 세워 학교를 다니고 직장을 구할 수 있게 됐고, 꺼져가는 호흡을 살려 미래를 설계할 수 있게 됐다. 두 명의와 함께 절망을 희망으로 바꾸는 길에 동행한다.",
+          "program": "명의",
+          "kind": "episode",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=10198182"
+        },
+        {
+          "id": "BCAST-914970305627ae6138e2",
+          "title": "자막호흡과 명상으로 마음건강 가꾸기",
+          "summary": "(단위체조) 호흡, 전신이완, 전신호흡, 두뇌호흡",
+          "program": "뇌가 젊어지는 체조",
+          "kind": "episode",
+          "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10207940&stepId=20010654&lectId=20451031"
+        },
+        {
+          "id": "BCAST-07ed79ae8fece40c05ff",
+          "title": "호흡기 질환 비상! 기침과 가래가 보내는 SOS",
+          "summary": "날씨가 추워지면서 코로나, 독감 등 호흡기 질환을 겪는 환자들이 급증하고 있다. 항상제나 해열제가 잘 듣지 않는 마이코 플라즈마 폐렴 환자까지 늘고 있어서 주의가 필요한 이번 겨울! <br><br>호흡기 질환 권위자이자, 30년 간 호흡기 질환 환자들의 곁을 지켜온 서울 아산병원 호흡기내과 전문의 오연목 교수, 만성 호흡기 질환 진료와 연구에 매진하며, 환자들의 작은 호흡 소리까지 놓치지 않으려고 늘 애쓰고 계신 서울 아산병원 호흡기 내과 전문의 이세원 교수와 함께, 지금 당신도 호흡기가 보내는 질환의 신호를 놓치고 있지는 않은지 알아보자! ",
+          "program": "명의",
+          "kind": "episode",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=60428687"
+        },
+        {
+          "id": "BCAST-03c36018aa8cc5093e1f",
+          "title": "목숨을 위협하는 숨",
+          "summary": "인간의 중요한 부분인 호흡, 건강한 호흡을 방해하는 병인 copd와 천식이 현대인의 호흡에 위협을 주고 있다. 건강한 호흡과 건강한 폐를 위해 한림대성심병원 정기석 교수가 말하는 건강한 호흡관리를 알아본다.",
+          "program": "명의",
+          "kind": "episode",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=20151283"
+        },
+        {
+          "id": "BCAST-3213958d4d198a217538",
+          "title": "다시, 숨 쉬다 - 재활의학과 전문의 강성웅 교수",
+          "summary": "재활치료 방법을 적극적으로 활용하면 환자의 호흡 질환 증상을 좀더 빨리 완화시키고 합병증을 예방하여 환자의 실질 생활 능력을 향상시킬 수 있다. 강성웅 교수의 호흡재활학에 대해 알아본다.",
+          "program": "명의",
+          "kind": "episode",
+          "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3048392"
+        }
+      ]
+    },
+    {
+      "id": "Q005",
+      "query": "옛날 빨래",
+      "change": "사람·방법 질문 문구 생략",
+      "total": 0,
+      "latencyMs": 1428,
+      "top5": []
+    }
+  ]
+}

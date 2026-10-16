@@ -1,0 +1,836 @@
+{
+  "date": "2026-10-14",
+  "scope": "current read-only catalog; historical official HTTP verification not rerun",
+  "prior12CurrentRows": [
+    {
+      "id": "BCAST-0b7ff14710d2df1732ca",
+      "caseId": "H03",
+      "title": "사자왕이 간다오늘의 클래식 동요, 동물의 사육제",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-24cb7586692e2a707640",
+      "caseId": "H04",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-2d032ce4b233bfe29ceb",
+      "caseId": "H04",
+      "title": "힘센 내 자석",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-332fbd405c5ad9b47bee",
+      "caseId": "H04",
+      "title": "신기한 자석 놀이",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-070518ce0f686b0a0f8c",
+      "caseId": "H05",
+      "title": "생활 금속 공장 1부",
+      "statusAtPriorAudit": "DETAIL_TEXT_STILL_INSUFFICIENT",
+      "previousStoredSummary": "자막생활 금속 공장 1부",
+      "currentSummary": "자막생활 금속 공장 1부",
+      "currentQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "HELD",
+        "code": "SOURCE_TEXT_TOO_THIN",
+        "message": "짧은 내용 설명이 있으나 상세 연계에 필요한 최소 원문이 부족합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-09bf4f4792c629db0ec4",
+      "caseId": "H05",
+      "title": "방글라데시 가죽공장 1부",
+      "statusAtPriorAudit": "DETAIL_UNCHANGED_INSUFFICIENT",
+      "previousStoredSummary": "방글라데시 가죽공장 1부",
+      "currentSummary": "방글라데시 가죽공장 1부",
+      "currentQuality": {
+        "category": "repeated",
+        "label": "제목 반복",
+        "version": "source-text-v3",
+        "rank": 1,
+        "status": "HELD",
+        "code": "TITLE_REPEATED",
+        "message": "소개문이 제목의 반복이므로 상세 연계를 보류합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-2d093401c6622a3a2018",
+      "caseId": "H06",
+      "title": "어느 독립운동가 부부의 일기",
+      "statusAtPriorAudit": "RECOVERABLE_COLLECTION_GAP",
+      "previousStoredSummary": "어느 독립운동가 부부의 일기",
+      "currentSummary": "1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+      "currentQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "descriptionChangedSinceAudit": true,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-a9724a68de2228ab9f0d",
+      "caseId": "H07",
+      "title": "봄맞이 인테리어, 천연 소재로 건강을 잡아라!",
+      "statusAtPriorAudit": "RECOVERABLE_COLLECTION_GAP",
+      "previousStoredSummary": "자막봄맞이 인테리어, 천연 소재로 건강을 잡아라!",
+      "currentSummary": "인테리어의 성수기인 봄이 돌아왔다. 인테리어도 유해 물질이 적고, 피부질환이나 호흡기 질환 등 건강에 도움이 되는 천연 소재들이 선호되고 있다. 편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다",
+      "currentQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "descriptionChangedSinceAudit": true,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-07b8b46343e67388b36a",
+      "caseId": "H10",
+      "title": "위화 - [인사이드 차이나 - 문화] 2강 중국은 왜 축구를 못할까",
+      "statusAtPriorAudit": "RECOVERABLE_COLLECTION_GAP",
+      "previousStoredSummary": "자막위화 - [인사이드 차이나 - 문화] 2강 중국은 왜 축구를 못할까",
+      "currentSummary": "1980년대부터 축구 경기를 보기 시작해 지금도 열렬한 축구팬이라는 위화. 강연 촬영이 있었던 2022년 12월 19일에도 채 식지 않은 월드컵의 열기와 함께 관전평을 쏟아냈다. 중국 축구팬들은 본선 무대에 오른 아시아팀들을 응원하며 자국 대표팀의 예선 탈락의 아쉬움을 달랬다고 한다. 그런데, 중국은 왜 축구를 못하는 걸까? 위화는 중국 축구는 삼류라며 독설을 날린다. 그리고 중국이 축구를 못 할 수밖에 없는 분명한 이유가 있다고 지적하는데... 과연 중국 축구에는 희망이 있을까? <br>",
+      "currentQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "descriptionChangedSinceAudit": true,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-03936ad26b0793250d0e",
+      "caseId": "H12",
+      "title": "69화 물에 O 탄 것 같다",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-0b137ace4edf72dc23f0",
+      "caseId": "H12",
+      "title": "[판소리] 판소리 심청가 중 <심청이 물에 빠지는 대목> 레슨 - 판소리 정희석",
+      "statusAtPriorAudit": "RECOVERABLE_COLLECTION_GAP",
+      "previousStoredSummary": "",
+      "currentSummary": "서울대 음대 국악과 정희석 교수의 <판소리 심청가 중 심청이 물에 빠지는 대목> 레슨입니다.",
+      "currentQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "descriptionChangedSinceAudit": true,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    },
+    {
+      "id": "BCAST-1870571a4c8023ee97f0",
+      "caseId": "H12",
+      "title": "물에 젖지 않게 편지 쓰는 방법",
+      "statusAtPriorAudit": "IDENTITY_UNCONFIRMED",
+      "previousStoredSummary": "",
+      "currentSummary": "",
+      "currentQuality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "descriptionChangedSinceAudit": false,
+      "priorAuditPath": "docs/r07-20-source-gap-audit.json"
+    }
+  ],
+  "programs": [
+    {
+      "program": "딩동댕 유치원",
+      "total": 2855,
+      "minimum": 20,
+      "none": 2835
+    },
+    {
+      "program": "지식채널e",
+      "total": 2798,
+      "minimum": 2564,
+      "none": 4
+    },
+    {
+      "program": "위대한 수업, 그레이트 마인즈",
+      "total": 1600,
+      "minimum": 2,
+      "none": 0
+    },
+    {
+      "program": "최고의 요리비결",
+      "total": 1600,
+      "minimum": 0,
+      "none": 0
+    },
+    {
+      "program": "한국기행",
+      "total": 1261,
+      "minimum": 41,
+      "none": 1209
+    },
+    {
+      "program": "EBS 다큐프라임",
+      "total": 1040,
+      "minimum": 599,
+      "none": 407
+    },
+    {
+      "program": "명의",
+      "total": 974,
+      "minimum": 0,
+      "none": 974
+    },
+    {
+      "program": "극한 직업",
+      "total": 924,
+      "minimum": 1,
+      "none": 0
+    },
+    {
+      "program": "방귀대장 뿡뿡이",
+      "total": 885,
+      "minimum": 20,
+      "none": 865
+    },
+    {
+      "program": "모여라 딩동댕",
+      "total": 638,
+      "minimum": 20,
+      "none": 618
+    },
+    {
+      "program": "다큐 오늘",
+      "total": 559,
+      "minimum": 112,
+      "none": 20
+    },
+    {
+      "program": "우리집 유치원",
+      "total": 556,
+      "minimum": 0,
+      "none": 536
+    },
+    {
+      "program": "세계테마기행",
+      "total": 469,
+      "minimum": 21,
+      "none": 448
+    },
+    {
+      "program": "한글용사 아이야",
+      "total": 389,
+      "minimum": 20,
+      "none": 369
+    },
+    {
+      "program": "EBS 캠페인",
+      "total": 371,
+      "minimum": 0,
+      "none": 371
+    },
+    {
+      "program": "생방송 뭐든지 해결단",
+      "total": 352,
+      "minimum": 17,
+      "none": 332
+    },
+    {
+      "program": "고향민국",
+      "total": 344,
+      "minimum": 10,
+      "none": 334
+    },
+    {
+      "program": "하나뿐인 지구",
+      "total": 325,
+      "minimum": 285,
+      "none": 5
+    },
+    {
+      "program": "딩동댕 딩동댕",
+      "total": 322,
+      "minimum": 20,
+      "none": 302
+    },
+    {
+      "program": "생방송 톡! 톡! 보니 하니",
+      "total": 297,
+      "minimum": 20,
+      "none": 277
+    },
+    {
+      "program": "역사채널e",
+      "total": 263,
+      "minimum": 2,
+      "none": 0
+    },
+    {
+      "program": "서울대 음대 레슨노트",
+      "total": 255,
+      "minimum": 1,
+      "none": 254
+    },
+    {
+      "program": "고양이를 부탁해",
+      "total": 214,
+      "minimum": 0,
+      "none": 214
+    },
+    {
+      "program": "세상에 나쁜 개는 없다",
+      "total": 189,
+      "minimum": 0,
+      "none": 149
+    },
+    {
+      "program": "마샤와 곰",
+      "total": 184,
+      "minimum": 20,
+      "none": 164
+    },
+    {
+      "program": "내 친구 몬덕이",
+      "total": 161,
+      "minimum": 20,
+      "none": 141
+    },
+    {
+      "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+      "total": 148,
+      "minimum": 121,
+      "none": 8
+    },
+    {
+      "program": "GO! GO! Giggles",
+      "total": 147,
+      "minimum": 18,
+      "none": 128
+    },
+    {
+      "program": "해요와 해요",
+      "total": 145,
+      "minimum": 20,
+      "none": 125
+    },
+    {
+      "program": "왔다! 내 손주",
+      "total": 137,
+      "minimum": 20,
+      "none": 117
+    },
+    {
+      "program": "최고다! 호기심딱지",
+      "total": 134,
+      "minimum": 20,
+      "none": 114
+    },
+    {
+      "program": "생방송 방과 후 듄듄",
+      "total": 132,
+      "minimum": 18,
+      "none": 112
+    },
+    {
+      "program": "꼬마버스 타요 (Eng.)",
+      "total": 128,
+      "minimum": 120,
+      "none": 8
+    },
+    {
+      "program": "Magic Ice Cream Truck",
+      "total": 112,
+      "minimum": 20,
+      "none": 92
+    },
+    {
+      "program": "취미는 과학",
+      "total": 111,
+      "minimum": 1,
+      "none": 9
+    },
+    {
+      "program": "똑똑 문해력 박사 - 속담과 관용어 편",
+      "total": 105,
+      "minimum": 20,
+      "none": 85
+    },
+    {
+      "program": "똑똑 문해력 박사 - 어휘 편",
+      "total": 105,
+      "minimum": 20,
+      "none": 85
+    },
+    {
+      "program": "숲 속 친구 파파룰라(HD)",
+      "total": 104,
+      "minimum": 20,
+      "none": 84
+    },
+    {
+      "program": "위인극장",
+      "total": 104,
+      "minimum": 0,
+      "none": 85
+    },
+    {
+      "program": "뇌가 젊어지는 체조",
+      "total": 100,
+      "minimum": 0,
+      "none": 100
+    },
+    {
+      "program": "춤추는 소녀 와와",
+      "total": 98,
+      "minimum": 40,
+      "none": 58
+    },
+    {
+      "program": "PD로그",
+      "total": 92,
+      "minimum": 92,
+      "none": 0
+    },
+    {
+      "program": "최고의 요리비결 공방",
+      "total": 85,
+      "minimum": 0,
+      "none": 85
+    },
+    {
+      "program": "EBS 평생학교",
+      "total": 84,
+      "minimum": 0,
+      "none": 84
+    },
+    {
+      "program": "희망풍경",
+      "total": 80,
+      "minimum": 0,
+      "none": 40
+    },
+    {
+      "program": "특집/기획/특강",
+      "total": 80,
+      "minimum": 0,
+      "none": 0
+    },
+    {
+      "program": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+      "total": 80,
+      "minimum": 0,
+      "none": 80
+    },
+    {
+      "program": "귀하신 몸",
+      "total": 80,
+      "minimum": 0,
+      "none": 0
+    },
+    {
+      "program": "쓰담쓰담 동물원 프렌쥬",
+      "total": 78,
+      "minimum": 20,
+      "none": 58
+    },
+    {
+      "program": "교과연계 클립",
+      "total": 68,
+      "minimum": 1,
+      "none": 67
+    },
+    {
+      "program": "딩동댕 친구들-장난감나라의 비밀",
+      "total": 65,
+      "minimum": 20,
+      "none": 45
+    },
+    {
+      "program": "글로벌 아빠찾아 삼만리",
+      "total": 53,
+      "minimum": 0,
+      "none": 53
+    },
+    {
+      "program": "곰디와 친구들",
+      "total": 52,
+      "minimum": 18,
+      "none": 32
+    },
+    {
+      "program": "뭐든지 뮤직박스",
+      "total": 52,
+      "minimum": 20,
+      "none": 32
+    },
+    {
+      "program": "삐뽀삐뽀! 우리 몸 X파일",
+      "total": 51,
+      "minimum": 12,
+      "none": 31
+    },
+    {
+      "program": "발명이 팡팡!",
+      "total": 49,
+      "minimum": 0,
+      "none": 49
+    },
+    {
+      "program": "교육 특집 프로그램",
+      "total": 47,
+      "minimum": 0,
+      "none": 47
+    },
+    {
+      "program": "두근두근 방방",
+      "total": 47,
+      "minimum": 3,
+      "none": 27
+    },
+    {
+      "program": "공감 플러스",
+      "total": 40,
+      "minimum": 0,
+      "none": 40
+    },
+    {
+      "program": "일단 해봐요 생방송 오후 1시",
+      "total": 40,
+      "minimum": 0,
+      "none": 40
+    },
+    {
+      "program": "출동! 슈퍼윙스",
+      "total": 40,
+      "minimum": 20,
+      "none": 20
+    },
+    {
+      "program": "어린이 프로그램",
+      "total": 40,
+      "minimum": 0,
+      "none": 40
+    },
+    {
+      "program": "과학 다큐 비욘드",
+      "total": 38,
+      "minimum": 30,
+      "none": 0
+    },
+    {
+      "program": "이것이 야생이다",
+      "total": 36,
+      "minimum": 0,
+      "none": 36
+    },
+    {
+      "program": "냉장고 나라 코코몽",
+      "total": 26,
+      "minimum": 20,
+      "none": 6
+    },
+    {
+      "program": "허풍선이 과학쇼",
+      "total": 26,
+      "minimum": 22,
+      "none": 0
+    },
+    {
+      "program": "고고다이노 공룡탐험대",
+      "total": 26,
+      "minimum": 20,
+      "none": 6
+    },
+    {
+      "program": "명탐정 피트",
+      "total": 26,
+      "minimum": 20,
+      "none": 6
+    },
+    {
+      "program": "뽀롱뽀롱 뽀로로",
+      "total": 26,
+      "minimum": 20,
+      "none": 6
+    },
+    {
+      "program": "곽준빈의 세계 기사식당",
+      "total": 24,
+      "minimum": 8,
+      "none": 16
+    },
+    {
+      "program": "엄마 까투리",
+      "total": 23,
+      "minimum": 20,
+      "none": 3
+    },
+    {
+      "program": "꼬마버스 타요",
+      "total": 17,
+      "minimum": 17,
+      "none": 0
+    },
+    {
+      "program": "과학/환경 특집 프로그램",
+      "total": 16,
+      "minimum": 0,
+      "none": 16
+    },
+    {
+      "program": "로보카 폴리",
+      "total": 16,
+      "minimum": 16,
+      "none": 0
+    },
+    {
+      "program": "지구 영웅 번개맨",
+      "total": 13,
+      "minimum": 13,
+      "none": 0
+    },
+    {
+      "program": "다큐멘터리K",
+      "total": 12,
+      "minimum": 0,
+      "none": 12
+    },
+    {
+      "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+      "total": 12,
+      "minimum": 8,
+      "none": 4
+    },
+    {
+      "program": "비버와 함께 떠나는 컴퓨터 과학",
+      "total": 12,
+      "minimum": 0,
+      "none": 12
+    },
+    {
+      "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+      "total": 10,
+      "minimum": 0,
+      "none": 10
+    },
+    {
+      "program": "최태성 서경석의 여행본색",
+      "total": 8,
+      "minimum": 8,
+      "none": 0
+    },
+    {
+      "program": "과학/환경",
+      "total": 8,
+      "minimum": 0,
+      "none": 8
+    },
+    {
+      "program": "코봇 지구를 지켜라",
+      "total": 8,
+      "minimum": 8,
+      "none": 0
+    },
+    {
+      "program": "딩동댕 보건실",
+      "total": 6,
+      "minimum": 0,
+      "none": 6
+    },
+    {
+      "program": "취미는 과학여행",
+      "total": 6,
+      "minimum": 0,
+      "none": 6
+    },
+    {
+      "program": "나의 두 번째 교과서",
+      "total": 5,
+      "minimum": 0,
+      "none": 5
+    },
+    {
+      "program": "신계숙의 맛터사이클 다이어리",
+      "total": 5,
+      "minimum": 5,
+      "none": 0
+    },
+    {
+      "program": "채소가지구",
+      "total": 4,
+      "minimum": 0,
+      "none": 4
+    },
+    {
+      "program": "EBS 중학 국립공원",
+      "total": 3,
+      "minimum": 3,
+      "none": 0
+    },
+    {
+      "program": "자연 다큐",
+      "total": 2,
+      "minimum": 0,
+      "none": 2
+    },
+    {
+      "program": "경이로운 자연의 세계",
+      "total": 2,
+      "minimum": 0,
+      "none": 2
+    },
+    {
+      "program": "수상한 방송국",
+      "total": 1,
+      "minimum": 0,
+      "none": 1
+    },
+    {
+      "program": "AI 고전, 역사를 바꾼 100책",
+      "total": 1,
+      "minimum": 0,
+      "none": 1
+    },
+    {
+      "program": "부모의 첫 성교육",
+      "total": 1,
+      "minimum": 0,
+      "none": 1
+    },
+    {
+      "program": "과학 다큐멘터리",
+      "total": 1,
+      "minimum": 0,
+      "none": 0
+    },
+    {
+      "program": "지구탐사 이야기",
+      "total": 1,
+      "minimum": 0,
+      "none": 0
+    },
+    {
+      "program": "우주탐사 이야기",
+      "total": 1,
+      "minimum": 0,
+      "none": 1
+    }
+  ]
+}

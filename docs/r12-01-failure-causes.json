@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-14",
+  "actualTeacherRequests": 0,
+  "actualTeacherSelectionMetrics": null,
+  "reviewedRequests": 5,
+  "reviewedCandidatePairs": 11,
+  "textReviews": [
+    {
+      "requestId": "R12-D143",
+      "query": "연소에 필요한 조건을 설명해주는 영상",
+      "candidateId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "rank": 1,
+      "judgment": "PARTIAL",
+      "note": "연소 소재는 있지만 연소에 필요한 조건 설명은 이 소개문에서 확인되지 않는다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 2,
+        "end": 23,
+        "quote": "불 연소 중 발생하는 유독가스의 위험성"
+      },
+      "sourceSha256": "79b6652d9e73d31a79ec00d58db3b7da6b2059732e306bf1931353c376cd8df9",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D143",
+      "query": "연소에 필요한 조건을 설명해주는 영상",
+      "candidateId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "note": "화목 보일러 효율의 사례이며 연소의 필요 조건 설명은 확인되지 않는다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 1025,
+        "end": 1051,
+        "quote": "2차에 걸쳐 연기나 타르, 목초액까지 모두 연소"
+      },
+      "sourceSha256": "ae14f3343f4dccc4d819f48047595cc5c42df1b9d662caee6432b55cb47afa44",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D146",
+      "query": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "candidateId": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "rank": 1,
+      "judgment": "PARTIAL",
+      "note": "다문화 초등 교실 사례 단서는 있으나 구체적인 공존 방식/장면은 확인되지 않는다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 61,
+        "end": 75,
+        "quote": "다문화(이주배경) 학생들이"
+      },
+      "sourceSha256": "17c1672de3c3bb7020e0521485673f686eaff80a7c701455063f916f8cc1d9b1",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D146",
+      "query": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "candidateId": "BCAST-006958cbcbf16462144b",
+      "title": "잘 지내나요, 이방인?",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "note": "공존과 인권이라는 요구와 관련 있지만 구체적 실천 사례는 소개문만으로 확정할 수 없다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 15,
+        "end": 28,
+        "quote": "차별이 아닌 공존의 방법"
+      },
+      "sourceSha256": "7be4eb0f967fa1fea16d0a7a89a3d9ddbab5958922d9224d789f054f739f05b6",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D146",
+      "query": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "candidateId": "BCAST-9103eb5ea2e4e90d2e91",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+      "rank": 3,
+      "judgment": "SOURCE_INSUFFICIENT",
+      "note": "더빙 표기 뒤 제목이 반복되는 수준이라 공존 사례를 판단할 내용 근거가 부족하다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 0,
+        "end": 7,
+        "quote": "더빙윌 킴리카"
+      },
+      "sourceSha256": "f581dce52c486bd24c7ef20bdca1def347a56ad53445e2c41134ba81c605b765",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D149",
+      "query": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "candidateId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "rank": 1,
+      "judgment": "PARTIAL",
+      "note": "지구 자전과 달의 영향 설명이며 낮과 밤 발생 원리를 설명하는 근거는 없다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 0,
+        "end": 22,
+        "quote": "달이 어떻게 지구의 자전 속도를 늦추는지"
+      },
+      "sourceSha256": "b2c552ac4bed42a20c0b704558142a7eae1668b15c64549580bd2aa1e1f86329",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D149",
+      "query": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "candidateId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "note": "자전/공전 속도이며 낮과 밤 발생 원리 설명은 이 원문에서 확인되지 않는다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 19,
+        "end": 35,
+        "quote": "지구가 우주에서 움직이는 속도"
+      },
+      "sourceSha256": "5f4b8f7b3b31bdb46c7d495267e8bad4d43bff1751ff684f64832c0c8d0c30d0",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D151",
+      "query": "대표를 뽑는 과정",
+      "candidateId": "BCAST-7fd1bfb95415f72166b0",
+      "title": "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED_CANDIDATE",
+      "note": "대표 선출 방식과 절차를 설명하는 소개문이 있다. 원래 요청에는 투표 방식 한정이 없으므로 제비뽑기 자료를 배제할 이유가 없다. 영상/수업 적합성은 미확인.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 0,
+        "end": 22,
+        "quote": "제비뽑기 선거를 위해선 검은 돌과 흰 돌"
+      },
+      "sourceSha256": "a935c545c5b688068361d13dec4b2bdc6af5567fe18eff349c01ba696a446611",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D151",
+      "query": "대표를 뽑는 과정",
+      "candidateId": "BCAST-64937fea1e995473ee42",
+      "title": "투표를 안 하면 어떻게 될까?",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "note": "투표 참여의 의미를 다루며 대표 선출 절차의 근거는 확인되지 않는다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 26,
+        "end": 37,
+        "quote": "한 표의 소중한 권리"
+      },
+      "sourceSha256": "1caed6b6a24f72576464ee9e5e18284aa2b884217798b18dd6d3dff87df1d3f2",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D151",
+      "query": "대표를 뽑는 과정",
+      "candidateId": "BCAST-1ea7db5bb98bac94287c",
+      "title": "아동인권 6부작 어린人권 4부 역발상 프로젝트: 잔소리란 무엇인가",
+      "rank": 3,
+      "judgment": "NOT_SUFFICIENT_FOR_REQUEST",
+      "note": "잔소리 투표/아동 존중 프로젝트이며 대표 선출 과정을 설명하는 근거가 없다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 0,
+        "end": 18,
+        "quote": "잔소리 투표, 부모 자녀 모의고사"
+      },
+      "sourceSha256": "9f0f201ff8e4ce373d49ddef850a5abdaf54b4777b31aa228a650711746dec1a",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "R12-D152",
+      "query": "우리 동네 문제를 주민들이 함께 결정하는 사례",
+      "candidateId": "BCAST-18f513f0b52db7f21110",
+      "title": "인스턴트 웨딩",
+      "rank": 1,
+      "judgment": "NOT_SUFFICIENT_FOR_REQUEST",
+      "note": "주민들이 결혼식을 함께 준비하는 사례다. 동네 공공 문제를 함께 결정하는 관계의 근거가 아니다.",
+      "origin": "IMPLEMENTING_AGENT_SOURCE_REVIEW_NOT_INDEPENDENT_HUMAN_OR_TEACHER",
+      "evidence": {
+        "field": "summary",
+        "start": 1206,
+        "end": 1222,
+        "quote": "동네 주민들의 힘으로 결혼식을"
+      },
+      "sourceSha256": "3c61f0458bbdee76873c6c4f81bbab57ac593111e261edabd2c04a30e206d351",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN"
+    }
+  ],
+  "causes": [
+    {
+      "id": "C01",
+      "label": "필수·제외·선호 해석 오류",
+      "status": "CONFIRMED_PARSE_MISMATCH",
+      "requestIds": [
+        "R12-D135",
+        "R12-D139"
+      ],
+      "observation": "전투 장면 제외가 excluded=[]이고 전투/빼주세요가 양의 terms에 남음. 가능하면 인터뷰가 requiredGenres에 들어가고 preferences.genres=[]임.",
+      "next": "R12-03",
+      "priority": "P0",
+      "unknown": "알려진 적합 정답이 없어 이 오류만 수정했을 때 선택 성공 증가량은 미측정"
+    },
+    {
+      "id": "C02",
+      "label": "수업 문장 잔여어·관계/복수 대상 발견 실패",
+      "status": "CONFIRMED_RESIDUAL_TERMS_ROOT_CONTRIBUTION_NOT_ISOLATED",
+      "requestIds": [
+        "R12-D130",
+        "R12-D131",
+        "R12-D132",
+        "R12-D134",
+        "R12-D138"
+      ],
+      "observation": "쓰고/바꿨는지/들어서면서/달라졌는지/사막이나/비교하고 등이 terms에 남고 결과0. 요청 관계의 원문 미보유와 어휘 조건 영향을 아직 분리하지 못함.",
+      "next": "R12-03",
+      "priority": "P0",
+      "unknown": "후보0으로 적절한 자료 미보유를 확정할 수 없음"
+    },
+    {
+      "id": "C03",
+      "label": "프로그램군 단위 수집 설명 공백·회차 식별",
+      "status": "CONFIRMED_STORED_COVERAGE_GAP_WITH_PRIOR_OFFICIAL_AUDIT",
+      "requestIds": [
+        "R12-D133",
+        "R12-D134",
+        "R12-D135",
+        "R12-D136"
+      ],
+      "observation": "극한 직업 최소설명1/924, 위대한 수업2/1600, 우리집 유치원0/556. 이전 공식12대조의6회차 식별 미확인·2텍스트 부족은 현재도 미해결. 이전복구가능4개는 현재 이미 원문이 변경됨.",
+      "next": "R12-02",
+      "priority": "P0",
+      "unknown": "전체 공백이 모두 수집 누락이라는 뜻은 아님. 공식10표본 대조 후 대상군별 확대"
+    },
+    {
+      "id": "C04",
+      "label": "주제 언급과 요구 관계 충족의 차이",
+      "status": "CONFIRMED_IN_AGENT_TEXT_DIAGNOSTIC_SAMPLE",
+      "requestIds": [
+        "R12-D143",
+        "R12-D146",
+        "R12-D149",
+        "R12-D151",
+        "R12-D152"
+      ],
+      "observation": "5요청11후보 원문 대조: 연소 조건/낮밤 원리 미확인, 공공 문제 결정에 결혼식 자료. 원문 반복성/관계 확인을 구분할 필요.",
+      "next": "R12-03; 표시 문제는 R12-05",
+      "priority": "P0",
+      "unknown": "11개만 에이전트가 검토했으며 전체434상위5슬롯의 정밀도는 계산하지 않음"
+    },
+    {
+      "id": "C05",
+      "label": "선택/비교/저장 동선 부담",
+      "status": "AGENT_UX_OBSERVATION_AND_INTERPRETATION",
+      "requestIds": [
+        "R12-D143",
+        "R12-D145"
+      ],
+      "observation": "390px 첫 카드top1015; 0건 상태에서 관련자료 찾음; 이중 원문/회차 동선·폴더 가져오기 경유·선택 이유 편집의 상세 기록 선행.",
+      "next": "R12-04 지시→R12-05",
+      "priority": "P1",
+      "unknown": "실제 교사 시간/포기율은 미측정"
+    },
+    {
+      "id": "C06",
+      "label": "미지원·모호함·정당한 빈 결과",
+      "status": "KEEP_UNCONFIRMED_NOT_ALL_EMPTY_IS_FAILURE",
+      "requestIds": [
+        "R12-D130",
+        "R12-D137",
+        "R12-D140",
+        "R12-D141"
+      ],
+      "observation": "우리 지역 위치 미지정;10분/자막 실제충족 미확인; 가상광물 후보0.",
+      "next": "R12-03 조건보존/R12-05 안내",
+      "priority": "GUARDRAIL",
+      "unknown": "질문을 임의로 국내 전체/시간무제한으로 바꾸지 않음"
+    }
+  ],
+  "pendingIndependentEvaluation": true
+}

@@ -1,0 +1,248 @@
+{
+  "checkedAt": "2026-10-13T09:26:59.282Z",
+  "paidApiCalls": 0,
+  "projection": 0,
+  "rows": [
+    {
+      "q": "연소",
+      "total": 2,
+      "concepts": [],
+      "terms": [
+        "연소"
+      ],
+      "details": [],
+      "first": [
+        "유독가스- 은밀하게 치명적인",
+        "당신의 집은 따뜻합니까?"
+      ]
+    },
+    {
+      "q": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "total": 0,
+      "concepts": [
+        "물질"
+      ],
+      "terms": [
+        "타려면",
+        "무엇",
+        "필요한지",
+        "알려주"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "연소에 필요한 조건을 설명해주는 영상",
+      "total": 0,
+      "concepts": [],
+      "terms": [
+        "연소",
+        "필요한",
+        "설명해주"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "산소가 부족할 때 불이 탈 때 생기는 문제를 보여주세요",
+      "total": 0,
+      "concepts": [],
+      "terms": [
+        "산소",
+        "부족할",
+        "때",
+        "불이",
+        "탈",
+        "문제"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "다문화",
+      "total": 10,
+      "concepts": [
+        "다문화"
+      ],
+      "terms": [],
+      "details": [],
+      "first": [
+        "다 함께 자라요, 다문화 초등 교실",
+        "잘 지내나요, 이방인?",
+        "시민 미완: 경계의 청년들"
+      ]
+    },
+    {
+      "q": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "total": 10,
+      "concepts": [
+        "다문화"
+      ],
+      "terms": [],
+      "details": [
+        {
+          "label": "서로 다른 문화의 공존 사례",
+          "terms": [
+            "다문화",
+            "이주",
+            "공존",
+            "함께"
+          ]
+        }
+      ],
+      "first": [
+        "다 함께 자라요, 다문화 초등 교실",
+        "잘 지내나요, 이방인?",
+        "시민 미완: 경계의 청년들"
+      ]
+    },
+    {
+      "q": "이주민과 주민이 서로 이해하며 살아가는 모습을 보여주는 자료",
+      "total": 0,
+      "concepts": [
+        "다문화"
+      ],
+      "terms": [
+        "주민",
+        "서로",
+        "이해하며",
+        "살아가"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "지구 자전",
+      "total": 2,
+      "concepts": [],
+      "terms": [
+        "지구",
+        "자전"
+      ],
+      "details": [],
+      "first": [
+        "지구의 자전 속도가 느려지는 이유",
+        "지구가 도는 속도"
+      ]
+    },
+    {
+      "q": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "total": 0,
+      "concepts": [],
+      "terms": [
+        "낮과",
+        "밤이",
+        "까닭",
+        "알려주"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "total": 0,
+      "concepts": [],
+      "terms": [
+        "지구",
+        "돌아서",
+        "낮과",
+        "밤이",
+        "바뀌"
+      ],
+      "details": [],
+      "first": []
+    },
+    {
+      "q": "선거",
+      "total": 12,
+      "concepts": [],
+      "terms": [
+        "선거"
+      ],
+      "details": [],
+      "first": [
+        "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+        "아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+        "깨끗한 선거"
+      ]
+    },
+    {
+      "q": "대표를 뽑는 과정",
+      "total": 12,
+      "concepts": [],
+      "terms": [
+        "선거"
+      ],
+      "details": [
+        {
+          "label": "투표로 대표를 선출하는 방법",
+          "terms": [
+            "투표",
+            "선출",
+            "대표"
+          ]
+        }
+      ],
+      "first": [
+        "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+        "투표를 안 하면 어떻게 될까?",
+        "아동인권 6부작 어린人권 4부 역발상 프로젝트: 잔소리란 무엇인가"
+      ]
+    },
+    {
+      "q": "우리 동네 문제를 주민들이 함께 결정하는 사례",
+      "total": 0,
+      "concepts": [],
+      "terms": [
+        "동네",
+        "문제",
+        "주민",
+        "함께",
+        "결정하"
+      ],
+      "details": [],
+      "first": []
+    }
+  ],
+  "scope": "현재 교사 검색 모듈과 실제 방송 카탈로그의 13입력 진단. 결과 수는 의미 적합성 점수가 아님. 코드/저장소 변경 및 모델 호출 없음.",
+  "currentPath": {
+    "endpoint": "/api/curi/discover?workspace=teacher",
+    "interpretation": "LOCAL_RULES",
+    "candidateCondition": "등록 개념과 남은 일반어 모두의 AND 일치",
+    "semanticSearchConnected": false,
+    "separateLocalEmbedding": "승인 자산용 /api/curi/search",
+    "approvedProjectionRows": 0
+  },
+  "catalogAudit": {
+    "total": 23360,
+    "usableSummary": 6235,
+    "heldSource": 17125,
+    "acceptedConceptTags": 848,
+    "withConceptTags": 727,
+    "withContentKeywords": 2310,
+    "conceptDecisions": 1800,
+    "summaryAliasOccurrences": 1609,
+    "titleAliasOccurrences": 1235,
+    "heldConceptCandidates": 952,
+    "rejectedSummaryOccurrences": 75,
+    "removedOldTags": 947,
+    "addedTags": 7,
+    "contentVocabularyDecisions": 7357,
+    "contentKeywords": 3904
+  },
+  "sourceHashes": {
+    "server/discovery-intent.js": "7cc7d004064039e928008d588b200d31f0b2fb0b9725a1ca20aeaa1156dc2f31",
+    "server/discovery-query-language.js": "108516ecc3337eaadf5931cb90a109bb9c8adc20ee9335407472823732fa6c78",
+    "server/discovery-search.js": "e2b0643ad93e44a9c26a04470cc06c0a03b57dec8e48472987262fdf505f1875",
+    "server/teacher-discovery.js": "d68823a220a0f5f1cdb9fc482bcf6c1c280d00788659b29dae2f712d893cb00f",
+    "server/natural-search.js": "bed89ba2ec2b74288d4aeb254e7722e5ed47b20b0710ee9019687fca24a13403",
+    "server/search-index-contract.js": "2bf3653da845ea18121075018b42019290068a589f1b77d5e39f498b7d758565"
+  },
+  "recommendation": [
+    "요청의 핵심주제·관계·필수조건·선호를 구분",
+    "현재 교사 검색에 전체 방송 대상 키워드+문장 임베딩 후보 검색 연결",
+    "부정/프로그램/방송형태 필수 조건을 유지하고 후보를 원문 의미 근거로 재정렬",
+    "원문 공백을 공식 소개문/대본/학습자료로 보강",
+    "독립 교사 질의로 후보 누락·상위 결과 적합성·지연·비용 비교"
+  ]
+}

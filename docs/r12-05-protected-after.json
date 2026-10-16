@@ -1,0 +1,10 @@
+{
+  "stores": {
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/broadcast-semantic-search.sqlite": "ff9c2416bbcfe78ee4b77c1aa00fdb47c237977fd84946458d8aa7519e205995",
+    "server/data/broadcast-catalog.sqlite": "273ed68f62676dc4425e2b80437147a77a7a77b0fe78639a35599faf4f343655",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "storesUnchanged": true
+}

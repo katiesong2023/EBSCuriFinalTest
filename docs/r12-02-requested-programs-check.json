@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "sourceRows": 22870,
+  "newNewsClips": 76,
+  "oldRowsDeletedOrContentChanged": 0,
+  "newsRepeatAdded": 0,
+  "invalidNewsIdentityRejected": true,
+  "newsKindAndPublishedDate": true,
+  "announcementNotEpisode": true,
+  "protectedStoresUnchanged": true,
+  "legacyQueries": [
+    {
+      "query": "동고서저",
+      "before": 0,
+      "after": 0
+    },
+    {
+      "query": "민주주의",
+      "before": 16,
+      "after": 16
+    },
+    {
+      "query": "기후 변화",
+      "before": 38,
+      "after": 38
+    },
+    {
+      "query": "화산 지형",
+      "before": 24,
+      "after": 24
+    },
+    {
+      "query": "해안 지형",
+      "before": 8,
+      "after": 8
+    }
+  ],
+  "legacyCheckNote": "broadcast-check의 모든5주제 양수 가정은 현재 검색 계약에서 불성립. 실패질의를 신규 수집 전후로 따로 대조.",
+  "paidApiCalls": 0
+}

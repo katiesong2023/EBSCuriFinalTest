@@ -1,0 +1,582 @@
+{
+  "date": "2026-10-15",
+  "rows": [
+    {
+      "q": "다문화 가족",
+      "total": 2,
+      "terms": [
+        "가족"
+      ],
+      "results": [
+        {
+          "id": "BCAST-8260804153e256f011a1",
+          "title": "천방지축 미국 손주들❤K-할매 & 할배 우리 만날 수 있을까?",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 154,
+                  "end": 159,
+                  "quote": "미국 남자"
+                },
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 174,
+                  "quote": "한국 여자"
+                },
+                {
+                  "field": "summary",
+                  "start": 150,
+                  "end": 152,
+                  "quote": "아빠"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 196,
+                  "end": 198,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "summary": "세계 경제와 정치의 중심지, 미국! 이곳에 극과 극 손주들이 떴다? K-POP만 나오면 흥을 주체하지 못하는 비글미 만렙 엘레나(4세)와 엄격! 근엄! 진지! 학구열 넘치는 점잖은 오빠 에이든(6세)이 그 주인공! 흥 넘치는 엘레나 DNA의 출처는 바로 미국 손주들의 아빠, 미국 남자 라이언과 엄마, 한국 여자 고민지 씨다. MZ력(?) 넘치는 이 부부는 모든 K-POP 노래와 춤을 익히고 있을 만큼 K-POP에 진심이라는데.."
+        },
+        {
+          "id": "BCAST-350ee97623108278772b",
+          "title": "사랑이 꽃피는 슈퍼마켓",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 156,
+                  "end": 162,
+                  "quote": "필리핀 아내"
+                },
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "전라북도"
+                },
+                {
+                  "field": "summary",
+                  "start": 128,
+                  "end": 130,
+                  "quote": "결혼"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 171,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&lectId=10991198",
+          "summary": "전라북도 순창군 작은 시골 마을. 동네 사람들이라면 하루가 멀다하고 들르는 곳, 바로 마을의 사랑방 남은 씨네 슈퍼마켓이다. 마을에 유일하게 자리한 슈퍼마켓이다 보니 이 집에선 늘 시끌벅적한 아이들의 웃음소리가 가득하다. 올해로 결혼 13년 차에 접어든 지체장애 3급 남은 씨는 필리핀 아내 배티 씨와 부부의 연을 맺고 토끼같이 귀여운 세 명의 딸을 얻었다. "
+        }
+      ]
+    },
+    {
+      "q": "다문화 어린이",
+      "total": 3,
+      "terms": [
+        "어린이"
+      ],
+      "results": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "meaningMatches": [
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 138,
+                  "end": 140,
+                  "quote": "아이"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기."
+        },
+        {
+          "id": "BCAST-350ee97623108278772b",
+          "title": "사랑이 꽃피는 슈퍼마켓",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 156,
+                  "end": 162,
+                  "quote": "필리핀 아내"
+                },
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "전라북도"
+                },
+                {
+                  "field": "summary",
+                  "start": 128,
+                  "end": 130,
+                  "quote": "결혼"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 107,
+                  "end": 109,
+                  "quote": "아이"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&lectId=10991198",
+          "summary": "전라북도 순창군 작은 시골 마을. 동네 사람들이라면 하루가 멀다하고 들르는 곳, 바로 마을의 사랑방 남은 씨네 슈퍼마켓이다. 마을에 유일하게 자리한 슈퍼마켓이다 보니 이 집에선 늘 시끌벅적한 아이들의 웃음소리가 가득하다. 올해로 결혼 13년 차에 접어든 지체장애 3급 남은 씨는 필리핀 아내 배티 씨와 부부의 연을 맺고 토끼같이 귀여운 세 명의 딸을 얻었다. "
+        },
+        {
+          "id": "BCAST-3a59a68c76735140112f",
+          "title": "나의 작은 이웃",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "이주배경"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 5,
+                  "end": 7,
+                  "quote": "아동"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=43",
+          "summary": "이주배경 아동을 마주하다"
+        }
+      ]
+    },
+    {
+      "q": "다문화가족",
+      "total": 2,
+      "terms": [
+        "가족"
+      ],
+      "results": [
+        {
+          "id": "BCAST-8260804153e256f011a1",
+          "title": "천방지축 미국 손주들❤K-할매 & 할배 우리 만날 수 있을까?",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 154,
+                  "end": 159,
+                  "quote": "미국 남자"
+                },
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 174,
+                  "quote": "한국 여자"
+                },
+                {
+                  "field": "summary",
+                  "start": 150,
+                  "end": 152,
+                  "quote": "아빠"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 196,
+                  "end": 198,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "summary": "세계 경제와 정치의 중심지, 미국! 이곳에 극과 극 손주들이 떴다? K-POP만 나오면 흥을 주체하지 못하는 비글미 만렙 엘레나(4세)와 엄격! 근엄! 진지! 학구열 넘치는 점잖은 오빠 에이든(6세)이 그 주인공! 흥 넘치는 엘레나 DNA의 출처는 바로 미국 손주들의 아빠, 미국 남자 라이언과 엄마, 한국 여자 고민지 씨다. MZ력(?) 넘치는 이 부부는 모든 K-POP 노래와 춤을 익히고 있을 만큼 K-POP에 진심이라는데.."
+        },
+        {
+          "id": "BCAST-350ee97623108278772b",
+          "title": "사랑이 꽃피는 슈퍼마켓",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 156,
+                  "end": 162,
+                  "quote": "필리핀 아내"
+                },
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "전라북도"
+                },
+                {
+                  "field": "summary",
+                  "start": 128,
+                  "end": 130,
+                  "quote": "결혼"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 171,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&lectId=10991198",
+          "summary": "전라북도 순창군 작은 시골 마을. 동네 사람들이라면 하루가 멀다하고 들르는 곳, 바로 마을의 사랑방 남은 씨네 슈퍼마켓이다. 마을에 유일하게 자리한 슈퍼마켓이다 보니 이 집에선 늘 시끌벅적한 아이들의 웃음소리가 가득하다. 올해로 결혼 13년 차에 접어든 지체장애 3급 남은 씨는 필리핀 아내 배티 씨와 부부의 연을 맺고 토끼같이 귀여운 세 명의 딸을 얻었다. "
+        }
+      ]
+    },
+    {
+      "q": "다문화 어린이들",
+      "total": 3,
+      "terms": [
+        "어린이들"
+      ],
+      "results": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "meaningMatches": [
+            {
+              "requested": "어린이들",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 138,
+                  "end": 140,
+                  "quote": "아이"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기."
+        },
+        {
+          "id": "BCAST-350ee97623108278772b",
+          "title": "사랑이 꽃피는 슈퍼마켓",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 156,
+                  "end": 162,
+                  "quote": "필리핀 아내"
+                },
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "전라북도"
+                },
+                {
+                  "field": "summary",
+                  "start": 128,
+                  "end": 130,
+                  "quote": "결혼"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "어린이들",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 107,
+                  "end": 109,
+                  "quote": "아이"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&lectId=10991198",
+          "summary": "전라북도 순창군 작은 시골 마을. 동네 사람들이라면 하루가 멀다하고 들르는 곳, 바로 마을의 사랑방 남은 씨네 슈퍼마켓이다. 마을에 유일하게 자리한 슈퍼마켓이다 보니 이 집에선 늘 시끌벅적한 아이들의 웃음소리가 가득하다. 올해로 결혼 13년 차에 접어든 지체장애 3급 남은 씨는 필리핀 아내 배티 씨와 부부의 연을 맺고 토끼같이 귀여운 세 명의 딸을 얻었다. "
+        },
+        {
+          "id": "BCAST-3a59a68c76735140112f",
+          "title": "나의 작은 이웃",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "이주배경"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "어린이들",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 5,
+                  "end": 7,
+                  "quote": "아동"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=43",
+          "summary": "이주배경 아동을 마주하다"
+        }
+      ]
+    },
+    {
+      "q": "다문화가족들",
+      "total": 2,
+      "terms": [
+        "가족들"
+      ],
+      "results": [
+        {
+          "id": "BCAST-8260804153e256f011a1",
+          "title": "천방지축 미국 손주들❤K-할매 & 할배 우리 만날 수 있을까?",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 154,
+                  "end": 159,
+                  "quote": "미국 남자"
+                },
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 174,
+                  "quote": "한국 여자"
+                },
+                {
+                  "field": "summary",
+                  "start": 150,
+                  "end": 152,
+                  "quote": "아빠"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족들",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 196,
+                  "end": 198,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "summary": "세계 경제와 정치의 중심지, 미국! 이곳에 극과 극 손주들이 떴다? K-POP만 나오면 흥을 주체하지 못하는 비글미 만렙 엘레나(4세)와 엄격! 근엄! 진지! 학구열 넘치는 점잖은 오빠 에이든(6세)이 그 주인공! 흥 넘치는 엘레나 DNA의 출처는 바로 미국 손주들의 아빠, 미국 남자 라이언과 엄마, 한국 여자 고민지 씨다. MZ력(?) 넘치는 이 부부는 모든 K-POP 노래와 춤을 익히고 있을 만큼 K-POP에 진심이라는데.."
+        },
+        {
+          "id": "BCAST-350ee97623108278772b",
+          "title": "사랑이 꽃피는 슈퍼마켓",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 156,
+                  "end": 162,
+                  "quote": "필리핀 아내"
+                },
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 4,
+                  "quote": "전라북도"
+                },
+                {
+                  "field": "summary",
+                  "start": 128,
+                  "end": 130,
+                  "quote": "결혼"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            },
+            {
+              "requested": "가족들",
+              "meaning": "family",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 169,
+                  "end": 171,
+                  "quote": "부부"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ],
+          "source": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&lectId=10991198",
+          "summary": "전라북도 순창군 작은 시골 마을. 동네 사람들이라면 하루가 멀다하고 들르는 곳, 바로 마을의 사랑방 남은 씨네 슈퍼마켓이다. 마을에 유일하게 자리한 슈퍼마켓이다 보니 이 집에선 늘 시끌벅적한 아이들의 웃음소리가 가득하다. 올해로 결혼 13년 차에 접어든 지체장애 3급 남은 씨는 필리핀 아내 배티 씨와 부부의 연을 맺고 토끼같이 귀여운 세 명의 딸을 얻었다. "
+        }
+      ]
+    },
+    {
+      "q": "다문화 가족 유니콘",
+      "total": 0,
+      "terms": [
+        "가족",
+        "유니콘"
+      ],
+      "results": []
+    }
+  ],
+  "paidApiCalls": 0
+}

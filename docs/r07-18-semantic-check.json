@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-13T09:22:27.829Z",
+  "ruleVersion": "2026-10-12.2",
+  "cases": [
+    {
+      "name": "근거 위치·구절·출처는 원문과 일치",
+      "passed": true
+    },
+    {
+      "name": "제목만 있는 자료에 소개문 근거를 생성하지 않음",
+      "passed": true
+    },
+    {
+      "name": "프로그램명·추측 메타데이터로 주제 태그를 만들지 않음",
+      "passed": true
+    },
+    {
+      "name": "활용해·빛나는 부분 일치 오탐 방지",
+      "passed": true
+    },
+    {
+      "name": "동의어·띄어쓰기·조사 해석",
+      "passed": true
+    },
+    {
+      "name": "개발 예문과 다른 자연어 문장",
+      "passed": true
+    },
+    {
+      "name": "복수 주제 AND는 같은 자료의 원문 근거 필요",
+      "passed": true
+    },
+    {
+      "name": "또는 OR 해석",
+      "passed": true
+    },
+    {
+      "name": "복합 개념 내부 단어를 별도 AND 조건으로 중복 해석하지 않음",
+      "passed": true
+    },
+    {
+      "name": "제외어를 결과에도 적용",
+      "passed": true
+    },
+    {
+      "name": "알려지지 않은 이름·조건은 검색어로 보존",
+      "passed": true
+    },
+    {
+      "name": "시간·자막·학년·무료 조건을 충족했다고 주장하지 않음",
+      "passed": true
+    },
+    {
+      "name": "관계·비교·장르 요청의 확인 한계 표시",
+      "passed": true
+    },
+    {
+      "name": "상위 개념 추론 후보를 직접 원문 일치로 승격하지 않음",
+      "passed": true
+    },
+    {
+      "name": "원문 변경은 내용 지문과 태그를 갱신",
+      "passed": true
+    },
+    {
+      "name": "카탈로그 스냅샷 캐시 재사용·다음 스냅샷 분리",
+      "passed": true
+    },
+    {
+      "name": "추론용 컨텍스트 크기·개수 상한과 출처 보존",
+      "passed": true
+    },
+    {
+      "name": "빈 검색 결과의 컨텍스트에 가짜 자료 없음",
+      "passed": true
+    },
+    {
+      "name": "승인·재생 상태는 검색 후에도 미판정",
+      "passed": true
+    }
+  ],
+  "passed": 19,
+  "networkAttempts": 0,
+  "paidApiCalls": 0,
+  "note": "고정 원문 기반 계약 검사. 실데이터 정답률 및 교육적 적합성 평가와 별도."
+}

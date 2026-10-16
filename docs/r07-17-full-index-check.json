@@ -1,0 +1,548 @@
+{
+  "generatedAt": "2026-10-13T06:41:28.339Z",
+  "resources": 23360,
+  "registeredDefinitions": 60,
+  "decisionCases": 1800,
+  "keywordQuotes": 4752,
+  "queries": [
+    {
+      "label": "생태계",
+      "total": 78,
+      "validatedResults": 78,
+      "firstIds": [
+        "BCAST-c795af87c725960152da",
+        "BCAST-8884e8ccb039f1a20324",
+        "BCAST-46fdfd928611d5b641bc"
+      ]
+    },
+    {
+      "label": "꿀벌",
+      "total": 8,
+      "validatedResults": 8,
+      "firstIds": [
+        "BCAST-58c5a1f27d5199b7a817",
+        "BCAST-2169d23411329938f461",
+        "BCAST-c795af87c725960152da"
+      ]
+    },
+    {
+      "label": "야생동물",
+      "total": 27,
+      "validatedResults": 27,
+      "firstIds": [
+        "BCAST-eb8df09e07b844a6e8f1",
+        "BCAST-6e9ace47e4ca4af0c627",
+        "BCAST-68e880e9966ebc1c28fd"
+      ]
+    },
+    {
+      "label": "식물",
+      "total": 34,
+      "validatedResults": 34,
+      "firstIds": [
+        "BCAST-b15043803d8e35e71e15",
+        "BCAST-79884512dcf19a5d2153",
+        "BCAST-17a4162f7d6f810f4e2a"
+      ]
+    },
+    {
+      "label": "기후 변화",
+      "total": 38,
+      "validatedResults": 38,
+      "firstIds": [
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-63f5f5af8614d9b55db5",
+        "BCAST-f67f2c4665316c188b84"
+      ]
+    },
+    {
+      "label": "날씨",
+      "total": 8,
+      "validatedResults": 8,
+      "firstIds": [
+        "BCAST-02da1b82403bdd9fce16",
+        "BCAST-cc616e2a49a2ea9969a0",
+        "BCAST-0a75155233cbcd0e0da0"
+      ]
+    },
+    {
+      "label": "구름",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-21d23bc91ae1d3e16b39"
+      ]
+    },
+    {
+      "label": "인체",
+      "total": 15,
+      "validatedResults": 15,
+      "firstIds": [
+        "BCAST-335677cf4cd62a24a4ae",
+        "BCAST-b3fcf41eba96e61930d8",
+        "BCAST-10d5332139b25c62142d"
+      ]
+    },
+    {
+      "label": "면역",
+      "total": 3,
+      "validatedResults": 3,
+      "firstIds": [
+        "BCAST-fbfac9767c07c6b886dc",
+        "BCAST-21a0c301e39e54296de9",
+        "BCAST-1656422dcc7844ad71dc"
+      ]
+    },
+    {
+      "label": "소화",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-c4bd24c71576406c073c"
+      ]
+    },
+    {
+      "label": "우주",
+      "total": 55,
+      "validatedResults": 55,
+      "firstIds": [
+        "BCAST-c993b6a79481d76b640b",
+        "BCAST-3825c99c466e81523cf7",
+        "BCAST-61485c49e24aede26ee0"
+      ]
+    },
+    {
+      "label": "달의 모양",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "전기 회로",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-c709d016d655f564b923"
+      ]
+    },
+    {
+      "label": "자석",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "용해",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "물질",
+      "total": 9,
+      "validatedResults": 9,
+      "firstIds": [
+        "BCAST-17fc205bb84eab78edd3",
+        "BCAST-82613b6c7896ad144391",
+        "BCAST-e65b8c404b0f039b8545"
+      ]
+    },
+    {
+      "label": "빛",
+      "total": 9,
+      "validatedResults": 9,
+      "firstIds": [
+        "BCAST-03e3e60e421e8ac08a43",
+        "BCAST-e056d1165c17c7712587",
+        "BCAST-e442c115537c9f2bbb95"
+      ]
+    },
+    {
+      "label": "힘과 운동",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-3c891a33de46b51c2a4b"
+      ]
+    },
+    {
+      "label": "에너지",
+      "total": 33,
+      "validatedResults": 33,
+      "firstIds": [
+        "BCAST-818bd8ff3132888fa871",
+        "BCAST-c3cfb74a8979103b6704",
+        "BCAST-17fc205bb84eab78edd3"
+      ]
+    },
+    {
+      "label": "지진",
+      "total": 3,
+      "validatedResults": 3,
+      "firstIds": [
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-01f465e876036b091f71",
+        "BCAST-5a55ca367cb4736c22f6"
+      ]
+    },
+    {
+      "label": "화산",
+      "total": 24,
+      "validatedResults": 24,
+      "firstIds": [
+        "GEO-PARK-HALLA",
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-554545f863297948260f"
+      ]
+    },
+    {
+      "label": "바다",
+      "total": 72,
+      "validatedResults": 72,
+      "firstIds": [
+        "BCAST-038469c056a35a497f3d",
+        "BCAST-bd5c6b0637a922671988",
+        "BCAST-74542049811f06fc540e"
+      ]
+    },
+    {
+      "label": "플라스틱",
+      "total": 13,
+      "validatedResults": 13,
+      "firstIds": [
+        "BCAST-04b02f45080f63a23ae4",
+        "BCAST-15e710757c7a525c82d9",
+        "BCAST-de9db1cdee9a300aa26f"
+      ]
+    },
+    {
+      "label": "환경",
+      "total": 73,
+      "validatedResults": 73,
+      "firstIds": [
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-15e710757c7a525c82d9",
+        "BCAST-7fe0cf1e634a024bb921"
+      ]
+    },
+    {
+      "label": "민주주의",
+      "total": 21,
+      "validatedResults": 21,
+      "firstIds": [
+        "BCAST-7fd1bfb95415f72166b0",
+        "BCAST-ce1721b43f7741c59028",
+        "BCAST-663d31118a337a6cbbc5"
+      ]
+    },
+    {
+      "label": "시민 참여",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-ce1721b43f7741c59028"
+      ]
+    },
+    {
+      "label": "인구",
+      "total": 17,
+      "validatedResults": 17,
+      "firstIds": [
+        "BCAST-3af1bd7a3099af6061be",
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-c758a0cc89b6305a56c0"
+      ]
+    },
+    {
+      "label": "경제",
+      "total": 26,
+      "validatedResults": 26,
+      "firstIds": [
+        "BCAST-66415fbf43ef73da9483",
+        "BCAST-f6d2dd29936d2253213d",
+        "BCAST-0ddbc9b9f97a9396060a"
+      ]
+    },
+    {
+      "label": "물가",
+      "total": 4,
+      "validatedResults": 4,
+      "firstIds": [
+        "BCAST-4c625d397335e2dfbd56",
+        "BCAST-7cc239e3712e99548f44",
+        "BCAST-705ecc225398d70c72cb"
+      ]
+    },
+    {
+      "label": "문화",
+      "total": 53,
+      "validatedResults": 53,
+      "firstIds": [
+        "BCAST-4f29fafa33060d249de2",
+        "BCAST-34e17bb1ed8eaece6fcb",
+        "BCAST-0011ba6d8503874401b6"
+      ]
+    },
+    {
+      "label": "다문화",
+      "total": 10,
+      "validatedResults": 10,
+      "firstIds": [
+        "PDLOG-048",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-a66feddc1e1e27b62f47"
+      ]
+    },
+    {
+      "label": "고인돌",
+      "total": 3,
+      "validatedResults": 3,
+      "firstIds": [
+        "BCAST-edc5b3f9fd8742c0b2f0",
+        "BCAST-a9ae022bed5a04b977c3",
+        "BCAST-0e6786e007b16522e6bd"
+      ]
+    },
+    {
+      "label": "대동여지도",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "독립운동",
+      "total": 18,
+      "validatedResults": 18,
+      "firstIds": [
+        "BCAST-d178abe70981b042cab9",
+        "BCAST-8d8d4d4da5a44b380fa0",
+        "BCAST-78d00cd420b443722fd6"
+      ]
+    },
+    {
+      "label": "유관순",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "동학",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "해안 지형",
+      "total": 9,
+      "validatedResults": 9,
+      "firstIds": [
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-9d8d4642df739046b698",
+        "BCAST-b5ba445f1d5783b34e9c"
+      ]
+    },
+    {
+      "label": "동고서저",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "주거",
+      "total": 33,
+      "validatedResults": 33,
+      "firstIds": [
+        "BCAST-c4bf0963dbc111cba283",
+        "BCAST-8947586011b84f7d0b29",
+        "BCAST-b6c6a0d062d5afec7f8c"
+      ]
+    },
+    {
+      "label": "직업",
+      "total": 45,
+      "validatedResults": 45,
+      "firstIds": [
+        "BCAST-03675ff1a80f037d4f7e",
+        "PDLOG-023",
+        "BCAST-b065e37326d52323b8c1"
+      ]
+    },
+    {
+      "label": "교통",
+      "total": 7,
+      "validatedResults": 7,
+      "firstIds": [
+        "BCAST-3d5059e64e621fde36fa",
+        "BCAST-2ab01f526d80f1e4a218",
+        "BCAST-ddc58a921be27d5a0777"
+      ]
+    },
+    {
+      "label": "인권",
+      "total": 24,
+      "validatedResults": 24,
+      "firstIds": [
+        "BCAST-4091c34734ae75151231",
+        "BCAST-edfc32a86931652c5042",
+        "BCAST-81c2d10e8d0f056cd6ff"
+      ]
+    },
+    {
+      "label": "4·19 혁명",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-a410a151d026fc730893"
+      ]
+    },
+    {
+      "label": "6월 민주항쟁",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-a410a151d026fc730893"
+      ]
+    },
+    {
+      "label": "고조선",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-b6ac5b923f72e8e289c9"
+      ]
+    },
+    {
+      "label": "삼국시대",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "유물·유적",
+      "total": 7,
+      "validatedResults": 7,
+      "firstIds": [
+        "BCAST-edc5b3f9fd8742c0b2f0",
+        "BCAST-7d8d154cf86ea3a35b7b",
+        "BCAST-9e648259d576ddd0d6a5"
+      ]
+    },
+    {
+      "label": "발굴",
+      "total": 4,
+      "validatedResults": 4,
+      "firstIds": [
+        "BCAST-f11b18f4332522e6e434",
+        "BCAST-f72f4c3b84f2078770c1",
+        "BCAST-f422191de7d546d040a3"
+      ]
+    },
+    {
+      "label": "사막",
+      "total": 6,
+      "validatedResults": 6,
+      "firstIds": [
+        "BCAST-364849a8227fe49fb6a9",
+        "BCAST-b7ea99f0dd385b579d34",
+        "BCAST-d89bef31fba5ab6a323e"
+      ]
+    },
+    {
+      "label": "툰드라",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "자연환경",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-c85f90bc191cbc865817"
+      ]
+    },
+    {
+      "label": "공룡",
+      "total": 13,
+      "validatedResults": 13,
+      "firstIds": [
+        "BCAST-92fe6f611e71923bffdd",
+        "BCAST-5e371c8714c38222fe8a",
+        "BCAST-5755b2995f64e38e6438"
+      ]
+    },
+    {
+      "label": "화석",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "심장",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-b3fcf41eba96e61930d8"
+      ]
+    },
+    {
+      "label": "호흡 기관",
+      "total": 1,
+      "validatedResults": 1,
+      "firstIds": [
+        "BCAST-4ee9f773581164cfe9cb"
+      ]
+    },
+    {
+      "label": "안개",
+      "total": 5,
+      "validatedResults": 5,
+      "firstIds": [
+        "BCAST-02da1b82403bdd9fce16",
+        "BCAST-a722e041a4f83b37382f",
+        "BCAST-6d8cdb920d9eb85343c0"
+      ]
+    },
+    {
+      "label": "산성비",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "산성화",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "과학자",
+      "total": 20,
+      "validatedResults": 20,
+      "firstIds": [
+        "BCAST-a50e966f89cda8321dfb",
+        "BCAST-e40ce195d03452ecf8e9",
+        "BCAST-31aaa282668c51bc79e2"
+      ]
+    },
+    {
+      "label": "엔지니어",
+      "total": 0,
+      "validatedResults": 0,
+      "firstIds": []
+    },
+    {
+      "label": "우유(문맥 어휘)",
+      "total": 3,
+      "validatedResults": 3
+    }
+  ],
+  "sourceMentions": 848,
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "전체 행/인용/보류/SQLite 대조와 모든 등록 개념의 실제 검색 실행. 의미 정답률·영상 적합성 검증과 별도."
+}

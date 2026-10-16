@@ -1,0 +1,24 @@
+{
+  "intermediateAttempt": {
+    "completedAtLeast": 360,
+    "result": "PROCESS_TERMINATED_WITH_V8_ALLOCATION_FAILURE",
+    "exitCode": 134,
+    "countedAsPass": false
+  },
+  "changes": [
+    "요청에 필요한 원천 어절만 조회·512개 판정 캐시",
+    "단어별 리터럴과 공용 Unicode/조사 경계 검사 분리·2048개 패턴 상한"
+  ],
+  "verification": "기존 30,275회 경계 동등성 및 전체370 release 재실행",
+  "paidApiCalls": 0,
+  "finalRun": {
+    "report": "docs/r12-39-existing370-final.json",
+    "completed": 370,
+    "errors": 0,
+    "peakMainHeapMB": 1158,
+    "changedCodeAndProtectedStores": [],
+    "runtimeSourceDrift": [],
+    "ordinaryNodeLimits": true,
+    "scope": "단일370회 로컬 실행의 관측치. 전체 프로세스 RSS/배포 메모리 요구량은 아님."
+  }
+}

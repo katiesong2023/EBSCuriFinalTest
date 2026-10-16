@@ -1,0 +1,147 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "styles": {
+        "all": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 183.390625
+        },
+        "folder": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 183.390625
+        },
+        "unfiled": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 183.390625
+        },
+        "allCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 191.390625,
+          "right": 198
+        },
+        "folderCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 191.390625,
+          "right": 198
+        },
+        "unfiledCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 191.390625,
+          "right": 198
+        }
+      }
+    },
+    {
+      "width": 1000,
+      "styles": {
+        "all": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 155.390625
+        },
+        "folder": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 155.390625
+        },
+        "unfiled": {
+          "font": "13px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 38,
+          "right": 155.390625
+        },
+        "allCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 163.390625,
+          "right": 170
+        },
+        "folderCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 163.390625,
+          "right": 170
+        },
+        "unfiledCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 163.390625,
+          "right": 170
+        }
+      }
+    },
+    {
+      "width": 390,
+      "styles": {
+        "all": {
+          "font": "12px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 32,
+          "right": 77.65625
+        },
+        "folder": {
+          "font": "12px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 118.265625,
+          "right": 163.921875
+        },
+        "unfiled": {
+          "font": "12px",
+          "weight": "400",
+          "color": "rgb(26, 26, 26)",
+          "left": 981.53125,
+          "right": 1037.890625
+        },
+        "allCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 85.65625,
+          "right": 92.265625
+        },
+        "folderCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 171.921875,
+          "right": 178.53125
+        },
+        "unfiledCount": {
+          "font": "11px",
+          "weight": "400",
+          "color": "rgb(92, 89, 97)",
+          "left": 1045.890625,
+          "right": 1052.5
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

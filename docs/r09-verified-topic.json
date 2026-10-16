@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-10-04T05:45:19.961Z",
+  "mockVectorContractCases": [
+    {
+      "name": "우주 요청의 날씨 오탐 차단: oldest",
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "정상 날씨 요청 유지: oldest",
+      "query": "날씨 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 1,
+      "state": "RESULTS"
+    },
+    {
+      "name": "우주 요청의 날씨 오탐 차단: newest",
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "정상 날씨 요청 유지: newest",
+      "query": "날씨 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 1,
+      "state": "RESULTS"
+    },
+    {
+      "name": "우주 요청의 날씨 오탐 차단: relevance",
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "정상 날씨 요청 유지: relevance",
+      "query": "날씨 관련 수업을 하고 싶어 주제를 선정해줘",
+      "passed": true,
+      "total": 1,
+      "state": "RESULTS"
+    },
+    {
+      "name": "새 우주 표현",
+      "query": "행성의 특징을 알아볼 자료를 찾아주세요",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "일반어 미보유 주제",
+      "query": "양자중력",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "일반어 정상 주제",
+      "query": "산맥",
+      "passed": true,
+      "total": 1,
+      "state": "RESULTS"
+    },
+    {
+      "name": "OR 주제",
+      "query": "우주 또는 날씨",
+      "passed": true,
+      "total": 1,
+      "state": "RESULTS"
+    },
+    {
+      "name": "AND 주제",
+      "query": "우주와 날씨",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "제외 주제",
+      "query": "날씨 제외하고 우주",
+      "passed": true,
+      "total": 0,
+      "state": "EMPTY"
+    },
+    {
+      "name": "긴 내용어는 서버 오류 대신 설명",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "mockVectorNetworkAttempts": 0,
+  "actualLocalEmbeddingQueries": [
+    {
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "total": 0,
+      "titles": [],
+      "usage": {
+        "externalApiCalls": 0,
+        "queryEmbedded": true,
+        "queryCacheHit": false
+      }
+    },
+    {
+      "query": "계절별 날씨의 특징",
+      "total": 1,
+      "titles": [
+        "계절별 날씨의 특징"
+      ],
+      "usage": {
+        "externalApiCalls": 0,
+        "queryEmbedded": true,
+        "queryCacheHit": false
+      }
+    }
+  ],
+  "approvalUnchanged": true,
+  "approvalSha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "paidApiCalls": 0,
+  "limits": [
+    "고정 자산의 주제·조건 계약 검사이며 검색 정답률 평가가 아니다.",
+    "승인 기록의 직접 표현·동의어가 없는 관련 자료는 보수적으로 누락될 수 있다."
+  ]
+}

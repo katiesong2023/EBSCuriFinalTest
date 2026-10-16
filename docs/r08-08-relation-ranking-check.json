@@ -1,0 +1,249 @@
+{
+  "checkedAt": "2026-10-10T23:56:26.041Z",
+  "passed": 13,
+  "cases": [
+    {
+      "name": "단어가 많은 나열보다 요구 관계가 있는 짧은 원문을 먼저 제공",
+      "passed": true
+    },
+    {
+      "name": "동의 표현이 기존 발견 필수어 없이도 후보와 자동 근거에 도달",
+      "passed": true
+    },
+    {
+      "name": "자전의 다른 표현도 동일 대상·원인·결과를 문장 안에서 확인",
+      "passed": true
+    },
+    {
+      "name": "폭력 사용의 부정은 독립된 선거·주권 인용을 지우지 않음",
+      "passed": true
+    },
+    {
+      "name": "실제 알려진 선거 자료의 폭력 부정은 상충 해제하되 직접 요구 없는 자동 공개는 보류",
+      "passed": true
+    },
+    {
+      "name": "같은 관계를 명시적으로 부정하면 상충을 유지하고 다른 요구의 유효 인용 보존",
+      "passed": true
+    },
+    {
+      "name": "의문·추측·가정·인용된 부정은 해석 보류로 구분하고 다른 인용을 보존",
+      "passed": true
+    },
+    {
+      "name": "받지 못하는 쪽이라는 조건 설명은 낮·밤 원인의 부정으로 읽지 않음",
+      "passed": true
+    },
+    {
+      "name": "앞의 잘못된 설명을 뒤에서 취소한 문맥은 단정 상충이 아닌 해석 보류",
+      "passed": true
+    },
+    {
+      "name": "다른 연소 생성물의 문장을 합쳐 피해 관계를 만들지 않음",
+      "passed": true
+    },
+    {
+      "name": "원문 인용 위치·요구별 연결은 부정/보류 여부와 함께 실존",
+      "passed": true
+    },
+    {
+      "name": "용해 일상 표현은 후보 발견만 확대하고 미지원 상태·건조 오탐 경계 유지",
+      "passed": true
+    },
+    {
+      "name": "같은 제목 판본도 관계 근거의 순서와 각자 인용을 유지",
+      "passed": true
+    }
+  ],
+  "ruleVersion": "automatic-evidence-v3:source-text-v3",
+  "scope": {
+    "version": "automatic-evidence-v3:source-text-v3",
+    "curriculumVersion": "2022 개정",
+    "gradeBand": "5~6학년군",
+    "rules": [
+      {
+        "id": "election-and-sovereignty",
+        "subject": "사회",
+        "standardId": "6사08-01",
+        "standardText": "민주주의에서 선거의 의미와 역할을 파악하고, 시민의 주권 행사를 위해 선거에 참여하는 태도를 기른다.",
+        "requirements": [
+          {
+            "id": "representative-selection",
+            "text": "시민이 투표로 대표를 뽑는 선거의 역할"
+          },
+          {
+            "id": "sovereign-expression",
+            "text": "선거 참여와 시민 주권 행사의 연결"
+          }
+        ],
+        "unverified": [
+          "학생이 선거의 의미·역할을 이해했는지",
+          "실제 선거 참여 태도와 수업 활용 적합성"
+        ],
+        "discoveryTerms": [
+          "표를 던져",
+          "대표자",
+          "유권자",
+          "통치자"
+        ]
+      },
+      {
+        "id": "rotation-and-day-night",
+        "subject": "과학",
+        "standardId": "6과12-02",
+        "standardText": "지구의 자전을 알고, 낮과 밤이 생기는 이유를 설명할 수 있다.",
+        "requirements": [
+          {
+            "id": "rotation",
+            "text": "지구가 스스로 회전한다는 자전 설명"
+          },
+          {
+            "id": "day-night-cause",
+            "text": "지구 자전이 낮과 밤을 만드는 원인이라는 설명"
+          }
+        ],
+        "unverified": [
+          "영상 속 관찰·모형·장면의 실제 내용",
+          "학생이 낮과 밤의 원인을 설명할 수 있는지"
+        ],
+        "discoveryTerms": [
+          "스스로 돈다",
+          "스스로 돌기",
+          "지구가 회전",
+          "지구는 회전",
+          "낮과 밤"
+        ]
+      },
+      {
+        "id": "bronze-artifact-and-farming",
+        "subject": "사회",
+        "standardId": "6사04-01",
+        "standardText": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+        "requirements": [
+          {
+            "id": "artifact-period",
+            "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+          },
+          {
+            "id": "farming-depiction",
+            "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+          }
+        ],
+        "unverified": [
+          "해당 유물의 고조선 소속 여부",
+          "원문에서 소개한 사례 외 당시 생활 전반",
+          "학생이 유적·유물로 당시 생활을 추론하는 수행",
+          "영상의 실제 장면·학년 적합성"
+        ],
+        "discoveryTerms": [
+          "농경문 청동기",
+          "농경문청동기",
+          "밭을 가는"
+        ]
+      },
+      {
+        "id": "combustion-and-ecosystem-damage",
+        "subject": "과학",
+        "standardId": "6과14-04",
+        "standardText": "연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.",
+        "requirements": [
+          {
+            "id": "combustion-emissions",
+            "text": "화석연료가 탈 때 오염 물질이 발생하는 관계"
+          },
+          {
+            "id": "emissions-damage",
+            "text": "연소 생성물이 산성비를 거쳐 산림·수중 생태계에 피해를 주는 관계"
+          }
+        ],
+        "unverified": [
+          "영상 속 피해 장면과 수치의 확인",
+          "다른 연소 생성물·피해 경로",
+          "학생의 피해 사례 수집·분석·해결책 제안·공유 수행"
+        ],
+        "discoveryTerms": [
+          "황산화물",
+          "질소산화물",
+          "산성비",
+          "화석연료",
+          "석탄을 태우면"
+        ]
+      }
+    ],
+    "limitation": "제한된 한국어 서술 패턴 검사이며 의미 정확도·영상 내용·학년 적합성을 보증하지 않습니다."
+  },
+  "comparison": [
+    {
+      "id": "synonym-election",
+      "standardId": "6사08-01",
+      "synopsis": "국민은 표를 던져 대표자를 뽑는다. 국민은 투표를 통해 주권을 행사한다.",
+      "before": {
+        "status": "PARTIAL",
+        "supported": 1
+      },
+      "after": {
+        "status": "SUPPORTED",
+        "supported": 2,
+        "standardCoverage": "PARTIAL"
+      }
+    },
+    {
+      "id": "synonym-rotation",
+      "standardId": "6과12-02",
+      "synopsis": "지구는 스스로 돈다. 지구가 스스로 돌기 때문에 낮과 밤이 번갈아 나타난다.",
+      "before": {
+        "status": "HELD",
+        "supported": 0
+      },
+      "after": {
+        "status": "SUPPORTED",
+        "supported": 2,
+        "standardCoverage": "PARTIAL"
+      }
+    },
+    {
+      "id": "unrelated-negation",
+      "standardId": "6사08-01",
+      "synopsis": "시민은 투표로 대표를 선출한다. 시민은 선거 참여를 통해 주권을 행사한다. 선거는 폭력을 사용하지 않고도 분쟁을 해결하는 방법이다.",
+      "before": {
+        "status": "CONFLICT",
+        "supported": 0
+      },
+      "after": {
+        "status": "SUPPORTED",
+        "supported": 2,
+        "standardCoverage": "PARTIAL"
+      }
+    },
+    {
+      "id": "same-relation-conflict",
+      "standardId": "6과12-02",
+      "synopsis": "지구는 자전한다. 지구의 자전 때문에 낮과 밤이 생긴다. 지구의 자전과 낮과 밤은 관계가 없다.",
+      "before": {
+        "status": "CONFLICT",
+        "supported": 0
+      },
+      "after": {
+        "status": "CONFLICT",
+        "supported": 1,
+        "standardCoverage": "PARTIAL"
+      }
+    },
+    {
+      "id": "partial-uncertain",
+      "standardId": "6과12-02",
+      "synopsis": "지구는 자전한다. 지구가 자전하므로 낮과 밤이 생길 수 있다.",
+      "before": {
+        "status": "HELD",
+        "supported": 0
+      },
+      "after": {
+        "status": "HELD",
+        "supported": 1,
+        "standardCoverage": "PARTIAL"
+      }
+    }
+  ],
+  "note": "알려진 실제 개발 사례와 합성 회귀입니다. 독립 표본·사람 의미 평가가 아니며 원문 보강 전 같은 텍스트를 비교합니다.",
+  "paidApiCalls": 0
+}

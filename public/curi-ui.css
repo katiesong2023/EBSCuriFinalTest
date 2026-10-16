@@ -1,0 +1,134 @@
+/* 제품 공통 디자인. 기능별 CSS 뒤에서 웹 두 작업공간에 적용한다. */
+:root {
+  --ink: var(--curi-ink); --muted: var(--curi-muted);
+  --green: var(--curi-primary); --primary: var(--curi-primary);
+  --paper: var(--curi-canvas); --white: var(--curi-surface);
+  --line: var(--curi-line); --radius: var(--curi-radius-panel);
+}
+body { background:var(--curi-canvas); color:var(--curi-ink); font:16px/1.6 var(--curi-font); }
+button, input, textarea, select { font:inherit; }
+button, .primary-link, .card-actions a, .pagination a { min-width:44px; min-height:44px; }
+button { font-size:14px; font-weight:500; border-radius:var(--curi-radius-control); transition:background var(--curi-motion-fast), border-color var(--curi-motion-fast); }
+button:hover:not(:disabled) { background:var(--curi-surfaceMuted); }
+button:active:not(:disabled) { background:var(--curi-primarySoft); }
+button[aria-pressed=true] { background:var(--curi-primarySoft); color:var(--green); border-color:var(--green); }
+:where(button,a,input,textarea,select,summary):focus-visible { outline:2px solid var(--curi-focus); outline-offset:2px; }
+input:not([type=checkbox]):not([type=radio]), select, textarea { min-height:44px; max-width:100%; border:1px solid var(--curi-controlBorder); border-radius:8px; background:var(--white); color:var(--ink); padding:10px 12px; }
+input[type=checkbox], input[type=radio] { accent-color:var(--green); }
+summary { min-height:44px; padding-block:10px; }
+.site-header { max-width:1240px; min-height:88px; height:auto; padding:16px 32px; justify-content:space-between; }
+.brand { gap:16px; letter-spacing:normal; flex-shrink:0; }
+.brand-wordmark { display:block; width:96px; height:40px; }
+.version { font-size:13px; font-weight:400; letter-spacing:normal; border:0; padding:0; margin:0; color:var(--muted); }
+.site-header nav { margin:0; gap:8px; font-size:14px; }
+.site-header nav a { display:flex; align-items:center; min-height:44px; padding:10px 16px; border-radius:8px; }
+.site-header nav a[aria-current=page] { color:var(--green); background:var(--curi-primarySoft); font-weight:600; }
+.site-header nav a:hover { background:var(--curi-surfaceMuted); }
+.shell { max-width:1240px; padding-inline:32px; }
+.hero { padding:64px 0 32px; gap:32px; }
+.hero h1, .lesson-heading h1 { font-size:36px; font-weight:600; line-height:1.3; letter-spacing:-.6px; }
+.hero h1 em { color:var(--ink); }
+.eyebrow { font-size:13px; color:var(--muted); letter-spacing:normal; font-weight:500; }
+.hero-description, .lesson-heading > p { font-size:16px; }
+.workspace-steps { padding:16px 24px; }
+.workspace-steps b { font:500 16px var(--curi-font); color:var(--muted); font-variant-numeric:tabular-nums; }
+.search-panel { padding:20px 24px; border-radius:12px; box-shadow:none; }
+.search-panel form { gap:12px; }
+.search-panel input { border:0!important; background:transparent!important; font-size:16px; }
+.search-panel form button { min-height:48px; font-size:14px; border-radius:8px; }
+.search-panel form button:hover { background:var(--curi-primaryHover); }
+.search-panel form #clear-query { background:var(--curi-surfaceMuted); color:var(--muted); min-height:44px; }
+.examples { font-size:14px; gap:8px; }
+.examples button { background:var(--curi-surfaceMuted); padding:8px 12px; font-size:14px; border-radius:8px; }
+.result-filters { background:var(--curi-surfaceMuted); padding:16px; border-radius:12px; }
+.results-heading h2 { font-size:22px; font-weight:600; }
+.results-heading h2 span { color:var(--muted); font-size:16px; }
+.kind-filters button, .has-query .kind-filters button { font-size:14px; padding:8px 12px; }
+.sort-control, .filter-grid label, .period-filters label { font-size:14px; }
+.result-status, .has-query #query-understanding, .filter-help, .ranking-note, .search-examples, .link-status { font-size:13px; color:var(--muted); }
+.cards { gap:16px; }
+.resource-card { border-radius:12px; transition:border-color var(--curi-motion-fast); }
+.resource-card:hover { box-shadow:none; transform:none; border-color:var(--curi-controlBorder); }
+.card-banner, .card-banner.episode, .card-banner.clip, .card-banner.lesson, .card-banner.collection { background:var(--curi-surfaceMuted); font-size:13px; height:auto; min-height:44px; padding:12px 20px; letter-spacing:normal; }
+.card-banner .number { font:14px var(--curi-font); opacity:1; color:var(--muted); }
+.card-body { padding:20px; }
+.resource-card h3 { font-size:18px; font-weight:600; line-height:1.4; letter-spacing:normal; }
+.program, .evidence-badge, .approval-status, .preview-review-note, .resource-card details, .resource-card details summary, .resource-card .content-preview summary { font-size:13px; }
+.evidence-badge { background:var(--curi-surfaceMuted); color:var(--muted); }
+.evidence-badge.limited { background:var(--curi-warningSoft); color:var(--curi-warning); }
+.summary { font-size:16px; line-height:1.6; color:var(--ink); }
+.reason, .selection-reason > p, .selection-reason blockquote { font-size:14px; }
+.selection-reason { background:var(--curi-surfaceMuted); border-color:var(--line); }
+.selection-reason blockquote { border-color:var(--curi-controlBorder); }
+.resource-card .card-actions { font-size:14px; gap:8px; }
+.card-actions a { display:inline-flex; align-items:center; padding-block:8px; }
+.card-actions button { font-size:14px; padding:8px 12px; background:var(--green); color:white; border-color:var(--green); }
+.card-actions button:hover:not(:disabled) { background:var(--curi-primaryHover); }
+.content-keywords li { font-size:13px; background:var(--curi-surfaceMuted); color:var(--muted); }
+.official-guidance, .official-placement, .choice-snapshot, .choice-current, .saved-video-link small, .saved-segments { font-size:13px!important; }
+.guide li span, .site-footer { font-size:13px; }
+.guide li b { font-size:14px; }
+.site-footer { max-width:1240px; padding:24px 32px; gap:16px; }
+.folder-layout { gap:24px; grid-template-columns:280px minmax(0,1fr); }
+.folder-sidebar { padding:20px; background:var(--curi-surfaceMuted); border-radius:12px; }
+.folder-card { box-shadow:none; border-radius:8px; }
+.folder-card[data-current=true], .library-views button[aria-current=true] { background:var(--curi-primarySoft); color:var(--green); box-shadow:inset 3px 0 var(--green); }
+#folder-list .folder-select { padding:16px 56px 16px 12px; }
+#folder-list small, .library-unfiled button, .new-folder-panel { font-size:13px; }
+.folder-delete { width:44px; height:44px; padding:12px; }
+.folder-delete:hover:not(:disabled) { color:var(--curi-error); background:var(--curi-errorSoft); }
+.library-resource, .folder-video { border-radius:12px; }
+.library-resource h3, .folder-video h3 { font-size:18px; font-weight:600; }
+.folder-video p, .folder-video label { font-size:14px; }
+.library-location > summary { font-size:14px; }
+.lesson-toolbar { flex-wrap:wrap; gap:12px; }
+.lesson-toolbar p { font-size:13px; }
+.primary-link, .saved-video-link a { min-height:44px; border-radius:8px; font-size:14px; }
+.primary-link:hover { background:var(--curi-primaryHover); }
+.folder-create { flex-wrap:wrap; }
+.folder-create input { flex:1 1 120px; min-width:0; }
+.folder-create button { flex:0 0 auto; }
+.video-search-label { font-size:14px; }
+.segment-row, .lesson-segment-overview { background:var(--white); border-radius:12px; }
+dialog, #folder-picker-dialog { border-radius:12px; padding:24px; box-shadow:var(--curi-shadow-panel); max-height:calc(100dvh - 32px); overflow:auto; }
+dialog[open] { animation:curi-panel var(--curi-motion-panel) var(--curi-ease); }
+dialog::backdrop, #folder-picker-dialog::backdrop { background:rgba(32,37,35,.3); backdrop-filter:none; }
+#folder-picker-dialog .dialog-header h2, .dialog-header h2 { font-size:22px; }
+#folder-picker-dialog .bring-progress { padding-top:0; }
+.bring-step { text-align:center; color:var(--muted); font-size:13px; margin:12px 0 8px; }
+#folder-picker-options label:has(input:checked) { background:var(--curi-primarySoft); border-color:var(--green); }
+#folder-picker-confirm:hover:not(:disabled) { background:var(--curi-primaryHover); }
+#confirm-delete-folder { color:white; background:var(--curi-error); border-color:var(--curi-error); }
+#delete-folder-error { color:var(--curi-error); }
+@keyframes curi-panel { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+@media(max-width:900px) { .folder-layout { grid-template-columns:240px minmax(0,1fr); } }
+@media(max-width:700px) {
+  .folder-layout { grid-template-columns:1fr; gap:16px; }
+  .site-header { padding:16px; flex-wrap:wrap; gap:12px; }
+  .site-header nav { width:100%; justify-content:flex-start; padding:0; }
+  .shell { padding-inline:16px; }
+  .hero { padding:32px 0 24px; }
+  .hero h1, .lesson-heading h1 { font-size:28px; }
+  .hero-description, .lesson-heading > p { font-size:16px; }
+  .workspace-steps { display:none; }
+  .search-panel { padding:16px; }
+  .search-panel form { flex-wrap:wrap; }
+  .search-panel input { flex:1 1 160px; font-size:16px; }
+  .search-panel form button { padding:10px 14px; }
+  .search-panel #search-submit { flex-basis:100%; }
+  .has-query .results-heading { flex-wrap:wrap; }
+  .resource-card h3 { font-size:16px; }
+  .folder-sidebar { padding:16px; }
+  #folder-list .folder-select { padding-right:56px; }
+  .folder-delete { width:44px; height:44px; }
+  .site-footer { padding:24px 16px; }
+  dialog, #folder-picker-dialog { padding:20px; }
+}
+@media(prefers-reduced-motion:reduce) { *, *::before, *::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+
+/* 원문·개인 기록도 공통 본문 크기로 읽는다. */
+.resource-card .preview-text, .full-description { font-size:16px; color:var(--ink); line-height:1.6; }
+.selection-contexts { background:var(--curi-surfaceMuted); border-color:var(--line); }
+.selection-contexts textarea, .selection-contexts select { border-color:var(--curi-controlBorder); }
+.context-difference { color:var(--curi-warning); background:var(--curi-warningSoft); }
+.resource-card .content-preview summary { color:var(--ink); }

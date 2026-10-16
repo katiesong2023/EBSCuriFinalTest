@@ -1,0 +1,1421 @@
+{
+  "date": "2026-10-15T03:01:22.321Z",
+  "scope": [
+    "하나뿐인 지구",
+    "이것이 야생이다",
+    "EBS 다큐프라임",
+    "과학 다큐 비욘드",
+    "경이로운 자연의 세계",
+    "자연 다큐",
+    "다큐 오늘"
+  ],
+  "originalThinTargets": 1362,
+  "totalEpisodes": 22794,
+  "sourceDescriptionChanges": 196,
+  "longerDescriptions": 100,
+  "normalizationOnlyHashChanges": 2,
+  "qualityChanges": {
+    "short→short": 169,
+    "none→none": 18,
+    "none→short": 8,
+    "none→detailed": 1
+  },
+  "officialSourceEventsChecked": 196,
+  "newSupplements": 175,
+  "supplementCharacters": 299947,
+  "ftsChecks": 22794,
+  "indexChecks": {
+    "broadcast-catalog.sqlite": "ok",
+    "semantic-layer.sqlite": "ok",
+    "broadcast-semantic-search.sqlite": "ok"
+  },
+  "protectedStores": {
+    "curi-store.json": {
+      "before": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+      "after": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+    },
+    "automatic-assets.sqlite": {
+      "before": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+      "after": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+    },
+    "teacher-resources.sqlite": {
+      "before": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea",
+      "after": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea"
+    }
+  },
+  "sourceChanges": [
+    {
+      "id": "BCAST-35a673c1171628ff222b",
+      "title": "생존체육",
+      "beforeLength": 60,
+      "afterLength": 61,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-3e76da18836244f1b9d8",
+      "title": "더도그 시즌2 1부 - 바다의 전설, 뉴펀들랜드",
+      "beforeLength": 101,
+      "afterLength": 109,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4778c0034d9e0829148b",
+      "title": "음모론의 심리학",
+      "beforeLength": 49,
+      "afterLength": 50,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2169d23411329938f461",
+      "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 2부 꿀벌의 마음",
+      "beforeLength": 104,
+      "afterLength": 105,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6c462040d206cdb160d0",
+      "title": "생각보다 화학 1부 생각보다 화학적인 인간",
+      "beforeLength": 109,
+      "afterLength": 110,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-5397970c170f71e0e3f4",
+      "title": "위대한 영혼, 발리 2부 지구의 날",
+      "beforeLength": 70,
+      "afterLength": 71,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6030cd9110ad21462318",
+      "title": "우주가 부른다 2부 우주의 개척자들",
+      "beforeLength": 68,
+      "afterLength": 73,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1ed852ebfa96156a9538",
+      "title": "커넥션 - 2부",
+      "beforeLength": 88,
+      "afterLength": 104,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4f39a7983e68889d7879",
+      "title": "EBS 다큐프라임 - 쿠킹포유 4부. 해피 투게더",
+      "beforeLength": 81,
+      "afterLength": 83,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9c251268e92d7213c9bd",
+      "title": "EBS 다큐프라임 - 쿠킹포유 3부. 바람의 길",
+      "beforeLength": 51,
+      "afterLength": 53,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2749a6acc0a7bfe2fd66",
+      "title": "EBS 다큐프라임 - 쿠킹포유 2부. 봄날, 벽에 그린",
+      "beforeLength": 85,
+      "afterLength": 86,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e84309773696b3d8123b",
+      "title": "EBS 다큐프라임 - 쿠킹포유 1부. 숨과 숨 사이",
+      "beforeLength": 66,
+      "afterLength": 67,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-136c72fe81970bf31fe8",
+      "title": "가축 - 1부 위대한 동행",
+      "beforeLength": 41,
+      "afterLength": 42,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d66dfffeafe7eaaeb2bd",
+      "title": "<생명의 전략, 기생> 제2부 - 적과의 동행",
+      "beforeLength": 88,
+      "afterLength": 92,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-7a2676c95ea16668b049",
+      "title": "게임에 진심인 편 1부 - 내 장례식에 틀어줘",
+      "beforeLength": 111,
+      "afterLength": 124,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-af8fa1d6cc548acb795e",
+      "title": "학교폭력 공감 프로젝트 2부 공감의 넓이",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-8d5496bf29d3ac2066bf",
+      "title": "학교폭력 공감 프로젝트 1부 우리들의 기소장",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-1ea7db5bb98bac94287c",
+      "title": "아동인권 6부작 어린人권 4부 역발상 프로젝트: 잔소리란 무엇인가",
+      "beforeLength": 76,
+      "afterLength": 77,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-512f3ef807c0e23832b7",
+      "title": "천국의 아이들 - 3부 찰스, 코트 앞에 서다",
+      "beforeLength": 40,
+      "afterLength": 41,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a435d3b22ef117784e42",
+      "title": "예술의 쓸모 3부 아티스트",
+      "beforeLength": 85,
+      "afterLength": 93,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6b3f742bf3f823598c0d",
+      "title": "예술의 쓸모 2부 내 일은, 예술",
+      "beforeLength": 90,
+      "afterLength": 103,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8fcb90c9c78e903e03db",
+      "title": "예술의 쓸모 1부 춤, 바람입니다",
+      "beforeLength": 62,
+      "afterLength": 66,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-71ce4055ae4305a68e9c",
+      "title": "아이 3부 나를 찾아서",
+      "beforeLength": 71,
+      "afterLength": 74,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b8941637d242213267e2",
+      "title": "아이 1부 일춘기",
+      "beforeLength": 54,
+      "afterLength": 55,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8e71c828dd9a9421a6c9",
+      "title": "중앙아시아, 살아남은 야생의 기록 - 1부 프롤로그, 길들지 않는 땅",
+      "beforeLength": 59,
+      "afterLength": 63,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-0224d50ea4f7b92b9cad",
+      "title": "메모리즈 합창단 1부 틀려도 괜찮아",
+      "beforeLength": 50,
+      "afterLength": 51,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4f8349b0ce198a34fe23",
+      "title": "뇌로 보는 인간 - 4 부. 섹스",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-d3cb8da3fcd9505f783f",
+      "title": "교육대기획 다시, 학교 7부 수학이 불안한 아이들",
+      "beforeLength": 74,
+      "afterLength": 82,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-618a96e1bb353524b7c5",
+      "title": "교육대기획 다시, 학교 6부 학생다움을 묻는 어른들에게",
+      "beforeLength": 85,
+      "afterLength": 94,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e1c0e63c44c474e9f2f9",
+      "title": "<다시, 학교> 1부 가르치지 않는 학교",
+      "beforeLength": 72,
+      "afterLength": 73,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-93010afc1d141a259f2f",
+      "title": "역사의 빛, 청년 제4부 무라이(村井)의 안경",
+      "beforeLength": 26,
+      "afterLength": 27,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e6f77142b40aac6354bc",
+      "title": "사랑의 과학 2부 성",
+      "beforeLength": 70,
+      "afterLength": 72,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-030fb47c90e50c1dcdf0",
+      "title": "진정성시대 5부 겨울에서 봄에게로",
+      "beforeLength": 94,
+      "afterLength": 83,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-278f3ce08191161ff5e3",
+      "title": "미스터리 아일랜드 붉은 크리스마스 섬 1부 조용한 점령자",
+      "beforeLength": 80,
+      "afterLength": 81,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-77e8e0c0b5353c8e8b64",
+      "title": "수컷들 1부 광기의 세계",
+      "beforeLength": 87,
+      "afterLength": 92,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2e7c17eba47b600f7a34",
+      "title": "바람의 집 - 2부",
+      "beforeLength": 104,
+      "afterLength": 106,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-386650585bd5c99e533c",
+      "title": "비밀의 왕국 2부 위험한 동거",
+      "beforeLength": 83,
+      "afterLength": 84,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b48df0e4f7515c5e588f",
+      "title": "카레남녀 1부 카레남녀",
+      "beforeLength": 103,
+      "afterLength": 104,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-5ffcc12faf85a7714b21",
+      "title": "청춘 전당포 1부 쥐구멍에 볕들 날",
+      "beforeLength": 108,
+      "afterLength": 109,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-61ec154a569604269a67",
+      "title": "경제대기획 빚 2부 빚의 역습",
+      "beforeLength": 104,
+      "afterLength": 108,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a0fa3fc194481ed45bc9",
+      "title": "알츠하이머 보고서 1부 시간을 삼킨 뇌의 비밀",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-e94bbec9e8758527b1f4",
+      "title": "<뼈> 2부 뼈, 아주 오래된 질문들",
+      "beforeLength": 93,
+      "afterLength": 97,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-cd41c64d46ab6ba7ce6f",
+      "title": "<4차 인간> 1부 우리는 영원할 수 있을까?",
+      "beforeLength": 32,
+      "afterLength": 36,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-0f7d6703b3be0cb630c3",
+      "title": "<4차 산업혁명, 교육 패러다임의 대전환> - 2부 칸막이를 없애라",
+      "beforeLength": 46,
+      "afterLength": 47,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-bef39b5d422b19ea7d84",
+      "title": "<대학 입시의 진실> 6부 대학입시, 불편한 진실을 넘어서",
+      "beforeLength": 65,
+      "afterLength": 71,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-22974e36f7a2d0854684",
+      "title": "<대학 입시의 진실> 5부 교육 불평등 연대기",
+      "beforeLength": 37,
+      "afterLength": 45,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9ebb0f5b918307ff78d5",
+      "title": "<대학 입시의 진실> 4부 진짜 인재, 가짜 인재",
+      "beforeLength": 51,
+      "afterLength": 59,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-131a426f880492165c2a",
+      "title": "<대학 입시의 진실> 3부 엄마들의 대리전쟁",
+      "beforeLength": 33,
+      "afterLength": 37,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-dbf9d2dbacb32071fc27",
+      "title": "<대학 입시의 진실> 1부 학생부의 두께",
+      "beforeLength": 46,
+      "afterLength": 50,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-3c25e60d17a31a1eabb2",
+      "title": "글로벌 인재전쟁 5부 대한민국, 도약의 조건",
+      "beforeLength": 37,
+      "afterLength": 41,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-ba4dd19bd60c333a70f7",
+      "title": "감각의 제국 5부 퍼펙트 센스",
+      "beforeLength": 45,
+      "afterLength": 46,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2f1959a50d0a7047b926",
+      "title": "인간과 패션 - 2부 나는 입는다 고로 존재한다",
+      "beforeLength": 73,
+      "afterLength": 77,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-81fd0316a2cd033a9fa3",
+      "title": "인간과 패션 - 1부 남자들의 이유있는 변신",
+      "beforeLength": 60,
+      "afterLength": 64,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-eceac1f83b544b7a7b7a",
+      "title": "교육대동여지도, 교사고수전 - 1부 외계인과 곶감 선생님",
+      "beforeLength": 58,
+      "afterLength": 62,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-ddc7c972844a9c6a4213",
+      "title": "공부 못하는 아이 - 4부 지능이 아니라 마음이다",
+      "beforeLength": 94,
+      "afterLength": 95,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-0eb160507a4d6d5be240",
+      "title": "잡초",
+      "beforeLength": 26,
+      "afterLength": 38,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1f877b157bb26f7327a2",
+      "title": "참매와 나",
+      "beforeLength": 82,
+      "afterLength": 86,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-c66c49e38832b922ea80",
+      "title": "왜 우리는 대학에 가는가 - 3부 인재의 탄생",
+      "beforeLength": 99,
+      "afterLength": 104,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1d501e0bdaf8bcaf7428",
+      "title": "왜 우리는 대학에 가는가 - 2부 인재의 탄생",
+      "beforeLength": 99,
+      "afterLength": 104,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a6ee0c18c71fca847e82",
+      "title": "한국의 지네",
+      "beforeLength": 77,
+      "afterLength": 78,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-474396a85951313b15d1",
+      "title": "<특집 다큐멘터리> 아이들이 위험하다! 미세먼지의 습격",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-b20345af0471413f6313",
+      "title": "다시 사랑한다 말할까",
+      "beforeLength": 84,
+      "afterLength": 89,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b2ea431c33ad1ab6dc11",
+      "title": "갑천은 살아있다",
+      "beforeLength": 72,
+      "afterLength": 70,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-cc2192c448ebb9ea7ba1",
+      "title": "보려면 보인다 야생동물",
+      "beforeLength": 23,
+      "afterLength": 21,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-462c255876dec46f54f7",
+      "title": "그 많던 곤충들은 다 어디로 갔을까?",
+      "beforeLength": 18,
+      "afterLength": 17,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-27f3a027a7e093d86073",
+      "title": "야생동물 겨울나기",
+      "beforeLength": 8,
+      "afterLength": 6,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-cf1804f05013f4949a25",
+      "title": "도시의 재발견 빌딩 농장",
+      "beforeLength": 8,
+      "afterLength": 6,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-10ced86848e12c1d44ce",
+      "title": "갈라파고스, 진화의 기억",
+      "beforeLength": 9,
+      "afterLength": 7,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4e4e8e02bfde8e976e73",
+      "title": "한국 잔디 지구를 지켜라",
+      "beforeLength": 17,
+      "afterLength": 15,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9d1bfc440d4ef3ab1e26",
+      "title": "이제는 실천이다-소금 다이어트",
+      "beforeLength": 94,
+      "afterLength": 94,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-c21ad2d4737efb7989ac",
+      "title": "웨어러블 로봇, 강화 인간을 꿈꾸다",
+      "beforeLength": 7,
+      "afterLength": 5,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-52a9c01b52dc4c6823dd",
+      "title": "인공지능 1부 - 지능 만들기",
+      "beforeLength": 58,
+      "afterLength": 56,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-935e8d35135332da5de2",
+      "title": "바이오 인공장기, 생명 연장의 열쇠인가?",
+      "beforeLength": 7,
+      "afterLength": 5,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-dbdebb067f6f80702476",
+      "title": "인공지능 4부 - 우리가 향하는 곳",
+      "beforeLength": 72,
+      "afterLength": 70,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-73b0390d43fd8704b364",
+      "title": "新 골드러시, 달 탐사",
+      "beforeLength": 98,
+      "afterLength": 96,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8d6d708de09d6d1d4b8a",
+      "title": "해킹, 30초 전",
+      "beforeLength": 85,
+      "afterLength": 83,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d804a040fd5a4457ee41",
+      "title": "꿈의 과학, 어젯밤 꿈이 가리키는 것",
+      "beforeLength": 101,
+      "afterLength": 99,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-74542049811f06fc540e",
+      "title": "21세기 노아의 방주, 해상도시",
+      "beforeLength": 100,
+      "afterLength": 98,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-61b5a8967f143a5511fe",
+      "title": "생활을 바꾼다, 에너지와 배터리",
+      "beforeLength": 98,
+      "afterLength": 96,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-36cb8e2423b60ca0264d",
+      "title": "생명 연장의 과학, 텔로미어",
+      "beforeLength": 59,
+      "afterLength": 57,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-30d326dde1760070061b",
+      "title": "진실을 밝히는 힘, 과학수사",
+      "beforeLength": 67,
+      "afterLength": 65,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8efe2524cec05f791bde",
+      "title": "로봇, 사람의 몸속으로 들어가다 <닥터, 로봇>",
+      "beforeLength": 98,
+      "afterLength": 96,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-87b3e87f863ee16bc5c0",
+      "title": "신도 가지지 못한 빛 레이저",
+      "beforeLength": 104,
+      "afterLength": 102,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b8572f52225791fe6379",
+      "title": "교통 혁명의 신호탄, 하늘 나는 자동차",
+      "beforeLength": 101,
+      "afterLength": 99,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b4cf2e2d042fbb8445d2",
+      "title": "전자 코, 미래 인류의 생존을 사수하다",
+      "beforeLength": 7,
+      "afterLength": 5,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e7e703aaae03fa6bf659",
+      "title": "미래식량, 새로운 먹거리의 탄생",
+      "beforeLength": 76,
+      "afterLength": 74,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-88625337e3fa63f15a17",
+      "title": "Network, 연결되어 있습니까?",
+      "beforeLength": 68,
+      "afterLength": 66,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f33f8317374cd322c18b",
+      "title": "3D 프린팅, 상상을 출력하다",
+      "beforeLength": 95,
+      "afterLength": 93,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-3c854eb7e61464f1cfac",
+      "title": "불멸의 꿈, 냉동인간",
+      "beforeLength": 104,
+      "afterLength": 102,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9758f763448a924535dc",
+      "title": "유전자가위, 신의 도구인가",
+      "beforeLength": 50,
+      "afterLength": 48,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-08b30e2888cc7d8f5ff0",
+      "title": "숨 쉬는 행성 지구 - 10부 인류의 안식처",
+      "beforeLength": 34,
+      "afterLength": 35,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-374476bbf935dacfaeaf",
+      "title": "숨 쉬는 행성 지구 - 9부 제2의 지구",
+      "beforeLength": 35,
+      "afterLength": 36,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-cf737da4bed04369b48f",
+      "title": "숨 쉬는 행성 지구 - 7부 각성과 진화",
+      "beforeLength": 38,
+      "afterLength": 39,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-139c467060aa79e43e4b",
+      "title": "숨 쉬는 행성 지구 - 2부 격렬한 폭풍",
+      "beforeLength": 34,
+      "afterLength": 35,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1dd85a0a71951d26e811",
+      "title": "미생물 인간",
+      "beforeLength": 108,
+      "afterLength": 106,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b8094e224f3788270019",
+      "title": "2부 반달가슴곰",
+      "beforeLength": 0,
+      "afterLength": 92,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-1d22d0d35f79888e1eba",
+      "title": "1부 물수리",
+      "beforeLength": 0,
+      "afterLength": 69,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-4a7c46565bf5ef662fa3",
+      "title": "12부 야생 일기 200일의 여정",
+      "beforeLength": 0,
+      "afterLength": 65,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-16c7cd2d8f98a2981f86",
+      "title": "11부 산양",
+      "beforeLength": 0,
+      "afterLength": 99,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-50db97fe3b26ac65432f",
+      "title": "8부 담비",
+      "beforeLength": 0,
+      "afterLength": 96,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-ecad655f2d1e0d1f9cd6",
+      "title": "6부 청설모",
+      "beforeLength": 0,
+      "afterLength": 72,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-36fbfe5ca7911caf0293",
+      "title": "5부 수달",
+      "beforeLength": 0,
+      "afterLength": 65,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-ca590794e49d41a21c77",
+      "title": "4부 멧돼지",
+      "beforeLength": 0,
+      "afterLength": 115,
+      "quality": "none→detailed"
+    },
+    {
+      "id": "BCAST-de4806e711152bec2550",
+      "title": "3부 살쾡이",
+      "beforeLength": 0,
+      "afterLength": 91,
+      "quality": "none→short"
+    },
+    {
+      "id": "BCAST-d2e4926f3d593d689987",
+      "title": "시베리아 호랑이 3대의 죽음",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-21fe023e48ab96c4c0a5",
+      "title": "길, 자연과 사람을 잇다",
+      "beforeLength": 75,
+      "afterLength": 73,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f4ecb62b1ed7f208efee",
+      "title": "맛의 유혹 음식중독",
+      "beforeLength": 61,
+      "afterLength": 60,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8bb078fce615ef939ca8",
+      "title": "지구인의 햇빛 사용법",
+      "beforeLength": 96,
+      "afterLength": 95,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9fe2c9b9a9dab4a758e4",
+      "title": "자투리 파티",
+      "beforeLength": 58,
+      "afterLength": 56,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-7ba18e675b3c3a6a1a16",
+      "title": "자급자족 자연주의, 숲에서 행복을 짓다",
+      "beforeLength": 61,
+      "afterLength": 59,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-455e77ca861c910f9c75",
+      "title": "한 벌의 목숨, 모피",
+      "beforeLength": 32,
+      "afterLength": 30,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-c85f90bc191cbc865817",
+      "title": "과거에서 만난 미래 전통마을",
+      "beforeLength": 90,
+      "afterLength": 88,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-dfcfb7d2c2751fa5a2c6",
+      "title": "山에 사네, 지리산 사람들",
+      "beforeLength": 86,
+      "afterLength": 84,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a641634a625c817fa90f",
+      "title": "이곳에 원전이 있다",
+      "beforeLength": 26,
+      "afterLength": 24,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-38ec912ad3e946b1cb6f",
+      "title": "한강 위의 갈림길 신곡수중보",
+      "beforeLength": 71,
+      "afterLength": 69,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6a70a0c2ef99eff5b903",
+      "title": "닭 한 마리 키워 보실래요?",
+      "beforeLength": 47,
+      "afterLength": 45,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-dfd419fc19453832be79",
+      "title": "도시에서 흙집 짓기",
+      "beforeLength": 41,
+      "afterLength": 40,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9b2166dd10ffc1848fb8",
+      "title": "국민 생선을 찾습니다",
+      "beforeLength": 31,
+      "afterLength": 29,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f63214a3696976e7ca21",
+      "title": "원초적 캠핑",
+      "beforeLength": 57,
+      "afterLength": 55,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b7b823019d6826042d13",
+      "title": "생태보고 팔라완이 가진 모든 것",
+      "beforeLength": 26,
+      "afterLength": 24,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2923046d880cacfac45c",
+      "title": "동물 권리 특집 2부 - 유인원, 사람을 고발하다",
+      "beforeLength": 54,
+      "afterLength": 52,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b793a788bdc7eda2e8cc",
+      "title": "동물 권리 특집1부 - 진짜 코끼리를 만나본 적 있나요?",
+      "beforeLength": 80,
+      "afterLength": 79,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9106086a10e979189396",
+      "title": "물의 비극",
+      "beforeLength": 45,
+      "afterLength": 43,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f1d3592badc819d699d9",
+      "title": "자연밥상 2부 바다가 준 선물",
+      "beforeLength": 40,
+      "afterLength": 38,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-c051593e438e7b98ab17",
+      "title": "자연밥상 1부 땅이 준 선물",
+      "beforeLength": 42,
+      "afterLength": 40,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-318c9744617934596780",
+      "title": "황금의 부활",
+      "beforeLength": 71,
+      "afterLength": 69,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-253350696e52afd31bf8",
+      "title": "동해 대 문어를 지켜라!",
+      "beforeLength": 46,
+      "afterLength": 51,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-96169955971e87c7d0b3",
+      "title": "집의 재발견",
+      "beforeLength": 26,
+      "afterLength": 24,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f81d28f91f355fdadc01",
+      "title": "당신이 몰랐던 올림픽",
+      "beforeLength": 53,
+      "afterLength": 54,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1397616cd83795255992",
+      "title": "일물전체(一物全體) 통째로 먹기",
+      "beforeLength": 40,
+      "afterLength": 38,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-86683e52704789c0879c",
+      "title": "북한산 들개",
+      "beforeLength": 91,
+      "afterLength": 89,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b9bd9c450d9e9b9a0ad3",
+      "title": "신년 특집 독도 바다사자를 찾아서",
+      "beforeLength": 91,
+      "afterLength": 89,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-ba54c2ec84169838521e",
+      "title": "신년 특집 한반도 최상위 포식자를 찾아서",
+      "beforeLength": 44,
+      "afterLength": 42,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4110474e5b45e96ee528",
+      "title": "푸드 앤 더 시티, 빌딩 농장을 아시나요?",
+      "beforeLength": 85,
+      "afterLength": 83,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-57df8df7cd1d5366eadd",
+      "title": "시골 학교, 도시 아이들",
+      "beforeLength": 89,
+      "afterLength": 87,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-746840a2573dc853468e",
+      "title": "인간과 동물 특집 어느 날, 갑자기 로드킬",
+      "beforeLength": 73,
+      "afterLength": 78,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-9926f3e560f40cf6d08c",
+      "title": "인간과 동물 특집 돌고래와 당신의 이야기",
+      "beforeLength": 49,
+      "afterLength": 47,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-7be928ff6ee96aa0e975",
+      "title": "제주마 장가가던 날",
+      "beforeLength": 88,
+      "afterLength": 86,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-99f44f560db4db5d2a7e",
+      "title": "만들기 본능",
+      "beforeLength": 102,
+      "afterLength": 100,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d7f2931cf9c80e1f2884",
+      "title": "태백산의 봄, 야생화를 만나다",
+      "beforeLength": 35,
+      "afterLength": 33,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-c114de34a48a27a5a63b",
+      "title": "기후변화 특집 사막 난민, 벼랑 끝에 서다",
+      "beforeLength": 63,
+      "afterLength": 61,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-80d177c9c934518190e1",
+      "title": "건강한 무균사회?",
+      "beforeLength": 41,
+      "afterLength": 39,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e9633fd471ae0a33a810",
+      "title": "물의 역습, 인도 이야기",
+      "beforeLength": 33,
+      "afterLength": 31,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-766717b08f083a15528b",
+      "title": "전기차, 엔진 없이 달린다",
+      "beforeLength": 28,
+      "afterLength": 26,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-263c5bd519531ee586df",
+      "title": "식탁의 푸른 신호등 로컬푸드",
+      "beforeLength": 51,
+      "afterLength": 49,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8e028dd9879818be7107",
+      "title": "나무들의 친구, 천리포수목원",
+      "beforeLength": 70,
+      "afterLength": 68,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6ab50a0e7c367f0842c5",
+      "title": "Mr. 폐기물, 출생의 비밀",
+      "beforeLength": 95,
+      "afterLength": 93,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d0b88af3a2e54e8257f5",
+      "title": "아열대 기후가 몰려온다",
+      "beforeLength": 33,
+      "afterLength": 31,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-0d92d4e71180ab02e08f",
+      "title": "길, 문명의 자화상",
+      "beforeLength": 52,
+      "afterLength": 51,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b39ea0214b96adfafcfc",
+      "title": "자립하는 삶을 만드는 친환경 적정기술",
+      "beforeLength": 51,
+      "afterLength": 51,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a19418812650582a4f9a",
+      "title": "숲이 들려주는 이야기",
+      "beforeLength": 46,
+      "afterLength": 44,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-2fc07886869442e5fae6",
+      "title": "황새를 기다리는 사람들",
+      "beforeLength": 62,
+      "afterLength": 60,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a61972a2ff657e0872ad",
+      "title": "유채를 심는 농부의 꿈",
+      "beforeLength": 55,
+      "afterLength": 53,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f67f2c4665316c188b84",
+      "title": "<바다의 날 특집> 완도 해조류에서 바다의 미래를 보다",
+      "beforeLength": 88,
+      "afterLength": 86,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-46deab9cf664f8f289df",
+      "title": "부처님오신날 특집 먹는다는 것에 대하여",
+      "beforeLength": 61,
+      "afterLength": 59,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-51ef032988d1878c527b",
+      "title": "2013 햇빛이야기",
+      "beforeLength": 44,
+      "afterLength": 42,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-694053e80976fd8b8f43",
+      "title": "내가 원치 않는 소리, 소음",
+      "beforeLength": 73,
+      "afterLength": 71,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6036d1f21fa7e904709c",
+      "title": "물이 만든 풍경",
+      "beforeLength": 54,
+      "afterLength": 55,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e94aeb4225a2eb44ac6e",
+      "title": "사라진 포구, 물길 끊긴 내륙",
+      "beforeLength": 97,
+      "afterLength": 99,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-5771fedaa48e6cde835f",
+      "title": "에코 아일랜드(ECO ISLAND), 연대도의 희망편지",
+      "beforeLength": 99,
+      "afterLength": 101,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-84d1bc52b044c569ab61",
+      "title": "당신의 봄",
+      "beforeLength": 60,
+      "afterLength": 58,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-1b85ee2caac143857810",
+      "title": "밤을 찾아서",
+      "beforeLength": 46,
+      "afterLength": 48,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8ae12fcf138f3e359509",
+      "title": "박그림, 설악산을 말하다.",
+      "beforeLength": 100,
+      "afterLength": 101,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4049a132df84a182fda6",
+      "title": "야생동물 구조일기 - 응급센터 24시",
+      "beforeLength": 38,
+      "afterLength": 36,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f29ee15e80533672b0dd",
+      "title": "파키스탄, 카라코람의 경고",
+      "beforeLength": 109,
+      "afterLength": 107,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d2760a6818e6c9023b7b",
+      "title": "항생제 사료 금지, 그 후 - 건강한 축산업의 길",
+      "beforeLength": 85,
+      "afterLength": 83,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-5e4737f6b0cb8a71dea7",
+      "title": "가을의 세레나데, 풀벌레 이야기",
+      "beforeLength": 26,
+      "afterLength": 24,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6f759e9efafdc409e098",
+      "title": "도시를 경작하라!",
+      "beforeLength": 40,
+      "afterLength": 38,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-85464980e8d88fa7ada8",
+      "title": "종다양성의 보고, 팔라완 대탐사 제1부",
+      "beforeLength": 27,
+      "afterLength": 25,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-f64372d89f97ccaffff4",
+      "title": "원시의 생태계, 진동계곡",
+      "beforeLength": 31,
+      "afterLength": 29,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-6dab2b8178e619d8ea61",
+      "title": "공존은 가능한가 - 위기의 생물다양성",
+      "beforeLength": 45,
+      "afterLength": 43,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-e877e04ab83b6d55f1f7",
+      "title": "신 로열티 전쟁, 생물자원이 금이다!",
+      "beforeLength": 78,
+      "afterLength": 76,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-46fdfd928611d5b641bc",
+      "title": "20년간의 격변, 새만금에 길을 묻다",
+      "beforeLength": 25,
+      "afterLength": 23,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-565369a14a195c62da91",
+      "title": "생태계의 보고 동강을 다시 보다",
+      "beforeLength": 56,
+      "afterLength": 54,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-409e0f5455eb25a4bbd9",
+      "title": "D-60 조력발전, 시화호의 새로운 실험",
+      "beforeLength": 33,
+      "afterLength": 31,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-20f275ac08b89a252566",
+      "title": "자동차의 심장에 녹색을 입히다",
+      "beforeLength": 27,
+      "afterLength": 25,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-4aa8fa421ad8fc6ab9a1",
+      "title": "친환경 지렁이에게 답을 구하다",
+      "beforeLength": 36,
+      "afterLength": 34,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-04df5ece23762f17654a",
+      "title": "친환경 친인간 적.정.기.술.",
+      "beforeLength": 44,
+      "afterLength": 42,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d3fb5ef01cdeab143d11",
+      "title": "사수도 생태보고서, 슴새 돌아오다",
+      "beforeLength": 17,
+      "afterLength": 15,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-74c174140a89203597f3",
+      "title": "녹색병원 숲",
+      "beforeLength": 65,
+      "afterLength": 68,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-d694ca7fdc2945b53227",
+      "title": "봄 도다리",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-8865a3e957b9b0f18d32",
+      "title": "섬진강에 벚꽃 피면",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-a74d52ca51c855880e57",
+      "title": "다랭이 마을의 봄",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-515a5a36f44075c79217",
+      "title": "부지런한 봄맛이 남해",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-449c43279f754f96e9a0",
+      "title": "소청도 할머니의 꿈",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-5e6cc4aa971a6ba05c55",
+      "title": "봄의 간재미",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-093035cef421dbb02100",
+      "title": "일본인 하야토의 서커스 가족극단",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-aa3ced2d9b5d5aa33b37",
+      "title": "해녀를 꿈꾸는 베트남 지선씨",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-b69a4a1620c1ca89b9b5",
+      "title": "파란 눈 사위 스티븐의 한국사랑",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-6e20a00712e7d7708964",
+      "title": "여서도 살아요",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-c7fc91de70fbaadad229",
+      "title": "진교댁과 제동댁",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-e826be054abef37361bf",
+      "title": "바다의 영양 - 미역, 매생이, 감태",
+      "beforeLength": 0,
+      "afterLength": 1,
+      "quality": "none→none"
+    },
+    {
+      "id": "BCAST-4445da3f37a6070b584c",
+      "title": "월드컵 특집/ 비바브라질",
+      "beforeLength": 46,
+      "afterLength": 53,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-b3f9f3df84107a796647",
+      "title": "월드컵 특집/ 비바브라질",
+      "beforeLength": 44,
+      "afterLength": 51,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-a0b7d8406026c9d78414",
+      "title": "월드컵 특집/ 비바브라질",
+      "beforeLength": 45,
+      "afterLength": 52,
+      "quality": "short→short"
+    },
+    {
+      "id": "BCAST-8e7d7654fa1bd53bf024",
+      "title": "아시아 대평원/인간과 말",
+      "beforeLength": 28,
+      "afterLength": 32,
+      "quality": "short→short"
+    }
+  ],
+  "paidApiCalls": 0
+}

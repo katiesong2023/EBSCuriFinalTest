@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-13T08:12:22.688Z",
+  "groups": {
+    "all": {
+      "count": 23360,
+      "titleChars": 397473,
+      "summaryChars": 581554
+    },
+    "nonEmpty": {
+      "count": 10284,
+      "titleChars": 189561,
+      "summaryChars": 581554
+    },
+    "usable": {
+      "count": 6235,
+      "titleChars": 115157,
+      "summaryChars": 491164
+    }
+  },
+  "paidApiCalls": 0
+}

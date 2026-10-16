@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "approvedBudgetUsd": 2,
+  "scope": "R12-40-370-stage-A-bebe1c7a36935a9f17357ca9ddf063cbe47783a445d5dc28ea646661210c45f0-c513351bd6d30aeb703b26881bf33fb9842f8a181afc1ed4f02714c5dabe4423",
+  "ledgerPath": "docs/r12-40-llm-dollar-ledger.json",
+  "note": "제출 사본의 기본 실행은 유료 모델 검색 비활성. 개발 원본 정책은 변경하지 않았습니다."
+}

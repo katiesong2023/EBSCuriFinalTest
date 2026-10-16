@@ -1,0 +1,444 @@
+{
+  "query": "지식채널e 인권 관련 편",
+  "checkedAt": "2026-10-16T06:19:16.569Z",
+  "total": 4,
+  "countScope": "건수는 이번 의미 검색에서 원문 조건을 확인한 후보의 판본 묶음 기준이며 전체 보유 자료의 일치 총수는 아닙니다. 필터는 확인된 후보 안에서 적용합니다.",
+  "proposedLessonFolder": "인권 침해와 권리 존중",
+  "fileName": "검색검사_02_인권.json",
+  "recommendedCurriculum": {
+    "displayId": "[사회]6사03-02",
+    "schoolLevel": "초등학교",
+    "gradeBand": "5~6학년군",
+    "subject": "사회",
+    "unitNo": "3",
+    "unitTitle": "법과 인권의 보장",
+    "achievementStandardId": "6사03-02",
+    "achievementStandard": "일상생활에서 인권이 침해되는 사례를 찾아 그 해결 방안을 탐색하고, 인권을 보호하는 활동에 참여한다.",
+    "connectionReason": "인종차별·사생활 침해 사례를 살펴보고 해결 방안을 토의하는 수업으로 연결. 보호 활동 참여는 교사가 별도 설계.",
+    "connectionStatus": "개인 수업 연결 제안·기준 전체 충족/연계 승인/영상 적합성 확정 아님"
+  },
+  "selectedEpisodes": [
+    {
+      "id": "BCAST-613368a98bbeed37d978",
+      "program": "지식채널e",
+      "title": "루비의 등교",
+      "summary": "미국 부통령 카멀라 해리스의 그림자는 카멀라 해리스가 아니다?! 그림자 속 주인공이자 흑인 인권 운동의 상징, 루비 브리지스를 소개한다. ",
+      "broadcastDate": "2021-02-15",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20451431",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:09:41.237Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20451431",
+      "requestedStandardAutomaticallySuggested": true,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "6사03-01",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 51,
+              "end": 53,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "6사03-02",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 51,
+              "end": 53,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "9사(일사)06-01",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 51,
+              "end": 53,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "9사(일사)01-03",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "차별"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 51,
+              "end": 53,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 차별 / 자료 내용: 같은 의미의 표현: 차별",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12
+        },
+        {
+          "id": "6과10-01",
+          "score": 8,
+          "matchedTerms": [
+            "운동"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 54,
+              "end": 56,
+              "quote": "운동"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 운동",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        },
+        {
+          "id": "6과13-01",
+          "score": 8,
+          "matchedTerms": [
+            "그림자"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 16,
+              "end": 19,
+              "quote": "그림자"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 그림자",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "107160834d9addd41787a73b57ae7b3a39a99f2128b9f4f23315e01e97ba8de4",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "지식채널e 프로그램의 자료여야 한다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 3,
+                "field": "catalogProgram",
+                "text": "프로그램: 지식채널e",
+                "value": "지식채널e"
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "인권을 다루는 편이어야 한다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 36,
+                "end": 76,
+                "quote": "그림자 속 주인공이자 흑인 인권 운동의 상징, 루비 브리지스를 소개한다.",
+                "text": "그림자 속 주인공이자 흑인 인권 운동의 상징, 루비 브리지스를 소개한다.",
+                "score": 2,
+                "id": 1
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    },
+    {
+      "id": "BCAST-2cb5aefa24dfb761f5eb",
+      "program": "지식채널e",
+      "title": "[코로나 단상] A or B",
+      "summary": "다수를 위해 소수의 희생을 선택, 트롤리 딜레마(Trolley dilemma). 코로나19를 만나고 우리는 트롤리 딜레마 상황과 마주했다. 다수를 지키기 위해 선택한 '확진자 동선 공개'. 사생활 침해로 무너진 개인의 인권. 우리가 선택한 결과에 대해 고민해야 한다.",
+      "broadcastDate": "2020-05-19",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20283582",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:05:13.724Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20283582",
+      "requestedStandardAutomaticallySuggested": true,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "6사03-01",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 122,
+              "end": 124,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "6사03-02",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 122,
+              "end": 124,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "9사(일사)06-01",
+          "score": 60,
+          "matchedTerms": [
+            "인권"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "인권"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 122,
+              "end": 124,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권 / 자료 내용: 자료와 기준의 공통 소재: 인권 / 같은 의미의 표현: 인권",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "9사(일사)01-03",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "rights",
+              "standardExpression": "차별"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 122,
+              "end": 124,
+              "quote": "인권"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 차별 / 자료 내용: 같은 의미의 표현: 차별",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "682a987a8eae18f815a5d3be750be700f8cd2e65a6c8b3bde80d7cee858dd34e",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "지식채널e 프로그램의 자료여야 한다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 6,
+                "field": "catalogProgram",
+                "text": "프로그램: 지식채널e",
+                "value": "지식채널e"
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "인권을 다루는 편이어야 한다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 106,
+                "end": 125,
+                "quote": "사생활 침해로 무너진 개인의 인권.",
+                "text": "사생활 침해로 무너진 개인의 인권.",
+                "score": 1,
+                "id": 1
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    }
+  ],
+  "allReturnedEpisodes": [
+    {
+      "id": "BCAST-006958cbcbf16462144b",
+      "program": "지식채널e",
+      "title": "잘 지내나요, 이방인?",
+      "summary": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-09-29T13:34:51.629Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-613368a98bbeed37d978",
+      "program": "지식채널e",
+      "title": "루비의 등교",
+      "summary": "미국 부통령 카멀라 해리스의 그림자는 카멀라 해리스가 아니다?! 그림자 속 주인공이자 흑인 인권 운동의 상징, 루비 브리지스를 소개한다. ",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20451431",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:09:41.237Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-2cb5aefa24dfb761f5eb",
+      "program": "지식채널e",
+      "title": "[코로나 단상] A or B",
+      "summary": "다수를 위해 소수의 희생을 선택, 트롤리 딜레마(Trolley dilemma). 코로나19를 만나고 우리는 트롤리 딜레마 상황과 마주했다. 다수를 지키기 위해 선택한 '확진자 동선 공개'. 사생활 침해로 무너진 개인의 인권. 우리가 선택한 결과에 대해 고민해야 한다.",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20283582",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:05:13.724Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-347bfb56432c11d6ea38",
+      "program": "지식채널e",
+      "title": "어른도감 - 멈추지 않는 어른",
+      "summary": "2018년 기후 위기를 인식한 청소년들의 작은 모임을 시작으로 다양한 활동으로 기후 위기에 대응해 온 ‘청소년기후행동’의 서경을 만났다. 아시아 최초로 기후 소송을 청구해 지난 8월, 정부의 기후 대응이 일부 헌법에 어긋난다는 판결을 받아낸 원고 중 한 명인 서경. 기후 위기가 인권의 문제로 인정받은 기념비적인 판결이지만 서경은 앞으로도 일상적으로 찾아올 기후 위기의 위험 수준을 줄이기 위해 해야 할 일이 많다고 말한다. 아직은 할 수 있는 게 있으니, 기후 위기의 위험 앞에서 포기하지 않겠다는 서경의 이야기를 소개한다. ",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60523461",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:14:44.525Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    }
+  ],
+  "modelSearch": {
+    "status": "ALL_CONDITIONS_SUPPORTED",
+    "paidCalls": 0,
+    "cacheHits": 2
+  },
+  "scope": "현재 기본 교사 검색 API 재조회·현재 공식 기준 목록 대조. 영상 재생·구간·학년 적합성은 새로 확인하지 않음. 내 수업 폴더명은 제안이며 개인 자료 저장은 수행하지 않음."
+}

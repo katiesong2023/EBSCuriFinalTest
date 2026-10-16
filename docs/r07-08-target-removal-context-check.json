@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-11T08:10:57.827Z",
+  "cases": [
+    {
+      "name": "선택 기준 요구/내용/인용/남은 요구·일반 검색 이유 구분·운영 집계 제거",
+      "passed": true
+    },
+    {
+      "name": "확인 상태7종·다른 기준 이력·공식 보조 원문 범위·현재 실패 경계",
+      "passed": true
+    },
+    {
+      "name": "같은 기준의 다른 수업 대상은 별도 선택 이유·기존 목표 유지",
+      "passed": true
+    },
+    {
+      "name": "내 자료에서 목표/활용/추가 내용·개인 확인 편집·복수 선택 이유 보존",
+      "passed": true
+    },
+    {
+      "name": "검색 조건 변경·재열기와 폴더 담기·공식 학년군/개인 대상 구분",
+      "passed": true
+    },
+    {
+      "name": "조회 지연·실패·저장 실패/재시도에서도 입력과 선택 snapshot 유지",
+      "passed": true
+    },
+    {
+      "name": "내보내기 실패·재시도·도중 편집·개인 기록/복수 기준 Markdown",
+      "passed": true
+    },
+    {
+      "name": "관리자 집계 경로·권한·모바일 문맥 입력",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "임시 복제 서버·합성 방송·공식 기준과 개인 문맥 연결. 사람 승인/교사 의미 평가 아님"
+}

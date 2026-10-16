@@ -1,0 +1,407 @@
+{
+  "scope": "기존 평가와 같은 에이전트 잠정 원문 평가. 학년·학교급·활용 목적·난이도는 사용자 요청대로 순위 문맥이며 적합성 확정이 아니다. 새 상위3 결과를 제목·소개·공식 원문 구절로 확인하며 미평가를 관련으로 세지 않음.",
+  "labels": {
+    "new200/Q001/BCAST-59febaf9f143ae14102d": {
+      "query": "우리 고장의 모습",
+      "fingerprint": "435e20eecc2d6e398546673cfad8d14d699ce5db9280e725ee9b7229c18f7575",
+      "score": 2,
+      "reason": "영주의 시장·마을·주민 생활을 통해 고장의 모습을 직접 보여준다. 특정 지역은 질문에 미지정이다."
+    },
+    "new200/Q001/BCAST-3e3d01a24e0293ad4b5c": {
+      "query": "우리 고장의 모습",
+      "fingerprint": "ad65903715b574dd058fb70e327f9802725befaa6d48dcdfdb9a39f34ba1bae5",
+      "score": 2,
+      "reason": "전주·완주·남원의 역사와 지역 특색을 소개한다."
+    },
+    "new200/Q017/BCAST-2fad69e77c019f648c69": {
+      "query": "주민 참여 지역 문제 해결",
+      "fingerprint": "2fbf665a4f849d56a43b0691878289b527aedd9379cc56adc2fad162fcf40072",
+      "score": 2,
+      "reason": "마을 주민과 부산시가 힘을 모아 지역 빈집 문제를 해결한 사례가 공식 원문에 있다."
+    },
+    "new200/Q019/BCAST-343d580135ee24e77b01": {
+      "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+      "fingerprint": "3f1de93859fcf978160feaa75e40abac1551586a0c2489f8d8e31f2453484fcc",
+      "score": 2,
+      "reason": "초등학생들이 주변 사람들의 불편을 해결하는 실제 프로젝트 사례다."
+    },
+    "new200/Q019/BCAST-3990691a9fbbc38af0db": {
+      "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+      "fingerprint": "f6e384ede805ff3e77c0c7aa8f1e91d2342e3585b7e4414fb3bd45e2d4338b19",
+      "score": 2,
+      "reason": "지역의 기회 불평등을 정책과 이주 지원으로 해결하는 사례·방법을 다룬다."
+    },
+    "new200/Q021/BCAST-c04ad8076f1c5d5b937c": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "27e45937e530bc34e8d5e9f48fb08eef00156ce96629f473e92d6719d6488d4c",
+      "score": 2,
+      "reason": "노인의 집·돌봄과 고령화 사회의 삶을 직접 다룬다."
+    },
+    "new200/Q021/BCAST-1b0470c1dd1731e9818a": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "1ba76a6806110ba390aa957ca03911323b09580d618f119397f56cffe760f341",
+      "score": 2,
+      "reason": "초고령사회 노년층의 노동·은퇴·정서 지원 생활을 공식 원문이 설명한다."
+    },
+    "new200/Q022/BCAST-ff5cfea271a6f048f9ec": {
+      "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+      "fingerprint": "a60f214943c6d67c967cd1c86b6643193ae841671602dcd2bc120c160c159fd2",
+      "score": 2,
+      "reason": "스마트폰·SNS·숏폼으로 달라진 이용 행동과 시청 시간 변화를 직접 다룬다. 어린이 눈높이는 순위 선호다."
+    },
+    "new200/Q022/BCAST-bb6e2b4bc07ae70b74e9": {
+      "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+      "fingerprint": "0d89b050e7d1829b7732409846f4a216359993a3664f05114ecb76acc49748c2",
+      "score": 2,
+      "reason": "명절 인사·영상 전송·교통 예매를 스마트폰으로 하는 구체적 생활 변화 사례다."
+    },
+    "new200/Q028/BCAST-b41f0cb162403596e949": {
+      "query": "고장의자연환경과인문환경",
+      "fingerprint": "773b8d6fa815ae5a02364ab127938eab7502f34155810b63cdeb83044a4cfba2",
+      "score": 1,
+      "reason": "제주 전통 먹거리·생활은 있지만 자연환경은 특색이 있다는 포괄적 언급에 그친다."
+    },
+    "new200/Q038/BCAST-cdd947c3da286f72854a": {
+      "query": "지식채널e 인권 관련 편",
+      "fingerprint": "617b4f2409a6b35f6e02e8f821f26f17f22a7c46fe52f287e84922a3a7b7fd0b",
+      "score": 2,
+      "reason": "지식채널e의 어린이 콘텐츠 제작과 인권·동물권 문제를 직접 다룬다."
+    },
+    "new200/Q045/BCAST-6e0b7a9dd756f66c5457": {
+      "query": "임진왜란 이순신 수업 도입용 짧은 영상",
+      "fingerprint": "7143c0d9498c9711cef3d044280a775809ffc4cffd2bab31ed33adf75d47e88f",
+      "score": 2,
+      "reason": "임진왜란의 이순신·명량해전 내용이며 공식 확인 길이가346초인 짧은 자료다."
+    },
+    "new200/Q049/BCAST-3bf953f51563744f1a33": {
+      "query": "독립운동가 실제 사진과 기록 자료",
+      "fingerprint": "f0206280f939f07de85f77aa7a1287dacd1cc87c30d7286984ccbe804cea5c47",
+      "score": 2,
+      "reason": "홍범도 장군의 복원 사진과 극장 기록·역사 자료를 본다는 내용이 직접 있다."
+    },
+    "new200/Q052/BCAST-305050b615d836ec4f4e": {
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "fingerprint": "edd99f27345440d6999d0f180081aef1c5b406945c6e95afc0ee0ea1d180e8db",
+      "score": 2,
+      "reason": "민주주의의 뜻과 경쟁·참여·시민의 자유라는 조건을 직접 설명한다. 초등학생은 순위 문맥이다."
+    },
+    "new200/Q059/BCAST-e9f1d9bd024f4086133d": {
+      "query": "세계테마기행 사막 지역 사람들 생활",
+      "fingerprint": "505cf034060a923e6fcd0550168bebeef762e824a75908520e66a2d65b610dce",
+      "score": 2,
+      "reason": "세계테마기행의 소금사막 주민 채굴·공장·목축 생활을 직접 소개한다."
+    },
+    "new200/Q064/BCAST-143436bd604426e911f1": {
+      "query": "난민은 왜 생기고 우리는 무엇을 할 수 있을까",
+      "fingerprint": "b6f5ebb28c7b602baf33a0aaf1094c830c447578f5c86f8948074b1b47c88b03",
+      "score": 2,
+      "reason": "종교 박해로 발생한 난민과 친구들의 지원 행동을 공식 원문에서 함께 확인했다."
+    },
+    "new200/Q074/BCAST-2db8bd2ebb8b2e8c58fa": {
+      "query": "용돈을 어떻게 써야 합리적인 선택일까",
+      "fingerprint": "e92f11064fcbb8b50f50c0ac825053144a791add95affde36f9926e4e2c79a58",
+      "score": 2,
+      "reason": "용도에 따라 쓸 돈·모을 돈을 나누는 합리적 용돈 관리 사례다."
+    },
+    "new200/Q075/BCAST-bdc9dacbdb514d82c4ef": {
+      "query": "6학년 2학기 지구촌 환경 문제 마무리 차시용 영상",
+      "fingerprint": "4eb323e57f9bbf1f453b8b66a003fb23bb7f5a693c3995eb414a4134e1ad16e1",
+      "score": 2,
+      "reason": "분리수거·물 절약·걷기 등 지구 환경 문제의 실천을 직접 다룬다. 형식만 남긴 해석은 별도 결함이다."
+    },
+    "new200/Q075/BCAST-d43de0eb136fabf517d5": {
+      "query": "6학년 2학기 지구촌 환경 문제 마무리 차시용 영상",
+      "fingerprint": "34b5d639fcdd40b9b3a16de95d70194c9eae0517511d26c9f7bfa1713bc4b347",
+      "score": 2,
+      "reason": "플라스틱이 만드는 인류세·환경 변화를 다룬다. 학년·학기·마무리 용도는 필수 내용이 아니다."
+    },
+    "new200/Q079/BCAST-23be003f04b9cc4d747d": {
+      "query": "사막 유목민 생활 다큐",
+      "fingerprint": "0ed5176adb1abd19226a29460d4bf076cdcffa57739b1c254eda5467872c40d9",
+      "score": 2,
+      "reason": "사막화·개발 속 고비 유목민의 실제 생활과 적응을 다룬 다큐다."
+    },
+    "new200/Q085/BCAST-ba863be28ac46b75c8c5": {
+      "query": "중1 지리 시간에 보여줄 세계 관광지 영상 재밌는 걸로",
+      "fingerprint": "5fa09a20f36a3461ead32a337566c2d382fc34278bdc356c7603ca248340075a",
+      "score": 2,
+      "reason": "필리핀 관광지의 건축·폭포·호수·화산을 직접 소개한다."
+    },
+    "new200/Q085/BCAST-8503d19af2f73b38a508": {
+      "query": "중1 지리 시간에 보여줄 세계 관광지 영상 재밌는 걸로",
+      "fingerprint": "3922f984fd6db4c3ada4059a51913e6b670c9870ab5ebdfb06f2d99e61aa7fa9",
+      "score": 2,
+      "reason": "모리셔스·레위니옹의 관광 경관·도시·활동을 직접 소개한다."
+    },
+    "new200/Q089/BCAST-2799a78f3258c884230d": {
+      "query": "문화접번 예시",
+      "fingerprint": "325f3bc286906e63e1097a255ac1e6cdf0e6cab206141a56a67ac8f597a10a76",
+      "score": 1,
+      "reason": "실크로드의 작물·생물학적 교환이 중심이며 문화 접변 자체의 구체 설명은 일부다."
+    },
+    "new200/Q091/BCAST-1802dd701e0d5cbd10cd": {
+      "query": "정치는 왜 우리 일상과 관련이 있을까",
+      "fingerprint": "d4179eafab0984759834c1035e63818f27bba94f30119d173524a0012c96a2f5",
+      "score": 2,
+      "reason": "정치 체제·정책이 환경오염 대처와 인간 생활에 주는 영향을 설명한다."
+    },
+    "new200/Q094/BCAST-5d8e926d1f0903ba4e77": {
+      "query": "시민 정치 참여 방법, 선거 말고 다른 방법도",
+      "fingerprint": "873e10a8744ca871afc7f26cbdfa3d12cc4505bba7a111f19ffe705238e450c4",
+      "score": 2,
+      "reason": "풀뿌리 활동·디지털 참여 등 선거 이외 시민의 정치 참여를 직접 다룬다."
+    },
+    "new200/Q094/BCAST-7bb1d50f65cab2b92f27": {
+      "query": "시민 정치 참여 방법, 선거 말고 다른 방법도",
+      "fingerprint": "a8f167f2e695b0d0f6731f53906d84ed002dd1830813e074059fb17766de6fa5",
+      "score": 2,
+      "reason": "만인소라는 집단 상소로 정치에 참여하는 역사적 사례다. 현대 사례 한정은 없다."
+    },
+    "new200/Q097/BCAST-8d54ab2a048428ac3c3b": {
+      "query": "인권 침해 구제 방법과 실제 사례를 같이 담은 영상",
+      "fingerprint": "22db41dde2f0537a91e880c05cd38b00619164409f719d0c3272b005fbac8879",
+      "score": 2,
+      "reason": "국제기구·외부 개입으로 인권 침해를 저지한 방법과 실제 사례를 함께 설명한다."
+    },
+    "new200/Q103/BCAST-15fd00a3f3bb3a86637d": {
+      "query": "땅속에 사는 동물 실제 영상",
+      "fingerprint": "46d9a0406429917b2d170e6dd8fdc90bc7877d4e42b905f5cb926560bc992fa7",
+      "score": 1,
+      "reason": "땅 아래 곤충의 존재는 언급되지만 요청한 땅속 동물의 실제 장면은 충분히 확인되지 않는다."
+    },
+    "new200/Q106/BCAST-f2dd58948940a65216e6": {
+      "query": "흙은 어떻게 만들어질까",
+      "fingerprint": "f162d9dbbeda6fea07a3755aaec45021c5410a7a376f3b4dc53011c043ec45c4",
+      "score": 1,
+      "reason": "흙 형성에 걸리는 시간은 있으나 흙이 만들어지는 과정·원인은 확인되지 않는다."
+    },
+    "new200/Q114/ECLIP-011": {
+      "query": "4학년 식물의 한살이 관찰 일지 쓰기 전에 보여줄 영상",
+      "fingerprint": "5dff3b5eac833ff7afe60449d8acbb510a614cbf9f9a3897e535f0c2d3bec55b",
+      "score": 2,
+      "reason": "벼라는 식물의 한살이가 클립 제목에 직접 명시돼 있다."
+    },
+    "new200/Q130/BCAST-7ba44223fc529c206c3b": {
+      "query": "물부족해결방법 어린이",
+      "fingerprint": "cef67bd8d80c3ddbe3ec54f666d45fa72ae546b0673d1b5954a65e512f633482",
+      "score": 2,
+      "reason": "물 부족 문제와 물 절약이라는 해결 방법을 직접 다룬다."
+    },
+    "new200/Q131/BCAST-cd0c078e7a1571114665": {
+      "query": "애들이 좋아할 만한 동물 위장 영상",
+      "fingerprint": "082adb319ad37f3d7a18fbdfc388c209c886177d1e595a8de7bef30fed7dd00f",
+      "score": 2,
+      "reason": "이끼로 위장하는 곤충과 생존 전략을 직접 설명한다. 학생 선호는 필수 조건이 아니다."
+    },
+    "new200/Q145/BCAST-cf6767d667fe2fb14a5a": {
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "fingerprint": "8e8a08e9ab73ab7f2b56e8d75b1a282b93269b41cf31c3e5213a16ccf9c2c3cb",
+      "score": 2,
+      "reason": "습지·갈대의 상호작용과 포식·가족 관계를 공식 원문에서 함께 확인했다."
+    },
+    "new200/Q145/BCAST-cd0c078e7a1571114665": {
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "fingerprint": "082adb319ad37f3d7a18fbdfc388c209c886177d1e595a8de7bef30fed7dd00f",
+      "score": 2,
+      "reason": "곤충의 천적·공생·포식 관계를 구체 사례로 보여준다."
+    },
+    "new200/Q152/BCAST-2b56514396cce09866a5": {
+      "query": "5학년 속력 단원 교통안전 연결 차시 영상",
+      "fingerprint": "a50a89a7b53606a0da104c1cd3b766c231c1fecc82847f86ccee04ad7f897a8b",
+      "score": 1,
+      "reason": "교통안전은 있지만 요청한 속력과의 연결은 확인되지 않는다."
+    },
+    "new200/Q152/BCAST-1e0392cda7658c2a101f": {
+      "query": "5학년 속력 단원 교통안전 연결 차시 영상",
+      "fingerprint": "215b3e92b35319b9dbe02ae2c67b576c4c4556a4dec68533af348fb6a1f55048",
+      "score": 2,
+      "reason": "제한 속도의 변화와 교통사고 감소를 직접 연결한다."
+    },
+    "new200/Q156/ECLIP-027": {
+      "query": "달의 모양은 왜 매일 바뀔까",
+      "fingerprint": "5451d86a233849c57a58190b36378c097f61a02589765aa041daf395efd7b102",
+      "score": 2,
+      "reason": "태양·지구·달의 상대 위치에 따른 달 모양 변화의 원인이 제목에 직접 있다."
+    },
+    "new200/Q177/BCAST-98b56fa27d0b607fa585": {
+      "query": "지식채널e 우주 관련 편",
+      "fingerprint": "c0a8c352be1213d03dbd52fe83be87dbed2cd81deac5ab8888cde001b71592e3",
+      "score": 2,
+      "reason": "지식채널e의 우주 인공위성 쓰레기 내용을 직접 다룬다."
+    },
+    "previous170/D70-Q004/BCAST-98de85150e272a7e9056": {
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "fingerprint": "4d62cab4bc111d18052701c3d204f245a4a28899e9d720876b11ab1d7796e981",
+      "score": 2,
+      "reason": "마을 공동체의 주민 생활과 마을학교·공터·주거 사례가 공식 원문에 있다. 시설 토의는 활용 목적이다."
+    },
+    "previous170/D70-Q004/BCAST-e68370bdf81fbc83d3c8": {
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "fingerprint": "5dfab68d2a87fd170c5f16d09fcb95f93add236e16247399993dc3c9fe920f15",
+      "score": 2,
+      "reason": "가파도 주민의 에너지 이용과 공동체 참여라는 실제 생활을 다룬다."
+    },
+    "previous170/D70-Q007/BCAST-580bfbcbba40271bb818": {
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "fingerprint": "4b61bf261237fb44f1c135ef71968e09e0beb0112fad17b983443775d24123c0",
+      "score": 2,
+      "reason": "폐자원 처리 시설에서 자원을 재활용·처리하는 작업을 직접 취재한다."
+    },
+    "previous170/D70-Q007/BCAST-d4685ade6dc83d7cc112": {
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "fingerprint": "c63115167693d7857514c55e530ad2d736e0bb9cce98d6f1ea7f438ac490236d",
+      "score": 2,
+      "reason": "폐자원 처리 시설 작업자와 재활용 공정을 직접 다룬다."
+    },
+    "previous170/D70-Q007/BCAST-152d355425e4cddd6e40": {
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "fingerprint": "1a0d2eb58ef9a733cb2b0c8c03e0296da23e616885508ff4859e26fba6dbc8e4",
+      "score": 2,
+      "reason": "재활용 업체에서 버린 청바지 원단을 솜으로 만드는 일을 구체적으로 소개한다."
+    },
+    "previous170/D70-Q023/BCAST-24cb7586692e2a707640": {
+      "query": "쇠붙이를 끌어당기는 자석의 성질을 보여주세요 가능하면 가까이 찍은 화면이 있으면 좋겠어요",
+      "fingerprint": "b38d863934209a2489a9639c0da52e8fc557db36bd814000e5412b25d1b1c05b",
+      "score": 2,
+      "reason": "막대자석에 금속 클립이 붙는 실제 대본과 관찰 내용이 있다. 근접 화면은 선택 선호다."
+    },
+    "previous170/D70-Q035/BCAST-7f901b53df38d9965ea4": {
+      "query": "어린이의 권리",
+      "fingerprint": "8f9ed8a7e21aa85b21cbeb5af91ead7761ccfe637051eafb7161194e6f2693a7",
+      "score": 2,
+      "reason": "아동학대 사례와 아동 권리를 직접 다룬다. 자극성 제외 조건은 이 질문에 없다."
+    },
+    "previous170/D70-Q035/BCAST-dc238929d9787a198b60": {
+      "query": "어린이의 권리",
+      "fingerprint": "9243681766eb483d65cf8da1d3d0536947d9b50415099fa6c025d5b1fd1dee81",
+      "score": 2,
+      "reason": "어린이 인권과 소중함을 직접 다룬다."
+    },
+    "previous170/D70-Q037/BCAST-221579c803c0ad4f2e17": {
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "fingerprint": "405995e15594cb34207930355854c5aff843b4dc1b7cf6edbfa3e8f71caedd89",
+      "score": 2,
+      "reason": "지하철 엘리베이터와 장애인의 이동권이라는 일상 인권 사례를 직접 설명한다."
+    },
+    "previous170/D70-Q037/BCAST-152d355425e4cddd6e40": {
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "fingerprint": "1a0d2eb58ef9a733cb2b0c8c03e0296da23e616885508ff4859e26fba6dbc8e4",
+      "score": 1,
+      "reason": "청바지의 환경·인권 문제를 언급하지만 실제 인권 침해의 구체적 일상 사례는 충분히 확인되지 않는다."
+    },
+    "previous170/D70-Q038/BCAST-58693ef00be705007ba7": {
+      "query": "학급의 규칙을 함께 정하는 활동 전에 의사결정 과정을 보여주고 싶어요",
+      "fingerprint": "217b95fa586b4459abbaa4f56830489ab7f2939618a8987128e3b84f638ca0d5",
+      "score": 1,
+      "reason": "투자 심리·개인의 경제적 선택 자료이며 요청한 의사결정 과정의 구체적인 전개는 충분히 확인되지 않는다."
+    },
+    "previous170/D70-Q041/BCAST-08662f063a4f2acbb6dd": {
+      "query": "여러 사람이 서로 의견을 듣고 하나의 약속을 정하는 모습을 찾고 있어요",
+      "fingerprint": "99adeebec39aff9a5a041165fb5e258c715116a5943c166bda2a4e7dca948e05",
+      "score": 2,
+      "reason": "해녀들이 회의에서 의견을 나누고 물질 규칙·작업 계획을 함께 정하는 장면을 공식 원문이 명시한다."
+    },
+    "previous170/D70-Q054/ECLIP-032": {
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "fingerprint": "91c0470e5cb5eca58b62b47109edeaf605770f8d30c98ad9187d6a59ac639212",
+      "score": 2,
+      "reason": "불을 끄는 방법이 클립 제목에 직접 명시돼 있다. 도입·예상 활동은 활용 목적이다."
+    },
+    "previous170/D70-Q054/BCAST-f09c371f8eac99dc59fa": {
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "fingerprint": "a183a64478f757406e52f06bae861ccaf9ad542001549058bc9e1b77cc7938ef",
+      "score": 2,
+      "reason": "소화기로 불을 끄는 방법과 대피를 직접 설명한다."
+    },
+    "previous170/D70-Q055/BCAST-fdebb738780220746825": {
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "fingerprint": "af16a109f108231fb71d503966b3c0c6118d293dac8f33aae2fab1b69709a915",
+      "score": 2,
+      "reason": "온난화로 변화한 숲속 곤충의 먹고 먹히는 포식 관계를 실제 취재했다는 공식 원문이 있다."
+    },
+    "previous170/D70-Q069/BCAST-0bcf6cc19420600f3dab": {
+      "query": "세계의 기후와 생활",
+      "fingerprint": "b1039842ec60e40025e294487c2fa27c44473b13b90b25349e52aa254ad83f59",
+      "score": 1,
+      "reason": "세계의 기후 내용만 확인되며 그에 맞춘 생활 모습은 확인되지 않는다."
+    },
+    "previous170/D70-Q081/BCAST-343d580135ee24e77b01": {
+      "query": "주민이 공공 문제를 해결하는 지식채널e 회차를 찾아주세요",
+      "fingerprint": "3f1de93859fcf978160feaa75e40abac1551586a0c2489f8d8e31f2453484fcc",
+      "score": 2,
+      "reason": "지역 초등학생들이 주변 사람들의 불편을 해결하는 지식채널e의 프로젝트 사례다."
+    },
+    "previous170/D70-Q098/BCAST-f9045f806a38e978d185": {
+      "query": "저런 힘 때문에 움직이는 모습을 설명하는 자료가 필요해요",
+      "fingerprint": "007f0410be110512423d8b7c9fde381ad65c3f566b028db270b096d504a9289d",
+      "score": 0,
+      "reason": "앞 문맥 없는 저런 힘을 심폐소생술의 심장 압박으로 임의 해석했다. 가리키는 힘을 확인할 수 없다."
+    },
+    "previous170/X100-Q013/BCAST-5d1bcfee9b6d22bdb2b6": {
+      "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+      "fingerprint": "e0de7941c736a533b7b57178eaabaf5cc7ed14548507f36cb60dcee3d8d3c78f",
+      "score": 2,
+      "reason": "한국의 전통 목조건축 한옥을 짓는 돌·목재 가공과 공법을 직접 다룬다. 지정문화재 현장 여부는 별도다."
+    },
+    "previous170/X100-Q022/ECLIP-026": {
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "fingerprint": "efb77e2cfa42895d08b660755c36fbdf317c50369e192d3d7bdd06804d73ca77",
+      "score": 2,
+      "reason": "달 모양이 변하는 이유를 다루는 클립이다. 관찰 기록 과제는 활용 목적이다."
+    },
+    "previous170/X100-Q022/ECLIP-027": {
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "fingerprint": "5451d86a233849c57a58190b36378c097f61a02589765aa041daf395efd7b102",
+      "score": 2,
+      "reason": "천체의 위치에 따른 달 모양 변화를 직접 다룬다."
+    },
+    "previous170/X100-Q038/BCAST-7f901b53df38d9965ea4": {
+      "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+      "fingerprint": "8f9ed8a7e21aa85b21cbeb5af91ead7761ccfe637051eafb7161194e6f2693a7",
+      "score": 2,
+      "reason": "가정의 일상 훈육이 학대가 되는 구체적 인권 침해 사례가 있다. 토론·해결 방법 논의는 활용 목적이다."
+    },
+    "previous170/X100-Q041/BCAST-8fe216a32f93aff5db5c": {
+      "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+      "fingerprint": "629b42ff048dd924eb65a347fcfe9bb2c7bdeb837bf715ab2eb78a2d60db9cfc",
+      "score": 2,
+      "reason": "오렌지·귀리의 국가 간 수출입으로 나라끼리 물건을 주고받는 무역을 설명한다."
+    },
+    "previous170/X100-Q064/BCAST-ae48647f3c062e9cbe3a": {
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "fingerprint": "7174013d21bef846f7162a1838e1627a58d7686e0f3eb6388d054f7579715ad0",
+      "score": 2,
+      "reason": "갯녹음으로 붕괴한 먹이원이 바다숲 조성 후 물고기·도루묵이 돌아오며 회복되는 과정을 명시한다."
+    },
+    "previous170/X100-Q064/BCAST-c0ff4d94ea8803315293": {
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "fingerprint": "a4084472f1bbab6128e893d3e04942f46bec63676a18cb6bcae1a3313ed6297a",
+      "score": 2,
+      "reason": "오염 하천이 정화 운동 후 동물이 돌아온 생태하천으로 회복된 사례다."
+    },
+    "previous170/X100-Q071/BCAST-d558c56405c835d19207": {
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "fingerprint": "ef90c76deef92bd77a5ab194ef3eee943c34d611ea9b711735c1e254e4c9a100",
+      "score": 2,
+      "reason": "청소년이 목소리를 세상에 알리는 정치 참여 방법을 직접 다룬다."
+    },
+    "previous170/X100-Q071/BCAST-ce1721b43f7741c59028": {
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "fingerprint": "aaa9339e7e8720237529d19958f7d0cc2ea624b036333cbac9563d3f6726c753",
+      "score": 2,
+      "reason": "청소년 의회교실·주민참여조례·공청회 등 정치 참여 창구를 직접 소개한다."
+    },
+    "previous170/X100-Q071/BCAST-5d8e926d1f0903ba4e77": {
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "fingerprint": "873e10a8744ca871afc7f26cbdfa3d12cc4505bba7a111f19ffe705238e450c4",
+      "score": 1,
+      "reason": "성인 활동가·장관의 시민 정치 참여이며 청소년의 참여 사례·방법은 충분히 확인되지 않는다."
+    },
+    "previous170/X100-Q078/BCAST-c3cfb74a8979103b6704": {
+      "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+      "fingerprint": "6a9789d2ebb7aa11f713cc4eca16ec8d59d6b4bfc401a4eb3d70dfc5e13560b3",
+      "score": 2,
+      "reason": "해수면 상승으로 섬을 잃고 생활 터전을 위협받는 투발루 주민들의 일상을 직접 설명한다."
+    }
+  }
+}

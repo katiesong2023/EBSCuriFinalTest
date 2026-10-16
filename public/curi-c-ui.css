@@ -1,0 +1,44 @@
+/* C 매거진 — 웹·확장·관리자 공통 UI. */
+:root {--ink:var(--curi-ink);--muted:var(--curi-muted);--pencil:var(--curi-muted);--line:var(--curi-line);--paper:var(--curi-canvas);--white:var(--curi-surface);--bg:var(--curi-canvas);--accent:var(--curi-ink);--green:var(--curi-ink)}
+.curi-c {margin:0;background:var(--curi-canvas);color:var(--curi-ink);font:400 16px/1.625 var(--curi-font)}
+.curi-c * {box-sizing:border-box}
+.curi-c :is(button,input,select,textarea) {font-family:var(--curi-font-latin)}
+.curi-c :is(h1,h2,h3,h4) {font-family:var(--curi-font);font-weight:700;text-wrap:balance;letter-spacing:-.02em}
+.curi-c a {color:inherit;text-underline-offset:4px}
+.curi-c button,.curi-c .button,.curi-c .primary-link {border-radius:999px;min-height:44px;padding:10px 20px;font-size:14px;font-weight:700;line-height:20px;cursor:pointer;border:1px solid var(--curi-ink);background:transparent;color:var(--curi-ink);transition:background 150ms var(--curi-ease),color 150ms var(--curi-ease),transform 150ms var(--curi-ease)}
+.curi-c button:hover:not(:disabled),.curi-c .button:hover,.curi-c .primary-link:hover {background:var(--curi-ink);color:var(--curi-canvas)}
+.curi-c button:disabled {opacity:.45;cursor:default}
+.curi-c input:not([type=checkbox]):not([type=radio]),.curi-c textarea,.curi-c select {min-width:0;max-width:100%;min-height:44px;border:1px solid var(--curi-line);border-radius:12px;padding:10px 14px;background:var(--curi-surface);color:var(--curi-ink);font-size:14px}
+.curi-c input[type=checkbox],.curi-c input[type=radio] {accent-color:var(--curi-ink);width:auto}
+.curi-c :where(button,a,input,textarea,select,summary):focus-visible {outline:2px solid var(--curi-ink);outline-offset:2px}
+.curi-c :is(dialog,.segment-shell) {background:var(--curi-canvas);color:var(--curi-ink);border-radius:16px;border:0;max-width:calc(100vw - 32px);max-height:85svh;overflow:auto}
+.curi-c dialog::backdrop {background:rgba(26,26,26,.45);backdrop-filter:none}
+.curi-c :is(.site-header,.magazine-header) {position:sticky;top:0;z-index:30;background:var(--curi-canvas);width:100%;max-width:none;min-height:72px;height:72px;padding:12px max(40px,calc((100vw - 1240px)/2));display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--curi-line);transition:height 250ms ease}
+.curi-c .header-context {display:none}
+.curi-c .brand {display:inline-flex;align-items:center;flex-shrink:0;margin:0;text-decoration:none;letter-spacing:normal}
+.curi-c .wordmark {display:block;width:92px;height:48px;object-fit:contain;object-position:left;font:600 32px var(--curi-font-latin)}
+.curi-c .brand-symbol {display:none;width:40px;height:40px;object-fit:contain}
+.curi-c.is-compact :is(.site-header,.magazine-header) {height:56px;min-height:56px;padding-block:4px}
+.curi-c.is-compact .brand .wordmark {display:none}.curi-c.is-compact .brand-symbol {display:block}
+.curi-c .site-header nav {display:flex;align-items:center;gap:8px;background:transparent;margin:0;padding:0}
+.curi-c .site-header nav a {min-height:44px;display:flex;align-items:center;padding:10px 16px;border:1px solid var(--curi-ink);border-radius:999px;font-size:14px;font-weight:700;background:transparent;box-shadow:none}
+.curi-c .site-header nav a[aria-current=page] {background:var(--curi-ink);color:var(--curi-canvas)}
+.curi-c .magazine-search-chip {display:inline-flex;align-items:center;gap:12px;background:white;font:500 13px var(--curi-font-latin);white-space:nowrap;margin-left:auto}
+.curi-c kbd {background:var(--curi-ink);color:var(--curi-canvas);padding:3px 7px;border-radius:5px;font:700 12px var(--curi-font-latin)}
+.curi-c .magazine-palette {width:min(520px,calc(100vw - 32px));padding:24px;box-shadow:0 30px 60px -20px #0006}
+.curi-c .magazine-palette[open] {animation:magazine-palette-in 220ms var(--curi-ease-pop)}
+.magazine-palette-header {display:flex;align-items:center;justify-content:space-between;gap:12px}.magazine-palette-header h2 {font-size:20px;margin:0}
+.magazine-palette form {display:flex;gap:8px;margin:20px 0 12px}.magazine-palette form input {flex:1;min-width:0}.magazine-palette form button {background:var(--curi-ink);color:var(--curi-canvas)}
+.magazine-palette-options {display:grid;gap:4px}.curi-c .magazine-palette-options button {text-align:left;border:0;border-radius:8px;padding:10px 18px;font-weight:500}
+.curi-c .magazine-palette-options button[aria-selected=true] {background:var(--curi-sun);color:var(--curi-ink)}
+.curi-c :is(.type-tag,.subject-tag,.badge) {display:inline-block;border:1px solid var(--curi-ink);border-radius:999px;background:transparent;color:var(--curi-ink);padding:5px 12px;font:700 12px/1.2 var(--curi-font-latin);letter-spacing:.03em}
+.curi-c :is(.curi-toast,.panel-toast) {border:0;border-radius:999px;background:var(--curi-green);color:var(--curi-ink);font:500 14px/20px var(--curi-font);box-shadow:none;animation:magazine-toast-in 200ms var(--curi-ease)}
+.curi-c :is(.curi-toast,.panel-toast) button {border:0;background:transparent;color:var(--curi-ink);padding:4px 8px;min-height:36px;text-decoration:underline}
+.curi-c .curi-toast::before {color:var(--curi-ink)}
+.curi-c [hidden] {display:none!important}
+@keyframes magazine-palette-in {from {opacity:0;transform:translateY(-8px)}to {opacity:1;transform:none}}
+@keyframes magazine-toast-in {from {opacity:0;transform:translateY(8px)}to {opacity:1;transform:none}}
+@media(max-width:1279px) {.curi-c :is(.site-header,.magazine-header) {padding-inline:24px}}
+@media(max-width:767px) {.curi-c :is(.site-header,.magazine-header) {padding-inline:16px;gap:8px}.curi-c .wordmark {width:80px}.curi-c .site-header nav a {font-size:12px;padding:8px 12px}.curi-c .magazine-search-chip {padding:8px 10px;gap:6px}.magazine-search-chip .chip-label {display:none}.curi-c .magazine-palette {padding:20px}.magazine-palette form {flex-wrap:wrap}.magazine-palette form input {flex-basis:100%}}
+@media(prefers-reduced-motion:reduce) {.curi-c *,.curi-c *::before,.curi-c *::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.curi-c .sr-only {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}

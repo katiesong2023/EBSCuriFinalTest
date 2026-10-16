@@ -1,0 +1,168 @@
+{
+  "topic": "Curi 사회·과학 방송 대량 수집·시맨틱 레이어·자연어 탐색",
+  "slug": "concept-place-discovery",
+  "classification": "system",
+  "classification_reason": "기존 데이터·추천 계약의 변경과 유료 호출·검수 부담이 핵심 리스크",
+  "status": "revised",
+  "implementationStatus": "local_implemented_agent_checked_human_review_pending",
+  "date": "2026-09-30",
+  "outline": [
+    {
+      "id": "mvp-goal",
+      "prefix": "01",
+      "title": "MVP 목표 (MVP Goal)",
+      "required": true,
+      "status": "revised"
+    },
+    {
+      "id": "user-value",
+      "prefix": "02",
+      "title": "핵심 사용자 가치 (Core User Value)",
+      "required": true,
+      "status": "revised"
+    },
+    {
+      "id": "architecture",
+      "prefix": "10",
+      "title": "시스템 아키텍처 개요",
+      "required": false,
+      "status": "revised"
+    },
+    {
+      "id": "data-model",
+      "prefix": "20",
+      "title": "데이터 모델 & 주요 엔티티",
+      "required": false,
+      "status": "revised"
+    },
+    {
+      "id": "apis",
+      "prefix": "30",
+      "title": "주요 API · 외부 연동",
+      "required": false,
+      "status": "revised"
+    },
+    {
+      "id": "stack",
+      "prefix": "40",
+      "title": "기술 스택 & 인프라",
+      "required": false,
+      "status": "revised"
+    },
+    {
+      "id": "nonfunctional",
+      "prefix": "50",
+      "title": "비기능 요구 (보안·성능·확장성)",
+      "required": false,
+      "status": "revised"
+    },
+    {
+      "id": "scope-in",
+      "prefix": "90",
+      "title": "포함 범위 (In-Scope · MVP 범위)",
+      "required": true,
+      "status": "revised"
+    },
+    {
+      "id": "scope-out",
+      "prefix": "91",
+      "title": "제외 범위 (Out-of-Scope)",
+      "required": true,
+      "status": "revised"
+    },
+    {
+      "id": "validation",
+      "prefix": "99",
+      "title": "검증 지표 (Validation Metrics)",
+      "required": true,
+      "status": "revised"
+    }
+  ],
+  "answers": [
+    {
+      "section": "mvp-goal",
+      "q": "사용자가 기대하는 추천 경험",
+      "a": "동고서저 개념에서 국내 지형과 관련 지명을 표출하고 실제 관련 클립으로 탐색",
+      "historicalAsOf": "2026-09-28"
+    },
+    {
+      "section": "user-value",
+      "q": "사용자 제약",
+      "a": "25건 직접 검수와 태깅 부담, 데이터 준비 전 API 비용 발생 우려",
+      "historicalAsOf": "2026-09-28"
+    },
+    {
+      "section": "scope-in",
+      "q": "이번 요청 범위",
+      "a": "전체 재설계 필요성 크리틱과 수정 설계서 작성. 런타임 변경은 미실행",
+      "historicalAsOf": "2026-09-28"
+    },
+    {
+      "section": "mvp-goal",
+      "q": "144건 정보셋으로 당장 현업 사용 가능한가",
+      "a": "현재는 로컬 시제품 수준. READINESS.md에 실제 검색 풀 4건, 주제 편중·출처·반복 공급·운영 부담과 별도 시범운영 기준을 기록",
+      "historicalAsOf": "2026-09-28"
+    },
+    {
+      "section": "scope-in",
+      "date": "2026-09-30",
+      "q": "이번 세션 범위",
+      "a": "실제 대량 수집·시맨틱 태깅 구현까지 진행"
+    },
+    {
+      "section": "mvp-goal",
+      "date": "2026-09-30",
+      "q": "수집 목표",
+      "a": "1차 50개 프로그램·2만 회차"
+    },
+    {
+      "section": "scope-in",
+      "date": "2026-09-30",
+      "q": "과학 우선 영역",
+      "a": "생태·기후·인체·우주 다큐 소재"
+    },
+    {
+      "section": "apis",
+      "date": "2026-09-30",
+      "q": "API 제한",
+      "a": "유료 API만 금지, 로컬 서버·브라우저 테스트 허용"
+    },
+    {
+      "section": "apis",
+      "date": "2026-09-30",
+      "q": "향후 모델 역할",
+      "a": "로컬 시맨틱 레이어·검색 시뮬레이션 이후 프로덕션 추론"
+    },
+    {
+      "section": "user-value",
+      "date": "2026-09-30",
+      "q": "자연어 검색 결과 구성",
+      "a": "자료 목록을 먼저 보여주고 설명은 펼치기"
+    },
+    {
+      "section": "user-value",
+      "date": "2026-10-01",
+      "q": "교사와 관리자 화면 관계",
+      "a": "실제 교사가 보고 사용하는 페이지와 admin 분리"
+    }
+  ],
+  "next": "R07_teacher_discovery_and_lesson_workspace",
+  "supplemental_documents": [
+    "READINESS.md"
+  ],
+  "collectionTarget": {
+    "programs": 50,
+    "episodes": 20000
+  },
+  "paidApiAllowed": false,
+  "observed": {
+    "episodeIds": 22753,
+    "programLabels": 88,
+    "conservativeNamedProgramFamilies": 79,
+    "concepts": 60,
+    "sourceMentions": 1668,
+    "inferredCandidates": 179,
+    "humanApprovalChanged": false
+  },
+  "followupImplementationStatus": "planned_not_implemented"
+}

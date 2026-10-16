@@ -1,0 +1,3498 @@
+{
+  "version": "2026-09-28.1",
+  "query": "과거 서울의 모습",
+  "kind": "all",
+  "access": "all",
+  "place": "",
+  "program": "",
+  "programs": [
+    "경이로운 자연의 세계",
+    "고고다이노 공룡탐험대",
+    "고양이를 부탁해",
+    "고향민국",
+    "곰디와 친구들",
+    "공감 플러스",
+    "과학 다큐 비욘드",
+    "과학 다큐멘터리",
+    "과학/환경",
+    "과학/환경 특집 프로그램",
+    "곽준빈의 세계 기사식당",
+    "교과연계 클립",
+    "교육 특집 프로그램",
+    "귀하신 몸",
+    "극한 직업",
+    "글로벌 아빠찾아 삼만리",
+    "꼬마버스 타요",
+    "꼬마버스 타요 (Eng.)",
+    "나의 두 번째 교과서",
+    "내 친구 몬덕이",
+    "냉장고 나라 코코몽",
+    "뇌가 젊어지는 체조",
+    "다큐 오늘",
+    "다큐멘터리K",
+    "덩이랑 쾡이랑 인물 한국사",
+    "두근두근 방방",
+    "딩동댕 딩동댕",
+    "딩동댕 보건실",
+    "딩동댕 유치원",
+    "딩동댕 친구들-장난감나라의 비밀",
+    "똑똑 문해력 박사 - 속담과 관용어 편",
+    "똑똑 문해력 박사 - 어휘 편",
+    "로보카 폴리",
+    "마샤와 곰",
+    "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+    "명의",
+    "명탐정 피트",
+    "모여라 딩동댕",
+    "뭐든지 뮤직박스",
+    "발명이 팡팡!",
+    "방귀대장 뿡뿡이",
+    "부모의 첫 성교육",
+    "비버와 함께 떠나는 컴퓨터 과학",
+    "뽀롱뽀롱 뽀로로",
+    "뽀롱뽀롱 뽀로로 (Eng.)",
+    "삐뽀삐뽀! 우리 몸 X파일",
+    "생방송 뭐든지 해결단",
+    "생방송 방과 후 듄듄",
+    "생방송 톡! 톡! 보니 하니",
+    "서울대 음대 레슨노트",
+    "성인 문해교육 프로젝트2 공부하기 좋은 날",
+    "세계 극한직업 - 추성훈의 밥값은 해야지",
+    "세계테마기행",
+    "세상에 나쁜 개는 없다",
+    "수상한 방송국",
+    "숲 속 친구 파파룰라(HD)",
+    "신계숙의 맛터사이클 다이어리",
+    "쓰담쓰담 동물원 프렌쥬",
+    "어린이 프로그램",
+    "엄마 까투리",
+    "역사채널e",
+    "왔다! 내 손주",
+    "우리집 유치원",
+    "우주탐사 이야기",
+    "위대한 수업, 그레이트 마인즈",
+    "위인극장",
+    "이것이 야생이다",
+    "일단 해봐요 생방송 오후 1시",
+    "자연 다큐",
+    "지구 영웅 번개맨",
+    "지구탐사 이야기",
+    "지식채널e",
+    "채소가지구",
+    "최고다! 호기심딱지",
+    "최고의 요리비결",
+    "최고의 요리비결 공방",
+    "최태성 서경석의 여행본색",
+    "출동! 슈퍼윙스",
+    "춤추는 소녀 와와",
+    "취미는 과학",
+    "취미는 과학여행",
+    "코봇 지구를 지켜라",
+    "특집/기획/특강",
+    "하나뿐인 지구",
+    "한국기행",
+    "한글용사 아이야",
+    "해요와 해요",
+    "허풍선이 과학쇼",
+    "희망풍경",
+    "AI 고전, 역사를 바꾼 100책",
+    "AI 드라마 - 부활수업",
+    "EBS 다큐프라임",
+    "EBS 중학 국립공원",
+    "EBS 캠페인",
+    "EBS 평생학교",
+    "EBS AI 문학관",
+    "GO! GO! Giggles",
+    "Magic Ice Cream Truck",
+    "PD로그"
+  ],
+  "page": 1,
+  "pages": 1,
+  "pageSize": 9,
+  "total": 7,
+  "facets": {
+    "listing": 1,
+    "episode": 7,
+    "clip": 0,
+    "lesson": 0,
+    "collection": 1
+  },
+  "concepts": [],
+  "terms": [
+    "서울"
+  ],
+  "understanding": {
+    "concepts": [],
+    "terms": [
+      "서울"
+    ],
+    "alternativeGroups": [],
+    "preferences": {
+      "programs": [],
+      "genres": [],
+      "content": []
+    },
+    "requiredPrograms": [],
+    "classroomContext": [],
+    "detailRequests": [],
+    "contentPlan": {
+      "text": "  서울의  ",
+      "relations": [],
+      "scenes": [],
+      "removed": [],
+      "classroom": [],
+      "qualifierPhrases": [],
+      "historicalPlace": {
+        "places": [
+          {
+            "name": "서울",
+            "aliases": [
+              "서울",
+              "한양",
+              "경성",
+              "한성부",
+              "경성부"
+            ],
+            "aliasSource": "https://history.seoul.go.kr/archive/content.do?key=2211240006"
+          }
+        ],
+        "operator": "AND",
+        "quote": "과거 서울의 모습",
+        "status": "HISTORICAL_SETTING_REQUEST"
+      }
+    },
+    "positiveQuery": "서울의",
+    "intent": "OBSERVE",
+    "connector": "AND",
+    "relationNeeds": [],
+    "excluded": [],
+    "constraints": {
+      "exclusionClauses": [],
+      "requiredGenres": [],
+      "excludedGenres": [],
+      "genreOperator": "AND",
+      "gradeContext": {
+        "value": "all",
+        "courses": [],
+        "grades": [],
+        "warnings": [],
+        "needsClarification": false,
+        "source": "all",
+        "label": "미지정"
+      }
+    },
+    "warnings": [],
+    "naturalLanguage": {
+      "text": "  서울의  ",
+      "original": "과거 서울의 모습",
+      "active": false,
+      "relations": [],
+      "purposes": [],
+      "expansions": [],
+      "explicitConjunction": false
+    },
+    "expansions": [],
+    "method": "LOCAL_RULES",
+    "curriculumStatus": "NOT_ASSESSED",
+    "groups": [
+      {
+        "operator": "AND",
+        "conceptIds": [],
+        "geographyIds": [],
+        "terms": [
+          "서울"
+        ],
+        "alternatives": []
+      }
+    ]
+  },
+  "stats": {
+    "catalog": 23403,
+    "individual": 22958,
+    "collections": 445,
+    "withDescription": 18272,
+    "sourceQuality": {
+      "version": "source-text-v3",
+      "total": 23403,
+      "distribution": {
+        "none": 1376,
+        "repeated": 971,
+        "production": 426,
+        "short": 13774,
+        "detailed": 6856
+      },
+      "minimumPassed": 18272,
+      "minimumRatio": 0.7807546041105841
+    },
+    "workingSet": 144,
+    "indexedContents": 0,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22733,
+    "broadcastCatalog": 22794,
+    "broadcastDescriptions": 17837,
+    "broadcastPrograms": 90,
+    "broadcastTitleGroups": 21552,
+    "directLinks": 10059
+  },
+  "results": [
+    {
+      "id": "BCAST-df08c41c02929df8d54a",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "지식채널e",
+      "title": "서울 2부 - 기억하는 목소리",
+      "summary": "2,000년 도읍의 역사를 지닌 도시, 서울. 늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데. 서울문화재단에서 '메모리 인 서울' 프로젝트의 일환으로 사람들의 목소리를 녹음했다. 이렇게 녹음 된 1970년 시내버스 풍경, 1995년 삼풍백화점 붕괴, 2014년 세월호 사건 등 다양한 이야기. 서울을 기억하는 사람들의 목소리가 담긴 테이프를 틀어본다.",
+      "sourceSupplements": [],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+      "collectionUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=73",
+      "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 소개문",
+      "checkedAt": "2026-09-29T13:30:12.275Z",
+      "descriptionCheckedAt": "2026-10-14T23:13:51.508Z",
+      "durationMinutes": 4.8,
+      "durationSeconds": 288,
+      "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+      "durationCheckedAt": "2026-10-14T23:13:51.508Z",
+      "descriptionMatchStatus": "MATCHED",
+      "broadcastDate": "2022-06-27",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:13:51.508Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 3,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 26,
+            "end": 66,
+            "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 20,
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 25,
+            "quote": "2,000년 도읍의 역사를 지닌 도시, 서울."
+          },
+          {
+            "field": "summary",
+            "start": 26,
+            "end": 66,
+            "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데."
+          },
+          {
+            "field": "summary",
+            "start": 67,
+            "end": 113,
+            "quote": "서울문화재단에서 '메모리 인 서울' 프로젝트의 일환으로 사람들의 목소리를 녹음했다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "서울",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 22,
+            "end": 24,
+            "quote": "서울",
+            "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+          }
+        },
+        {
+          "label": "역사",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 11,
+            "end": 13,
+            "quote": "역사",
+            "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+          }
+        },
+        {
+          "label": "도시",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 18,
+            "end": 20,
+            "quote": "도시",
+            "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [
+        "서울"
+      ],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "원본 제목·소개에서 서울 확인",
+      "score": 344,
+      "sourceQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [
+          "목소리",
+          "서울",
+          "역사"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "2,000년 도읍의 역사를 지닌 도시, 서울. 서울문화재단에서 '메모리 인 서울' 프로젝트의 일환으로 사람들의 목소리를 녹음했다. 서울을 기억하는 사람들의 목소리가 담긴 테이프를 틀어본다.",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 25,
+            "quote": "2,000년 도읍의 역사를 지닌 도시, 서울."
+          },
+          {
+            "field": "summary",
+            "start": 67,
+            "end": 113,
+            "quote": "서울문화재단에서 '메모리 인 서울' 프로젝트의 일환으로 사람들의 목소리를 녹음했다."
+          },
+          {
+            "field": "summary",
+            "start": 178,
+            "end": 210,
+            "quote": "서울을 기억하는 사람들의 목소리가 담긴 테이프를 틀어본다."
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "목소리",
+            "field": "title",
+            "quote": "목소리",
+            "start": 13,
+            "score": 9
+          },
+          {
+            "keyword": "서울",
+            "field": "title",
+            "quote": "서울",
+            "start": 0,
+            "score": 8
+          },
+          {
+            "keyword": "역사",
+            "field": "summary",
+            "quote": "역사",
+            "start": 11,
+            "score": 8
+          }
+        ]
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 25,
+            "quote": "2,000년 도읍의 역사를 지닌 도시, 서울."
+          },
+          {
+            "field": "summary",
+            "start": 26,
+            "end": 66,
+            "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데."
+          },
+          {
+            "field": "summary",
+            "start": 67,
+            "end": 113,
+            "quote": "서울문화재단에서 '메모리 인 서울' 프로젝트의 일환으로 사람들의 목소리를 녹음했다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [
+          "서울"
+        ],
+        "meaningMatches": [],
+        "text": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+        "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+        "identity": "회차 ID·제목 대조 일치",
+        "identityCheckedAt": "2026-10-14T23:13:51.508Z",
+        "description": "공식 상세 소개문 대조 일치",
+        "descriptionCheckedAt": "2026-10-14T23:13:51.508Z",
+        "collectedAt": "2026-09-29T13:30:12.275Z",
+        "durationSeconds": 288,
+        "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168",
+        "durationCheckedAt": "2026-10-14T23:13:51.508Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "detailed",
+      "relevanceReason": "제목에서 ‘서울’ 표현 확인 / 소개문에서 ‘서울’ 표현 확인",
+      "recommendationExplanation": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+    },
+    {
+      "id": "BCAST-bebb4c0281a72aeed961",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "하나뿐인 지구",
+      "title": "빈집, 드립니다",
+      "summary": "자막빈집의 재활용. 착한 개발을 위한 빈집 프로젝트 두번째 이야기",
+      "sourceSupplements": [
+        {
+          "id": "41d201a5dcda778d7f7f6635",
+          "type": "PRESS_RELEASE",
+          "label": "EBS 공식 보도자료",
+          "title": "EBS 하나뿐인 지구 - 빈집, 드립니다 (28일 오후 8시 50분 방송)",
+          "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+          "publishedAt": "2014-11-27",
+          "checkedAt": "2026-10-15T02:47:39.630Z",
+          "identity": {
+            "resourceId": "BCAST-bebb4c0281a72aeed961",
+            "title": "빈집, 드립니다",
+            "program": "하나뿐인 지구",
+            "broadcastDate": "2014-11-28",
+            "variant": "EPISODE",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10266184"
+          },
+          "identityEvidence": [
+            "빈집, 드립니다",
+            "하나뿐인 지구",
+            "2014-11-27"
+          ],
+          "text": "<EBS 하나뿐인 지구> 빈집, 드립니다 잘 고친 빈집 하나, 열 새집 안 부럽다? 마을의 애물단지에서 보물단지로 변신한 빈집 쓸모없던 빈집의 즐거운 반전이 시작된다. 빈집에서 사는 사람들의 행복한 이야기가 펼쳐진다. 순창시 동고마을 빈집을 찾아 귀농한 동우씨 가족에서 제주도 빈집을 찾아 이사온 대근씨 가족부터 빈집 덕분에 폐교와 마을을 살린 사연까지 빈집이 일으킨 놀라운 기적을 공개한다. *방송일시: 2014년 11월 28일(금) 오후 8시 50분 # 나는 빈집에 산다 지난 2014년 9월, 전라북도 순창시 동고마을에 빈집을 찾아 귀농한 김동우 씨 가족. 수년간 방치됐던 빈집은 김동우 씨 가족의 따뜻한 보금자리로 재탄생했다. 저렴한 가격에~ 집뿐 아니라 텃밭까지 빌린 김동우 씨네는 지금, 제철 맞은 감 수확이 한창이다. 그런데 바뀐 것은 빈집뿐이 아니다. 김동우 씨 가족이 찾아오면서 마을 평균연령은 낮아지고, 아이들 웃음소리로 마을이 생기를 찾아가고 있다 아이들의 웃음소리 덕분에 조용했던 마을이 생기를 찾아가고 있다. 빈집이 가져다준 동고마을의 행복을 찾아간다. # 제주도 빈집으로 혼저옵서예 가을의 어느 날. 제주항에 커다란 이삿짐 트럭이 도착했다. 주인공은 바로 서울에서 제주 서귀포시 성산읍 온평리로 이사 온 고대근씨 가족. 바쁘기만 하던 서울에서의 삶을 벗어나 제주로 올 수 있었던 이유 중 하나가 바로 빈집이라는데… 서귀포시 남원읍 신례1리는 빈집 20여 채를 수리해 외지인에게 3년간 무상으로 임대했다. 서귀포시는 빈집 정비 사업을 통해 마을도 살리고, 학교도 살리는 일석이조의 효과를 톡톡히 누리고 있다. 제주도 빈집으로 이사 온 사람들의 즐거운 이야기가 시작된다. # 상옥분교를 폐교위기에서 구해낸 영웅, 빈집 학교를 살리고 싶으면 빈집을 제공해라? 2년 전까지만 해도 폐교 위기에 처해있었던 포항 상옥분교. 그런 학교에서 올해 마을 운동회가 열렸다. 폐교 위기에서 벗어나 마을 운동회까지 열 수 있었던 일등 공신은 바로 빈집! 마을에 방치된 빈집을 고쳐 저렴한 임대료로 내놓으면서 초등학교 자녀를 가진 가족들이 이사를 오기 시작했다. 빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다. 그런데 재개발로 인해 마을 곳곳에 흉물스럽게 방치된 빈집들. 하지만 빈집들을 하나둘 고치기 시작하고, 사람들?? 들어와서 살면서 마을은 살기 좋은 동네로 변신하고 있다 집은 갖고 있는 것이 아니라. 거주할 때 비로소 가치가 있는 것이라는 신념으로 빈집을 고쳐가는 장수마을을 만나보자. 관련 사진은 EBS 홈페이지-온에어-오늘의 TV 섹션, 해당 방송 날짜에 있습니다. -끝-",
+          "location": ".view_cont1 본문 시작~1333 UTF-16; 제목·프로그램 일치, 목록 방송일-게시일 1일 (게시 전후/시리즈 공지 최대14일 대조)",
+          "originalStart": 121,
+          "originalEnd": 1454,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "responseHash": "0af57ad9ac288a7c56c44cc5f76d8b28cacad6a3e11b4011f1e1657a354b6b7c",
+          "contentHash": "415681b423f05db61883c9cf4ecaca7c5a3ddaba2f5b48fa7dea938271a87d74",
+          "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10266184",
+      "collectionUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+      "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 목록 · 소개문",
+      "checkedAt": "2026-09-30T13:27:01.915Z",
+      "descriptionCheckedAt": "2026-09-30T13:27:01.915Z",
+      "durationMinutes": null,
+      "durationSeconds": null,
+      "durationSourceUrl": null,
+      "durationCheckedAt": null,
+      "descriptionMatchStatus": "NOT_CHECKED",
+      "broadcastDate": "2014-11-28",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10266184",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "programClassification": {
+        "forms": [
+          "다큐멘터리"
+        ],
+        "program": "하나뿐인 지구",
+        "category": "자연·과학/다큐멘터리",
+        "courseId": "BP0PAPF0000000022",
+        "stepId": "01BP0PAPF0000000022",
+        "sourceUrl": "https://www.ebs.co.kr/tv/search/programListNew",
+        "sourcePage": 57,
+        "checkedAt": "2026-09-30T13:12:31.520Z",
+        "sourceRecordHash": "a08e90e161159fc8051b6a33bd0f343ace3bf066f25eba8496ba860fbd874108",
+        "formatEvidence": [],
+        "match": "NAME_AND_COURSE_STEP"
+      },
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 3,
+        "evidence": [
+          {
+            "field": "sourceSupplement",
+            "start": 1044,
+            "end": 1123,
+            "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 12,
+        "topicEvidence": [],
+        "supplementEvidence": [
+          {
+            "field": "sourceSupplement",
+            "start": 597,
+            "end": 640,
+            "quote": "주인공은 바로 서울에서 제주 서귀포시 성산읍 온평리로 이사 온 고대근씨 가족.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          },
+          {
+            "field": "sourceSupplement",
+            "start": 641,
+            "end": 743,
+            "quote": "바쁘기만 하던 서울에서의 삶을 벗어나 제주로 올 수 있었던 이유 중 하나가 바로 빈집이라는데… 서귀포시 남원읍 신례1리는 빈집 20여 채를 수리해 외지인에게 3년간 무상으로 임대했다.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          },
+          {
+            "field": "sourceSupplement",
+            "start": 1044,
+            "end": 1123,
+            "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          }
+        ],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "환경",
+          "conceptId": "environment",
+          "kind": "REGISTERED_CONCEPT",
+          "evidence": {
+            "field": "summary",
+            "start": 6,
+            "end": 9,
+            "quote": "재활용",
+            "context": "빈집의 재활용.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6"
+          }
+        },
+        {
+          "label": "재활용",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 6,
+            "end": 9,
+            "quote": "재활용",
+            "context": "빈집의 재활용.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [],
+      "genreEvidence": [],
+      "semanticTags": [
+        {
+          "conceptId": "environment",
+          "label": "환경",
+          "subject": "공통",
+          "status": "SOURCE_MENTION",
+          "method": "SUMMARY_CONTEXT_RULE",
+          "ruleVersion": "2026-10-15.1",
+          "evidence": {
+            "field": "summary",
+            "start": 6,
+            "end": 9,
+            "quote": "재활용",
+            "context": "빈집의 재활용.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+            "excerpt": "빈집의 재활용.",
+            "checkedAt": "2026-09-30T13:27:01.915Z",
+            "contentHash": "902c63755b5c6e2559547bb37569dd2aac157ee164ae036c6454565e8d0bc95b"
+          }
+        }
+      ],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "프로그램명에서 서울 확인",
+      "score": 312,
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [
+          "재활용",
+          "빈집"
+        ],
+        "label": "방송 내용 안내 · 공식 보조 설명",
+        "text": "순창시 동고마을 빈집을 찾아 귀농한 동우씨 가족에서 제주도 빈집을 찾아 이사온 대근씨 가족부터 빈집 덕분에 폐교와 마을을 살린 사연까지 빈집이 일으킨 놀라운 기적을 공개한다. *방송일시: 2014년 11월 28일(금) 오후 8시 50분 # 나는 빈집에 산다 지난 2014년 9월, 전라북도 순창시 동고마을에 빈집을 찾아 귀농한 김동우 씨 가족. 빈집이 가져다준 동고마을의 행복을 찾아간다.",
+        "evidence": [
+          {
+            "field": "sourceSupplement",
+            "start": 122,
+            "end": 219,
+            "quote": "순창시 동고마을 빈집을 찾아 귀농한 동우씨 가족에서 제주도 빈집을 찾아 이사온 대근씨 가족부터 빈집 덕분에 폐교와 마을을 살린 사연까지 빈집이 일으킨 놀라운 기적을 공개한다.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          },
+          {
+            "field": "sourceSupplement",
+            "start": 220,
+            "end": 314,
+            "quote": "*방송일시: 2014년 11월 28일(금) 오후 8시 50분 # 나는 빈집에 산다 지난 2014년 9월, 전라북도 순창시 동고마을에 빈집을 찾아 귀농한 김동우 씨 가족.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          },
+          {
+            "field": "sourceSupplement",
+            "start": 522,
+            "end": 546,
+            "quote": "빈집이 가져다준 동고마을의 행복을 찾아간다.",
+            "supplementId": "41d201a5dcda778d7f7f6635",
+            "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812"
+          }
+        ],
+        "method": "OFFICIAL_SUPPLEMENT_EXTRACT",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "sourceNote": "EBS 공식 보도자료에서 해당 회차를 확인해 보충했습니다. 기존 소개문과 구분한 설명입니다.",
+        "basis": "OFFICIAL_SUPPLEMENT",
+        "keywordEvidence": [
+          {
+            "keyword": "재활용",
+            "field": "summary",
+            "quote": "재활용",
+            "start": 4,
+            "score": 9
+          },
+          {
+            "keyword": "빈집",
+            "field": "title",
+            "quote": "빈집",
+            "start": 0,
+            "score": 8
+          }
+        ]
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "프로그램명에서 서울 확인"
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10266184",
+        "textSourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+        "identity": "개별 회차 대조 미확인",
+        "identityCheckedAt": null,
+        "description": "현재 상세 소개문 대조 미확인",
+        "descriptionCheckedAt": null,
+        "collectedAt": "2026-09-30T13:27:01.915Z",
+        "durationSeconds": null,
+        "durationSourceUrl": null,
+        "durationCheckedAt": null,
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [
+        {
+          "conceptId": "environment",
+          "label": "환경",
+          "subject": "공통",
+          "status": "SOURCE_MENTION",
+          "method": "SUMMARY_CONTEXT_RULE",
+          "ruleVersion": "2026-10-15.1",
+          "evidence": {
+            "field": "summary",
+            "start": 6,
+            "end": 9,
+            "quote": "재활용",
+            "context": "빈집의 재활용.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+            "excerpt": "빈집의 재활용.",
+            "checkedAt": "2026-09-30T13:27:01.915Z",
+            "contentHash": "902c63755b5c6e2559547bb37569dd2aac157ee164ae036c6454565e8d0bc95b"
+          }
+        }
+      ],
+      "descriptionStatus": "short",
+      "relevanceReason": "프로그램명에서 서울 확인",
+      "recommendationExplanation": "프로그램명에서 서울 확인"
+    },
+    {
+      "id": "BCAST-9ce7e18c2f15ae5b62b1",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "고향민국",
+      "title": "강남구, 올드 앤 뉴",
+      "summary": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다.  이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.  대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다. 올드 앤 뉴가 공존하는 테헤란로의 다양한 이야기를 만나본다. ",
+      "sourceSupplements": [],
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60554231",
+      "collectionUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "evidenceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 목록 · 소개문",
+      "checkedAt": "2026-09-29T13:32:03.307Z",
+      "descriptionCheckedAt": "2026-10-15T05:01:25.178Z",
+      "durationMinutes": null,
+      "durationSeconds": null,
+      "durationSourceUrl": null,
+      "durationCheckedAt": "2026-10-15T05:01:25.178Z",
+      "descriptionMatchStatus": "NOT_CHECKED",
+      "broadcastDate": "2025-01-07",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60554231",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 2,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 49,
+            "end": 149,
+            "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 12,
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 47,
+            "quote": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다."
+          },
+          {
+            "field": "summary",
+            "start": 49,
+            "end": 149,
+            "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "역사",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 254,
+            "end": 256,
+            "quote": "역사",
+            "context": "대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다.",
+            "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+          }
+        },
+        {
+          "label": "대한민국",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 151,
+            "end": 155,
+            "quote": "대한민국",
+            "context": "대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다.",
+            "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+          }
+        },
+        {
+          "label": "서울",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 0,
+            "end": 2,
+            "quote": "서울",
+            "context": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다.",
+            "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [
+        "서울"
+      ],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "원본 제목·소개에서 서울 확인",
+      "score": 226,
+      "sourceQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [
+          "시장",
+          "역사"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다. 이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다. 대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다.",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 47,
+            "quote": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다."
+          },
+          {
+            "field": "summary",
+            "start": 49,
+            "end": 149,
+            "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다."
+          },
+          {
+            "field": "summary",
+            "start": 151,
+            "end": 278,
+            "quote": "대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다."
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "시장",
+            "field": "summary",
+            "quote": "시장",
+            "start": 89,
+            "score": 8
+          },
+          {
+            "keyword": "역사",
+            "field": "summary",
+            "quote": "역사",
+            "start": 252,
+            "score": 8
+          }
+        ]
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 47,
+            "quote": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다."
+          },
+          {
+            "field": "summary",
+            "start": 49,
+            "end": 149,
+            "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60554231",
+        "textSourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231",
+        "identity": "개별 회차 대조 미확인",
+        "identityCheckedAt": null,
+        "description": "현재 상세 소개문 대조 미확인",
+        "descriptionCheckedAt": null,
+        "collectedAt": "2026-09-29T13:32:03.307Z",
+        "durationSeconds": null,
+        "durationSourceUrl": null,
+        "durationCheckedAt": "2026-10-15T05:01:25.178Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "detailed",
+      "relevanceReason": "소개문에서 ‘서울’ 표현 확인",
+      "recommendationExplanation": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+    },
+    {
+      "id": "BCAST-385937d100fd441a2acb",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "고향민국",
+      "title": "한강 따라 흐른 50년, 강남구",
+      "summary": " 2025년 행정구역 신설 50주년을 맞는 강남구. 1963년 이전까지 경기 광주군에 속하는 전형적인 농촌이었던 강남이 대한민국의 심장이 된 것은 한강이 있었기 때문. 한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다. 압구정 신사, 논현, 청담 등 한강 연안을 중심으로 시작된 오리지널 ‘강남스타일’을 만나본다. <br>",
+      "sourceSupplements": [],
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+      "collectionUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 소개문",
+      "checkedAt": "2026-09-29T13:32:03.307Z",
+      "descriptionCheckedAt": "2026-10-15T04:47:46.216Z",
+      "durationMinutes": 24.9,
+      "durationSeconds": 1492,
+      "durationSourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+      "durationCheckedAt": "2026-10-15T04:47:46.216Z",
+      "descriptionMatchStatus": "MATCHED",
+      "broadcastDate": "2025-01-06",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-15T04:47:46.216Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 2,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 94,
+            "end": 177,
+            "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 12,
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 94,
+            "end": 177,
+            "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "대한민국",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 67,
+            "end": 71,
+            "quote": "대한민국",
+            "context": "1963년 이전까지 경기 광주군에 속하는 전형적인 농촌이었던 강남이 대한민국의 심장이 된 것은 한강이 있었기 때문.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+          }
+        },
+        {
+          "label": "서울",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 101,
+            "end": 103,
+            "quote": "서울",
+            "context": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+          }
+        },
+        {
+          "label": "채소",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 105,
+            "end": 107,
+            "quote": "채소",
+            "context": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [
+        "서울"
+      ],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "원본 제목·소개에서 서울 확인",
+      "score": 226,
+      "sourceQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [
+          "한강",
+          "심장"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "1963년 이전까지 경기 광주군에 속하는 전형적인 농촌이었던 강남이 대한민국의 심장이 된 것은 한강이 있었기 때문. 한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다. 압구정 신사, 논현, 청담 등 한강 연안을 중심으로 시작된 오리지널 ‘강남스타일’을 만나본다.",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 29,
+            "end": 93,
+            "quote": "1963년 이전까지 경기 광주군에 속하는 전형적인 농촌이었던 강남이 대한민국의 심장이 된 것은 한강이 있었기 때문."
+          },
+          {
+            "field": "summary",
+            "start": 94,
+            "end": 177,
+            "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다."
+          },
+          {
+            "field": "summary",
+            "start": 178,
+            "end": 230,
+            "quote": "압구정 신사, 논현, 청담 등 한강 연안을 중심으로 시작된 오리지널 ‘강남스타일’을 만나본다."
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "한강",
+            "field": "title",
+            "quote": "한강",
+            "start": 0,
+            "score": 8
+          },
+          {
+            "keyword": "심장",
+            "field": "summary",
+            "quote": "심장",
+            "start": 72,
+            "score": 8
+          }
+        ]
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [
+          {
+            "field": "summary",
+            "start": 94,
+            "end": 177,
+            "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다."
+          }
+        ],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+        "textSourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+        "identity": "회차 ID·제목 대조 일치",
+        "identityCheckedAt": "2026-10-15T04:47:46.216Z",
+        "description": "공식 상세 소개문 대조 일치",
+        "descriptionCheckedAt": "2026-10-15T04:47:46.216Z",
+        "collectedAt": "2026-09-29T13:32:03.307Z",
+        "durationSeconds": 1492,
+        "durationSourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335",
+        "durationCheckedAt": "2026-10-15T04:47:46.216Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "detailed",
+      "relevanceReason": "소개문에서 ‘서울’ 표현 확인",
+      "recommendationExplanation": "요청한 ‘서울’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+    },
+    {
+      "id": "BCAST-33eab23298fe53fc305b",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "지식채널e",
+      "title": "경성, 오래된 미래",
+      "summary": "달라진 세상과 생활 방식에 맞춰 변화한 경성. 지금 우리에게 필요한 도시는?<br>",
+      "sourceSupplements": [],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+      "collectionUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=168",
+      "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 소개문",
+      "checkedAt": "2026-09-29T13:31:56.985Z",
+      "descriptionCheckedAt": "2026-10-14T23:07:43.489Z",
+      "durationMinutes": 4.6,
+      "durationSeconds": 275,
+      "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+      "durationCheckedAt": "2026-10-14T23:07:43.489Z",
+      "descriptionMatchStatus": "MATCHED",
+      "broadcastDate": "2020-10-29",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:07:43.489Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 2,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 25,
+            "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 0,
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "도시",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 38,
+            "end": 40,
+            "quote": "도시",
+            "context": "지금 우리에게 필요한 도시는?",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "보유 목록에서 탐색",
+      "score": 200,
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 25,
+            "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성."
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": []
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "보유 목록에서 탐색"
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+        "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+        "identity": "회차 ID·제목 대조 일치",
+        "identityCheckedAt": "2026-10-14T23:07:43.489Z",
+        "description": "공식 상세 소개문 대조 일치",
+        "descriptionCheckedAt": "2026-10-14T23:07:43.489Z",
+        "collectedAt": "2026-09-29T13:31:56.985Z",
+        "durationSeconds": 275,
+        "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815",
+        "durationCheckedAt": "2026-10-14T23:07:43.489Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "short",
+      "relevanceReason": "보유 목록에서 탐색",
+      "recommendationExplanation": "보유 목록에서 탐색"
+    },
+    {
+      "id": "BCAST-c8631a7480160ae4a667",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "지식채널e",
+      "title": "모던하고 위태로운 도시, 경성을 거닐다",
+      "summary": "독립을 향한 거대한 야망을 품진 않았지만<br>기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다 ",
+      "sourceSupplements": [],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+      "collectionUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=212",
+      "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 소개문",
+      "checkedAt": "2026-09-29T13:32:45.375Z",
+      "descriptionCheckedAt": "2026-10-14T23:04:23.909Z",
+      "durationMinutes": 4.5,
+      "durationSeconds": 270,
+      "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+      "durationCheckedAt": "2026-10-14T23:04:23.909Z",
+      "descriptionMatchStatus": "MATCHED",
+      "broadcastDate": "2020-01-30",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:04:23.909Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 2,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 26,
+            "end": 56,
+            "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 0,
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [],
+      "verifiedKeywordTerms": [],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "보유 목록에서 탐색",
+      "score": 200,
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "독립을 향한 거대한 야망을 품진 않았지만 기어이 우리글로 소설가는 경성을 묘사하기로 마음먹는다",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 56,
+            "quote": "독립을 향한 거대한 야망을 품진 않았지만<br>기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다"
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": []
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "보유 목록에서 탐색"
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+        "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+        "identity": "회차 ID·제목 대조 일치",
+        "identityCheckedAt": "2026-10-14T23:04:23.909Z",
+        "description": "공식 상세 소개문 대조 일치",
+        "descriptionCheckedAt": "2026-10-14T23:04:23.909Z",
+        "collectedAt": "2026-09-29T13:32:45.375Z",
+        "durationSeconds": 270,
+        "durationSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953",
+        "durationCheckedAt": "2026-10-14T23:04:23.909Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "short",
+      "relevanceReason": "보유 목록에서 탐색",
+      "recommendationExplanation": "보유 목록에서 탐색"
+    },
+    {
+      "id": "BCAST-b970ca299c99d9bb3388",
+      "sourceSystem": "EBS_BROADCAST",
+      "kind": "episode",
+      "publishedDate": null,
+      "program": "역사채널e",
+      "title": "비운의 대문, 돈의문",
+      "summary": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+      "sourceSupplements": [],
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+      "collectionUrl": "https://home.ebs.co.kr/historye/replay/2/list?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&c.page=4",
+      "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+      "evidenceLevel": "SOURCE_DESCRIPTION",
+      "evidenceLabel": "공식 회차 소개문",
+      "checkedAt": "2026-09-30T13:33:16.334Z",
+      "descriptionCheckedAt": "2026-10-14T23:06:06.247Z",
+      "durationMinutes": 5.5,
+      "durationSeconds": 328,
+      "durationSourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+      "durationCheckedAt": "2026-10-14T23:06:06.247Z",
+      "descriptionMatchStatus": "MATCHED",
+      "broadcastDate": "2015-11-19",
+      "variant": "EPISODE",
+      "curriculumStatus": "NOT_ASSESSED",
+      "playbackStatus": "NOT_CHECKED",
+      "navigation": {
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:06:06.247Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "limitation": "EBS 공개 메타데이터입니다. 실제 재생·장면 시점·학년 적합성은 별도 확인이 필요합니다.",
+      "approvedLinks": [],
+      "automaticLinks": [],
+      "evidenceRefresh": "CURRENT",
+      "historicalContext": {
+        "requested": true,
+        "matched": true,
+        "status": "HISTORICAL_SETTING_TEXT_CUE",
+        "places": [
+          "서울"
+        ],
+        "rank": 2,
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 74,
+            "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+            "requestedPlace": "서울"
+          }
+        ],
+        "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+      },
+      "meaningMatches": [],
+      "figurativeExpressions": [],
+      "relevanceEvidence": {
+        "method": "LOCAL_SENTENCE_CUES",
+        "score": 0,
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [],
+        "note": "같은 문장의 주제·설명 표현을 비교한 로컬 순위입니다. 의미 충족·영상 적합성은 미확인입니다."
+      },
+      "contentRelation": {
+        "status": "NOT_REQUESTED",
+        "evidence": [],
+        "matched": false
+      },
+      "excludedConditions": [],
+      "geographicEvidence": {
+        "matches": true,
+        "evidence": []
+      },
+      "requestRelation": {
+        "rank": 0,
+        "status": "NOT_EVALUATED",
+        "evidence": [],
+        "unconfirmed": []
+      },
+      "semanticRetrieval": null,
+      "contentKeywords": [
+        {
+          "label": "역사",
+          "kind": "SOURCE_KEYWORD",
+          "evidence": {
+            "field": "summary",
+            "start": 29,
+            "end": 31,
+            "quote": "역사",
+            "context": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+            "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448"
+          }
+        }
+      ],
+      "verifiedKeywordTerms": [],
+      "genreEvidence": [],
+      "semanticTags": [],
+      "inferredTags": [],
+      "requestedDetails": [],
+      "preferredProgram": false,
+      "kindLabel": "일반방송 회차",
+      "relations": [],
+      "reason": "보유 목록에서 탐색",
+      "score": 200,
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "alternatives": [],
+      "contentPreview": {
+        "keywords": [
+          "역사"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 74,
+            "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다"
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "역사",
+            "field": "summary",
+            "quote": "역사",
+            "start": 29,
+            "score": 8
+          }
+        ]
+      },
+      "resourcePresentation": {
+        "unit": "VIDEO",
+        "formats": [],
+        "destination": "EPISODE"
+      },
+      "searchExplanation": {
+        "topicEvidence": [],
+        "supplementEvidence": [],
+        "details": [
+          {
+            "label": "요청한 장소의 과거 풍경·생활",
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ]
+          }
+        ],
+        "unconfirmed": [
+          "요청한 장소의 과거 풍경·생활: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+        ],
+        "titleWords": [],
+        "meaningMatches": [],
+        "text": "보유 목록에서 탐색"
+      },
+      "sourceChecks": {
+        "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+        "textSourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+        "identity": "회차 ID·제목 대조 일치",
+        "identityCheckedAt": "2026-10-14T23:06:06.247Z",
+        "description": "공식 상세 소개문 대조 일치",
+        "descriptionCheckedAt": "2026-10-14T23:06:06.247Z",
+        "collectedAt": "2026-09-30T13:33:16.334Z",
+        "durationSeconds": 328,
+        "durationSourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448",
+        "durationCheckedAt": "2026-10-14T23:06:06.247Z",
+        "playback": "미확인",
+        "scenes": "미확인",
+        "grade": "미확인"
+      },
+      "coreTags": [],
+      "descriptionStatus": "short",
+      "relevanceReason": "보유 목록에서 탐색",
+      "recommendationExplanation": "보유 목록에서 탐색"
+    }
+  ],
+  "retrieval": {
+    "keyword": true,
+    "semantic": "LOCAL_E5",
+    "elapsedMs": 1836,
+    "externalApiCalls": 0
+  },
+  "mode": "LOCAL_SOURCE_DISCOVERY",
+  "paidApiCalls": 0,
+  "note": "관련순은 제목·소개문의 주제/조건 근거, 같은 문장의 설명 단서와 명시한 프로그램·장르 선호를 사용합니다. 동점과 같은 제목 판본은 원문 품질을 우선합니다. 영상의 학년 적합성·장면·교육적 효용을 판단한 순위가 아닙니다.",
+  "emptyMessage": "현재 검색어와 필터에 맞는 자료가 없습니다. 자료 미보유·원문 부족·후보 발견 실패는 이 결과만으로 구분할 수 없습니다. 선택 조건을 해제하거나 제목·소개문에 있는 다른 표현으로 검색하세요.",
+  "requestExecution": {
+    "status": "LOCAL_ONLY",
+    "adopted": false,
+    "envelope": {
+      "version": "curi-request-input-v1",
+      "requestId": "6953f920-6e0b-4284-908c-45521c668c76",
+      "query": "과거 서울의 모습",
+      "lockedConditions": [
+        {
+          "name": "grade",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "conceptGroup",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "concept",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "program",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "year",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "from",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "to",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "kind",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "subject",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "description",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "curriculum",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "access",
+          "value": "all",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "sort",
+          "value": "relevance",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "standard",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "state",
+          "value": "",
+          "owner": "SYSTEM"
+        },
+        {
+          "name": "page",
+          "value": "1",
+          "owner": "SYSTEM"
+        }
+      ]
+    },
+    "paidApiCalls": 0,
+    "reason": "NO_INTERPRETATION_SUPPLIED"
+  },
+  "grade": "all",
+  "conceptGroup": "",
+  "concept": "",
+  "year": "",
+  "from": "",
+  "to": "",
+  "subject": "all",
+  "description": "all",
+  "curriculum": "all",
+  "sort": "relevance",
+  "gradeContext": {
+    "value": "all",
+    "courses": [],
+    "grades": [],
+    "warnings": [],
+    "needsClarification": false,
+    "source": "all",
+    "label": "미지정"
+  },
+  "searchMode": "QUERY",
+  "standard": null,
+  "state": "",
+  "tagConcepts": 60,
+  "topic": "",
+  "topicLabel": "",
+  "filters": {
+    "kind": [
+      {
+        "value": "all",
+        "label": "개별 영상 전체",
+        "count": 7
+      },
+      {
+        "value": "listing",
+        "label": "프로그램·회차 목록",
+        "count": 1
+      },
+      {
+        "value": "episode",
+        "label": "방송 회차",
+        "count": 7
+      },
+      {
+        "value": "clip",
+        "label": "클립",
+        "count": 0
+      },
+      {
+        "value": "lesson",
+        "label": "강의",
+        "count": 0
+      },
+      {
+        "value": "collection",
+        "label": "프로그램·회차 목록",
+        "count": 1
+      }
+    ],
+    "subject": [
+      {
+        "value": "all",
+        "label": "교과 탐색 전체",
+        "count": 7
+      },
+      {
+        "value": "사회",
+        "label": "사회",
+        "count": 0
+      },
+      {
+        "value": "과학",
+        "label": "과학",
+        "count": 0
+      },
+      {
+        "value": "공통",
+        "label": "공통",
+        "count": 1
+      },
+      {
+        "value": "unclassified",
+        "label": "미분류",
+        "count": 6
+      }
+    ],
+    "description": [
+      {
+        "value": "all",
+        "label": "원문 품질 전체",
+        "count": 7
+      },
+      {
+        "value": "none",
+        "label": "소개문 없음",
+        "count": 0
+      },
+      {
+        "value": "repeated",
+        "label": "제목 반복",
+        "count": 0
+      },
+      {
+        "value": "production",
+        "label": "편성·제작 안내 중심",
+        "count": 0
+      },
+      {
+        "value": "short",
+        "label": "짧은 내용 설명",
+        "count": 4
+      },
+      {
+        "value": "detailed",
+        "label": "구체적 내용 설명",
+        "count": 3
+      },
+      {
+        "value": "present",
+        "label": "최소 원문 조건 통과",
+        "count": 7
+      },
+      {
+        "value": "title",
+        "label": "소개문 없음·제목 반복",
+        "count": 0
+      }
+    ],
+    "curriculum": [
+      {
+        "value": "all",
+        "label": "교육과정 연계 전체",
+        "count": 7
+      },
+      {
+        "value": "approved",
+        "label": "사람 연계 확인",
+        "count": 0
+      },
+      {
+        "value": "automatic",
+        "label": "자동 근거 검사 통과",
+        "count": 0
+      }
+    ],
+    "access": [
+      {
+        "value": "all",
+        "label": "페이지 확인 전체",
+        "count": 7
+      },
+      {
+        "value": "direct",
+        "label": "개별 회차·클립 페이지 확인",
+        "count": 5
+      }
+    ],
+    "program": [
+      {
+        "value": "",
+        "label": "전체 프로그램",
+        "count": 7
+      },
+      {
+        "value": "경이로운 자연의 세계",
+        "label": "경이로운 자연의 세계",
+        "count": 0
+      },
+      {
+        "value": "고고다이노 공룡탐험대",
+        "label": "고고다이노 공룡탐험대",
+        "count": 0
+      },
+      {
+        "value": "고양이를 부탁해",
+        "label": "고양이를 부탁해",
+        "count": 0
+      },
+      {
+        "value": "고향민국",
+        "label": "고향민국",
+        "count": 2
+      },
+      {
+        "value": "곰디와 친구들",
+        "label": "곰디와 친구들",
+        "count": 0
+      },
+      {
+        "value": "공감 플러스",
+        "label": "공감 플러스",
+        "count": 0
+      },
+      {
+        "value": "과학 다큐 비욘드",
+        "label": "과학 다큐 비욘드",
+        "count": 0
+      },
+      {
+        "value": "과학 다큐멘터리",
+        "label": "과학 다큐멘터리",
+        "count": 0
+      },
+      {
+        "value": "과학/환경",
+        "label": "과학/환경",
+        "count": 0
+      },
+      {
+        "value": "과학/환경 특집 프로그램",
+        "label": "과학/환경 특집 프로그램",
+        "count": 0
+      },
+      {
+        "value": "곽준빈의 세계 기사식당",
+        "label": "곽준빈의 세계 기사식당",
+        "count": 0
+      },
+      {
+        "value": "교과연계 클립",
+        "label": "교과연계 클립",
+        "count": 0
+      },
+      {
+        "value": "교육 특집 프로그램",
+        "label": "교육 특집 프로그램",
+        "count": 0
+      },
+      {
+        "value": "귀하신 몸",
+        "label": "귀하신 몸",
+        "count": 0
+      },
+      {
+        "value": "극한 직업",
+        "label": "극한 직업",
+        "count": 0
+      },
+      {
+        "value": "글로벌 아빠찾아 삼만리",
+        "label": "글로벌 아빠찾아 삼만리",
+        "count": 0
+      },
+      {
+        "value": "꼬마버스 타요",
+        "label": "꼬마버스 타요",
+        "count": 0
+      },
+      {
+        "value": "꼬마버스 타요 (Eng.)",
+        "label": "꼬마버스 타요 (Eng.)",
+        "count": 0
+      },
+      {
+        "value": "나의 두 번째 교과서",
+        "label": "나의 두 번째 교과서",
+        "count": 0
+      },
+      {
+        "value": "내 친구 몬덕이",
+        "label": "내 친구 몬덕이",
+        "count": 0
+      },
+      {
+        "value": "냉장고 나라 코코몽",
+        "label": "냉장고 나라 코코몽",
+        "count": 0
+      },
+      {
+        "value": "뇌가 젊어지는 체조",
+        "label": "뇌가 젊어지는 체조",
+        "count": 0
+      },
+      {
+        "value": "다큐 오늘",
+        "label": "다큐 오늘",
+        "count": 0
+      },
+      {
+        "value": "다큐멘터리K",
+        "label": "다큐멘터리K",
+        "count": 0
+      },
+      {
+        "value": "덩이랑 쾡이랑 인물 한국사",
+        "label": "덩이랑 쾡이랑 인물 한국사",
+        "count": 0
+      },
+      {
+        "value": "두근두근 방방",
+        "label": "두근두근 방방",
+        "count": 0
+      },
+      {
+        "value": "딩동댕 딩동댕",
+        "label": "딩동댕 딩동댕",
+        "count": 0
+      },
+      {
+        "value": "딩동댕 보건실",
+        "label": "딩동댕 보건실",
+        "count": 0
+      },
+      {
+        "value": "딩동댕 유치원",
+        "label": "딩동댕 유치원",
+        "count": 0
+      },
+      {
+        "value": "딩동댕 친구들-장난감나라의 비밀",
+        "label": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 0
+      },
+      {
+        "value": "똑똑 문해력 박사 - 속담과 관용어 편",
+        "label": "똑똑 문해력 박사 - 속담과 관용어 편",
+        "count": 0
+      },
+      {
+        "value": "똑똑 문해력 박사 - 어휘 편",
+        "label": "똑똑 문해력 박사 - 어휘 편",
+        "count": 0
+      },
+      {
+        "value": "로보카 폴리",
+        "label": "로보카 폴리",
+        "count": 0
+      },
+      {
+        "value": "마샤와 곰",
+        "label": "마샤와 곰",
+        "count": 0
+      },
+      {
+        "value": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "label": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 0
+      },
+      {
+        "value": "명의",
+        "label": "명의",
+        "count": 0
+      },
+      {
+        "value": "명탐정 피트",
+        "label": "명탐정 피트",
+        "count": 0
+      },
+      {
+        "value": "모여라 딩동댕",
+        "label": "모여라 딩동댕",
+        "count": 0
+      },
+      {
+        "value": "뭐든지 뮤직박스",
+        "label": "뭐든지 뮤직박스",
+        "count": 0
+      },
+      {
+        "value": "발명이 팡팡!",
+        "label": "발명이 팡팡!",
+        "count": 0
+      },
+      {
+        "value": "방귀대장 뿡뿡이",
+        "label": "방귀대장 뿡뿡이",
+        "count": 0
+      },
+      {
+        "value": "부모의 첫 성교육",
+        "label": "부모의 첫 성교육",
+        "count": 0
+      },
+      {
+        "value": "비버와 함께 떠나는 컴퓨터 과학",
+        "label": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 0
+      },
+      {
+        "value": "뽀롱뽀롱 뽀로로",
+        "label": "뽀롱뽀롱 뽀로로",
+        "count": 0
+      },
+      {
+        "value": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "label": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 0
+      },
+      {
+        "value": "삐뽀삐뽀! 우리 몸 X파일",
+        "label": "삐뽀삐뽀! 우리 몸 X파일",
+        "count": 0
+      },
+      {
+        "value": "생방송 뭐든지 해결단",
+        "label": "생방송 뭐든지 해결단",
+        "count": 0
+      },
+      {
+        "value": "생방송 방과 후 듄듄",
+        "label": "생방송 방과 후 듄듄",
+        "count": 0
+      },
+      {
+        "value": "생방송 톡! 톡! 보니 하니",
+        "label": "생방송 톡! 톡! 보니 하니",
+        "count": 0
+      },
+      {
+        "value": "서울대 음대 레슨노트",
+        "label": "서울대 음대 레슨노트",
+        "count": 0
+      },
+      {
+        "value": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+        "label": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+        "count": 0
+      },
+      {
+        "value": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "label": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 0
+      },
+      {
+        "value": "세계테마기행",
+        "label": "세계테마기행",
+        "count": 0
+      },
+      {
+        "value": "세상에 나쁜 개는 없다",
+        "label": "세상에 나쁜 개는 없다",
+        "count": 0
+      },
+      {
+        "value": "수상한 방송국",
+        "label": "수상한 방송국",
+        "count": 0
+      },
+      {
+        "value": "숲 속 친구 파파룰라(HD)",
+        "label": "숲 속 친구 파파룰라(HD)",
+        "count": 0
+      },
+      {
+        "value": "신계숙의 맛터사이클 다이어리",
+        "label": "신계숙의 맛터사이클 다이어리",
+        "count": 0
+      },
+      {
+        "value": "쓰담쓰담 동물원 프렌쥬",
+        "label": "쓰담쓰담 동물원 프렌쥬",
+        "count": 0
+      },
+      {
+        "value": "어린이 프로그램",
+        "label": "어린이 프로그램",
+        "count": 0
+      },
+      {
+        "value": "엄마 까투리",
+        "label": "엄마 까투리",
+        "count": 0
+      },
+      {
+        "value": "역사채널e",
+        "label": "역사채널e",
+        "count": 1
+      },
+      {
+        "value": "왔다! 내 손주",
+        "label": "왔다! 내 손주",
+        "count": 0
+      },
+      {
+        "value": "우리집 유치원",
+        "label": "우리집 유치원",
+        "count": 0
+      },
+      {
+        "value": "우주탐사 이야기",
+        "label": "우주탐사 이야기",
+        "count": 0
+      },
+      {
+        "value": "위대한 수업, 그레이트 마인즈",
+        "label": "위대한 수업, 그레이트 마인즈",
+        "count": 0
+      },
+      {
+        "value": "위인극장",
+        "label": "위인극장",
+        "count": 0
+      },
+      {
+        "value": "이것이 야생이다",
+        "label": "이것이 야생이다",
+        "count": 0
+      },
+      {
+        "value": "일단 해봐요 생방송 오후 1시",
+        "label": "일단 해봐요 생방송 오후 1시",
+        "count": 0
+      },
+      {
+        "value": "자연 다큐",
+        "label": "자연 다큐",
+        "count": 0
+      },
+      {
+        "value": "지구 영웅 번개맨",
+        "label": "지구 영웅 번개맨",
+        "count": 0
+      },
+      {
+        "value": "지구탐사 이야기",
+        "label": "지구탐사 이야기",
+        "count": 0
+      },
+      {
+        "value": "지식채널e",
+        "label": "지식채널e",
+        "count": 3
+      },
+      {
+        "value": "채소가지구",
+        "label": "채소가지구",
+        "count": 0
+      },
+      {
+        "value": "최고다! 호기심딱지",
+        "label": "최고다! 호기심딱지",
+        "count": 0
+      },
+      {
+        "value": "최고의 요리비결",
+        "label": "최고의 요리비결",
+        "count": 0
+      },
+      {
+        "value": "최고의 요리비결 공방",
+        "label": "최고의 요리비결 공방",
+        "count": 0
+      },
+      {
+        "value": "최태성 서경석의 여행본색",
+        "label": "최태성 서경석의 여행본색",
+        "count": 0
+      },
+      {
+        "value": "출동! 슈퍼윙스",
+        "label": "출동! 슈퍼윙스",
+        "count": 0
+      },
+      {
+        "value": "춤추는 소녀 와와",
+        "label": "춤추는 소녀 와와",
+        "count": 0
+      },
+      {
+        "value": "취미는 과학",
+        "label": "취미는 과학",
+        "count": 0
+      },
+      {
+        "value": "취미는 과학여행",
+        "label": "취미는 과학여행",
+        "count": 0
+      },
+      {
+        "value": "코봇 지구를 지켜라",
+        "label": "코봇 지구를 지켜라",
+        "count": 0
+      },
+      {
+        "value": "특집/기획/특강",
+        "label": "특집/기획/특강",
+        "count": 0
+      },
+      {
+        "value": "하나뿐인 지구",
+        "label": "하나뿐인 지구",
+        "count": 1
+      },
+      {
+        "value": "한국기행",
+        "label": "한국기행",
+        "count": 0
+      },
+      {
+        "value": "한글용사 아이야",
+        "label": "한글용사 아이야",
+        "count": 0
+      },
+      {
+        "value": "해요와 해요",
+        "label": "해요와 해요",
+        "count": 0
+      },
+      {
+        "value": "허풍선이 과학쇼",
+        "label": "허풍선이 과학쇼",
+        "count": 0
+      },
+      {
+        "value": "희망풍경",
+        "label": "희망풍경",
+        "count": 0
+      },
+      {
+        "value": "AI 고전, 역사를 바꾼 100책",
+        "label": "AI 고전, 역사를 바꾼 100책",
+        "count": 0
+      },
+      {
+        "value": "AI 드라마 - 부활수업",
+        "label": "AI 드라마 - 부활수업",
+        "count": 0
+      },
+      {
+        "value": "EBS 다큐프라임",
+        "label": "EBS 다큐프라임",
+        "count": 0
+      },
+      {
+        "value": "EBS 중학 국립공원",
+        "label": "EBS 중학 국립공원",
+        "count": 0
+      },
+      {
+        "value": "EBS 캠페인",
+        "label": "EBS 캠페인",
+        "count": 0
+      },
+      {
+        "value": "EBS 평생학교",
+        "label": "EBS 평생학교",
+        "count": 0
+      },
+      {
+        "value": "EBS AI 문학관",
+        "label": "EBS AI 문학관",
+        "count": 0
+      },
+      {
+        "value": "GO! GO! Giggles",
+        "label": "GO! GO! Giggles",
+        "count": 0
+      },
+      {
+        "value": "Magic Ice Cream Truck",
+        "label": "Magic Ice Cream Truck",
+        "count": 0
+      },
+      {
+        "value": "PD로그",
+        "label": "PD로그",
+        "count": 0
+      }
+    ],
+    "conceptGroup": [
+      {
+        "value": "",
+        "label": "주제 묶음 전체",
+        "count": 7
+      },
+      {
+        "value": "citizens",
+        "label": "사회 · 민주주의·시민",
+        "count": 0
+      },
+      {
+        "value": "history",
+        "label": "사회 · 역사·문화",
+        "count": 0
+      },
+      {
+        "value": "life",
+        "label": "사회 · 경제·생활",
+        "count": 0
+      },
+      {
+        "value": "geography",
+        "label": "사회·공통 · 지리·환경",
+        "count": 1
+      },
+      {
+        "value": "biology",
+        "label": "과학 · 생물·생태",
+        "count": 0
+      },
+      {
+        "value": "body",
+        "label": "과학 · 인체",
+        "count": 0
+      },
+      {
+        "value": "earth",
+        "label": "과학·공통 · 우주·지구",
+        "count": 0
+      },
+      {
+        "value": "matter",
+        "label": "과학·공통 · 물질·에너지",
+        "count": 0
+      }
+    ],
+    "concept": [
+      {
+        "value": "",
+        "label": "개념 전체",
+        "count": 7
+      },
+      {
+        "value": "ecosystem",
+        "label": "생태계",
+        "count": 0
+      },
+      {
+        "value": "bee",
+        "label": "꿀벌",
+        "count": 0
+      },
+      {
+        "value": "wildlife",
+        "label": "야생동물",
+        "count": 0
+      },
+      {
+        "value": "plant",
+        "label": "식물",
+        "count": 0
+      },
+      {
+        "value": "climate",
+        "label": "기후 변화",
+        "count": 0
+      },
+      {
+        "value": "weather",
+        "label": "날씨",
+        "count": 0
+      },
+      {
+        "value": "cloud",
+        "label": "구름",
+        "count": 0
+      },
+      {
+        "value": "body",
+        "label": "인체",
+        "count": 0
+      },
+      {
+        "value": "immunity",
+        "label": "면역",
+        "count": 0
+      },
+      {
+        "value": "digestion",
+        "label": "소화",
+        "count": 0
+      },
+      {
+        "value": "space",
+        "label": "우주",
+        "count": 0
+      },
+      {
+        "value": "moon",
+        "label": "달의 모양",
+        "count": 0
+      },
+      {
+        "value": "circuit",
+        "label": "전기 회로",
+        "count": 0
+      },
+      {
+        "value": "magnet",
+        "label": "자석",
+        "count": 0
+      },
+      {
+        "value": "dissolve",
+        "label": "용해",
+        "count": 0
+      },
+      {
+        "value": "matter",
+        "label": "물질",
+        "count": 0
+      },
+      {
+        "value": "light",
+        "label": "빛",
+        "count": 0
+      },
+      {
+        "value": "force",
+        "label": "힘과 운동",
+        "count": 0
+      },
+      {
+        "value": "energy",
+        "label": "에너지",
+        "count": 0
+      },
+      {
+        "value": "earthquake",
+        "label": "지진",
+        "count": 0
+      },
+      {
+        "value": "volcano",
+        "label": "화산",
+        "count": 0
+      },
+      {
+        "value": "ocean",
+        "label": "바다",
+        "count": 0
+      },
+      {
+        "value": "plastic",
+        "label": "플라스틱",
+        "count": 0
+      },
+      {
+        "value": "environment",
+        "label": "환경",
+        "count": 1
+      },
+      {
+        "value": "democracy",
+        "label": "민주주의",
+        "count": 0
+      },
+      {
+        "value": "citizen",
+        "label": "시민 참여",
+        "count": 0
+      },
+      {
+        "value": "population",
+        "label": "인구",
+        "count": 0
+      },
+      {
+        "value": "economy",
+        "label": "경제",
+        "count": 0
+      },
+      {
+        "value": "prices",
+        "label": "물가",
+        "count": 0
+      },
+      {
+        "value": "culture",
+        "label": "문화",
+        "count": 0
+      },
+      {
+        "value": "multicultural",
+        "label": "다문화",
+        "count": 0
+      },
+      {
+        "value": "dolmen",
+        "label": "고인돌",
+        "count": 0
+      },
+      {
+        "value": "map",
+        "label": "대동여지도",
+        "count": 0
+      },
+      {
+        "value": "independence",
+        "label": "독립운동",
+        "count": 0
+      },
+      {
+        "value": "yugwansun",
+        "label": "유관순",
+        "count": 0
+      },
+      {
+        "value": "donghak",
+        "label": "동학",
+        "count": 0
+      },
+      {
+        "value": "coast",
+        "label": "해안 지형",
+        "count": 0
+      },
+      {
+        "value": "landform",
+        "label": "동고서저",
+        "count": 0
+      },
+      {
+        "value": "housing",
+        "label": "주거",
+        "count": 0
+      },
+      {
+        "value": "jobs",
+        "label": "직업",
+        "count": 0
+      },
+      {
+        "value": "transport",
+        "label": "교통",
+        "count": 0
+      },
+      {
+        "value": "rights",
+        "label": "인권",
+        "count": 0
+      },
+      {
+        "value": "april19",
+        "label": "4·19 혁명",
+        "count": 0
+      },
+      {
+        "value": "june_democracy",
+        "label": "6월 민주항쟁",
+        "count": 0
+      },
+      {
+        "value": "gojoseon",
+        "label": "고조선",
+        "count": 0
+      },
+      {
+        "value": "three_kingdoms",
+        "label": "삼국시대",
+        "count": 0
+      },
+      {
+        "value": "artifact",
+        "label": "유물·유적",
+        "count": 0
+      },
+      {
+        "value": "excavation",
+        "label": "발굴",
+        "count": 0
+      },
+      {
+        "value": "desert",
+        "label": "사막",
+        "count": 0
+      },
+      {
+        "value": "tundra",
+        "label": "툰드라",
+        "count": 0
+      },
+      {
+        "value": "nature",
+        "label": "자연환경",
+        "count": 0
+      },
+      {
+        "value": "dinosaur",
+        "label": "공룡",
+        "count": 0
+      },
+      {
+        "value": "fossil",
+        "label": "화석",
+        "count": 0
+      },
+      {
+        "value": "heart",
+        "label": "심장",
+        "count": 0
+      },
+      {
+        "value": "respiration",
+        "label": "호흡 기관",
+        "count": 0
+      },
+      {
+        "value": "fog",
+        "label": "안개",
+        "count": 0
+      },
+      {
+        "value": "acidrain",
+        "label": "산성비",
+        "count": 0
+      },
+      {
+        "value": "acidification",
+        "label": "산성화",
+        "count": 0
+      },
+      {
+        "value": "scientist",
+        "label": "과학자",
+        "count": 0
+      },
+      {
+        "value": "engineer",
+        "label": "엔지니어",
+        "count": 0
+      },
+      {
+        "value": "unclassified",
+        "label": "미분류 · 등록 개념 태그 없음",
+        "count": 6
+      }
+    ],
+    "topicChoices": [
+      {
+        "value": "citizens",
+        "label": "민주주의·시민",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "democracy",
+            "label": "민주주의",
+            "count": 0
+          },
+          {
+            "value": "citizen",
+            "label": "시민 참여",
+            "count": 0
+          },
+          {
+            "value": "rights",
+            "label": "인권",
+            "count": 0
+          },
+          {
+            "value": "april19",
+            "label": "4·19 혁명",
+            "count": 0
+          },
+          {
+            "value": "june_democracy",
+            "label": "6월 민주항쟁",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "history",
+        "label": "역사·문화",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "culture",
+            "label": "문화",
+            "count": 0
+          },
+          {
+            "value": "multicultural",
+            "label": "다문화",
+            "count": 0
+          },
+          {
+            "value": "dolmen",
+            "label": "고인돌",
+            "count": 0
+          },
+          {
+            "value": "map",
+            "label": "대동여지도",
+            "count": 0
+          },
+          {
+            "value": "independence",
+            "label": "독립운동",
+            "count": 0
+          },
+          {
+            "value": "yugwansun",
+            "label": "유관순",
+            "count": 0
+          },
+          {
+            "value": "donghak",
+            "label": "동학",
+            "count": 0
+          },
+          {
+            "value": "gojoseon",
+            "label": "고조선",
+            "count": 0
+          },
+          {
+            "value": "three_kingdoms",
+            "label": "삼국시대",
+            "count": 0
+          },
+          {
+            "value": "artifact",
+            "label": "유물·유적",
+            "count": 0
+          },
+          {
+            "value": "excavation",
+            "label": "발굴",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "life",
+        "label": "경제·생활",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "population",
+            "label": "인구",
+            "count": 0
+          },
+          {
+            "value": "economy",
+            "label": "경제",
+            "count": 0
+          },
+          {
+            "value": "prices",
+            "label": "물가",
+            "count": 0
+          },
+          {
+            "value": "housing",
+            "label": "주거",
+            "count": 0
+          },
+          {
+            "value": "jobs",
+            "label": "직업",
+            "count": 0
+          },
+          {
+            "value": "transport",
+            "label": "교통",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "geography",
+        "label": "지리·환경",
+        "count": 1,
+        "concepts": [
+          {
+            "value": "climate",
+            "label": "기후 변화",
+            "count": 0
+          },
+          {
+            "value": "plastic",
+            "label": "플라스틱",
+            "count": 0
+          },
+          {
+            "value": "environment",
+            "label": "환경",
+            "count": 1
+          },
+          {
+            "value": "coast",
+            "label": "해안 지형",
+            "count": 0
+          },
+          {
+            "value": "landform",
+            "label": "동고서저",
+            "count": 0
+          },
+          {
+            "value": "desert",
+            "label": "사막",
+            "count": 0
+          },
+          {
+            "value": "tundra",
+            "label": "툰드라",
+            "count": 0
+          },
+          {
+            "value": "nature",
+            "label": "자연환경",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "biology",
+        "label": "생물·생태",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "ecosystem",
+            "label": "생태계",
+            "count": 0
+          },
+          {
+            "value": "bee",
+            "label": "꿀벌",
+            "count": 0
+          },
+          {
+            "value": "wildlife",
+            "label": "야생동물",
+            "count": 0
+          },
+          {
+            "value": "plant",
+            "label": "식물",
+            "count": 0
+          },
+          {
+            "value": "dinosaur",
+            "label": "공룡",
+            "count": 0
+          },
+          {
+            "value": "fossil",
+            "label": "화석",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "body",
+        "label": "인체",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "body",
+            "label": "인체",
+            "count": 0
+          },
+          {
+            "value": "immunity",
+            "label": "면역",
+            "count": 0
+          },
+          {
+            "value": "digestion",
+            "label": "소화",
+            "count": 0
+          },
+          {
+            "value": "heart",
+            "label": "심장",
+            "count": 0
+          },
+          {
+            "value": "respiration",
+            "label": "호흡 기관",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "earth",
+        "label": "우주·지구",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "weather",
+            "label": "날씨",
+            "count": 0
+          },
+          {
+            "value": "cloud",
+            "label": "구름",
+            "count": 0
+          },
+          {
+            "value": "space",
+            "label": "우주",
+            "count": 0
+          },
+          {
+            "value": "moon",
+            "label": "달의 모양",
+            "count": 0
+          },
+          {
+            "value": "earthquake",
+            "label": "지진",
+            "count": 0
+          },
+          {
+            "value": "volcano",
+            "label": "화산",
+            "count": 0
+          },
+          {
+            "value": "ocean",
+            "label": "바다",
+            "count": 0
+          },
+          {
+            "value": "fog",
+            "label": "안개",
+            "count": 0
+          },
+          {
+            "value": "acidrain",
+            "label": "산성비",
+            "count": 0
+          },
+          {
+            "value": "acidification",
+            "label": "산성화",
+            "count": 0
+          },
+          {
+            "value": "scientist",
+            "label": "과학자",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "value": "matter",
+        "label": "물질·에너지",
+        "count": 0,
+        "concepts": [
+          {
+            "value": "circuit",
+            "label": "전기 회로",
+            "count": 0
+          },
+          {
+            "value": "magnet",
+            "label": "자석",
+            "count": 0
+          },
+          {
+            "value": "dissolve",
+            "label": "용해",
+            "count": 0
+          },
+          {
+            "value": "matter",
+            "label": "물질",
+            "count": 0
+          },
+          {
+            "value": "light",
+            "label": "빛",
+            "count": 0
+          },
+          {
+            "value": "force",
+            "label": "힘과 운동",
+            "count": 0
+          },
+          {
+            "value": "energy",
+            "label": "에너지",
+            "count": 0
+          },
+          {
+            "value": "engineer",
+            "label": "엔지니어",
+            "count": 0
+          }
+        ]
+      }
+    ],
+    "topicUnclassified": {
+      "value": "unclassified",
+      "label": "미분류",
+      "count": 6
+    },
+    "year": [
+      {
+        "value": "",
+        "label": "기간 전체",
+        "count": 7
+      },
+      {
+        "value": "2025",
+        "label": "2025년",
+        "count": 2
+      },
+      {
+        "value": "2022",
+        "label": "2022년",
+        "count": 1
+      },
+      {
+        "value": "2020",
+        "label": "2020년",
+        "count": 2
+      },
+      {
+        "value": "2015",
+        "label": "2015년",
+        "count": 1
+      },
+      {
+        "value": "2014",
+        "label": "2014년",
+        "count": 1
+      },
+      {
+        "value": "unknown",
+        "label": "날짜 미확인",
+        "count": 0
+      }
+    ]
+  },
+  "countNote": "건수는 현재 조건의 판본 묶음 기준입니다. 각 필터의 수는 그 필터만 바꿨을 때의 결과이며 주제·교과는 겹칠 수 있습니다.",
+  "dateNote": "방송일은 EBS 공개 목록에 표시된 날짜이며 최초 방송일과 다를 수 있습니다. 날짜 미확인은 정렬 시 마지막에 표시합니다.",
+  "emptyReason": null
+}

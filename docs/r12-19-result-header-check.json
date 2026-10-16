@@ -1,0 +1,263 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 32,
+          "y": 1036,
+          "width": 1163.375,
+          "height": 20,
+          "center": 1046,
+          "right": 1195.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 1207.375,
+          "y": 1028,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1046,
+          "right": 1348.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 1236.796875,
+          "y": 1028,
+          "width": 112,
+          "height": 36,
+          "center": 1046,
+          "right": 1348.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 1360.796875,
+          "y": 1028,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1046,
+          "right": 1408
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    },
+    {
+      "width": 1280,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 32,
+          "y": 1036,
+          "width": 1003.375,
+          "height": 20,
+          "center": 1046,
+          "right": 1035.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 1047.375,
+          "y": 1028,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1046,
+          "right": 1188.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 1076.796875,
+          "y": 1028,
+          "width": 112,
+          "height": 36,
+          "center": 1046,
+          "right": 1188.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 1200.796875,
+          "y": 1028,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1046,
+          "right": 1248
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    },
+    {
+      "width": 1000,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 32,
+          "y": 1036,
+          "width": 723.375,
+          "height": 20,
+          "center": 1046,
+          "right": 755.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 767.375,
+          "y": 1028,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1046,
+          "right": 908.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 796.796875,
+          "y": 1028,
+          "width": 112,
+          "height": 36,
+          "center": 1046,
+          "right": 908.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 920.796875,
+          "y": 1028,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1046,
+          "right": 968
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    },
+    {
+      "width": 768,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 32,
+          "y": 1036,
+          "width": 491.375,
+          "height": 20,
+          "center": 1046,
+          "right": 523.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 535.375,
+          "y": 1028,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1046,
+          "right": 676.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 564.796875,
+          "y": 1028,
+          "width": 112,
+          "height": 36,
+          "center": 1046,
+          "right": 676.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 688.796875,
+          "y": 1028,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1046,
+          "right": 736
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    },
+    {
+      "width": 390,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 28,
+          "y": 1039,
+          "width": 129.375,
+          "height": 20,
+          "center": 1049,
+          "right": 157.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 165.375,
+          "y": 1031,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1049,
+          "right": 306.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 194.796875,
+          "y": 1031,
+          "width": 112,
+          "height": 36,
+          "center": 1049,
+          "right": 306.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 314.796875,
+          "y": 1031,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1049,
+          "right": 362
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    },
+    {
+      "width": 360,
+      "boxes": [
+        {
+          "selector": "#results-heading",
+          "x": 28,
+          "y": 1039,
+          "width": 99.375,
+          "height": 20,
+          "center": 1049,
+          "right": 127.375
+        },
+        {
+          "selector": ".sort-control",
+          "x": 135.375,
+          "y": 1031,
+          "width": 141.421875,
+          "height": 36,
+          "center": 1049,
+          "right": 276.796875
+        },
+        {
+          "selector": "#sort-filter",
+          "x": 164.796875,
+          "y": 1031,
+          "width": 112,
+          "height": 36,
+          "center": 1049,
+          "right": 276.796875
+        },
+        {
+          "selector": "[aria-label=\"검색 결과 닫기\"]",
+          "x": 284.796875,
+          "y": 1031,
+          "width": 47.203125,
+          "height": 36,
+          "center": 1049,
+          "right": 332
+        }
+      ],
+      "sortWorks": true,
+      "cardOnly": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15T05:17:43.049Z",
+  "rows": [
+    {
+      "id": "BCAST-1df6f39944e931f6903e",
+      "status": "UPDATED",
+      "descriptionLength": 348,
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10138735",
+      "sourceKind": "OFFICIAL_DESCRIPTION_EXCERPT",
+      "sourceCheckedAt": "2026-10-14T23:04:52.230Z"
+    }
+  ],
+  "paidApiCalls": 0
+}

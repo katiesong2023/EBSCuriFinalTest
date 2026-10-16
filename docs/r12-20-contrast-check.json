@@ -1,0 +1,102 @@
+{
+  "passed": 12,
+  "checks": [
+    {
+      "name": "본문/크림",
+      "foreground": "#1A1A1A",
+      "background": "#FBF7EF",
+      "ratio": 16.29,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "설명/크림",
+      "foreground": "#666666",
+      "background": "#FBF7EF",
+      "ratio": 5.37,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "설명/흰 면",
+      "foreground": "#666666",
+      "background": "#FFFFFF",
+      "ratio": 5.74,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "기본 버튼",
+      "foreground": "#FBF7EF",
+      "background": "#1A1A1A",
+      "ratio": 16.29,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "버튼 hover/Coral",
+      "foreground": "#1A1A1A",
+      "background": "#FF614C",
+      "ratio": 5.86,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "Sun 선택",
+      "foreground": "#1A1A1A",
+      "background": "#FFC828",
+      "ratio": 11.23,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "Lilac",
+      "foreground": "#1A1A1A",
+      "background": "#ED91FA",
+      "ratio": 8.31,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "Mint",
+      "foreground": "#1A1A1A",
+      "background": "#B4DCDC",
+      "ratio": 11.78,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "Green 토스트",
+      "foreground": "#1A1A1A",
+      "background": "#05AA82",
+      "ratio": 5.87,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "다크 밴드",
+      "foreground": "#FBF7EF",
+      "background": "#1A1A1A",
+      "ratio": 16.29,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "포커스/크림",
+      "foreground": "#1A1A1A",
+      "background": "#FBF7EF",
+      "ratio": 16.29,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "포커스/흰 면",
+      "foreground": "#1A1A1A",
+      "background": "#FFFFFF",
+      "ratio": 17.4,
+      "target": 3,
+      "passed": true
+    }
+  ],
+  "note": "카테고리 컬러는 글자로 사용하지 않음. 완전한 접근성 감사를 뜻하지 않음."
+}

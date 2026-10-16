@@ -1,0 +1,43 @@
+{
+  "layouts": [
+    {
+      "width": 360,
+      "disabledButtonRecovery": true,
+      "offlineCaptureSaveBlocked": true,
+      "start": "1:12",
+      "end": "1:15",
+      "sameEpisodeAliasAccepted": true,
+      "stored": {
+        "start": 72,
+        "end": 75
+      },
+      "manualRounded": true,
+      "invalidReadAndDifferentEpisodePreserveInput": true,
+      "inlineError": true,
+      "previewWholeSeconds": true,
+      "overflow": false
+    },
+    {
+      "width": 480,
+      "disabledButtonRecovery": true,
+      "offlineCaptureSaveBlocked": true,
+      "start": "1:12",
+      "end": "1:15",
+      "sameEpisodeAliasAccepted": true,
+      "stored": {
+        "start": 72,
+        "end": 75
+      },
+      "manualRounded": true,
+      "invalidReadAndDifferentEpisodePreserveInput": true,
+      "inlineError": true,
+      "previewWholeSeconds": true,
+      "overflow": false
+    }
+  ],
+  "extensionApiMock": true,
+  "actualWebSegmentStore": true,
+  "realEbsPlayerVerified": false,
+  "errors": [],
+  "isolatedData": true
+}

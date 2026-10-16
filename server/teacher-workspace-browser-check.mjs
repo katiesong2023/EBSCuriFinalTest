@@ -1,0 +1,168 @@
+// 새 브라우저 문맥에서 수업 폴더·기존 준비안 이관·자료 탐색 왕복을 검증한다.
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const { chromium } = await import(process.env.CURI_PLAYWRIGHT_MODULE || 'playwright');
+const browser = await chromium.launch({ headless: true, executablePath: process.env.CURI_BROWSER_EXECUTABLE || undefined });
+const base = process.env.CURI_TEST_URL || 'http://127.0.0.1:3317';
+const reportPrefix = process.env.CURI_REPORT_PREFIX || 'docs/r07-';
+const cases = [], errors = [], requests = [];
+const key = 'curi.teacher.folders.v1', oldKey = 'curi.teacher.lesson.v1';
+try {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, acceptDownloads: true });
+  const page = await context.newPage();
+  page.setDefaultTimeout(15000);
+  page.on('pageerror', (error) => errors.push(error.message));
+  page.on('request', (request) => requests.push({ method: request.method(), url: request.url() }));
+  const ready = () => page.waitForFunction(() => document.querySelector('#result-cards')?.getAttribute('aria-busy') === 'false');
+  const check = async (name, run) => { await run(); cases.push({ name, passed: true }); console.log('통과:', name); };
+  const create = async (title) => { await page.locator('#new-folder-title').fill(title); await page.locator('#create-folder button').click(); };
+  const add = async (ids) => { await page.locator('#add-videos').click(); for (const id of ids) await page.locator(`[data-add="${id}"]`).click(); await page.locator('#close-add').click(); };
+  let resources, firstId, secondId;
+  await page.goto(`${base}/?q=우주`); await ready();
+  await check('단일 목록·정렬·페이지 보존과 영상 모으기', async () => {
+    assert.equal(await page.locator('#representative-tab').count(), 0);
+    const data = await (await page.request.get(`${base}/api/curi/discover?workspace=teacher&q=우주`)).json();
+    resources = data.results.slice(0, 2);
+    for (const resource of resources) await page.locator(`#result-cards [data-save="${resource.id}"]`).click();
+    await page.locator('#next-page').click(); await ready();
+    const ids = await page.locator('#result-cards > .resource-card').evaluateAll((cards) => cards.map((c) => c.dataset.id));
+    await page.reload(); await ready();
+    assert.deepEqual(await page.locator('#result-cards > .resource-card').evaluateAll((cards) => cards.map((c) => c.dataset.id)), ids);
+    await page.locator('header a[href="/lesson.html"]').click();
+  });
+  await check('빈 폴더 시작→여러 수업 폴더 생성·영상 추가·같은 폴더 중복 방지', async () => {
+    assert.equal(await page.locator('#folder-empty').isVisible(), true);
+    assert.equal(await page.locator('[data-role], [data-field="question"], [data-field="activity"]').count(), 0);
+    await create('우주 탐사 수업');
+    firstId = await page.locator('#folder-list [aria-current]').getAttribute('data-folder');
+    await add(resources.map((r) => r.id));
+    assert.equal(await page.locator('.folder-video').count(), 2);
+    await page.locator('#add-videos').click();
+    assert.equal(await page.locator(`[data-add="${resources[0].id}"]`).isDisabled(), true);
+    await page.keyboard.press('Escape');
+    await create('두 번째 수업');
+    secondId = await page.locator('#folder-list [aria-current]').getAttribute('data-folder');
+    await add([resources[0].id]);
+    assert.equal(await page.locator('#folder-list button').count(), 2);
+    assert.equal(await page.locator('.folder-video').count(), 1);
+  });
+  await check('폴더 이름·수업 메모·영상 메모 저장과 새로고침', async () => {
+    await page.locator('#lesson-title').fill('지구와 우주 비교');
+    await page.locator('.folder-note > summary').click();
+    await page.locator('#lesson-note').fill('다음 시간에 이어 볼 자료');
+    await page.locator('.video-note > summary').click();
+    await page.locator('[data-note]').fill('관측 장면부터 확인');
+    await page.reload();
+    assert.equal(await page.locator('#lesson-title').inputValue(), '지구와 우주 비교');
+    assert.equal(await page.locator('#lesson-note').inputValue(), '다음 시간에 이어 볼 자료');
+    assert.equal(await page.locator('[data-note]').inputValue(), '관측 장면부터 확인');
+    assert.equal(await page.locator('.folder-video > .broadcast-date').innerText(), resources[0].broadcastDate ? `방송일 ${resources[0].broadcastDate.replaceAll('-', '. ')}.` : '방송일 미확인');
+    assert.match(await page.locator('.video-open').getAttribute('href'), /^https:\/\//);
+  });
+  await check('모든 폴더의 영상 제목·키워드·수업 이름 검색과 폴더 바로 열기', async () => {
+    await page.locator('#video-search').fill(resources[0].title);
+    assert.equal(await page.locator('.folder-video').count(), 2);
+    assert.equal(await page.locator('#folder-actions').isVisible(), false);
+    await page.locator(`[data-open-folder="${firstId}"]`).click();
+    assert.equal(await page.locator('#video-search').inputValue(), '');
+    assert.equal(await page.locator('#lesson-title').inputValue(), '우주 탐사 수업');
+    await page.locator('#video-search').fill(resources[0].contentPreview.keywords[0]);
+    assert.ok(await page.locator('.folder-video').count() >= 2);
+    await page.locator('#video-search').fill('지구와 우주 비교');
+    assert.equal(await page.locator('.folder-video').count(), 1);
+    await page.locator('#video-search').fill('찾을수없는영상XYZ');
+    assert.equal(await page.locator('.folder-video').count(), 0);
+    await page.locator(`[data-folder="${firstId}"]`).click();
+  });
+  await check('폴더에서 빼기는 다른 폴더·내 자료를 보존', async () => {
+    await page.locator(`[data-remove="${resources[0].id}"]`).click();
+    assert.equal(await page.locator('.folder-video').count(), 1);
+    await page.locator(`[data-folder="${secondId}"]`).click();
+    assert.equal(await page.locator('.folder-video').count(), 1);
+    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('curi.discovery.shelf.v1')).length), 2);
+    await page.locator(`[data-folder="${firstId}"]`).click(); await add([resources[0].id]);
+  });
+  await check('폴더 목록 다운로드·날짜·메모·실패 시 재시도', async () => {
+    await page.locator(`[data-folder="${secondId}"]`).click();
+    const downloadPromise = page.waitForEvent('download');
+    await page.locator('#export-folder').click();
+    const content = await fs.readFile(await (await downloadPromise).path(), 'utf8');
+    for (const word of ['지구와 우주 비교', '관측 장면부터 확인', '방송일:', 'https://']) assert.ok(content.includes(word));
+    await page.route('**/api/curi/discover/resources?*', (route) => route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }));
+    await page.locator('#export-folder').click();
+    await page.waitForFunction(() => document.querySelector('#save-status').textContent.includes('다운로드하지 않았습니다'));
+    assert.equal(await page.locator('.folder-video').count(), 1);
+    assert.equal(await page.locator('#export-folder').isDisabled(), false);
+    await page.unroute('**/api/curi/discover/resources?*');
+  });
+  await check('탐색 왕복의 필터·정렬·페이지 및 선택 폴더 보존', async () => {
+    await page.locator('#find-more').click(); await ready();
+    assert.equal(new URL(page.url()).searchParams.get('q'), '우주');
+    assert.equal(new URL(page.url()).searchParams.get('sort'), 'relevance');
+    assert.equal(new URL(page.url()).searchParams.get('page'), '2');
+    await page.locator('header a[href="/lesson.html"]').click();
+    assert.equal(await page.locator('#lesson-title').inputValue(), '지구와 우주 비교');
+    await page.screenshot({ path: `${reportPrefix}folders-desktop.png`, fullPage: true });
+    await page.setViewportSize({ width: 390, height: 844 });
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.locator('#add-videos').click();
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.keyboard.press('Escape');
+    await page.screenshot({ path: `${reportPrefix}folders-mobile.png`, fullPage: true });
+    await page.setViewportSize({ width: 1440, height: 1000 });
+  });
+  await check('폴더 삭제 취소·확정과 다른 폴더 보존', async () => {
+    page.once('dialog', (dialog) => dialog.dismiss()); await page.locator('#delete-folder').click();
+    assert.equal(await page.locator('#folder-list button').count(), 2);
+    page.once('dialog', (dialog) => dialog.accept()); await page.locator('#delete-folder').click();
+    assert.equal(await page.locator('#folder-list button').count(), 1);
+    assert.equal(await page.locator('.folder-video').count(), 2);
+    await page.reload(); assert.equal(await page.locator('#folder-list button').count(), 1);
+  });
+  await check('이전 준비안의 자료·메모·발문·활동 이관, 원본 보존·중복 이관 방지', async () => {
+    const legacy = { title: '이전 준비안', topic: '우주 탐사', note: '수업 전체 메모', items: [{ resource: resources[0], role: '탐구', note: '내 메모', question: '교사가 작성한 질문', activity: '교사가 작성한 활동' }] };
+    await page.evaluate(({ legacy, key, oldKey }) => { localStorage.removeItem(key); localStorage.setItem(oldKey, JSON.stringify(legacy)); }, { legacy, key, oldKey });
+    await page.reload();
+    assert.equal(await page.locator('#lesson-title').inputValue(), '이전 준비안');
+    assert.equal(await page.locator('[data-note]').inputValue(), '내 메모');
+    await page.locator('.video-note > summary').click(); await page.locator('.video-note details > summary').click();
+    assert.match(await page.locator('.video-note details').innerText(), /교사가 작성한 질문/);
+    assert.match(await page.locator('.video-note details').innerText(), /교사가 작성한 활동/);
+    assert.deepEqual(await page.evaluate((key) => JSON.parse(localStorage.getItem(key)), oldKey), legacy);
+    await page.reload(); assert.equal(await page.locator('#folder-list button').count(), 1);
+    page.once('dialog', (dialog) => dialog.accept()); await page.locator('#delete-folder').click(); await page.reload();
+    assert.equal(await page.locator('#folder-empty').isVisible(), true);
+    assert.equal(await page.locator('#folder-list button').count(), 0);
+  });
+  await check('읽을 수 없는 폴더는 원본을 덮어쓰지 않음', async () => {
+    await page.evaluate((key) => localStorage.setItem(key, '{broken'), key); await page.reload();
+    assert.match(await page.locator('#save-status').innerText(), /읽지 못했습니다/);
+    assert.equal(await page.locator('#create-folder button').isDisabled(), true);
+    assert.equal(await page.evaluate((key) => localStorage.getItem(key), key), '{broken');
+    await page.evaluate((key) => localStorage.setItem(key, JSON.stringify({ folders: [], selectedId: '' })), key); await page.reload();
+  });
+  await check('브라우저 저장 실패는 성공으로 표시하지 않고 재시도 가능', async () => {
+    await page.evaluate(() => { window.originalSetItem = Storage.prototype.setItem; Storage.prototype.setItem = () => { throw new DOMException('quota', 'QuotaExceededError'); }; });
+    await create('저장 실패 검사');
+    assert.match(await page.locator('#save-status').innerText(), /저장하지 못했습니다/);
+    assert.equal(await page.locator('#lesson-title').inputValue(), '저장 실패 검사');
+    await page.evaluate(() => { Storage.prototype.setItem = window.originalSetItem; });
+    await page.locator('#save-folders').click(); await page.reload();
+    assert.equal(await page.locator('#lesson-title').inputValue(), '저장 실패 검사');
+  });
+  await check('다른 창에서 저장한 폴더를 오래된 화면으로 덮어쓰지 않음', async () => {
+    const other = await context.newPage();
+    await other.goto(`${base}/lesson.html`);
+    await other.locator('#lesson-title').waitFor();
+    await page.locator('#lesson-title').fill('최신 창의 수업 이름');
+    await other.locator('#lesson-title').fill('오래된 창의 변경');
+    assert.match(await other.locator('#save-status').innerText(), /다른 창에서 폴더가 변경/);
+    const saved = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)), key);
+    assert.equal(saved.folders[0].title, '최신 창의 수업 이름');
+    await other.close();
+  });
+  assert.deepEqual(errors, []);
+  assert.ok(requests.every((request) => request.method === 'GET' && request.url.startsWith(base)));
+  await fs.writeFile(`${reportPrefix}folder-browser-check.json`, JSON.stringify({ generatedAt: new Date().toISOString(), browser: await browser.version(), cases, pageErrors: errors, writesToServer: 0, externalRequests: 0, limits: '기능 검사이며 실제 교사 효용·영상 재생 검증은 별도' }, null, 2) + '\n');
+  console.log(`R07 수업 폴더 브라우저 ${cases.length}개 통과`);
+} finally { await browser.close(); }

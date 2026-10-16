@@ -1,0 +1,55 @@
+:root {
+  --curi-folder: #FFBE96;
+  --curi-coral: #FF9660;
+  --curi-sun: #BFE06C;
+  --curi-lilac: #C5B5FA;
+  --curi-mint: #A8BBFF;
+  --curi-canvas: #FBF7EF;
+  --curi-surface: #FFFFFF;
+  --curi-surfaceMuted: #F0E9DF;
+  --curi-ink: #1A1A1A;
+  --curi-muted: #5C5961;
+  --curi-line: #DBD2C6;
+  --curi-controlBorder: #85796C;
+  --curi-primary: #63351F;
+  --curi-primaryHover: #492716;
+  --curi-primarySoft: #FFD9C2;
+  --curi-focus: #6438B6;
+  --curi-warning: #8C6114;
+  --curi-warningSoft: #FFF4DF;
+  --curi-error: #B42318;
+  --curi-errorSoft: #FBEAE7;
+  --curi-font-size-body: 14px;
+  --curi-font-size-compact: 14px;
+  --curi-font-size-meta: 12px;
+  --curi-line-height-body: 1.4286;
+  --curi-control-min: 44px;
+  --curi-web-max: 1600px;
+  --curi-extension-width: 360px;
+  --curi-font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --curi-space-4: 4px;
+  --curi-space-8: 8px;
+  --curi-space-12: 12px;
+  --curi-space-16: 16px;
+  --curi-space-20: 20px;
+  --curi-space-24: 24px;
+  --curi-space-32: 32px;
+  --curi-space-48: 48px;
+  --curi-space-64: 64px;
+  --curi-radius-control: 7px;
+  --curi-radius-panel: 10px;
+  --curi-radius-media: 8px;
+  --curi-radius-pill: 999px;
+  --curi-shadow-panel: 0 16px 48px rgba(32,37,35,.12);
+  --curi-shadow-popup: 0 4px 16px rgba(32,37,35,.08);
+  --curi-motion-fast: 150ms;
+  --curi-motion-disclosure: 220ms;
+  --curi-motion-panel: 220ms;
+  --curi-ease: cubic-bezier(.2,.8,.2,1);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --curi-motion-fast: 0ms; --curi-motion-disclosure: 0ms; --curi-motion-panel: 0ms; }
+}
+
+/* 밝은 v1.1 화면용 B 참고 포인트. */
+:root { --curi-accent: #FF9660; --curi-accentHover: #FFAE85; --curi-selection: #6438B6; --curi-selectionSoft: #E9E0FF; --curi-folderFront: #FFD0AF; }

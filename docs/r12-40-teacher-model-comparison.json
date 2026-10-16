@@ -1,0 +1,257 @@
+{
+  "complete": true,
+  "metrics": [
+    {
+      "stage": "local",
+      "queries": 370,
+      "nonempty": 40,
+      "top1": {
+        "relevant": 31,
+        "partial": 9,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 40,
+        "relevantShare": 0.775
+      },
+      "top3": {
+        "relevant": 57,
+        "partial": 20,
+        "irrelevant": 2,
+        "unjudged": 0,
+        "exposures": 79,
+        "relevantShare": 0.7215189873417721
+      },
+      "queriesWithRelevantTop3": 31,
+      "empty": 330
+    },
+    {
+      "stage": "previousLlmSupplement",
+      "queries": 370,
+      "nonempty": 72,
+      "top1": {
+        "relevant": 49,
+        "partial": 23,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 72,
+        "relevantShare": 0.6805555555555556
+      },
+      "top3": {
+        "relevant": 80,
+        "partial": 35,
+        "irrelevant": 3,
+        "unjudged": 0,
+        "exposures": 118,
+        "relevantShare": 0.6779661016949152
+      },
+      "queriesWithRelevantTop3": 50,
+      "empty": 298
+    },
+    {
+      "stage": "anchoredConditions",
+      "queries": 370,
+      "nonempty": 72,
+      "top1": {
+        "relevant": 64,
+        "partial": 8,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 72,
+        "relevantShare": 0.8888888888888888
+      },
+      "top3": {
+        "relevant": 111,
+        "partial": 13,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 124,
+        "relevantShare": 0.8951612903225806
+      },
+      "queriesWithRelevantTop3": 65,
+      "empty": 298
+    },
+    {
+      "stage": "teacherRuntime",
+      "queries": 370,
+      "nonempty": 72,
+      "top1": {
+        "relevant": 65,
+        "partial": 7,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 72,
+        "relevantShare": 0.9027777777777778
+      },
+      "top3": {
+        "relevant": 113,
+        "partial": 13,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 126,
+        "relevantShare": 0.8968253968253969
+      },
+      "queriesWithRelevantTop3": 66,
+      "empty": 298
+    }
+  ],
+  "missingLabels": 0,
+  "knownRelevant": 57,
+  "lostAll": 21,
+  "lostTop3": 31,
+  "losses": [
+    {
+      "set": "new200",
+      "id": "Q001",
+      "query": "우리 고장의 모습",
+      "resourceId": "BCAST-ee7209f90c567da3a49f",
+      "title": "산청, 선비의 고장"
+    },
+    {
+      "set": "new200",
+      "id": "Q023",
+      "query": "다문화 가정 이웃",
+      "resourceId": "BCAST-e338391ea6f4ef309dae",
+      "title": "무지갯빛 말레이시아의 골목대장 자매들!"
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-5cf70af05ea91d1b1fad",
+      "title": "우리 동네 핫플레이스 5부 최고의 한 끼를 위하여"
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-11c6c4076ac40f504bc9",
+      "title": "‘억’ 소리 나는 그녀들 1부 곰보배추로 13억"
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-1ecfc5874bad21a3edfc",
+      "title": "‘억’ 소리 나는 그녀들 2부 꽃문어로 10억"
+    },
+    {
+      "set": "new200",
+      "id": "Q052",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "resourceId": "BCAST-7223c22691cb54b4b924",
+      "title": "아담 쉐보르스키 - 민주주의 난제 2강 어떻게 인기를 얻었을까"
+    },
+    {
+      "set": "new200",
+      "id": "Q108",
+      "query": "실 전화기는 어떻게 소리가 전달될까",
+      "resourceId": "BCAST-b464ecdca1139922ae40",
+      "title": "여보세요?"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "resourceId": "BCAST-3ae380d82bcd390fd2ed",
+      "title": "도서관에서 책 빌리기 도전!"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "resourceId": "BCAST-42cb718c8c18c2a86d25",
+      "title": "도서관에 간 꺼병이들"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q028",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "resourceId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q049",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "resourceId": "BCAST-5d8e926d1f0903ba4e77",
+      "title": "시민의 탄생 - 5부 연결자들"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "resourceId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "resourceId": "BCAST-076b63322b8a48f4d42c",
+      "title": "비밀의 땅 파미르 - 1부 세계의 지붕"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q083",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "resourceId": "BCAST-dd00bb970222169873c2",
+      "title": "동네의 맛 - 첫눈 내리던 날"
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q083",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "resourceId": "BCAST-1da970630a3f983fa0ca",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "resourceId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "resourceId": "BCAST-7c5470496fdc6b9adbb1",
+      "title": "먼지 같은 차별도 있습니다"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "resourceId": "BCAST-7237e22384453e542437",
+      "title": "모두의 차별"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "BCAST-5f49781a67f4ea133b7a",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 5강 다문화주의라는 숭고한 위험"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "BCAST-9103eb5ea2e4e90d2e91",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+    }
+  ],
+  "quotesChecked": 380,
+  "metadataChecked": 41,
+  "totalConservativeUsd": 1.422129475,
+  "remainingApprovedUsd": 0.577870525,
+  "pending": 0,
+  "changedStores": [],
+  "caveat": "동일370 원문·원천 고정. 상위3개 전체의 에이전트 원문 잠정 평가이며 교사/영상 정답률·전체 재현율이 아니다. 비용은 불명 예약 유지·캐시 할인 미적용 보수적 집계다."
+}

@@ -1,0 +1,283 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "row": {
+        "title": {
+          "x": 269,
+          "y": 482.515625,
+          "width": 83.328125,
+          "height": 26.09375,
+          "right": 352.328125,
+          "center": 495.5625
+        },
+        "bring": {
+          "x": 825.453125,
+          "y": 477.5625,
+          "width": 148.25,
+          "height": 36,
+          "right": 973.703125,
+          "center": 495.5625
+        },
+        "download": {
+          "x": 981.703125,
+          "y": 477.5625,
+          "width": 113.296875,
+          "height": 36,
+          "right": 1095,
+          "center": 495.5625
+        },
+        "right": 1095
+      },
+      "backgrounds": [
+        "color(srgb 0.899608 0.951373 0.769412)",
+        "color(srgb 0.90902 0.883922 0.992157)"
+      ],
+      "icons": [
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        }
+      ],
+      "deleteCancelPassed": true
+    },
+    {
+      "width": 1000,
+      "row": {
+        "title": {
+          "x": 233,
+          "y": 482.515625,
+          "width": 83.328125,
+          "height": 26.09375,
+          "right": 316.328125,
+          "center": 495.5625
+        },
+        "bring": {
+          "x": 685.453125,
+          "y": 477.5625,
+          "width": 148.25,
+          "height": 36,
+          "right": 833.703125,
+          "center": 495.5625
+        },
+        "download": {
+          "x": 841.703125,
+          "y": 477.5625,
+          "width": 113.296875,
+          "height": 36,
+          "right": 955,
+          "center": 495.5625
+        },
+        "right": 955
+      },
+      "backgrounds": [
+        "color(srgb 0.899608 0.951373 0.769412)",
+        "color(srgb 0.90902 0.883922 0.992157)"
+      ],
+      "icons": [
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        }
+      ],
+      "deleteCancelPassed": true
+    },
+    {
+      "width": 768,
+      "row": {
+        "title": {
+          "x": 233,
+          "y": 507.703125,
+          "width": 83.328125,
+          "height": 26.09375,
+          "right": 316.328125,
+          "center": 520.75
+        },
+        "bring": {
+          "x": 453.453125,
+          "y": 502.75,
+          "width": 148.25,
+          "height": 36,
+          "right": 601.703125,
+          "center": 520.75
+        },
+        "download": {
+          "x": 609.703125,
+          "y": 502.75,
+          "width": 113.296875,
+          "height": 36,
+          "right": 723,
+          "center": 520.75
+        },
+        "right": 723
+      },
+      "backgrounds": [
+        "color(srgb 0.899608 0.951373 0.769412)",
+        "color(srgb 0.90902 0.883922 0.992157)"
+      ],
+      "icons": [
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        }
+      ],
+      "deleteCancelPassed": true
+    },
+    {
+      "width": 390,
+      "row": {
+        "title": {
+          "x": 29,
+          "y": 721.328125,
+          "width": 83.328125,
+          "height": 26.09375,
+          "right": 112.328125,
+          "center": 734.375
+        },
+        "bring": {
+          "x": 120.328125,
+          "y": 709.375,
+          "width": 117.328125,
+          "height": 50,
+          "right": 237.65625,
+          "center": 734.375
+        },
+        "download": {
+          "x": 243.65625,
+          "y": 709.375,
+          "width": 117.34375,
+          "height": 50,
+          "right": 361,
+          "center": 734.375
+        },
+        "right": 361
+      },
+      "backgrounds": [
+        "color(srgb 0.899608 0.951373 0.769412)",
+        "color(srgb 0.90902 0.883922 0.992157)"
+      ],
+      "icons": [
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        }
+      ],
+      "deleteCancelPassed": true
+    },
+    {
+      "width": 360,
+      "row": {
+        "title": {
+          "x": 29,
+          "y": 721.328125,
+          "width": 83.328125,
+          "height": 26.09375,
+          "right": 112.328125,
+          "center": 734.375
+        },
+        "bring": {
+          "x": 120.328125,
+          "y": 709.375,
+          "width": 102.328125,
+          "height": 50,
+          "right": 222.65625,
+          "center": 734.375
+        },
+        "download": {
+          "x": 228.65625,
+          "y": 709.375,
+          "width": 102.34375,
+          "height": 50,
+          "right": 331,
+          "center": 734.375
+        },
+        "right": 331
+      },
+      "backgrounds": [
+        "color(srgb 0.899608 0.951373 0.769412)",
+        "color(srgb 0.90902 0.883922 0.992157)"
+      ],
+      "icons": [
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        },
+        {
+          "contained": true
+        }
+      ],
+      "deleteCancelPassed": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "importDownloadPassed": true,
+  "deleteNoncurrentAndCurrentPassed": true
+}

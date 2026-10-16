@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-11T08:59:14.650Z",
+  "cases": [
+    {
+      "name": "214개 기준 유지·중1 학년군/참고 안내·공식 편성 근거",
+      "passed": true
+    },
+    {
+      "name": "중1 해설/단원 고려 사항·미지원 유지·모바일 원문 읽기",
+      "passed": true
+    },
+    {
+      "name": "초등 PDF 해설·요구별 영상 인용과 분리·내보내기와 저장 문맥 보존",
+      "passed": true
+    },
+    {
+      "name": "별도 해설이 없는 기준과 기준 변경 후 이전 해설 제거",
+      "passed": true
+    },
+    {
+      "name": "6개 과정/교과 예시·검색어/이름 일치·조건 보존·검색어 해제",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "임시 복제 서버·격리 브라우저. 실제 학교 진도·교사 효용·영상 적합성 판단 아님."
+}

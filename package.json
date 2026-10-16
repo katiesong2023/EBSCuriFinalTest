@@ -1,0 +1,38 @@
+{
+  "name": "ebs-curi",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Curi 로컬 실행 기반",
+  "scripts": {
+    "simulate": "node server/discovery-check.js",
+    "simulate:classroom": "node server/classroom-scenarios-check.js",
+    "data:broadcast:collect": "node server/broadcast-collect.mjs",
+    "data:broadcast:check": "node server/broadcast-check.js",
+    "data:source-links:check": "node server/source-links-check.js",
+    "start": "node --env-file-if-exists=.env server/server.js",
+    "admin:password": "node server/set-admin-password.js",
+    "dev": "node --watch --env-file-if-exists=.env server/server.js",
+    "data:seed": "node server/seed-data-store.js",
+    "data:candidates:check": "node server/candidate-retrieval-check.js",
+    "data:source:enrich": "node server/source-enrich.mjs",
+    "data:source-quality:check": "node server/source-quality-check.js",
+    "data:curriculum-gaps:check": "node server/curriculum-gaps-check.js",
+    "data:relation-reuse:check": "node server/relation-reuse-check.js",
+    "data:evidence": "node server/automatic-evidence-cli.js",
+    "data:evidence:check": "node server/automatic-evidence-check.js",
+    "data:automatic": "node server/automatic-assets-cli.js",
+    "data:automatic:check": "node server/automatic-assets-check.js",
+    "data:search-index:check": "node server/search-index-check.js",
+    "data:search:check": "node server/natural-search-check.js",
+    "data:mapping:failures:check": "node server/curimap-failures-check.js",
+    "data:mapping:check": "node server/curimap-mapping-check.js",
+    "data:ingest": "node server/ingest-content.js",
+    "data:ingest:scheduled": "node --env-file-if-exists=.env server/ingest-content.js --scheduled --apply"
+  },
+  "engines": {
+    "node": ">=24.18.0"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.0"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-10-04T05:46:57.770Z",
+  "cases": [
+    {
+      "name": "S01 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "S02 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "S03 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "S04 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "N01 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "N02 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "N03 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "N04 새 표현의 확정 응답·빈 결과·대표 표시",
+      "passed": true
+    },
+    {
+      "name": "S01 주제 선택→대표 비교→폴더 저장·새 탭 재열기",
+      "passed": true
+    },
+    {
+      "name": "N02 주제 선택→대표 비교→폴더 저장·새 탭 재열기",
+      "passed": true
+    },
+    {
+      "name": "사회·과학 폴더 독립 보존·모바일 표시",
+      "passed": true
+    }
+  ],
+  "queries": [
+    {
+      "id": "S01",
+      "total": 21,
+      "representatives": [
+        "BCAST-41236586c72656a2741e",
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-ce1721b43f7741c59028",
+        "BCAST-4091c34734ae75151231"
+      ],
+      "elapsedMs": 6019.9
+    },
+    {
+      "id": "S02",
+      "total": 0,
+      "representatives": [],
+      "elapsedMs": 188.78
+    },
+    {
+      "id": "S03",
+      "total": 27,
+      "representatives": [
+        "BCAST-b7ea99f0dd385b579d34",
+        "BCAST-c114de34a48a27a5a63b",
+        "BCAST-ee6c729aaf350fa7b033"
+      ],
+      "elapsedMs": 218.98
+    },
+    {
+      "id": "S04",
+      "total": 0,
+      "representatives": [],
+      "elapsedMs": 170.8
+    },
+    {
+      "id": "N01",
+      "total": 7,
+      "representatives": [
+        "BCAST-d8d2298f82c6061f9fa1",
+        "BCAST-9e1bc944351eafe958c7",
+        "BCAST-58407eac3a4a313d3035"
+      ],
+      "elapsedMs": 207.65
+    },
+    {
+      "id": "N02",
+      "total": 82,
+      "representatives": [
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-c795af87c725960152da",
+        "BCAST-29c762aa7b3ea2edaf04",
+        "BCAST-af19741ff313f1c6f411"
+      ],
+      "elapsedMs": 209.96
+    },
+    {
+      "id": "N03",
+      "total": 0,
+      "representatives": [],
+      "elapsedMs": 182.5
+    },
+    {
+      "id": "N04",
+      "total": 0,
+      "representatives": [],
+      "elapsedMs": 181.76
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "writesToServer": [],
+  "protectedBefore": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "humanEvaluations": 0,
+  "playbackChecks": 0,
+  "paidApiCalls": 0,
+  "browser": "149.0.7827.55",
+  "protectedAfter": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "storesUnchanged": true,
+  "passed": true
+}

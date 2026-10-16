@@ -1,0 +1,12 @@
+{
+  "baselineFiles": 120,
+  "changedExistingGuideOrProductFiles": [
+    "public/teacher-cards.js"
+  ],
+  "missingLocalHtmlReferences": [],
+  "jsStorageOrNetworkCalls": false,
+  "svgFiles": 5,
+  "taskWritesToExistingGuideOrProductFiles": [],
+  "note": "120 baseline files compared: 119 unchanged. public/teacher-cards.js changed during this task outside its writes (added preview.sourceNote display). The existing file was inspected read-only and left as found; no rollback. Existing option A guide assets all unchanged.",
+  "existingOptionAGuideAssetsUnchanged": true
+}

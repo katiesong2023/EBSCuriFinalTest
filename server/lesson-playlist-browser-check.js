@@ -1,0 +1,70 @@
+const assert = require('node:assert/strict'), fs = require('node:fs/promises'), path = require('node:path'), http = require('node:http');
+(async () => {
+  const url = 'https://jisike.ebs.co.kr/jisike/vodReplayView?courseId=test&stepId=one&lectId=123';
+  const resource = { id:'PLAYLIST-test', title:'생태계 영상', program:'검사 방송', kind:'episode', sourceUrl:url, navigation:{url,kind:'EPISODE',status:'MATCHED'}, variant:'EPISODE', summary:'생태계에 관한 방송입니다.' };
+  const folder = id => ({id,title:'수업 '+id,note:'보존할 폴더 메모',items:[{resource,note:'자료 메모'}]});
+  const record = (id,start,end,folderId='a') => ({id,resourceId:resource.id,folderId,sourceUrl:url,variant:'EPISODE',name:'구간 '+id,note:'보존할 구간 메모',start,end,duration:1000,capture:'MANUAL'});
+  const records = [record('one',10,40.125),record('two',70,130),record('three',150,180),record('other',0,60,'b')];
+  const server = http.createServer(async (req,res) => {
+    const pathname = new URL(req.url,'http://localhost').pathname;
+    if(pathname.startsWith('/api/')) {res.setHeader('Content-Type','application/json');res.end(JSON.stringify(pathname.includes('/resources') ? {resources:[resource]} : {standards:[]}));return;}
+    const filename=path.join(__dirname,'../public',pathname);
+    try {res.setHeader('Content-Type',filename.endsWith('.js')?'text/javascript':filename.endsWith('.css')?'text/css':'text/html');res.end(await fs.readFile(filename));}catch{res.writeHead(404);res.end();}
+  });
+  const {chromium}=require('/Users/yunseo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+  let browser;const cases=[],errors=[];
+  try {
+    await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve)); const base='http://127.0.0.1:'+server.address().port;
+    browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+    const context=await browser.newContext({viewport:{width:1600,height:1100}});
+    await context.addInitScript(({records,folders})=>{if(localStorage.getItem('playlist-test-seeded'))return;localStorage.setItem('playlist-test-seeded','1');localStorage.setItem('curi.teacher.folders.v1',JSON.stringify({folders,selectedId:'a'}));localStorage.setItem('curi.teacher.segments.v1',JSON.stringify({revision:0,records}));localStorage.setItem('curi.discovery.shelf.v1','[]');},{records,folders:[folder('a'),folder('b')]});
+    const page=await context.newPage();page.on('pageerror',error=>errors.push(error.message));
+    await page.goto(base+'/lesson.html?view=folder&folder=a');await page.locator('[data-segment-card=one]').waitFor();
+    const read=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('curi.teacher.folders.v1')));
+    const order=async()=>((await read()).folders.find(f=>f.id==='a').videoPlaylist||[]);
+    const originals=await page.evaluate(()=>localStorage.getItem('curi.teacher.segments.v1'));
+    assert.equal(await page.locator('#lesson-playlist').isVisible(),true);assert.equal(await page.locator('#lesson-playlist-total').innerText(),'0:00');
+    assert.equal(await page.locator('#folder-videos .segment-card').count(),3);cases.push('자료 구간3개 카드·폴더 오른쪽 빈 리스트와 합계0');
+    await page.locator('[data-playlist-add=one]').click();await page.locator('[data-playlist-add=two]').click();
+    assert.deepEqual(await order(),['one','two']);assert.equal(await page.locator('#lesson-playlist-total').innerText(),'1:30.125');assert.equal(await page.locator('[data-playlist-add=one]').isDisabled(),true);
+    cases.push('추가·중복 방지·밀리초 포함 총 길이 합산');
+    await page.locator('[data-playlist-up=two]').click();assert.deepEqual(await order(),['two','one']);
+    await page.locator('[data-playlist-down=two]').click();assert.deepEqual(await order(),['one','two']);cases.push('버튼으로 위/아래 순서 변경·즉시 저장');
+    await page.locator('[data-segment-card=three]').dragTo(page.locator('.playlist-total'));
+    assert.deepEqual(await order(),['one','two','three']);
+    await page.locator('[data-playlist-row=three]').dragTo(page.locator('[data-playlist-row=one]'));
+    assert.deepEqual(await order(),['three','one','two']);cases.push('실제 드래그로 카드 추가·리스트 순서 변경');
+    await page.locator('[data-playlist-remove=one]').click();assert.deepEqual(await order(),['three','two']);
+    assert.equal(await page.locator('#lesson-playlist-total').innerText(),'1:30');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('curi.teacher.segments.v1')),originals);cases.push('빼기는 원본 구간 보존·합계 갱신');
+    await page.reload();await page.locator('[data-playlist-row=three]').waitFor();assert.deepEqual(await order(),['three','two']);
+    await page.locator('[data-folder=b]').click();assert.equal(await page.locator('#lesson-playlist-total').innerText(),'0:00');
+    await page.locator('[data-playlist-add=other]').click();assert.equal(await page.locator('#lesson-playlist-total').innerText(),'1:00');
+    await page.locator('[data-folder=a]').click();assert.deepEqual(await order(),['three','two']);cases.push('새로고침·폴더별 독립 리스트·다른 폴더 구간 혼입 없음');
+    await page.evaluate(()=>{window.addEventListener('message',event=>{if(event.data?.channel==='CURI_SEGMENTS_PAGE'){window.playlistPlayRequest=event.data;window.postMessage({channel:'CURI_SEGMENTS_EXTENSION',action:'REPLY',id:event.data.id,value:{opened:true}},location.origin);}});});
+    await page.locator('[data-playlist-row=two] [data-overview-play]').click();
+    await page.waitForFunction(()=>window.playlistPlayRequest);
+    assert.equal((await page.evaluate(()=>window.playlistPlayRequest.value)).id,'two');cases.push('리스트 구간 보기에서 기존 확장 재생 요청 연결');
+    await page.evaluate(()=>{const state=CuriSegments.read(),record=state.records.find(r=>r.id==='two');CuriSegments.write({...record,end:160},state.revision);});
+    await page.waitForFunction(()=>document.querySelector('#lesson-playlist-total').textContent==='2:00');
+    await page.evaluate(()=>{const state=CuriSegments.read();CuriSegments.write(state.records.find(r=>r.id==='three'),state.revision,true);});
+    await page.waitForFunction(()=>document.querySelector('#lesson-playlist-total').textContent==='1:30');
+    assert.match(await page.locator('#lesson-playlist-total-note').innerText(),/1개/);
+    await page.locator('[data-playlist-remove=three]').click();assert.deepEqual(await order(),['two']);cases.push('원본 구간 편집 시간 반영·삭제 구간 안내/합계 제외·리스트 제거');
+    await page.evaluate(()=>{window.playlistSet=Storage.prototype.setItem;Storage.prototype.setItem=function(key,value){if(key==='curi.teacher.folders.v1')throw Error('test failure');return window.playlistSet.call(this,key,value);};});
+    await page.locator('[data-playlist-add=one]').click();assert.deepEqual(await order(),['two']);assert.match(await page.locator('#lesson-playlist-status').innerText(),/저장하지 못/);
+    await page.evaluate(()=>Storage.prototype.setItem=window.playlistSet);await page.locator('[data-playlist-add=one]').click();assert.deepEqual(await order(),['two','one']);cases.push('저장 실패 시 기존 리스트 보존·재시도 성공');
+    await page.evaluate(()=>{const value=JSON.parse(localStorage.getItem('curi.teacher.folders.v1'));value.folders[1].note='다른 창 메모';localStorage.setItem('curi.teacher.folders.v1',JSON.stringify(value));});
+    await page.locator('[data-playlist-up=one]').click();assert.deepEqual(await order(),['two','one']);assert.match(await page.locator('#lesson-playlist-status').innerText(),/다른 창/);cases.push('다른 창 폴더 변경 시 순서 저장 중단·외부 메모 보존');
+    await page.reload();await page.locator('[data-playlist-row=two]').waitFor();
+    assert.equal((await read()).folders[1].note,'다른 창 메모');assert.equal((await read()).folders[0].items[0].note,'자료 메모');
+    const mainBox=await page.locator('#folder-content').boundingBox(),listBox=await page.locator('#lesson-playlist').boundingBox();assert.ok(listBox.x>mainBox.x+mainBox.width);
+    await page.screenshot({path:'docs/r12-15-playlist-1600.png'});
+    await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    await page.locator('#lesson-playlist').screenshot({path:'docs/r12-15-playlist-390.png'});
+    await page.locator('#show-all-materials').click();assert.equal(await page.locator('#lesson-playlist').isVisible(),false);
+    assert.deepEqual(errors,[]);cases.push('1600px 오른쪽 배치·390px 넘침 없음·전체 보기 숨김·개인 메모 보존·오류0');
+    await fs.writeFile('docs/r12-15-playlist-check.json',JSON.stringify({date:'2026-10-15',passed:cases.length,cases,errors,mode:'격리 개인 저장소·대체 API/확장 응답; 실제 영상 재생은 미실시'},null,2)+'\n');
+    console.log(cases.length,'수업 영상 리스트 검사 통과');
+  } finally {await browser?.close();await new Promise(resolve=>server.close(resolve));}
+})().catch(error=>{console.error(error);process.exitCode=1;});

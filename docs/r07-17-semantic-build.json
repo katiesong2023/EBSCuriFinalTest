@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-13T08:12:11.381Z",
+  "buildId": "436fe1c2c6c432c0398d8635",
+  "ruleVersion": "2026-10-12.2",
+  "ruleHashes": {
+    "semantic-layer.js": "b6822866945d9cadd05e41134f10d5c4d2c0c3358d2e091575cc39a08d6722bc",
+    "semantic-pattern.js": "1fc8e0031c80181ccc89f944475c452c802c5d747c6aac52aa81ec3b3691132d",
+    "keyword-context.js": "b41f7e37c8aa1da88e320ce4ff9a07d78d1e9d31039b78d3a94d28edf1a101da",
+    "content-keywords.js": "6c6dfe74b44344a4824d9bedaaaa1bd7ec8ac900320dfc7fcbc54dec74241058",
+    "broadcast-guide-text.js": "1d61038b2475bfb46e82faaa4bc5adaabb51a5b6714f4fa5a9df61a89057dc1b",
+    "source-text-quality.js": "0a636b03722e8c57db983a670b7445bac664b36e77b3e6c7f7c48a2852c55dda"
+  },
+  "resources": 23360,
+  "concepts": 60,
+  "resourcesWithSourceTags": 727,
+  "sourceMentions": 848,
+  "inferredCandidates": 51,
+  "sourceKeywords": 3904,
+  "paidApiCalls": 0,
+  "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+}

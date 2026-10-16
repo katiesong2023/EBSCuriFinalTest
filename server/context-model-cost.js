@@ -1,0 +1,12 @@
+// 분량 실측과 공개 단가로 예산을 추정한다. API를 호출하거나 키를 읽지 않는다.
+const fs=require('node:fs');
+const measured=require('../docs/r07-17-model-cost-inputs.json');
+const usd=(input,output,rate)=>input/1e6*rate.input+output/1e6*rate.output;
+const rates={solBatch:{model:'gpt-6.1-sol',input:1,output:5},lunaBatch:{model:'gpt-6-luna',input:.05,output:.25}};
+const assumptions={textTokensPerCharacter:[.8,2],promptAndSchemaTokensPerItem:[1200,2200],visibleOutputTokensPerItem:[200,500],solReasoningTokensPerItem:[300,800],retryReserve:.1,cachingDiscountUsed:false,tokenizerMeasured:false};
+function estimate(group,rate,reasoning){const text=group.titleChars+group.summaryChars;const input=[group.count*1200+text*.8,group.count*2200+text*2];const output=[group.count*(200+(reasoning?300:0)),group.count*(500+(reasoning?800:0))];return {requests:group.count,inputTokens:input,billableOutputTokens:output,usd:[usd(input[0],output[0],rate)*1.1,usd(input[1],output[1],rate)*1.1]};}
+const full=measured.groups.nonEmpty,usable=measured.groups.usable;
+const sol=estimate(full,rates.solBatch,true),luna=estimate(full,rates.lunaBatch,false);
+const hybrid=[luna.usd[0]+sol.usd[0]*.1,luna.usd[1]+sol.usd[1]*.2];
+const report={generatedAt:new Date().toISOString(),scope:{allRows:measured.groups.all.count,nonEmptySynopsis:full.count,usableSynopsis:usable.count,withoutSynopsis:measured.groups.all.count-full.count,textCharacters:full.titleChars+full.summaryChars},rates,assumptions,estimates:{allNonEmptySol:sol,allNonEmptyLuna:luna,usableSol:estimate(usable,rates.solBatch,true),hybridLunaThenSol10to20Percent:{usd:hybrid,note:'모호한10~20%가 대략 동일 분량이라는 가정. 긴 소개가 이 단계에 몰리면 증가.'}},pilot:{same100ItemsTwoModelsUsd:[(sol.usd[0]+luna.usd[0])*100/full.count,(sol.usd[1]+luna.usd[1])*100/full.count],criteria:'비유·인명·진짜 과학 개념·제목 반복·편성 안내·부정·다의어를 포함. 오류율/근거 일치/실제 입력·추론·출력 토큰을 비교 후 전수 모델과 예산 결정.'},sources:['https://developers.openai.com/api/docs/models/gpt-6.1-sol','https://developers.openai.com/api/docs/models/gpt-6-luna','https://developers.openai.com/api/docs/guides/batch','https://developers.openai.com/api/docs/guides/reasoning'],limitations:['토큰 수는 문자량 기반 추정이며 청구액 보증이 아니다.','추론 토큰이 예상보다 많거나 응답 재생성이 늘면 증가한다.','영상·이미지 분석·공식 소개 재수집·부가세·개발 채팅 사용량은 제외한다.','원문이 없는13,076자료는 모델에 영상 내용을 만들어 내도록 요청하지 않는다.','교육과정 언어 후보/본문 근거/보류 판단의 비용이다.214성취기준 충족·영상 학년 적합성을 판정하는 별도 작업 비용은 포함하지 않는다.'],paidApiCalls:0};
+fs.writeFileSync('docs/r07-17-model-cost-estimate.json',JSON.stringify(report,null,2)+'\n');console.log(report.estimates,report.pilot);

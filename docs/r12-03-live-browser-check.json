@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "id": "D70-Q016",
+      "total": 0,
+      "top5Identical": true
+    },
+    {
+      "id": "D70-Q067",
+      "total": 5,
+      "top5Identical": true
+    },
+    {
+      "id": "X100-Q050",
+      "total": 0,
+      "top5Identical": true
+    },
+    {
+      "id": "X100-Q052",
+      "total": 0,
+      "top5Identical": true
+    },
+    {
+      "id": "X100-Q055",
+      "total": 0,
+      "top5Identical": true
+    },
+    {
+      "id": "X100-Q080",
+      "total": 10,
+      "top5Identical": true
+    },
+    {
+      "id": "X100-Q082",
+      "total": 5,
+      "top5Identical": true
+    }
+  ],
+  "mobile": [
+    "선호 내용/형식 선호·필수 아님",
+    "전체 제외 범위와 미확인 안내",
+    "390px 가로넘침 없음"
+  ],
+  "errors": [],
+  "personalRecordWrites": 0,
+  "paidApiCalls": 0
+}

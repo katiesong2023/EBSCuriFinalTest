@@ -1,0 +1,104 @@
+{
+  "revision": "2026-10-15 color feedback",
+  "method": "sRGB relative luminance",
+  "pairs": [
+    {
+      "name": "body",
+      "foreground": "#282828",
+      "background": "#F4F0E6",
+      "ratio": 12.96,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "meta",
+      "foreground": "#605C54",
+      "background": "#F4F0E6",
+      "ratio": 5.85,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "paper",
+      "foreground": "#282828",
+      "background": "#F4F0E6",
+      "ratio": 12.96,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "paper-meta",
+      "foreground": "#605C54",
+      "background": "#F4F0E6",
+      "ratio": 5.85,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "action",
+      "foreground": "#282828",
+      "background": "#F3B7A6",
+      "ratio": 8.52,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "selected",
+      "foreground": "#282828",
+      "background": "#F3B7A6",
+      "ratio": 8.52,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "social",
+      "foreground": "#282828",
+      "background": "#F3B7A6",
+      "ratio": 8.52,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "science",
+      "foreground": "#282828",
+      "background": "#C4BDD7",
+      "ratio": 8.15,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "border-canvas",
+      "foreground": "#81796D",
+      "background": "#F4F0E6",
+      "ratio": 3.77,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "border-paper",
+      "foreground": "#81796D",
+      "background": "#F4F0E6",
+      "ratio": 3.77,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "focus",
+      "foreground": "#2459B8",
+      "background": "#F4F0E6",
+      "ratio": 5.77,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "error",
+      "foreground": "#A72D38",
+      "background": "#F4F0E6",
+      "ratio": 6.0,
+      "target": 4.5,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "scope": "selected text/control pairs; not a full WCAG audit"
+}

@@ -1,0 +1,159 @@
+{
+  "groups": {
+    "LOGIC": 109,
+    "GRAMMAR_CLASSIFICATION": 98,
+    "DECODE_OR_INCOMPLETE": 17,
+    "MEANING_OR_CONDITION": 14,
+    "CLASSROOM_CONTEXT": 2,
+    "QUOTE_MISSING_OR_AMBIGUOUS": 21,
+    "OTHER": 4
+  },
+  "samples": {
+    "LOGIC": [
+      {
+        "query": "초3 지도 읽기 수업 도입에 쓸 3분짜리 영상",
+        "errors": [
+          "content hidden as purpose",
+          "purpose cannot become a blocking condition",
+          "unrecognized content hidden in grammar"
+        ]
+      },
+      {
+        "query": "4학년 촌락과 도시 단원에서 도시 문제를 보여줄 다큐",
+        "errors": [
+          "content hidden as purpose",
+          "purpose cannot become a blocking condition"
+        ]
+      },
+      {
+        "query": "도시와 촌락은 서로 어떤 도움을 주고받나요",
+        "errors": [
+          "unknown clause reference",
+          "blocking clause lost from expression",
+          "adjacent mandatory clause weakened in logic"
+        ]
+      }
+    ],
+    "GRAMMAR_CLASSIFICATION": [
+      {
+        "query": "고장의 문화유산을 소개하는 애니메이션",
+        "errors": [
+          "unrecognized content hidden in grammar"
+        ]
+      },
+      {
+        "query": "옛날 사람들은 어떻게 빨래를 했을까",
+        "errors": [
+          "unrecognized content hidden in grammar"
+        ]
+      },
+      {
+        "query": "옛날 교통수단과 오늘날 교통수단 비교",
+        "errors": [
+          "unrecognized content hidden in grammar"
+        ]
+      }
+    ],
+    "DECODE_OR_INCOMPLETE": [
+      {
+        "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+        "errors": [
+          "MISSING_INTERPRETATION"
+        ]
+      },
+      {
+        "query": "저출생 문제를 인구 그래프와 실제 가족 이야기로 함께 보여주는 다큐",
+        "errors": [
+          "MISSING_INTERPRETATION"
+        ]
+      },
+      {
+        "query": "지진과 화산 피해를 지리와 과학 시각으로 함께 보는 자료",
+        "errors": [
+          "MISSING_INTERPRETATION"
+        ]
+      }
+    ],
+    "MEANING_OR_CONDITION": [
+      {
+        "query": "아이가 줄어들면 우리 동네는 어떻게 될까",
+        "errors": [
+          "unsupported meaning replacement: c1"
+        ]
+      },
+      {
+        "query": "편견 없이 다른 문화를 존중하는 내용, 강의 말고 짧은 클립",
+        "errors": [
+          "unsupported meaning replacement: c1",
+          "excluded requirement changed"
+        ]
+      },
+      {
+        "query": "우리나라 국토의 위치와 영역",
+        "errors": [
+          "mandatory geography lost or downgraded",
+          "unsupported meaning replacement: c2"
+        ]
+      }
+    ],
+    "CLASSROOM_CONTEXT": [
+      {
+        "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+        "errors": [
+          "unsupported meaning replacement: c2",
+          "grade is classroom context",
+          "content hidden as audience"
+        ]
+      },
+      {
+        "query": "물부족해결방법 어린이",
+        "errors": [
+          "grade is classroom context"
+        ]
+      }
+    ],
+    "QUOTE_MISSING_OR_AMBIGUOUS": [
+      {
+        "query": "우리나라는 왜 동쪽이 높고 서쪽이 낮을까",
+        "errors": [
+          "source span mismatch",
+          "unaccounted query text"
+        ]
+      },
+      {
+        "query": "인권의 뜻과 인권 보호",
+        "errors": [
+          "source span mismatch"
+        ]
+      },
+      {
+        "query": "사람들은 왜 수도권에 몰려 살까",
+        "errors": [
+          "source span mismatch",
+          "unaccounted query text"
+        ]
+      }
+    ],
+    "OTHER": [
+      {
+        "query": "어린이보호구역법 왜생겼나",
+        "errors": [
+          "source span mismatch"
+        ]
+      },
+      {
+        "query": "문화접번 예시",
+        "errors": [
+          "source span mismatch"
+        ]
+      },
+      {
+        "query": "광합썽 실험 영상",
+        "errors": [
+          "source span mismatch"
+        ]
+      }
+    ]
+  },
+  "note": "중복 오류가 있는 경우 첫 우선 범주로 분류. 검색 누락의 정답 판정이 아니라 해석 계약 실패 분류."
+}

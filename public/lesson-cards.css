@@ -1,0 +1,142 @@
+/* 검색과 같은 카드 렌더러·카드 스타일을 사용하고 개인 수업 기록만 덧붙인다. */
+.folder-main .library-cards {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.folder-main.has-playlist .library-cards {grid-template-columns:repeat(2,minmax(0,1fr))}
+.library-cards>.resource-card {display:flex;flex-direction:column;margin:0}
+.library-cards .library-record-details {grid-column:1/-1;min-width:0;margin-top:12px;padding-top:12px;border-top:1px solid var(--curi-line)}
+.library-cards .library-location {min-width:0;margin-top:12px}
+.library-cards .library-record-details>.library-location:first-child {margin-top:0}
+.library-cards .library-location>h4 {margin:12px 0 8px}
+.library-cards .library-record {padding:12px;border-radius:8px;background:var(--curi-surfaceMuted)}
+.library-cards .library-record .saved-segments {max-width:100%}
+.library-cards .library-record .saved-video-link {margin-top:0}
+.library-cards .library-record .folder-video-actions {flex-wrap:wrap}
+@media(max-width:1279px) {.folder-main .library-cards {grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px) {
+  .folder-main .library-cards,.folder-main.has-playlist .library-cards {grid-template-columns:1fr}
+  .library-cards>.resource-card {display:grid}
+}
+
+/* 폴더 라벨에서 카드·태그·동작의 색을 함께 파생한다. */
+.folder-main {
+  --library-card-base:var(--detail-folder-color,var(--curi-folder));
+  --library-card-surface:color-mix(in srgb,var(--library-card-base) 8%,white);
+  --library-card-info:color-mix(in srgb,var(--library-card-base) 22%,white);
+  --library-card-action:color-mix(in srgb,var(--library-card-base) 55%,white);
+  --library-card-hover:color-mix(in srgb,var(--library-card-base) 72%,white);
+  --library-card-line:color-mix(in srgb,var(--library-card-base) 55%,var(--curi-line));
+  --library-card-ink:color-mix(in srgb,var(--library-card-base) 22%,var(--curi-ink));
+}
+.folder-main .library-cards>.resource-card {background:var(--library-card-surface);border-color:var(--library-card-line)!important}
+.folder-main .library-cards>.resource-card:hover,.folder-main .library-cards>.resource-card:focus-within {border-color:var(--library-card-base)!important}
+/* 썸네일의 개별 인라인 색보다 폴더 색을 우선하며 기존 패턴은 유지한다. */
+.folder-main .library-cards .resource-thumbnail-link {--thumbnail-color-a:var(--library-card-base)!important;--thumbnail-color-b:color-mix(in srgb,var(--library-card-base) 55%,white)!important}
+.folder-main .library-cards .resource-thumbnail-fallback {color:var(--library-card-ink);text-shadow:none}
+.folder-main .library-cards :is(.type-tag,.subject-tag,.content-keywords li) {background:var(--library-card-info);border-color:var(--library-card-line);color:var(--library-card-ink)}
+.folder-main .library-cards :is(.saved-meta,.program,.broadcast-date,.preview-label,.library-record-details>summary) {color:var(--library-card-ink)}
+.folder-main .library-cards :is(.card-actions,.library-record-details,.folder-video-actions) {border-color:var(--library-card-line)}
+.folder-main .library-cards .card-actions .episode-open {background:var(--library-card-info);border-color:var(--library-card-line);color:var(--library-card-ink)}
+.folder-main .library-cards .card-actions button[data-folder-save] {background:var(--library-card-action);border-color:var(--library-card-line);color:var(--library-card-ink)}
+.folder-main .library-cards .card-actions :is(.episode-open,button[data-folder-save]):hover:not(:disabled) {background:var(--library-card-hover);color:var(--library-card-ink)}
+.folder-main .library-cards :is(.library-record,.selection-contexts) {background:var(--library-card-info);border-color:var(--library-card-line)}
+.folder-main .library-cards .library-record :is(textarea,select) {background:white;border-color:var(--library-card-line)}
+.folder-main .library-cards .library-record :is(.saved-video-link a,.folder-video-actions button) {background:var(--library-card-action);border-color:var(--library-card-line);color:var(--library-card-ink)}
+
+
+.library-record .resource-evidence .teaching-context {display:none}
+
+/* 영상 노트 안에서 교육과정과 메모를 함께 준비한다. */
+:is(.library-record,.material-note-record) .material-video-note {margin:12px 0}
+.material-video-note-content {display:grid;gap:12px;padding:0 12px 12px;min-width:0}
+:is(.library-record,.material-note-record) .material-curriculum-box {min-width:0;margin:0;border-radius:8px;background:color-mix(in srgb,var(--library-card-base) 8%,white)}
+:is(.library-record,.material-note-record) .material-curriculum-box>summary {padding:12px;cursor:pointer}
+:is(.library-record,.material-note-record) .material-curriculum-box>summary span {margin-left:6px;font-size:12px;font-weight:400;color:var(--curi-muted)}
+:is(.library-record,.material-note-record) .material-curriculum-import {margin:0 0 12px;padding:8px 12px;min-height:36px;border:1px solid var(--library-card-line);border-radius:8px;background:var(--library-card-action);color:var(--curi-ink);font-size:13px;font-weight:500}
+:is(.library-record,.material-note-record) .material-curriculum-import:hover {background:var(--library-card-hover)}
+:is(.library-record,.material-note-record) [data-material-selected] {margin:0}
+.selected-standard-remove svg {width:16px;height:16px;pointer-events:none}
+:is(.library-record,.material-note-record) .material-note-field {display:grid;gap:8px;min-width:0;padding:12px;border:1px solid var(--library-card-line);border-radius:8px;background:white}
+:is(.library-record,.material-note-record) .material-note-field>span {font-size:14px;font-weight:500;color:var(--curi-ink)}
+:is(.library-record,.material-note-record) .material-note-field textarea {display:block;width:100%;min-height:120px;margin:0;padding:0;border:0;border-radius:2px;background:transparent;box-shadow:none;color:var(--curi-ink);font-size:14px;font-weight:400;line-height:1.65;resize:vertical}
+:is(.library-record,.material-note-record) .material-note-field textarea:focus-visible {outline:2px solid var(--curi-selection);outline-offset:3px}
+#material-curriculum-dialog {width:min(46rem,calc(100vw - 2rem));max-height:calc(100dvh - 32px);padding:24px;border-radius:12px;box-shadow:var(--curi-shadow-panel);overflow:auto}
+#material-curriculum-dialog[open] {display:flex;flex-direction:column}
+#material-curriculum-dialog>.dialog-header,#material-curriculum-dialog>.bring-actions {flex-shrink:0}
+#material-curriculum-dialog [data-resource-title] {font-size:14px;line-height:1.6;overflow-wrap:anywhere;padding-bottom:14px;border-bottom:1px solid var(--curi-line)}
+#material-curriculum-dialog .bring-content {min-height:0;overflow:auto}
+#material-curriculum-dialog .bring-hint {font-size:13px;line-height:1.7;color:var(--curi-muted)}
+#material-curriculum-dialog .curriculum-select {margin-top:0}
+#material-curriculum-dialog .bring-actions {display:flex;gap:10px}
+#material-curriculum-dialog .bring-actions button {flex:1;padding:12px}
+#material-curriculum-dialog [data-confirm] {background:var(--curi-ink);color:white}
+#material-curriculum-dialog [hidden] {display:none!important}
+@media(max-width:600px) {#material-curriculum-dialog {padding:20px}}
+
+/* 구간 클립은 만들기 버튼 아래에 자료별 카드로 쌓는다. */
+.library-record .lesson-clip-list {min-width:0;margin:0 0 16px}
+.folder-main .lesson-clip-list>h4 {margin:0 0 10px;font-size:14px;font-weight:600}
+.library-record .clip-create {min-height:36px;padding:8px 12px;border:1px solid var(--library-card-line);border-radius:8px;background:var(--library-card-action);color:var(--curi-ink);font-size:13px;font-weight:500}
+.library-record .clip-create:hover {background:var(--library-card-hover)}
+.lesson-clip-list [data-clip-status]:empty {display:none}
+.lesson-clip-cards {display:grid;gap:10px;margin-top:12px;min-width:0}
+.library-record .lesson-clip-card {min-width:0;padding:10px;border:1px solid var(--library-card-line);border-radius:10px;background:var(--library-card-surface);overflow-wrap:anywhere}
+.library-record .lesson-clip-card.is-in-playlist .clip-card-info {opacity:.45}
+.folder-main .lesson-clip-card .clip-card-info>h5 {margin:0 0 2px;color:var(--curi-ink);font-size:14px;font-weight:600;line-height:1.5}
+.folder-main .lesson-clip-card p {margin:6px 0;font-size:12px;line-height:1.65}
+.lesson-clip-card .clip-card-header {display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:start;gap:6px}
+.lesson-clip-card .clip-card-info {min-width:0}
+.folder-main .lesson-clip-card .clip-delete {display:grid;place-items:center;width:24px;min-width:24px;height:30px;min-height:30px;margin:0;padding:4px;border:0;background:transparent;color:var(--curi-muted)}
+.lesson-clip-card .clip-delete svg {display:block;width:16px;height:16px}
+.folder-main .lesson-clip-card .clip-delete:hover {background:var(--library-card-info);color:var(--curi-ink)}
+.folder-main .lesson-clip-card .clip-card-header .clip-time {margin:0;font-variant-numeric:tabular-nums}
+.folder-main .lesson-clip-card .clip-card-header>.clip-open {display:flex;align-items:center;box-sizing:border-box;max-width:96px;min-height:30px;padding:5px 8px;margin:0;font-size:11px;line-height:1.4;white-space:normal;text-decoration:none;border:1px solid var(--library-card-line);border-radius:6px;background:var(--library-card-info);color:var(--curi-ink)}
+.lesson-clip-card .clip-memo {margin:4px 0 0;padding:0;background:transparent}
+.lesson-clip-card .clip-memo>summary {min-height:20px;padding:0;font-size:12px;font-weight:500;line-height:20px;cursor:pointer}
+.lesson-clip-card .clip-memo-field {display:block;margin:6px 0}
+.lesson-clip-card [data-clip-note] {display:block;box-sizing:border-box;width:100%;min-width:0;padding:8px;font:inherit;font-size:12px;line-height:1.6;color:var(--curi-ink);background:var(--library-card-surface);border:1px solid var(--library-card-line);border-radius:6px;resize:vertical}
+.lesson-clip-card .clip-memo-actions {display:flex;align-items:center;justify-content:flex-end;gap:8px}
+.folder-main .lesson-clip-card .clip-memo-actions>[data-clip-note-status] {flex:1;min-width:0;margin:0;font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.lesson-clip-card [data-save-clip-note] {flex-shrink:0;min-height:30px;padding:4px 8px;font-size:12px}
+.lesson-clip-card [data-clip-note-status]:empty {display:none}
+.lesson-clip-card .segment-card-actions {gap:6px}
+.lesson-clip-card[draggable=true] {cursor:grab}
+.folder-main .clip-empty {margin:10px 0;color:var(--curi-muted);font-size:12px}
+#clip-extension-guide {width:min(560px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto}
+#clip-extension-guide p,#clip-extension-guide li {font-size:14px;line-height:1.75;overflow-wrap:anywhere}
+#clip-extension-guide ol {padding-left:24px}
+#clip-extension-guide li+li {margin-top:10px}
+#clip-extension-guide [data-curi-origin] {display:block;margin-top:6px;padding:8px;border-radius:6px;background:var(--curi-surfaceMuted);overflow-wrap:anywhere}
+#clip-extension-guide .clip-extension-download {display:block;padding:12px 16px;border-radius:8px;background:var(--curi-ink);color:white;text-align:center;text-decoration:none;font-size:14px;font-weight:500}
+#clip-extension-guide [data-open-source] {font-size:14px;text-decoration:underline}
+#clip-extension-guide .clip-extension-launch {display:flex;align-items:flex-start;gap:12px;margin-top:8px;padding:12px;border-radius:8px;background:var(--curi-surfaceMuted)}
+#clip-extension-guide .clip-extension-launch img {flex:0 0 32px;width:32px;height:32px}
+#clip-extension-guide .clip-extension-launch span {min-width:0}
+#clip-extension-guide .clip-extension-launch strong {display:block;margin-bottom:4px;font-weight:500}
+
+/* 영상 노트는 방송 내용 안내 바로 아래의 같은 위계로 표시한다. */
+.material-note-record {min-width:0}
+.folder-main .material-note-record .material-video-note {margin:0;border:0;border-radius:0;padding:0;background:transparent}
+.folder-main .resource-card .card-body :is(.content-preview>summary,.material-video-note>details>summary) {min-height:32px;padding:6px 0;font-size:12px;font-weight:400;line-height:20px;color:var(--curi-ink)}
+.material-note-record .material-video-note-content {padding:4px 0 12px}
+.material-note-record .material-note-owner {margin:8px 0 0;font-size:12px;color:var(--curi-muted)}
+
+.library-card-title {display:flex;align-items:flex-start;gap:8px;min-width:0}
+.library-card-title>h3 {flex:1;min-width:0;overflow-wrap:anywhere}
+.library-card-title>.resource-action-menu {position:relative;flex:0 0 24px;margin:0}
+.folder-main .resource-action-menu>summary {display:grid;place-items:center;list-style:none;width:24px;min-height:28px;padding:3px;cursor:pointer}
+.resource-action-menu>summary::-webkit-details-marker {display:none}
+.resource-action-menu>summary svg {width:18px;height:18px}
+.resource-action-options {position:absolute;right:0;top:100%;z-index:20;width:180px;max-width:calc(100vw - 48px);padding:6px;background:white;border:1px solid var(--library-card-line);border-radius:8px;box-shadow:0 4px 16px #0002}
+.folder-main .resource-action-options button {display:block;width:100%;min-height:36px;padding:8px;text-align:left;border:0;background:transparent;font-size:12px;white-space:normal}
+.folder-main .resource-action-options button:hover {background:var(--library-card-info)}
+.resource-action-options p {margin:4px 8px;font-size:11px;color:var(--curi-muted)}
+#resource-move-dialog {width:min(420px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto}
+#resource-move-dialog>label {display:grid;gap:8px;margin:16px 0}
+#resource-move-dialog select {width:100%;padding:8px;font:inherit}
+
+.library-cards>.resource-card:has(.resource-action-menu[open]) {position:relative;z-index:3;overflow:visible}
+.resource-action-options {max-height:240px;overflow:auto}
+
+#resource-move-dialog .dialog-header {display:flex;align-items:center;justify-content:space-between;gap:12px}
+#resource-move-dialog [data-close] {display:grid;place-items:center;width:28px;min-width:28px;height:28px;min-height:28px;padding:5px;border:0;background:transparent}
+#resource-move-dialog .bring-actions {display:flex;justify-content:flex-end}
+#resource-move-dialog [data-confirm] {flex:0 0 auto;margin-left:auto}

@@ -1,0 +1,79 @@
+{
+  "version": "0.1-proposal",
+  "date": "2026-10-15",
+  "status": "DESIGN_PROPOSAL_NOT_APPLIED",
+  "colors": {
+    "canvas": "#FAFAF8",
+    "surface": "#FFFFFF",
+    "surfaceMuted": "#F2F3F0",
+    "ink": "#202523",
+    "muted": "#626963",
+    "line": "#E1E4DE",
+    "controlBorder": "#849087",
+    "primary": "#1E5843",
+    "primaryHover": "#164534",
+    "primarySoft": "#E7EFE9",
+    "focus": "#266EAA",
+    "warning": "#8C6114",
+    "warningSoft": "#FFF4DF",
+    "error": "#A33A35",
+    "errorSoft": "#FBEAE7"
+  },
+  "font": {
+    "family": "Pretendard, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+    "body": 16,
+    "compactBody": 14,
+    "meta": 13,
+    "section": 22,
+    "pageDesktop": 36,
+    "pageMobile": 28,
+    "weights": [
+      400,
+      500,
+      600,
+      700
+    ],
+    "bodyLineHeight": 1.6
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radius": {
+    "control": 8,
+    "panel": 12,
+    "media": 8,
+    "pill": 999
+  },
+  "shadow": {
+    "panel": "0 16px 48px rgba(32,37,35,.12)",
+    "popup": "0 4px 16px rgba(32,37,35,.08)"
+  },
+  "motion": {
+    "fastMs": 120,
+    "disclosureMs": 180,
+    "panelMs": 240,
+    "ease": "cubic-bezier(.2,.8,.2,1)",
+    "panelDistancePx": 12,
+    "reducedMotionMs": 0
+  },
+  "layout": {
+    "webMaxWidth": 1240,
+    "desktopColumns": 12,
+    "mobileColumns": 4,
+    "mobileGutter": 16,
+    "desktopGutter": 32,
+    "extensionWidth": 360,
+    "extensionPadding": 16,
+    "controlMinHeight": 44,
+    "logoSymbolMinPx": 16,
+    "logoWordmarkMinWidth": 80
+  }
+}

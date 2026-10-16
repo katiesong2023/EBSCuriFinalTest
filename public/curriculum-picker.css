@@ -1,0 +1,54 @@
+.curriculum-picker { margin: 22px 0 12px; padding: 20px 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
+.curriculum-picker > summary { cursor: pointer; font-size: 15px; font-weight: 650; }
+.curriculum-picker > summary span { margin-left: 12px; color: var(--muted); font-size: 12px; font-weight: 400; }
+.standard-controls { display: grid; grid-template-columns: 1fr 1.4fr 2fr; gap: 16px; margin-top: 20px; }
+.standard-controls label, .relation-state-choice { display: grid; gap: 8px; min-width: 0; font-size: 12px; }
+.standard-controls select, .standard-controls input, .relation-state-choice select { font: inherit; color: var(--ink); background: var(--white); border: 1px solid var(--line); border-radius: 8px; padding: 10px; width: 100%; min-width: 0; }
+.standard-options { list-style: none; padding: 0; margin: 15px 0 0; max-height: 330px; overflow-y: auto; display: grid; gap: 9px; }
+.standard-options button { display: grid; gap: 5px; width: 100%; text-align: left; font-size: 12px; line-height: 1.7; padding: 12px 14px; overflow-wrap: anywhere; }
+.standard-options button b { font-size: 12px; }
+.standard-options button span { font-size: 13px; }
+.standard-options button:focus-visible { outline-offset: -4px; }
+.standard-selection:has(#selected-standard[hidden]):has(#standard-selection-error:empty) { display: none; }
+.standard-selection { margin: 12px 0 22px; padding: 20px 22px; background: #eaf0e5; border: 1px solid #d7e2d1; border-radius: var(--radius); overflow-wrap: anywhere; }
+.standard-selection h3 { margin: 0 0 10px; font-size: 17px; }
+.standard-selection p { font-size: 12px; margin: 8px 0; }
+.standard-selection .official-standard-text { font-size: 15px; line-height: 1.8; }
+.standard-selection button { margin-top: 12px; font-size: 12px; }
+.relation-state-choice { margin: 16px 0; max-width: 460px; }
+#standard-selection-error:not(:empty) { color: #874b2e; }
+@media (max-width: 700px) {
+  .standard-controls { grid-template-columns: 1fr; gap: 12px; }
+  .curriculum-picker, .standard-selection { padding: 16px; }
+  .standard-options { max-height: 290px; }
+}
+.standard-view-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.standard-view-controls button { font-size: 12px; }
+.standard-view-controls button[aria-pressed="true"] { background: var(--green); color: var(--white); }
+.standard-related-reason { font-size: 12px; font-weight: 400; opacity: .85; }
+
+/* 교사의 활용 의도와 원문에서 확인한 내용은 구분한다. */
+#lesson-goal-controls { display: grid; gap: 14px; margin-top: 20px; }
+#lesson-goal-controls[hidden] { display: none; }
+#lesson-goal-controls > label, #link-proposal-dialog > label { display: grid; gap: 8px; font-size: 13px; }
+#lesson-goal-controls textarea, #lesson-goal-controls select, #link-proposal-dialog textarea, #link-proposal-dialog select, [data-folder-goal] { box-sizing: border-box; width: 100%; min-width: 0; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); color: var(--ink); font: inherit; }
+#goal-requirements { display: grid; gap: 10px; }
+#goal-requirements label { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.7; }
+#goal-requirements input { flex: none; margin-top: 5px; }
+#goal-input-error:not(:empty) { color: #874b2e; }
+.curriculum-result-group { grid-column: 1 / -1; font-size: 16px; margin: 18px 0 4px; }
+#lesson-goal-overview { margin: 20px 0; padding: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
+#lesson-goal-overview > label { display: grid; gap: 8px; }
+#lesson-goal-overview table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 16px; font-size: 13px; }
+#lesson-goal-overview th, #lesson-goal-overview td { padding: 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; overflow-wrap: anywhere; line-height: 1.7; }
+#link-proposal-dialog { box-sizing: border-box; width: min(640px, calc(100% - 32px)); max-height: 85vh; overflow-y: auto; border: 1px solid var(--line); border-radius: 14px; padding: 24px; color: var(--ink); }
+#link-proposal-dialog::backdrop { background: #0006; }
+#link-proposal-dialog > label { margin: 14px 0; }
+#link-proposal-preview { overflow-wrap: anywhere; font-size: 13px; line-height: 1.7; }
+#link-proposal-preview blockquote { margin: 12px 0; padding: 12px; background: #eaf0e5; }
+@media (max-width: 700px) {
+  .curriculum-picker > summary span { display: block; margin: 8px 0 0; }
+  #lesson-goal-overview { padding: 12px; }
+  #lesson-goal-overview th, #lesson-goal-overview td { padding: 6px; font-size: 12px; }
+  #link-proposal-dialog { padding: 16px; }
+}

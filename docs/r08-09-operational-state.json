@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-10T23:56:06.256Z",
+  "humanApproved": 0,
+  "automaticPublic": 1,
+  "automaticRelations": [
+    {
+      "resourceId": "BCAST-edc5b3f9fd8742c0b2f0",
+      "standardId": "6사04-01",
+      "ruleVersion": "automatic-evidence-v3:source-text-v3"
+    }
+  ],
+  "curiStoreUnchanged": true,
+  "originalHashes": {
+    "server/data/broadcast-catalog.sqlite": "153807f71a0e819a6792d474947fef8f472a66ee1de221939fe36240b71e547b",
+    "server/data/automatic-assets.sqlite": "d5e523f0bb88f362890c380c7107916e51f92e3d1b42b697ea3b458b1532800a",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "currentHashes": {
+    "server/data/broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "paidApiCalls": 0
+}

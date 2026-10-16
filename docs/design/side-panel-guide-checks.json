@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "option": 3,
+      "columns": "902px 360px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "columns": "358px 360px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "columns": "326px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "columns": "838px 360px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "columns": "358px 360px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "columns": "326px",
+      "overflow": false,
+      "panelHeight": 780,
+      "panelScroll": "auto",
+      "width": 360,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "scope": "3/4 guide mockups, not native Chrome panel"
+}

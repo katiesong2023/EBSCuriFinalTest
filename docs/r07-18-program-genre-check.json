@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-13T09:22:52.909Z",
+  "cases": [
+    {
+      "name": "프로그램 전체 이름·EBS 생략·주제 앞뒤·조사·띄어쓰기",
+      "passed": true
+    },
+    {
+      "name": "다른 프로그램의 제목/소개문에 이름이 언급돼도 필수 프로그램 조건 불충족",
+      "passed": true
+    },
+    {
+      "name": "프로그램만 요청·다른 상세 프로그램 필터와 교집합",
+      "passed": true
+    },
+    {
+      "name": "프로그램 같은/유사한은 선호이고 다른 주제 후보를 제외하지 않음",
+      "passed": true
+    },
+    {
+      "name": "장르 선호는 같은 주제 후보의 관련순에 반영·주제 조건 유지",
+      "passed": true
+    },
+    {
+      "name": "다큐/다큐멘터리 기본 검색과 명시 한정은 다른 형식·미확인 제외",
+      "passed": true
+    },
+    {
+      "name": "애니메이션·드라마 한정과 장르 제외·제외만 요청",
+      "passed": true
+    },
+    {
+      "name": "프로그램 제외는 프로그램 필드만 적용·긍정 주제 유지",
+      "passed": true
+    },
+    {
+      "name": "알 수 없는 프로그램/장르와 이름의 부분 문자열은 내용어로 보존",
+      "passed": true
+    },
+    {
+      "name": "장르 표현 위치·근거 목적·장르 미확인 안내",
+      "passed": true
+    },
+    {
+      "name": "교사 검색 장르만 요청의 전체 목록 fallback 방지·선택 기준 교집합",
+      "passed": true
+    },
+    {
+      "name": "실제 카탈로그 프로그램·장르 요청·선택 기준·원문 확인",
+      "passed": true
+    }
+  ],
+  "live": [
+    {
+      "input": {
+        "q": "생태계"
+      },
+      "total": 78,
+      "programs": [],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "다리가 잘린 엄마 문어!",
+          "program": "딩동댕 딩동댕",
+          "genreEvidence": []
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "생태계 다큐멘터리"
+      },
+      "total": 65,
+      "programs": [],
+      "genrePreferences": [],
+      "requiredGenres": [
+        "다큐멘터리"
+      ],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "생태계 다큐만"
+      },
+      "total": 65,
+      "programs": [],
+      "genrePreferences": [],
+      "requiredGenres": [
+        "다큐멘터리"
+      ],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "program",
+              "quote": "다큐",
+              "start": 4,
+              "end": 6,
+              "status": "FORMAT_DESCRIPTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "생태계 다큐프라임"
+      },
+      "total": 21,
+      "programs": [
+        "EBS 다큐프라임"
+      ],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "다큐프라임 생태계"
+      },
+      "total": 21,
+      "programs": [
+        "EBS 다큐프라임"
+      ],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": [
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        },
+        {
+          "title": "대리석 유랑기(Epic of a Stone)",
+          "program": "EBS 다큐프라임",
+          "genreEvidence": []
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "세계테마기행 사막"
+      },
+      "total": 0,
+      "programs": [
+        "세계테마기행"
+      ],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": []
+    },
+    {
+      "input": {
+        "q": "세계테마기행 볼리비아"
+      },
+      "total": 4,
+      "programs": [
+        "세계테마기행"
+      ],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": [
+        {
+          "title": "볼리비아? 볼리비아-포토시와 산타크루즈",
+          "program": "세계테마기행",
+          "genreEvidence": []
+        },
+        {
+          "title": "볼리비아? 볼리비아!-소금사막, 우유니",
+          "program": "세계테마기행",
+          "genreEvidence": []
+        },
+        {
+          "title": "볼리비아? 볼리비아!-잉카의 호수, 티티카카",
+          "program": "세계테마기행",
+          "genreEvidence": []
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "지구 자전 다큐프라임",
+        "standard": "6과12-02"
+      },
+      "total": 0,
+      "programs": [
+        "EBS 다큐프라임"
+      ],
+      "genrePreferences": [],
+      "requiredGenres": [],
+      "top": []
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+    "semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "고정 합성 자료의 검색 계약·현재 카탈로그 공개 텍스트. 영상 장르/교육적 적합성 전수 판정 아님."
+}

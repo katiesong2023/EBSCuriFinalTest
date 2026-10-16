@@ -1,0 +1,107 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "fields": [
+        {
+          "x": 283,
+          "y": 461.5625,
+          "bottom": 649.25
+        },
+        {
+          "x": 688,
+          "y": 461.5625,
+          "bottom": 649.25
+        }
+      ],
+      "colors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "goalNoteSaved": true
+    },
+    {
+      "width": 1000,
+      "fields": [
+        {
+          "x": 247,
+          "y": 461.5625,
+          "bottom": 649.25
+        },
+        {
+          "x": 600,
+          "y": 461.5625,
+          "bottom": 649.25
+        }
+      ],
+      "colors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "goalNoteSaved": true
+    },
+    {
+      "width": 768,
+      "fields": [
+        {
+          "x": 247,
+          "y": 486.75,
+          "bottom": 674.4375
+        },
+        {
+          "x": 484,
+          "y": 486.75,
+          "bottom": 674.4375
+        }
+      ],
+      "colors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "goalNoteSaved": true
+    },
+    {
+      "width": 390,
+      "fields": [
+        {
+          "x": 41,
+          "y": 701.375,
+          "bottom": 889.0625
+        },
+        {
+          "x": 41,
+          "y": 901.0625,
+          "bottom": 1088.75
+        }
+      ],
+      "colors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "goalNoteSaved": true
+    },
+    {
+      "width": 360,
+      "fields": [
+        {
+          "x": 41,
+          "y": 701.375,
+          "bottom": 889.0625
+        },
+        {
+          "x": 41,
+          "y": 901.0625,
+          "bottom": 1088.75
+        }
+      ],
+      "colors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "goalNoteSaved": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "folderIsolationAndReloadPassed": true
+}

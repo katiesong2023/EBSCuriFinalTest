@@ -1,0 +1,79 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "form": {
+        "x": 254,
+        "y": 523,
+        "width": 932,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "form": {
+        "x": 174,
+        "y": 423,
+        "width": 932,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "form": {
+        "x": 34,
+        "y": 535,
+        "width": 700,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "form": {
+        "x": 30,
+        "y": 445,
+        "width": 330,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    },
+    {
+      "width": 360,
+      "height": 740,
+      "form": {
+        "x": 30,
+        "y": 403,
+        "width": 300,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "form": {
+        "x": 34,
+        "y": 244,
+        "width": 776,
+        "height": 52
+      },
+      "overflow": false,
+      "stableAfterSearch": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "checks": "6 viewport layouts, centered form, vertical whitespace, stable search, expandable examples"
+}

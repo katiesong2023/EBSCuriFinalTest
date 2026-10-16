@@ -1,0 +1,4942 @@
+{
+  "generatedAt": "2026-10-16T02:16:49.565Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "budgetUsd": 1,
+  "receivedResponses": 370,
+  "completedResponses": 353,
+  "incompleteResponses": 17,
+  "attempts": 372,
+  "uncertainAttempts": 2,
+  "measuredUpperUsd": 0.3166580000000002,
+  "reservedUncertainUsd": 0.014919599999999866,
+  "totalConservativeUsd": 0.3315776000000001,
+  "outstandingReservations": 0,
+  "metrics": [
+    {
+      "stage": "local",
+      "queries": 370,
+      "nonempty": 40,
+      "accepted": 0,
+      "top3": 79,
+      "relevant": 57,
+      "partial": 20,
+      "irrelevant": 2,
+      "unjudged": 0,
+      "queriesWithRelevantTop3": 31,
+      "empty": 330,
+      "relevantShare": 0.7215189873417721
+    },
+    {
+      "stage": "modelRaw",
+      "queries": 370,
+      "nonempty": 42,
+      "accepted": 5,
+      "top3": 83,
+      "relevant": 58,
+      "partial": 22,
+      "irrelevant": 3,
+      "unjudged": 0,
+      "queriesWithRelevantTop3": 32,
+      "empty": 328,
+      "relevantShare": 0.6987951807228916
+    },
+    {
+      "stage": "modelBound",
+      "queries": 370,
+      "nonempty": 87,
+      "accepted": 105,
+      "top3": 211,
+      "relevant": 56,
+      "partial": 64,
+      "irrelevant": 91,
+      "unjudged": 0,
+      "queriesWithRelevantTop3": 33,
+      "empty": 283,
+      "relevantShare": 0.26540284360189575
+    }
+  ],
+  "knownRelevantLostAll": 5,
+  "knownRelevantLostTop3": 8,
+  "errors": {
+    "source span mismatch": 243,
+    "unaccounted query text": 240,
+    "unknown clause reference": 45,
+    "blocking clause lost from expression": 35,
+    "adjacent mandatory clause weakened in logic": 36,
+    "$: missing version": 17,
+    "$: missing originalQuery": 17,
+    "$: missing status": 17,
+    "$: missing clauses": 17,
+    "$: missing expression": 17,
+    "$: missing expansions": 17,
+    "$: missing unresolved": 17,
+    "$: missing grammarSpans": 17,
+    "preference/context used as blocking condition": 13,
+    "content hidden as purpose": 1,
+    "purpose cannot become a blocking condition": 1,
+    "unrecognized content hidden in grammar": 3,
+    "original query changed": 1,
+    "OR needs original connector": 3,
+    "$.expression: anyOf": 1
+  },
+  "rows": [
+    {
+      "set": "new200",
+      "id": "Q001",
+      "query": "우리 고장의 모습",
+      "localTotal": 43,
+      "rawTotal": 43,
+      "boundTotal": 43,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-ee7209f90c567da3a49f",
+        "BCAST-62e0701270cde488821f",
+        "BCAST-6a44a0cff4ca3f48a4b3"
+      ],
+      "boundTop3": [
+        "BCAST-ee7209f90c567da3a49f",
+        "BCAST-62e0701270cde488821f",
+        "BCAST-6a44a0cff4ca3f48a4b3"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q002",
+      "query": "지도에서 방위표는 어떻게 읽나요?",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q003",
+      "query": "초3 지도 읽기 수업 도입에 쓸 3분짜리 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q004",
+      "query": "고장의 문화유산을 소개하는 애니메이션",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q005",
+      "query": "옛날 사람들은 어떻게 빨래를 했을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q006",
+      "query": "옛날 교통수단과 오늘날 교통수단 비교",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q007",
+      "query": "애들한테 옛날 통신수단 보여줄 만한 거 없나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q008",
+      "query": "설날 추석 세시 풍속",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 48,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d695bfa7a91a6a384329",
+        "BCAST-da206b484615bbbd00cc",
+        "BCAST-627df3c368a4d86b2a3e"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q009",
+      "query": "가족의 모습은 시대에 따라 어떻게 달라졌을까",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-0c2a0df5479f94adf06f"
+      ],
+      "boundTop3": [
+        "BCAST-0c2a0df5479f94adf06f"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q010",
+      "query": "농촌 어촌 산지촌 생활 모습",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q011",
+      "query": "4학년 촌락과 도시 단원에서 도시 문제를 보여줄 다큐",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q012",
+      "query": "도시와 촌락은 서로 어떤 도움을 주고받나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q013",
+      "query": "생산과 소비의 뜻",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-1ff9d037c9aea44f046b"
+      ],
+      "boundTop3": [
+        "BCAST-1ff9d037c9aea44f046b"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q014",
+      "query": "전통시장 상인 인터뷰 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q015",
+      "query": "희소썽 쉽게 설명",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q016",
+      "query": "우리 지역 특산물은 어떻게 다른 지역으로 갈까",
+      "localTotal": 13,
+      "rawTotal": 13,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-2bf49f8a5fd512d04316",
+        "BCAST-f1b6a199c131dd07f673",
+        "BCAST-3c2acd43c1843f8f17e8"
+      ],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q017",
+      "query": "주민 참여 지역 문제 해결",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-ce1721b43f7741c59028",
+        "BCAST-41236586c72656a2741e"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q018",
+      "query": "시청이나 소방서 같은 공공 기관은 무슨 일을 하나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q019",
+      "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q020",
+      "query": "아이가 줄어들면 우리 동네는 어떻게 될까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q021",
+      "query": "고령화 사회 노인 생활",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 26,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-107e81e3003480253641",
+        "BCAST-fc40018a75de92a757b3",
+        "BCAST-430086053b3830d63751"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q022",
+      "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q023",
+      "query": "다문화 가정 이웃",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 79,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-e338391ea6f4ef309dae"
+      ],
+      "boundTop3": [
+        "BCAST-55632a5eb398214606ee",
+        "BCAST-322dd97de14b1f057dc9",
+        "BCAST-e338391ea6f4ef309dae"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q024",
+      "query": "편견 없이 다른 문화를 존중하는 내용, 강의 말고 짧은 클립",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q025",
+      "query": "우리 동네 이름에는 어떤 뜻이 숨어 있을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q026",
+      "query": "디지털 영상 지도 사용하는 방법 시연",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "localTotal": 652,
+      "rawTotal": 652,
+      "boundTotal": 652,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-5cf70af05ea91d1b1fad",
+        "BCAST-11c6c4076ac40f504bc9",
+        "BCAST-1ecfc5874bad21a3edfc"
+      ],
+      "boundTop3": [
+        "BCAST-5cf70af05ea91d1b1fad",
+        "BCAST-11c6c4076ac40f504bc9",
+        "BCAST-1ecfc5874bad21a3edfc"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q028",
+      "query": "고장의자연환경과인문환경",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q029",
+      "query": "옛날 아이들 놀이 실제 모습 담긴 자료 화면",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q030",
+      "query": "지역 축제가 경제에 주는 영향과 문화적 의미를 함께 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q031",
+      "query": "우리나라 국토의 위치와 영역",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q032",
+      "query": "강의 말고 다큐로 된 독도 영상",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-b9bd9c450d9e9b9a0ad3",
+        "BCAST-17b49b656eeabd655058"
+      ],
+      "boundTop3": [
+        "BCAST-b9bd9c450d9e9b9a0ad3",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q033",
+      "query": "우리나라는 왜 동쪽이 높고 서쪽이 낮을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q034",
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "localTotal": 4,
+      "rawTotal": 4,
+      "boundTotal": 4,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-ac15584839027a9ff488",
+        "BCAST-562bff14dc981a775d0b",
+        "BCAST-e0593715d602a4ea9437"
+      ],
+      "boundTop3": [
+        "BCAST-ac15584839027a9ff488",
+        "BCAST-562bff14dc981a775d0b",
+        "BCAST-e0593715d602a4ea9437"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q035",
+      "query": "태풍 홍수 대비 방법",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q036",
+      "query": "사람들은 왜 수도권에 몰려 살까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q037",
+      "query": "인권의 뜻과 인권 보호",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q038",
+      "query": "지식채널e 인권 관련 편",
+      "localTotal": 8,
+      "rawTotal": 8,
+      "boundTotal": 8,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-613368a98bbeed37d978",
+        "BCAST-2a7e4c88a21d3f12d7b4"
+      ],
+      "boundTop3": [
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-613368a98bbeed37d978",
+        "BCAST-2a7e4c88a21d3f12d7b4"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q039",
+      "query": "헌법은 왜 필요한가요",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-01c5def31d60db3f6267"
+      ],
+      "boundTop3": [
+        "BCAST-01c5def31d60db3f6267"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q040",
+      "query": "법을 왜 지켜야 하는지 6학년이 공감할 만한 사례 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q041",
+      "query": "고조선 건국 이야기 단군",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-953787f16eb05d49e21a",
+        "BCAST-deccd8c06b51ebd1c2f1"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q042",
+      "query": "삼국 시대 문화유산 애니메이션",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q043",
+      "query": "고려청자는 어떻게 만들었을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-9cc59ef70388bf4005bb",
+        "BCAST-118b27bb04e8dd63f4d6"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q044",
+      "query": "역사채널e 세종대왕 한글 창제",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q045",
+      "query": "임진왜란 이순신 수업 도입용 짧은 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q046",
+      "query": "정약룡 거중기",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q047",
+      "query": "흥선대원군 통상 수교 거부",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-9ee2377a3c1051a5906d"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q048",
+      "query": "3·1 운동은 어떻게 전국으로 퍼졌을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q049",
+      "query": "독립운동가 실제 사진과 기록 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q050",
+      "query": "광복과 6·25 전쟁",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 10,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d5010b5b1dec70ea4e93",
+        "BCAST-fc40fbcbaadd5e49e3c2",
+        "BCAST-f9bc48e2900ec705cc35"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q051",
+      "query": "4·19 혁명과 5·18 민주화 운동은 어떤 사건이었나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q052",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "localTotal": 32,
+      "rawTotal": 32,
+      "boundTotal": 32,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-ce98e55c1c58597bfca3"
+      ],
+      "boundTop3": [
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-ce98e55c1c58597bfca3"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q053",
+      "query": "6학년 전교 어린이회 선거 전에 보여줄 선거 원칙 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q054",
+      "query": "삼권 분립 국회 정부 법원",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q055",
+      "query": "가계와 기업은 시장에서 어떤 역할을 하나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q056",
+      "query": "한강의 기적 경제 성장 과정",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 15,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-2c69289ba130cdaab8ad",
+        "BCAST-5ee5b04ea0b5c43c96c7",
+        "BCAST-02379670824f725f9e15"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q057",
+      "query": "우리나라 무역과 다른 나라와의 경제 교류를 그래프와 함께",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q058",
+      "query": "세계 지도와 지구본 차이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q059",
+      "query": "세계테마기행 사막 지역 사람들 생활",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q060",
+      "query": "중국 일본 러시아는 우리나라와 어떤 관계일까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q061",
+      "query": "남북통일 필요성",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q062",
+      "query": "지구촌 분쟁 사례 조사 활동 전에 보여줄 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q063",
+      "query": "기후 위기와 지속 가능한 미래를 사회 과학 융합으로 다룬 다큐",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q064",
+      "query": "난민은 왜 생기고 우리는 무엇을 할 수 있을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q065",
+      "query": "유엔과 국제기구 하는 일",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q066",
+      "query": "공정무역 초콜릿 생산 과정 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q067",
+      "query": "어린이보호구역법 왜생겼나",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q068",
+      "query": "어린이 인권 침해 사례인데 너무 자극적이지 않은 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q069",
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 26,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-5fc2f5af03f671abe2fa",
+        "BCAST-e29b5b7f626a39fd22cf",
+        "BCAST-159832984af4680fa5c7"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q070",
+      "query": "유네스코 세계유산 종묘 석굴암",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q071",
+      "query": "조선 시대 양반 상민 노비 생활 비교되는 재밌는 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q072",
+      "query": "EBS 다큐프라임 조선 개항과 근대화",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q073",
+      "query": "저출생 문제를 인구 그래프와 실제 가족 이야기로 함께 보여주는 다큐",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q074",
+      "query": "용돈을 어떻게 써야 합리적인 선택일까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q075",
+      "query": "6학년 2학기 지구촌 환경 문제 마무리 차시용 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q076",
+      "query": "위도와 경도 표준시",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q077",
+      "query": "나라마다 시간이 다른 이유는 무엇일까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q078",
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 90,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-0e28c222b7f23817963b",
+        "BCAST-afc33b9356f9f1e24617",
+        "BCAST-b8ec6a747bfd84d7ee37"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q079",
+      "query": "사막 유목민 생활 다큐",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-ee6c729aaf350fa7b033"
+      ],
+      "boundTop3": [
+        "BCAST-ee6c729aaf350fa7b033"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q080",
+      "query": "북극 사람들은 추위에 어떻게 적응해 살까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q081",
+      "query": "안데스 고산 도시 생활",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 89,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-73c70df7f8049bec9da3",
+        "BCAST-e69079f1a94381ad0876",
+        "BCAST-a2a43cfc9612af9dcb2a"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q082",
+      "query": "지진과 화산 피해를 지리와 과학 시각으로 함께 보는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q083",
+      "query": "화석 연료 신재생 에너지 자원 분포",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q084",
+      "query": "석유 때문에 나라끼리 분쟁이 생기는 이유",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 7,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-6d0b49266af2b28ee987",
+        "BCAST-c0f1e239f6106e5cf118",
+        "BCAST-11749d6d960b2b0bb017"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q085",
+      "query": "중1 지리 시간에 보여줄 세계 관광지 영상 재밌는 걸로",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q086",
+      "query": "사회화 과정과 사회화 기관",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-2a0700678effc59d4eec"
+      ],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q087",
+      "query": "역할 갈등은 어떤 상황에서 생기나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q088",
+      "query": "중1 문화 단원에서 문화 상대주의 토론 전에 보여줄 사례 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q089",
+      "query": "문화접번 예시",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q090",
+      "query": "대중 매체와 대중문화 비판적 수용",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 4,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-243cc943c94b07ad87cf",
+        "BCAST-9b6cfb9327f930d37c7f",
+        "BCAST-76780144b8b2b6bcbe7f"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q091",
+      "query": "정치는 왜 우리 일상과 관련이 있을까",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-5d8e926d1f0903ba4e77"
+      ],
+      "boundTop3": [
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q092",
+      "query": "아테네 직접 민주 정치 애니메이션",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q093",
+      "query": "대통령제와 의원 내각제 비교",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q094",
+      "query": "시민 정치 참여 방법, 선거 말고 다른 방법도",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q095",
+      "query": "사법과 공법은 어떻게 다를까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 5,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-3d5059e64e621fde36fa",
+        "BCAST-407fa3f6166ccb5c0c99",
+        "BCAST-e2d18481f866487851de"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q096",
+      "query": "모의 재판 진행 과정 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q097",
+      "query": "인권 침해 구제 방법과 실제 사례를 같이 담은 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q098",
+      "query": "지역 브랜드 지리적 표시제",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q099",
+      "query": "지식채널e 도시 문제",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-7c6c514d82144302fc08"
+      ],
+      "boundTop3": [
+        "BCAST-7c6c514d82144302fc08"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q100",
+      "query": "기후 변화로 사라지는 섬나라 얘기 짧게",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q101",
+      "query": "물체와 물질의 차이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 56,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-8b04ff8370a866947db4",
+        "BCAST-ec39eab79e8a54aacfea",
+        "BCAST-f8731a0d74db4fe94681"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q102",
+      "query": "왜 컵은 유리나 플라스틱으로 만들까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q103",
+      "query": "땅속에 사는 동물 실제 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q104",
+      "query": "3학년 동물의 생활 단원 분류 활동용 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q105",
+      "query": "흐르는 물에 의한 침식 퇴적",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q106",
+      "query": "흙은 어떻게 만들어질까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q107",
+      "query": "소리의 세기와 높낮이 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q108",
+      "query": "실 전화기는 어떻게 소리가 전달될까",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-b464ecdca1139922ae40"
+      ],
+      "boundTop3": [
+        "BCAST-b464ecdca1139922ae40"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q109",
+      "query": "자석의 극 N극 S극",
+      "localTotal": 0,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": true,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-2d032ce4b233bfe29ceb"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q110",
+      "query": "나침판 만드는 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q111",
+      "query": "지구는 왜 둥글게 보일까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q112",
+      "query": "달의 표면 충돌구",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d76f81ca578afac9acb4",
+        "BCAST-ca60eccdd6412d1d3b0e",
+        "BCAST-6030cd9110ad21462318"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q113",
+      "query": "강낭콩 싹이 트는 과정 타임랩스",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-dd88904035fcd94105ca"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q114",
+      "query": "4학년 식물의 한살이 관찰 일지 쓰기 전에 보여줄 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q115",
+      "query": "용수철저울 무게 재기",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q116",
+      "query": "시소는 어떻게 수평을 잡을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q117",
+      "query": "거름 장치로 혼합물 분리하는 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q118",
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 74,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-e463b2c707a6739d767d"
+      ],
+      "boundTop3": [
+        "BCAST-8f3da3f6bf271ff88c6a",
+        "BCAST-2d46090151361e234a1f",
+        "BCAST-9c8296fe6f984c591402"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q119",
+      "query": "화산 분출물 용암 화산재",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 5,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-294e0b9e721b2f2131eb",
+        "BCAST-9350c53086c93422c7b8",
+        "BCAST-71f993ee4dbc18bb820a"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q120",
+      "query": "지진이 났을 때 대처 방법과 지진이 생기는 원리를 같이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q121",
+      "query": "하나뿐인 지구 화산 섬 제주도",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q122",
+      "query": "얼음이 녹으면 무게가 달라질까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q123",
+      "query": "증발과 끓음 차이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q124",
+      "query": "컵 표면에 물방울 맺히는 거 설명 영상 짧은 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q125",
+      "query": "그림자는 왜 생길까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 32,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-a3ebdd6b0b2a1a3b070b",
+        "BCAST-aa3e3c731a80526fa5b1",
+        "BCAST-bad7d274e25f7bc20582"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q126",
+      "query": "거울에 비친 모습 실험 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q127",
+      "query": "물에 사는 식물 사막에 사는 식물",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q128",
+      "query": "선인장은 어떻게 사막에서 살아남을까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 12,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-bc4755523a6a94a2096a",
+        "BCAST-70cd84b19ce027c733bd",
+        "BCAST-f4d9002dd13ff0ac7588"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q129",
+      "query": "물의 순환 애니메이션",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q130",
+      "query": "물부족해결방법 어린이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q131",
+      "query": "애들이 좋아할 만한 동물 위장 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q132",
+      "query": "북극곰 적응, 다큐 전체 말고 몇 분짜리 클립만",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q133",
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 74,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-5876fef33095a23a189c",
+        "BCAST-58a5347702e0c7d0ee03",
+        "BCAST-4898568e3316eeb435ce"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q134",
+      "query": "멸종 위기 동물 보호를 사회 문제로도 연결할 수 있는 다큐",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q135",
+      "query": "공기는 무게가 있을까",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 32,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-8031b372a93332406590",
+        "ECLIP-017"
+      ],
+      "boundTop3": [
+        "BCAST-e8dab1038d2854614d92",
+        "BCAST-135317332149bf8eef14",
+        "BCAST-9273ffc8a9ae441c02d5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q136",
+      "query": "온도계 사용법",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q137",
+      "query": "뜨거운 국에 담근 숟가락은 왜 손잡이까지 뜨거워질까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q138",
+      "query": "대류 실험 물감 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 13,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-12a49db28b502090395b",
+        "BCAST-b85de575a8c2feccafc1",
+        "BCAST-cab0d9d126a3feebd57f"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q139",
+      "query": "태양계 행성 크기 비교",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q140",
+      "query": "북극성은 어떻게 찾나요",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "ECLIP-019"
+      ],
+      "boundTop3": [
+        "ECLIP-019"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q141",
+      "query": "용해와 용액 용질 용매",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q142",
+      "query": "5학년 용해와 용액 단원 도입용 각설탕 녹는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q143",
+      "query": "메추리알이 소금물에서 뜨는 이유",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q144",
+      "query": "생태계 구성 요소 생산자 소비자 분해자",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q145",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "localTotal": 12,
+      "rawTotal": 12,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-01bb5774b712efe912db",
+        "BCAST-386650585bd5c99e533c",
+        "BCAST-15fd00a3f3bb3a86637d"
+      ],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q146",
+      "query": "다큐프라임 생태계 평형",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q147",
+      "query": "환경 오염이 생물에 주는 영향과 우리가 할 수 있는 실천을 함께",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q148",
+      "query": "습도 이슬 구름 비",
+      "localTotal": 0,
+      "rawTotal": 126,
+      "boundTotal": 126,
+      "rawAccepted": true,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-85aec6f94c84e4003bdd",
+        "BCAST-6ea89ba40d5bd1755f42",
+        "BCAST-2292d4ab9288706bedb8"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q149",
+      "query": "구름 만들기 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q150",
+      "query": "바닷가에서 낮과 밤에 바람 방향이 바뀌는 이유",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q151",
+      "query": "물체의 속력 구하기",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q152",
+      "query": "5학년 속력 단원 교통안전 연결 차시 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q153",
+      "query": "지시약 색깔 변화 실험 붉은 양배추",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q154",
+      "query": "생활 속에서 산성과 염기성 용액은 어디에 쓰이나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q155",
+      "query": "낮과 밤이 생기는 이유 지구 자전",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q156",
+      "query": "달의 모양은 왜 매일 바뀔까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q157",
+      "query": "산소와 이산화탄소 발생 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q158",
+      "query": "기체 압럭과 부피",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-1be608ef1aca2c9af8a0"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q159",
+      "query": "광합성 잎 줄기 뿌리",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q160",
+      "query": "광합썽 실험 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q161",
+      "query": "물에 넣은 빨대는 왜 꺾여 보일까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-4a3f70f17027a2faa93b"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q162",
+      "query": "볼록 렌즈로 햇빛 모으기 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q163",
+      "query": "전기 회로 직렬 병렬",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-12c7ac966259a25753ab"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q164",
+      "query": "전자석은 어디에 쓰이나요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q165",
+      "query": "전기 절약이랑 안전 관련해서 아이들 보기 좋은 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q166",
+      "query": "여름은 왜 더울까 태양 고도",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q167",
+      "query": "6학년 계절의 변화 단원 정리용 애니메이션 5분 이내",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q168",
+      "query": "연소의 조건 소화 방법",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 10,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-c4bd24c71576406c073c",
+        "BCAST-ac1b4443b0f9dc3cef33",
+        "BCAST-36c6fa1305c288267600"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q169",
+      "query": "불 끄는 방법, 실험 말고 실제 화재 대피 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q170",
+      "query": "소화 기관 순환 기관",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 43,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-3fcac61cd3985e509404",
+        "BCAST-ac1b4443b0f9dc3cef33",
+        "BCAST-01bb5774b712efe912db"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q171",
+      "query": "심장이 뛰는 모습 애니메이션",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q172",
+      "query": "숨을 쉬면 몸속에서 무슨 일이 일어날까",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-4f6306403d88a35fdb76",
+        "BCAST-ec0ae9334ce9dda625f1"
+      ],
+      "boundTop3": [
+        "BCAST-4f6306403d88a35fdb76",
+        "BCAST-ec0ae9334ce9dda625f1"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q173",
+      "query": "에너지 전환 예시",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-68e0fb7462f5f827aaa0"
+      ],
+      "boundTop3": [
+        "BCAST-68e0fb7462f5f827aaa0"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q174",
+      "query": "신재생 에너지를 과학 원리와 에너지 정책 측면에서 함께",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q175",
+      "query": "곰팡이와 세균은 우리에게 이로울까 해로울까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-9a441ec04f83364f9337",
+        "BCAST-a75b0033b64ddcdc39cf"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q176",
+      "query": "로봇이나 AI 같은 과학 기술 미래 직업 관련된 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q177",
+      "query": "지식채널e 우주 관련 편",
+      "localTotal": 10,
+      "rawTotal": 10,
+      "boundTotal": 10,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-3fe0bd9c418fbf8a0049",
+        "BCAST-c993b6a79481d76b640b",
+        "BCAST-d404d9f861d2cf4b9cce"
+      ],
+      "boundTop3": [
+        "BCAST-3fe0bd9c418fbf8a0049",
+        "BCAST-c993b6a79481d76b640b",
+        "BCAST-d404d9f861d2cf4b9cce"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q178",
+      "query": "미세먼지가 생기는 원리와 건강 영향 사회 문제까지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q179",
+      "query": "과학 실험실 안전 수칙",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q180",
+      "query": "5학년 1학기 첫 시간 과학 탐구 방법 소개 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q181",
+      "query": "생물 분류 체계 종 속 과 목 강 문 계",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q182",
+      "query": "현미경으로 본 양파 표피 세포",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q183",
+      "query": "같은 종인데 왜 생김새가 다를까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q184",
+      "query": "열평형 비열 열팽창",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q185",
+      "query": "여름 바닷가 모래는 뜨거운데 바닷물은 왜 덜 뜨거울까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q186",
+      "query": "기찻길 레일 틈 열팽창 실제 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q187",
+      "query": "입자 운동 상태 변화 잠열",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 9,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-00ad3adabb62ae8e3263",
+        "BCAST-63c7ba04cac90f9c6cad",
+        "BCAST-365e6b9d4fbb6369bd7c"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q188",
+      "query": "융해렬 응고열 예시",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q189",
+      "query": "높은 산에 가면 과자 봉지가 왜 부풀까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q190",
+      "query": "중1 기체의 성질 보일 법칙 개념 정리 강의",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q191",
+      "query": "중력 탄성력 마찰력 부력",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 4,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-c3d21309643e7f8f3db0",
+        "BCAST-3c891a33de46b51c2a4b",
+        "BCAST-9f0f0a269efa13265078"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q192",
+      "query": "마찰력 체감되는 재밌는 실험 영상 없을까요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q193",
+      "query": "무거운 배는 어떻게 물에 뜰까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q194",
+      "query": "빛의 합성 무대 조명 실험",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q195",
+      "query": "파동 진폭 진동수 파장",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 3,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-89ff761de9a81ab3b3d7",
+        "BCAST-d47d2d043acc530b3b76",
+        "BCAST-3f5f0e585f338840776f"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q196",
+      "query": "다큐프라임 태양계 탐사",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q197",
+      "query": "암석은 어떻게 순환할까",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 6,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-7231642fc8396ebb802c",
+        "BCAST-9b0d17fe44352cba0ea9",
+        "BCAST-50df730475837f7fe825"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q198",
+      "query": "광물 구별 방법 강의 말고 실험 위주로",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q199",
+      "query": "과학 기술이 인류의 지속 가능한 삶에 기여한 사례와 문제점",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "new200",
+      "id": "Q200",
+      "query": "판의 이동으로 지진대 화산대 분포를 지도와 함께",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q001",
+      "query": "방위와 지도 기호",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q003",
+      "query": "처음 지도를 배우는 아이들에게 길을 찾는 방법을 소개하는 도입 자료가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q004",
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q006",
+      "query": "종이에 그려 놓은 동네 그림을 보고 찾아가는 모습을 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q007",
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q008",
+      "query": "소방서가 마을 사람들의 안전을 어떻게 지키는지 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q009",
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q011",
+      "query": "시장에서 물건을 사는 모습과 온라인으로 사는 모습을 비교할 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "localTotal": 19,
+      "rawTotal": 19,
+      "boundTotal": 19,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-3ae380d82bcd390fd2ed",
+        "BCAST-42cb718c8c18c2a86d25",
+        "BCAST-143436bd604426e911f1"
+      ],
+      "boundTop3": [
+        "BCAST-3ae380d82bcd390fd2ed",
+        "BCAST-42cb718c8c18c2a86d25",
+        "BCAST-143436bd604426e911f1"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q014",
+      "query": "지도 기호와 방위를 모두 사용해서 길을 찾는 사례를 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q015",
+      "query": "마을 축제",
+      "localTotal": 24,
+      "rawTotal": 24,
+      "boundTotal": 24,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-2bf49f8a5fd512d04316",
+        "BCAST-dee4ff0e9f3ff630e22d",
+        "BCAST-d89984a27c9cf30a4ad3"
+      ],
+      "boundTop3": [
+        "BCAST-2bf49f8a5fd512d04316",
+        "BCAST-dee4ff0e9f3ff630e22d",
+        "BCAST-d89984a27c9cf30a4ad3"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q016",
+      "query": "지도 읽는 방법을 보여주는 자료 중 자동차 운전 경로 안내만 하는 것은 제외해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q018",
+      "query": "자석의 두 극",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-2d032ce4b233bfe29ceb"
+      ],
+      "boundTop3": [
+        "BCAST-2d032ce4b233bfe29ceb"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q020",
+      "query": "자석 수업 도입에 아이들이 결과를 예상해 볼 관찰 자료가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q021",
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q023",
+      "query": "쇠붙이를 끌어당기는 자석의 성질을 보여주세요 가능하면 가까이 찍은 화면이 있으면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q024",
+      "query": "젖은 빨래가 햇볕 아래에서 마르는 과정을 보여주는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q025",
+      "query": "자석을 뒤집어 가까이 대면 붙거나 밀리는 까닭을 설명해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q026",
+      "query": "찬 컵 겉에 물방울이 생기는 과정을 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q028",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-96e893fd838fc3739cc4",
+        "BCAST-24cb7586692e2a707640"
+      ],
+      "boundTop3": [
+        "BCAST-96e893fd838fc3739cc4",
+        "BCAST-24cb7586692e2a707640"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q030",
+      "query": "물이 얼 때와 얼음이 녹을 때의 모습을 둘 다 보여주는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q031",
+      "query": "막대자석과 말굽자석에서 극의 위치를 확인하고 비교하는 실험 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q032",
+      "query": "물이 마르는 과정을 찾고 있어요 피부가 건조해진다는 비유는 제외해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q033",
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q035",
+      "query": "어린이의 권리",
+      "localTotal": 5,
+      "rawTotal": 5,
+      "boundTotal": 5,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-88cd4153bd0d6c517132",
+        "BCAST-4c9a03b67a254591399f",
+        "BCAST-3ed3887ce9f5ee7c2463"
+      ],
+      "boundTop3": [
+        "BCAST-88cd4153bd0d6c517132",
+        "BCAST-4c9a03b67a254591399f",
+        "BCAST-3ed3887ce9f5ee7c2463"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q037",
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q038",
+      "query": "학급의 규칙을 함께 정하는 활동 전에 의사결정 과정을 보여주고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q040",
+      "query": "누구든 태어날 때부터 존중받아야 한다는 내용을 실제 사례로 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q041",
+      "query": "여러 사람이 서로 의견을 듣고 하나의 약속을 정하는 모습을 찾고 있어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q042",
+      "query": "일상에서 차별이 생겼을 때 권리를 지키기 위해 어떤 도움을 받을 수 있는지 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q043",
+      "query": "주민들의 의견이 지역 정책에 반영되는 과정을 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q045",
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q047",
+      "query": "주민 의견을 모으는 과정과 최종 결정을 내리는 과정이 모두 있는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q048",
+      "query": "학교의 규칙이 어린이의 권리를 어떻게 지키는지 사례로 설명해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q049",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-5d8e926d1f0903ba4e77"
+      ],
+      "boundTop3": [
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q050",
+      "query": "인권 침해를 해결한 사례를 찾고 있어요 잔인한 폭력 장면은 빼주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q052",
+      "query": "불이 타는 데 필요한 것",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q054",
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q055",
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-793986e731a60a54b5e9"
+      ],
+      "boundTop3": [
+        "BCAST-793986e731a60a54b5e9"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q057",
+      "query": "같은 재료인데 공기가 통하지 않으면 불이 꺼지는 모습을 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q058",
+      "query": "어떤 생물이 줄어들자 그 생물을 먹던 동물도 영향을 받는 모습을 찾고 있어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q059",
+      "query": "연료와 공기만 있다고 항상 불이 붙는 것은 아닌 까닭을 설명해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q060",
+      "query": "한 종류의 생물이 사라졌을 때 먹이 관계가 달라지는 과정을 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q062",
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q064",
+      "query": "물이 증발하는 과정과 수증기가 물방울로 바뀌는 과정이 모두 나오는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q065",
+      "query": "숲이나 연못 중 한 곳의 먹이 관계를 보여주는 사례면 돼요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q066",
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "localTotal": 6,
+      "rawTotal": 6,
+      "boundTotal": 6,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-793986e731a60a54b5e9",
+        "BCAST-c9d9b292bf3626288c4f",
+        "BCAST-076b63322b8a48f4d42c"
+      ],
+      "boundTop3": [
+        "BCAST-793986e731a60a54b5e9",
+        "BCAST-c9d9b292bf3626288c4f",
+        "BCAST-076b63322b8a48f4d42c"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q069",
+      "query": "세계의 기후와 생활",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 1893,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-12043189f9ec2b1a500f",
+        "BCAST-0d08b1091a7cb6de865a"
+      ],
+      "boundTop3": [
+        "BCAST-ea911bb6afb25361f7d2",
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-76a56e6fc46864000a82"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q070",
+      "query": "기후에 맞는 생활 모습을 토론할 때 근거로 쓸 실제 지역 사례가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q072",
+      "query": "비가 적게 오는 곳에서 사람들이 물을 아껴 쓰며 살아가는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q073",
+      "query": "시민들이 동네의 불편한 점을 알리고 함께 바꾸는 이야기를 찾고 있어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q075",
+      "query": "날씨가 오랫동안 덥거나 추운 것이 집의 모습에 어떤 영향을 주는지 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q077",
+      "query": "비가 많은 지역과 적은 지역에서 농사짓는 모습을 비교하고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q079",
+      "query": "추운 지역의 주거를 다룬 자료 중 관광 숙소 광고만 하는 영상은 제외해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q080",
+      "query": "자연환경에 맞춘 옷차림을 찾고 있어요 가능하면 현지 사람의 설명이 있으면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q081",
+      "query": "주민이 공공 문제를 해결하는 지식채널e 회차를 찾아주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q082",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-ee6c729aaf350fa7b033",
+        "BCAST-b7ea99f0dd385b579d34"
+      ],
+      "boundTop3": [
+        "BCAST-ee6c729aaf350fa7b033",
+        "BCAST-b7ea99f0dd385b579d34"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q083",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "localTotal": 19,
+      "rawTotal": 19,
+      "boundTotal": 49,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-dd00bb970222169873c2",
+        "BCAST-1da970630a3f983fa0ca",
+        "BCAST-59b631b537dc518d02ab"
+      ],
+      "boundTop3": [
+        "BCAST-4deb9bf8b94091521773",
+        "BCAST-03df91fa6a47030ab89d",
+        "PDLOG-090"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q085",
+      "query": "힘의 평형",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": true,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q087",
+      "query": "물체를 양쪽에서 똑같이 밀었는데 움직이지 않는 모습을 보여주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q088",
+      "query": "물속에 넣은 물체가 위로 떠오르려는 힘을 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q089",
+      "query": "그릇에 담아 둔 물이 조금씩 줄어드는 모습을 관찰할 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q091",
+      "query": "물체가 움직이는 방향과 반대로 마찰력이 작용하는 까닭을 설명해주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q093",
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 4,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-c3d21309643e7f8f3db0",
+        "BCAST-3c891a33de46b51c2a4b",
+        "BCAST-9f0f0a269efa13265078"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q094",
+      "query": "저런 힘이 물체를 멈추게 하는 과정을 알려주는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q095",
+      "query": "물체에 작용하는 힘을 그리는 활동 전에 움직임을 관찰할 자료가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q097",
+      "query": "물이 증발하는 모습을 실제로 관찰하는 실험 영상만 찾아주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q098",
+      "query": "저런 힘 때문에 움직이는 모습을 설명하는 자료가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q099",
+      "query": "가상의 블루드래곤광석이 자석에 붙는 실제 실험 영상을 찾아주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q001",
+      "query": "옛날 교통수단",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": true,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q002",
+      "query": "방위표와 지도 기호",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q003",
+      "query": "우리 고장 공공기관 조사하기 전에 아이들이 소방서, 우체국, 주민센터가 각각 무슨 일을 하는지 감 잡을 수 있게 도입으로 보여줄 영상 찾아요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q004",
+      "query": "세시풍속 단원 마무리로 설날, 단오, 추석에 하던 놀이와 음식을 정리해 줄 수 있는 자료 있을까요? 학생들이 표로 정리하는 활동에 쓰려고요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q005",
+      "query": "옛날 통신 수단에서 오늘날 통신 수단으로 바뀐 모습을 보고 학생들이 '편리해진 점과 새로 생긴 문제'를 토의하게 하려고 합니다",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q006",
+      "query": "아이들이 시장에서 물건 사는 거랑 마트에서 사는 거 말고, 물건이 어디서 만들어져서 우리 손에 오는지 궁금해해요. 그걸 보여줄 수 있는 거요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q007",
+      "query": "산골 마을이랑 바닷가 마을 사람들이 먹고사는 방법이 어떻게 다른지 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q008",
+      "query": "할머니 할아버지 어릴 적에는 집안일을 어떻게 했는지, 그때 쓰던 물건들이 나오는 거 찾아요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q009",
+      "query": "고장에 새 도로나 지하철이 생기면 사람들 생활이 어떻게 달라지는지 알려주는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q010",
+      "query": "논이 많은 지역에서는 왜 쌀농사를 많이 짓게 됐는지, 땅 모양이나 물이랑 연결해서 설명해 주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q011",
+      "query": "옛날 결혼식과 오늘날 결혼식을 비교해 볼 수 있는 자료",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-959453546960108f1b5b"
+      ],
+      "boundTop3": [
+        "BCAST-959453546960108f1b5b"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q012",
+      "query": "종이 지도랑 디지털 영상 지도가 쓰임새가 어떻게 다른지 비교해서 보여줄 만한 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q013",
+      "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q014",
+      "query": "고장 대표 축제 소개 영상 찾는데, 관광 홍보처럼 볼거리만 나열하는 건 빼고 축제가 생겨난 배경이 나오는 걸로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q015",
+      "query": "옛날 어린이들이 하던 놀이 영상 찾아요. 가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q016",
+      "query": "EBS 애니메이션 형식으로 된 고장 이름 유래 이야기, 10분 안쪽으로 찾아요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q017",
+      "query": "우리 지역 특산물이 만들어지는 과정을 보여주고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q018",
+      "query": "배추흰나비 한살이",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q019",
+      "query": "자석 N극 S극",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 8,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-96e893fd838fc3739cc4",
+        "BCAST-2d032ce4b233bfe29ceb",
+        "BCAST-332fbd405c5ad9b47bee"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q020",
+      "query": "소리의 세기랑 높낮이 실험 전에, 아이들이 '큰 소리'와 '높은 소리'를 헷갈리지 않게 구분해 주는 자료가 필요해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q021",
+      "query": "고체, 액체, 기체를 처음 배울 때 주변 물건을 분류하는 활동 직전에 보여줄 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q022",
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q023",
+      "query": "젖은 빨래가 마르면 그 물은 어디로 간 건지 아이가 물어봤어요. 물이 눈에 안 보이게 날아가는 걸 보여줄 수 있는 거요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "localTotal": 2,
+      "rawTotal": 2,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-24cb7586692e2a707640",
+        "BCAST-96e893fd838fc3739cc4"
+      ],
+      "boundTop3": [
+        "BCAST-24cb7586692e2a707640",
+        "BCAST-96e893fd838fc3739cc4"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q025",
+      "query": "겨울만 되면 개구리랑 뱀이 다 어디 갔냐고 아이들이 궁금해해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q026",
+      "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q027",
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 20787,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-d9387edd6090c8993251",
+        "BCAST-68c7f8d70c9e71132963",
+        "BCAST-9b48c38fdc724380dde5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q028",
+      "query": "곤충이랑 거미가 몸 구조에서 어떻게 다른지 비교해 주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q029",
+      "query": "사막이나 극지방 중 한 곳에 사는 동물이 그 환경에 맞게 생긴 모습이 나오는 영상이요. 둘 중 하나만 나와도 괜찮아요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q030",
+      "query": "흙이 만들어지는 과정을 보여주는데, 반드시 바위가 부서지는 장면과 식물·동물 같은 것이 섞이는 설명이 둘 다 있어야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q031",
+      "query": "화산 영상 찾는데 실제 재난 피해 장면이나 사람이 다치는 장면은 빼 주세요. 화산 생김새랑 분출물 위주로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q032",
+      "query": "물의 세 가지 상태 설명 자료요. 실험실 기구 쓰는 건 말고 집에서 볼 수 있는 예로 보여주는 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q033",
+      "query": "동물의 한살이 자료요. 있으면 좋겠는 건 실제 촬영 장면인데, 그림으로 된 것도 괜찮아요",
+      "localTotal": 1,
+      "rawTotal": 1,
+      "boundTotal": 1,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "ECLIP-008"
+      ],
+      "boundTop3": [
+        "ECLIP-008"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q034",
+      "query": "아까 본 거 같은, 돌이 층층이 쌓여 있는 이런 모습 다른 지역 것도 보여주고 싶어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q035",
+      "query": "독도",
+      "localTotal": 12,
+      "rawTotal": 12,
+      "boundTotal": 11,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [
+        "BCAST-67b56eeef93444a02545",
+        "BCAST-a7d7600fe01735b38ac8",
+        "BCAST-5a6d462f2b7f0f30aebb"
+      ],
+      "boundTop3": [
+        "BCAST-a7d7600fe01735b38ac8",
+        "BCAST-5a6d462f2b7f0f30aebb",
+        "BCAST-67b56eeef93444a02545"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q036",
+      "query": "삼권 분립",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q037",
+      "query": "모의 학급 선거를 하기 전에 선거의 기본 원칙을 실제 사례로 이해시킬 영상 찾습니다",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q038",
+      "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q039",
+      "query": "조선 후기 실학자들의 생각을 소개하고, 학생들이 '내가 실학자라면 무엇을 바꿀까' 글쓰기를 하게 하려고요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q040",
+      "query": "사람들이 시골을 떠나서 도시로 몰려가면서 생긴 문제들 보여주는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q041",
+      "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q042",
+      "query": "일제가 토지 조사 사업을 하면서 농민들 삶이 어떻게 바뀌었는지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q043",
+      "query": "고려가 몽골의 침입에 어떻게 맞섰고, 그 과정에서 팔만대장경을 왜 만들었는지 알려주는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q044",
+      "query": "저출산이랑 고령화가 계속되면 사회에 어떤 변화가 생기는지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q045",
+      "query": "고조선 8조법과 오늘날 법이 하는 역할을 비교해 볼 수 있는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q046",
+      "query": "4·19 혁명과 6월 민주 항쟁의 공통점과 차이점을 정리할 수 있는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q047",
+      "query": "세계 여러 나라의 기후랑 거기에 맞는 집 모양이 함께 나와야 하고, 열대와 한대 지역이 반드시 둘 다 들어간 영상이요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q048",
+      "query": "임진왜란 수업 자료인데 전투 장면은 빼 주세요. 백성들이 의병으로 나서게 된 배경이랑 생활 위주로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q049",
+      "query": "우리나라 경제 성장 과정 영상인데, 특정 기업 홍보 같은 건 빼고 1960~70년대 산업이 어떻게 바뀌었는지 나오는 거요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q050",
+      "query": "조선의 신분 제도 자료요. 가능하면 드라마보다 다큐 형식이었으면 하고, 반드시 양반·중인·상민·천민 구분이 나와야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "localTotal": 27,
+      "rawTotal": 27,
+      "boundTotal": 27,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-7c5470496fdc6b9adbb1",
+        "BCAST-7237e22384453e542437",
+        "BCAST-6530ff46a45d86afa081"
+      ],
+      "boundTop3": [
+        "BCAST-7c5470496fdc6b9adbb1",
+        "BCAST-7237e22384453e542437",
+        "BCAST-6530ff46a45d86afa081"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q052",
+      "query": "전자석",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": true,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q053",
+      "query": "용해와 용액",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q054",
+      "query": "연소 조건 실험 전에 안전 교육도 겸해서 '불이 붙으려면 무엇이 필요할까' 질문을 던질 수 있는 도입 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q055",
+      "query": "먹이 사슬이랑 먹이 그물 배운 뒤에 '한 생물이 사라지면 어떻게 될까' 토론 자료로 쓸 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q056",
+      "query": "추운 날 안경에 김 서리는 거랑 아침에 풀잎에 물방울 맺히는 게 같은 원리라는 걸 보여주는 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q057",
+      "query": "아이들이 '지구의 허파'가 왜 점점 줄어드는지 물어봤어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q058",
+      "query": "숟가락 끝을 뜨거운 국에 담그면 손잡이까지 뜨거워지는 거 설명하는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q059",
+      "query": "여름은 덥고 겨울은 추운 이유를 태양 남중 고도랑 연결해서 설명하는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q060",
+      "query": "초가 타고 나면 어떤 물질이 생기는지 확인하는 과정이 나오는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q061",
+      "query": "전구를 직렬로 연결할 때랑 병렬로 연결할 때 밝기가 왜 다른지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q062",
+      "query": "산성 용액과 염기성 용액에 지시약을 넣었을 때 색이 어떻게 달라지는지 비교하는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q063",
+      "query": "지구와 화성의 환경을 비교해서, 왜 지구에만 생물이 사는지 생각해 볼 수 있는 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q064",
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q065",
+      "query": "빛의 굴절 보여주는 영상인데 물과 유리 두 경우가 모두 나와야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q066",
+      "query": "우리 몸 소화 기관 영상인데 실제 수술 장면이나 내시경 같은 실물 장면은 빼고 그래픽으로 된 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q067",
+      "query": "물체의 속력 구하는 방법 자료요. 실생활 교통수단 예시가 있으면 좋겠고, 꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면이에요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q068",
+      "query": "용질이 다 녹아서 더 이상 안 녹는 순간이 영상 몇 분쯤 나오는지 알 수 있는 거요. 수업 중에 그 부분만 틀려고요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q069",
+      "query": "경도와 시차",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 4,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-f557f4b9d9b38f627bb8",
+        "BCAST-ed544c0d093089fc00f8",
+        "BCAST-db767004f7cf52456aaf"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q070",
+      "query": "문화 상대주의랑 자문화 중심주의를 구분하는 토론 수업 도입 자료가 필요해요. 학생들이 바로 판단 내리지 않고 생각해 볼 만한 사례 중심으로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q071",
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q072",
+      "query": "쓰레기 소각장이나 공항 같은 시설이 들어온다고 하면 다들 반대하는 현상, 그거 다룬 영상이요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q073",
+      "query": "사람이 태어나서 가족이나 학교, 친구들한테 배우면서 사회 구성원이 되어 가는 거",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q074",
+      "query": "열대 우림 지역에서 이동식 화전 농업을 하게 된 이유랑 그게 숲에 준 영향",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q075",
+      "query": "지진이나 해일 같은 자연재해가 일어나는 곳이 판의 경계와 어떤 관계가 있는지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q076",
+      "query": "석유 같은 자원이 몇몇 지역에 몰려 있어서 나라들 사이에 생기는 갈등",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q077",
+      "query": "선진국과 개발도상국 인구 구조 차이를 인구 피라미드로 비교한 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q078",
+      "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q079",
+      "query": "도시 재개발 영상인데 찬성하는 입장과 반대하는 입장이 모두 나와야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "localTotal": 35,
+      "rawTotal": 35,
+      "boundTotal": 35,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [
+        "BCAST-5f49781a67f4ea133b7a",
+        "PDLOG-048",
+        "BCAST-9103eb5ea2e4e90d2e91"
+      ],
+      "boundTop3": [
+        "BCAST-5f49781a67f4ea133b7a",
+        "PDLOG-048",
+        "BCAST-9103eb5ea2e4e90d2e91"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q081",
+      "query": "세계의 종교 경관 자료 찾는데 교리 설명은 빼고 건축물이나 거리 풍경만 나오는 걸로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q082",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q083",
+      "query": "EBS 다큐 중에 북극 지방 사람들 생활을 다룬 거요. 한국어 자막이 나오는 걸로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q084",
+      "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q085",
+      "query": "광물의 조흔색",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 2,
+      "rawAccepted": false,
+      "boundAccepted": true,
+      "localTop3": [],
+      "boundTop3": [
+        "BCAST-8b65eb7bb0a9bb374693",
+        "BCAST-d43de0eb136fabf517d5"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q086",
+      "query": "생물 분류 단원에서 학생들이 직접 분류 기준을 세워 보기 전에, 기준에 따라 결과가 달라질 수 있다는 걸 보여줄 자료",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q087",
+      "query": "보일 법칙 설명할 때 주사기 실험을 화면으로 보여주려고 해요. 압력과 부피 관계가 그래프로 정리되면 더 좋고요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q088",
+      "query": "운동화 바닥이 닳는 거나 빙판길에서 미끄러지는 거 같은 걸 설명하는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q089",
+      "query": "여름에 마당에 물 뿌리면 시원해지는 거, 그게 왜 그런지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q090",
+      "query": "마그마가 식는 속도에 따라 화성암 결정 크기가 어떻게 달라지는지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q091",
+      "query": "판이 움직이면서 습곡 산맥이나 해구가 만들어지는 과정",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q092",
+      "query": "현무암과 화강암을 비교 관찰하는 장면이 나오는 영상",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q093",
+      "query": "빛의 색을 섞는 것과 물감 색을 섞는 게 어떻게 다른지",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q094",
+      "query": "탄성력 예시인데 용수철, 고무줄, 트램펄린 중 아무거나 하나 이상이면 되고, 늘어난 길이와 힘의 관계 설명은 꼭 있어야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q095",
+      "query": "기체의 온도와 부피 관계 영상인데 풍선 실험과 찌그러진 탁구공 펴기 같은 일상 예시가 둘 다 나와야 해요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q096",
+      "query": "생물 다양성이 줄어드는 걸 다룬 자료인데, 동물이 죽어 있는 사진이나 잔인한 사냥 장면은 빼 주세요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q097",
+      "query": "중력 설명 영상인데 공식이나 계산 위주는 빼고, 우주 정거장에서 둥둥 뜨는 것 같은 현상 위주로요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q098",
+      "query": "EBS 과학 프로그램 중에 진행자가 직접 상태 변화 실험을 하는 형식인 거요. 실험 장면이 영상 앞부분에 나오면 좋겠어요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q099",
+      "query": "가상의 행성에 생물이 살려면 어떤 조건이 필요할지 상상해 보는 수업인데, 가상 행성 환경을 설정해서 보여주는 영상 있을까요?",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q100",
+      "query": "저항에 대한 영상 찾아요. 수업에서 바로 쓰게요",
+      "localTotal": 0,
+      "rawTotal": 0,
+      "boundTotal": 0,
+      "rawAccepted": false,
+      "boundAccepted": false,
+      "localTop3": [],
+      "boundTop3": []
+    }
+  ],
+  "caveat": "에이전트의 잠정 원문 평가이며 교사/실제 영상 정답이 아님. B 후보 재심사 미실행. 미평가 후보를 관련으로 승격하지 않음. 전체 재현율 측정 불가."
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-13",
+  "passed": 23,
+  "failed": 0,
+  "llmCalls": 0,
+  "externalApiCalls": 0,
+  "scope": "수작성 계약 예시10개 및 오류응답13개 검증. 실제 LLM의 요청 이해 능력/후보 검색/관련성/교사 효용은 미측정.",
+  "checks": [
+    {
+      "name": "Q01: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q02: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q03: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q04: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q05: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q06: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q07: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q08: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q09: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "Q10: source/structure/coverage",
+      "passed": true
+    },
+    {
+      "name": "domestic condition omitted and hidden as grammar",
+      "passed": true,
+      "rejectedBy": "development_semantic_expectation",
+      "errors": [
+        "expected topic/condition classification changed",
+        "AND/OR or scope changed"
+      ]
+    },
+    {
+      "name": "mandatory domestic scope downgraded to preference",
+      "passed": true,
+      "rejectedBy": "development_semantic_expectation",
+      "errors": [
+        "expected topic/condition classification changed",
+        "AND/OR or scope changed"
+      ]
+    },
+    {
+      "name": "OR changed to AND",
+      "passed": true,
+      "rejectedBy": "development_semantic_expectation",
+      "errors": [
+        "AND/OR or scope changed"
+      ]
+    },
+    {
+      "name": "unknown name shortened",
+      "passed": true,
+      "rejectedBy": "development_semantic_expectation",
+      "errors": [
+        "unknown entity label changed"
+      ]
+    },
+    {
+      "name": "unrequested region added with genuine topic quote",
+      "passed": true,
+      "rejectedBy": "development_semantic_expectation",
+      "errors": [
+        "expected topic/condition classification changed",
+        "AND/OR or scope changed"
+      ]
+    },
+    {
+      "name": "wrong quoted text",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "source span mismatch",
+        "unaccounted query text"
+      ]
+    },
+    {
+      "name": "UTF16 emoji offset split",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "source span mismatch",
+        "unaccounted query text"
+      ]
+    },
+    {
+      "name": "unknown response field",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "$: extra humanVerified"
+      ]
+    },
+    {
+      "name": "unknown expression reference",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "unknown clause reference",
+        "blocking clause lost from expression"
+      ]
+    },
+    {
+      "name": "preferred program treated as mandatory",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "preference/context used as blocking condition"
+      ]
+    },
+    {
+      "name": "unresolved region silently marked ready",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "unresolved request cannot be READY"
+      ]
+    },
+    {
+      "name": "mandatory form removed from execution expression",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "blocking clause lost from expression"
+      ]
+    },
+    {
+      "name": "original request rewritten",
+      "passed": true,
+      "rejectedBy": "contract",
+      "errors": [
+        "original query changed"
+      ]
+    }
+  ]
+}

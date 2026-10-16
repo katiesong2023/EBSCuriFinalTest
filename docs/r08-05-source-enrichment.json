@@ -1,0 +1,87 @@
+{
+  "startedAt": "2026-10-05T02:54:50.198Z",
+  "checkedAt": "2026-10-05T02:55:01.667Z",
+  "applied": true,
+  "rows": [
+    {
+      "id": "BCAST-9d8c578db0f9810f5fb9",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-05T02:54:50.200Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 37,
+      "currentLength": 168,
+      "durationSeconds": 1038,
+      "responseHash": "01f503e0805766c0f031778154d1b38578acfa048d46498df75eb548e24c0f1e",
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-53aecda502a9fd7ee6ac",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-05T02:54:52.294Z",
+      "descriptionMatched": true,
+      "before": "repeated",
+      "after": "short",
+      "previousLength": 11,
+      "currentLength": 45,
+      "durationSeconds": 297,
+      "responseHash": "ec5be4774f3da7ca62cdfe6f50f507e43fb04fcd2d1141bb985b5aa84aba4657",
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-01934b91cb0bb16fbb72",
+      "status": "MISMATCH",
+      "checkedAt": "2026-10-05T02:54:53.993Z",
+      "descriptionMatched": false,
+      "before": "none",
+      "after": "none",
+      "previousLength": 0,
+      "currentLength": 0,
+      "durationSeconds": null,
+      "responseHash": "2d618394c822ff24146922188b187d3d58c8bdb6816df6fdfc254f6c01df4e48",
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-aaf6c92f712bf4fbc537",
+      "status": "MISMATCH",
+      "checkedAt": "2026-10-05T02:54:55.556Z",
+      "descriptionMatched": false,
+      "before": "none",
+      "after": "none",
+      "previousLength": 0,
+      "currentLength": 0,
+      "durationSeconds": null,
+      "responseHash": "400072af0340431a656aa79c802d334212b8da52e72de7cae30b4de06b334421",
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-080c44c8881ce2f4bdc0",
+      "status": "UNCHANGED",
+      "checkedAt": "2026-10-05T02:54:57.515Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "short",
+      "previousLength": 10,
+      "currentLength": 10,
+      "durationSeconds": 2468,
+      "responseHash": "5a403db6a9a2cd5fac8bfd32a8e79830c9b31cd0ff2d0a8f844bf7b7c2ee3aef",
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-0c0a50a31f0b288dccb7",
+      "status": "UNCHANGED",
+      "checkedAt": "2026-10-05T02:54:59.814Z",
+      "descriptionMatched": true,
+      "before": "production",
+      "after": "production",
+      "previousLength": 39,
+      "currentLength": 39,
+      "durationSeconds": 498,
+      "responseHash": "c8df1473eed767ad3f99984f597f8483e8b7a3da2c345e6b288410e22b9a82ba",
+      "archiveCompared": null
+    }
+  ],
+  "paidApiCalls": 0,
+  "playback": "NOT_CHECKED"
+}

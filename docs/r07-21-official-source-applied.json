@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-13T19:26:48.373Z",
+  "rows": [
+    {
+      "id": "BCAST-2d093401c6622a3a2018",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-13T19:19:21.088Z",
+      "descriptionMatched": true,
+      "before": "repeated",
+      "after": "short",
+      "previousLength": 15,
+      "currentLength": 94,
+      "durationSeconds": 319,
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-a9724a68de2228ab9f0d",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-13T19:19:22.820Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 27,
+      "currentLength": 117,
+      "durationSeconds": 2639,
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-07b8b46343e67388b36a",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-13T19:19:24.735Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 39,
+      "currentLength": 276,
+      "durationSeconds": 985,
+      "archiveCompared": null
+    },
+    {
+      "id": "BCAST-0b137ace4edf72dc23f0",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-13T19:19:28.138Z",
+      "descriptionMatched": true,
+      "before": "none",
+      "after": "short",
+      "previousLength": 0,
+      "currentLength": 51,
+      "durationSeconds": 3120,
+      "archiveCompared": null
+    }
+  ],
+  "changedEpisodeIds": [
+    "BCAST-0b137ace4edf72dc23f0",
+    "BCAST-2d093401c6622a3a2018",
+    "BCAST-07b8b46343e67388b36a",
+    "BCAST-a9724a68de2228ab9f0d"
+  ],
+  "episodeRows": 22753,
+  "protectedBefore": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "protectedAfter": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "playback": "NOT_CHECKED"
+}

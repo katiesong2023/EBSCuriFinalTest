@@ -1,0 +1,161 @@
+{
+  "phase": "after",
+  "generatedAt": "2026-10-14T12:39:24.453Z",
+  "scope": "고정 가상 자료·현재 server 모듈; 실제 검색 정확도 평가 아님",
+  "codeHashes": {
+    "discovery-search.js": "5c9e7a3d113d957b2550f791225a264e3d77037422ef9d05acdb107d574a15a7",
+    "discovery-intent.js": "3bf7d2d8e8db6748f67b9e66763d25273faa311cc82713962ceb829a4a4ecd97",
+    "semantic-layer.js": "488c826a215fdcc9b6825656eff93a859de35fd23dcf2ec54dbd72322b46b740",
+    "semantic-context.js": "ac48f115548cde2513306bd865422f7eb312d2febb3f68332e3a2ab2da08b598",
+    "discovery-request.js": "1492d8ca5726dfa2be1e002c5874bd2b674b38af6ba6c70be91f96435c88513f"
+  },
+  "fixtureHash": "80c24b56ae29d1a890248da1f15c6afb85152b8a6a6b2236742e0f118157c6d6",
+  "approvalFile": "server/data/curi-store.json",
+  "approvalSha256Before": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+  "approvalSha256After": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+  "approvalUnchanged": true,
+  "networkAttempts": 0,
+  "passed": 21,
+  "failed": 0,
+  "rows": [
+    {
+      "name": "알려진 주제 검색",
+      "input": "우주",
+      "passed": true
+    },
+    {
+      "name": "요청 문장 주제 추출",
+      "input": "우주를 탐사하는 자료를 찾아줘",
+      "passed": true
+    },
+    {
+      "name": "알려진 주제의 OR",
+      "input": "우주 또는 인체",
+      "passed": true
+    },
+    {
+      "name": "고유명사 OR",
+      "input": "설악산 또는 김제",
+      "passed": true
+    },
+    {
+      "name": "단일어 제외",
+      "input": "우주 말고 인체",
+      "passed": true
+    },
+    {
+      "name": "구 제외 후 주제 보존",
+      "input": "해안 지형 제외하고 우주",
+      "passed": true
+    },
+    {
+      "name": "주제 조건 시간 자막 경고",
+      "input": "우주 5분 이내 자막 포함",
+      "passed": true
+    },
+    {
+      "name": "고유명사 시간 조건 분리",
+      "input": "김제 5분 이내",
+      "passed": true
+    },
+    {
+      "name": "부분문자열 오탐 방지",
+      "input": "용해",
+      "passed": true
+    },
+    {
+      "name": "추론 후보를 검색 근거에서 제외",
+      "input": "생태계",
+      "passed": true
+    },
+    {
+      "name": "미보유 주제의 빈 결과",
+      "input": "양자중력",
+      "passed": true
+    },
+    {
+      "name": "복수 개념 AND 유지",
+      "input": "우주와 인체",
+      "passed": true
+    },
+    {
+      "name": "근거 구절과 오프셋 일치",
+      "input": "전체 fixture",
+      "passed": true
+    },
+    {
+      "name": "변경 자료의 새 카탈로그에서 태그 재생성",
+      "input": "우주 → 인체",
+      "passed": true
+    },
+    {
+      "name": "검색 입력 길이 검증",
+      "input": "201자",
+      "passed": true
+    },
+    {
+      "name": "프로덕션 근거 묶음 상한",
+      "input": "우주",
+      "passed": true
+    },
+    {
+      "name": "일반 검색어 OR",
+      "input": "설악산 또는 김제 풍경",
+      "passed": true
+    },
+    {
+      "name": "여러 단어 제외",
+      "input": "우주 말고 인체 탐험",
+      "passed": true
+    },
+    {
+      "name": "혼합 개념·일반어 OR",
+      "input": "우주 또는 설악산",
+      "passed": true
+    },
+    {
+      "name": "혼합 개념·일반어 AND",
+      "input": "우주와 설악산",
+      "passed": true
+    },
+    {
+      "name": "원문 근거 검색 결과 보존",
+      "input": "우주",
+      "passed": true
+    }
+  ],
+  "newCasePassed": 6,
+  "newCaseFailed": 0,
+  "newCases": [
+    {
+      "name": "새 표현 OR",
+      "input": "설악산 혹은 김제",
+      "passed": true
+    },
+    {
+      "name": "지리 개념 제외 후 주제 보존",
+      "input": "해안지형을 빼고 우주",
+      "passed": true
+    },
+    {
+      "name": "복합 개념 제외 후 주제 보존",
+      "input": "기후 변화를 제외하고 인체",
+      "passed": true
+    },
+    {
+      "name": "새 시간 조건 분리",
+      "input": "김제 7분 이하",
+      "passed": true
+    },
+    {
+      "name": "분기별 AND와 전체 OR",
+      "input": "우주 설악산 또는 김제",
+      "passed": true
+    },
+    {
+      "name": "따옴표 복합 제외",
+      "input": "\"인체 탐험\" 제외하고 우주",
+      "passed": true
+    }
+  ]
+}

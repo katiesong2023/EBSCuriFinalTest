@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-16T01:20:13.120Z",
+  "existingInputs": 370,
+  "contextInvarianceComparisons": 740,
+  "unchangedRegisteredNouns": 1211,
+  "existingContracts": 10,
+  "productPaths": [
+    "LOCAL",
+    "VALIDATED_CONTRACT",
+    "CONTEXT_ONLY"
+  ],
+  "paidApiCalls": 0,
+  "scope": "구조 불변/실행 계약 검사. 검색 정확도·영상 적합성 평가가 아님."
+}

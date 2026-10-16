@@ -1,0 +1,78 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "placement": {
+        "buttonBottom": 102.78125,
+        "cardsTop": 114.78125
+      },
+      "guide": true,
+      "clipCards": true,
+      "playlistAndEdit": true,
+      "newSavedClipAutoVisible": true,
+      "folderIsolationAndEmpty": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "placement": {
+        "buttonBottom": 102.78125,
+        "cardsTop": 114.78125
+      },
+      "guide": true,
+      "clipCards": true,
+      "playlistAndEdit": true,
+      "newSavedClipAutoVisible": true,
+      "folderIsolationAndEmpty": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "placement": {
+        "buttonBottom": 23.53125,
+        "cardsTop": 35.53125
+      },
+      "guide": true,
+      "clipCards": true,
+      "playlistAndEdit": true,
+      "newSavedClipAutoVisible": true,
+      "folderIsolationAndEmpty": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "placement": {
+        "buttonBottom": 23.9375,
+        "cardsTop": 35.9375
+      },
+      "guide": true,
+      "clipCards": true,
+      "playlistAndEdit": true,
+      "newSavedClipAutoVisible": true,
+      "folderIsolationAndEmpty": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "placement": {
+        "buttonBottom": 24.03125,
+        "cardsTop": 36.03125
+      },
+      "guide": true,
+      "clipCards": true,
+      "playlistAndEdit": true,
+      "newSavedClipAutoVisible": true,
+      "folderIsolationAndEmpty": true,
+      "overflow": false
+    }
+  ],
+  "bridgeClick": {
+    "type": "CREATE_CLIP",
+    "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?courseId=test&stepId=one&lectId=123",
+    "folderId": "folder0"
+  },
+  "extensionApiMock": true,
+  "realInstalledExtensionVerified": false,
+  "errors": [],
+  "isolatedData": true
+}

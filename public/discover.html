@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FBF7EF">
+  <title>Curi — EBS 수업 자료 찾기</title>
+  <link rel="stylesheet" href="/discover.css">
+  <link rel="stylesheet" href="/teacher-workspace.css">
+  <link rel="stylesheet" href="/segment-bookmarks.css">
+  <link rel="stylesheet" href="/curriculum-selection.css">
+  <script src="/grade-context.js" defer></script><script src="/search-state.js" defer></script><script src="/segment-core.js" defer></script>
+  <script src="/segment-store.js" defer></script>
+  <script src="/segment-ui.js" defer></script>
+  <script src="/teacher-storage.js" defer></script>
+  <script src="/teacher-guidance.js" defer></script><script src="/teacher-evidence.js" defer></script><script src="/lesson-context.js" defer></script>
+  <script src="/teacher-source.js" defer></script>
+  <script src="/teacher-cards.js" defer></script>
+  <script src="/discovery-filters.js" defer></script>
+  <script src="/curriculum-selection.js" defer></script>
+  
+  <script src="/lesson-folders.js" defer></script>
+  <script src="/teacher-folder-picker.js" defer></script>
+  <script src="/discovery-related.js" defer></script>
+  <script src="/discover.js" defer></script>
+  <link rel="icon" href="/brand/ebs-curi-folder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/curi-tokens.css">
+  <link rel="stylesheet" href="/fonts/plex.css">
+  <link rel="stylesheet" href="/curi-ui.css">
+  <link rel="stylesheet" href="/curi-v11.css">
+  <link rel="stylesheet" href="/curi-colors.css">
+  <link rel="stylesheet" href="/curi-icons.css">
+  <script src="/curi-v11.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#search-input">검색으로 바로가기</a>
+  <header class="site-header">
+    <span class="header-context">EBS 수업 자료<span>교사의 수업 바탕화면</span></span>
+    <a href="/" class="brand" aria-label="EBS CURI 홈"><span class="wordmark" aria-hidden="true"><img class="brand-symbol" src="/brand/ebs-curi-folder.svg" alt="" width="30" height="30"><span class="brand-name"><span class="brand-prefix">EBS</span> CURI</span></span></a>
+    <nav aria-label="주 메뉴"><a href="/" aria-current="page">자료 찾기</a><a href="/lesson.html">내 수업 자료</a></nav>
+  </header>
+  <main class="shell">
+    <div class="search-home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">사회·과학</p><h1 id="hero-title">수업에 쓸 <br><em>EBS 자료 찾기</em></h1><p class="hero-description">주제나 질문으로 검색하고, 필요한 자료를 수업별로 정리하세요.</p></div>
+      <div class="workspace-steps" aria-label="수업 준비 순서"><p><b>01</b> 주제로 검색하기</p><p><b>02</b> 내 자료에 담기</p><p><b>03</b> 수업 폴더에 정리하기</p></div>
+    </section>
+    <section class="search-panel" aria-label="자료 검색">
+      <form id="search-form"><label for="search-input" class="sr-only">수업 주제나 질문</label><span class="search-icon" aria-hidden="true">⌕</span><input id="search-input" name="q" type="search" maxlength="200" autocomplete="off" placeholder="주제나 문장으로 검색하세요. 예: 기후 변화를 다룬 다큐" aria-describedby="search-help"><button id="clear-query" type="button" aria-label="검색어 지우기" hidden>지우기</button><button type="submit" id="search-submit">자료 찾기 <span aria-hidden="true">↗</span></button></form>
+      <p id="search-help" class="sr-only">주제나 문장으로 검색하세요. 예: 기후 변화를 다룬 다큐</p>
+      <details id="search-examples" class="search-examples"><summary>검색 주제 예시</summary>
+      <div class="examples"><span>사회</span><button type="button" data-query="도시">도시</button><button type="button" data-query="독립운동">독립운동</button><button type="button" data-query="인권">인권</button><button type="button" data-query="민주주의">민주주의</button><button type="button" data-query="다문화">다문화</button><button type="button" data-query="경제">경제</button><button type="button" data-query="인구">인구</button></div>
+      <div class="examples"><span>과학</span><button type="button" data-query="생태계">생태계</button><button type="button" data-query="소리">소리</button><button type="button" data-query="전기">전기</button><button type="button" data-query="연소">연소</button><button type="button" data-query="태양계">태양계</button><button type="button" data-query="동물">동물</button><button type="button" data-query="인체">인체</button><button type="button" data-query="화산">화산</button></div>
+      <div class="examples"><span>공통 주제 · 사회·과학</span><button type="button" data-query="기후 변화">기후 변화</button><button type="button" data-query="자원">자원</button><button type="button" data-query="에너지">에너지</button></div>
+      </details>
+    </section>
+    </div>
+    <section class="results-section" aria-labelledby="results-heading">
+      <div class="results-heading"><h2 id="results-heading" tabindex="-1">검색 결과 <span id="result-count"></span></h2><label class="sort-control" for="sort-filter">정렬 <select id="sort-filter"><option value="relevance">관련순</option><option value="newest">방송일 최신순</option><option value="oldest">방송일 오래된순</option></select></label></div>
+      <div class="result-filters" role="group" aria-label="검색 결과 필터">
+        <div class="filter-heading filter-actions"><div id="selected-filters" class="selected-filters" aria-label="현재 검색 조건"></div><button id="clear-filters" type="button">필터 전체 해제</button></div>
+        <details id="additional-filters"><summary>상세 필터</summary>
+        <div class="filter-grid">
+          <label for="topic-filter">주제<select id="topic-filter"><option value="">주제 전체</option></select></label>
+          <label for="kind-filter">자료 유형<select id="kind-filter"><option value="all">개별 영상 전체</option></select></label>
+          <label for="program-filter">프로그램명<select id="program-filter"><option value="">전체 프로그램</option></select></label>
+        </div>
+        <p class="filter-help" hidden>주제 태그는 제목·소개문에서 확인한 표현입니다. 미분류 자료도 검색되며 교육과정 연계와는 별개입니다.</p>
+          <label class="direct-filter" hidden><input id="approved-only" type="checkbox"> 사람 연계 확인 <span id="approved-count"></span><small>해당 성취기준 관계를 실제 사람이 검토</small></label>
+          <label class="direct-filter" hidden><input id="automatic-only" type="checkbox"> 자동 근거 검사 통과 <span id="automatic-count"></span><small>현재 유효한 부분 연계 후보 · 사람 확인 별도</small></label>
+          <label class="direct-filter" hidden><input id="direct-only" type="checkbox"> 개별 회차·클립 페이지 확인 <span id="direct-count"></span><small>재생·로그인 조건은 EBS에서 확인</small></label>
+
+        <label id="relation-state-choice" class="relation-state-choice" for="relation-state" hidden>선택 기준의 비교·원문 상태<select id="relation-state"><option value="">선택 관계 상태 전체</option></select></label>
+        <section id="concept-panel" class="concept-panel" aria-label="개념과 장소의 연결" hidden></section>
+        <p id="filter-count-note" class="filter-help" hidden></p>
+        </details>
+      </div>
+      <details class="ranking-note"><summary>관련순과 표시 기준</summary><p id="ranking-note">관련순은 제목·소개문의 주제 근거를 중심으로 정렬합니다.</p></details>
+      <p id="result-status" class="result-status" role="status" aria-live="polite"></p>
+      <p id="query-understanding" class="result-status" hidden></p>
+      <p id="query-limitations" class="result-status" hidden></p>
+      <div id="all-results-panel">
+      <div id="result-cards" class="cards" aria-busy="false"></div>
+      <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>일치하는 자료가 없습니다</h3><p id="empty-message"></p><button id="edit-empty-query" type="button">질문 수정하기</button><button id="show-empty-filters" type="button">조건 살펴보기</button><button id="reset-search" type="button">전체 목록 보기</button></div>
+      <nav id="pagination" class="pagination" aria-label="검색 결과 페이지" hidden><button id="previous-page" type="button">← 이전</button><span id="page-label"></span><button id="next-page" type="button">다음 →</button></nav>
+      </div>
+      <details id="related-listings" class="related-listings" hidden>
+        <summary>관련 프로그램·회차 더 보기 <span id="related-listing-count"></span></summary>
+        <p class="filter-help">개별 영상이 아닌 프로그램 안내와 회차·강의 목록입니다.</p>
+        <p id="related-listing-status" role="status" aria-live="polite"></p>
+        <div id="related-listing-cards" class="cards"></div>
+        <nav id="related-listing-pagination" class="pagination" aria-label="관련 목록 페이지" hidden><button id="related-listing-previous" type="button">← 이전</button><span id="related-listing-page"></span><button id="related-listing-next" type="button">다음 →</button></nav>
+        <button id="related-listing-retry" type="button" hidden>다시 시도</button>
+      </details>
+      <div id="error-state" class="empty-state" hidden><h3>자료를 불러오지 못했습니다</h3><p id="error-message"></p><div class="search-error-actions"><button id="retry-search" type="button">다시 시도</button><button id="reset-error" type="button">검색 조건 초기화</button></div></div>
+    </section>
+    <section class="guide"><h2>자료 확인과 저장 방법</h2><ol><li><b>01 · 소개문 확인</b><span>제목만 있는지, 소개문까지 있는지 확인합니다.</span></li><li><b>02 · EBS에서 내용 확인</b><span>EBS에서 내용을 확인하고 필요한 장면을 찾습니다.</span></li><li><b>03 · 수업 폴더에 정리</b><span>자료는 폴더에 담고, 사용할 장면과 시간은 메모합니다.</span></li></ol></section>
+  </main>
+  <footer class="site-footer"><span><b>EBS CURI</b> · EBS 수업 자료</span><span>학년·장면 적합성은 자료를 보며 확인해 주세요.</span></footer>
+
+  <p id="toast" class="toast" role="status" hidden></p>
+<footer class="shell"><p><a href="/admin.html">관리자 페이지</a></p></footer>
+<dialog id="link-proposal-dialog"><h2>연계 근거 제안하기</h2><p>개인 목표·메모는 제출하지 않습니다. 아래 원문/연결 이유만 관리자 검토 후보로 접수합니다.</p><div id="link-proposal-preview"></div><label>연결되는 요구<select id="link-proposal-requirement"></select></label><label>연결 이유<textarea id="link-proposal-reason" maxlength="1000" rows="3"></textarea></label><p id="link-proposal-status" role="status"></p><button id="link-proposal-submit" type="button">이 근거를 제안하기</button><button id="link-proposal-close" type="button">닫기</button></dialog><script src="/link-proposal.js" defer></script></body>
+</html>

@@ -1,0 +1,760 @@
+{
+  "startedAt": "2026-09-30T13:24:59.625Z",
+  "finishedAt": "2026-09-30T13:33:39.147Z",
+  "requests": 470,
+  "before": {
+    "total": 14248,
+    "originalEpisodes": 14242,
+    "distinctProgramTitles": 13819,
+    "withDescription": 4483,
+    "matchedLinks": 200,
+    "programs": [
+      {
+        "program": "딩동댕 유치원",
+        "count": 2855,
+        "descriptions": 20
+      },
+      {
+        "program": "지식채널e",
+        "count": 2796,
+        "descriptions": 2793
+      },
+      {
+        "program": "한국기행",
+        "count": 1261,
+        "descriptions": 52
+      },
+      {
+        "program": "방귀대장 뿡뿡이",
+        "count": 885,
+        "descriptions": 20
+      },
+      {
+        "program": "모여라 딩동댕",
+        "count": 638,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 다큐프라임",
+        "count": 631,
+        "descriptions": 621
+      },
+      {
+        "program": "우리집 유치원",
+        "count": 556,
+        "descriptions": 20
+      },
+      {
+        "program": "세계테마기행",
+        "count": 469,
+        "descriptions": 21
+      },
+      {
+        "program": "한글용사 아이야",
+        "count": 389,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 캠페인",
+        "count": 371,
+        "descriptions": 0
+      },
+      {
+        "program": "생방송 뭐든지 해결단",
+        "count": 352,
+        "descriptions": 20
+      },
+      {
+        "program": "고향민국",
+        "count": 344,
+        "descriptions": 10
+      },
+      {
+        "program": "딩동댕 딩동댕",
+        "count": 318,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 톡! 톡! 보니 하니",
+        "count": 297,
+        "descriptions": 20
+      },
+      {
+        "program": "서울대 음대 레슨노트",
+        "count": 255,
+        "descriptions": 0
+      },
+      {
+        "program": "고양이를 부탁해",
+        "count": 214,
+        "descriptions": 0
+      },
+      {
+        "program": "세상에 나쁜 개는 없다",
+        "count": 189,
+        "descriptions": 40
+      },
+      {
+        "program": "내 친구 몬덕이",
+        "count": 161,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 148,
+        "descriptions": 140
+      },
+      {
+        "program": "최고다! 호기심딱지",
+        "count": 134,
+        "descriptions": 20
+      },
+      {
+        "program": "특집/기획/특강",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "희망풍경",
+        "count": 80,
+        "descriptions": 40
+      },
+      {
+        "program": "쓰담쓰담 동물원 프렌쥬",
+        "count": 78,
+        "descriptions": 20
+      },
+      {
+        "program": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 65,
+        "descriptions": 20
+      },
+      {
+        "program": "공감 플러스",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "극한 직업",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "다큐 오늘",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "어린이 프로그램",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "역사채널e",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "위대한 수업, 그레이트 마인즈",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "최고의 요리비결",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "출동! 슈퍼윙스",
+        "count": 40,
+        "descriptions": 20
+      },
+      {
+        "program": "취미는 과학",
+        "count": 40,
+        "descriptions": 40
+      },
+      {
+        "program": "하나뿐인 지구",
+        "count": 40,
+        "descriptions": 39
+      },
+      {
+        "program": "과학 다큐 비욘드",
+        "count": 38,
+        "descriptions": 38
+      },
+      {
+        "program": "이것이 야생이다",
+        "count": 36,
+        "descriptions": 0
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "허풍선이 과학쇼",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "곽준빈의 세계 기사식당",
+        "count": 24,
+        "descriptions": 8
+      },
+      {
+        "program": "꼬마버스 타요",
+        "count": 17,
+        "descriptions": 17
+      },
+      {
+        "program": "과학/환경 특집 프로그램",
+        "count": 16,
+        "descriptions": 0
+      },
+      {
+        "program": "지구 영웅 번개맨",
+        "count": 13,
+        "descriptions": 13
+      },
+      {
+        "program": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 12,
+        "descriptions": 0
+      },
+      {
+        "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 12,
+        "descriptions": 8
+      },
+      {
+        "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 10,
+        "descriptions": 0
+      },
+      {
+        "program": "과학/환경",
+        "count": 8,
+        "descriptions": 0
+      },
+      {
+        "program": "최태성 서경석의 여행본색",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "코봇 지구를 지켜라",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "딩동댕 보건실",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "취미는 과학여행",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "신계숙의 맛터사이클 다이어리",
+        "count": 5,
+        "descriptions": 5
+      },
+      {
+        "program": "채소가지구",
+        "count": 4,
+        "descriptions": 0
+      },
+      {
+        "program": "경이로운 자연의 세계",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "자연 다큐",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "과학 다큐멘터리",
+        "count": 1,
+        "descriptions": 1
+      },
+      {
+        "program": "우주탐사 이야기",
+        "count": 1,
+        "descriptions": 0
+      },
+      {
+        "program": "지구탐사 이야기",
+        "count": 1,
+        "descriptions": 1
+      }
+    ],
+    "pages": [
+      {
+        "status": "COMPLETE",
+        "count": 1145
+      }
+    ]
+  },
+  "after": {
+    "total": 20484,
+    "originalEpisodes": 20423,
+    "distinctProgramTitles": 19267,
+    "withDescription": 9559,
+    "matchedLinks": 200,
+    "programs": [
+      {
+        "program": "딩동댕 유치원",
+        "count": 2855,
+        "descriptions": 20
+      },
+      {
+        "program": "지식채널e",
+        "count": 2796,
+        "descriptions": 2793
+      },
+      {
+        "program": "위대한 수업, 그레이트 마인즈",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "최고의 요리비결",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "한국기행",
+        "count": 1261,
+        "descriptions": 52
+      },
+      {
+        "program": "명의",
+        "count": 974,
+        "descriptions": 0
+      },
+      {
+        "program": "극한 직업",
+        "count": 924,
+        "descriptions": 924
+      },
+      {
+        "program": "방귀대장 뿡뿡이",
+        "count": 885,
+        "descriptions": 20
+      },
+      {
+        "program": "모여라 딩동댕",
+        "count": 638,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 다큐프라임",
+        "count": 631,
+        "descriptions": 621
+      },
+      {
+        "program": "다큐 오늘",
+        "count": 559,
+        "descriptions": 539
+      },
+      {
+        "program": "우리집 유치원",
+        "count": 556,
+        "descriptions": 20
+      },
+      {
+        "program": "세계테마기행",
+        "count": 469,
+        "descriptions": 21
+      },
+      {
+        "program": "한글용사 아이야",
+        "count": 389,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 캠페인",
+        "count": 371,
+        "descriptions": 0
+      },
+      {
+        "program": "생방송 뭐든지 해결단",
+        "count": 352,
+        "descriptions": 20
+      },
+      {
+        "program": "고향민국",
+        "count": 344,
+        "descriptions": 10
+      },
+      {
+        "program": "하나뿐인 지구",
+        "count": 325,
+        "descriptions": 321
+      },
+      {
+        "program": "딩동댕 딩동댕",
+        "count": 318,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 톡! 톡! 보니 하니",
+        "count": 297,
+        "descriptions": 20
+      },
+      {
+        "program": "역사채널e",
+        "count": 263,
+        "descriptions": 263
+      },
+      {
+        "program": "서울대 음대 레슨노트",
+        "count": 255,
+        "descriptions": 0
+      },
+      {
+        "program": "고양이를 부탁해",
+        "count": 214,
+        "descriptions": 0
+      },
+      {
+        "program": "세상에 나쁜 개는 없다",
+        "count": 189,
+        "descriptions": 40
+      },
+      {
+        "program": "내 친구 몬덕이",
+        "count": 161,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 148,
+        "descriptions": 140
+      },
+      {
+        "program": "최고다! 호기심딱지",
+        "count": 134,
+        "descriptions": 20
+      },
+      {
+        "program": "취미는 과학",
+        "count": 102,
+        "descriptions": 102
+      },
+      {
+        "program": "최고의 요리비결 공방",
+        "count": 85,
+        "descriptions": 0
+      },
+      {
+        "program": "EBS 평생학교",
+        "count": 84,
+        "descriptions": 0
+      },
+      {
+        "program": "특집/기획/특강",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "희망풍경",
+        "count": 80,
+        "descriptions": 40
+      },
+      {
+        "program": "쓰담쓰담 동물원 프렌쥬",
+        "count": 78,
+        "descriptions": 20
+      },
+      {
+        "program": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 65,
+        "descriptions": 20
+      },
+      {
+        "program": "공감 플러스",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "어린이 프로그램",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "출동! 슈퍼윙스",
+        "count": 40,
+        "descriptions": 20
+      },
+      {
+        "program": "과학 다큐 비욘드",
+        "count": 38,
+        "descriptions": 38
+      },
+      {
+        "program": "이것이 야생이다",
+        "count": 36,
+        "descriptions": 0
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "허풍선이 과학쇼",
+        "count": 26,
+        "descriptions": 26
+      },
+      {
+        "program": "곽준빈의 세계 기사식당",
+        "count": 24,
+        "descriptions": 8
+      },
+      {
+        "program": "꼬마버스 타요",
+        "count": 17,
+        "descriptions": 17
+      },
+      {
+        "program": "과학/환경 특집 프로그램",
+        "count": 16,
+        "descriptions": 0
+      },
+      {
+        "program": "지구 영웅 번개맨",
+        "count": 13,
+        "descriptions": 13
+      },
+      {
+        "program": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 12,
+        "descriptions": 0
+      },
+      {
+        "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 12,
+        "descriptions": 8
+      },
+      {
+        "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 10,
+        "descriptions": 0
+      },
+      {
+        "program": "과학/환경",
+        "count": 8,
+        "descriptions": 0
+      },
+      {
+        "program": "최태성 서경석의 여행본색",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "코봇 지구를 지켜라",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "딩동댕 보건실",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "취미는 과학여행",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "신계숙의 맛터사이클 다이어리",
+        "count": 5,
+        "descriptions": 5
+      },
+      {
+        "program": "채소가지구",
+        "count": 4,
+        "descriptions": 0
+      },
+      {
+        "program": "경이로운 자연의 세계",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "자연 다큐",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "과학 다큐멘터리",
+        "count": 1,
+        "descriptions": 1
+      },
+      {
+        "program": "우주탐사 이야기",
+        "count": 1,
+        "descriptions": 0
+      },
+      {
+        "program": "지구탐사 이야기",
+        "count": 1,
+        "descriptions": 1
+      }
+    ],
+    "pages": [
+      {
+        "status": "COMPLETE",
+        "count": 1470
+      }
+    ]
+  },
+  "inventoryPrograms": 808,
+  "outcomes": [
+    {
+      "program": "명의",
+      "courseId": "BP0PAPG0000000014",
+      "added": 974
+    },
+    {
+      "program": "하나뿐인 지구",
+      "courseId": "BP0PAPF0000000022",
+      "added": 285
+    },
+    {
+      "program": "취미는 과학",
+      "courseId": "40051102",
+      "added": 62
+    },
+    {
+      "program": "명의의 건강비결",
+      "courseId": "10005003",
+      "added": 0
+    },
+    {
+      "program": "과학이 톡톡!(HD)",
+      "courseId": "BB0CZ000000000096",
+      "added": 0
+    },
+    {
+      "program": "허풍선이 과학쇼",
+      "courseId": "10008136",
+      "added": 0
+    },
+    {
+      "program": "한 컷의 과학",
+      "courseId": "10014084",
+      "added": 0
+    },
+    {
+      "program": "과학 다큐 비욘드",
+      "courseId": "10027453",
+      "added": 0
+    },
+    {
+      "program": "이것이 야생이다",
+      "courseId": "10025338",
+      "added": 0
+    },
+    {
+      "program": "장하석의 과학, 철학을 만나다",
+      "courseId": "10007412",
+      "added": 0
+    },
+    {
+      "program": "발견! 과학 이야기",
+      "courseId": "10004997",
+      "added": 0
+    },
+    {
+      "program": "과학/환경 특집 프로그램",
+      "courseId": "BP0PAPB0000000026",
+      "added": 0
+    },
+    {
+      "program": "비버와 함께 떠나는 컴퓨터 과학",
+      "courseId": "10200574",
+      "added": 0
+    },
+    {
+      "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+      "courseId": "10200576",
+      "added": 0
+    },
+    {
+      "program": "과학/환경",
+      "courseId": "BP0PAPF0000000029",
+      "added": 0
+    },
+    {
+      "program": "취미는 과학여행",
+      "courseId": "40053247",
+      "added": 0
+    },
+    {
+      "program": "과학 다큐멘터리",
+      "courseId": "10026784",
+      "added": 0
+    },
+    {
+      "program": "전통의학, 과학의 옷을 입다",
+      "courseId": "10034744",
+      "added": 0
+    },
+    {
+      "program": "최고의 요리비결",
+      "courseId": "BP0PHPN0000000020",
+      "added": 1560
+    },
+    {
+      "program": "위대한 수업, 그레이트 마인즈",
+      "courseId": "40023168",
+      "added": 1560
+    },
+    {
+      "program": "EBS 평생학교",
+      "courseId": "40046433",
+      "added": 84
+    },
+    {
+      "program": "EBS 다큐프라임",
+      "courseId": "BP0PAPB0000000005",
+      "added": 0
+    },
+    {
+      "program": "극한 직업",
+      "courseId": "BP0PHPN0000000006",
+      "added": 884
+    },
+    {
+      "program": "다큐 오늘",
+      "courseId": "10008202",
+      "added": 519
+    },
+    {
+      "program": "역사채널e",
+      "courseId": "BP0PHPI0000000035",
+      "added": 223
+    },
+    {
+      "program": "최고의 요리비결 공방",
+      "courseId": "40023172",
+      "added": 85
+    },
+    {
+      "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+      "courseId": "40051878",
+      "added": 0
+    }
+  ],
+  "failures": [],
+  "paidApiCalls": 0
+}

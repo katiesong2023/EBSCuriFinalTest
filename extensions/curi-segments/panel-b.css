@@ -1,0 +1,27 @@
+/* B 사이드 패널: 브랜드 헤더와 밝은 조작면을 분리한다. */
+body {background:var(--b-paper);color:var(--curi-ink);font:400 14px/1.65 var(--curi-font);padding-bottom:96px}
+.popup-header {background:var(--b-canvas);color:var(--b-ink);padding:16px 12px;min-height:80px;flex-wrap:wrap;gap:8px}
+.popup-header .wordmark {width:88px;height:28px;object-fit:contain;flex-shrink:0}.popup-header h1 {font-size:14px;white-space:normal}
+.popup-header #connection-state {font-size:13px;color:var(--b-cross);white-space:normal}.popup-header #connection-state.is-error {color:var(--b-error)}
+.popup-header #close-panel {color:var(--b-ink);min-height:44px;min-width:44px}.popup-header #close-panel:hover {background:var(--b-surfaceRaised)}
+button,.icon-button {min-height:44px;min-width:44px;border-radius:8px;font-size:14px;font-weight:700;border:1px solid var(--curi-controlBorder)}
+button:hover:not(:disabled) {background:#DDD8CE}button:active:not(:disabled) {transform:translateY(1px)}
+section {padding:24px 0;border-bottom:1px solid var(--curi-line)}h2,.video-heading-row h2 {font-size:18px;font-weight:700;margin-bottom:12px}.video-heading-row h2 {margin:0}
+label,.help,.panel-settings summary,#folder-form>label,.times label,#segment-panel>label {font-size:13px;line-height:1.6}.panel-settings summary {min-height:44px}
+input,textarea,select {border:1px solid var(--curi-controlBorder);border-radius:8px;background:var(--b-paper);font-size:14px;min-height:48px}
+#status {background:var(--curi-surfaceMuted);border-radius:12px;border-left:3px solid var(--curi-focus);font-size:13px}
+.video-choice {font-size:16px;line-height:1.5;border-radius:12px}.video-choice[aria-pressed=true] {border-color:var(--curi-ink);border-radius:12px}.video-thumb {background:var(--curi-surfaceMuted);border-radius:12px;flex-basis:96px;width:96px}
+#folder-cards {gap:24px 8px}.mini-folder {border-radius:8px 12px 12px 12px}.mini-folder strong {font-size:14px;line-height:1.5}.mini-folder small {font-size:13px}
+.mini-folder[aria-pressed=true] {background:var(--b-science);border-color:var(--curi-ink);color:var(--curi-ink)}
+.folder-name-control input {min-height:56px;padding-right:80px}.folder-name-control button {min-height:44px;height:44px;top:6px;right:6px}
+.import-tabs {padding:4px;border:1px solid var(--curi-controlBorder)}.import-tabs button {font-size:14px;min-height:44px}.import-tabs button[aria-selected=true] {background:var(--curi-ink);color:var(--b-paper);box-shadow:none}
+#scene-preview strong {font-size:16px;line-height:1.5}#scene-preview p,#scene-preview small,.scene-tab {font-size:13px;line-height:1.6}.scene-tab {background:var(--curi-ink)}
+.times button {font-size:13px;min-height:48px}#save {min-height:48px;background:var(--b-primary);color:var(--curi-ink);font-size:16px;font-weight:700}
+#save:hover:not(:disabled) {background:var(--b-primaryHover)}.panel-toast {background:var(--b-canvas);color:var(--b-ink);border-radius:12px;font-size:14px}.panel-toast button {color:var(--b-ink);min-height:44px}
+:where(button,input,textarea,select,summary):focus-visible {outline:2px solid var(--curi-focus);outline-offset:3px}.popup-header button:focus-visible {outline-color:var(--b-focus)}
+@media(max-width:340px) {.popup-header #connection-state {order:4;flex-basis:100%;font-size:13px}.popup-header h1 {flex:1}.times {grid-template-columns:minmax(0,1fr)}#folder-cards {grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce) {*,*::before,*::after {animation:none!important;transition:none!important}}
+
+/* 웹과 같은 제목·버튼 굵기. 본문·시간 안내는 기본 굵기를 유지한다. */
+.popup-header h1,.mini-folder strong,#scene-preview strong {font-weight:700}
+.import-tabs button,.import-tabs button[aria-selected=true] {font-weight:700}

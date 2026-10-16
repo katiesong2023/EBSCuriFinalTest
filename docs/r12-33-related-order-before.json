@@ -1,0 +1,94 @@
+{
+  "resourceId": "BCAST-3225002c08823553e9cf",
+  "title": "자막갯벌의 방랑자들",
+  "apiRanking": [
+    "4과06-03",
+    "4사03-01",
+    "4사07-01",
+    "6사07-02",
+    "6사01-01"
+  ],
+  "displayedOrder": [
+    "6사01-01",
+    "6사07-02",
+    "4사03-01",
+    "4사07-01",
+    "4과06-03"
+  ],
+  "additionalStandards": [
+    {
+      "curriculumVersion": "2022 개정",
+      "id": "6사06-01",
+      "text": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다.",
+      "subject": "사회",
+      "gradeBand": "5~6학년군",
+      "schoolLevel": "초등학교",
+      "courseId": "elementary56",
+      "courseLabel": "초등 5~6학년군",
+      "placement": null,
+      "officialCheck": {
+        "classification": "HUMAN_VERIFIED",
+        "status": "HUMAN_APPROVED",
+        "humanConfirmed": true
+      },
+      "goalTopic": "일제 · 식민",
+      "goalSummary": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다.",
+      "goalRequirements": [
+        {
+          "id": "official-standard",
+          "text": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다."
+        }
+      ],
+      "total": 47,
+      "counts": {
+        "UNSUPPORTED": 47,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      },
+      "countNote": "표시 자료 묶음 수. 미지원·소개문 부족은 중복될 수 있습니다.",
+      "ruleSupported": false,
+      "gap": "CANDIDATES"
+    },
+    {
+      "curriculumVersion": "2022 개정",
+      "id": "4사03-02",
+      "text": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다.",
+      "subject": "사회",
+      "gradeBand": "3~4학년군",
+      "schoolLevel": "초등학교",
+      "courseId": "elementary34",
+      "courseLabel": "초등 3~4학년군",
+      "placement": null,
+      "officialCheck": {
+        "classification": "SOURCE",
+        "status": "SOURCE_CHECKED",
+        "humanConfirmed": false
+      },
+      "goalTopic": "문화",
+      "goalSummary": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다.",
+      "goalRequirements": [
+        {
+          "id": "official-standard",
+          "text": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다."
+        }
+      ],
+      "total": 174,
+      "counts": {
+        "UNSUPPORTED": 174,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      },
+      "countNote": "표시 자료 묶음 수. 미지원·소개문 부족은 중복될 수 있습니다.",
+      "ruleSupported": false,
+      "gap": "CANDIDATES"
+    }
+  ]
+}

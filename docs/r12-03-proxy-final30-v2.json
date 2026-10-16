@@ -1,0 +1,1179 @@
+{
+  "dataset": "curi-proxy-final30-v2",
+  "split": "final_evaluation",
+  "count": 30,
+  "actualTeacherRequests": 0,
+  "searchExecuted": false,
+  "rows": [
+    {
+      "id": "H2-F001",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "H2_FINANCE",
+      "topic_family_label": "화폐·은행·금융",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "화폐가 하는 일",
+      "lesson_goal": "돈의 기능 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "화폐·은행·금융"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F002",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "H2_FINANCE",
+      "topic_family_label": "화폐·은행·금융",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "은행에 돈을 맡기면 왜 이자를 주는지 아이들과 이야기할 도입 영상이 필요해요",
+      "lesson_goal": "저축과 이자 설명",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "화폐·은행·금융"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F003",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "H2_FINANCE",
+      "topic_family_label": "화폐·은행·금융",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "물건값을 다 내지 않고 돈을 빌려서 사면 나중에 갚을 돈이 더 많아지는 이유를 보여주세요",
+      "lesson_goal": "대출과 이자의 관계",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "화폐·은행·금융"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F004",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "H2_FINANCE",
+      "topic_family_label": "화폐·은행·금융",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "지폐 위조 방지 장치 자료인데 눈으로 보는 무늬와 빛에 비춰 확인하는 무늬가 둘 다 있어야 해요",
+      "lesson_goal": "화폐의 신뢰",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "화폐·은행·금융"
+        ],
+        "required_conditions": [
+          {
+            "condition": "눈으로 보는 무늬",
+            "supporting_phrase": "눈으로 보는 무늬"
+          },
+          {
+            "condition": "빛에 비춰 확인하는 무늬",
+            "supporting_phrase": "빛에 비춰 확인하는 무늬"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F005",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "H2_FINANCE",
+      "topic_family_label": "화폐·은행·금융",
+      "primary_test_type": "제외·부정 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "어린이 저축 자료요. 금융 상품 가입 광고는 빼 주세요",
+      "lesson_goal": "저축 원리 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "화폐·은행·금융"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [
+          {
+            "condition": "금융 상품 가입 광고",
+            "supporting_phrase": "금융 상품 가입 광고"
+          }
+        ],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F006",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "H2_INFECTION",
+      "topic_family_label": "감염병 전파·예방",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "감염병 전파",
+      "lesson_goal": "감염과 예방 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "감염병 전파·예방"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F007",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "H2_INFECTION",
+      "topic_family_label": "감염병 전파·예방",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "손을 씻는 이유를 생각하고 씻기 전후를 관찰하는 활동 전에 볼 자료",
+      "lesson_goal": "감염 예방 설명",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "감염병 전파·예방"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F008",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "H2_INFECTION",
+      "topic_family_label": "감염병 전파·예방",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "한 사람이 아픈데 옆 사람도 아파지는 걸 작은 물방울이 옮겨 가는 것과 연결한 영상",
+      "lesson_goal": "비말 전파 관계",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "감염병 전파·예방"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F009",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "H2_INFECTION",
+      "topic_family_label": "감염병 전파·예방",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "비누로 손 씻기와 물로만 씻기를 비교하고 세균이 줄어드는 근거가 둘 다 나오는 자료",
+      "lesson_goal": "위생 방법 비교",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "감염병 전파·예방"
+        ],
+        "required_conditions": [
+          {
+            "condition": "비누로 손 씻기",
+            "supporting_phrase": "비누로 손 씻기"
+          },
+          {
+            "condition": "물로만 씻기",
+            "supporting_phrase": "물로만 씻기"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F010",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "H2_INFECTION",
+      "topic_family_label": "감염병 전파·예방",
+      "primary_test_type": "선호 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "감염 예방 설명 영상 찾습니다. 가능하면 어린이가 실천하는 사례가 있으면 좋겠어요",
+      "lesson_goal": "예방 행동 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "감염병 전파·예방"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [
+          {
+            "condition": "가능하면 어린이가 실천하는 사례가 있으면 좋겠어요",
+            "supporting_phrase": "가능하면 어린이가 실천하는 사례가 있으면 좋겠어요"
+          }
+        ],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F011",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "H2_COPYRIGHT",
+      "topic_family_label": "저작권·출처·창작물 이용",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "저작권과 출처 표시",
+      "lesson_goal": "창작물 이용 규칙",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "저작권·출처·창작물 이용"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F012",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "H2_COPYRIGHT",
+      "topic_family_label": "저작권·출처·창작물 이용",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "학급 소식지에 사진을 넣기 전에 허락과 출처 표시에 대해 판단해 볼 토론 자료",
+      "lesson_goal": "창작물 이용 판단",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "저작권·출처·창작물 이용"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F013",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "H2_COPYRIGHT",
+      "topic_family_label": "저작권·출처·창작물 이용",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "인터넷에서 주운 그림을 발표 자료에 쓰면 만든 사람한테 물어봐야 하는지 아이가 궁금해해요",
+      "lesson_goal": "창작자 권리 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "저작권·출처·창작물 이용"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F014",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "H2_COPYRIGHT",
+      "topic_family_label": "저작권·출처·창작물 이용",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "창작자가 사용을 허락한 그림이나 직접 만든 그림 중 하나면 되는데 출처 표시 방법이 꼭 나오는 영상",
+      "lesson_goal": "허락과 인용",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "저작권·출처·창작물 이용"
+        ],
+        "required_conditions": [
+          {
+            "condition": "출처 표시 방법",
+            "supporting_phrase": "출처 표시 방법"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F015",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "H2_COPYRIGHT",
+      "topic_family_label": "저작권·출처·창작물 이용",
+      "primary_test_type": "제외·부정 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "음악 저작권 영상인데 특정 음원 서비스 홍보는 제외해 주세요. 가능하면 재현 드라마가 좋겠어요",
+      "lesson_goal": "음악 이용 규칙",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "저작권·출처·창작물 이용"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [
+          {
+            "condition": "특정 음원 서비스 홍보",
+            "supporting_phrase": "특정 음원 서비스 홍보"
+          }
+        ],
+        "preferences": [
+          {
+            "condition": "가능하면 재현 드라마가 좋겠어요",
+            "supporting_phrase": "가능하면 재현 드라마가 좋겠어요"
+          }
+        ],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F016",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "H2_MEASUREMENT",
+      "topic_family_label": "측정 단위·도구·오차",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "측정값과 오차",
+      "lesson_goal": "측정의 신뢰 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "측정 단위·도구·오차"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F017",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "H2_MEASUREMENT",
+      "topic_family_label": "측정 단위·도구·오차",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "길이를 재는 활동 전에 눈높이와 눈금 읽는 방법을 설명해 줄 영상",
+      "lesson_goal": "측정 도구 사용",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "측정 단위·도구·오차"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F018",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "H2_MEASUREMENT",
+      "topic_family_label": "측정 단위·도구·오차",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "친구들이 같은 책상을 재었는데 조금씩 다른 숫자를 적었어요. 왜 그런지 생각할 자료",
+      "lesson_goal": "측정 차이 설명",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "측정 단위·도구·오차"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F019",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "H2_MEASUREMENT",
+      "topic_family_label": "측정 단위·도구·오차",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "저울 영점 맞추기와 질량 측정 과정이 모두 나오는 영상",
+      "lesson_goal": "질량 측정",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "측정 단위·도구·오차"
+        ],
+        "required_conditions": [
+          {
+            "condition": "저울 영점 맞추기",
+            "supporting_phrase": "저울 영점 맞추기"
+          },
+          {
+            "condition": "질량 측정 과정",
+            "supporting_phrase": "질량 측정 과정"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F020",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "H2_MEASUREMENT",
+      "topic_family_label": "측정 단위·도구·오차",
+      "primary_test_type": "선호 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "측정 도구를 다루는 설명 영상요. 가능하면 자 눈금을 가까이 보여주는 자료가 좋겠어요",
+      "lesson_goal": "길이 측정",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "측정 단위·도구·오차"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [
+          {
+            "condition": "가능하면 자 눈금을 가까이 보여주는 자료가 좋겠어요",
+            "supporting_phrase": "가능하면 자 눈금을 가까이 보여주는 자료가 좋겠어요"
+          }
+        ],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F021",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "사회",
+      "topic_family": "H2_STATISTICS",
+      "topic_family_label": "사회 조사·표본·통계 해석",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "여론 조사 표본",
+      "lesson_goal": "사회 조사 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "사회 조사·표본·통계 해석"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F022",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "사회",
+      "topic_family": "H2_STATISTICS",
+      "topic_family_label": "사회 조사·표본·통계 해석",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "학교 규칙에 관한 설문을 만들기 전에 누구에게 물어보느냐가 결과에 미치는 영향을 생각할 자료",
+      "lesson_goal": "표본과 대표성",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "사회 조사·표본·통계 해석"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F023",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "사회",
+      "topic_family": "H2_STATISTICS",
+      "topic_family_label": "사회 조사·표본·통계 해석",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "친구 세 명은 다 좋다는데 학교 전체가 좋아한다고 말해도 되는지 따져볼 영상",
+      "lesson_goal": "일부와 전체 구분",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "사회 조사·표본·통계 해석"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F024",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "사회",
+      "topic_family": "H2_STATISTICS",
+      "topic_family_label": "사회 조사·표본·통계 해석",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "같은 조사에서 평균과 중앙값을 비교한 자료인데 숫자 예시가 반드시 들어가야 해요",
+      "lesson_goal": "통계 판단",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "사회 조사·표본·통계 해석"
+        ],
+        "required_conditions": [
+          {
+            "condition": "평균과 중앙값",
+            "supporting_phrase": "평균과 중앙값"
+          },
+          {
+            "condition": "숫자 예시",
+            "supporting_phrase": "숫자 예시"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F025",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "사회",
+      "topic_family": "H2_STATISTICS",
+      "topic_family_label": "사회 조사·표본·통계 해석",
+      "primary_test_type": "제외·부정 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "사회 조사 통계 자료 찾는데, 숫자를 잘못 해석한 사례는 꼭 나오고 특정 정당의 선거 홍보는 빼 주세요",
+      "lesson_goal": "통계의 비판적 해석",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "사회 조사·표본·통계 해석"
+        ],
+        "required_conditions": [
+          {
+            "condition": "숫자를 잘못 해석한 사례",
+            "supporting_phrase": "숫자를 잘못 해석한 사례"
+          }
+        ],
+        "excluded_conditions": [
+          {
+            "condition": "특정 정당의 선거 홍보",
+            "supporting_phrase": "특정 정당의 선거 홍보"
+          }
+        ],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F026",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "과학",
+      "topic_family": "H2_INHERITANCE",
+      "topic_family_label": "유전·형질·부모와 자손",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [],
+      "query": "부모와 자손의 형질",
+      "lesson_goal": "유전과 형질 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "유전·형질·부모와 자손"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F027",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "과학",
+      "topic_family": "H2_INHERITANCE",
+      "topic_family_label": "유전·형질·부모와 자손",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "닮은 점을 찾는 활동 전에 부모와 자손이 닮는 이유를 설명할 영상",
+      "lesson_goal": "유전의 기본 이해",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "유전·형질·부모와 자손"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F028",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "과학",
+      "topic_family": "H2_INHERITANCE",
+      "topic_family_label": "유전·형질·부모와 자손",
+      "primary_test_type": "대표 개념명 대신 일상 표현을 사용한 요청",
+      "secondary_test_types": [],
+      "query": "같은 부모에게서 태어난 형제인데 서로 똑같이 생기지는 않는 이유를 보여주는 거",
+      "lesson_goal": "형질의 다양성",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "유전·형질·부모와 자손"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F029",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "과학",
+      "topic_family": "H2_INHERITANCE",
+      "topic_family_label": "유전·형질·부모와 자손",
+      "primary_test_type": "복수 필수 조건·AND/OR를 포함한 요청",
+      "secondary_test_types": [],
+      "query": "유전자가 미치는 영향과 생활 환경이 미치는 영향이 함께 나오는 자료",
+      "lesson_goal": "유전과 환경",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "유전·형질·부모와 자손"
+        ],
+        "required_conditions": [
+          {
+            "condition": "유전자가 미치는 영향",
+            "supporting_phrase": "유전자가 미치는 영향"
+          },
+          {
+            "condition": "생활 환경이 미치는 영향",
+            "supporting_phrase": "생활 환경이 미치는 영향"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "H2-F030",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actualTeacherRequest": false,
+      "grade_context": "중학교1학년(참고)",
+      "subject": "과학",
+      "topic_family": "H2_INHERITANCE",
+      "topic_family_label": "유전·형질·부모와 자손",
+      "primary_test_type": "선호 조건을 포함한 요청",
+      "secondary_test_types": [],
+      "query": "유전 설명 자료요. 사람이나 식물 중 하나로 설명하면 되고, 가능하면 그림 자료가 좋겠어요",
+      "lesson_goal": "형질의 유전",
+      "usage_purpose": "수업 준비용 대리 맥락. 실제 교사 진도·적합성 미확인.",
+      "expected_interpretation": {
+        "core_topics": [
+          "유전·형질·부모와 자손"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [
+          {
+            "condition": "가능하면 그림 자료가 좋겠어요",
+            "supporting_phrase": "가능하면 그림 자료가 좋겠어요"
+          }
+        ],
+        "logical_structure": "원래 질문의 명시 AND/OR를 유지. 추가 조건을 생성하지 않는다.",
+        "unconfirmed": [
+          "실제 영상 장면",
+          "학년 적합성"
+        ]
+      },
+      "candidate_judgment_criteria": {
+        "suitable": "원래 주제/관계의 자기 회차 원문 근거와 명시 조건 대조가 있음",
+        "partial": "주제 일부만 다루거나 필수 관계의 근거 일부가 없음",
+        "insufficient_evidence": "제목·소개문만으로 내용/장면을 확인할 수 없음",
+        "unsuitable": "다른 주제·관계 또는 명시 조건 위반의 근거가 있음"
+      },
+      "empty_result_interpretation": "자료 공백/검색 누락/조건 미확인을 별도 진단하며 빈 결과 자체를 실패로 확정하지 않음.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    }
+  ]
+}

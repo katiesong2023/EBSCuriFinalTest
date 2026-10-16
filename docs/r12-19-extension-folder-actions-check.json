@@ -1,0 +1,53 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "emptyLibraryCreate": false,
+      "createTile": true,
+      "formCollapsedAfterCreate": true,
+      "autoSelected": true,
+      "deleteDialogMatchesWeb": true,
+      "cancelPreserves": true,
+      "trashDoesNotSelect": true,
+      "deleteRemovesContents": true,
+      "otherFolderAndShelfPreserved": true,
+      "quotaRollbackAndRetry": true,
+      "staleRejected": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "emptyLibraryCreate": false,
+      "createTile": true,
+      "formCollapsedAfterCreate": true,
+      "autoSelected": true,
+      "deleteDialogMatchesWeb": true,
+      "cancelPreserves": true,
+      "trashDoesNotSelect": true,
+      "deleteRemovesContents": true,
+      "otherFolderAndShelfPreserved": true,
+      "quotaRollbackAndRetry": true,
+      "staleRejected": true,
+      "overflow": false
+    },
+    {
+      "width": 480,
+      "emptyLibraryCreate": true,
+      "createTile": true,
+      "formCollapsedAfterCreate": true,
+      "autoSelected": true,
+      "deleteDialogMatchesWeb": true,
+      "cancelPreserves": true,
+      "trashDoesNotSelect": true,
+      "deleteRemovesContents": true,
+      "otherFolderAndShelfPreserved": true,
+      "quotaRollbackAndRetry": true,
+      "staleRejected": true,
+      "overflow": false
+    }
+  ],
+  "extensionApiMock": true,
+  "realWebFolderApi": true,
+  "errors": [],
+  "isolatedData": true
+}

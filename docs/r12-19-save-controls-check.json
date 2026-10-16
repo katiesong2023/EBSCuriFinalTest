@@ -1,0 +1,35 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "retryHiddenNormally": true,
+      "failureRetryPassed": true,
+      "downloadMenuPassed": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "retryHiddenNormally": true,
+      "failureRetryPassed": true,
+      "downloadMenuPassed": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "retryHiddenNormally": true,
+      "failureRetryPassed": true,
+      "downloadMenuPassed": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "retryHiddenNormally": true,
+      "failureRetryPassed": true,
+      "downloadMenuPassed": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "shelfRetryPassed": true
+}

@@ -1,0 +1,436 @@
+{
+  "rows": [
+    {
+      "item": {
+        "id": "BCAST-02b5c04abc4af52bad5c",
+        "title": "꼭 입어야 할까요?",
+        "summary": "말하기 위해 또 입어야 할까요?",
+        "program": "지식채널e",
+        "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688",
+        "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688",
+        "issues": [],
+        "quality": "short",
+        "warning": true
+      },
+      "status": 200,
+      "finalUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "꼭 입어야 할까요?",
+            "description": "말하기 위해 또 입어야 할까요?",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/2019/04/8/11/7/11/ad9b02a1-b5d7-4065-9333-8f45a60ffe91.jpg",
+            "contentUrl": "https://jisike.ebs.co.kr:443/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688",
+            "embedUrl": "https://jisike.ebs.co.kr:443/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688",
+            "uploadDate": "2019-04-09T00:25:00+09:00",
+            "duration": "PT4M1S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "꼭 입어야 할까요?"
+          },
+          {
+            "key": "og:description",
+            "value": "말하기 위해 또 입어야 할까요?..."
+          },
+          {
+            "key": "og:url",
+            "value": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20070688"
+          }
+        ],
+        "paragraph": "말하기 위해 또 입어야 할까요?",
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-afed5a4976d524955e92",
+        "title": "전진주의 무 새우조림과 멸치 된장무침",
+        "summary": "전진주의 무 새우조림과 멸치 된장무침",
+        "program": "최고의 요리비결",
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10603583",
+        "evidenceUrl": "https://home.ebs.co.kr/cook/replay/6/list?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&c.page=80",
+        "issues": [],
+        "quality": "repeated",
+        "warning": false
+      },
+      "status": 200,
+      "finalUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10603583",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "전진주의 무 새우조림과 멸치 된장무침",
+            "description": "무 새우조림과 멸치 된장무침",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/2016/12/5/9/35/16/e7a0a2eb-f5f3-4e8a-88eb-1cea167189b4.jpg",
+            "contentUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000020&amp;amp;stepId=01BP0PHPN0000000020&amp;amp;lectId=10603583",
+            "embedUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000020&amp;amp;stepId=01BP0PHPN0000000020&amp;amp;lectId=10603583",
+            "uploadDate": "2016-12-05T10:50:00+09:00",
+            "duration": "PT24M9S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "최고의 요리비결 - 전진주의 무 새우조림과 멸치 된장무침"
+          },
+          {
+            "key": "og:description",
+            "value": "무 새우조림과 멸치 된장무침"
+          },
+          {
+            "key": "og:url",
+            "value": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10603583"
+          }
+        ],
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-6d8cdb920d9eb85343c0",
+        "title": "이안 레드먼드 - 정글북 1강 안개 속의 고릴라",
+        "summary": "자막이안 레드먼드 - 정글북 1강 안개 속의 고릴라",
+        "program": "위대한 수업, 그레이트 마인즈",
+        "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057695&lectId=60216186",
+        "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=80",
+        "issues": [],
+        "quality": "repeated",
+        "warning": false
+      },
+      "status": 200,
+      "finalUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057695&lectId=60216186",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "이안 레드먼드 - 정글북 1강 안개 속의 고릴라",
+            "description": "가슴을 두드리며 무시무시하게 소리 지르는 고릴라. 우리가 ‘고릴라’를 생각할 때 가장 먼저 떠올리는 이미지다. 고릴라를 처음 본 인간이 기록한 모습이 바&lt;br&gt;로 이런 것이었기 때문이다. 고릴라는 위협을 느끼면 가족들을 보호하기 위해 가슴을 치고 소리 지르며 적에게 경고한다. 마치 ‘인간처럼’ 말이다. 위협을 느&lt;br&gt;끼지 않을 때의 고릴라 역시 인간처럼 아이를 돌보고, 누워서 휴식을 취하고, 주변에 있는 식물들을 먹으며 평화롭게 지낸다. 1강 &amp;lt;안개 속의 고릴라&amp;gt;에서는&lt;br&gt;동물을 수집하던 생물학자이자 탐험가 이안 레드먼드가 마운틴 고릴라를 만나 환경보호 활동가가 된 이야기가 펼쳐진다. 총을 들지 않은 인간이 고릴라의 언&lt;br&gt;어를 배우며 그들에게 다가갈 때 펼쳐지는 마법 같은 풍경도 함께 만나 본다.",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/lectures/2022/05/24/9/60216186/3a0ea5c0-b804-4e29-af3c-02262ccb30ac.jpg",
+            "contentUrl": "https://home.ebs.co.kr:443/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057695&lectId=60216186",
+            "embedUrl": "https://home.ebs.co.kr:443/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057695&lectId=60216186",
+            "uploadDate": "2022-05-23T23:35:00+09:00",
+            "duration": "PT20M28S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "이안 레드먼드 - 정글북 1강 안개 속의 고릴라"
+          },
+          {
+            "key": "og:description",
+            "value": "가슴을 두드리며 무시무시하게 소리 지르는 고릴라. 우리가 ‘고릴라’를 생각할 때 가장 먼저 떠올리는 이미지다. 고릴라를 처음 본 인간이 기록한 모습이 바로 이런 것이었기 때문이"
+          },
+          {
+            "key": "og:url",
+            "value": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057695&lectId=60216186"
+          }
+        ],
+        "paragraph": "가슴을 두드리며 무시무시하게 소리 지르는 고릴라. 우리가 ‘고릴라’를 생각할 때 가장 먼저 떠올리는 이미지다. 고릴라를 처음 본 인간이 기록한 모습이 바\n로 이런 것이었기 때문이다. 고릴라는 위협을 느끼면 가족들을 보호하기 위해 가슴을 치고 소리 지르며 적에게 경고한다. 마치 ‘인간처럼’ 말이다. 위협을 느\n끼지 않을 때의 고릴라 역시 인간처럼 아이를 돌보고, 누워서 휴식을 취하고, 주변에 있는 식물들을 먹으며 평화롭게 지낸다. 1강 <안개 속의 고릴라>에서는\n동물을 수집하던 생물학자이자 탐험가 이안 레드먼드가 마운틴 고릴라를 만나 환경보호 활동가가 된 이야기가 펼쳐진다. 총을 들지 않은 인간이 고릴라의 언\n어를 배우며 그들에게 다가갈 때 펼쳐지는 마법 같은 풍경도 함께 만나 본다.",
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-bc20c57561a30458a210",
+        "title": "라오스 소금마을 1부",
+        "summary": "자막라오스 소금마을 1부",
+        "program": "극한 직업",
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054290",
+        "evidenceUrl": "https://home.ebs.co.kr/limit/replay/2/list?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&c.page=37",
+        "issues": [],
+        "quality": "repeated",
+        "warning": false
+      },
+      "status": 200,
+      "finalUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054290",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "라오스 소금마을 1부",
+            "description": "라오스 소금마을 1부",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/courses/2014/02/24/11/BP0PHPN0000000006/e1c1b700-ea8d-460a-ae89-7d95bb139be7_thumb_8.jpg",
+            "contentUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000006&amp;amp;stepId=01BP0PHPN0000000006&amp;amp;lectId=10054290",
+            "embedUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000006&amp;amp;stepId=01BP0PHPN0000000006&amp;amp;lectId=10054290",
+            "uploadDate": "2013-01-02T22:45:00+09:00",
+            "duration": "PT25M4S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "극한 직업 - 라오스 소금마을 1부"
+          },
+          {
+            "key": "og:description",
+            "value": "라오스 소금마을 1부"
+          },
+          {
+            "key": "og:url",
+            "value": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054290"
+          }
+        ],
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-c5eb9f9ca564af2f1ce9",
+        "title": "만년 후를 기다리는 책",
+        "summary": "만년 후를 기다리는 책",
+        "program": "역사채널e",
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=3089498",
+        "evidenceUrl": "https://home.ebs.co.kr/historye/replay/2/list?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&c.page=14",
+        "issues": [],
+        "quality": "repeated",
+        "warning": false
+      },
+      "status": 200,
+      "finalUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=3089498",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "만년 후를 기다리는 책",
+            "description": "만년 후를 기다리는 책 조선왕조실록 재조명",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/lectures/2014/03/21/15/3089498/6e4e66b6-b277-46cb-b667-1c0952ba047c.jpg",
+            "contentUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPI0000000035&amp;amp;stepId=01BP0PHPI0000000035&amp;amp;lectId=3089498",
+            "embedUrl": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPI0000000035&amp;amp;stepId=01BP0PHPI0000000035&amp;amp;lectId=3089498",
+            "uploadDate": "2011-10-07T00:00:00+09:00",
+            "duration": "PT4M51S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "역사채널e - 만년 후를 기다리는 책"
+          },
+          {
+            "key": "og:description",
+            "value": "만년 후를 기다리는 책 조선왕조실록 재조명"
+          },
+          {
+            "key": "og:url",
+            "value": "https://www.ebs.co.kr:443/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=3089498"
+          }
+        ],
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-1d39d0c0579c1750d642",
+        "title": "강원도 겨울연가, 4부 겨울 설악",
+        "summary": "강원도 겨울연가, 4부 겨울 설악",
+        "program": "한국기행",
+        "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392",
+        "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392",
+        "issues": [],
+        "quality": "repeated",
+        "warning": false
+      },
+      "status": 200,
+      "finalUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "강원도 겨울연가, 4부 겨울 설악",
+            "description": "강원도 겨울연가, 4부 겨울 설악",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/courses/2017/07/28/10/BP0PAPD0000000022/d0b5a4d2-b882-4616-b72c-aa70d61bae7e_thumb_8.jpg",
+            "contentUrl": "https://home.ebs.co.kr:443/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392",
+            "embedUrl": "https://home.ebs.co.kr:443/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392",
+            "uploadDate": "2012-01-12T00:00:00+09:00",
+            "duration": "PT17M43S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "세상의모든기행 - 강원도 겨울연가, 4부 겨울 설악"
+          },
+          {
+            "key": "og:description",
+            "value": "강원도 겨울연가, 4부 겨울 설악..."
+          },
+          {
+            "key": "og:url",
+            "value": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3097392"
+          }
+        ],
+        "paragraph": "강원도 겨울연가, 4부 겨울 설악",
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-c2081ba6391ffe19860a",
+        "title": "조선의 법과 정의 무원록 1부 억울함을 없게 하라",
+        "summary": "무참하게 살해 당한 박조이그녀를 살해한 사람은 누구인가...사건을 해결하기 위해 정조는 암행어사 이곤수를 파견하는데...",
+        "program": "EBS 다큐프라임",
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055920&lectId=3090222",
+        "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055920",
+        "issues": [
+          "TRUNCATED_END"
+        ],
+        "quality": "short",
+        "warning": true
+      },
+      "status": 200,
+      "finalUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055920&lectId=3090222",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "조선의 법과 정의 무원록 1부 억울함을 없게 하라",
+            "description": "무참하게 살해 당한 박조이&lt;br&gt;그녀를 살해한 사람은 누구인가...&lt;br&gt;사건을 해결하기 위해 정조는 암행어사 이곤수를 파견하는데...",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/lectures/2014/04/21/23/3090222/fc3e72d6-fc6d-4f60-8cb7-b4027a4feb7b.jpg",
+            "contentUrl": "https://docuprime.ebs.co.kr:443/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055920&lectId=3090222",
+            "embedUrl": "https://docuprime.ebs.co.kr:443/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055920&lectId=3090222",
+            "uploadDate": "2014-04-21T21:50:00+09:00",
+            "duration": "PT44M19S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "조선의 법과 정의 무원록 1부 억울함을 없게 하라"
+          },
+          {
+            "key": "og:description",
+            "value": "무참하게 살해 당한 박조이그녀를 살해한 사람은 누구인가...사건을 해결하기 위해 정조는 암행어사 이곤수를 파견하는데..."
+          },
+          {
+            "key": "og:url",
+            "value": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055920&lectId=3090222"
+          }
+        ],
+        "paragraph": "무참하게 살해 당한 박조이\n그녀를 살해한 사람은 누구인가...\n사건을 해결하기 위해 정조는 암행어사 이곤수를 파견하는데...",
+        "other": []
+      }
+    },
+    {
+      "item": {
+        "id": "BCAST-20e4e6a2f56b92bd2f45",
+        "title": "It's Raining!",
+        "summary": "재미있는 이야기 \"콩쥐 팥쥐\"를 통해서 \"It's raining\" 표현을 배워본다..",
+        "program": "GO! GO! Giggles",
+        "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AB000000000001&lectId=1165260&stepId=01BA0AB000000000001",
+        "evidenceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+        "issues": [
+          "TRUNCATED_END"
+        ],
+        "quality": "short",
+        "warning": true
+      },
+      "status": 200,
+      "finalUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AB000000000001&lectId=1165260&stepId=01BA0AB000000000001",
+      "detail": {
+        "videos": [
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "Welcome to Giggleland!",
+            "description": "Giggleland와 캐릭터들을 소개한다.",
+            "thumbnailUrl": "https://static.ebs.co.kr/images/public/courses/2013/02/22/22/BA0AB000000000001/abb1cda5-29b2-4d1e-ae1a-abd656ec6f5c.jpg",
+            "contentUrl": "https://anikids.ebs.co.kr:443/vodCommon/show?siteCd=AK&amp;amp;courseId=BA0AB000000000001&amp;amp;lectId=1165260&amp;amp;stepId=01BA0AB000000000001",
+            "embedUrl": "https://anikids.ebs.co.kr:443/vodCommon/show?siteCd=AK&amp;amp;courseId=BA0AB000000000001&amp;amp;lectId=1165260&amp;amp;stepId=01BA0AB000000000001",
+            "uploadDate": "2006-08-29T00:00:00+09:00",
+            "duration": "PT16M17S",
+            "publisher": {
+              "@type": "Organization",
+              "name": "EBS",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://static.ebs.co.kr/www/favicon/favicon_144.png"
+              }
+            }
+          }
+        ],
+        "meta": [
+          {
+            "key": "og:title",
+            "value": "EBS 애니키즈"
+          },
+          {
+            "key": "og:description",
+            "value": "어린이가 좋아하는 콘텐츠가 한 곳에! 애니키즈에서 우리 아이가 좋아하는 애니메이션 친구들을 만나보세요."
+          },
+          {
+            "key": "og:url",
+            "value": "https://anikids.ebs.co.kr/anikidsmain"
+          }
+        ],
+        "other": []
+      }
+    }
+  ]
+}

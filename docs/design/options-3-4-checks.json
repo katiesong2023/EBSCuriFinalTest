@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-15 Asia/Seoul",
+  "baselineFilesCompared": 151,
+  "changedExistingFiles": [],
+  "missingLocalReferences": [],
+  "apiOrStorageCallsInDemo": false,
+  "functionalChecks": 36,
+  "layoutSamples": 40,
+  "contrastPairs": 28,
+  "allPreviewChecksPassed": true,
+  "allContrastPairsPassed": true,
+  "limitations": [
+    "design prototypes only; no production application",
+    "no native200% or physical touch/screen reader/real extension revalidation",
+    "reference timings are not inferred as measured values"
+  ],
+  "allPassed": true,
+  "revisionNotice": "Initial 3.0/4.0 audit. Color revision 3.1/4.1 verified separately in color-revision-browser-checks.json",
+  "currentRevisionChecks": "color-revision-browser-checks.json"
+}

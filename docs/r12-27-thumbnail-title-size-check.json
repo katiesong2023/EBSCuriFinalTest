@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-15T11:45:05.352Z",
+  "desktop": {
+    "titleColor": "rgb(255, 255, 255)",
+    "programColor": "rgb(255, 255, 255)",
+    "programSize": "11px",
+    "titleSize": "21px",
+    "titleWeight": "700"
+  },
+  "mobile": {
+    "titleColor": "rgb(255, 255, 255)",
+    "programDisplay": "none",
+    "titleSize": "18px",
+    "titleWeight": "700"
+  },
+  "personalStorageWrites": false
+}

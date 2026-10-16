@@ -1,0 +1,69 @@
+{
+  "note": "보고서 작성 중 다른 작업의 코드 변경을 감지해 원래100 중8대표 요청의 실제 API를 재대조. 전체100 재실행을 의미하지 않음.",
+  "checks": [
+    {
+      "requestId": "X100-Q035",
+      "totalBefore": 9,
+      "totalNow": 9,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q052",
+      "totalBefore": 2,
+      "totalNow": 2,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q049",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q050",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q055",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q084",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    },
+    {
+      "requestId": "X100-Q100",
+      "totalBefore": 0,
+      "totalNow": 0,
+      "totalIdentical": true,
+      "firstPageIdsIdentical": true,
+      "understandingIdentical": true
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-14",
+  "reason": "현재API170재검은마지막수정후와완전히같고원래수정전대비효과미미함",
+  "actualTeacherRequests": 0,
+  "finalEvaluationUsed": false,
+  "diagnosticAnchorsRechecked": [
+    {
+      "requestId": "D70-Q013",
+      "originalTotal": 0,
+      "diagnosticProbe": "도서관",
+      "candidateId": "BCAST-42cb718c8c18c2a86d25",
+      "title": "도서관에 간 꺼병이들",
+      "field": "summary",
+      "supplementId": null,
+      "evidence": [
+        {
+          "quote": "친절한 사서의 도움으로 회원증도 만들고 책을 찾아보는데",
+          "start": 47,
+          "end": 77,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        },
+        {
+          "quote": "꺼병이들과 생쥐는 사이 좋게 책을 빌려 집으로 돌아간다.",
+          "start": 207,
+          "end": 238,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "8a14e91fb38586bf1e90289b27c62a19462d630b445633c59751560a0d53902a",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "도서관 OR 주민센터 중 하나의 역할 요청에 도서관의 책 대출·회원증·사서 역할을 다루는 내용 후보가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN",
+      "currentOriginalTotal": 0,
+      "currentShortProbeReturnsCandidate": true,
+      "currentEvidenceExactMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "originalTotal": 0,
+      "diagnosticProbe": "자석",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "field": "sourceSupplement",
+      "supplementId": "6665a362546a8d30c74be22e",
+      "evidence": [
+        {
+          "quote": "이 막대자석에 클립이 다닥다닥 다 붙어.",
+          "start": 525,
+          "end": 547,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        },
+        {
+          "quote": "크레파스는 안 붙는구나.",
+          "start": 796,
+          "end": 809,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "자석에 붙는 클립과 붙지 않는 크레파스/블록을 같은 회차 대본에서 비교할 근거가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN",
+      "currentOriginalTotal": 0,
+      "currentShortProbeReturnsCandidate": true,
+      "currentEvidenceExactMatch": true
+    },
+    {
+      "requestId": "D70-Q055",
+      "originalTotal": 0,
+      "diagnosticProbe": "먹이 관계",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+      "field": "summary",
+      "supplementId": null,
+      "evidence": [
+        {
+          "quote": "식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며",
+          "start": 58,
+          "end": 103,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "c4af5a9aa9292cb8769358037e42dfe2e5e486e7712b4c2743b3e69d03856095",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "생물이 먹고 먹히는 관계를 관찰해 먹이 관계를 그리려는 활동 준비 요청의 내용 후보가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN",
+      "currentOriginalTotal": 0,
+      "currentShortProbeReturnsCandidate": true,
+      "currentEvidenceExactMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "currentOriginalTotal": 0,
+      "currentShortProbeReturnsCandidate": true,
+      "evidenceReuseFrom": "r12-extra100-review.json",
+      "judgment": "TEXT_SUPPORTED_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "task": "R12-03",
+      "name": "170요청의 단계별 실패와 원문 존재를 고정",
+      "status": "planned",
+      "outcome": "문장별로 핵심대상/관계/필수AND·OR/제외/선호/교실활동·모호함과 후보가 사라지는 지점을 기록하고 검색 누락·원문공백·관계/순위·조건정보 미확인을 구분한다.",
+      "deliverable": "170개 실패 원인표·단계별 후보 분모·원문확인 가능한10~20요청의 회차/인용 앵커와 양성·음성·표현변형 묶음",
+      "verification": "자료 부재를 빈 결과로 확정하지 않는다. 앵커4의 발견 누락을 시작 증거로 쓰되 원래 질문의 정답으로 하드코딩하지 않는다. 검사 가능한 원문 존재 분모를 동결한다."
+    },
+    {
+      "order": 2,
+      "task": "R12-03",
+      "name": "요청 구조를 보존하고 원문 후보를 발견",
+      "status": "planned",
+      "outcome": "도서관/주민센터 같은 OR선택지와 지역 브랜드의 수식 범위를 보존하며 문법/교실활동을 모든필수어AND로 만들지 않는다. 같은요구의 다른표현이 동일한원문을 발견하도록 한다.",
+      "deliverable": "원문구절에연결된요청해석·자기회차소개문/검증보조원문을함께대조하는후보발견·누락원인안내",
+      "verification": "AND/OR와명시세부개념/고유명/프로그램/학년문맥·기존시스템조건을유지한다. 넓은의미유사도만으로충족을확정하지않는다. 일부목적/관계파싱실패는확인필요로보존한다. 기존 로컬 요청 계약/후보 검색 경로를 먼저 활용하며 유료모델 호출은 하지 않는다."
+    },
+    {
+      "order": 3,
+      "task": "R12-03",
+      "name": "관계·비유·제외 근거에 따른 순위와 확인 상태",
+      "status": "planned",
+      "outcome": "경제적먹이사슬과생물먹이관계,지역브랜드와기업브랜드를대상·관계문맥으로구분한다.요구마다확인됨/어긋남/미확인을원문에연결한다.",
+      "deliverable": "상위후보별주제/관계/필수/제외판정·인용·미확인안내와무관후보차단",
+      "verification": "확인된경제비유제외위반은0으로줄이고영상부재는단어미등장만으로확인됨이라표시하지않는다. 원문없는관계설명을만들지않으며필수조건미확인후보를충족결과와구분한다."
+    },
+    {
+      "order": 4,
+      "task": "R12-02",
+      "name": "공통 교과 원문 공백을 경로 단위로 보강",
+      "status": "planned",
+      "outcome": "공공기관/지도·교통통신/역사·제도,자석·회로/상태변화·열/생태관계의6경로군을먼저대조하고필요한공식설명·실험·학습자료를확보한다. 경로군의 프로그램/시즌과 정확한 목록은 단계1의 원문공백 조사에서 확정한다.",
+      "deliverable": "처음경로군당10회차(최대60)대조→효과확인군을사회/과학각최대100·합계200까지확대.추가/동일/불충분/식별미확인·원문인용/수집재개기록",
+      "verification": "보강후핵심요구의원문이늘어난요청을측정한다.기존자료+기존검색/기존자료+개선검색/보강자료+기존검색/보강자료+개선검색4조건으로효과를분리한다.10회차대조에서효과없으면대체경로를확인한후확장여부를판단한다."
+    },
+    {
+      "order": 5,
+      "task": "R12-03/R12-06",
+      "name": "개발170 통과 후 새최종30과 교사 선택 검증",
+      "status": "planned",
+      "outcome": "개발170 전후원문판정을고정하고제품변경을동결한뒤최종30v2를한번평가한다.실제교사3명×4요청의선택/근거확인/저장/재사용을별도로측정한다.",
+      "deliverable": "개발/최종별측정과실제교사효용보고·문제해결/보류/미확인원인목록",
+      "verification": "최종결과로다시개발하면새평가집합을마련한다.작성에이전트/AI대리와실제교사를구분하고최종/교사성공을개발후보량으로대체하지않는다."
+    }
+  ],
+  "proposedGates": {
+    "status": "PROPOSED_TARGETS_NOT_OBSERVED_RESULTS",
+    "sourceBackedKnownAnchorTop5Discovery": {
+      "target": "80%이상",
+      "denominator": "단계1에서동결한원문확인요청집합. 원문/관계/명시조건이정당한앵커만포함",
+      "warning": "현재4진단앵커는구현에이전트판단이며독립교사정답이아님"
+    },
+    "requestsWithTopicTextSupportedTop5AcrossDevelopment170": {
+      "current": 6,
+      "target": 20,
+      "unit": "요청(전체170)",
+      "constraint": "조건미확인은따로표시. 주제근거를교사선택성공으로표시하지않음"
+    },
+    "unrelatedTop5Share": {
+      "current": "7/35=20%",
+      "target": "10%이하",
+      "denominator": "실제반환되어원문판정한상위5쌍",
+      "constraint": "원문판정과비율을함께기록하며관련후보를줄여비율만개선하지않음"
+    },
+    "confirmedTextExclusionViolation": {
+      "current": 1,
+      "target": 0
+    },
+    "unknownConditionDisclosure": {
+      "target": "100%표시",
+      "constraint": "미확인을준수성공으로집계하지않음"
+    },
+    "sourceAvailabilityGate": "원문확인집합이부족하면실행전수집조사범위를조정하고전체개선완료를보류한다.수치목표를기계적으로조건완화하여달성하지않는다."
+  },
+  "implementationInThisRequest": false,
+  "sourceCollectionInThisRequest": false,
+  "notes": "이번요청은재검사와보완기획.단계별제품/수집구현은새로실행하지않음.일정은인력·자료접근분모미확정이라날짜/기간을추정하지않고산출물/통과조건으로고정."
+}

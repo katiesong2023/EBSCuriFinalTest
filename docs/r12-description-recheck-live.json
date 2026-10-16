@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15T05:22:07.005Z",
+  "rows": [
+    {
+      "id": "DP-60058964",
+      "title": "당신의 글씨는 안녕한가요",
+      "summary": "스마트 기기와 인공지능의 확산으로 아이들은 손글씨를 쓸 기회를 잃었다. 학교와 가정에서 충분한 글씨 교육을 받지 못하다 보니, 글씨체가 흐트러져 읽기조차 힘든 ‘악필(惡筆)’이 늘고 있다. 이러한 현실 앞에서 뇌과학자, 아동교육학자, 언어치료학자, 시인, 교사들의 목소리를 통해 손글씨의 의미를 되짚고, 앞으로 우리 교육이 나아가야 할 방향을 함께 모색한다.",
+      "method": "SOURCE_SENTENCE_SELECTION",
+      "sourceKind": "OFFICIAL_SERIES_DESCRIPTION",
+      "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60058964"
+    },
+    {
+      "id": "BCAST-4cbbd5759f1b3c656718",
+      "title": "어른도감 - 신이라 불리는 어른",
+      "summary": "임산부들 사이에서 '출산의 신'이라 불리는 의사, 산부인과 전종관 교수가 어른도감에 찾아왔다. 34년간 그가 받은 아기는 약 2만 5천 명. 특히 일반 출산에 비해 위험 부담이 큰 다태아 출산을 전문으로 맡아오면서, 그가 분만을 집도한 쌍둥이만 4,500쌍 정도이다. 그런 그가 임신부들에게 꼭 하는 말이 하나 있다. 바로 '임신 안 한 듯' 살라는 것. 그는 보통 임신을 하면 여성들이 안정을 취하려고 활동에 여러 제한을 두지만, 사실 임신 전과 똑같이 생활해도 문제 되지 않는다고 말한다.",
+      "method": "OFFICIAL_DESCRIPTION_EXCERPT",
+      "sourceKind": "OFFICIAL_DESCRIPTION_EXCERPT",
+      "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60357487"
+    },
+    {
+      "id": "BCAST-6812841a6ede7ed4da7f",
+      "title": "문어의 꿈!",
+      "summary": "문어는 변신의 천재? 동요로 알아보는 문어의 숨겨진 과거! 신나게 춤추며 함께 문어가 되어 보자~",
+      "method": "SOURCE_SENTENCE_SELECTION",
+      "evidenceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=BA0AA000000000009&stepId=01BA0AA000000000009&pageNumber=20&orderby=NEW"
+    }
+  ],
+  "search": {
+    "q": "갯벌 생태계",
+    "total": 5
+  },
+  "checks": [
+    "현재 서버 회차·목록·발췌 3유형 소개문 확인",
+    "발췌 원문 범위·종류 유지",
+    "현재 서버 갯벌 생태계 검색",
+    "1440/390px 가로 넘침 없음",
+    "브라우저 오류 없음"
+  ],
+  "errors": [],
+  "paidApiCalls": 0
+}

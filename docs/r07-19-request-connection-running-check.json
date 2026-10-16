@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-10-13T18:56:43.768Z",
+  "base": "http://localhost:3000",
+  "cases": [
+    {
+      "name": "GET 입력 봉투",
+      "status": "LOCAL_ONLY",
+      "total": 1
+    },
+    {
+      "name": "POST 실제 카탈로그",
+      "status": "SUPPLIED_CONTRACT_APPLIED",
+      "total": 1,
+      "source": "CALLER_SUPPLIED_NOT_LLM_EXECUTION",
+      "results": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "requestRequirements": {
+            "status": "MATCH",
+            "confirmation": "SOURCE_REQUIREMENTS_MATCH",
+            "items": [
+              {
+                "clauseId": "c1",
+                "kind": "topic",
+                "mode": "required",
+                "label": "화산 지형",
+                "status": "MATCH",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 9,
+                    "end": 14,
+                    "quote": "화산 지형"
+                  }
+                ],
+                "basis": "SOURCE_TOPIC_CANDIDATE"
+              },
+              {
+                "clauseId": "c2",
+                "kind": "geography",
+                "mode": "required",
+                "label": "국내",
+                "status": "MATCH",
+                "evidence": [
+                  {
+                    "scope": "DOMESTIC",
+                    "field": "title",
+                    "start": 4,
+                    "end": 7,
+                    "quote": "한라산"
+                  },
+                  {
+                    "scope": "DOMESTIC",
+                    "field": "summary",
+                    "start": 0,
+                    "end": 3,
+                    "quote": "한라산"
+                  }
+                ],
+                "basis": "SOURCE_LOCATION_CUE"
+              },
+              {
+                "clauseId": "c3",
+                "kind": "relation",
+                "mode": "required",
+                "label": "지역 사례",
+                "status": "MATCH",
+                "evidence": [],
+                "basis": "INDEXED_TOPIC_PLACE_RELATION"
+              },
+              {
+                "clauseId": "c4",
+                "kind": "purpose",
+                "mode": "context",
+                "label": "수업 활용",
+                "status": "UNKNOWN",
+                "evidence": [],
+                "basis": "CLASSROOM_CONTEXT_ONLY"
+              }
+            ],
+            "note": "원문/메타데이터 기준의 조건 대조입니다. 영상 장면·난이도·사람 승인은 확인되지 않았습니다."
+          }
+        }
+      ]
+    },
+    {
+      "name": "잘못된 원문 거절·조건 유지",
+      "status": "FALLBACK_INVALID",
+      "validation": {
+        "accepted": false,
+        "errors": [
+          "original query changed"
+        ],
+        "meaningCoverage": "NOT_CHECKED"
+      }
+    },
+    {
+      "name": "선택 기준 유지",
+      "searchMode": "COMBINED",
+      "standard": "6과12-02",
+      "total": 0
+    }
+  ],
+  "protectedStoreHashes": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "actualLlmConnected": false
+}

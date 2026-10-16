@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-05T00:26:09.792Z",
+  "cases": [
+    {
+      "name": "작업공간·출처 점검 인증·Origin·Host·메서드·입력 경계",
+      "passed": true
+    },
+    {
+      "name": "직접 접근 로그인 복귀·초안 없는 신규 집계·어휘 0건과 오류 구분",
+      "passed": true
+    },
+    {
+      "name": "원본 자료 상세·미리보기 무저장·필터와 목록 복귀 보존",
+      "passed": true
+    },
+    {
+      "name": "일괄 실행 명시 대상·현재 건 이후 중단·새로고침 후 미완료만 재개",
+      "passed": true
+    },
+    {
+      "name": "검색 준비 실패는 저장 성공과 분리·재개 시 검색만 재시도",
+      "passed": true
+    },
+    {
+      "name": "현재 원문·인용 위치·기준 요구·미확인 부분·선택적 사람 관계 문맥",
+      "passed": true
+    },
+    {
+      "name": "원문 변경 예외와 이전 근거·현재 원문 비교·응답 미확인 재개 중복 방지",
+      "passed": true
+    },
+    {
+      "name": "빈 목록·상세 실패와 재시도·로딩·세션 만료 복귀·교사 폴더 보존",
+      "passed": true
+    },
+    {
+      "name": "수정 전 코드 실행 재현: 미리보기 후 수정해도 과거 제목 전송",
+      "passed": true
+    },
+    {
+      "name": "단일 입력 모든 필드·CSV 텍스트·파일·스냅샷·입력 방법 변경 무효화",
+      "passed": true
+    },
+    {
+      "name": "미리보기 요청 중 수정·응답 순서 역전에도 최신 결과만 저장 가능",
+      "passed": true
+    },
+    {
+      "name": "CSV 파일 읽기 중 스냅샷 변경 시 요청·저장 무효화",
+      "passed": true
+    },
+    {
+      "name": "이벤트 없는 값 변경도 저장 직전 비교로 차단·현재 입력 보존",
+      "passed": true
+    },
+    {
+      "name": "연속 저장 1회만 전송·저장 중 입력 잠금·실패 후 입력 보존",
+      "passed": true
+    },
+    {
+      "name": "기존 승인 4개·실제 JSON 및 방송/시맨틱/자동 DB 무변경",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "479de8b68137a26ba18ffa40023c76cd4b41861971de983aa44497cd5bd2287e"
+  },
+  "fixture": "임시 서버·합성 방송 DB·복제 JSON; 가져오기는 요청을 가로채 전송값 검사",
+  "paidApiCalls": 0
+}

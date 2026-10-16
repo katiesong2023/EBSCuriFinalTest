@@ -1,0 +1,5862 @@
+{
+  "date": "2026-10-14",
+  "origin": "USER_SUPPLIED_AI_AUTHORED_TEACHER_PROXY",
+  "actualTeacherRequests": 0,
+  "independentHumanReview": false,
+  "finalEvaluationUsed": false,
+  "metrics": {
+    "requests": 100,
+    "empty": 98,
+    "withCandidates": 2,
+    "top5OpportunitySlots": 500,
+    "returnedTop5Slots": 7,
+    "reviewedTop5Slots": 7,
+    "judgmentCounts": {
+      "TEXT_SUPPORTED": 2,
+      "INSUFFICIENT_SOURCE": 3,
+      "UNRELATED": 2
+    },
+    "requestsWithTextSupportedTop5": 1,
+    "apiQuoteChecks": 9,
+    "quoteMatchFailures": 0,
+    "excludedRequests": 11,
+    "excludedParseMismatches": 11,
+    "exclusionCandidatePairs": 0,
+    "exclusionComplianceRate": null,
+    "requiredConditionRequests": 70,
+    "requiredConditionCandidatePairs": 0,
+    "requiredConditionComplianceRate": null,
+    "preferenceRequests": 8,
+    "preferenceParseMismatches": 8,
+    "purposeAsFormatRequests": 4,
+    "explicitOrFailuresReviewed": 4,
+    "latencyTop20MedianMs": 499.0,
+    "knownAnswerRecall": null,
+    "teacherUsefulness": null
+  },
+  "requestReviews": [
+    {
+      "id": "X100-Q001",
+      "originalId": "Q001",
+      "query": "옛날 교통수단",
+      "total": 0,
+      "apiTerms": [
+        "옛날",
+        "교통수단"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q002",
+      "originalId": "Q002",
+      "query": "방위표와 지도 기호",
+      "total": 0,
+      "apiTerms": [
+        "방위표",
+        "지도",
+        "기호"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "방위표 내용",
+          "supporting_phrase": "방위표"
+        },
+        {
+          "condition": "지도 기호 내용",
+          "supporting_phrase": "지도 기호"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q003",
+      "originalId": "Q003",
+      "query": "우리 고장 공공기관 조사하기 전에 아이들이 소방서, 우체국, 주민센터가 각각 무슨 일을 하는지 감 잡을 수 있게 도입으로 보여줄 영상 찾아요",
+      "total": 0,
+      "apiTerms": [
+        "고장",
+        "공공기관",
+        "조사하기",
+        "아이",
+        "소방서",
+        "우체국",
+        "주민센터",
+        "각각",
+        "감",
+        "잡을",
+        "있게",
+        "도입"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "소방서 역할",
+          "supporting_phrase": "소방서"
+        },
+        {
+          "condition": "우체국 역할",
+          "supporting_phrase": "우체국"
+        },
+        {
+          "condition": "주민센터 역할",
+          "supporting_phrase": "주민센터"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q004",
+      "originalId": "Q004",
+      "query": "세시풍속 단원 마무리로 설날, 단오, 추석에 하던 놀이와 음식을 정리해 줄 수 있는 자료 있을까요? 학생들이 표로 정리하는 활동에 쓰려고요",
+      "total": 0,
+      "apiTerms": [
+        "세시풍속",
+        "단원",
+        "마무리",
+        "설날",
+        "단오",
+        "추석",
+        "하던",
+        "놀이",
+        "음식",
+        "정리해",
+        "줄",
+        "학생",
+        "표로",
+        "정리하",
+        "쓰려고요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "설날",
+          "supporting_phrase": "설날"
+        },
+        {
+          "condition": "단오",
+          "supporting_phrase": "단오"
+        },
+        {
+          "condition": "추석",
+          "supporting_phrase": "추석"
+        },
+        {
+          "condition": "놀이 내용",
+          "supporting_phrase": "놀이"
+        },
+        {
+          "condition": "음식 내용",
+          "supporting_phrase": "음식"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_GRAMMAR_IN_SEARCH_TERMS",
+          "note": "표 정리 활동/학생/쓰려고요가 terms에 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q005",
+      "originalId": "Q005",
+      "query": "옛날 통신 수단에서 오늘날 통신 수단으로 바뀐 모습을 보고 학생들이 '편리해진 점과 새로 생긴 문제'를 토의하게 하려고 합니다",
+      "total": 0,
+      "apiTerms": [
+        "옛날",
+        "통신",
+        "수단",
+        "보고",
+        "학생",
+        "편리해진",
+        "점과",
+        "새로",
+        "생긴",
+        "문제",
+        "토의하게",
+        "하려고",
+        "합니다"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "옛날 통신 수단",
+          "supporting_phrase": "옛날 통신 수단"
+        },
+        {
+          "condition": "오늘날 통신 수단",
+          "supporting_phrase": "오늘날 통신 수단"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q006",
+      "originalId": "Q006",
+      "query": "아이들이 시장에서 물건 사는 거랑 마트에서 사는 거 말고, 물건이 어디서 만들어져서 우리 손에 오는지 궁금해해요. 그걸 보여줄 수 있는 거요",
+      "total": 0,
+      "apiTerms": [
+        "아이",
+        "시장",
+        "물건",
+        "사는",
+        "거랑",
+        "마트",
+        "어디서",
+        "만들어져서",
+        "손에",
+        "오는지",
+        "궁금해해요",
+        "그걸"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [
+        "거"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "구매 장소(시장·마트) 비교 자체가 목적이 아님",
+          "supporting_phrase": "말고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "구매 장소 비교를 주제에서 제외하려는 문맥을 excluded=[거]로 처리하고 시장·마트를 양의 검색어에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q007",
+      "originalId": "Q007",
+      "query": "산골 마을이랑 바닷가 마을 사람들이 먹고사는 방법이 어떻게 다른지 보여주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "산골",
+        "마을이랑",
+        "바닷",
+        "마을",
+        "사람",
+        "먹고사",
+        "다른지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "산지 촌락의 생업",
+          "supporting_phrase": "산골 마을"
+        },
+        {
+          "condition": "해안 촌락의 생업",
+          "supporting_phrase": "바닷가 마을"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q008",
+      "originalId": "Q008",
+      "query": "할머니 할아버지 어릴 적에는 집안일을 어떻게 했는지, 그때 쓰던 물건들이 나오는 거 찾아요",
+      "total": 0,
+      "apiTerms": [
+        "할머니",
+        "할아버지",
+        "어릴",
+        "적에",
+        "집안일",
+        "했는지",
+        "그때",
+        "쓰던",
+        "물건",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "집안일 방식",
+          "supporting_phrase": "집안일을 어떻게 했는지"
+        },
+        {
+          "condition": "당시 물건(생활 도구)",
+          "supporting_phrase": "그때 쓰던 물건들"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q009",
+      "originalId": "Q009",
+      "query": "고장에 새 도로나 지하철이 생기면 사람들 생활이 어떻게 달라지는지 알려주는 자료",
+      "total": 0,
+      "apiTerms": [
+        "고장",
+        "새",
+        "도로나",
+        "지하철",
+        "생기면",
+        "사람들",
+        "달라지는지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "교통 시설이 생긴 뒤 생활 변화가 설명됨",
+          "supporting_phrase": "생활이 어떻게 달라지는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q010",
+      "originalId": "Q010",
+      "query": "논이 많은 지역에서는 왜 쌀농사를 많이 짓게 됐는지, 땅 모양이나 물이랑 연결해서 설명해 주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "논이",
+        "많은",
+        "지역에서",
+        "쌀농사",
+        "많이",
+        "짓게",
+        "됐는지",
+        "땅",
+        "모양이나",
+        "물이랑",
+        "연결해서"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "벼농사 발달 이유 설명",
+          "supporting_phrase": "왜 쌀농사를 많이 짓게 됐는지"
+        },
+        {
+          "condition": "지형 또는 물과 연결",
+          "supporting_phrase": "땅 모양이나 물이랑 연결해서"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q011",
+      "originalId": "Q011",
+      "query": "옛날 결혼식과 오늘날 결혼식을 비교해 볼 수 있는 자료",
+      "total": 0,
+      "apiTerms": [
+        "옛날",
+        "결혼식",
+        "비교해"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "옛날 결혼식",
+          "supporting_phrase": "옛날 결혼식"
+        },
+        {
+          "condition": "오늘날 결혼식",
+          "supporting_phrase": "오늘날 결혼식"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q012",
+      "originalId": "Q012",
+      "query": "종이 지도랑 디지털 영상 지도가 쓰임새가 어떻게 다른지 비교해서 보여줄 만한 거",
+      "total": 0,
+      "apiTerms": [
+        "종이",
+        "지도랑",
+        "디지털",
+        "지도",
+        "쓰임새",
+        "다른지",
+        "비교해서",
+        "만한",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "종이 지도",
+          "supporting_phrase": "종이 지도"
+        },
+        {
+          "condition": "디지털 영상 지도",
+          "supporting_phrase": "디지털 영상 지도"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q013",
+      "originalId": "Q013",
+      "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+      "total": 0,
+      "apiTerms": [
+        "석탑이나",
+        "목조",
+        "건축물",
+        "둘",
+        "하나라도",
+        "나오면",
+        "되는데",
+        "반드시",
+        "만든",
+        "방법이나",
+        "재료",
+        "있어야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "문화"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "geographicScope": {
+          "required": [
+            "DOMESTIC"
+          ],
+          "quotes": [
+            "우리나라"
+          ]
+        },
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "만든 방법 또는 재료 설명",
+          "supporting_phrase": "반드시 만든 방법이나 재료 설명이 있어야"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "OR_NOT_REPRESENTED",
+          "note": "하나 이상/둘 중 하나라는 명시 대안이 alternativeGroups=[]이며 선택지와 요청 문법이 함께 terms에 남음. 단독 실패 기여는 분리 측정하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q014",
+      "originalId": "Q014",
+      "query": "고장 대표 축제 소개 영상 찾는데, 관광 홍보처럼 볼거리만 나열하는 건 빼고 축제가 생겨난 배경이 나오는 걸로요",
+      "total": 0,
+      "apiTerms": [
+        "고장",
+        "대표",
+        "축제",
+        "소개",
+        "찾는데",
+        "관광",
+        "홍보",
+        "볼거리만",
+        "나열하",
+        "생겨난",
+        "배경",
+        "걸로요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [
+        "건"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "축제 생성 배경 설명",
+          "supporting_phrase": "축제가 생겨난 배경이 나오는"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "볼거리 나열 위주의 관광 홍보물",
+          "supporting_phrase": "관광 홍보처럼 볼거리만 나열하는 건 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "관광 홍보·볼거리 나열 제외를 excluded=[건]으로 처리함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q015",
+      "originalId": "Q015",
+      "query": "옛날 어린이들이 하던 놀이 영상 찾아요. 가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "옛날",
+        "어린이",
+        "하던",
+        "놀이",
+        "가능하면",
+        "아이",
+        "직접",
+        "따라",
+        "있게",
+        "방법까지",
+        "나오면"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "놀이 방법 안내 포함",
+          "supporting_phrase": "가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "놀이 방법의 선호가 preferences에 없고 가능하면/방법까지가 terms에 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q016",
+      "originalId": "Q016",
+      "query": "EBS 애니메이션 형식으로 된 고장 이름 유래 이야기, 10분 안쪽으로 찾아요",
+      "total": 0,
+      "apiTerms": [
+        "ebs",
+        "형식",
+        "된",
+        "고장",
+        "이름",
+        "유래",
+        "이야기"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "애니메이션"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "durationMinutes": 10,
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "애니메이션 형식",
+          "supporting_phrase": "애니메이션 형식"
+        },
+        {
+          "condition": "10분 이내 분량",
+          "supporting_phrase": "10분 안쪽"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q017",
+      "originalId": "Q017",
+      "query": "우리 지역 특산물이 만들어지는 과정을 보여주고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "특산물",
+        "만들어지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "생산 과정이 나옴",
+          "supporting_phrase": "만들어지는 과정"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLARIFICATION_MISSING",
+          "note": "우리 지역의 장소가 미지정인데 지역 확인이 없음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q018",
+      "originalId": "Q018",
+      "query": "배추흰나비 한살이",
+      "total": 0,
+      "apiTerms": [
+        "배추흰나비",
+        "한살"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q019",
+      "originalId": "Q019",
+      "query": "자석 N극 S극",
+      "total": 0,
+      "apiTerms": [
+        "n극",
+        "s극"
+      ],
+      "apiConcepts": [
+        "자석"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q020",
+      "originalId": "Q020",
+      "query": "소리의 세기랑 높낮이 실험 전에, 아이들이 '큰 소리'와 '높은 소리'를 헷갈리지 않게 구분해 주는 자료가 필요해요",
+      "total": 0,
+      "apiTerms": [
+        "소리",
+        "세기랑",
+        "높낮",
+        "아이",
+        "큰",
+        "높은",
+        "헷갈리지",
+        "않게",
+        "구분해",
+        "주는",
+        "필요해요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "실험·시연"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "세기와 높낮이를 구분해 설명",
+          "supporting_phrase": "헷갈리지 않게 구분해 주는"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_PURPOSE_AS_FORMAT",
+          "note": "수업 실험 전에 보여줄 설명/도입 요청에서 실험·시연을 영상의 필수 형식으로 설정함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q021",
+      "originalId": "Q021",
+      "query": "고체, 액체, 기체를 처음 배울 때 주변 물건을 분류하는 활동 직전에 보여줄 영상",
+      "total": 0,
+      "apiTerms": [
+        "처음",
+        "배울",
+        "때",
+        "주변",
+        "물건",
+        "분류하",
+        "직전"
+      ],
+      "apiConcepts": [
+        "물질"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "세 상태 모두 다룸",
+          "supporting_phrase": "고체, 액체, 기체"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q022",
+      "originalId": "Q022",
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "total": 0,
+      "apiTerms": [
+        "기록",
+        "과제",
+        "내기",
+        "동기",
+        "유발용",
+        "쓸"
+      ],
+      "apiConcepts": [
+        "달의 모양"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_GRAMMAR_IN_SEARCH_TERMS",
+          "note": "관찰 기록 과제/동기 유발용/쓸이 terms에 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q023",
+      "originalId": "Q023",
+      "query": "젖은 빨래가 마르면 그 물은 어디로 간 건지 아이가 물어봤어요. 물이 눈에 안 보이게 날아가는 걸 보여줄 수 있는 거요",
+      "total": 0,
+      "apiTerms": [
+        "젖은",
+        "빨래",
+        "마르면",
+        "그",
+        "물",
+        "어디",
+        "간",
+        "건지",
+        "아이",
+        "물어봤어요",
+        "눈에",
+        "안",
+        "보이게",
+        "날아가"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q024",
+      "originalId": "Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "total": 0,
+      "apiTerms": [
+        "냉장고",
+        "붙는",
+        "물건이랑",
+        "안",
+        "물건",
+        "같이",
+        "아이",
+        "뭐가",
+        "붙고",
+        "붙는지",
+        "맞혀",
+        "보게",
+        "하려고요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "붙는 물체",
+          "supporting_phrase": "붙는 물건"
+        },
+        {
+          "condition": "안 붙는 물체",
+          "supporting_phrase": "안 붙는 물건"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q025",
+      "originalId": "Q025",
+      "query": "겨울만 되면 개구리랑 뱀이 다 어디 갔냐고 아이들이 궁금해해요",
+      "total": 0,
+      "apiTerms": [
+        "겨울만",
+        "되면",
+        "개구리랑",
+        "뱀이",
+        "다",
+        "어디",
+        "갔냐고",
+        "아이",
+        "궁금해해요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "개구리 또는 뱀의 겨울나기",
+          "supporting_phrase": "개구리랑 뱀"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q026",
+      "originalId": "Q026",
+      "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "심으면",
+        "싹이",
+        "트고",
+        "열매",
+        "맺기까지",
+        "순서",
+        "자라는지"
+      ],
+      "apiConcepts": [
+        "식물"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "씨앗부터 열매까지 순서",
+          "supporting_phrase": "어떤 순서로 자라는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q027",
+      "originalId": "Q027",
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "total": 0,
+      "apiTerms": [
+        "실",
+        "전화기",
+        "소리",
+        "전달되는지",
+        "실이",
+        "팽팽할",
+        "때랑",
+        "느슨할",
+        "때",
+        "차이까지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "실 전화기 소리 전달 원리",
+          "supporting_phrase": "어떻게 전달되는지"
+        },
+        {
+          "condition": "팽팽할 때와 느슨할 때 차이",
+          "supporting_phrase": "팽팽할 때랑 느슨할 때 차이까지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q028",
+      "originalId": "Q028",
+      "query": "곤충이랑 거미가 몸 구조에서 어떻게 다른지 비교해 주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "곤충이랑",
+        "거미",
+        "몸",
+        "구조",
+        "다른지",
+        "비교해",
+        "주는"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "곤충",
+          "supporting_phrase": "곤충"
+        },
+        {
+          "condition": "거미",
+          "supporting_phrase": "거미"
+        },
+        {
+          "condition": "몸 구조 차이",
+          "supporting_phrase": "몸 구조에서 어떻게 다른지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q029",
+      "originalId": "Q029",
+      "query": "사막이나 극지방 중 한 곳에 사는 동물이 그 환경에 맞게 생긴 모습이 나오는 영상이요. 둘 중 하나만 나와도 괜찮아요",
+      "total": 0,
+      "apiTerms": [
+        "사막이나",
+        "극지방",
+        "한",
+        "곳에",
+        "사는",
+        "동물",
+        "그",
+        "맞게",
+        "생긴",
+        "둘",
+        "하나만",
+        "나와도",
+        "괜찮아요"
+      ],
+      "apiConcepts": [
+        "환경"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "생김새와 환경의 관계",
+          "supporting_phrase": "그 환경에 맞게 생긴 모습"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "OR_NOT_REPRESENTED",
+          "note": "하나 이상/둘 중 하나라는 명시 대안이 alternativeGroups=[]이며 선택지와 요청 문법이 함께 terms에 남음. 단독 실패 기여는 분리 측정하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q030",
+      "originalId": "Q030",
+      "query": "흙이 만들어지는 과정을 보여주는데, 반드시 바위가 부서지는 장면과 식물·동물 같은 것이 섞이는 설명이 둘 다 있어야 해요",
+      "total": 0,
+      "apiTerms": [
+        "흙",
+        "만들어지",
+        "데",
+        "반드시",
+        "바위",
+        "부서지",
+        "장면",
+        "동물",
+        "같은",
+        "것이",
+        "섞이",
+        "둘",
+        "다",
+        "있어야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "식물"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "바위가 부서지는 장면",
+          "supporting_phrase": "바위가 부서지는 장면"
+        },
+        {
+          "condition": "생물 물질이 섞이는 설명",
+          "supporting_phrase": "식물·동물 같은 것이 섞이는 설명"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q031",
+      "originalId": "Q031",
+      "query": "화산 영상 찾는데 실제 재난 피해 장면이나 사람이 다치는 장면은 빼 주세요. 화산 생김새랑 분출물 위주로요",
+      "total": 0,
+      "apiTerms": [
+        "찾는데",
+        "재난",
+        "피해",
+        "장면이나",
+        "사람",
+        "다치",
+        "장면",
+        "빼",
+        "생김새랑",
+        "분출물",
+        "위주로요"
+      ],
+      "apiConcepts": [
+        "화산"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "화산 생김새·분출물 중심",
+          "supporting_phrase": "화산 생김새랑 분출물 위주로"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "재난 피해 장면",
+          "supporting_phrase": "실제 재난 피해 장면"
+        },
+        {
+          "condition": "사람이 다치는 장면",
+          "supporting_phrase": "사람이 다치는 장면은 빼 주세요"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "재난 피해/다치는 장면 제외가 excluded=[]이고 양의 검색어로 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q032",
+      "originalId": "Q032",
+      "query": "물의 세 가지 상태 설명 자료요. 실험실 기구 쓰는 건 말고 집에서 볼 수 있는 예로 보여주는 거",
+      "total": 0,
+      "apiTerms": [
+        "물",
+        "세",
+        "가지",
+        "상태",
+        "자료요",
+        "실험실",
+        "기구",
+        "쓰는",
+        "집",
+        "예로",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [
+        "건"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "집에서 볼 수 있는 예",
+          "supporting_phrase": "집에서 볼 수 있는 예로"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "실험실 기구 사용 장면 중심",
+          "supporting_phrase": "실험실 기구 쓰는 건 말고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "실험실 기구 중심 제외를 excluded=[건]으로 처리함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q033",
+      "originalId": "Q033",
+      "query": "동물의 한살이 자료요. 있으면 좋겠는 건 실제 촬영 장면인데, 그림으로 된 것도 괜찮아요",
+      "total": 0,
+      "apiTerms": [
+        "동물",
+        "한살",
+        "자료요",
+        "좋겠",
+        "건",
+        "촬영",
+        "장면인데",
+        "그림",
+        "된",
+        "것도",
+        "괜찮아요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "실사 촬영",
+          "supporting_phrase": "있으면 좋겠는 건 실제 촬영 장면"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "실사 선호·그림 허용을 선호/대안으로 분리하지 않고 촬영/그림 등을 terms에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q034",
+      "originalId": "Q034",
+      "query": "아까 본 거 같은, 돌이 층층이 쌓여 있는 이런 모습 다른 지역 것도 보여주고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "아까",
+        "본",
+        "거",
+        "같은",
+        "돌이",
+        "층층",
+        "쌓여",
+        "이런",
+        "것도"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLARIFICATION_MISSING",
+          "note": "아까 본 거/이런 모습의 지시 대상이 없는데 확인이 없음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q035",
+      "originalId": "Q035",
+      "query": "독도",
+      "total": 9,
+      "apiTerms": [
+        "독도"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 5,
+      "candidateConditionCompliance": "NO_EXPLICIT_REQUIRED_OR_EXCLUDED_CONDITIONS",
+      "emptyRootCause": null
+    },
+    {
+      "id": "X100-Q036",
+      "originalId": "Q036",
+      "query": "삼권 분립",
+      "total": 0,
+      "apiTerms": [
+        "삼권",
+        "분립"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q037",
+      "originalId": "Q037",
+      "query": "모의 학급 선거를 하기 전에 선거의 기본 원칙을 실제 사례로 이해시킬 영상 찾습니다",
+      "total": 0,
+      "apiTerms": [
+        "모의",
+        "학급",
+        "선거",
+        "하기",
+        "기본",
+        "원칙",
+        "이해시킬",
+        "찾습니다"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "실제 사례 포함",
+          "supporting_phrase": "실제 사례로"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q038",
+      "originalId": "Q038",
+      "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "침해",
+        "보고",
+        "해결",
+        "모둠별",
+        "토론하려고",
+        "해요",
+        "학교나",
+        "자료면"
+      ],
+      "apiConcepts": [
+        "인권"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "학교·생활 속 사례",
+          "supporting_phrase": "학교나 생활 속 사례가 나오는 자료면 좋겠어요"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "학교·생활 속 사례 선호를 preferences로 분리하지 않고 학교나/자료면 등을 terms에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q039",
+      "originalId": "Q039",
+      "query": "조선 후기 실학자들의 생각을 소개하고, 학생들이 '내가 실학자라면 무엇을 바꿀까' 글쓰기를 하게 하려고요",
+      "total": 0,
+      "apiTerms": [
+        "조선",
+        "후기",
+        "실학자들",
+        "생각",
+        "소개하고",
+        "학생",
+        "내가",
+        "실학자라면",
+        "무엇",
+        "바꿀까",
+        "글쓰기",
+        "하게",
+        "하려고요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_GRAMMAR_IN_SEARCH_TERMS",
+          "note": "글쓰기 과제의 내가 실학자라면/학생/글쓰기/하려고요가 terms에 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q040",
+      "originalId": "Q040",
+      "query": "사람들이 시골을 떠나서 도시로 몰려가면서 생긴 문제들 보여주는 영상",
+      "total": 0,
+      "apiTerms": [
+        "사람",
+        "시골",
+        "떠나서",
+        "도시",
+        "몰려가면서",
+        "생긴",
+        "문제들"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "그로 인해 생긴 문제",
+          "supporting_phrase": "생긴 문제들"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q041",
+      "originalId": "Q041",
+      "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+      "total": 0,
+      "apiTerms": [
+        "쓰는",
+        "물건",
+        "중에",
+        "나라",
+        "온",
+        "것도",
+        "많고",
+        "물건도",
+        "팔리잖아요",
+        "그렇게",
+        "나라끼리",
+        "주고받",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "geographicScope": {
+          "required": [
+            "FOREIGN"
+          ],
+          "quotes": [
+            "외국에"
+          ]
+        },
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q042",
+      "originalId": "Q042",
+      "query": "일제가 토지 조사 사업을 하면서 농민들 삶이 어떻게 바뀌었는지",
+      "total": 0,
+      "apiTerms": [
+        "일제",
+        "토지",
+        "조사",
+        "사업",
+        "하면서",
+        "농민들",
+        "삶이",
+        "바뀌었는지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "농민 삶의 변화",
+          "supporting_phrase": "농민들 삶이 어떻게 바뀌었는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q043",
+      "originalId": "Q043",
+      "query": "고려가 몽골의 침입에 어떻게 맞섰고, 그 과정에서 팔만대장경을 왜 만들었는지 알려주는 자료",
+      "total": 0,
+      "apiTerms": [
+        "고려",
+        "몽골",
+        "침입",
+        "맞섰고",
+        "그",
+        "팔만대장경",
+        "만들었는지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "몽골 침입 대응",
+          "supporting_phrase": "어떻게 맞섰고"
+        },
+        {
+          "condition": "팔만대장경 제작 이유",
+          "supporting_phrase": "팔만대장경을 왜 만들었는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q044",
+      "originalId": "Q044",
+      "query": "저출산이랑 고령화가 계속되면 사회에 어떤 변화가 생기는지",
+      "total": 0,
+      "apiTerms": [
+        "계속되면",
+        "생기는지"
+      ],
+      "apiConcepts": [
+        "인구"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "사회 변화(결과)",
+          "supporting_phrase": "사회에 어떤 변화가 생기는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q045",
+      "originalId": "Q045",
+      "query": "고조선 8조법과 오늘날 법이 하는 역할을 비교해 볼 수 있는 자료",
+      "total": 0,
+      "apiTerms": [
+        "8조법",
+        "법이",
+        "하는",
+        "비교해"
+      ],
+      "apiConcepts": [
+        "고조선"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "고조선 8조법",
+          "supporting_phrase": "고조선 8조법"
+        },
+        {
+          "condition": "오늘날 법",
+          "supporting_phrase": "오늘날 법"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q046",
+      "originalId": "Q046",
+      "query": "4·19 혁명과 6월 민주 항쟁의 공통점과 차이점을 정리할 수 있는 자료",
+      "total": 0,
+      "apiTerms": [
+        "6월",
+        "민주",
+        "항쟁",
+        "공통점",
+        "차이점",
+        "정리할"
+      ],
+      "apiConcepts": [
+        "4·19 혁명"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "4·19 혁명",
+          "supporting_phrase": "4·19 혁명"
+        },
+        {
+          "condition": "6월 민주 항쟁",
+          "supporting_phrase": "6월 민주 항쟁"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q047",
+      "originalId": "Q047",
+      "query": "세계 여러 나라의 기후랑 거기에 맞는 집 모양이 함께 나와야 하고, 열대와 한대 지역이 반드시 둘 다 들어간 영상이요",
+      "total": 0,
+      "apiTerms": [
+        "세계",
+        "여러",
+        "나라",
+        "기후랑",
+        "거기",
+        "맞는",
+        "집",
+        "모양",
+        "함께",
+        "나와야",
+        "하고",
+        "열대",
+        "한대",
+        "반드시",
+        "둘",
+        "다",
+        "들어간"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "기후와 집 모양이 함께",
+          "supporting_phrase": "기후랑 거기에 맞는 집 모양이 함께 나와야"
+        },
+        {
+          "condition": "열대 지역",
+          "supporting_phrase": "열대"
+        },
+        {
+          "condition": "한대 지역",
+          "supporting_phrase": "한대 지역"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q048",
+      "originalId": "Q048",
+      "query": "임진왜란 수업 자료인데 전투 장면은 빼 주세요. 백성들이 의병으로 나서게 된 배경이랑 생활 위주로요",
+      "total": 0,
+      "apiTerms": [
+        "임진왜란",
+        "자료인데",
+        "전투",
+        "장면",
+        "빼",
+        "백성",
+        "의병",
+        "나서게",
+        "된",
+        "배경이랑",
+        "위주로요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "의병 봉기 배경과 백성 생활 중심",
+          "supporting_phrase": "의병으로 나서게 된 배경이랑 생활 위주로"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "전투 장면",
+          "supporting_phrase": "전투 장면은 빼 주세요"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "전투 장면 제외가 excluded=[]이고 양의 검색어로 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q049",
+      "originalId": "Q049",
+      "query": "우리나라 경제 성장 과정 영상인데, 특정 기업 홍보 같은 건 빼고 1960~70년대 산업이 어떻게 바뀌었는지 나오는 거요",
+      "total": 0,
+      "apiTerms": [
+        "성장",
+        "영상인데",
+        "특정",
+        "기업",
+        "홍보",
+        "같은",
+        "건",
+        "빼",
+        "60",
+        "70년대",
+        "산업",
+        "바뀌었는지"
+      ],
+      "apiConcepts": [
+        "경제"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "geographicScope": {
+          "required": [
+            "DOMESTIC"
+          ],
+          "quotes": [
+            "우리나라"
+          ]
+        },
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [
+            {
+              "schoolLevel": "고등학교",
+              "grade": 19
+            }
+          ],
+          "warnings": [
+            "학교급이 모호하거나 지원하지 않는 학년이 있습니다. 초등 3~6학년 또는 중학교 1학년을 선택하세요.",
+            "학년은 수업 문맥입니다. 교육과정 연계와 영상의 실제 학년 적합성은 별도로 확인합니다."
+          ],
+          "needsClarification": true,
+          "source": "unresolved",
+          "label": "학년 확인 필요"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "1960~70년대 산업 변화",
+          "supporting_phrase": "1960~70년대 산업이 어떻게 바뀌었는지"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "특정 기업 홍보",
+          "supporting_phrase": "특정 기업 홍보 같은 건 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "기업 홍보 제외가 excluded=[]이고 양의 검색어로 남음."
+        },
+        {
+          "tag": "ERA_AS_GRADE",
+          "note": "1960~70년대가 고등학교19학년 미해결 문맥으로 파싱되어 학년 확인 경고가 표시됨. 학년 한정의 실제 영향은 미측정."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q050",
+      "originalId": "Q050",
+      "query": "조선의 신분 제도 자료요. 가능하면 드라마보다 다큐 형식이었으면 하고, 반드시 양반·중인·상민·천민 구분이 나와야 해요",
+      "total": 0,
+      "apiTerms": [
+        "조선",
+        "신분",
+        "제도",
+        "자료요",
+        "가능하면",
+        "드라마보다",
+        "형식이었으면",
+        "하고",
+        "반드시",
+        "양반",
+        "중인",
+        "상민",
+        "천민",
+        "구분",
+        "나와야",
+        "해요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "다큐멘터리"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "네 신분 구분",
+          "supporting_phrase": "반드시 양반·중인·상민·천민 구분이 나와야"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "다큐 형식 선호",
+          "supporting_phrase": "가능하면 드라마보다 다큐 형식이었으면"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "가능하면 다큐 선호를 requiredGenres=[다큐멘터리]로 강화함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q051",
+      "originalId": "Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "total": 0,
+      "apiTerms": [
+        "편",
+        "중에",
+        "같이",
+        "거"
+      ],
+      "apiConcepts": [
+        "인권"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [
+        [
+          {
+            "text": "차별",
+            "concepts": [
+              {
+                "id": "rights",
+                "label": "인권",
+                "subject": "사회",
+                "aliases": [
+                  "인권",
+                  "차별",
+                  "평등"
+                ],
+                "specificAliases": [],
+                "broader": null,
+                "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                "ruleVersion": "2026-10-12.2"
+              }
+            ],
+            "terms": []
+          },
+          {
+            "text": "인권",
+            "concepts": [
+              {
+                "id": "rights",
+                "label": "인권",
+                "subject": "사회",
+                "aliases": [
+                  "인권",
+                  "차별",
+                  "평등"
+                ],
+                "specificAliases": [],
+                "broader": null,
+                "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+                "ruleVersion": "2026-10-12.2"
+              }
+            ],
+            "terms": []
+          }
+        ]
+      ],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "subtitles": true,
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "지식채널e 프로그램",
+          "supporting_phrase": "지식채널e"
+        },
+        {
+          "condition": "자막 포함",
+          "supporting_phrase": "자막이 같이 나오는"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "OR_REPRESENTED_CONTROL",
+          "note": "차별이나 인권의 OR는 alternativeGroups에 표현됨. 모든 OR가 실패했다고 일반화하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q052",
+      "originalId": "Q052",
+      "query": "전자석",
+      "total": 2,
+      "apiTerms": [],
+      "apiConcepts": [
+        "자석"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "SPECIFIC_CONCEPT_COLLAPSED",
+          "note": "전자석을 magnet의 일반 별칭으로 처리해 두 일반 자석 후보를 반환함. 원문에 전자석 근거 없음."
+        }
+      ],
+      "reviewedTop5": 2,
+      "candidateConditionCompliance": "NO_EXPLICIT_REQUIRED_OR_EXCLUDED_CONDITIONS",
+      "emptyRootCause": null
+    },
+    {
+      "id": "X100-Q053",
+      "originalId": "Q053",
+      "query": "용해와 용액",
+      "total": 0,
+      "apiTerms": [],
+      "apiConcepts": [
+        "용해"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q054",
+      "originalId": "Q054",
+      "query": "연소 조건 실험 전에 안전 교육도 겸해서 '불이 붙으려면 무엇이 필요할까' 질문을 던질 수 있는 도입 자료",
+      "total": 0,
+      "apiTerms": [
+        "연소",
+        "안전",
+        "교육도",
+        "겸해서",
+        "불이",
+        "붙으려면",
+        "무엇",
+        "필요할까",
+        "질문",
+        "던질",
+        "도입"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "실험·시연"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "연소에 필요한 요소에 대한 질문·제시",
+          "supporting_phrase": "불이 붙으려면 무엇이 필요할까"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_PURPOSE_AS_FORMAT",
+          "note": "수업 실험 전에 보여줄 설명/도입 요청에서 실험·시연을 영상의 필수 형식으로 설정함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q055",
+      "originalId": "Q055",
+      "query": "먹이 사슬이랑 먹이 그물 배운 뒤에 '한 생물이 사라지면 어떻게 될까' 토론 자료로 쓸 영상",
+      "total": 0,
+      "apiTerms": [
+        "먹이",
+        "그물",
+        "배운",
+        "뒤에",
+        "한",
+        "생물",
+        "사라지면",
+        "될까",
+        "쓸"
+      ],
+      "apiConcepts": [
+        "생태계"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "대담·인터뷰"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "생물이 사라졌을 때의 영향",
+          "supporting_phrase": "한 생물이 사라지면 어떻게 될까"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_PURPOSE_AS_FORMAT",
+          "note": "교실 토론에 쓸 자료 요청에서 대담·인터뷰를 영상의 필수 형식으로 설정함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q056",
+      "originalId": "Q056",
+      "query": "추운 날 안경에 김 서리는 거랑 아침에 풀잎에 물방울 맺히는 게 같은 원리라는 걸 보여주는 거",
+      "total": 0,
+      "apiTerms": [
+        "추운",
+        "날",
+        "안경",
+        "김",
+        "서리",
+        "거랑",
+        "아침",
+        "풀잎",
+        "물방울",
+        "맺히",
+        "게",
+        "같은",
+        "원리라",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "같은 원리임을 연결",
+          "supporting_phrase": "같은 원리라는 걸"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q057",
+      "originalId": "Q057",
+      "query": "아이들이 '지구의 허파'가 왜 점점 줄어드는지 물어봤어요",
+      "total": 0,
+      "apiTerms": [
+        "아이",
+        "지구",
+        "점점",
+        "줄어드는지",
+        "물어봤어요"
+      ],
+      "apiConcepts": [
+        "호흡 기관"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "줄어드는 원인",
+          "supporting_phrase": "왜 점점 줄어드는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "METAPHOR_WRONG_CONCEPT",
+          "note": "지구의 허파를 열대우림/산림 대신 호흡 기관으로 해석함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q058",
+      "originalId": "Q058",
+      "query": "숟가락 끝을 뜨거운 국에 담그면 손잡이까지 뜨거워지는 거 설명하는 영상",
+      "total": 0,
+      "apiTerms": [
+        "숟가락",
+        "끝을",
+        "뜨거운",
+        "국에",
+        "담그면",
+        "손잡이까지",
+        "뜨거워지",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q059",
+      "originalId": "Q059",
+      "query": "여름은 덥고 겨울은 추운 이유를 태양 남중 고도랑 연결해서 설명하는 영상",
+      "total": 0,
+      "apiTerms": [
+        "여름",
+        "덥고",
+        "겨울",
+        "추운",
+        "태양",
+        "남중",
+        "고도랑",
+        "연결해서"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "남중 고도와 연결",
+          "supporting_phrase": "태양 남중 고도랑 연결해서"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q060",
+      "originalId": "Q060",
+      "query": "초가 타고 나면 어떤 물질이 생기는지 확인하는 과정이 나오는 영상",
+      "total": 0,
+      "apiTerms": [
+        "초가",
+        "타고",
+        "나면",
+        "생기는지",
+        "확인하"
+      ],
+      "apiConcepts": [
+        "물질"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "확인 과정",
+          "supporting_phrase": "확인하는 과정"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q061",
+      "originalId": "Q061",
+      "query": "전구를 직렬로 연결할 때랑 병렬로 연결할 때 밝기가 왜 다른지",
+      "total": 0,
+      "apiTerms": [
+        "직렬",
+        "연결할",
+        "때랑",
+        "병렬",
+        "때",
+        "밝기",
+        "다른지"
+      ],
+      "apiConcepts": [
+        "전기 회로"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "이유 설명",
+          "supporting_phrase": "왜 다른지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q062",
+      "originalId": "Q062",
+      "query": "산성 용액과 염기성 용액에 지시약을 넣었을 때 색이 어떻게 달라지는지 비교하는 영상",
+      "total": 0,
+      "apiTerms": [
+        "산성",
+        "염기성",
+        "지시약",
+        "넣었",
+        "때",
+        "색이",
+        "달라지는지"
+      ],
+      "apiConcepts": [
+        "용해"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "산성 용액",
+          "supporting_phrase": "산성 용액"
+        },
+        {
+          "condition": "염기성 용액",
+          "supporting_phrase": "염기성 용액"
+        },
+        {
+          "condition": "지시약 색 변화",
+          "supporting_phrase": "지시약"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q063",
+      "originalId": "Q063",
+      "query": "지구와 화성의 환경을 비교해서, 왜 지구에만 생물이 사는지 생각해 볼 수 있는 자료",
+      "total": 0,
+      "apiTerms": [
+        "지구",
+        "화성",
+        "비교해서",
+        "지구에만",
+        "생물",
+        "사는지"
+      ],
+      "apiConcepts": [
+        "환경"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "지구",
+          "supporting_phrase": "지구"
+        },
+        {
+          "condition": "화성",
+          "supporting_phrase": "화성"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q064",
+      "originalId": "Q064",
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "total": 0,
+      "apiTerms": [
+        "평형",
+        "깨진",
+        "사례인데",
+        "국내든",
+        "해외든",
+        "상관없고",
+        "반드시",
+        "뒤",
+        "다시",
+        "회복되",
+        "과정까지",
+        "나와야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "생태계"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "회복 과정 포함",
+          "supporting_phrase": "반드시 깨진 뒤 다시 회복되는 과정까지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q065",
+      "originalId": "Q065",
+      "query": "빛의 굴절 보여주는 영상인데 물과 유리 두 경우가 모두 나와야 해요",
+      "total": 0,
+      "apiTerms": [
+        "굴절",
+        "영상인데",
+        "물",
+        "유리",
+        "두",
+        "경우",
+        "나와야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "빛"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "물",
+          "supporting_phrase": "물"
+        },
+        {
+          "condition": "유리",
+          "supporting_phrase": "유리"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q066",
+      "originalId": "Q066",
+      "query": "우리 몸 소화 기관 영상인데 실제 수술 장면이나 내시경 같은 실물 장면은 빼고 그래픽으로 된 거",
+      "total": 0,
+      "apiTerms": [
+        "영상인데",
+        "수술",
+        "장면이나",
+        "내시경",
+        "같은",
+        "실물",
+        "그래픽",
+        "된",
+        "거"
+      ],
+      "apiConcepts": [
+        "인체",
+        "소화"
+      ],
+      "apiExcluded": [
+        "장면"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "그래픽 표현",
+          "supporting_phrase": "그래픽으로 된 거"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "수술 장면",
+          "supporting_phrase": "실제 수술 장면"
+        },
+        {
+          "condition": "내시경 등 실물 장면",
+          "supporting_phrase": "내시경 같은 실물 장면은 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "수술/내시경 실물 장면 제외를 excluded=[장면]으로 처리, 제외 대상의 수식 범위를 잃음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q067",
+      "originalId": "Q067",
+      "query": "물체의 속력 구하는 방법 자료요. 실생활 교통수단 예시가 있으면 좋겠고, 꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면이에요",
+      "total": 0,
+      "apiTerms": [
+        "물체",
+        "속력",
+        "구하",
+        "자료요",
+        "실생활",
+        "교통수단",
+        "예시",
+        "꼭",
+        "필요한",
+        "건",
+        "이동",
+        "거리",
+        "걸린",
+        "시간",
+        "계산하",
+        "장면이에요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "거리·시간으로 계산하는 장면",
+          "supporting_phrase": "꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "교통수단 예시",
+          "supporting_phrase": "실생활 교통수단 예시가 있으면 좋겠고"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "교통수단 예시 선호를 필수 계산 장면과 구분하지 않고 terms에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q068",
+      "originalId": "Q068",
+      "query": "용질이 다 녹아서 더 이상 안 녹는 순간이 영상 몇 분쯤 나오는지 알 수 있는 거요. 수업 중에 그 부분만 틀려고요",
+      "total": 0,
+      "apiTerms": [
+        "다",
+        "녹아서",
+        "이상",
+        "안",
+        "녹는",
+        "순간",
+        "몇",
+        "분쯤",
+        "나오는지",
+        "알",
+        "중에",
+        "그",
+        "부분만",
+        "틀려고요"
+      ],
+      "apiConcepts": [
+        "용해"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "해당 장면의 시점 정보",
+          "supporting_phrase": "몇 분쯤 나오는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "SCENE_TIME_NOT_REPRESENTED",
+          "note": "용질 포화 장면이 몇 분인지라는 요청에 시간표시 데이터 부족 안내가 없음. 0후보로 실제 시간의 정확성은 미측정."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q069",
+      "originalId": "Q069",
+      "query": "경도와 시차",
+      "total": 0,
+      "apiTerms": [
+        "경도",
+        "시차"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q070",
+      "originalId": "Q070",
+      "query": "문화 상대주의랑 자문화 중심주의를 구분하는 토론 수업 도입 자료가 필요해요. 학생들이 바로 판단 내리지 않고 생각해 볼 만한 사례 중심으로요",
+      "total": 0,
+      "apiTerms": [
+        "상대주의랑",
+        "자문화",
+        "중심주의",
+        "구분하",
+        "필요해요",
+        "학생",
+        "바로",
+        "판단",
+        "내리지",
+        "않고",
+        "만한",
+        "중심으로요"
+      ],
+      "apiConcepts": [
+        "문화"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "대담·인터뷰"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "사례 중심",
+          "supporting_phrase": "사례 중심으로"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_PURPOSE_AS_FORMAT",
+          "note": "교실 토론에 쓸 자료 요청에서 대담·인터뷰를 영상의 필수 형식으로 설정함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q071",
+      "originalId": "Q071",
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "total": 0,
+      "apiTerms": [
+        "청소년",
+        "정치",
+        "참여하",
+        "알아보고",
+        "학교",
+        "문제",
+        "해결하",
+        "제안서",
+        "쓰는",
+        "쓸"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q072",
+      "originalId": "Q072",
+      "query": "쓰레기 소각장이나 공항 같은 시설이 들어온다고 하면 다들 반대하는 현상, 그거 다룬 영상이요",
+      "total": 0,
+      "apiTerms": [
+        "소각장이나",
+        "공항",
+        "같은",
+        "시설",
+        "들어온다고",
+        "하면",
+        "다들",
+        "반대하",
+        "현상",
+        "그거"
+      ],
+      "apiConcepts": [
+        "환경"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q073",
+      "originalId": "Q073",
+      "query": "사람이 태어나서 가족이나 학교, 친구들한테 배우면서 사회 구성원이 되어 가는 거",
+      "total": 0,
+      "apiTerms": [
+        "사람",
+        "태어나서",
+        "가족이나",
+        "학교",
+        "친구들한테",
+        "배우면서",
+        "구성원",
+        "되어",
+        "가는",
+        "거"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q074",
+      "originalId": "Q074",
+      "query": "열대 우림 지역에서 이동식 화전 농업을 하게 된 이유랑 그게 숲에 준 영향",
+      "total": 0,
+      "apiTerms": [
+        "열대",
+        "우림",
+        "이동식",
+        "화전",
+        "농업",
+        "하게",
+        "된",
+        "이유랑",
+        "그게",
+        "숲에",
+        "준"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "하게 된 이유",
+          "supporting_phrase": "하게 된 이유"
+        },
+        {
+          "condition": "숲에 준 영향",
+          "supporting_phrase": "숲에 준 영향"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q075",
+      "originalId": "Q075",
+      "query": "지진이나 해일 같은 자연재해가 일어나는 곳이 판의 경계와 어떤 관계가 있는지",
+      "total": 0,
+      "apiTerms": [
+        "지진이나",
+        "해일",
+        "같은",
+        "자연재해",
+        "일어나",
+        "곳이",
+        "판의",
+        "경계"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "판의 경계와의 관계",
+          "supporting_phrase": "판의 경계와 어떤 관계가 있는지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q076",
+      "originalId": "Q076",
+      "query": "석유 같은 자원이 몇몇 지역에 몰려 있어서 나라들 사이에 생기는 갈등",
+      "total": 0,
+      "apiTerms": [
+        "석유",
+        "같은",
+        "자원",
+        "몇몇",
+        "몰려",
+        "있어서",
+        "나라들",
+        "갈등"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q077",
+      "originalId": "Q077",
+      "query": "선진국과 개발도상국 인구 구조 차이를 인구 피라미드로 비교한 자료",
+      "total": 0,
+      "apiTerms": [
+        "선진국",
+        "개발도상국",
+        "구조",
+        "차이",
+        "피라미드",
+        "비교한"
+      ],
+      "apiConcepts": [
+        "인구"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "선진국",
+          "supporting_phrase": "선진국"
+        },
+        {
+          "condition": "개발도상국",
+          "supporting_phrase": "개발도상국"
+        },
+        {
+          "condition": "인구 피라미드 활용",
+          "supporting_phrase": "인구 피라미드로"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q078",
+      "originalId": "Q078",
+      "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+      "total": 0,
+      "apiTerms": [
+        "사례인데",
+        "해수면",
+        "상승이나",
+        "사막화",
+        "하나",
+        "이상",
+        "나오고",
+        "주민",
+        "인터뷰나",
+        "반드시",
+        "있어야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "기후 변화"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "해수면 상승 또는 사막화",
+          "supporting_phrase": "해수면 상승이나 사막화 중 하나 이상"
+        },
+        {
+          "condition": "주민 인터뷰 또는 생활 모습",
+          "supporting_phrase": "주민 인터뷰나 주민 생활 모습은 반드시"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "OR_NOT_REPRESENTED",
+          "note": "하나 이상/둘 중 하나라는 명시 대안이 alternativeGroups=[]이며 선택지와 요청 문법이 함께 terms에 남음. 단독 실패 기여는 분리 측정하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q079",
+      "originalId": "Q079",
+      "query": "도시 재개발 영상인데 찬성하는 입장과 반대하는 입장이 모두 나와야 해요",
+      "total": 0,
+      "apiTerms": [
+        "도시",
+        "재개발",
+        "영상인데",
+        "찬성하",
+        "입장",
+        "반대하",
+        "나와야",
+        "해요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "찬성 입장",
+          "supporting_phrase": "찬성하는 입장"
+        },
+        {
+          "condition": "반대 입장",
+          "supporting_phrase": "반대하는 입장"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q080",
+      "originalId": "Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "total": 0,
+      "apiTerms": [
+        "자료인데",
+        "특정",
+        "나라",
+        "출신",
+        "우스꽝스럽게",
+        "그리거나",
+        "고정관념",
+        "키우"
+      ],
+      "apiConcepts": [
+        "다문화"
+      ],
+      "apiExcluded": [
+        "내용"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "특정 출신 조롱·희화화",
+          "supporting_phrase": "특정 나라 출신을 우스꽝스럽게 그리거나"
+        },
+        {
+          "condition": "고정관념 강화",
+          "supporting_phrase": "고정관념을 키우는 내용은 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "특정 출신 희화화·고정관념 제외를 excluded=[내용]으로 처리함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q081",
+      "originalId": "Q081",
+      "query": "세계의 종교 경관 자료 찾는데 교리 설명은 빼고 건축물이나 거리 풍경만 나오는 걸로요",
+      "total": 0,
+      "apiTerms": [
+        "세계",
+        "종교",
+        "경관",
+        "찾는데",
+        "교리",
+        "건축물이나",
+        "거리",
+        "풍경만",
+        "걸로요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [
+        "설명"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "건축물·풍경만",
+          "supporting_phrase": "건축물이나 거리 풍경만"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "교리 설명",
+          "supporting_phrase": "교리 설명은 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "교리 설명 제외를 excluded=[설명]으로 처리하고 교리를 양의 검색어로 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q082",
+      "originalId": "Q082",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "브랜드",
+        "영상인데",
+        "가능하면",
+        "사례도",
+        "하나쯤",
+        "들어"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "geographicScope": {
+          "required": [
+            "FOREIGN"
+          ],
+          "quotes": [
+            "외국"
+          ]
+        },
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "외국 사례 포함",
+          "supporting_phrase": "가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "외국 사례 선호를 geographicScope.required=[FOREIGN]으로 강화함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q083",
+      "originalId": "Q083",
+      "query": "EBS 다큐 중에 북극 지방 사람들 생활을 다룬 거요. 한국어 자막이 나오는 걸로요",
+      "total": 0,
+      "apiTerms": [
+        "ebs",
+        "중에",
+        "북극",
+        "지방",
+        "사람들",
+        "한국어",
+        "걸로요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "다큐멘터리"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "subtitles": true,
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "EBS 다큐 형식",
+          "supporting_phrase": "EBS 다큐"
+        },
+        {
+          "condition": "한국어 자막",
+          "supporting_phrase": "한국어 자막이 나오는"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q084",
+      "originalId": "Q084",
+      "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+      "total": 0,
+      "apiTerms": [
+        "재판",
+        "자료요",
+        "법정",
+        "촬영",
+        "장면",
+        "반드시",
+        "나와야",
+        "하고",
+        "아이",
+        "부담스러워해서",
+        "실사",
+        "없이",
+        "그림으로만",
+        "된",
+        "걸로"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "실제 법정 촬영 장면",
+          "supporting_phrase": "실제 법정 촬영 장면이 반드시 나와야"
+        },
+        {
+          "condition": "실사 없이 그림만",
+          "supporting_phrase": "실사 장면 없이 그림으로만"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLARIFICATION_MISSING",
+          "note": "실제 법정 촬영 필수와 실사 없이 그림만이라는 충돌을 지적하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q085",
+      "originalId": "Q085",
+      "query": "광물의 조흔색",
+      "total": 0,
+      "apiTerms": [
+        "광물",
+        "조흔색"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q086",
+      "originalId": "Q086",
+      "query": "생물 분류 단원에서 학생들이 직접 분류 기준을 세워 보기 전에, 기준에 따라 결과가 달라질 수 있다는 걸 보여줄 자료",
+      "total": 0,
+      "apiTerms": [
+        "생물",
+        "분류",
+        "단원",
+        "학생",
+        "직접",
+        "기준",
+        "세워",
+        "보기",
+        "따라",
+        "결과",
+        "달라질",
+        "있다"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "기준에 따라 결과가 달라짐",
+          "supporting_phrase": "기준에 따라 결과가 달라질 수 있다는"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLASSROOM_GRAMMAR_IN_SEARCH_TERMS",
+          "note": "학생/직접/세워/보기 등 활동 문맥이 terms에 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q087",
+      "originalId": "Q087",
+      "query": "보일 법칙 설명할 때 주사기 실험을 화면으로 보여주려고 해요. 압력과 부피 관계가 그래프로 정리되면 더 좋고요",
+      "total": 0,
+      "apiTerms": [
+        "보일",
+        "법칙",
+        "때",
+        "주사기",
+        "화면",
+        "해요",
+        "압력",
+        "부피",
+        "그래프",
+        "정리되면",
+        "좋고요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "실험·시연"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "주사기 실험",
+          "supporting_phrase": "주사기 실험"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "그래프 정리",
+          "supporting_phrase": "그래프로 정리되면 더 좋고요"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "그래프 정리 선호를 선호로 분리하지 않고 그래프/정리되면/좋고요를 terms에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q088",
+      "originalId": "Q088",
+      "query": "운동화 바닥이 닳는 거나 빙판길에서 미끄러지는 거 같은 걸 설명하는 영상",
+      "total": 0,
+      "apiTerms": [
+        "운동화",
+        "바닥",
+        "닳는",
+        "거나",
+        "빙판길",
+        "미끄러지",
+        "거",
+        "같은"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q089",
+      "originalId": "Q089",
+      "query": "여름에 마당에 물 뿌리면 시원해지는 거, 그게 왜 그런지",
+      "total": 0,
+      "apiTerms": [
+        "여름",
+        "마당",
+        "물",
+        "뿌리면",
+        "시원해지",
+        "거",
+        "그게",
+        "그런지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "이유 설명",
+          "supporting_phrase": "왜 그런지"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q090",
+      "originalId": "Q090",
+      "query": "마그마가 식는 속도에 따라 화성암 결정 크기가 어떻게 달라지는지",
+      "total": 0,
+      "apiTerms": [
+        "마그마",
+        "식는",
+        "속도",
+        "따라",
+        "화성암",
+        "결정",
+        "크기",
+        "달라지는지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q091",
+      "originalId": "Q091",
+      "query": "판이 움직이면서 습곡 산맥이나 해구가 만들어지는 과정",
+      "total": 0,
+      "apiTerms": [
+        "판이",
+        "움직이면서",
+        "습곡",
+        "산맥이나",
+        "해구",
+        "만들어지"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q092",
+      "originalId": "Q092",
+      "query": "현무암과 화강암을 비교 관찰하는 장면이 나오는 영상",
+      "total": 0,
+      "apiTerms": [
+        "화강암",
+        "장면"
+      ],
+      "apiConcepts": [
+        "화산"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "현무암",
+          "supporting_phrase": "현무암"
+        },
+        {
+          "condition": "화강암",
+          "supporting_phrase": "화강암"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q093",
+      "originalId": "Q093",
+      "query": "빛의 색을 섞는 것과 물감 색을 섞는 게 어떻게 다른지",
+      "total": 0,
+      "apiTerms": [
+        "색을",
+        "섞는",
+        "것과",
+        "물감",
+        "게",
+        "다른지"
+      ],
+      "apiConcepts": [
+        "빛"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "빛의 색 섞기",
+          "supporting_phrase": "빛의 색을 섞는 것"
+        },
+        {
+          "condition": "물감 색 섞기",
+          "supporting_phrase": "물감 색을 섞는 게"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q094",
+      "originalId": "Q094",
+      "query": "탄성력 예시인데 용수철, 고무줄, 트램펄린 중 아무거나 하나 이상이면 되고, 늘어난 길이와 힘의 관계 설명은 꼭 있어야 해요",
+      "total": 0,
+      "apiTerms": [
+        "탄성력",
+        "예시인데",
+        "용수철",
+        "고무줄",
+        "트램펄린",
+        "아무거나",
+        "하나",
+        "이상이면",
+        "되고",
+        "늘어난",
+        "길이",
+        "힘",
+        "꼭",
+        "있어야",
+        "해요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "용수철·고무줄·트램펄린 중 하나 이상",
+          "supporting_phrase": "중 아무거나 하나 이상"
+        },
+        {
+          "condition": "길이와 힘의 관계",
+          "supporting_phrase": "늘어난 길이와 힘의 관계 설명은 꼭"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "OR_NOT_REPRESENTED",
+          "note": "하나 이상/둘 중 하나라는 명시 대안이 alternativeGroups=[]이며 선택지와 요청 문법이 함께 terms에 남음. 단독 실패 기여는 분리 측정하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q095",
+      "originalId": "Q095",
+      "query": "기체의 온도와 부피 관계 영상인데 풍선 실험과 찌그러진 탁구공 펴기 같은 일상 예시가 둘 다 나와야 해요",
+      "total": 0,
+      "apiTerms": [
+        "온도",
+        "부피",
+        "영상인데",
+        "풍선",
+        "실험",
+        "찌그러진",
+        "탁구공",
+        "펴기",
+        "같은",
+        "일상",
+        "예시",
+        "둘",
+        "다",
+        "나와야",
+        "해요"
+      ],
+      "apiConcepts": [
+        "물질"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "풍선 실험",
+          "supporting_phrase": "풍선 실험"
+        },
+        {
+          "condition": "일상 예시",
+          "supporting_phrase": "일상 예시가 둘 다 나와야"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q096",
+      "originalId": "Q096",
+      "query": "생물 다양성이 줄어드는 걸 다룬 자료인데, 동물이 죽어 있는 사진이나 잔인한 사냥 장면은 빼 주세요",
+      "total": 0,
+      "apiTerms": [
+        "생물",
+        "줄어드",
+        "자료인데",
+        "동물",
+        "죽어",
+        "사진이나",
+        "잔인한",
+        "사냥",
+        "장면",
+        "빼"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [
+        {
+          "condition": "동물 사체 사진",
+          "supporting_phrase": "동물이 죽어 있는 사진"
+        },
+        {
+          "condition": "잔인한 사냥 장면",
+          "supporting_phrase": "잔인한 사냥 장면은 빼 주세요"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "사체 사진·잔인한 사냥 장면 제외가 excluded=[]이고 양의 검색어로 남음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q097",
+      "originalId": "Q097",
+      "query": "중력 설명 영상인데 공식이나 계산 위주는 빼고, 우주 정거장에서 둥둥 뜨는 것 같은 현상 위주로요",
+      "total": 0,
+      "apiTerms": [
+        "영상인데",
+        "공식이나",
+        "계산",
+        "정거장",
+        "둥둥",
+        "뜨는",
+        "것",
+        "같은",
+        "현상",
+        "위주로요"
+      ],
+      "apiConcepts": [
+        "우주",
+        "힘과 운동"
+      ],
+      "apiExcluded": [
+        "위주"
+      ],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "현상 위주",
+          "supporting_phrase": "현상 위주로"
+        }
+      ],
+      "expectedExcluded": [
+        {
+          "condition": "공식·계산 위주",
+          "supporting_phrase": "공식이나 계산 위주는 빼고"
+        }
+      ],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "EXCLUSION_SCOPE_MISMATCH",
+          "note": "공식/계산 중심 제외를 excluded=[위주]로 처리함."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q098",
+      "originalId": "Q098",
+      "query": "EBS 과학 프로그램 중에 진행자가 직접 상태 변화 실험을 하는 형식인 거요. 실험 장면이 영상 앞부분에 나오면 좋겠어요",
+      "total": 0,
+      "apiTerms": [
+        "ebs",
+        "중에",
+        "진행자",
+        "직접",
+        "상태",
+        "하는",
+        "형식인",
+        "장면",
+        "앞부분",
+        "나오면"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [
+          "실험·시연"
+        ],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "진행자 직접 실험 형식",
+          "supporting_phrase": "진행자가 직접 상태 변화 실험을 하는 형식"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [
+        {
+          "condition": "실험이 앞부분에",
+          "supporting_phrase": "영상 앞부분에 나오면 좋겠어요"
+        }
+      ],
+      "observations": [
+        {
+          "tag": "PREFERENCE_SCOPE_MISMATCH",
+          "note": "영상 앞부분 선호를 선호/시간 정보로 분리하지 않고 앞부분/나오면을 terms에 남김."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q099",
+      "originalId": "Q099",
+      "query": "가상의 행성에 생물이 살려면 어떤 조건이 필요할지 상상해 보는 수업인데, 가상 행성 환경을 설정해서 보여주는 영상 있을까요?",
+      "total": 0,
+      "apiTerms": [
+        "가상",
+        "생물",
+        "살려면",
+        "필요할지",
+        "상상해",
+        "보는",
+        "수업인데",
+        "설정해서"
+      ],
+      "apiConcepts": [
+        "우주",
+        "환경"
+      ],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [
+        {
+          "condition": "가상 행성 설정",
+          "supporting_phrase": "가상 행성 환경을 설정해서"
+        }
+      ],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "NO_CANDIDATE_VALIDITY_UNRESOLVED",
+          "note": "가상 행성 설정 영상은 존재할 수도 있음. 빈 결과만으로 정당한 없음이나 오류를 확정하지 않음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    },
+    {
+      "id": "X100-Q100",
+      "originalId": "Q100",
+      "query": "저항에 대한 영상 찾아요. 수업에서 바로 쓰게요",
+      "total": 0,
+      "apiTerms": [
+        "저항",
+        "바로",
+        "쓰게요"
+      ],
+      "apiConcepts": [],
+      "apiExcluded": [],
+      "apiAlternatives": [],
+      "apiPreferences": {
+        "programs": [],
+        "genres": []
+      },
+      "apiConstraints": {
+        "requiredGenres": [],
+        "excludedGenres": [],
+        "genreOperator": "AND",
+        "gradeContext": {
+          "value": "all",
+          "courses": [],
+          "grades": [],
+          "warnings": [],
+          "needsClarification": false,
+          "source": "all",
+          "label": "미지정"
+        }
+      },
+      "expectedRequired": [],
+      "expectedExcluded": [],
+      "expectedPreferences": [],
+      "observations": [
+        {
+          "tag": "CLARIFICATION_MISSING",
+          "note": "저항의 전기/유체/사회적 의미가 미확정인데 의미 확인이 없음."
+        }
+      ],
+      "reviewedTop5": 0,
+      "candidateConditionCompliance": "NOT_ASSESSABLE_NO_CANDIDATE",
+      "emptyRootCause": "NOT_FULLY_ISOLATED"
+    }
+  ],
+  "candidateReviews": [
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-a7d7600fe01735b38ac8",
+      "title": "독도 바다를 그리다",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "독도의 바닷속 생태와 이를 그리는 방법이 중심 내용이다. 원래 질문은 독도의 특정 측면을 지정하지 않았다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "독도의 바닷속 생태를 한눈에 볼 수 있는 방법",
+          "start": 0,
+          "end": 25,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "0fd8ff7501dee9d10878c539ec66f39d0d9b7868a71749999d177fb32f8db61d"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-b9bd9c450d9e9b9a0ad3",
+      "title": "신년 특집 독도 바다사자를 찾아서",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "독도 탐사·생태계·사라진 바다사자의 흔적이 중심 내용이다. 실제 재생과 학년 적합성은 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "그들을 통해 독도 생태계를 살펴보고, 일제 강점기 시절 사라진 바다사자의 흔적을 쫓아본다",
+          "start": 42,
+          "end": 91,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "64a1068222fd929d4b32576819c3d1f33dfe86033a5fb22260767ea04cccea20"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-5a6d462f2b7f0f30aebb",
+      "title": "설민석의 독도로-독도 교육편",
+      "rank": 3,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 독도 주제 단서는 있으나 내용 판단을 위한 설명이 부족하다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "설민석의 독도로-독도 교육편",
+          "start": 0,
+          "end": 15,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "617b5643c6b8856f05ff313d47acda3c5da69afcabe9f5adcb7a2c2173f629fe"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-ce171f36f1284f098f39",
+      "title": "일본은 알고 있었다-독도 1부",
+      "rank": 4,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 영토·역사 설명의 실제 내용은 제목으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "일본은 알고 있었다-독도 1부",
+          "start": 0,
+          "end": 16,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "d093f69655c4ae4bb333fc048edfb224ccdd1553f295b901216337ad7bec22b2"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-9252637d16e92170b27a",
+      "title": "일본은 알고 있었다-독도 2부",
+      "rank": 5,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 영토·역사 설명의 실제 내용은 제목으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "일본은 알고 있었다-독도 2부",
+          "start": 0,
+          "end": 16,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "13cdd8ad4a2ce766280e2f7e7bece52f2100c568d0bb1515225828889cbe00e3"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "rank": 1,
+      "judgment": "UNRELATED",
+      "reason": "보유 대본은 막대자석에 붙는 물체 구분이다. 전류·코일에 의한 전자석 내용 근거 없이 전자석을 일반 자석과 동의어 처리해 반환했다. 영상 전체의 전자석 부재를 확인한 것은 아니다.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "이 막대자석에 클립이 다닥다닥 다 붙어.",
+          "start": 525,
+          "end": 547,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+          "supplementId": "6665a362546a8d30c74be22e",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "title": "힘센 내 자석",
+      "rank": 2,
+      "judgment": "UNRELATED",
+      "reason": "보유 대본은 자석의 두 극과 클립 붙이기이다. 전자석의 전류·코일·켜고 끄는 성질을 뒷받침하지 않는다. 영상 전체 미확인.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "자석에는 두 가지 극이 있는데 이렇게 같은 색끼리 만나면 잘 봐.",
+          "start": 232,
+          "end": 268,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "3ece69eaaeb14422e49d2a4df56e87b1cbc5e8f7c45ad07ad384250337464501",
+          "supplementId": "0d1ba2c767d3dac99df15fdc",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+        }
+      ],
+      "conditions": [],
+      "conditionScope": "두 반환 요청 모두 명시 필수·제외 조건 없음. 특정 전자석 개념의 충족은 관련성 판단에서 검토.",
+      "playbackReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "judge": "IMPLEMENTING_AGENT_TEXT_REVIEW_NOT_TEACHER_OR_INDEPENDENT_HUMAN"
+    }
+  ],
+  "apiQuoteChecks": [
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-a7d7600fe01735b38ac8",
+      "field": "summary",
+      "start": 0,
+      "end": 46,
+      "quote": "독도의 바닷속 생태를 한눈에 볼 수 있는 방법, 바다 밑을 일러스트로 그리면 된다?",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-b9bd9c450d9e9b9a0ad3",
+      "field": "summary",
+      "start": 42,
+      "end": 91,
+      "quote": "그들을 통해 독도 생태계를 살펴보고, 일제 강점기 시절 사라진 바다사자의 흔적을 쫓아본다",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-5a6d462f2b7f0f30aebb",
+      "field": "summary",
+      "start": 0,
+      "end": 15,
+      "quote": "설민석의 독도로-독도 교육편",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-ce171f36f1284f098f39",
+      "field": "summary",
+      "start": 0,
+      "end": 16,
+      "quote": "일본은 알고 있었다-독도 1부",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-9252637d16e92170b27a",
+      "field": "summary",
+      "start": 0,
+      "end": 16,
+      "quote": "일본은 알고 있었다-독도 2부",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "start": 672,
+      "end": 717,
+      "quote": "-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.",
+      "supplementId": "6665a362546a8d30c74be22e",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "start": 772,
+      "end": 789,
+      "quote": "-이 크레파스가 자석에 붙을까?",
+      "supplementId": "6665a362546a8d30c74be22e",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "start": 345,
+      "end": 367,
+      "quote": "자석은 그냥 막 달라붙는 줄만 알았는데.",
+      "supplementId": "0d1ba2c767d3dac99df15fdc",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q052",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "start": 741,
+      "end": 751,
+      "quote": "내 자석에 붙어라.",
+      "supplementId": "0d1ba2c767d3dac99df15fdc",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+      "exactMatch": true,
+      "identityMatch": true
+    }
+  ],
+  "diagnosticTextAnchors": [
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "같은 대본에 클립이 붙는 것과 크레파스/블록이 안 붙는 것이 모두 명시됨. 냉장고는 예시 문맥으로 제공되었음. 원래0건인데 자석 검색에서 찾음.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "크레파스는 안 붙는구나.",
+          "start": 796,
+          "end": 809,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+          "supplementId": "6665a362546a8d30c74be22e",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+        }
+      ],
+      "originalQueryTotal": 0,
+      "independentKnownAnswer": false
+    },
+    {
+      "requestId": "X100-Q019",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "title": "힘센 내 자석",
+      "judgment": "PARTIAL",
+      "reason": "두 극과 끌림/밀림 관계 근거는 있음. 대본 발췌에 N극/S극 명칭은 없으므로 해당 명칭 충족은 보류. 원래0건인데 자석 검색에서 찾음.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "자석에는 두 가지 극이 있는데 이렇게 같은 색끼리 만나면 잘 봐.",
+          "start": 232,
+          "end": 268,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "3ece69eaaeb14422e49d2a4df56e87b1cbc5e8f7c45ad07ad384250337464501",
+          "supplementId": "0d1ba2c767d3dac99df15fdc",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+        }
+      ],
+      "originalQueryTotal": 0,
+      "independentKnownAnswer": false
+    },
+    {
+      "requestId": "X100-Q003",
+      "candidateId": "BCAST-7f50c7fb3fdc78d44970",
+      "title": "다람쥐에게 편지를 써요",
+      "judgment": "PARTIAL",
+      "reason": "요청 중 우체국 역할의 근거. 소방서/주민센터까지 전체 요구 충족 아님. 여러 기관 자료 조합을 허용하는 입력 기준에 따른 부분 후보.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "우체국에서 편지 보내는 법과 우체국이 하는 일을 알게 되는 꺼병이들.",
+          "start": 37,
+          "end": 75,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "36c4b6f38c725545a0a86f9f47d5f5f34f0bffdddc545fd62a51460b9cecdc0e"
+        }
+      ],
+      "originalQueryTotal": 0,
+      "independentKnownAnswer": false
+    }
+  ],
+  "storedLiteralMentionCounts": {
+    "전자석": 0,
+    "세시풍속": 0,
+    "배추흰나비": 0,
+    "삼권 분립": 0,
+    "팔만대장경": 0,
+    "응결": 0,
+    "증발": 1,
+    "조흔색": 0,
+    "보일 법칙": 0,
+    "열전도": 1,
+    "용해": 54
+  },
+  "mentionLimit": "단순 부분문자열 포함. 용해는 활용해 등의 우연 일치가 다수여서 내용 충족 수가 아님. 0회도 전체 EBS 영상 부재 증명이 아님.",
+  "codeAndStoreChangedDuringRun": []
+}

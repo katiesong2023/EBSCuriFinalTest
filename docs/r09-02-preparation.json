@@ -1,0 +1,47 @@
+{
+  "createdAt": "2026-10-10T15:09:00.283Z",
+  "status": "FROZEN_BEFORE_IMPLEMENTATION",
+  "topK": 9,
+  "holdout": {
+    "path": "docs/r09-02-holdout.json.gz",
+    "uncompressedSha256": "ff0d83784695fb4c097728f5f54ad3f7068890f57f149bf187ccc40ded2addf7",
+    "bytes": 19081
+  },
+  "sampleRelations": 33,
+  "segments": [
+    {
+      "segment": "elementary34:사회",
+      "count": 6
+    },
+    {
+      "segment": "elementary34:과학",
+      "count": 6
+    },
+    {
+      "segment": "elementary56:사회",
+      "count": 6
+    },
+    {
+      "segment": "elementary56:과학",
+      "count": 3
+    },
+    {
+      "segment": "middle1:사회",
+      "count": 6
+    },
+    {
+      "segment": "middle1:과학",
+      "count": 6
+    }
+  ],
+  "originalDatabasesWritten": false,
+  "independentJudgments": "PENDING_AGENT_REVIEW",
+  "teacherEvaluation": "NOT_PERFORMED",
+  "exclusions": {
+    "path": "docs/r09-02-exclusions.json",
+    "resourceFamiliesAndNearTextCount": 39
+  },
+  "input": "docs/r09-02-frozen-input.json.gz",
+  "code": "docs/r09-02-frozen-code.json.gz",
+  "baseline": "docs/r09-02-baseline-search.json.gz"
+}

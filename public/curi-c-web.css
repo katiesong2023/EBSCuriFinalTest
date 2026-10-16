@@ -1,0 +1,81 @@
+/* C 매거진 — 교사 웹. 기능별 기존 CSS 다음에 적용한다. */
+.curi-c .shell {max-width:1320px;padding:0 40px 40px}
+.curi-c .search-home {min-height:0;padding:56px 0 40px;display:block}
+.curi-c .search-home .hero,.curi-c.has-query .search-home .hero {padding:0 0 28px;text-align:left}
+.curi-c .hero h1 {font-size:56px;line-height:60px;font-weight:700;letter-spacing:-.03em}
+.curi-c .hero-description {font-size:16px;line-height:26px;max-width:60ch;margin-top:16px}
+.curi-c .search-home .search-panel {max-width:960px;margin:0;border-radius:999px;background:white;box-shadow:none;border:1px solid var(--curi-ink);padding:12px 20px}
+.curi-c .search-panel form button,.curi-c #folder-picker-confirm,.curi-c #segment-save {background:var(--curi-ink);color:var(--curi-canvas);border-radius:999px;min-height:44px;font-weight:700}
+.curi-c .search-panel form button:hover,.curi-c #folder-picker-confirm:hover {background:var(--curi-coral);color:var(--curi-ink)}
+.curi-c .search-home .search-panel:has(details[open]) {border-radius:24px}
+.curi-c .search-panel form input {font-size:16px;font-family:var(--curi-font)}
+.curi-c .examples button {border:1px solid var(--curi-ink);border-radius:999px;background:transparent;color:var(--curi-ink);min-height:36px;padding:6px 12px}
+.curi-c .examples button:hover {background:var(--curi-ink);color:var(--curi-canvas)}
+.curi-c .results-section {min-height:calc(100svh - 96px);padding:24px 0;margin:0;background:transparent;box-shadow:none;scroll-margin-top:88px}
+.curi-c .results-heading {background:transparent;border-radius:0;margin:0 0 16px;padding:0 0 16px;border-bottom:1px solid var(--curi-line);scroll-margin-top:88px}
+.curi-c .results-heading h2 {font-size:28px;line-height:36px;font-weight:700}.curi-c .results-heading h2 span {font-size:16px}
+.curi-c .results-heading .sort-control {font-size:14px}
+.curi-c .result-filters {padding:0 0 16px;border-radius:0;background:transparent;border:0}
+.curi-c .filter-grid select {border:1px solid var(--curi-line);background:white}
+.curi-c .selected-filters button {border:1px solid var(--curi-ink);border-radius:999px;background:transparent;font-size:12px}
+.curi-c .cards {grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px;align-items:stretch}
+.curi-c .results-section .resource-card,.curi-c #magazine-feature .resource-card {border:0!important;box-shadow:none!important;background:transparent;border-radius:0;padding:0;display:flex;flex-direction:column;overflow:visible;transform:none}
+.curi-c .resource-card .resource-thumbnail-link {aspect-ratio:4/3;border-radius:14px;width:100%;overflow:hidden;background:var(--type-color);flex:none}
+.curi-c .resource-thumbnail {transition:transform 500ms var(--curi-ease)}
+.curi-c .resource-card:hover .resource-thumbnail,.curi-c .resource-card:focus-within .resource-thumbnail {transform:scale(1.04)}
+.curi-c .resource-card .card-banner {margin:12px 0 0;padding:0;gap:6px}
+.curi-c .resource-card .card-body {padding:0;display:flex;flex-direction:column;flex:1}
+.curi-c .resource-card h3 {font-size:20px;line-height:26px;font-weight:700;letter-spacing:-.02em;margin:12px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.curi-c .resource-card:hover h3,.curi-c .resource-card:focus-within h3 {text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:4px}
+.curi-c .resource-card .program,.curi-c .resource-card .broadcast-date {display:block;font-size:14px;line-height:20px;color:var(--curi-muted)}
+.curi-c .resource-card .broadcast-date::before {content:none}
+.curi-c .resource-card .saved-meta {font-size:14px;color:var(--curi-ink)}.curi-c .saved-meta::first-letter {color:var(--curi-green)}
+.curi-c .resource-card .card-actions {border:0;padding:12px 0 0;gap:8px;margin-top:auto;display:flex;flex-wrap:wrap}
+.curi-c .resource-card .card-actions button[data-folder-save] {position:static;opacity:1;background:var(--curi-sun);color:var(--curi-ink);border:0;min-height:44px;padding:10px 18px;font-size:14px;border-radius:999px;font-weight:700}
+.curi-c .resource-card .card-actions button[data-folder-save]:hover {transform:translateY(-2px)}
+.curi-c .resource-card .card-actions a {font-size:14px;min-height:44px}
+.curi-c .resource-card .content-preview {display:block;font-size:14px}.curi-c .resource-card .preview-text {font-size:16px;line-height:26px}
+.curi-c .resource-thumbnail-fallback {font-size:13px;font-weight:700;color:var(--curi-ink);bottom:16px;left:16px;right:16px}.curi-c .resource-thumbnail-fallback small {font-size:13px}
+.curi-c .media-duration {font-family:var(--curi-font-latin);border-radius:999px;padding:3px 8px;background:var(--curi-ink);color:var(--curi-canvas)}
+.magazine-lead {display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:24px;margin:0 0 40px}
+.curi-c #magazine-feature .resource-thumbnail-link {aspect-ratio:16/9}.curi-c #magazine-feature h3 {font-size:28px;line-height:36px}
+.curi-c #magazine-recent h2 {font-size:28px;line-height:36px;margin:0 0 16px}
+.magazine-recent-item {display:block;padding:12px 0 16px;border-top:1px solid var(--curi-line);text-decoration:none}.magazine-recent-item strong {display:block;font-size:16px;line-height:24px;margin:12px 0;font-weight:700}.magazine-recent-item small {color:var(--curi-muted);font-size:13px}
+.magazine-band {background:var(--curi-ink);color:var(--curi-canvas);border-radius:24px;padding:28px;margin:40px 0}
+.curi-c .magazine-band h2 {font-size:28px;line-height:36px;margin:0 0 24px}.magazine-band p {font-size:16px;line-height:26px}.magazine-band a {display:inline-flex;align-items:center;min-height:44px;padding:10px 18px;border:1px solid var(--curi-canvas);border-radius:999px;margin:0 8px 12px 0;text-decoration:none}
+.magazine-band a:hover {background:var(--curi-canvas);color:var(--curi-ink)}
+.has-query #magazine-home {display:none}.curi-c .guide {padding-top:28px;border-color:var(--curi-line)}
+.curi-c .site-footer {width:calc(100% - 80px);max-width:1240px;padding:24px 0;font-size:14px}.curi-c .site-footer b {font:600 24px var(--curi-font-latin)}
+.curi-c .folder-layout {display:grid;grid-template-columns:minmax(220px,4fr) minmax(0,8fr);gap:24px;align-items:start}
+.curi-c .library-folder-group {display:block}.curi-c #folder-list {display:grid;grid-template-columns:1fr;gap:8px}
+.curi-c #folder-list .folder-card {border:0;background:transparent;box-shadow:none}
+.curi-c #folder-list .folder-select {min-height:44px;padding:10px 18px!important;border:1px solid var(--curi-ink);border-radius:999px;display:flex;align-items:center;color:var(--curi-ink)}
+.curi-c .folder-art,.curi-c #folder-list .folder-select>span:first-child {display:none}
+.curi-c #folder-list .folder-select>span:last-child {display:flex;align-items:center;gap:8px;width:100%;padding-right:24px}
+.curi-c #folder-list b,.curi-c #folder-list small {font-size:14px;line-height:20px;color:inherit;margin:0}
+.curi-c #folder-list .folder-select[aria-pressed=true] {background:var(--curi-ink);color:var(--curi-canvas);box-shadow:none}
+.curi-c .folder-delete {top:4px;right:5px;min-height:36px;width:36px;height:36px;padding:10px;color:var(--curi-muted);background:var(--curi-canvas);border:0;border-radius:999px}
+.curi-c .new-folder-panel>summary {min-height:44px;border:1px dashed var(--curi-ink);border-radius:999px;padding:10px 18px;margin-top:12px;font-size:14px}
+.curi-c .folder-main {margin:0;padding:24px;background:transparent;border:0;box-shadow:none;min-width:0}
+.curi-c #folder-settings {padding:20px;background:var(--curi-sun);border-radius:16px;margin-bottom:24px}
+.curi-c #lesson-title {font-size:28px;line-height:36px;font-weight:700;border-color:var(--curi-ink)}
+.curi-c .folder-videos {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.curi-c .folder-main.has-playlist {display:block}
+.curi-c .folder-video,.curi-c .library-resource {background:white;border:0;border-radius:16px;padding:16px}
+.curi-c .folder-video h3,.curi-c .library-resource h3 {font-size:20px;line-height:26px;font-weight:700}
+.curi-c .lesson-playlist {position:static;background:var(--curi-ink);color:var(--curi-canvas);border-radius:24px;padding:24px;margin-top:24px}
+.curi-c .lesson-playlist :is(button,strong,.playlist-total strong) {color:var(--curi-canvas);border-color:var(--curi-canvas)}
+.curi-c .lesson-playlist :is(.playlist-help,.playlist-total small,.playlist-empty) {color:var(--curi-canvas)}
+.curi-c .lesson-playlist li {background:transparent;border-color:#ffffff50}.curi-c .lesson-heading h1 {font-size:28px;line-height:36px}
+.curi-c .scene-poster {border-radius:14px;background:var(--curi-coral)}.curi-c .scene-number {font-family:var(--curi-font-latin);border-radius:999px}
+.curi-c .folder-main .saved-segments {padding-inline:4px;gap:16px}.curi-c #save-status:not(:empty) {color:var(--curi-muted)}
+@media(max-width:1279px) {.curi-c .shell {padding-inline:24px}.curi-c .cards {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 20px}.curi-c .site-footer {width:calc(100% - 48px)}.curi-c .folder-videos {grid-template-columns:1fr}}
+@media(max-width:767px) {.curi-c .shell {padding-inline:16px}.curi-c .search-home {padding:32px 0}.curi-c .hero h1 {font-size:36px;line-height:40px}.curi-c .search-home .search-panel {border-radius:24px;padding:12px 16px}.curi-c .hero-description {font-size:16px}.curi-c .cards {grid-template-columns:1fr;gap:28px}.curi-c .results-section .resource-card {display:flex}.curi-c .resource-card .resource-thumbnail-link {grid-row:auto;border-radius:14px;aspect-ratio:4/3}.curi-c .resource-card .card-banner {margin:12px 0 0}.curi-c .resource-card .card-body {padding:0}.magazine-lead {grid-template-columns:1fr}.curi-c #magazine-feature h3 {font-size:24px;line-height:32px}.curi-c .results-heading h2 {font-size:20px;line-height:28px}.curi-c .results-heading h2 span {font-size:14px}.curi-c .results-heading .sort-control {font-size:12px}.curi-c .results-heading>button {padding-inline:10px}.curi-c .site-footer {width:calc(100% - 32px)}.curi-c .folder-layout {grid-template-columns:1fr}.curi-c .folder-main {padding:0}.curi-c .magazine-band {padding:24px}.curi-c .results-heading {scroll-margin-top:72px}}
+@media(prefers-reduced-motion:reduce) {.curi-c .resource-card:hover .resource-thumbnail,.curi-c .resource-card:focus-within .resource-thumbnail,.curi-c .resource-card .card-actions button:hover {transform:none}}
+/* C 헤더는 이전 중앙 검색 화면의 구분선 너비 규칙을 대체한다. */
+body.curi-c:has(.search-home) .site-header {width:100%;max-width:none;padding-inline:max(40px,calc((100vw - 1240px)/2))}
+.curi-c .hero h1 {word-break:keep-all}
+.curi-c .resource-card .card-actions button[data-folder-save] {box-shadow:none}
+@media(max-width:1279px) {body.curi-c:has(.search-home) .site-header {padding-inline:24px}}
+@media(max-width:767px) {body.curi-c:has(.search-home) .site-header {padding-inline:16px}}
+/* 선택 색 면의 라벨/설명도 Ink로 읽기 대비를 유지한다. */
+.curi-c #folder-settings :is(label,.filter-help,summary,#folder-label-colors,#folder-label-colors button) {color:var(--curi-ink)}

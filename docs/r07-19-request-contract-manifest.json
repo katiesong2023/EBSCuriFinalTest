@@ -1,0 +1,31 @@
+{
+  "receivedOn": "2026-10-13",
+  "sourceDirectory": "/Users/yunseo/.codex/visualizations/2026/10/13/01a134d1-9719-7cd0-82c4-d22963bbca37/request-contract",
+  "sourceFilesSha256": {
+    "baseline-link.json": "32c7d525a1045cc4f497f5381b49c36cc0124303b962ba4f522549f448fa55a8",
+    "check.cjs": "937d81d3a62bf552250248b1b941de5ddaacf2072a201453622685805a5a9357",
+    "contract.md": "193ae0bc5a5be4d87c744a095c5851e88163ad98b6ab452d00b3afd830ace44b",
+    "development-cases.json": "9c19aed620eb13eadf9b603f1f22e41373d9a053395893a13d59aedde041b4b8",
+    "example-input.json": "af32fd6f322ce51366a85f1d82be9f503fdda3cad0fe873adecdf527f18abeda",
+    "example-output.json": "9d342d3b440d6c628e9451af35de624b9017458fb0e4fa4516a883046548e1ad",
+    "input-envelope.schema.json": "6fae6e1b537b6be9a8ae9fa8327e62d7448a717c8915d7b52cf6ca37fd1526f9",
+    "llm-instruction.txt": "3f10e85b25ce4322d93dd11f6af7e1e806b8deebd00ffb3bc8899a2cbe504ee9",
+    "request-interpretation.schema.json": "86f407ac79e9f391847d51cbeeecdda0b0d4538c781831ca8e003a0b4b51d2a1",
+    "validate.cjs": "967f28d710584982738d0ac7738e234e22fcf4839144a4bc44aa107413b6dead",
+    "validation-results.json": "31116a93e8f8c1b44e89e54c4c821ab9c55c3af32b4e99db961f3e6cfa586fce"
+  },
+  "contractVersion": "curi-request-v1",
+  "rerun": "복제한 /private/tmp 묶음에서 check.cjs를 실행; 사용자 원본 변경 없음",
+  "validation": {
+    "passed": 23,
+    "failed": 0,
+    "normalExamples": 10,
+    "contractRejectedErrors": 8,
+    "developmentSemanticExpectationRejectedErrors": 5,
+    "llmCalls": 0
+  },
+  "productConnected": false,
+  "genericJsonSchemaValidatorImplemented": false,
+  "arbitraryResponseMeaningValidationImplemented": false,
+  "sourceNote": "외부 문서의 고정 출력 계약/입력 봉투/검증 예시를 보존한 참조본. 현재 교사 API LOCAL_RULES의 출력 구조를 이 계약으로 바꾸지 않았다."
+}

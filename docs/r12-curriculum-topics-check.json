@@ -1,0 +1,2399 @@
+{
+  "generatedAt": "2026-10-15T11:06:36.223Z",
+  "cases": [
+    "214개 기준·73단원 대응·38주제·11묶음",
+    "sound 실제 내용 분류",
+    "heat 실제 내용 분류",
+    "states 실제 내용 분류",
+    "gas 실제 내용 분류",
+    "rights-law 실제 내용 분류",
+    "culture 실제 내용 분류",
+    "asia 실제 내용 분류",
+    "inquiry 실제 내용 분류",
+    "희망의 빛 제외",
+    "도시의 심장 제외",
+    "해녀의 물질 제외",
+    "빛을 다루지 않는다 제외",
+    "새 주제/묶음 전부 표시 건수와 실제 검색 일치",
+    "새 주제 적용·기존 개념/묶음 주소 호환",
+    "목록 밖 내용 자유 검색·기타 분류 유지",
+    "단원 대응과 영상 연계 승인 분리"
+  ],
+  "groups": [
+    {
+      "value": "curriculum-local",
+      "label": "사회 · 지역·지도·생활",
+      "ids": [
+        "curriculum-places",
+        "curriculum-maps",
+        "curriculum-transport"
+      ]
+    },
+    {
+      "value": "curriculum-past",
+      "label": "사회 · 역사·문화유산",
+      "ids": [
+        "curriculum-past-life",
+        "curriculum-modern",
+        "curriculum-peace"
+      ]
+    },
+    {
+      "value": "curriculum-society",
+      "label": "사회 · 문화·사회 변화",
+      "ids": [
+        "curriculum-culture",
+        "curriculum-identity"
+      ]
+    },
+    {
+      "value": "curriculum-civic",
+      "label": "사회 · 민주주의·법·인권",
+      "ids": [
+        "curriculum-democracy",
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "value": "curriculum-economic",
+      "label": "사회 · 경제·교류",
+      "ids": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "value": "curriculum-world",
+      "label": "사회 · 세계·지구촌",
+      "ids": [
+        "curriculum-global",
+        "curriculum-asia",
+        "curriculum-europe",
+        "curriculum-africa",
+        "curriculum-america",
+        "curriculum-oceania"
+      ]
+    },
+    {
+      "value": "curriculum-living",
+      "label": "과학 · 생물·건강·환경",
+      "ids": [
+        "curriculum-animals",
+        "curriculum-plants",
+        "curriculum-diversity",
+        "curriculum-ecosystems",
+        "curriculum-health",
+        "curriculum-climate"
+      ]
+    },
+    {
+      "value": "curriculum-materials",
+      "label": "과학 · 물질·상태 변화",
+      "ids": [
+        "curriculum-states",
+        "curriculum-gas",
+        "curriculum-solution",
+        "curriculum-acid",
+        "curriculum-combustion"
+      ]
+    },
+    {
+      "value": "curriculum-physics",
+      "label": "과학 · 힘·빛·소리·에너지",
+      "ids": [
+        "curriculum-forces",
+        "curriculum-sound",
+        "curriculum-light",
+        "curriculum-heat",
+        "curriculum-electric",
+        "curriculum-resources"
+      ]
+    },
+    {
+      "value": "curriculum-planet",
+      "label": "과학 · 지구·우주",
+      "ids": [
+        "curriculum-earth",
+        "curriculum-weather",
+        "curriculum-space"
+      ]
+    },
+    {
+      "value": "curriculum-inquiry",
+      "label": "과학 · 탐구·기술·진로",
+      "ids": [
+        "curriculum-inquiry"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "curriculum-places",
+      "label": "우리 지역과 생활 환경",
+      "group": "curriculum-local",
+      "units": [
+        "4사01",
+        "4사09",
+        "4사10"
+      ],
+      "terms": [
+        "우리 지역",
+        "우리 동네",
+        "장소감",
+        "지역 문제",
+        "마을",
+        "도시",
+        "농촌",
+        "어촌",
+        "주거",
+        "한옥",
+        "인문환경"
+      ]
+    },
+    {
+      "id": "curriculum-maps",
+      "label": "지도와 국토",
+      "group": "curriculum-local",
+      "units": [
+        "4사05",
+        "6사01"
+      ],
+      "terms": [
+        "지도",
+        "지리 정보",
+        "국토",
+        "산지",
+        "하천",
+        "해안 지형",
+        "갯벌",
+        "독도",
+        "동고서저"
+      ]
+    },
+    {
+      "id": "curriculum-transport",
+      "label": "교통·통신과 생활 변화",
+      "group": "curriculum-local",
+      "units": [
+        "4사04"
+      ],
+      "terms": [
+        "교통",
+        "철도",
+        "전차",
+        "통신",
+        "정보 교류",
+        "의사소통",
+        "옛날 풍습"
+      ]
+    },
+    {
+      "id": "curriculum-past-life",
+      "label": "옛 생활과 문화유산",
+      "group": "curriculum-past",
+      "units": [
+        "4사02",
+        "4사06",
+        "6사04"
+      ],
+      "terms": [
+        "옛날",
+        "옛 모습",
+        "옛 생활",
+        "문화유산",
+        "박물관",
+        "기념관",
+        "유물",
+        "유적",
+        "고인돌",
+        "선사 시대",
+        "고조선",
+        "삼국",
+        "고려"
+      ]
+    },
+    {
+      "id": "curriculum-modern",
+      "label": "조선과 근현대의 변화",
+      "group": "curriculum-past",
+      "units": [
+        "6사05",
+        "6사06"
+      ],
+      "terms": [
+        "조선",
+        "유교",
+        "개항",
+        "일제",
+        "식민",
+        "독립운동",
+        "독립 운동",
+        "유관순",
+        "동학",
+        "광복",
+        "한국전쟁",
+        "6·25"
+      ]
+    },
+    {
+      "id": "curriculum-peace",
+      "label": "분단·통일과 민주화",
+      "group": "curriculum-past",
+      "units": [
+        "6사07"
+      ],
+      "terms": [
+        "분단",
+        "평화 통일",
+        "남북",
+        "민주화",
+        "산업화",
+        "4·19",
+        "6월 민주항쟁"
+      ]
+    },
+    {
+      "id": "curriculum-culture",
+      "label": "다문화와 문화 이해",
+      "group": "curriculum-society",
+      "units": [
+        "4사03",
+        "9사(일사)02"
+      ],
+      "terms": [
+        "다문화",
+        "문화 다양성",
+        "이주민",
+        "이주 배경",
+        "외국인 주민",
+        "문화",
+        "미디어"
+      ]
+    },
+    {
+      "id": "curriculum-identity",
+      "label": "사회생활과 정체성",
+      "group": "curriculum-society",
+      "units": [
+        "9사(일사)01"
+      ],
+      "terms": [
+        "사회화",
+        "자아 정체성",
+        "사회적 지위",
+        "역할 갈등",
+        "사회적 역할",
+        "고정관념",
+        "차별"
+      ]
+    },
+    {
+      "id": "curriculum-democracy",
+      "label": "민주주의·자치·시민 참여",
+      "group": "curriculum-civic",
+      "units": [
+        "4사08",
+        "6사08",
+        "9사(일사)03",
+        "9사(일사)04"
+      ],
+      "terms": [
+        "민주주의",
+        "민주 정치",
+        "시민 참여",
+        "주민 참여",
+        "지방 자치",
+        "학교 자치",
+        "선거",
+        "유권자",
+        "정당",
+        "국회",
+        "행정부"
+      ]
+    },
+    {
+      "id": "curriculum-rights-law",
+      "label": "법·헌법·인권",
+      "group": "curriculum-civic",
+      "units": [
+        "6사03",
+        "9사(일사)05",
+        "9사(일사)06"
+      ],
+      "terms": [
+        "헌법",
+        "인권",
+        "기본권",
+        "법률",
+        "재판",
+        "법원",
+        "사회법",
+        "법의 역할",
+        "법의 의미",
+        "근로자",
+        "노동권",
+        "아동 권리"
+      ]
+    },
+    {
+      "id": "curriculum-economy",
+      "label": "생산·소비와 경제 교류",
+      "group": "curriculum-economic",
+      "units": [
+        "4사07",
+        "6사11"
+      ],
+      "terms": [
+        "경제",
+        "희소성",
+        "합리적 선택",
+        "생산",
+        "소비",
+        "시장경제",
+        "가계",
+        "기업",
+        "무역",
+        "직업",
+        "일자리",
+        "물가"
+      ]
+    },
+    {
+      "id": "curriculum-global",
+      "label": "세계 지도·자연환경·인구",
+      "group": "curriculum-world",
+      "units": [
+        "6사02",
+        "6사09",
+        "6사10",
+        "6사12",
+        "9사(지리)01"
+      ],
+      "terms": [
+        "세계지도",
+        "지구본",
+        "대륙",
+        "대양",
+        "자연환경",
+        "지형",
+        "기후",
+        "인구",
+        "세계화",
+        "지구촌",
+        "지속가능",
+        "사막",
+        "툰드라"
+      ]
+    },
+    {
+      "id": "curriculum-asia",
+      "label": "아시아",
+      "group": "curriculum-world",
+      "units": [
+        "9사(지리)02"
+      ],
+      "terms": [
+        "아시아",
+        "중국",
+        "일본",
+        "인도",
+        "베트남",
+        "몽골",
+        "태국",
+        "인도네시아"
+      ]
+    },
+    {
+      "id": "curriculum-europe",
+      "label": "유럽",
+      "group": "curriculum-world",
+      "units": [
+        "9사(지리)03"
+      ],
+      "terms": [
+        "유럽",
+        "유럽연합",
+        "영국",
+        "프랑스",
+        "독일",
+        "이탈리아",
+        "스페인"
+      ]
+    },
+    {
+      "id": "curriculum-africa",
+      "label": "아프리카",
+      "group": "curriculum-world",
+      "units": [
+        "9사(지리)04"
+      ],
+      "terms": [
+        "아프리카",
+        "케냐",
+        "탄자니아",
+        "이집트",
+        "에티오피아",
+        "남아프리카"
+      ]
+    },
+    {
+      "id": "curriculum-america",
+      "label": "아메리카",
+      "group": "curriculum-world",
+      "units": [
+        "9사(지리)05"
+      ],
+      "terms": [
+        "아메리카",
+        "미국",
+        "캐나다",
+        "브라질",
+        "멕시코",
+        "페루",
+        "칠레"
+      ]
+    },
+    {
+      "id": "curriculum-oceania",
+      "label": "오세아니아와 극지방",
+      "group": "curriculum-world",
+      "units": [
+        "9사(지리)06"
+      ],
+      "terms": [
+        "오세아니아",
+        "호주",
+        "뉴질랜드",
+        "태평양",
+        "남극",
+        "북극",
+        "극지방"
+      ]
+    },
+    {
+      "id": "curriculum-animals",
+      "label": "동물의 생활",
+      "group": "curriculum-living",
+      "units": [
+        "4과02"
+      ],
+      "terms": [
+        "동물",
+        "야생동물",
+        "포유류",
+        "조류",
+        "파충류",
+        "양서류",
+        "곤충",
+        "꿀벌"
+      ]
+    },
+    {
+      "id": "curriculum-plants",
+      "label": "식물의 생활과 한살이",
+      "group": "curriculum-living",
+      "units": [
+        "4과03",
+        "4과04",
+        "6과11"
+      ],
+      "terms": [
+        "식물",
+        "한살이",
+        "씨앗",
+        "발아",
+        "광합성",
+        "증산",
+        "뿌리",
+        "줄기"
+      ]
+    },
+    {
+      "id": "curriculum-diversity",
+      "label": "세포·미생물·생물다양성",
+      "group": "curriculum-living",
+      "units": [
+        "4과12",
+        "9과02"
+      ],
+      "terms": [
+        "세포",
+        "균류",
+        "원생생물",
+        "세균",
+        "미생물",
+        "생물다양성",
+        "생물 다양성",
+        "생물 분류",
+        "멸종위기",
+        "변이"
+      ]
+    },
+    {
+      "id": "curriculum-ecosystems",
+      "label": "생태계와 환경 보호",
+      "group": "curriculum-living",
+      "units": [
+        "4과14"
+      ],
+      "terms": [
+        "생태계",
+        "생태",
+        "먹이사슬",
+        "먹이 사슬",
+        "먹이그물",
+        "서식지",
+        "환경오염",
+        "재활용",
+        "플라스틱",
+        "쓰레기"
+      ]
+    },
+    {
+      "id": "curriculum-health",
+      "label": "우리 몸과 감염병 예방",
+      "group": "curriculum-living",
+      "units": [
+        "4과08",
+        "6과04"
+      ],
+      "terms": [
+        "인체",
+        "우리 몸",
+        "소화 기관",
+        "소화기관",
+        "호흡",
+        "순환",
+        "배설",
+        "근육",
+        "심장",
+        "면역",
+        "감염병",
+        "감염",
+        "질병",
+        "백혈구",
+        "항체"
+      ]
+    },
+    {
+      "id": "curriculum-climate",
+      "label": "기후변화와 지속가능한 생활",
+      "group": "curriculum-living",
+      "units": [
+        "4과16"
+      ],
+      "terms": [
+        "기후변화",
+        "기후 변화",
+        "지구 온난화",
+        "기후 위기",
+        "탄소중립",
+        "탄소 중립"
+      ]
+    },
+    {
+      "id": "curriculum-states",
+      "label": "물질과 상태 변화",
+      "group": "curriculum-materials",
+      "units": [
+        "4과05",
+        "4과10",
+        "9과04"
+      ],
+      "terms": [
+        "물질",
+        "고체",
+        "액체",
+        "상태 변화",
+        "상태변화",
+        "증발",
+        "응결",
+        "수증기",
+        "얼음",
+        "융해",
+        "응고",
+        "승화",
+        "확산"
+      ]
+    },
+    {
+      "id": "curriculum-gas",
+      "label": "기체의 성질",
+      "group": "curriculum-materials",
+      "units": [
+        "4과15",
+        "9과06"
+      ],
+      "terms": [
+        "기체",
+        "압력",
+        "부피",
+        "공기 입자",
+        "기체 입자"
+      ]
+    },
+    {
+      "id": "curriculum-solution",
+      "label": "용해·용액·혼합물 분리",
+      "group": "curriculum-materials",
+      "units": [
+        "6과03",
+        "6과05"
+      ],
+      "terms": [
+        "용해",
+        "용질",
+        "용매",
+        "용액",
+        "혼합물",
+        "거름",
+        "증류",
+        "소금물",
+        "설탕물",
+        "염전"
+      ]
+    },
+    {
+      "id": "curriculum-acid",
+      "label": "산과 염기",
+      "group": "curriculum-materials",
+      "units": [
+        "6과09"
+      ],
+      "terms": [
+        "산성",
+        "염기성",
+        "지시약",
+        "산성화",
+        "산성비",
+        "중화 반응"
+      ]
+    },
+    {
+      "id": "curriculum-combustion",
+      "label": "연소와 물질의 변화",
+      "group": "curriculum-materials",
+      "units": [
+        "6과14"
+      ],
+      "terms": [
+        "연소",
+        "연료",
+        "연소 생성물",
+        "소화기",
+        "이산화탄소",
+        "화학 변화"
+      ]
+    },
+    {
+      "id": "curriculum-forces",
+      "label": "힘과 물체의 운동",
+      "group": "curriculum-physics",
+      "units": [
+        "4과01",
+        "6과10",
+        "9과05"
+      ],
+      "terms": [
+        "중력",
+        "마찰력",
+        "탄성력",
+        "부력",
+        "힘의 평형",
+        "힘의 작용",
+        "힘과 운동",
+        "수평잡기",
+        "무게",
+        "저울",
+        "지레",
+        "빗면",
+        "속력",
+        "물체의 운동"
+      ]
+    },
+    {
+      "id": "curriculum-sound",
+      "label": "소리의 성질",
+      "group": "curriculum-physics",
+      "units": [
+        "4과07"
+      ],
+      "terms": [
+        "소리",
+        "진동",
+        "떨림",
+        "소음"
+      ]
+    },
+    {
+      "id": "curriculum-light",
+      "label": "빛의 성질",
+      "group": "curriculum-physics",
+      "units": [
+        "6과02"
+      ],
+      "terms": [
+        "빛",
+        "렌즈",
+        "거울",
+        "반사",
+        "굴절"
+      ]
+    },
+    {
+      "id": "curriculum-heat",
+      "label": "온도와 열",
+      "group": "curriculum-physics",
+      "units": [
+        "6과07",
+        "9과03"
+      ],
+      "terms": [
+        "온도",
+        "온도계",
+        "열평형",
+        "열전달",
+        "열팽창",
+        "단열",
+        "비열",
+        "열에너지",
+        "열의 전도",
+        "대류",
+        "복사열"
+      ]
+    },
+    {
+      "id": "curriculum-electric",
+      "label": "자석과 전기의 이용",
+      "group": "curriculum-physics",
+      "units": [
+        "4과09",
+        "6과15"
+      ],
+      "terms": [
+        "자석",
+        "자기장",
+        "전자석",
+        "전기 회로",
+        "전기회로",
+        "전구",
+        "전지",
+        "전선",
+        "직렬연결",
+        "병렬연결"
+      ]
+    },
+    {
+      "id": "curriculum-resources",
+      "label": "자원과 에너지",
+      "group": "curriculum-physics",
+      "units": [
+        "6과08"
+      ],
+      "terms": [
+        "자원",
+        "에너지",
+        "태양광",
+        "풍력",
+        "배터리",
+        "재생에너지"
+      ]
+    },
+    {
+      "id": "curriculum-earth",
+      "label": "지구·바다와 땅의 변화",
+      "group": "curriculum-planet",
+      "units": [
+        "4과06",
+        "4과11",
+        "6과01"
+      ],
+      "terms": [
+        "지구",
+        "대기",
+        "바다",
+        "해양",
+        "해류",
+        "밀물",
+        "썰물",
+        "갯벌",
+        "지형",
+        "화산",
+        "화성암",
+        "지진",
+        "지층",
+        "퇴적암",
+        "화석"
+      ]
+    },
+    {
+      "id": "curriculum-weather",
+      "label": "날씨와 계절의 변화",
+      "group": "curriculum-planet",
+      "units": [
+        "6과06",
+        "6과13"
+      ],
+      "terms": [
+        "날씨",
+        "기상",
+        "구름",
+        "안개",
+        "고기압",
+        "저기압",
+        "이슬",
+        "태양 고도",
+        "계절",
+        "기온"
+      ]
+    },
+    {
+      "id": "curriculum-space",
+      "label": "달·태양계와 지구의 운동",
+      "group": "curriculum-planet",
+      "units": [
+        "4과13",
+        "6과12",
+        "9과07"
+      ],
+      "terms": [
+        "태양계",
+        "천체",
+        "행성",
+        "자전",
+        "공전",
+        "별자리",
+        "북극성",
+        "달의 모양",
+        "달의 위상",
+        "위상변화",
+        "보름달",
+        "초승달",
+        "일식",
+        "월식",
+        "천문",
+        "우주 탐사"
+      ]
+    },
+    {
+      "id": "curriculum-inquiry",
+      "label": "과학 탐구·기술과 진로",
+      "group": "curriculum-inquiry",
+      "units": [
+        "6과16",
+        "9과01"
+      ],
+      "terms": [
+        "과학적 탐구",
+        "과학적 해결",
+        "과학기술",
+        "인공지능",
+        "과학자",
+        "엔지니어",
+        "공학자",
+        "과학 진로",
+        "과학 실험"
+      ]
+    }
+  ],
+  "standardMapping": [
+    {
+      "id": "6사01-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-maps"
+      ]
+    },
+    {
+      "id": "6사01-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-maps"
+      ]
+    },
+    {
+      "id": "6사02-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사02-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사03-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "6사03-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "6사04-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "6사04-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "6사04-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "6사05-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-modern"
+      ]
+    },
+    {
+      "id": "6사05-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-modern"
+      ]
+    },
+    {
+      "id": "6사06-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-modern"
+      ]
+    },
+    {
+      "id": "6사06-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-modern"
+      ]
+    },
+    {
+      "id": "6사07-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-peace"
+      ]
+    },
+    {
+      "id": "6사07-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-peace"
+      ]
+    },
+    {
+      "id": "6사08-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "6사08-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "6사08-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "6사09-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사09-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사10-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사10-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사11-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "id": "6사11-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "id": "6사11-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "id": "6사12-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6사12-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "6과01-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "6과01-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "6과01-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "6과02-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-light"
+      ]
+    },
+    {
+      "id": "6과02-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-light"
+      ]
+    },
+    {
+      "id": "6과02-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-light"
+      ]
+    },
+    {
+      "id": "6과03-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과03-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과03-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과04-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "6과04-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "6과04-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "6과05-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과05-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과05-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-solution"
+      ]
+    },
+    {
+      "id": "6과06-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과06-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과06-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과07-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "6과07-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "6과07-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "6과07-04",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "6과08-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-resources"
+      ]
+    },
+    {
+      "id": "6과08-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-resources"
+      ]
+    },
+    {
+      "id": "6과08-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-resources"
+      ]
+    },
+    {
+      "id": "6과09-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-acid"
+      ]
+    },
+    {
+      "id": "6과09-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-acid"
+      ]
+    },
+    {
+      "id": "6과09-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-acid"
+      ]
+    },
+    {
+      "id": "6과09-04",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-acid"
+      ]
+    },
+    {
+      "id": "6과10-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "6과10-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "6과10-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "6과11-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "6과11-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "6과11-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "6과12-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "6과12-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "6과12-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "6과13-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과13-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과13-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-weather"
+      ]
+    },
+    {
+      "id": "6과14-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-combustion"
+      ]
+    },
+    {
+      "id": "6과14-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-combustion"
+      ]
+    },
+    {
+      "id": "6과14-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-combustion"
+      ]
+    },
+    {
+      "id": "6과14-04",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-combustion"
+      ]
+    },
+    {
+      "id": "6과15-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "6과15-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "6과15-03",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "6과15-04",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "6과16-01",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-inquiry"
+      ]
+    },
+    {
+      "id": "6과16-02",
+      "course": "elementary56",
+      "topics": [
+        "curriculum-inquiry"
+      ]
+    },
+    {
+      "id": "4사01-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "4사01-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "4사02-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "4사02-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "4사02-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "4사03-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-culture"
+      ]
+    },
+    {
+      "id": "4사03-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-culture"
+      ]
+    },
+    {
+      "id": "4사04-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-transport"
+      ]
+    },
+    {
+      "id": "4사04-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-transport"
+      ]
+    },
+    {
+      "id": "4사04-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-transport"
+      ]
+    },
+    {
+      "id": "4사05-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-maps"
+      ]
+    },
+    {
+      "id": "4사05-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-maps"
+      ]
+    },
+    {
+      "id": "4사06-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "4사06-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-past-life"
+      ]
+    },
+    {
+      "id": "4사07-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "id": "4사07-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-economy"
+      ]
+    },
+    {
+      "id": "4사08-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "4사08-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "4사09-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "4사09-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "4사10-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "4사10-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-places"
+      ]
+    },
+    {
+      "id": "9사(지리)01-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "9사(지리)01-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "9사(지리)01-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-global"
+      ]
+    },
+    {
+      "id": "9사(지리)02-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-asia"
+      ]
+    },
+    {
+      "id": "9사(지리)02-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-asia"
+      ]
+    },
+    {
+      "id": "9사(지리)02-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-asia"
+      ]
+    },
+    {
+      "id": "9사(지리)02-04",
+      "course": "middle1",
+      "topics": [
+        "curriculum-asia"
+      ]
+    },
+    {
+      "id": "9사(지리)03-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-europe"
+      ]
+    },
+    {
+      "id": "9사(지리)03-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-europe"
+      ]
+    },
+    {
+      "id": "9사(지리)03-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-europe"
+      ]
+    },
+    {
+      "id": "9사(지리)04-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-africa"
+      ]
+    },
+    {
+      "id": "9사(지리)04-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-africa"
+      ]
+    },
+    {
+      "id": "9사(지리)04-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-africa"
+      ]
+    },
+    {
+      "id": "9사(지리)05-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-america"
+      ]
+    },
+    {
+      "id": "9사(지리)05-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-america"
+      ]
+    },
+    {
+      "id": "9사(지리)05-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-america"
+      ]
+    },
+    {
+      "id": "9사(지리)06-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-oceania"
+      ]
+    },
+    {
+      "id": "9사(지리)06-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-oceania"
+      ]
+    },
+    {
+      "id": "9사(지리)06-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-oceania"
+      ]
+    },
+    {
+      "id": "9사(일사)01-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-identity"
+      ]
+    },
+    {
+      "id": "9사(일사)01-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-identity"
+      ]
+    },
+    {
+      "id": "9사(일사)01-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-identity"
+      ]
+    },
+    {
+      "id": "9사(일사)02-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-culture"
+      ]
+    },
+    {
+      "id": "9사(일사)02-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-culture"
+      ]
+    },
+    {
+      "id": "9사(일사)02-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-culture"
+      ]
+    },
+    {
+      "id": "9사(일사)03-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)03-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)03-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)04-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)04-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)04-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-democracy"
+      ]
+    },
+    {
+      "id": "9사(일사)05-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "9사(일사)05-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "9사(일사)05-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "9사(일사)06-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "9사(일사)06-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "9사(일사)06-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-rights-law"
+      ]
+    },
+    {
+      "id": "4과01-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "4과01-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "4과01-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "4과01-04",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "4과02-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-animals"
+      ]
+    },
+    {
+      "id": "4과02-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-animals"
+      ]
+    },
+    {
+      "id": "4과02-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-animals"
+      ]
+    },
+    {
+      "id": "4과03-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과03-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과03-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과04-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과04-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과04-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-plants"
+      ]
+    },
+    {
+      "id": "4과05-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과05-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과05-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과06-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과06-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과06-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과07-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-sound"
+      ]
+    },
+    {
+      "id": "4과07-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-sound"
+      ]
+    },
+    {
+      "id": "4과07-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-sound"
+      ]
+    },
+    {
+      "id": "4과08-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "4과08-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "4과08-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-health"
+      ]
+    },
+    {
+      "id": "4과09-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "4과09-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "4과09-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-electric"
+      ]
+    },
+    {
+      "id": "4과10-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과10-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과10-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "4과11-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과11-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과11-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과11-04",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-earth"
+      ]
+    },
+    {
+      "id": "4과12-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "4과12-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "4과12-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "4과13-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "4과13-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "4과13-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "4과14-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-ecosystems"
+      ]
+    },
+    {
+      "id": "4과14-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-ecosystems"
+      ]
+    },
+    {
+      "id": "4과14-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-ecosystems"
+      ]
+    },
+    {
+      "id": "4과15-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "4과15-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "4과15-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "4과15-04",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "4과16-01",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-climate"
+      ]
+    },
+    {
+      "id": "4과16-02",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-climate"
+      ]
+    },
+    {
+      "id": "4과16-03",
+      "course": "elementary34",
+      "topics": [
+        "curriculum-climate"
+      ]
+    },
+    {
+      "id": "9과01-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-inquiry"
+      ]
+    },
+    {
+      "id": "9과01-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-inquiry"
+      ]
+    },
+    {
+      "id": "9과01-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-inquiry"
+      ]
+    },
+    {
+      "id": "9과02-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "9과02-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "9과02-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "9과02-04",
+      "course": "middle1",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "9과02-05",
+      "course": "middle1",
+      "topics": [
+        "curriculum-diversity"
+      ]
+    },
+    {
+      "id": "9과03-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "9과03-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "9과03-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-heat"
+      ]
+    },
+    {
+      "id": "9과04-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "9과04-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "9과04-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "9과04-04",
+      "course": "middle1",
+      "topics": [
+        "curriculum-states"
+      ]
+    },
+    {
+      "id": "9과05-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "9과05-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "9과05-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "9과05-04",
+      "course": "middle1",
+      "topics": [
+        "curriculum-forces"
+      ]
+    },
+    {
+      "id": "9과06-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "9과06-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "9과06-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-gas"
+      ]
+    },
+    {
+      "id": "9과07-01",
+      "course": "middle1",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "9과07-02",
+      "course": "middle1",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "9과07-03",
+      "course": "middle1",
+      "topics": [
+        "curriculum-space"
+      ]
+    },
+    {
+      "id": "9과07-04",
+      "course": "middle1",
+      "topics": [
+        "curriculum-space"
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

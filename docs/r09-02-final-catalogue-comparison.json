@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-10T23:59:31.209Z",
+  "codeSnapshot": "r09-02-final-same-source-code.json.gz",
+  "authority": "CATALOGUE_COUNTS_NOT_RELEVANCE_JUDGMENT",
+  "conditions": {
+    "same-source": {
+      "inputSnapshot": "r09-02-frozen-input.json.gz",
+      "totalIncludingVariants": 23360,
+      "minimumPassed": 4711,
+      "summary": {
+        "standards": 214,
+        "noCandidate": 16,
+        "titleOnly": 14,
+        "withoutMinimumDescription": 15,
+        "withoutSupportedRelation": 3,
+        "conceptOnly": 4,
+        "interpretationHeld": 2,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 72,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·소개문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다. 공식 보조 원문이 있는 자료는 제목 후보뿐에서 제외하지만 소개문 품질·자동 요구 판정은 바꾸지 않습니다.",
+        "ruleSupported": 4,
+        "ruleUnsupported": 210,
+        "candidateRelations": 8544,
+        "uniqueResources": 2899,
+        "uniqueResourcesWithMinimumText": 1325,
+        "automaticPublicRelations": 1,
+        "humanApprovedRelations": 0
+      }
+    },
+    "enriched": {
+      "inputSnapshot": "r09-02-final-enriched-input.json.gz",
+      "totalIncludingVariants": 23360,
+      "minimumPassed": 4713,
+      "summary": {
+        "standards": 214,
+        "noCandidate": 16,
+        "titleOnly": 14,
+        "withoutMinimumDescription": 15,
+        "withoutSupportedRelation": 3,
+        "conceptOnly": 4,
+        "interpretationHeld": 2,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 73,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·소개문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다. 공식 보조 원문이 있는 자료는 제목 후보뿐에서 제외하지만 소개문 품질·자동 요구 판정은 바꾸지 않습니다.",
+        "ruleSupported": 4,
+        "ruleUnsupported": 210,
+        "candidateRelations": 8569,
+        "uniqueResources": 2901,
+        "uniqueResourcesWithMinimumText": 1327,
+        "automaticPublicRelations": 1,
+        "humanApprovedRelations": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+  "checkedAt": "2026-10-16T06:19:18.981Z",
+  "total": 3,
+  "countScope": "건수는 이번 의미 검색에서 원문 조건을 확인한 후보의 판본 묶음 기준이며 전체 보유 자료의 일치 총수는 아닙니다. 필터는 확인된 후보 안에서 적용합니다.",
+  "proposedLessonFolder": "폐자원 재활용과 자원 절약",
+  "fileName": "검색검사_05_자원재활용.json",
+  "recommendedCurriculum": {
+    "displayId": "[과학]6과08-03",
+    "schoolLevel": "초등학교",
+    "gradeBand": "5~6학년군",
+    "subject": "과학",
+    "unitNo": "8",
+    "unitTitle": "자원과 에너지",
+    "achievementStandardId": "6과08-03",
+    "achievementStandard": "자원과 에너지의 효율적인 이용 방법에 대해 탐색하고, 생활 속에서 실천할 수 있는 다양한 사례를 공유할 수 있다.",
+    "connectionReason": "폐자원을 새로운 자원으로 만드는 처리 과정을 살펴보고 생활 속 효율적 자원 이용을 탐색하는 활동으로 연결.",
+    "connectionStatus": "개인 수업 연결 제안·기준 전체 충족/연계 승인/영상 적합성 확정 아님"
+  },
+  "selectedEpisodes": [
+    {
+      "id": "BCAST-580bfbcbba40271bb818",
+      "program": "극한 직업",
+      "title": "폐자원 처리장(1부)",
+      "summary": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+      "broadcastDate": "2011-04-19",
+      "navigation": {
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3073972",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:01:12.448Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3073972",
+      "requestedStandardAutomaticallySuggested": true,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "6과08-01",
+          "score": 8,
+          "matchedTerms": [
+            "자원"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 66,
+              "end": 68,
+              "quote": "자원"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 자원",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        },
+        {
+          "id": "6과08-03",
+          "score": 8,
+          "matchedTerms": [
+            "자원"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 66,
+              "end": 68,
+              "quote": "자원"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 자원",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "e53a3495e3e6beba7b93a7a2942eae21edddcb3acae1e8ff30fda77d9745abb7",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "재활용 시설에서 하는 일을 소개하는 자료",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "title",
+                "start": 0,
+                "end": 11,
+                "quote": "폐자원 처리장(1부)",
+                "text": "폐자원 처리장(1부)",
+                "score": 0,
+                "id": 0
+              },
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 44,
+                "quote": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.",
+                "text": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.",
+                "score": 2,
+                "id": 1
+              },
+              {
+                "field": "summary",
+                "start": 44,
+                "end": 106,
+                "quote": "작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+                "text": "작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+                "score": 0,
+                "id": 2
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    },
+    {
+      "id": "BCAST-d4685ade6dc83d7cc112",
+      "program": "극한 직업",
+      "title": "폐자원 처리장(2부)",
+      "summary": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+      "broadcastDate": "2011-04-20",
+      "navigation": {
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3074106",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:01:13.318Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3074106",
+      "requestedStandardAutomaticallySuggested": true,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "6과08-01",
+          "score": 8,
+          "matchedTerms": [
+            "자원"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 66,
+              "end": 68,
+              "quote": "자원"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 자원",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        },
+        {
+          "id": "6과08-03",
+          "score": 8,
+          "matchedTerms": [
+            "자원"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 66,
+              "end": 68,
+              "quote": "자원"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 자원",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "6ffabbc9d5cd88899c704be05c65766b2641e0943f066e80543aefe9558d0bb5",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "재활용 시설에서 하는 일을 소개하는 자료",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "title",
+                "start": 0,
+                "end": 11,
+                "quote": "폐자원 처리장(2부)",
+                "text": "폐자원 처리장(2부)",
+                "score": 0,
+                "id": 0
+              },
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 44,
+                "quote": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.",
+                "text": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.",
+                "score": 2,
+                "id": 1
+              },
+              {
+                "field": "summary",
+                "start": 44,
+                "end": 106,
+                "quote": "작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+                "text": "작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+                "score": 0,
+                "id": 2
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    }
+  ],
+  "allReturnedEpisodes": [
+    {
+      "id": "BCAST-580bfbcbba40271bb818",
+      "program": "극한 직업",
+      "title": "폐자원 처리장(1부)",
+      "summary": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+      "navigation": {
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3073972",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:01:12.448Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-d4685ade6dc83d7cc112",
+      "program": "극한 직업",
+      "title": "폐자원 처리장(2부)",
+      "summary": "폐자원의 재활용과 처리를 위해 하루 24시간 숨 가쁘게 움직이는 사람들이 있다.작은 물건 하나라도 버리지 않고 새로운 자원으로 만드는 사람들, 고물을 보물로 바꾸는 폐자원 처리장을 조명한다.",
+      "navigation": {
+        "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3074106",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-14T23:01:13.318Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-152d355425e4cddd6e40",
+      "program": "하나뿐인 지구",
+      "title": "우리가 청바지를 입는다는 것은",
+      "summary": "자막우리가 즐겨 입는 청바지는 어디서 와서, 어디로 가는가. 청바지를 입는다는 것은 어떤 의미일까? 빨라지는 소비 문화. 우리가 지불하는 댓가는 가격표 그 이상일 것이다.",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10471272",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    }
+  ],
+  "modelSearch": {
+    "status": "ALL_CONDITIONS_SUPPORTED",
+    "paidCalls": 0,
+    "cacheHits": 2
+  },
+  "scope": "현재 기본 교사 검색 API 재조회·현재 공식 기준 목록 대조. 영상 재생·구간·학년 적합성은 새로 확인하지 않음. 내 수업 폴더명은 제안이며 개인 자료 저장은 수행하지 않음."
+}

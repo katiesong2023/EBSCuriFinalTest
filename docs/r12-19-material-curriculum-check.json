@@ -1,0 +1,231 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "row": [
+        {
+          "label": "수업 대상",
+          "y": 551.921875,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "y": 551.921875,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "y": 551.921875,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "y": 551.921875,
+          "height": 32
+        }
+      ],
+      "cardSelectionInsideToggle": true,
+      "folderAutoUnion": true,
+      "manualPreserved": true,
+      "legacyPreserved": true,
+      "reloadAndClear": true,
+      "ownerIsolation": true,
+      "unfiledSaved": true,
+      "imported": {
+        "saved": true,
+        "ids": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ],
+        "personal": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ]
+      }
+    },
+    {
+      "width": 1280,
+      "row": [
+        {
+          "label": "수업 대상",
+          "y": 552.015625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "y": 552.015625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "y": 552.015625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "y": 552.015625,
+          "height": 32
+        }
+      ],
+      "cardSelectionInsideToggle": true,
+      "folderAutoUnion": true,
+      "manualPreserved": true,
+      "legacyPreserved": true,
+      "reloadAndClear": true,
+      "ownerIsolation": true,
+      "unfiledSaved": true,
+      "imported": {
+        "saved": true,
+        "ids": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ],
+        "personal": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ]
+      }
+    },
+    {
+      "width": 1000,
+      "row": [
+        {
+          "label": "수업 대상",
+          "y": 552.34375,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "y": 552.34375,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "y": 552.34375,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "y": 552.34375,
+          "height": 32
+        }
+      ],
+      "cardSelectionInsideToggle": true,
+      "folderAutoUnion": true,
+      "manualPreserved": true,
+      "legacyPreserved": true,
+      "reloadAndClear": true,
+      "ownerIsolation": true,
+      "unfiledSaved": true,
+      "imported": {
+        "saved": true,
+        "ids": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ],
+        "personal": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "row": [
+        {
+          "label": "수업 대상",
+          "y": 552.359375,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "y": 552.359375,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "y": 552.359375,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "y": 552.359375,
+          "height": 32
+        }
+      ],
+      "cardSelectionInsideToggle": true,
+      "folderAutoUnion": true,
+      "manualPreserved": true,
+      "legacyPreserved": true,
+      "reloadAndClear": true,
+      "ownerIsolation": true,
+      "unfiledSaved": true,
+      "imported": {
+        "saved": true,
+        "ids": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ],
+        "personal": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ]
+      }
+    },
+    {
+      "width": 360,
+      "row": [
+        {
+          "label": "수업 대상",
+          "y": 552.15625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "y": 552.15625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "y": 552.15625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "y": 552.15625,
+          "height": 32
+        }
+      ],
+      "cardSelectionInsideToggle": true,
+      "folderAutoUnion": true,
+      "manualPreserved": true,
+      "legacyPreserved": true,
+      "reloadAndClear": true,
+      "ownerIsolation": true,
+      "unfiledSaved": true,
+      "imported": {
+        "saved": true,
+        "ids": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ],
+        "personal": [
+          "4과01-01",
+          "6과12-02",
+          "6과13-01"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

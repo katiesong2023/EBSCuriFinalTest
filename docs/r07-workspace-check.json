@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-10-05T00:17:17.288Z",
+  "snapshotSha256": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+  "cases": [
+    {
+      "name": "주제 미정은 사회·과학 근거 방향만 제시하고 무관한 대표 후보를 채우지 않음",
+      "passed": true
+    },
+    {
+      "name": "우주 주제 요청→방향→대표 자료, 천문 근거와 프로그램 다양성",
+      "passed": true
+    },
+    {
+      "name": "같은 고정 자료에서 AND·OR·제외·프로그램·유형·링크 조건 보존",
+      "passed": true
+    },
+    {
+      "name": "시간·학년·장면은 경고 유지, 빈 결과·주제 오류·승인 필터 검증",
+      "passed": true
+    },
+    {
+      "name": "같은 제목 판본만 묶고 다른 회차·프로그램을 보존",
+      "passed": true
+    },
+    {
+      "name": "기후 대표 후보의 비유·극 배경과 꿀벌 방향의 수분 동음이의어 제외",
+      "passed": true
+    },
+    {
+      "name": "현재 승인 지문 적용과 원문 변경 후 표시·필터 무효화",
+      "passed": true
+    },
+    {
+      "name": "후보 부족 시 채우지 않음, 과학 비유와 극 배경을 대표 추천에서 제외",
+      "passed": true
+    },
+    {
+      "name": "필터별 개수·페이지·판본 수와 명시적 전체 목록",
+      "passed": true
+    }
+  ],
+  "examples": [
+    {
+      "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+      "directions": [
+        {
+          "id": "space-planets",
+          "label": "행성과 태양계",
+          "parent": "space",
+          "terms": [
+            "행성",
+            "태양계",
+            "자전",
+            "공전"
+          ],
+          "description": "지구와 다른 행성의 특징, 자전·공전에 따른 차이를 비교합니다.",
+          "question": "행성마다 하루와 일 년의 길이가 다른 이유는 무엇일까요?",
+          "count": 17,
+          "example": {
+            "id": "BCAST-012ead6030a246fe0eeb",
+            "title": "딱 하루만",
+            "field": "summary",
+            "quote": "행성",
+            "excerpt": "만 마음 편하게 쉬고 싶은데 어떤 기준으로 하루냐고? 행성의 하루는 행성들이 자전과 공전을 동시에 하기 때문에 태양일과 항성일로 나뉜다고 한다. 이왕 쉬는거 오래 푹 쉬고 싶다면 우린 어떤 행성으로 가야할까?"
+          }
+        },
+        {
+          "id": "space-explore",
+          "label": "우주를 탐사하는 방법",
+          "parent": "space",
+          "terms": [
+            "탐사",
+            "우주선",
+            "망원경"
+          ],
+          "description": "망원경 관측과 탐사선이 우주 정보를 얻는 방법을 비교합니다.",
+          "question": "직접 가기 어려운 우주를 어떻게 알아볼 수 있을까요?",
+          "count": 3,
+          "example": {
+            "id": "BCAST-d8d2298f82c6061f9fa1",
+            "title": "그의 이름은 134340 Pluto",
+            "field": "summary",
+            "quote": "탐사",
+            "excerpt": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ..."
+          }
+        },
+        {
+          "id": "space-environment",
+          "label": "우주 개발과 환경",
+          "parent": "space",
+          "terms": [
+            "우주 쓰레기",
+            "우주쓰레기",
+            "인공위성"
+          ],
+          "description": "인공위성의 쓰임과 우주 쓰레기 문제를 살펴보고, 우주 이용에 필요한 규칙을 논의합니다.",
+          "question": "우주를 계속 이용하려면 어떤 약속이 필요할까요?",
+          "count": 3,
+          "example": {
+            "id": "BCAST-98b56fa27d0b607fa585",
+            "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+            "field": "title",
+            "quote": "우주 쓰레기",
+            "excerpt": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?"
+          }
+        }
+      ],
+      "representatives": [
+        {
+          "id": "BCAST-012ead6030a246fe0eeb",
+          "title": "딱 하루만",
+          "program": "지식채널e",
+          "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 다른 프로그램과 비교할 자료 · 소개문 근거 보유"
+        },
+        {
+          "id": "BCAST-98b56fa27d0b607fa585",
+          "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+          "program": "지식채널e",
+          "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 같은 프로그램의 다른 자료 · 소개문 근거 보유"
+        },
+        {
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "program": "지식채널e",
+          "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 같은 프로그램의 다른 자료 · 소개문 근거 보유"
+        },
+        {
+          "id": "BCAST-b5a6cb02e4c98e426800",
+          "title": "소행성이 온다",
+          "program": "과학 다큐 비욘드",
+          "selectionReason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정. 다른 프로그램과 비교할 자료 · 소개문 근거 보유"
+        }
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "server/data/curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "server/data/broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106"
+  },
+  "storesUnchanged": true,
+  "networkAttempts": 0,
+  "paidApiCalls": 0,
+  "limits": "개발용 기능·근거 경계 검사이며 실제 교사 평가·최종 검색 품질 검증이 아니다."
+}

@@ -1,0 +1,76 @@
+{
+  "createdAt": "2026-10-10T15:10:00.985Z",
+  "scope": "독립평가 자료 제외; 관계 적합성은 아직 미판정",
+  "rows": [
+    {
+      "id": "BCAST-17fc205bb84eab78edd3",
+      "title": "88화_MOF, 세상을 구할 물질인가?",
+      "program": "취미는 과학",
+      "url": "https://www.ebs.co.kr/tv/show?courseId=40051102&stepId=60055114&lectId=60730010",
+      "content_hash": "dd01ab4be2f0ae6588e98b7cefea1a40029de657377ab3912a35ae30b57f3871",
+      "standardId": "6과05-03",
+      "reason": "과학 후보 없음: 혼합물 분리 장치와 관련될 가능성 확인",
+      "previousLength": 21
+    },
+    {
+      "id": "BCAST-8a18b36f70b6e17f28fa",
+      "title": "라오스 소금마을 2부",
+      "program": "극한 직업",
+      "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054638",
+      "content_hash": "83c01cd0932343f8c82b08b211f606b2a03ce600625c9b718e26dad6a404731b",
+      "standardId": "6과05-02",
+      "reason": "과학 후보 없음: 소금 생산과 증발 분리 원문 확인",
+      "previousLength": 13
+    },
+    {
+      "id": "BCAST-bc20c57561a30458a210",
+      "title": "라오스 소금마을 1부",
+      "program": "극한 직업",
+      "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054290",
+      "content_hash": "bc78ab2125062670ff6803a5ef330764c0272af80699314179cc89cc136f47e5",
+      "standardId": "6과05-02",
+      "reason": "과학 후보 없음: 소금 생산과 증발 분리 원문 확인",
+      "previousLength": 13
+    },
+    {
+      "id": "BCAST-21d23bc91ae1d3e16b39",
+      "title": "구름의 무게는 얼마나 될까?",
+      "program": "지식채널e",
+      "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20434271",
+      "content_hash": "96392129ca50d3ac2acbe045dcb4982880fd1ed0ba244a5dd2235b186d0e4181",
+      "standardId": "6과06-01",
+      "reason": "제목뿐: 구름 원문 확인",
+      "previousLength": 0
+    },
+    {
+      "id": "BCAST-aae0fbbb73a3097257e6",
+      "title": "우리가 '멍 때리기'를 해야 할 과학적 이유",
+      "program": "지식채널e",
+      "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20445484",
+      "content_hash": "e582e0a99ff0e402d9c150c92383bae96c623961f73e362af03b25946e0a134e",
+      "standardId": "9과01-01",
+      "reason": "과학 후보 없음: 과학적 탐구 설명 여부 확인",
+      "previousLength": 12
+    },
+    {
+      "id": "BCAST-d356777fc3abba17bae4",
+      "title": "이상한 선거",
+      "program": "지식채널e",
+      "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60532483",
+      "content_hash": "de1e3ef94c05048c49d5c4a1adf8db25787c89e243354309d94c97df0a07f064",
+      "standardId": "6사08-01",
+      "reason": "관계 설명 부족: 선거의 원문 확인",
+      "previousLength": 16
+    },
+    {
+      "id": "BCAST-7fd1bfb95415f72166b0",
+      "title": "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+      "program": "지식채널e",
+      "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60451951",
+      "content_hash": "0104d0ff2ae3821d604b85b6eba577f0226767235b421a480cbcef3530985fed",
+      "standardId": "6사08-01",
+      "reason": "관계 설명 부족: 선출 방식 원문 확인",
+      "previousLength": 29
+    }
+  ]
+}

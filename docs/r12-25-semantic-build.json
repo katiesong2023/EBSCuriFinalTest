@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-10-15T10:56:29.847Z",
+  "buildId": "e7abe8adc4b4088e9d5e34e9",
+  "ruleVersion": "2026-10-15.1",
+  "ruleHashes": {
+    "semantic-layer.js": "7c79d9c5022675be256a31863088cfafb948b6b57e8dde8c90d2b280c6811667",
+    "semantic-pattern.js": "61cbfc0aa5e7a6d92e83dcad827bb1ad05a46368c361a1f72af29cc804ba6cd6",
+    "keyword-context.js": "694909126903024550ac73623a6e3da79052d91e0de4d804cd1497446364f2ab",
+    "content-keywords.js": "ba8fc939ba4e0e19fe0fffa4b6408316fd28ecf79b870aa514a89ab7f16decc3",
+    "keyword-vocabulary.js": "fc67a30a9424932fd3729e13038c364f33059e5c35d54be35b6ad6bd8ad3a5c7",
+    "source-editorial.js": "76fceebe24d8c3c0519525c051af41e59826ee2c219b32773f927af73ee9b2a5",
+    "source-context.js": "d3349e458a697e72aa558e03de020729b8b044de54ee8a36009d0adf3356903f",
+    "supplement-search.js": "7485fafa6223d67430fef6e52414cf0d9ee6c25c3491c317bff77e516d38e864",
+    "source-supplements.js": "49738d6c2700e1ece7a40054ae8f8482f94e2d0b62c672aa495cdddce1a9ce7c",
+    "broadcast-guide-text.js": "1d61038b2475bfb46e82faaa4bc5adaabb51a5b6714f4fa5a9df61a89057dc1b",
+    "source-text-quality.js": "8badcc3834e9651bdbec91fc0c6cfa8aa86ca7e3e48c5a4b3175f408c75e3a45",
+    "source-literal.js": "476c894927dea9d56219972b16c86c38e75ab47a856767a25e1d800a2b234094"
+  },
+  "resources": 23403,
+  "concepts": 60,
+  "resourcesWithSourceTags": 3069,
+  "sourceMentions": 3971,
+  "inferredCandidates": 217,
+  "sourceKeywords": 30201,
+  "paidApiCalls": 0,
+  "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+}

@@ -1,0 +1,31 @@
+{
+  "searchRuntimeDrift": [],
+  "unrelatedPostRunFileChanges": [
+    "server/extension-popup-check.js"
+  ],
+  "baselineMatchesPrior370": true,
+  "catalogFingerprint": "94ab780ee3345ffc38504cbc6d3c2b243187b4dcd3ae5bdf1756a8ab7bba7ac5",
+  "protectedStores": {
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/semantic-layer.sqlite": "10f601572cc01729166129aacf21f868eb1eb0d96250b4a7f76cfc80747fa069",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "inputHashes": [
+    {
+      "path": "docs/r12-search-test-200-input.json",
+      "sha256": "049950ac88c781d2d006e4d5812136ce7af1135e25e9d0687c5281fd8faca6d8"
+    },
+    {
+      "path": "docs/r12-03-common-stable170.json",
+      "sha256": "2132f0537704a566a09970eeb0a54e65ecad2ac0bbc62cfcdb5430cd4e8443c2"
+    }
+  ],
+  "judgedExposures": 144,
+  "distinctJudgedPairs": 86,
+  "exactQuoteChecks": 276,
+  "sourcePredicateRecoveryQueries": 0,
+  "paidApiCalls": 0,
+  "snapshot": "r12-40-engine-snapshots.tar.gz"
+}

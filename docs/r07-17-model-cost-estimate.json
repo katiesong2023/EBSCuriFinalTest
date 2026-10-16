@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-10-13T08:15:51.002Z",
+  "scope": {
+    "allRows": 23360,
+    "nonEmptySynopsis": 10284,
+    "usableSynopsis": 6235,
+    "withoutSynopsis": 13076,
+    "textCharacters": 771115
+  },
+  "rates": {
+    "solBatch": {
+      "model": "gpt-6.1-sol",
+      "input": 1,
+      "output": 5
+    },
+    "lunaBatch": {
+      "model": "gpt-6-luna",
+      "input": 0.05,
+      "output": 0.25
+    }
+  },
+  "assumptions": {
+    "textTokensPerCharacter": [
+      0.8,
+      2
+    ],
+    "promptAndSchemaTokensPerItem": [
+      1200,
+      2200
+    ],
+    "visibleOutputTokensPerItem": [
+      200,
+      500
+    ],
+    "solReasoningTokensPerItem": [
+      300,
+      800
+    ],
+    "retryReserve": 0.1,
+    "cachingDiscountUsed": false,
+    "tokenizerMeasured": false
+  },
+  "estimates": {
+    "allNonEmptySol": {
+      "requests": 10284,
+      "inputTokens": [
+        12957692,
+        24167030
+      ],
+      "billableOutputTokens": [
+        5142000,
+        13369200
+      ],
+      "usd": [
+        42.5344612,
+        100.114333
+      ]
+    },
+    "allNonEmptyLuna": {
+      "requests": 10284,
+      "inputTokens": [
+        12957692,
+        24167030
+      ],
+      "billableOutputTokens": [
+        2056800,
+        5142000
+      ],
+      "usd": [
+        1.2782930600000002,
+        2.74323665
+      ]
+    },
+    "usableSol": {
+      "requests": 6235,
+      "inputTokens": [
+        7967056.8,
+        14929642
+      ],
+      "billableOutputTokens": [
+        3117500,
+        8105500
+      ],
+      "usd": [
+        25.910012480000002,
+        61.002856200000004
+      ]
+    },
+    "hybridLunaThenSol10to20Percent": {
+      "usd": [
+        5.531739180000001,
+        22.76610325
+      ],
+      "note": "모호한10~20%가 대략 동일 분량이라는 가정. 긴 소개가 이 단계에 몰리면 증가."
+    }
+  },
+  "pilot": {
+    "same100ItemsTwoModelsUsd": [
+      0.42602833780630106,
+      1.0001708445157527
+    ],
+    "criteria": "비유·인명·진짜 과학 개념·제목 반복·편성 안내·부정·다의어를 포함. 오류율/근거 일치/실제 입력·추론·출력 토큰을 비교 후 전수 모델과 예산 결정."
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "https://developers.openai.com/api/docs/guides/batch",
+    "https://developers.openai.com/api/docs/guides/reasoning"
+  ],
+  "limitations": [
+    "토큰 수는 문자량 기반 추정이며 청구액 보증이 아니다.",
+    "추론 토큰이 예상보다 많거나 응답 재생성이 늘면 증가한다.",
+    "영상·이미지 분석·공식 소개 재수집·부가세·개발 채팅 사용량은 제외한다.",
+    "원문이 없는13,076자료는 모델에 영상 내용을 만들어 내도록 요청하지 않는다.",
+    "교육과정 언어 후보/본문 근거/보류 판단의 비용이다.214성취기준 충족·영상 학년 적합성을 판정하는 별도 작업 비용은 포함하지 않는다."
+  ],
+  "paidApiCalls": 0
+}

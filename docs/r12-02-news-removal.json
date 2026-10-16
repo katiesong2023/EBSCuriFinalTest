@@ -1,0 +1,411 @@
+{
+  "date": "2026-10-15",
+  "deletedNewsClips": 76,
+  "remainingNewsClips": 0,
+  "removedRows": {
+    "main.episodes": 76,
+    "main.episode_text": 76,
+    "main.link_checks": 76,
+    "main.source_enrichments": 0,
+    "main.source_supplement_events": 0,
+    "semantic.context_reviews": 76,
+    "semantic.source_keywords": 405,
+    "semantic.tags": 50,
+    "semantic.resources": 76,
+    "search.passages": 448
+  },
+  "unrelatedRowsUnchanged": true,
+  "protectedStoresUnchanged": true,
+  "protectedSha256": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "teacher-resources.sqlite": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea"
+  },
+  "integrityChecks": "ok",
+  "collectionHistoryPreserved": true,
+  "personalBrowserCopiesModified": false,
+  "deletedResources": [
+    {
+      "id": "BCAST-99fb54846a0a875771d5",
+      "title": "[지역교육브리핑] 교직원 마음건강 지원 확대",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779392/H"
+    },
+    {
+      "id": "BCAST-6031c5587068a8fcb9b2",
+      "title": "[지역교육브리핑] 서울형 농촌유학, 경남까지 확대",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779391/H"
+    },
+    {
+      "id": "BCAST-9206d953a1f43b802ee1",
+      "title": "[지역교육브리핑] '독감 사망 교사' 유치원 원장에 정직 2개월",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779390/H"
+    },
+    {
+      "id": "BCAST-e15c412496f4c9ef9bd4",
+      "title": "[지역교육브리핑] 교복값 담합 업체 10곳 적발",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779389/H"
+    },
+    {
+      "id": "BCAST-db57c13431c5c34a9913",
+      "title": "교육교부금 개편안 격돌…수도권 교육감들 \"개편 반대\"",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779388/H"
+    },
+    {
+      "id": "BCAST-4e377ba9c9b28e8089f7",
+      "title": "수학여행 가는 초등학교 2년 새 724곳 감소",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779246/H"
+    },
+    {
+      "id": "BCAST-ec5de0249fcde096aef6",
+      "title": "양육지원금 3,400만 원 격차…소급 적용 검토",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779245/H"
+    },
+    {
+      "id": "BCAST-d8e71ec9e1770da45d24",
+      "title": "[단독] 학교 잔반 처리 연 383억 원…비용 제각각",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779244/H"
+    },
+    {
+      "id": "BCAST-b102cc41ffec09ae3012",
+      "title": "[단독] 고2 시간표 전수분석…개설과목 2배 격차",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60779243/H"
+    },
+    {
+      "id": "BCAST-9ca5858d06520de29c94",
+      "title": "[입시의 정석] 2027 논술전형, 어떻게 준비할까?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778720/H"
+    },
+    {
+      "id": "BCAST-ee06af307f43edc334b7",
+      "title": "대입 논술 뚫은 'AI 안경'…수능 앞두고 비상",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778719/H"
+    },
+    {
+      "id": "BCAST-6a670970e9673e192c3e",
+      "title": "교장공모제, 면접서 신원 노출해도 감점",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778498/H"
+    },
+    {
+      "id": "BCAST-2fb31824449fbcf7cb0e",
+      "title": "판소리 '긴긴밤', 국경·언어 넘어서다",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778497/H"
+    },
+    {
+      "id": "BCAST-2840ee6cf32c0e0b50f3",
+      "title": "AI 안경 쓰고 논술시험…대입 부정행위 비상",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778496/H"
+    },
+    {
+      "id": "BCAST-2a6bb62916a1f2c0da40",
+      "title": "국감서 '수시 먹통' 집중 질타…대행사 사과",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778495/H"
+    },
+    {
+      "id": "BCAST-d5dbdf5f5e0a7645880e",
+      "title": "[교실 밖 생존교양] 개학은 했는데, 마음은 아직 방학 중?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778133/H"
+    },
+    {
+      "id": "BCAST-35212a3f117ea9f01a02",
+      "title": "정서적 아동학대 놓고 또 논란…'몰래 녹음' 불인정",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778132/H"
+    },
+    {
+      "id": "BCAST-e68000ea9996d776353b",
+      "title": "육아기 근로시간 단축, 자녀 돌봄 47분 증가",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778048/H"
+    },
+    {
+      "id": "BCAST-acd838a3d91955da7077",
+      "title": "사립대 특성화 선도대학 33곳 선정…6천억 원 지원",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778047/H"
+    },
+    {
+      "id": "BCAST-ca87cb2c78314efe957f",
+      "title": "지방 의대 수시 지원 40% 급증…지역의사제 영향",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778046/H"
+    },
+    {
+      "id": "BCAST-b27cfd0adb762426be3d",
+      "title": "'야차룰' 학폭 가해학생 78% 경조치",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778045/H"
+    },
+    {
+      "id": "BCAST-fe0d47012a4a9f0f8a0d",
+      "title": "\"마감 시간대 원서 몰릴 것\" 경고에도 수시 지원 '먹통'",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60778044/H"
+    },
+    {
+      "id": "BCAST-87de8f886cee6bf91e94",
+      "title": "[10분 문화톡] 한국형 코첼라 '패노메논'…기대와 논란",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777553/H"
+    },
+    {
+      "id": "BCAST-1368439abcc7b7ab1674",
+      "title": "기초과학 쾌거…올해 노벨 과학상은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777552/H"
+    },
+    {
+      "id": "BCAST-2f55f313ef216f918818",
+      "title": "[심층기획] 이주배경학생 21만 명…교실은 준비됐나?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777551/H"
+    },
+    {
+      "id": "BCAST-974cc25065442393d3ac",
+      "title": "[청경체] 현금 없는 디지털 세대, 우리 아이 용돈 교육은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777263/H"
+    },
+    {
+      "id": "BCAST-0a1987a6750e304df7c7",
+      "title": "세계 정신건강의 날…마음이 보내는 SOS",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777262/H"
+    },
+    {
+      "id": "BCAST-f43f1c5b6c5c7b17d1a7",
+      "title": "집 떠난 청소년, 성인이 돼도 '노숙'…우울 위험 10배",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777170/H"
+    },
+    {
+      "id": "BCAST-1229c2f7b8585cf000bb",
+      "title": "대학생 마음건강 '위험신호'…공결제 요구",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777169/H"
+    },
+    {
+      "id": "BCAST-69ab6266bfd1dc843ebf",
+      "title": "'수시먹통'부터 '수능개편'까지 집중 질의",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777168/H"
+    },
+    {
+      "id": "BCAST-8102484944333776605c",
+      "title": "EBS, 중앙여고와 '협력학교' 협약",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776887/H"
+    },
+    {
+      "id": "BCAST-2282ee2c0e3641634ae7",
+      "title": "[지역교육브리핑] 지역으로 번진 '유아 영어학원'…비용도 껑충",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776886/H"
+    },
+    {
+      "id": "BCAST-0648ec3da1c699f89a53",
+      "title": "[지역교육브리핑] 법원은 '각하'했지만…순천대·목포대 의대 갈등 계속",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776885/H"
+    },
+    {
+      "id": "BCAST-dda6dc14e63880801b33",
+      "title": "[지역교육브리핑] 대전 학교 구글 계정 7만여 개 '무단 변경'…원인 조사 중",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776884/H"
+    },
+    {
+      "id": "BCAST-04aae4d736173a49e9ad",
+      "title": "2026 국정감사 첫날…핵심 교육 쟁점은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776883/H"
+    },
+    {
+      "id": "BCAST-b9461d64a63e984a0342",
+      "title": "루이 14세부터 퀸까지…무대 채운 뮤지컬",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776634/H"
+    },
+    {
+      "id": "BCAST-9114f4768d1d4ad79f72",
+      "title": "자살 사망 감소하는데…청소년은 역행",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776633/H"
+    },
+    {
+      "id": "BCAST-2df7658af4ac5ce09fda",
+      "title": "[단독] 어린 '영케어러'는 사각지대…13세 미만 지원 단 1명",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776632/H"
+    },
+    {
+      "id": "BCAST-8ba6bcd89fac0782d694",
+      "title": "[입시의 정석] 마이스터고 19일부터 원서접수…합격 전략은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776164/H"
+    },
+    {
+      "id": "BCAST-8604b2c4cf58d9f15641",
+      "title": "교제폭력, '사랑' 아닌 범죄…보호 대책은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776163/H"
+    },
+    {
+      "id": "BCAST-ae639ab9612b01a85724",
+      "title": "누리호, 내일 5차 발사…역대 최다 위성 15기 탑재",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776070/H"
+    },
+    {
+      "id": "BCAST-e5b17b020f48b15aec61",
+      "title": "친구와 쉴 때 행복…\"더 행복하려면 경제적 여유\"",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776069/H"
+    },
+    {
+      "id": "BCAST-3ab9639fb559d8c60f4b",
+      "title": "[단독] 교원 공상 청구 50%↑…승인율은 하락",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60776068/H"
+    },
+    {
+      "id": "BCAST-2e02255a1f28846d47e3",
+      "title": "[교실 밖 생존교양] 졸업사진도 딥페이크로…학생 피해 어떻게 막나",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775959/H"
+    },
+    {
+      "id": "BCAST-c57bb256bd5dcd935b67",
+      "title": "2026 국정감사 '수시 먹통'·'서·논술형 수능' 쟁점",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775958/H"
+    },
+    {
+      "id": "BCAST-970dc022c3b0691606d7",
+      "title": "고교생 도서 대출 연 3권…초등생의 10분의 1",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775957/H"
+    },
+    {
+      "id": "BCAST-d054a6031297d409ef28",
+      "title": "900만 명 분석…\"SNS 과몰입, 우울 위험 2배\"",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775956/H"
+    },
+    {
+      "id": "BCAST-24ff1281217af4884875",
+      "title": "작은 학교엔 좁은 선택지…고교학점제 '과목 격차'",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775955/H"
+    },
+    {
+      "id": "BCAST-5487fa7f7673dfa3fa3f",
+      "title": "[10분 문화톡] '보는 박물관'에서 '즐기는 박물관'으로…국중박의 변신",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775331/H"
+    },
+    {
+      "id": "BCAST-eca6f2aa8ac370a11089",
+      "title": "청소년 SNS 규제 어디까지…플랫폼 책임은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775330/H"
+    },
+    {
+      "id": "BCAST-3eed0a4f20a148285517",
+      "title": "독감 무료접종 확대…어린이는 '접종' 중",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775326/H"
+    },
+    {
+      "id": "BCAST-af7348cb286c3955017f",
+      "title": "사립유치원 96%, 교육시설 안전인증 안 받아",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775325/H"
+    },
+    {
+      "id": "BCAST-5742d73164e82916fb65",
+      "title": "재난의 시대, 오이디푸스를 다시 묻다",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775324/H"
+    },
+    {
+      "id": "BCAST-ccd102bc83b5a61d7a16",
+      "title": "소년보호사건 5만 건…4년 새 45% 증가",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775323/H"
+    },
+    {
+      "id": "BCAST-3b66699bb745169d659f",
+      "title": "공공의사, 전북 남원서 양성…2030년 교육 시작",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775322/H"
+    },
+    {
+      "id": "BCAST-2f100efb98bc3cf18402",
+      "title": "[청경체] AI 브레이크 밟는 빅테크…속내는?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775058/H"
+    },
+    {
+      "id": "BCAST-234cd88ddc96e52b6348",
+      "title": "4세·7세 고시 금지…우회 막을 기준 필요",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60775057/H"
+    },
+    {
+      "id": "BCAST-c950f32c9b6f1325d3c1",
+      "title": "누적 폐교 4천 곳…5년 새 141곳↑",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774847/H"
+    },
+    {
+      "id": "BCAST-c1d724e5fab475b76fc7",
+      "title": "미디어 접근·선택권 확대…\"미디어 기본사회 구현\"",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774846/H"
+    },
+    {
+      "id": "BCAST-017d59cc051a4b54458c",
+      "title": "대학생 생활비 대출 늘면서 연체도 증가",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774845/H"
+    },
+    {
+      "id": "BCAST-8d62a614c25ed2e401f8",
+      "title": "수시 마감 연장 뒤 3천여 건 추가 접수",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774844/H"
+    },
+    {
+      "id": "BCAST-57d992b1a46f4c1a981f",
+      "title": "학생 불안엔 학업 스트레스…자살사고엔 자존감",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774843/H"
+    },
+    {
+      "id": "BCAST-115beb377ecc50c1fb92",
+      "title": "[지역교육브리핑] 전남광주에 경북까지…서·논술형 평가 본격화",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774366/H"
+    },
+    {
+      "id": "BCAST-819eb2ed4ebd58398903",
+      "title": "[지역교육브리핑] 스마트폰 내려놓은 학생들…'폰프리' 도전",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774365/H"
+    },
+    {
+      "id": "BCAST-4704877d87da309ac20b",
+      "title": "[지역교육브리핑] \"교육부 중재 합의\" vs \"자의적 해석\"…통합 '진통'",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774364/H"
+    },
+    {
+      "id": "BCAST-4123a99eef0fc7f1e8d1",
+      "title": "'무릎 호소' 여명학교…탈북학생 배울 곳은?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774363/H"
+    },
+    {
+      "id": "BCAST-d27b7040abad2ff8726c",
+      "title": "기초학력 전문교원 2배 늘었지만…학교급·지역별 격차",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774222/H"
+    },
+    {
+      "id": "BCAST-33638df8df50a73e282e",
+      "title": "대기업 4곳 중 3곳, '출신학교 차별금지' 명시 없어",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774221/H"
+    },
+    {
+      "id": "BCAST-fc6973ac020dd2fbb65f",
+      "title": "대학 교육비 12% 늘었지만 OECD 평균 못 미쳐",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774220/H"
+    },
+    {
+      "id": "BCAST-4a8a863ba0df479f1e38",
+      "title": "[입시의 정석] '진로·과목 연계성' 고려…선택과목 잘 고르려면",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773925/H"
+    },
+    {
+      "id": "BCAST-a45c166a24c0f8499617",
+      "title": "지역 인재 키우는 전문대…AI 시대 과제는?",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773924/H"
+    },
+    {
+      "id": "BCAST-19eb2c83541be294c5c4",
+      "title": "교사 77% \"학생부 표현 차별화 부담\"",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773830/H"
+    },
+    {
+      "id": "BCAST-07e808af02bac149d491",
+      "title": "'수시 먹통' 사태 2주째…자료도 확보 못 해",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773829/H"
+    },
+    {
+      "id": "BCAST-8859715882c3e4a0df41",
+      "title": "TOPIK에 AI 도입…부정행위엔 5년 응시 금지",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773828/H"
+    },
+    {
+      "id": "BCAST-fd872bc0a46276e23da5",
+      "title": "여성 직원이 절반인데…교육·금융 업계 '유리천장'",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773827/H"
+    },
+    {
+      "id": "BCAST-42879086c451a6613993",
+      "title": "무대 위 가장 뜨거운 엘사, 정선아",
+      "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773292/H"
+    }
+  ],
+  "liveCatalogNewsRemaining": 0,
+  "liveCatalogDeletedIdsRemaining": 0
+}

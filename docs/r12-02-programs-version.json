@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "sourceBefore": 22753,
+  "sourceAfter": 22870,
+  "addedEpisodesAndClips": 117,
+  "announcementCollections": 1,
+  "newsExamined": 100,
+  "newsFullBroadcastExcluded": 24,
+  "newSourcesInSemanticIndex": 117,
+  "semanticResources": 23479,
+  "semanticPassages": 28777,
+  "protectedBefore": "r12-02-programs-protected-before.json",
+  "codeSha256": {
+    "server/broadcast-store.js": "afe56c03c5422d6929e11f725dcbc1d68c1fb7db3cc66eaec5c3e4dda0ce93eb",
+    "server/official-program-parser.js": "566b970bcd10f02cce9fb4d9884c4c5b25a0efe76ee1f972ed93266fe4f211e8",
+    "server/news-source.js": "e708b9a0db7ecc4cd8a46eb5e7b6d6867d8d307b1551e4d668a20e7edb761221",
+    "server/program-announcements.js": "6cd5ba0ebdbc7daf790e1a44087b7b6ac0e09c57bded3e01a2932334e45ee0e0",
+    "server/discovery-catalog.js": "6fec88574ad7455c689bdb7f876d7bd67a537c791737ae59d8b7c0a29d38764c",
+    "server/collect-requested-programs.js": "415d08bb75277ee91b0133637c5c1322809a1fb48a242393d12250c76b27df3b",
+    "server/discovery-search.js": "39c4dce36a0ac5c0d7f5119b935fc19a3914d85f4ced9f70fa7ce9bb9f0ebc2a"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-10-04T05:45:40.120Z",
+  "version": "0.2.0",
+  "mode": "LOCAL_DETERMINISTIC_SIMULATION",
+  "stats": {
+    "catalog": 22118,
+    "individual": 21674,
+    "collections": 444,
+    "withDescription": 8292,
+    "workingSet": 144,
+    "indexedContents": 4,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22692,
+    "broadcastCatalog": 22753,
+    "broadcastDescriptions": 10175,
+    "broadcastPrograms": 88,
+    "broadcastTitleGroups": 21511,
+    "directLinks": 341
+  },
+  "cases": [
+    {
+      "name": "카탈로그 단위·중복·출처 계약",
+      "passed": true
+    },
+    {
+      "name": "동고서저 → 동쪽 산지·서쪽 평야 → 일반방송 우선",
+      "passed": true
+    },
+    {
+      "name": "질문 표현·개념 별칭·장소 필터",
+      "passed": true
+    },
+    {
+      "name": "화산·해안과 보유 소개문 일반 검색",
+      "passed": true
+    },
+    {
+      "name": "엉뚱한 국가·장소 공기·미보유 질문에 결과 억지 채움 없음",
+      "passed": true
+    },
+    {
+      "name": "자료 유형·전체 페이지·범위 보정",
+      "passed": true
+    },
+    {
+      "name": "잘못된 조건·위장 출처 거부",
+      "passed": true
+    },
+    {
+      "name": "유료 API 기본 차단: 키 접근·fetch·저장 이전",
+      "passed": true
+    },
+    {
+      "name": "가져온 신규·변경·비활성 원본의 검색 반영",
+      "passed": true
+    },
+    {
+      "name": "실제 HTTP: 홈·검색·HEAD·오류·유료 POST 차단",
+      "passed": true
+    },
+    {
+      "name": "실제 저장소 바이트 불변",
+      "passed": true
+    }
+  ],
+  "latency": {
+    "samples": 30,
+    "medianMs": 3.31,
+    "p95Ms": 4.33,
+    "includes": "파일 읽기·질문 해석·순위 계산, 브라우저 렌더 제외"
+  },
+  "paidApiCalls": 0,
+  "storeSha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "storeUnchanged": true,
+  "limitations": [
+    "정답 라벨 기반 추천 정확도·교사 시간 절감 측정이 아니다.",
+    "영상 재생·실제 장면·학년 적합성·원문 최신 접근 상태는 검증하지 않았다.",
+    "새 지리 자료는 공식 페이지 검색 색인 기반 메타데이터이며 콘텐츠 복제본이 아니다."
+  ]
+}

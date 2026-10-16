@@ -1,0 +1,35 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "view": "folder&folder=folder0",
+      "removedActions": true,
+      "preparationTitle": true,
+      "notesAndRemovePreserved": true
+    },
+    {
+      "width": 1440,
+      "view": "all",
+      "removedActions": true,
+      "preparationTitle": true,
+      "notesAndRemovePreserved": true
+    },
+    {
+      "width": 390,
+      "view": "folder&folder=folder0",
+      "removedActions": true,
+      "preparationTitle": true,
+      "notesAndRemovePreserved": true
+    },
+    {
+      "width": 390,
+      "view": "all",
+      "removedActions": true,
+      "preparationTitle": true,
+      "notesAndRemovePreserved": true
+    }
+  ],
+  "searchActionsPreserved": true,
+  "errors": [],
+  "isolatedData": true
+}

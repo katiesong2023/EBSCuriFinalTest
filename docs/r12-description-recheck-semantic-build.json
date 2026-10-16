@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-10-15T05:18:41.657Z",
+  "buildId": "7c85d2a2c9aaf91b345b1667",
+  "ruleVersion": "2026-10-15.1",
+  "ruleHashes": {
+    "semantic-layer.js": "5379fd4a780437ccbf038a381affc0818dde1799cc764c7aceef3f667dbd09e3",
+    "semantic-pattern.js": "1fc8e0031c80181ccc89f944475c452c802c5d747c6aac52aa81ec3b3691132d",
+    "keyword-context.js": "d3d99686d64ef83a7b248d3ddca985b88dc44c947f418c4e8c582458adc3a21a",
+    "content-keywords.js": "f59e65d2aa7fc6133b141ce4d7d7418ca1e80a7850d90ecd790476718dda3f6b",
+    "broadcast-guide-text.js": "1d61038b2475bfb46e82faaa4bc5adaabb51a5b6714f4fa5a9df61a89057dc1b",
+    "source-text-quality.js": "8badcc3834e9651bdbec91fc0c6cfa8aa86ca7e3e48c5a4b3175f408c75e3a45",
+    "source-literal.js": "9ef73d5bac78d8204c1d9c51dfed7d61785eebcaf57893ce63fce046931b328f"
+  },
+  "resources": 23403,
+  "concepts": 60,
+  "resourcesWithSourceTags": 3059,
+  "sourceMentions": 3952,
+  "inferredCandidates": 216,
+  "sourceKeywords": 18538,
+  "paidApiCalls": 0,
+  "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+}

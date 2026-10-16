@@ -1,0 +1,81 @@
+/* 수업 자료 보기 전환은 왼쪽 인덱스에서 제공한다. */
+.library-workspace {display:grid;grid-template-columns:196px minmax(0,1fr);gap:28px;align-items:start}
+.library-workspace-main {min-width:0}
+.library-index {position:sticky;top:20px;max-height:calc(100svh - 40px);overflow:auto;margin-top:32px;padding:8px;background:var(--curi-surfaceMuted);border-radius:12px}
+.library-index nav,#index-folder-list {display:grid;gap:4px}
+.library-index button {display:flex;align-items:center;gap:8px;width:100%;min-height:40px;padding:9px 10px;border:0;border-radius:8px;background:transparent;text-align:left;font-size:13px;font-weight:400;color:var(--curi-ink)}
+.library-index button span {min-width:0;overflow-wrap:anywhere;flex:1}
+.library-index button small {font-size:11px;color:var(--curi-muted);font-variant-numeric:tabular-nums}
+.library-index button svg {width:17px;height:17px;flex-shrink:0}
+.library-index button:hover {background:var(--curi-canvas)}
+.library-index button[aria-current=true] {background:var(--curi-selectionSoft);box-shadow:inset 3px 0 var(--curi-selection);font-weight:600}
+.library-index button:focus-visible {outline:2px solid var(--curi-selection);outline-offset:-2px}
+.library-index-label {display:flex;align-items:center;gap:8px;min-height:40px;margin:0;padding:9px 10px;font-size:13px;font-weight:400;line-height:inherit;color:var(--curi-ink)}
+.library-index-label>span {flex:1;min-width:0}
+.library-index-label>small {font-size:11px;font-weight:400;color:var(--curi-muted);font-variant-numeric:tabular-nums}
+.library-index #show-unfiled-materials {margin-top:12px}
+.library-index>.primary-link {display:block;margin-top:16px;padding:10px;font-size:12px}
+@media(max-width:1000px) {.library-workspace {grid-template-columns:168px minmax(0,1fr);gap:20px}}
+/* 작은 화면에서는 인덱스를 상단에 고정해 자료 영역을 확보한다. */
+@media(max-width:767px) {
+  .library-workspace {display:block}
+  .library-index {top:0;z-index:5;max-height:none;margin:12px 0 0;padding:6px;border-radius:10px}
+  .library-index nav {display:flex;gap:6px;overflow-x:auto;align-items:center}
+  #index-folder-list {display:contents}
+  .library-index button {width:auto;flex:0 0 auto;max-width:200px;min-height:40px;padding:8px 10px;white-space:nowrap;font-size:12px}
+  .library-index button span {overflow:hidden;text-overflow:ellipsis}
+  .library-index>.primary-link {display:none}
+  .library-index-label {flex:0 0 auto;padding:8px 10px;font-size:12px;white-space:nowrap}
+  .library-index #show-unfiled-materials {margin-top:0}
+  .library-index button[aria-current=true] {box-shadow:inset 0 -2px var(--curi-selection)}
+}
+
+/* 본문 폴더 목록을 인덱스로 모아 색상 라벨과 폴더 형태를 함께 표시한다. */
+.library-index {--index-folder-width:128px;--index-folder-height:100px}
+#index-folder-list {gap:12px;justify-items:center}
+#index-folder-list button {display:block;width:calc(var(--index-folder-width) + 12px);padding:6px;text-align:center;white-space:normal}
+#index-folder-list .index-folder-icon {width:var(--index-folder-width);height:var(--index-folder-height);margin:0 0 8px;filter:drop-shadow(0 4px 6px rgb(26 26 26 / 8%))}
+#index-folder-list .index-folder-name {display:block;font-size:13px;line-height:19px;overflow-wrap:anywhere;white-space:normal}
+#index-folder-list button small {display:block;margin-top:4px}
+#index-folder-list button[aria-current=true] {box-shadow:inset 0 0 0 2px var(--curi-selection)}
+@media(max-width:1279px) {.library-index {--index-folder-width:108px;--index-folder-height:112px}}
+@media(max-width:767px) {
+  .library-index {--index-folder-width:calc(25vw - 18px)}
+  #index-folder-list {display:contents}
+  #index-folder-list button {flex-shrink:0;align-self:start}
+}
+.library-index .new-folder-panel {margin:12px 0 0;min-width:0}
+.library-index .new-folder-panel>summary {min-height:36px;padding:8px;font-size:12px;border:1px dashed var(--curi-controlBorder);border-radius:8px;justify-content:center}
+.library-index .new-folder-panel[open]>summary {border:1px dashed var(--curi-controlBorder)}
+.library-index .new-folder-panel form {padding:4px 2px 10px;min-width:0}
+.library-index .new-folder-panel label {font-size:12px}
+.library-index .folder-create {display:grid;gap:6px}
+.library-index .folder-create input {width:100%;min-width:0;font-size:12px}
+.library-index .folder-create button {justify-content:center}
+.library-index .folder-curriculum {font-size:12px}
+.library-workspace-main .folder-main {margin-top:0}
+@media(max-width:767px) {
+  .library-index .new-folder-panel {margin-top:6px}
+  .library-index:has(.new-folder-panel[open]) {max-height:calc(100svh - 24px);overflow:auto}
+}
+
+/* 휴지통은 폴더 선택 영역 바로 오른쪽의 별도 칸에 배치한다. */
+#index-folder-list .index-folder-item {display:grid;grid-template-columns:minmax(0,1fr) 28px;gap:4px;align-items:start;width:calc(var(--index-folder-width) + 44px);min-width:0;flex-shrink:0;align-self:start}
+.library-index #index-folder-list .index-folder-delete {position:static;display:grid;place-items:center;width:28px;height:28px;min-width:28px;min-height:28px;margin:6px 0 0;padding:6px;border:0;border-radius:6px;background:rgba(255,255,255,.88);color:var(--curi-ink);box-shadow:0 1px 4px #1a1a1a12}
+.library-index #index-folder-list .index-folder-delete svg {width:16px;height:16px}
+.library-index #index-folder-list .index-folder-delete:hover {background:white;color:var(--curi-primary)}
+.library-index #index-folder-list .index-folder-delete:focus-visible {outline:2px solid var(--curi-selection);outline-offset:0}
+
+/* 인덱스 폴더 앞면도 아래 모서리를 축으로 살짝 열린다. */
+#index-folder-list [data-index-folder] .index-folder-icon::after {transform-origin:center bottom;transition:transform 180ms var(--curi-ease,ease)}
+@media (hover:hover) {
+  #index-folder-list [data-index-folder]:hover:not(:disabled) .index-folder-icon::after {transform:perspective(320px) rotateX(-20deg)}
+}
+#index-folder-list [data-index-folder]:focus-visible .index-folder-icon::after {transform:perspective(320px) rotateX(-20deg)}
+@media (prefers-reduced-motion:reduce) {
+  #index-folder-list [data-index-folder] .index-folder-icon::after {transition:none;transform:none}
+}
+
+.folder-create-heading {display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 4px}
+.library-index .folder-create-heading label {margin:0}
+.library-index #close-create-folder {display:grid;place-items:center;width:24px;min-width:24px;height:24px;min-height:24px;margin:0;padding:4px;border:0;background:transparent}

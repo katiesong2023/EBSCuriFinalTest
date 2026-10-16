@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-04T23:40:37.685Z",
+  "runs": [
+    {
+      "runId": "AUTO-RUN-74a3fe37-3945-4593-b6af-8d6a85b67e83",
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "saveStatus": "CHECKED",
+      "candidates": 1,
+      "assets": 0,
+      "hold": {
+        "code": "NO_PUBLISHABLE_RELATION",
+        "message": "현재 공개 조건을 충족한 관계가 없습니다. 개별 검사·의미 판정 이유를 확인하세요."
+      },
+      "searchPreparation": {
+        "status": "READY",
+        "ready": 0,
+        "failed": 0,
+        "invalidated": 0
+      }
+    },
+    {
+      "runId": "AUTO-RUN-ac079934-d77d-4dfb-b491-d0d2004e2cfe",
+      "resourceId": "BCAST-d356777fc3abba17bae4",
+      "title": "이상한 선거",
+      "saveStatus": "HELD",
+      "candidates": 0,
+      "assets": 0,
+      "hold": {
+        "code": "NO_RELATED_OFFICIAL_CANDIDATE",
+        "message": "현재 공식 목록에서 입력 텍스트와 겹치는 후보를 찾지 못했습니다. 최종 선택 없이 보류합니다."
+      },
+      "searchPreparation": {
+        "status": "READY",
+        "ready": 0,
+        "failed": 0,
+        "invalidated": 0
+      }
+    }
+  ],
+  "currentPublicAssets": 0,
+  "existingApprovedAssets": 4,
+  "protectedHashes": {
+    "server/data/curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "server/data/broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "server/data/semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e"
+  },
+  "storesUnchanged": true,
+  "paidApiCalls": 0
+}

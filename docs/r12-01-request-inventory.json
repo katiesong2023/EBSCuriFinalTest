@@ -1,0 +1,2520 @@
+{
+  "preparedDate": "2026-10-14",
+  "actualTeacherConfirmedRequests": 0,
+  "actualRequestTarget": 24,
+  "newHoldoutTarget": 12,
+  "newHoldoutPrepared": 0,
+  "missingReason": "교사 제공자 역할/실제 수업 출처 확인 없음. 에이전트 사례를 실제 요청으로 승격하지 않음.",
+  "sources": [
+    {
+      "path": "docs/r07-19-evaluation-inputs.json",
+      "count": 120,
+      "origin": "AGENT_AUTHORED",
+      "actualTeacherConfirmed": 0,
+      "previousFinalExposed": 40,
+      "sha256": "0c4dd26d5e441912b1412d20be28fa6f27c1b069738b8a8eb1e17b1ddb9955e0"
+    },
+    {
+      "path": "docs/r07-19-geography-review-inputs.json",
+      "count": 10,
+      "origin": "USER_PROVIDED_ONE_REQUEST_PLUS_VARIANTS",
+      "actualTeacherConfirmed": 0,
+      "sha256": "27c7b6454e13141f56523e450cbdf705680c4106f1c818919e0f9d83ffea9411"
+    },
+    {
+      "path": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+      "count": 12,
+      "origin": "AGENT_AUTHORED_NOT_ACTUAL_TEACHER_UTTERANCES",
+      "actualTeacherConfirmed": 0,
+      "sha256": "d38754531169017a09c24e32b8e14f8f57a815ee20cf926d8e67d57e97f12da1"
+    },
+    {
+      "path": "docs/r07-19-natural-language-diagnosis.json",
+      "count": 13,
+      "origin": "DIAGNOSTIC_PROXY",
+      "actualTeacherConfirmed": 0,
+      "sha256": "10b9d3b591d181c0e933d4a6d5b2a9fa6c999ca0f298a335d2c0f405265cc106"
+    },
+    {
+      "path": "docs/r07-20-source-gap-audit.json",
+      "count": 12,
+      "unit": "candidateRowsNotRequests",
+      "origin": "AGENT_REVIEW_SUBSET_OF_EXTERNAL30",
+      "counts": {
+        "IDENTITY_UNCONFIRMED": 6,
+        "DETAIL_TEXT_STILL_INSUFFICIENT": 1,
+        "DETAIL_UNCHANGED_INSUFFICIENT": 1,
+        "RECOVERABLE_COLLECTION_GAP": 4
+      },
+      "sha256": "2c81da91c9e6fcec99dd5171aee7c012337d0bc2f77404fa0f3da4cad16d1257"
+    }
+  ],
+  "rows": [
+    {
+      "id": "R12-D001",
+      "query": "지도",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D002",
+      "query": "우리 동네을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D003",
+      "query": "문화유산이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D004",
+      "query": "다문화의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D005",
+      "query": "선거의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D006",
+      "query": "지역 문제 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D007",
+      "query": "농업 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D008",
+      "query": "교통 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D009",
+      "query": "도시 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D010",
+      "query": "환경과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D011",
+      "query": "지도의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D012",
+      "query": "우리 동네의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D013",
+      "query": "문화유산 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D014",
+      "query": "다문화 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        },
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D015",
+      "query": "선거 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D016",
+      "query": "지역 문제 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D017",
+      "query": "농업과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D018",
+      "query": "교통",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D019",
+      "query": "도시을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D020",
+      "query": "환경이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G1-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D021",
+      "query": "자석",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D022",
+      "query": "물을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D023",
+      "query": "동물이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D024",
+      "query": "식물의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D025",
+      "query": "지층의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D026",
+      "query": "화석 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D027",
+      "query": "소리 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D028",
+      "query": "그림자 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D029",
+      "query": "달 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D030",
+      "query": "흙과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D031",
+      "query": "자석의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D032",
+      "query": "물의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D033",
+      "query": "동물 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D034",
+      "query": "식물 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D035",
+      "query": "지층 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D036",
+      "query": "화석 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D037",
+      "query": "소리과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D038",
+      "query": "그림자",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D039",
+      "query": "달을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D040",
+      "query": "흙이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G2-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D041",
+      "query": "선거",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        },
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "11",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D042",
+      "query": "민주주의을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D043",
+      "query": "인권이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D044",
+      "query": "경제의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D045",
+      "query": "독립운동의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D046",
+      "query": "고조선 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D047",
+      "query": "인구 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D048",
+      "query": "무역 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D049",
+      "query": "기후과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D050",
+      "query": "선거의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D051",
+      "query": "민주주의의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D052",
+      "query": "인권 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D053",
+      "query": "경제 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D054",
+      "query": "독립운동 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D055",
+      "query": "고조선 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D056",
+      "query": "다문화과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D057",
+      "query": "인구",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D058",
+      "query": "무역을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D059",
+      "query": "기후이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G3-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D060",
+      "query": "연소",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        },
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "1",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D061",
+      "query": "지구 자전을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D062",
+      "query": "생태계이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D063",
+      "query": "태양계의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D064",
+      "query": "산소의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D065",
+      "query": "소화 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D066",
+      "query": "전기 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D067",
+      "query": "물질 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D068",
+      "query": "증발 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D069",
+      "query": "화산과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D070",
+      "query": "연소의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D071",
+      "query": "지구 자전의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D072",
+      "query": "생태계 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D073",
+      "query": "태양계 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D074",
+      "query": "산소 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D075",
+      "query": "소화 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D076",
+      "query": "전기과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D077",
+      "query": "물질",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D078",
+      "query": "증발을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D079",
+      "query": "화산이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G4-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D080",
+      "query": "인권",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D081",
+      "query": "세계화을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D082",
+      "query": "시장이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D083",
+      "query": "문화의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D084",
+      "query": "기후의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D085",
+      "query": "지리 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D086",
+      "query": "주민 참여 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D087",
+      "query": "정치 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D088",
+      "query": "자원 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D089",
+      "query": "재해과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D090",
+      "query": "인권의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D091",
+      "query": "세계화의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D092",
+      "query": "시장 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D093",
+      "query": "문화 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D094",
+      "query": "기후 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D095",
+      "query": "지리 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D096",
+      "query": "주민 참여과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D097",
+      "query": "정치",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D098",
+      "query": "자원을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D099",
+      "query": "재해이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G5-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D100",
+      "query": "마찰력",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D101",
+      "query": "중력을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D102",
+      "query": "힘이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D103",
+      "query": "광합성의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D104",
+      "query": "호흡의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D105",
+      "query": "상태 변화 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D106",
+      "query": "열 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D107",
+      "query": "빛 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D108",
+      "query": "생물 다양성 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D109",
+      "query": "지구과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D110",
+      "query": "마찰력의 변화 과정을 관찰하는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D111",
+      "query": "중력의 원인과 결과를 비교하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D112",
+      "query": "힘 다큐멘터리",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-13",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D113",
+      "query": "광합성 강의 제외",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-14",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D114",
+      "query": "호흡 다큐프라임에서 찾아주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-15",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D115",
+      "query": "상태 변화 수업 도입에 활용하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-16",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D116",
+      "query": "열과 블루드래곤가상물질을 모두 다루는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-17",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D117",
+      "query": "빛",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-18",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=final; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D118",
+      "query": "생물 다양성을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-19",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D119",
+      "query": "지구이 생기는 까닭을 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-evaluation-inputs.json",
+          "originalId": "G6-20",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "旧split=development; results exposed; current development"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D120",
+      "query": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V01",
+          "requestOrigin": "USER_PROVIDED_NON_TEACHER_PROXY",
+          "note": "사용자 실제 요청",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D121",
+      "query": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V02",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "표현 변형",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D122",
+      "query": "국내 화산 지형의 특징을 설명하는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V03",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "표현 변형",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D123",
+      "query": "한라산의 화산 지형을 설명하는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V04",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "국내 지역명",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D124",
+      "query": "제주도에서 용암이 만든 지형을 보여주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V05",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "개념명 없는 관계 표현",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D125",
+      "query": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V06",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "명시적 제외",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D126",
+      "query": "화산 지형",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V07",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "짧은 대조 입력",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D127",
+      "query": "화산 폭발 피해를 다룬 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V08",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "인접 주제 구분",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D128",
+      "query": "우리나라 해안 지형을 보여주는 수업 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V09",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "다른 지형 일반화",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D129",
+      "query": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-geography-review-inputs.json",
+          "originalId": "V10",
+          "requestOrigin": "PROXY_VARIANT_NOT_ACTUAL_TEACHER",
+          "note": "요청 의미 보존",
+          "teacherProvenanceConfirmedByUser": false
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D130",
+      "query": "우리 지역에서 주민들이 함께 문제를 해결한 사례를 수업에 쓰고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H01",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D131",
+      "query": "옛날과 지금의 교통수단이 생활을 어떻게 바꿨는지 비교하는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H02",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D132",
+      "query": "물에서 사는 동물과 땅에서 사는 동물의 몸 생김새를 비교할 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H03",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D133",
+      "query": "자석에 붙는 물체와 붙지 않는 물체를 관찰하는 실험 영상만 찾아줘",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H04",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초3~4",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D134",
+      "query": "공장이 들어서면서 지역의 일자리와 환경이 어떻게 달라졌는지 알려주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H05",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D135",
+      "query": "독립운동에서 사람들이 협력한 사례를 보고 싶어요 전투 장면은 빼주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H06",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D136",
+      "query": "물질이 탈 때 공기가 왜 필요한지 설명하는 실험 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H07",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D137",
+      "query": "물이 증발해서 비가 되는 과정을 10분 이내에 보여주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H08",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "초5~6",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D138",
+      "query": "사막이나 고산 지역에서 자연환경에 맞춰 살아가는 생활 모습을 비교하고 싶어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H09",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D139",
+      "query": "문화가 다른 사람들이 갈등을 해결하는 사례가 필요해요 가능하면 인터뷰가 있으면 좋겠어요",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H10",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "사회",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D140",
+      "query": "지진파로 지구 내부를 알아내는 원리를 설명하는 자료 자막이 있는 것으로",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H11",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D141",
+      "query": "블루드래곤가상광물이 물에 녹는 실험을 보여주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-teacher-track-evidence.zip#teacher-discovery-track/round-1/sealed-generalization.json",
+          "originalId": "H12",
+          "requestOrigin": "AGENT_AUTHORED",
+          "note": "old external prototype holdout; exposed in round3"
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": "과학",
+      "gradeContext": "중1 참고",
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D142",
+      "query": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "2",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D143",
+      "query": "연소에 필요한 조건을 설명해주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "3",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D144",
+      "query": "산소가 부족할 때 불이 탈 때 생기는 문제를 보여주세요",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "4",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D145",
+      "query": "다문화",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "5",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D146",
+      "query": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "6",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D147",
+      "query": "이주민과 주민이 서로 이해하며 살아가는 모습을 보여주는 자료",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "7",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D148",
+      "query": "지구 자전",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "8",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D149",
+      "query": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "9",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D150",
+      "query": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "10",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D151",
+      "query": "대표를 뽑는 과정",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "12",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    },
+    {
+      "id": "R12-D152",
+      "query": "우리 동네 문제를 주민들이 함께 결정하는 사례",
+      "origins": [
+        {
+          "group": "docs/r07-19-natural-language-diagnosis.json",
+          "originalId": "13",
+          "requestOrigin": "DIAGNOSTIC_PROXY_ORIGIN_UNCONFIRMED",
+          "note": null
+        }
+      ],
+      "purpose": "DEVELOPMENT_DIAGNOSIS_NOT_HOLDOUT",
+      "subject": null,
+      "gradeContext": null,
+      "actualTeacherVerified": false
+    }
+  ],
+  "userClarification": {
+    "date": "2026-10-14",
+    "verbatim": "실제 교사가 요청한 사례가 아닙니다",
+    "appliesTo": "user-provided volcano/coast/animal review requests",
+    "classification": "USER_PROVIDED_NON_TEACHER_PROXY"
+  }
+}

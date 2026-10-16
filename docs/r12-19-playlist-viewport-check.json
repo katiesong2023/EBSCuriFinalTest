@@ -1,0 +1,121 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "initial": {
+        "top": 346.1875,
+        "bottom": 980,
+        "height": 633.8125,
+        "position": "sticky",
+        "listHeight": 394,
+        "listScroll": 4366,
+        "totalBottom": 964,
+        "viewport": 1000,
+        "overflow": false
+      },
+      "sticky": {
+        "top": 20,
+        "bottom": 980,
+        "height": 960,
+        "position": "fixed",
+        "listHeight": 721,
+        "listScroll": 4366,
+        "totalBottom": 964,
+        "viewport": 1000,
+        "overflow": false
+      },
+      "internalScroll": true,
+      "reorder": true
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "initial": {
+        "top": 346.1875,
+        "bottom": 780,
+        "height": 433.8125,
+        "position": "sticky",
+        "listHeight": 194,
+        "listScroll": 4366,
+        "totalBottom": 764,
+        "viewport": 800,
+        "overflow": false
+      },
+      "sticky": {
+        "top": 20,
+        "bottom": 780,
+        "height": 760,
+        "position": "fixed",
+        "listHeight": 521,
+        "listScroll": 4366,
+        "totalBottom": 764,
+        "viewport": 800,
+        "overflow": false
+      },
+      "internalScroll": true,
+      "reorder": true
+    },
+    {
+      "width": 1440,
+      "height": 650,
+      "initial": {
+        "top": 346.1875,
+        "bottom": 630,
+        "height": 283.8125,
+        "position": "sticky",
+        "listHeight": 44,
+        "listScroll": 4366,
+        "totalBottom": 614,
+        "viewport": 650,
+        "overflow": false
+      },
+      "sticky": {
+        "top": 20,
+        "bottom": 630,
+        "height": 610,
+        "position": "fixed",
+        "listHeight": 371,
+        "listScroll": 4366,
+        "totalBottom": 614,
+        "viewport": 650,
+        "overflow": false
+      },
+      "internalScroll": true,
+      "reorder": true
+    },
+    {
+      "width": 1000,
+      "height": 800,
+      "initial": {
+        "top": 1117.0625,
+        "bottom": 1840.9375,
+        "height": 723.875,
+        "position": "static",
+        "listHeight": 520,
+        "listScroll": 3446,
+        "totalBottom": 1824.9375,
+        "viewport": 800,
+        "overflow": false
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "initial": {
+        "top": 1107.46875,
+        "bottom": 4776.953125,
+        "height": 3669.484375,
+        "position": "static",
+        "listHeight": 3446,
+        "listScroll": 3446,
+        "totalBottom": 4760.953125,
+        "viewport": 844,
+        "overflow": false
+      }
+    }
+  ],
+  "emptyFills": true,
+  "errors": [],
+  "isolatedData": true
+}

@@ -1,0 +1,202 @@
+{
+  "comparedAt": "2026-10-15T11:01:12.761Z",
+  "stage": "keywords-verified",
+  "reports": [
+    {
+      "semanticBefore": {
+        "LOCAL_E5": 200
+      },
+      "semanticAfter": {
+        "LOCAL_E5": 200
+      },
+      "semanticStateChanged": [],
+      "name": "new200",
+      "beforeFile": "docs/r12-search-test-200-common-stable.json",
+      "afterFile": "docs/r12-search-test-200-keywords-verified.json",
+      "before": {
+        "requests": 200,
+        "nonempty": 23,
+        "empty": 177,
+        "errors": 0,
+        "top5Pairs": 54
+      },
+      "after": {
+        "requests": 200,
+        "nonempty": 23,
+        "empty": 177,
+        "errors": 0,
+        "top5Pairs": 54
+      },
+      "changes": [],
+      "lost": [],
+      "gained": [],
+      "byType": [
+        {
+          "value": "키워드형",
+          "requests": 54,
+          "nonempty": 6,
+          "empty": 48,
+          "errors": 0,
+          "top5Pairs": 11
+        },
+        {
+          "value": "질문형",
+          "requests": 51,
+          "nonempty": 8,
+          "empty": 43,
+          "errors": 0,
+          "top5Pairs": 11
+        },
+        {
+          "value": "수업 활용형",
+          "requests": 16,
+          "nonempty": 2,
+          "empty": 14,
+          "errors": 0,
+          "top5Pairs": 9
+        },
+        {
+          "value": "형식 지정형",
+          "requests": 26,
+          "nonempty": 2,
+          "empty": 24,
+          "errors": 0,
+          "top5Pairs": 6
+        },
+        {
+          "value": "구어체·모호",
+          "requests": 12,
+          "nonempty": 1,
+          "empty": 11,
+          "errors": 0,
+          "top5Pairs": 5
+        },
+        {
+          "value": "오타·띄어쓰기",
+          "requests": 10,
+          "nonempty": 0,
+          "empty": 10,
+          "errors": 0,
+          "top5Pairs": 0
+        },
+        {
+          "value": "제외 조건",
+          "requests": 7,
+          "nonempty": 0,
+          "empty": 7,
+          "errors": 0,
+          "top5Pairs": 0
+        },
+        {
+          "value": "프로그램명 포함",
+          "requests": 11,
+          "nonempty": 4,
+          "empty": 7,
+          "errors": 0,
+          "top5Pairs": 12
+        },
+        {
+          "value": "복합·융합 조건",
+          "requests": 13,
+          "nonempty": 0,
+          "empty": 13,
+          "errors": 0,
+          "top5Pairs": 0
+        }
+      ],
+      "sourceHashes": {
+        "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+        "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+        "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+        "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+      },
+      "changedDuringRun": [
+        "server/data/semantic-layer.sqlite"
+      ]
+    },
+    {
+      "semanticBefore": {
+        "LOCAL_E5": 170
+      },
+      "semanticAfter": {
+        "LOCAL_E5": 170
+      },
+      "semanticStateChanged": [],
+      "name": "existing170",
+      "beforeFile": "docs/r12-03-common-stable170.json",
+      "afterFile": "docs/r12-03-keywords-verified170.json",
+      "before": {
+        "requests": 170,
+        "nonempty": 17,
+        "empty": 153,
+        "errors": 0,
+        "top5Pairs": 52
+      },
+      "after": {
+        "requests": 170,
+        "nonempty": 17,
+        "empty": 153,
+        "errors": 0,
+        "top5Pairs": 52
+      },
+      "changes": [
+        {
+          "id": "D70-Q015",
+          "query": "마을 축제",
+          "before": 24,
+          "after": 24,
+          "beforeIds": [
+            "BCAST-2bf49f8a5fd512d04316",
+            "BCAST-8aefcad42df57d31658e",
+            "BCAST-c562b55e32ad01bab3f5",
+            "BCAST-f26a7c98a9cfd82c92b0",
+            "BCAST-c4e0bd2ac1953f668377"
+          ],
+          "afterIds": [
+            "BCAST-2bf49f8a5fd512d04316",
+            "BCAST-c562b55e32ad01bab3f5",
+            "BCAST-dee4ff0e9f3ff630e22d",
+            "BCAST-d89984a27c9cf30a4ad3",
+            "BCAST-dce38e0ea659d5af16bd"
+          ]
+        },
+        {
+          "id": "X100-Q035",
+          "query": "독도",
+          "before": 12,
+          "after": 12,
+          "beforeIds": [
+            "BCAST-ce171f36f1284f098f39",
+            "BCAST-9252637d16e92170b27a",
+            "BCAST-a7d7600fe01735b38ac8",
+            "BCAST-5a6d462f2b7f0f30aebb",
+            "BCAST-67b56eeef93444a02545"
+          ],
+          "afterIds": [
+            "BCAST-9252637d16e92170b27a",
+            "BCAST-67b56eeef93444a02545",
+            "BCAST-ce171f36f1284f098f39",
+            "BCAST-a7d7600fe01735b38ac8",
+            "BCAST-5a6d462f2b7f0f30aebb"
+          ]
+        }
+      ],
+      "lost": [],
+      "gained": [],
+      "sourceHashes": {
+        "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+        "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+        "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+        "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+      },
+      "changedDuringRun": [
+        "server/data/semantic-layer.sqlite"
+      ]
+    }
+  ],
+  "quoteChecks": 1833,
+  "returnedItemsAndVariantsChecked": 196,
+  "paidApiCalls": 0,
+  "derivedStoreChange": "semantic-layer.sqlite was intentionally rebuilt concurrently; live search computes keywords with getSemanticIndex(catalog), not by reading this derived SQLite. All runtime JS and four protected source/approval/embedding stores unchanged during both sets.",
+  "scope": "개발 회귀200/170 각각 집계. 결과 건수는 정확도/교사 효용 아님. 원본/승인/임베딩4저장소 동일. 파생 키워드 DB만 재생성; 실제 검색은 카탈로그로 메모리 색인 생성."
+}

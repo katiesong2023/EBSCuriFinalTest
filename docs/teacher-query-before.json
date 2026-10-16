@@ -1,0 +1,1072 @@
+{
+  "phase": "before",
+  "generatedAt": "2026-09-30T13:56:44.367Z",
+  "scope": "고정 R09 카탈로그·사용자 제공 교사 질의; 교육적 정답률 평가 아님",
+  "queryFile": "server/data/teacher-queries.json",
+  "queryFileSha256": "e180d61b99b092abcfb4f948db2766db0b6f4af222756ee1f0540a844544de55",
+  "queryCount": 10,
+  "catalogFile": "/private/tmp/curi-r4-20260930/catalog.json",
+  "catalogFixtureHash": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+  "precisionFixtureHash": "695361064060565de7827d868724b81d5069930d1c80e4d0fd3bab595cd9b145",
+  "codeHashes": {
+    "discovery-search.js": "45957c2bfce39afc0a05bd103596d643c5d0bc061ff11cc446587f3fcc2bab3f",
+    "discovery-intent.js": "71b0b763f25728f3cd39c23dfc5fca7de07c570d2fb26aad5651b39730871095",
+    "semantic-layer.js": "4c43fde77739ca46ef97778fc1470aabe2a203dfd884fcd658d1822b39420a43",
+    "semantic-context.js": "33942a841bb1d009a63252d8e836a4335e7b2ca1d80764ede423665131b1d695"
+  },
+  "approvalFile": "server/data/curi-store.json",
+  "approvalSha256Before": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "approvalSha256After": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "approvalUnchanged": true,
+  "networkAttempts": 0,
+  "executionErrors": 0,
+  "zeroResultCount": 10,
+  "rows": [
+    {
+      "id": 1,
+      "subject": "사회",
+      "unit": "독도",
+      "query": "독도 수업 도입에 보여줄 영상 찾아요. 독도 바다 생태계나 자연환경이 나오는 다큐면 좋겠고, 10분 안쪽으로 잘라 쓸 수 있으면 좋겠어요.",
+      "elapsedMs": 1202,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "독도",
+          "도입",
+          "찾아요",
+          "생태계나",
+          "자연환경",
+          "나오",
+          "다큐면",
+          "좋겠고",
+          "안쪽",
+          "잘라",
+          "쓸",
+          "있으면",
+          "좋겠어요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [
+            {
+              "id": "ocean",
+              "label": "바다",
+              "subject": "과학",
+              "aliases": [
+                "해양",
+                "바다",
+                "심해",
+                "해류"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [
+            "독도",
+            "도입",
+            "찾아요",
+            "생태계나",
+            "자연환경",
+            "나오",
+            "다큐면",
+            "좋겠고",
+            "안쪽",
+            "잘라",
+            "쓸",
+            "있으면",
+            "좋겠어요"
+          ],
+          "positiveQuery": "독도 수업 도입에 보여줄 영상 찾아요. 독도 바다 생태계나 자연환경이 나오는 다큐면 좋겠고, 안쪽으로 잘라 쓸 수 있으면 좋겠어요.",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {
+            "durationMinutes": 10
+          },
+          "warnings": [
+            "재생시간 조건은 확인할 데이터가 부족합니다. 시간 조건을 충족한 결과가 아닙니다.",
+            "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "ocean"
+              ],
+              "geographyIds": [],
+              "terms": [
+                "독도",
+                "도입",
+                "찾아요",
+                "생태계나",
+                "자연환경",
+                "나오",
+                "다큐면",
+                "좋겠고",
+                "안쪽",
+                "잘라",
+                "쓸",
+                "있으면",
+                "좋겠어요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [
+        {
+          "type": "concept",
+          "id": "ocean",
+          "label": "바다"
+        }
+      ],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 2,
+      "subject": "사회",
+      "unit": "법과 인권",
+      "query": "인권 단원인데 강의 말고 실제 사람 이야기로 인권을 생각해 볼 수 있는 방송 있을까요?",
+      "elapsedMs": 94,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "단원인데",
+          "사람",
+          "이야기",
+          "생각해"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [
+            {
+              "id": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "aliases": [
+                "인권",
+                "차별",
+                "평등"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [
+            "단원인데",
+            "사람",
+            "이야기",
+            "생각해"
+          ],
+          "positiveQuery": "인권 단원인데 실제 사람 이야기로 인권을 생각해 볼 수 있는 방송 있을까요?",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [
+            "강의"
+          ],
+          "constraints": {},
+          "warnings": [],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "rights"
+              ],
+              "geographyIds": [],
+              "terms": [
+                "단원인데",
+                "사람",
+                "이야기",
+                "생각해"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [
+        {
+          "type": "concept",
+          "id": "rights",
+          "label": "인권"
+        }
+      ],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 3,
+      "subject": "사회",
+      "unit": "유적·유물",
+      "query": "고조선이나 삼국시대 유물 발굴 과정이 나오는 역사 다큐요. 유물 보고 당시 생활을 추론하는 활동 전에 틀어 주려고요.",
+      "elapsedMs": 73,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "고조선이나",
+          "삼국시대",
+          "유물",
+          "발굴",
+          "나오",
+          "역사",
+          "다큐요",
+          "보고",
+          "당시",
+          "추론하",
+          "전",
+          "틀어",
+          "주려고요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [],
+          "terms": [
+            "고조선이나",
+            "삼국시대",
+            "유물",
+            "발굴",
+            "나오",
+            "역사",
+            "다큐요",
+            "보고",
+            "당시",
+            "추론하",
+            "전",
+            "틀어",
+            "주려고요"
+          ],
+          "positiveQuery": "고조선이나 삼국시대 유물 발굴 과정이 나오는 역사 다큐요. 유물 보고 당시 생활을 추론하는 활동 전에 틀어 주려고요.",
+          "intent": "EXPLAIN",
+          "connector": "AND",
+          "relationNeeds": [
+            "원리·과정 설명"
+          ],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [
+            "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다.",
+            "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "고조선이나",
+                "삼국시대",
+                "유물",
+                "발굴",
+                "나오",
+                "역사",
+                "다큐요",
+                "보고",
+                "당시",
+                "추론하",
+                "전",
+                "틀어",
+                "주려고요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 4,
+      "subject": "사회",
+      "unit": "민주화",
+      "query": "4·19나 6월 민주항쟁처럼 시민이 참여해서 민주주의가 바뀐 과정을 보여 주는 다큐 찾아 주세요. 너무 폭력적인 장면은 빼고요.",
+      "elapsedMs": 92,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "4",
+          "19나",
+          "6월",
+          "민주항쟁",
+          "시민",
+          "참여해서",
+          "바뀐",
+          "보여",
+          "주",
+          "너무",
+          "폭력적인",
+          "요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [
+            {
+              "id": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "aliases": [
+                "민주주의",
+                "민주 정치",
+                "민주정치"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [
+            "4",
+            "19나",
+            "6월",
+            "민주항쟁",
+            "시민",
+            "참여해서",
+            "바뀐",
+            "보여",
+            "주",
+            "너무",
+            "폭력적인",
+            "요"
+          ],
+          "positiveQuery": "4·19나 6월 민주항쟁처럼 시민이 참여해서 민주주의가 바뀐 과정을 보여 주는 다큐 찾아 주세요. 너무 폭력적인 요.",
+          "intent": "EXPLAIN",
+          "connector": "AND",
+          "relationNeeds": [
+            "원리·과정 설명"
+          ],
+          "excluded": [
+            "장면"
+          ],
+          "constraints": {},
+          "warnings": [
+            "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다.",
+            "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "democracy"
+              ],
+              "geographyIds": [],
+              "terms": [
+                "4",
+                "19나",
+                "6월",
+                "민주항쟁",
+                "시민",
+                "참여해서",
+                "바뀐",
+                "보여",
+                "주",
+                "너무",
+                "폭력적인",
+                "요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [
+        {
+          "type": "concept",
+          "id": "democracy",
+          "label": "민주주의"
+        }
+      ],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 5,
+      "subject": "사회",
+      "unit": "기후와 생활",
+      "query": "사막이나 툰드라처럼 극한 기후에서 사람들이 어떻게 사는지 보여 주는 여행 다큐. 세계테마기행 같은 거요.",
+      "elapsedMs": 61,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "사막이나",
+          "툰드라",
+          "극한",
+          "기후",
+          "사람",
+          "사는지",
+          "보여",
+          "주",
+          "여행",
+          "세계테마기행",
+          "같",
+          "거요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [],
+          "terms": [
+            "사막이나",
+            "툰드라",
+            "극한",
+            "기후",
+            "사람",
+            "사는지",
+            "보여",
+            "주",
+            "여행",
+            "세계테마기행",
+            "같",
+            "거요"
+          ],
+          "positiveQuery": "사막이나 툰드라처럼 극한 기후에서 사람들이 어떻게 사는지 보여 주는 여행 다큐. 세계테마기행 같은 거요.",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [
+            "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "사막이나",
+                "툰드라",
+                "극한",
+                "기후",
+                "사람",
+                "사는지",
+                "보여",
+                "주",
+                "여행",
+                "세계테마기행",
+                "같",
+                "거요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 6,
+      "subject": "과학",
+      "unit": "화석",
+      "query": "공룡 화석 발굴 현장이 나오는 다큐 있나요? 화석이 어떻게 만들어지는지 설명하는 부분이 있으면 더 좋아요.",
+      "elapsedMs": 81,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "공룡",
+          "화석",
+          "발굴",
+          "현장",
+          "나오",
+          "만들어지는지",
+          "부분",
+          "있으면",
+          "더",
+          "좋아요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [],
+          "terms": [
+            "공룡",
+            "화석",
+            "발굴",
+            "현장",
+            "나오",
+            "만들어지는지",
+            "부분",
+            "있으면",
+            "더",
+            "좋아요"
+          ],
+          "positiveQuery": "공룡 화석 발굴 현장이 나오는 다큐 있나요? 화석이 어떻게 만들어지는지 설명하는 부분이 있으면 더 좋아요.",
+          "intent": "EXPLAIN",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [
+            "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "공룡",
+                "화석",
+                "발굴",
+                "현장",
+                "나오",
+                "만들어지는지",
+                "부분",
+                "있으면",
+                "더",
+                "좋아요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 7,
+      "subject": "과학",
+      "unit": "몸 속 기관",
+      "query": "심장이나 소화기관이 실제로 어떻게 움직이는지 보여 줄 영상이요. 명의 같은 의학 프로그램에서 초등학생이 봐도 괜찮은 장면으로요.",
+      "elapsedMs": 63,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "심장이나",
+          "움직이는지",
+          "보여",
+          "줄",
+          "영상이요",
+          "명",
+          "같",
+          "의학",
+          "프로그램",
+          "초등학생",
+          "봐도",
+          "괜찮",
+          "장면으로요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [
+            {
+              "id": "body",
+              "label": "인체",
+              "subject": "과학",
+              "aliases": [
+                "인체",
+                "우리 몸",
+                "몸속",
+                "몸 속",
+                "소화 기관",
+                "호흡 기관"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [
+            "심장이나",
+            "움직이는지",
+            "보여",
+            "줄",
+            "영상이요",
+            "명",
+            "같",
+            "의학",
+            "프로그램",
+            "초등학생",
+            "봐도",
+            "괜찮",
+            "장면으로요"
+          ],
+          "positiveQuery": "심장이나 소화기관이 실제로 어떻게 움직이는지 보여 줄 영상이요. 명의 같은 의학 프로그램에서 초등학생이 봐도 괜찮은 장면으로요.",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "body"
+              ],
+              "geographyIds": [],
+              "terms": [
+                "심장이나",
+                "움직이는지",
+                "보여",
+                "줄",
+                "영상이요",
+                "명",
+                "같",
+                "의학",
+                "프로그램",
+                "초등학생",
+                "봐도",
+                "괜찮",
+                "장면으로요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [
+        {
+          "type": "concept",
+          "id": "body",
+          "label": "인체"
+        }
+      ],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 8,
+      "subject": "과학",
+      "unit": "구름·안개",
+      "query": "구름이랑 안개가 생기는 걸 실험 말고 실제 자연 풍경으로 보여 주고 싶어요.",
+      "elapsedMs": 75,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "구름이랑",
+          "안개",
+          "걸",
+          "자연",
+          "풍경",
+          "보여",
+          "주고",
+          "싶어요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [],
+          "terms": [
+            "구름이랑",
+            "안개",
+            "걸",
+            "자연",
+            "풍경",
+            "보여",
+            "주고",
+            "싶어요"
+          ],
+          "positiveQuery": "구름이랑 안개가 생기는 걸 실제 자연 풍경으로 보여 주고 싶어요.",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [
+            "원리·과정 설명"
+          ],
+          "excluded": [
+            "실험"
+          ],
+          "constraints": {},
+          "warnings": [
+            "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "구름이랑",
+                "안개",
+                "걸",
+                "자연",
+                "풍경",
+                "보여",
+                "주고",
+                "싶어요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 9,
+      "subject": "과학",
+      "unit": "산·염기 환경",
+      "query": "산성비나 바다 산성화처럼 산·염기가 자연에 영향을 주는 사례를 다룬 방송 있을까요?",
+      "elapsedMs": 67,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "산성비나",
+          "산성화",
+          "산",
+          "염기",
+          "자연",
+          "주",
+          "사례",
+          "다룬"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [
+            {
+              "id": "ocean",
+              "label": "바다",
+              "subject": "과학",
+              "aliases": [
+                "해양",
+                "바다",
+                "심해",
+                "해류"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [
+            "산성비나",
+            "산성화",
+            "산",
+            "염기",
+            "자연",
+            "주",
+            "사례",
+            "다룬"
+          ],
+          "positiveQuery": "산성비나 바다 산성화처럼 산·염기가 자연에 영향을 주는 사례를 다룬 방송 있을까요?",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [
+            "영향 관계"
+          ],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [
+            "요청한 영향 관계의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+          ],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "ocean"
+              ],
+              "geographyIds": [],
+              "terms": [
+                "산성비나",
+                "산성화",
+                "산",
+                "염기",
+                "자연",
+                "주",
+                "사례",
+                "다룬"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [
+        {
+          "type": "concept",
+          "id": "ocean",
+          "label": "바다"
+        }
+      ],
+      "top3SourceEvidence": [],
+      "error": null
+    },
+    {
+      "id": 10,
+      "subject": "과학",
+      "unit": "과학 진로",
+      "query": "진로 단원 마무리로 과학자나 엔지니어가 실제로 무슨 일을 하는지 보여 주는 방송이요. 위대한 수업 같은 석학 강연도 괜찮아요.",
+      "elapsedMs": 68,
+      "zeroResult": true,
+      "total": 0,
+      "interpretation": {
+        "terms": [
+          "진",
+          "단원",
+          "마무리",
+          "과학자나",
+          "엔지니어",
+          "무슨",
+          "일",
+          "하는지",
+          "보여",
+          "주",
+          "방송이요",
+          "위대한",
+          "같",
+          "석학",
+          "강연도",
+          "괜찮아요"
+        ],
+        "concepts": [],
+        "understanding": {
+          "concepts": [],
+          "terms": [
+            "진",
+            "단원",
+            "마무리",
+            "과학자나",
+            "엔지니어",
+            "무슨",
+            "일",
+            "하는지",
+            "보여",
+            "주",
+            "방송이요",
+            "위대한",
+            "같",
+            "석학",
+            "강연도",
+            "괜찮아요"
+          ],
+          "positiveQuery": "진로 단원 마무리로 과학자나 엔지니어가 실제로 무슨 일을 하는지 보여 주는 방송이요. 위대한 수업 같은 석학 강연도 괜찮아요.",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "진",
+                "단원",
+                "마무리",
+                "과학자나",
+                "엔지니어",
+                "무슨",
+                "일",
+                "하는지",
+                "보여",
+                "주",
+                "방송이요",
+                "위대한",
+                "같",
+                "석학",
+                "강연도",
+                "괜찮아요"
+              ]
+            }
+          ]
+        }
+      },
+      "topicCandidates": [],
+      "top3SourceEvidence": [],
+      "error": null
+    }
+  ],
+  "precisionDraft": {
+    "passed": 2,
+    "failed": 6,
+    "rows": [
+      {
+        "name": "사건 숫자 경계",
+        "query": "4·19",
+        "expected": [
+          "APRIL"
+        ],
+        "actual": [
+          "APRIL",
+          "MARATHON",
+          "MINE1942"
+        ],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    'APRIL',\n+   'MARATHON',\n+   'MINE1942'\n  ]\n"
+      },
+      {
+        "name": "소화기관 직접 근거",
+        "query": "소화기관",
+        "expected": [
+          "DIGEST"
+        ],
+        "actual": [
+          "DIGEST"
+        ],
+        "passed": true,
+        "interpretation": {
+          "concepts": [
+            {
+              "id": "body",
+              "label": "인체",
+              "subject": "과학",
+              "aliases": [
+                "인체",
+                "우리 몸",
+                "몸속",
+                "몸 속",
+                "소화 기관",
+                "호흡 기관"
+              ],
+              "broader": null,
+              "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+              "ruleVersion": "2026-09-30.1"
+            }
+          ],
+          "terms": [],
+          "positiveQuery": "소화기관",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [
+                "body"
+              ],
+              "geographyIds": [],
+              "terms": []
+            }
+          ]
+        },
+        "candidates": []
+      },
+      {
+        "name": "심장 비유 제외",
+        "query": "심장",
+        "expected": [
+          "HEART"
+        ],
+        "actual": [
+          "CITY",
+          "HEART"
+        ],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'CITY',\n    'HEART'\n  ]\n"
+      },
+      {
+        "name": "화석 인명 제외",
+        "query": "화석",
+        "expected": [
+          "FOSSIL"
+        ],
+        "actual": [
+          "FOSSIL",
+          "PERSON"
+        ],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    'FOSSIL',\n+   'PERSON'\n  ]\n"
+      },
+      {
+        "name": "명의 끝 조사 보존",
+        "query": "명의",
+        "expected": [
+          "MYUNG"
+        ],
+        "actual": [
+          "DIGEST",
+          "MYUNG"
+        ],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'DIGEST',\n    'MYUNG'\n  ]\n"
+      },
+      {
+        "name": "진로 끝 조사 보존",
+        "query": "진로",
+        "expected": [
+          "CAREER"
+        ],
+        "actual": [
+          "CAREER"
+        ],
+        "passed": true,
+        "interpretation": {
+          "concepts": [],
+          "terms": [
+            "진"
+          ],
+          "positiveQuery": "진로",
+          "intent": "EXPLORE",
+          "connector": "AND",
+          "relationNeeds": [],
+          "excluded": [],
+          "constraints": {},
+          "warnings": [],
+          "method": "LOCAL_RULES",
+          "curriculumStatus": "NOT_ASSESSED",
+          "groups": [
+            {
+              "operator": "AND",
+              "conceptIds": [],
+              "geographyIds": [],
+              "terms": [
+                "진"
+              ]
+            }
+          ]
+        },
+        "candidates": []
+      },
+      {
+        "name": "프로그램 고유명",
+        "query": "위대한 수업",
+        "expected": [
+          "GREAT"
+        ],
+        "actual": [
+          "GREAT",
+          "ROME"
+        ],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    'GREAT',\n+   'ROME'\n  ]\n"
+      },
+      {
+        "name": "같은 프로그램 선호",
+        "query": "세계테마기행 같은 여행 다큐",
+        "expected": [
+          "WORLD"
+        ],
+        "actual": [],
+        "passed": false,
+        "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ []\n- [\n-   'WORLD'\n- ]\n"
+      }
+    ]
+  }
+}

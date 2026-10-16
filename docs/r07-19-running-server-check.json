@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-13T10:45:09.048Z",
+  "rows": [
+    {
+      "q": "연소에 필요한 조건을 설명해주는 영상",
+      "status": 200,
+      "total": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1240,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 19263,
+      "titles": [
+        "유독가스- 은밀하게 치명적인",
+        "당신의 집은 따뜻합니까?"
+      ]
+    },
+    {
+      "q": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "status": 200,
+      "total": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 82,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 731,
+      "titles": [
+        "지구의 자전 속도가 느려지는 이유",
+        "지구가 도는 속도"
+      ]
+    },
+    {
+      "q": "이주민과 주민이 서로 이해하며 살아가는 모습을 보여주는 자료",
+      "status": 200,
+      "total": 10,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 85,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 383,
+      "titles": [
+        "다 함께 자라요, 다문화 초등 교실",
+        "잘 지내나요, 이방인?"
+      ]
+    },
+    {
+      "q": "연소와 블루드래곤가상물질을 모두 설명해주는 영상",
+      "status": 200,
+      "total": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 72,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 398,
+      "titles": []
+    }
+  ],
+  "paidApiCalls": 0
+}

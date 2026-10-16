@@ -1,0 +1,3022 @@
+{
+  "generatedAt": "2026-10-14T12:40:07.634Z",
+  "rows": [
+    {
+      "id": "V01",
+      "query": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "before": 0,
+      "after": 3,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1653,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [],
+        "terms": [
+          "화산지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "화산지형에 지역",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "geographicScope": {
+            "required": [
+              "DOMESTIC"
+            ],
+            "quotes": [
+              "우리나라"
+            ]
+          },
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "요청한 지역 범위는 제목·소개문의 장소 단서로 제한합니다. 장소 미확인 또는 국내·해외 혼합 자료는 단독 국내 조건에서 보류합니다."
+        ],
+        "naturalLanguage": {
+          "text": "화산지형에     지역  ",
+          "original": "화산지형에 해당하는 우리나라 지역 수업자료",
+          "active": true,
+          "relations": [],
+          "purposes": [
+            "해당하는",
+            "수업자료"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": {
+        "id": "GEO-PARK-HALLA",
+        "supportingQuote": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+        "coverage": "주제/국내 사례 후보; 실제 특징/형성 설명과 영상 적합성은 미확인",
+        "foundInTop20": true
+      },
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "화산 지형 → 한라산 · 화산 지형 사례"
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "공식 제목·소개문에서 개념 관련 표현 확인 · 실제 장면 별도"
+          }
+        },
+        {
+          "id": "BCAST-791196c0822a06144ed5",
+          "title": "화산섬 제주도",
+          "summary": "",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133167&courseId=10204000&stepId=20006824&lectId=20280104",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 6,
+                "quote": "제주"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "공식 제목·소개문에서 개념 관련 표현 확인 · 실제 장면 별도"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "query": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "before": 2,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1040,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "만들어진",
+          "지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "형성·특징 설명",
+            "terms": [
+              "만들어진"
+            ]
+          }
+        ],
+        "positiveQuery": "화산 활동으로 만들어진 지형을 수업",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "geographicScope": {
+            "required": [
+              "DOMESTIC"
+            ],
+            "quotes": [
+              "우리나라의"
+            ]
+          },
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "요청한 지역 범위는 제목·소개문의 장소 단서로 제한합니다. 장소 미확인 또는 국내·해외 혼합 자료는 단독 국내 조건에서 보류합니다."
+        ],
+        "naturalLanguage": {
+          "text": "  화산 활동으로 만들어진 지형을   수업  ",
+          "original": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+          "active": true,
+          "relations": [
+            {
+              "label": "형성·특징 설명",
+              "quotes": [
+                "만들어진"
+              ],
+              "status": "UNCONFIRMED"
+            }
+          ],
+          "purposes": [
+            "자료"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [
+              "만들어진"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "형성·특징 설명",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "형성·특징 설명: 대응하는 소개문 문장을 찾지 못함",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "형성·특징 설명",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "형성·특징 설명: 대응하는 소개문 문장을 찾지 못함",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘현무암’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "query": "국내 화산 지형의 특징을 설명하는 영상",
+      "before": 0,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1006,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "지형",
+          "특징"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "형성·특징 설명",
+            "terms": [
+              "특징"
+            ]
+          }
+        ],
+        "positiveQuery": "화산 지형의 특징을",
+        "intent": "EXPLAIN",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "geographicScope": {
+            "required": [
+              "DOMESTIC"
+            ],
+            "quotes": [
+              "국내"
+            ]
+          },
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "요청한 지역 범위는 제목·소개문의 장소 단서로 제한합니다. 장소 미확인 또는 국내·해외 혼합 자료는 단독 국내 조건에서 보류합니다."
+        ],
+        "naturalLanguage": {
+          "text": "  화산 지형의 특징을    ",
+          "original": "국내 화산 지형의 특징을 설명하는 영상",
+          "active": true,
+          "relations": [
+            {
+              "label": "형성·특징 설명",
+              "quotes": [
+                "특징"
+              ],
+              "status": "UNCONFIRMED"
+            }
+          ],
+          "purposes": [
+            "설명하는",
+            "영상"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [
+              "특징"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "형성·특징 설명",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "형성·특징 설명: 대응하는 소개문 문장을 찾지 못함",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "형성·특징 설명",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "형성·특징 설명: 대응하는 소개문 문장을 찾지 못함",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘현무암’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "query": "한라산의 화산 지형을 설명하는 자료",
+      "before": 2,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 172,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "한라산",
+          "지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "한라산의 화산 지형을",
+        "intent": "EXPLAIN",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [],
+        "naturalLanguage": {
+          "text": "한라산의 화산 지형을    ",
+          "original": "한라산의 화산 지형을 설명하는 자료",
+          "active": true,
+          "relations": [],
+          "purposes": [
+            "설명하는",
+            "자료"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [
+              "한라산"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "한라산"
+            ],
+            "text": "요청한 ‘화산 · 한라산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              },
+              {
+                "field": "summary",
+                "start": 296,
+                "end": 369,
+                "quote": "특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘현무암 · 한라산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "query": "제주도에서 용암이 만든 지형을 보여주는 영상",
+      "before": 0,
+      "after": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 90,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": [
+              "용암"
+            ]
+          }
+        ],
+        "terms": [
+          "제주도",
+          "만든",
+          "지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "형성·특징 설명",
+            "terms": [
+              "만든"
+            ]
+          }
+        ],
+        "positiveQuery": "제주도에서 용암이 만든 지형을",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [],
+        "naturalLanguage": {
+          "text": "제주도에서 용암이 만든 지형을    ",
+          "original": "제주도에서 용암이 만든 지형을 보여주는 영상",
+          "active": true,
+          "relations": [
+            {
+              "label": "형성·특징 설명",
+              "quotes": [
+                "만든"
+              ],
+              "status": "UNCONFIRMED"
+            }
+          ],
+          "purposes": [
+            "영상"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [],
+            "terms": [
+              "제주도",
+              "만든",
+              "지형",
+              "용암"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": []
+    },
+    {
+      "id": "V06",
+      "query": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+      "before": 0,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 92,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "화산 지형 자료를 찾아줘",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "geographicScope": {
+            "required": [
+              "DOMESTIC"
+            ],
+            "quotes": [
+              "해외 사례는 제외해줘",
+              "우리나라"
+            ]
+          },
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "요청한 지역 범위는 제목·소개문의 장소 단서로 제한합니다. 장소 미확인 또는 국내·해외 혼합 자료는 단독 국내 조건에서 보류합니다."
+        ],
+        "naturalLanguage": {
+          "text": "  화산 지형 자료를 찾아줘  ",
+          "original": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+          "active": true,
+          "relations": [],
+          "purposes": [],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘현무암’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "query": "화산 지형",
+      "before": 24,
+      "after": 24,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 253,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "지형"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "화산 지형",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [],
+        "naturalLanguage": {
+          "text": "화산 지형",
+          "original": "화산 지형",
+          "active": false,
+          "relations": [],
+          "purposes": [],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+          "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 26,
+                    "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-a29fff109e61a3dcab2d",
+          "title": "인도네시아 화산 트레일 지구의 뜨거운 심장, 브로모路!",
+          "summary": "자바 남부 구눙키둘에서 밧줄을 타고 수직 좀블랑 동굴로 하강해 하늘에서 쏟아지는 신비로운 햇살을 경험하고, 솔로에서 장작불 위 큰 솥에서 끓인 찐 보양식 탱클렝을 맛본다. 오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다.<br>",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60645507",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 96,
+                "end": 214,
+                "quote": "오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 96,
+                "end": 214,
+                "quote": "오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 96,
+                    "end": 214,
+                    "quote": "오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-16cc4ce5d4cb31a53206",
+          "title": "중년의 여행법, 인도네시아-다시 한번 뜨겁게, 브로모 화산",
+          "summary": "여전히 화산 활동이 활발한 활화산 브로모 화산 트래킹에 도전한다. 브로모 화산 트래킹 거점 도시 말랑 중앙광장에서 다양한 현지인들과 어울리고, 벽화 마을을 돌며 숨겨진 사연을 듣고, 야시장에서 젊은이들과 멋진 시간을 보낸다. 브로모 화산을 향하여 툼팍세우 폭포의 장관을 보고, 화산피해를 입었던 응아다 마을 텡거족 사람들을 만나 화산의 이야기를 듣는다. 새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60583070",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 198,
+                "end": 251,
+                "quote": "새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 36,
+                "quote": "여전히 화산 활동이 활발한 활화산 브로모 화산 트래킹에 도전한다."
+              },
+              {
+                "field": "summary",
+                "start": 37,
+                "end": 125,
+                "quote": "브로모 화산 트래킹 거점 도시 말랑 중앙광장에서 다양한 현지인들과 어울리고, 벽화 마을을 돌며 숨겨진 사연을 듣고, 야시장에서 젊은이들과 멋진 시간을 보낸다."
+              },
+              {
+                "field": "summary",
+                "start": 126,
+                "end": 197,
+                "quote": "브로모 화산을 향하여 툼팍세우 폭포의 장관을 보고, 화산피해를 입었던 응아다 마을 텡거족 사람들을 만나 화산의 이야기를 듣는다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 198,
+                    "end": 251,
+                    "quote": "새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-af19741ff313f1c6f411",
+          "title": "화산 곁에 사는 이유",
+          "summary": "인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 27,
+                "quote": "인도네시아에서는 화산섬에 가장 많은 인구가 산다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 58,
+                "end": 90,
+                "quote": "화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+                "status": "DIRECT_TOPIC_MENTION",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 27,
+                    "quote": "인도네시아에서는 화산섬에 가장 많은 인구가 산다."
+                  }
+                ]
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 지형 직접 언급 · 관계 설명 미확인: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-e62e352286bfdf0e7886",
+          "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+          "summary": "지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데...",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 121,
+                "end": 179,
+                "quote": "끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-b7ea99f0dd385b579d34",
+          "title": "극한의 땅 1부 다나킬의 소금 카라반",
+          "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 221,
+                "end": 332,
+                "quote": "용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘용암’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-03091ee3cf3981ecf709",
+          "title": "로망살이 시칠리아 몰타 - 로망이 현실로 지중해 라이프",
+          "summary": "삼부카 디 시칠리아에서 아름다운 1유로 집들을 구경한다. 은퇴 후 평생의 꿈을 이룬 목공 장인 앤조 할아버지를 만난다. 세계에서 가장 활발한 화산 중 하나인 에트나산에서 화산의 웅장함을 몸소 느낀다. 시칠리아에서 몰타로 이동한 후, 몰타의 어촌 마을 말사실록에서 어부 부부의 지중해 라이프를 들어본다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057411&lectId=60585575",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 67,
+                "end": 111,
+                "quote": "세계에서 가장 활발한 화산 중 하나인 에트나산에서 화산의 웅장함을 몸소 느낀다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-2de9653994aee5d47437",
+          "title": "인도네시아 화산 트레일 므라피, 활화산과 함께 사는 법",
+          "summary": "해발 2,000m의 디엥고원에서 물색이 변하는 와르나호를 만난다. 감자밭에서 농사일을 도우며 비둘기 경주를 보고, 화산을 터전으로 살아가는 삶에 다가간다. 지프를 타고 므라피 화산을 탐험한다. 화산 폭발 흔적이 남은 시사 하르타쿠 작은 박물관을 방문하고, 사람 얼굴을 닮은 바투 알리엔 바위를 본다. 문화 수도 족자카르타에서는 전통 시장 크랑간 시장에서 간식을 맛보고, 유네스코 세계문화유산 프람바난 사원을 둘러본다. 해 질 녘 사원 배경의 라마야나 발레를 감상한다. 안동산에 올라 장엄한 일출을 보며 여행을 마무리한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60645461",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 37,
+                "end": 86,
+                "quote": "감자밭에서 농사일을 도우며 비둘기 경주를 보고, 화산을 터전으로 살아가는 삶에 다가간다."
+              },
+              {
+                "field": "summary",
+                "start": 87,
+                "end": 107,
+                "quote": "지프를 타고 므라피 화산을 탐험한다."
+              },
+              {
+                "field": "summary",
+                "start": 108,
+                "end": 167,
+                "quote": "화산 폭발 흔적이 남은 시사 하르타쿠 작은 박물관을 방문하고, 사람 얼굴을 닮은 바투 알리엔 바위를 본다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-08465bb52fbdefbd1387",
+          "title": "인도네시아 화산 트레일 화산별천지! 반둥",
+          "summary": "동남아시아의 관문, 자카르타에서 여행을 시작한다. 인도네시아의 축소판인 타만 미니 인도네시아 민속공원을 케이블카로 둘러보고, 인공호수에 재현된 섬들을 내려다보고, 먹자골목에서 사테와 소토를 맛본다. 선선한 고지대 반둥에서는 ‘뒤집힌 배’라 불리는 탕쿠반프라후 화산을 만난다. 바틱 나무로 만든 공예품을 보고, 화산이 키운 커피로 여유를 즐긴다. 물색이 변하는 신비한 카와푸티호와 렝가니스 출렁다리를 건넌다. 렝가니스 유황 온천에서 온천욕을 즐기며 여행을 마무리한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60645415",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 111,
+                "end": 153,
+                "quote": "선선한 고지대 반둥에서는 ‘뒤집힌 배’라 불리는 탕쿠반프라후 화산을 만난다."
+              },
+              {
+                "field": "summary",
+                "start": 154,
+                "end": 192,
+                "quote": "바틱 나무로 만든 공예품을 보고, 화산이 키운 커피로 여유를 즐긴다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-5ec45c008c1863534e1a",
+          "title": "인도네시아 화산 트레일 화산섬, 발리를 즐기는 법",
+          "summary": "인도네시아가 세계에 자랑하는 천국 발리에서 예술과 전통문화의 성지 우붓을 탐험한다. 소나무 장작 위에서 3시간 돌려가며 구운 바비굴링을 맛본다. 젬브라나에서 물소 수레 경주 메케풍을 준비하는 현지인들과 만나고, 물소와 인간의 유대를 발견한다. 바투르 화산과 아궁산을 오르지 않고도 여유롭게 화산을 감상하는 발리만의 방법을 만나고 인생숏을 남긴다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60645554",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 136,
+                "end": 193,
+                "quote": "바투르 화산과 아궁산을 오르지 않고도 여유롭게 화산을 감상하는 발리만의 방법을 만나고 인생숏을 남긴다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-562e6edfbf3957efa619",
+          "title": "중국 명산 기행- 오악의 전설, 화산",
+          "summary": "산시성 시안에서 회족거리를 둘러보며 중국식 햄버거 러우지아모, 만둣국, 탄탄면을 맛보고 진시황릉의 병마용갱을 감상한다.  화산 케이블카를 타고 트래킹 시작 연화봉과 북봉에 올라 오악의 대표 화산의 걸경을 소개한다. 아찔한 장공잔도를 탐험으로 화산 트래킹을 마치고 산시성의 명주 서봉주 공장에 들러 술빚는 과정과 맛을 음미한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057414&lectId=60573992",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 68,
+                "end": 119,
+                "quote": "화산 케이블카를 타고 트래킹 시작 연화봉과 북봉에 올라 오악의 대표 화산의 걸경을 소개한다."
+              },
+              {
+                "field": "summary",
+                "start": 120,
+                "end": 182,
+                "quote": "아찔한 장공잔도를 탐험으로 화산 트래킹을 마치고 산시성의 명주 서봉주 공장에 들러 술빚는 과정과 맛을 음미한다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-31814e487e873b5231c2",
+          "title": "중년의 여행법, 인도네시아-하루 하루 경건하게, 이젠 화산",
+          "summary": "발리에서 사라스와티 전통의식을 진행하는 고등학교를 방문하고 앰플사원에서 물의 정화 의식을 체험한다. 발리 삼모작의 논에서 모심기 체험과 전통 수산시장에서 생선 구매와 요리까지 그리고 발리의 루왁커피를 맛본다. 이젠화산에서 유황캐는 광부들의 삶과 유황 화산의 장엄한 광경을 소개한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60583692",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 117,
+                "end": 157,
+                "quote": "이젠화산에서 유황캐는 광부들의 삶과 유황 화산의 장엄한 광경을 소개한다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-4cd74c6145ff0d3e11da",
+          "title": "천하제일 중국명산 1부 무림의 전설",
+          "summary": "천하제일절경 중국명산. 70만 여행 크리에이터 ‘캡틴 따거’와 함께 무림의 전설이 가득한 땅 중국 명산에 오르다. 무림 열풍의 중심이자 화산파의 본거지, 화산(華山)부터 여성 문파인 아미파가 있는 아미산(峨眉山), 무릉도원의 모티브가 된 장가계(張家界)까지 오르며 중국 명산에 깃든 이야기를 알아본다.",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057365",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 64,
+                "end": 168,
+                "quote": "무림 열풍의 중심이자 화산파의 본거지, 화산(華山)부터 여성 문파인 아미파가 있는 아미산(峨眉山), 무릉도원의 모티브가 된 장가계(張家界)까지 오르며 중국 명산에 깃든 이야기를 알아본다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-5b3ae9b976817ce2b57e",
+          "title": "커피보다 진하고 화산보다 뜨거운, 과테말라-눈 앞에서 화산이 펑펑! 안티과",
+          "summary": "거대한 화산이 병풍처럼 둘러싸여 있고 도시 전체가 ‘유네스코 세계 문화 유산’으로 지정되어 있는 과테말라의 옛 수도 안티구아 구도심에서 16세기 스페인 식민지 시대의 골목을 걷는다. 부활절을 앞두고 일주일 전에 열리는 퍼레이드(세마나 산타) 행진 속 참가자들도 만나고 화산이 보이는 카페에서 커피 한 잔으로 본격적인 여정을 시작한다. 화산의 나라, 과테말라는 37개 화산 중 활화산은 3곳 .‘아카테낭고 화산’에 올라 ‘푸에고 화산’의 진짜 분화를 목격한다. 전통 직조로 유명한 ‘산 안토니오 아과스 칼리엔테스 마을’의 직물 학교도 찾아가고, 과테말라의 ‘걱정 인형’을 만들어 본다",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057446&lectId=60707837",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 101,
+                "quote": "거대한 화산이 병풍처럼 둘러싸여 있고 도시 전체가 ‘유네스코 세계 문화 유산’으로 지정되어 있는 과테말라의 옛 수도 안티구아 구도심에서 16세기 스페인 식민지 시대의 골목을 걷는다."
+              },
+              {
+                "field": "summary",
+                "start": 102,
+                "end": 186,
+                "quote": "부활절을 앞두고 일주일 전에 열리는 퍼레이드(세마나 산타) 행진 속 참가자들도 만나고 화산이 보이는 카페에서 커피 한 잔으로 본격적인 여정을 시작한다."
+              },
+              {
+                "field": "summary",
+                "start": 187,
+                "end": 219,
+                "quote": "화산의 나라, 과테말라는 37개 화산 중 활화산은 3곳 ."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-6ceaed3f900d165fb6d7",
+          "title": "커피보다 진하고 화산보다 뜨거운, 과테말라-도전, 지구 탐험!",
+          "summary": "과테말라가 품은 세상의 풍경을 만나러 가는 여정, 안티과 남쪽 파카야 화산에 오르고, 물과 바위의 오랜 상호작용으로 만들어진 카르스트 지형의 신비로운 석회암 천연 싱크홀 ‘요요 엘 시마론’의 비경을 만난다. 커피의 나라 과테말라의 2월(촬영일 기준)은 커피가 가장 붉고 향기로운 계절, 커피 농가를 찾아가 커피 열매를 수확해 전통 방식으로 볶아 내린 한 잔의 커피를 즐긴다. 카리브해 연안 도시 리빙스턴에 도착한다. 식당에서 카리브 전통음식을 즐기고 바다 근처 생선 가게에서 함께 판매도 하면서 이곳의 삶을 체험해 본다. 흥겨운 가리푸나 전통음악과 춤을 현지인들과 함께 추며 카리브해의 뜨거운 리듬으로 여정을 마무리 한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057446&lectId=60707929",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 115,
+                "quote": "과테말라가 품은 세상의 풍경을 만나러 가는 여정, 안티과 남쪽 파카야 화산에 오르고, 물과 바위의 오랜 상호작용으로 만들어진 카르스트 지형의 신비로운 석회암 천연 싱크홀 ‘요요 엘 시마론’의 비경을 만난다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-75973addd4733d3d5692",
+          "title": "커피보다 진하고 화산보다 뜨거운, 과테말라-이런 여행도? 아티틀란 호수",
+          "summary": "경관이 아름다운 거대한 화산 폭발로 형성된 칼데라 호수 ‘아티틀란’. 호수를 둘러 싼 마야 원주민들의 마을로 향한다. 호수 주변 직조와 벽화로 유명한 산타 카타리나 팔로포 마을, 호수의 고요함을 만끽하며 요가, 명상지로 찾게 되는 마르코스 라 라구나 마을에서 요가를 하고 색다른 시간을 보낸다. 산 페드로 라 라구나 마을에서는 어부를 만나 고기잡이를 한 후, 어부의 집에 초대 받아 따뜻한 시간을 보낸다.  ‘칸바 동굴’속으로 들어가 촛불하나에 의지한 채 지하 물길을 탐험하고 석회암이 오랜 시간 침식과 퇴적으로 만들어진 천연 수영장 ‘세묵 참페이’에서 물놀이를 즐긴다 <br>",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057446&lectId=60707883",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 38,
+                "quote": "경관이 아름다운 거대한 화산 폭발로 형성된 칼데라 호수 ‘아티틀란’."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-1fe4b21915f25507f459",
+          "title": "코스타리카, 지구 최후의 낙원-대자연의 심장, 화산",
+          "summary": "포아스 화산과 아네날 화산을 찾아가 화산과 함께 삶을 이어가는 사람들을 만나보는 여정. 여전히 활발히 활동하는 포아스 화산은 건기 때 매일 분화가 발생해 조사관들이 주시하며 관찰하고 있다. 그 아래 마을들은 화산의 혜택으로 양배추, 브로콜린, 딸기 농장들이 즐비해 있다. 아레날 화산에서는 UFO를 만났다는 할아버지를 만나보고 이곳 열대림에서 짚라인과 노천 온천을 체험한다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057490&lectId=60597975",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 48,
+                "quote": "포아스 화산과 아네날 화산을 찾아가 화산과 함께 삶을 이어가는 사람들을 만나보는 여정."
+              },
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 105,
+                "quote": "여전히 활발히 활동하는 포아스 화산은 건기 때 매일 분화가 발생해 조사관들이 주시하며 관찰하고 있다."
+              },
+              {
+                "field": "summary",
+                "start": 106,
+                "end": 151,
+                "quote": "그 아래 마을들은 화산의 혜택으로 양배추, 브로콜린, 딸기 농장들이 즐비해 있다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘현무암’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-554545f863297948260f",
+          "title": "3부 운젠화산의 두 얼굴",
+          "summary": "기존 다큐프라임 \"화산\" 을 재구성하여 제작",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/194/list?courseId=10008202&stepId=10009338&c.page=27",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 24,
+                "quote": "기존 다큐프라임 \"화산\" 을 재구성하여 제작"
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-db8c63f1b3725bd9fcf8",
+          "title": "4부 화산과 함께 살다",
+          "summary": "기존 다큐프라임 \"화산\"을 재구성하여 제작",
+          "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/194/list?courseId=10008202&stepId=10009338&c.page=27",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 23,
+                "quote": "기존 다큐프라임 \"화산\"을 재구성하여 제작"
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [
+              {
+                "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+                "status": "ADJACENT_TOPIC_ONLY",
+                "evidence": []
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다.",
+              "화산 소재의 주변 내용 · 지형 설명 미확인: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "화산"
+            ],
+            "text": "요청한 ‘화산’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V08",
+      "query": "화산 폭발 피해를 다룬 영상",
+      "before": 0,
+      "after": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1426,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "volcano",
+            "label": "화산",
+            "subject": "공통",
+            "aliases": [
+              "화산",
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "specificAliases": [
+              "용암",
+              "분화구",
+              "현무암"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [
+          "폭발",
+          "피해"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "폭발 피해",
+            "terms": [
+              "폭발 피해"
+            ]
+          }
+        ],
+        "positiveQuery": "화산 폭발 피해를",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [],
+        "naturalLanguage": {
+          "text": "화산 폭발 피해를    ",
+          "original": "화산 폭발 피해를 다룬 영상",
+          "active": true,
+          "relations": [
+            {
+              "label": "폭발 피해",
+              "quotes": [
+                "폭발 피해"
+              ],
+              "status": "UNCONFIRMED"
+            }
+          ],
+          "purposes": [
+            "다룬",
+            "영상"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "volcano"
+            ],
+            "geographyIds": [
+              "volcano"
+            ],
+            "terms": [
+              "폭발",
+              "피해"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": []
+    },
+    {
+      "id": "V09",
+      "query": "우리나라 해안 지형을 보여주는 수업 자료",
+      "before": 6,
+      "after": 3,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 246,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [
+          {
+            "id": "coast",
+            "label": "해안 지형",
+            "subject": "사회",
+            "aliases": [
+              "해안 지형",
+              "해안지형",
+              "리아스식 해안",
+              "갯벌"
+            ],
+            "specificAliases": [],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-10-12.2",
+            "requestedAliases": []
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "해안 지형을 수업",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "geographicScope": {
+            "required": [
+              "DOMESTIC"
+            ],
+            "quotes": [
+              "우리나라"
+            ]
+          },
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "요청한 지역 범위는 제목·소개문의 장소 단서로 제한합니다. 장소 미확인 또는 국내·해외 혼합 자료는 단독 국내 조건에서 보류합니다."
+        ],
+        "naturalLanguage": {
+          "text": "  해안 지형을   수업  ",
+          "original": "우리나라 해안 지형을 보여주는 수업 자료",
+          "active": true,
+          "relations": [],
+          "purposes": [
+            "자료"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "coast"
+            ],
+            "geographyIds": [
+              "coast"
+            ],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": [
+        {
+          "id": "BCAST-9d8d4642df739046b698",
+          "title": "고창, 산과 갯벌이 건네는 이야기",
+          "summary": "고창의 정신적 지주로 불리는 선운산. 특히 고창 심원면사무소에서 출발해 선운산 능선을 따라 걷는 서해랑길 42코스는 284개의 코리아 둘레길 중 베스트34에 손꼽힐 정도로 아름다움을 자랑한다. 선운산 숲길에서 만나는 천 오백년 고찰 선운사에선 몸과 마음의 여유를 느낄 수 있다. 넓은 고창의 바다는 갖가지 보물들을 내놓는데 그 중에서도 소금을 빼놓을 수 없다. 점점 사라져가는 염전을 지키기 위한 김지아 씨 삼부자의 고군분투 소금 채취기와 갯벌에서 찾아내는 조개의 여왕, 백합! 고창의 명물 백합정식까지 만나본다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60604305",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "고창"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "고창"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 202,
+                "end": 267,
+                "quote": "점점 사라져가는 염전을 지키기 위한 김지아 씨 삼부자의 고군분투 소금 채취기와 갯벌에서 찾아내는 조개의 여왕, 백합!"
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "갯벌"
+            ],
+            "text": "요청한 ‘갯벌’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-d19644f820a63bb95792",
+          "title": "대를 이어 합니다 4부 갯벌에서 캐는 보물",
+          "summary": "바다의 보물이라 불리며 음식 맛의 기본이 되는 소금. 어디서나 쉽게 구할 수 있지만 그중에서도 명품 소금이 따로 있다! 우리나라 천일염의 보고 전라남도 신안에서 3대째 소금 명인의 길을 걷고 있다는 박형기 씨. 그의 소금은 갯벌을 다져 만든 토판천일염으로 맛은 물론 미네랄 함량이 높아 최고급 소금으로 분류된다. 바람 한 점, 그늘 한쪽 없이 하는 고된 일이지만 소금 명인이라는 긍지를 이어받아 그의 아들까지 4대째 가업을 잇는 중이다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60509492",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 67,
+                "end": 71,
+                "quote": "우리나라"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 85,
+                "end": 87,
+                "quote": "신안"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 118,
+                "end": 174,
+                "quote": "그의 소금은 갯벌을 다져 만든 토판천일염으로 맛은 물론 미네랄 함량이 높아 최고급 소금으로 분류된다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "갯벌"
+            ],
+            "text": "요청한 ‘갯벌’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        },
+        {
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "summary": "풍요의 땅 무안. 홀통 해변에서는 전통 고기잡이 방식인 덤벙으로 물고기를 잡는 어부 부부와 비옥한 황토밭에서 고구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다. 한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+          "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "무안"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 6,
+                "end": 8,
+                "quote": "무안"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          },
+          "explanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 93,
+                "end": 177,
+                "quote": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘갯벌’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "V10",
+      "query": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "before": 0,
+      "after": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1494,
+        "externalApiCalls": 0
+      },
+      "understanding": {
+        "concepts": [],
+        "terms": [
+          "낮",
+          "밤",
+          "활동하",
+          "동물"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": [],
+          "content": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [
+          {
+            "label": "활동·비교",
+            "terms": [
+              "활동하는",
+              "비교하는"
+            ]
+          }
+        ],
+        "positiveQuery": "낮과 밤에 활동하는 동물을",
+        "intent": "COMPARE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "exclusionClauses": [],
+          "requiredGenres": [],
+          "excludedGenres": [],
+          "genreOperator": "AND",
+          "gradeContext": {
+            "value": "all",
+            "courses": [],
+            "grades": [],
+            "warnings": [],
+            "needsClarification": false,
+            "source": "all",
+            "label": "미지정"
+          }
+        },
+        "warnings": [
+          "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+        ],
+        "naturalLanguage": {
+          "text": "낮과 밤에 활동하는 동물을    ",
+          "original": "낮과 밤에 활동하는 동물을 비교하는 영상",
+          "active": true,
+          "relations": [
+            {
+              "label": "활동·비교",
+              "quotes": [
+                "활동하는",
+                "비교하는"
+              ],
+              "status": "UNCONFIRMED"
+            }
+          ],
+          "purposes": [
+            "비교하는",
+            "영상"
+          ],
+          "expansions": [],
+          "explicitConjunction": false
+        },
+        "expansions": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [],
+            "terms": [
+              "낮",
+              "밤",
+              "활동하",
+              "동물"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "knownRelevantCandidate": null,
+      "top20": []
+    }
+  ],
+  "cases": [
+    "확인된 한라산 후보 누락 복구",
+    "국내 요청4형식 후보 발견·국내 단서·불명 보류",
+    "과테말라 국내 조건 위반 차단",
+    "지형 직접 언급과 주변 물 이용의 순위/확인 구분",
+    "낮/밤 동물 활동을 자전으로 바꾸지 않음",
+    "요청 문법·자료 복합어 분리",
+    "화산 형성과 물/바위 카르스트 원인 혼동 차단",
+    "해외 제외·국내 불명·국내/해외 혼합 보류",
+    "국내 조건과 미지 고유명/명시 AND 동시 보존",
+    "원본4저장소 SHA 보존"
+  ],
+  "paidApiCalls": 0,
+  "scope": "사용자 독립 검토10질문을 새 개발 회귀로 사용. 변경 후 원문 적합성 판단은 구현 에이전트 대조이며 새로운 독립 정답률 표본이 아니다."
+}

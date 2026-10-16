@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "input": "docs/r12-03-development170.json",
+  "inputSha256": "a99fa5f071484c27e88aa4f439bfb9cdee4708b77ec79b0e2c7f2946e429267d",
+  "actualTeacherRequests": 0,
+  "finalEvaluationUsed": false,
+  "productCodeSha256": {
+    "server/request-content-plan.js": "475566e8fadac576ca62d110b1105a87ad456fe9a1bafcc45ea9c2f9e3ecf521",
+    "server/request-content-plan-check.js": "af707c957dcf0c89f9e2af3a93c37859a1132ae0b20b473087ee654078779d18",
+    "server/discovery-request.js": "e6a1123b2f83f4e7bf9444dd2b088bf80cb96e999f50be2e61402965dec4e013",
+    "server/discovery-intent.js": "7e28167033d24e69c923e1b495f57830840195c7876e756d9fe3a8acdb4d5387",
+    "server/discovery-search.js": "f6ca42e27ba6957896cd46ae99a1418221a4517471a4f783eda3e8085c4c6356",
+    "server/teacher-discovery.js": "d98bb4c766c011f85a74ca75f2dafc4ec9c55a359a18b7668d5bb3eb09eea72e",
+    "server/source-explanation.js": "7f83807bbcc68255c2fb474074a062a4d27295b98620563c45883e75c69fd7cc",
+    "public/discover.js": "d386c642446d0f59e3a940a6f25357e6ee60388425e28008c3cf7adbcf6121cc"
+  },
+  "finalApi": "docs/r12-03-content-verified170.json",
+  "beforeApi": "docs/r12-03-recheck170.json",
+  "comparison": "docs/r12-03-content-comparison.json"
+}

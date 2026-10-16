@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-12T13:07:00.408Z",
+  "cases": [
+    {
+      "name": "원문 내용어 확대·최소8개 이상·모든 인용은 원문 위치 일치",
+      "passed": true
+    },
+    {
+      "name": "등록 개념 없는 소재·제목/소개문 단일 교차 언급 추출",
+      "passed": true
+    },
+    {
+      "name": "소개문 없으면 제목 근거만·추론/생태계로 승격 금지·비유/인명/부분문자열 방지",
+      "passed": true
+    },
+    {
+      "name": "카드 기본8·전체 펼침·태그없음 배지 제거·HTML 이스케이프",
+      "passed": true
+    },
+    {
+      "name": "교사 응답·등록 개념 보존·기준 비교 상태 보존",
+      "passed": true
+    },
+    {
+      "name": "현재 전체 카탈로그 키워드 커버리지·저장소 불변",
+      "passed": true
+    }
+  ],
+  "coverage": {
+    "total": 23360,
+    "registeredConceptTagged": 1612,
+    "withContentKeywords": 2438,
+    "newlyDescribed": 1567
+  },
+  "samples": [
+    {
+      "title": "한 그릇에 담은 수행의 맛, 사찰음식",
+      "keywords": [
+        "요리",
+        "식재료",
+        "사찰음식",
+        "수행"
+      ]
+    },
+    {
+      "title": "차가운 설원 위 가장 뜨거운 경기, 바이애슬론",
+      "keywords": [
+        "스포츠",
+        "스키",
+        "사격",
+        "평창"
+      ]
+    },
+    {
+      "title": "당신을 지키는 이름, 우리 동네 경찰관",
+      "keywords": [
+        "학교",
+        "경찰",
+        "구조"
+      ]
+    },
+    {
+      "title": "새벽을 달리는 사람들",
+      "keywords": [
+        "배송"
+      ]
+    },
+    {
+      "title": "천년 사찰의 겨울 준비, 김장 5,000포기",
+      "keywords": [
+        "도시"
+      ]
+    },
+    {
+      "title": "충성! 군견훈련소에 명 받았습니다",
+      "keywords": [
+        "무게",
+        "대한민국"
+      ]
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "표시/원문 어휘 비교. 검색 개념·승인·영상 적합성 확대가 아니다."
+}

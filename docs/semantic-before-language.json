@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-30T13:43:49.721Z",
+  "buildId": "ad806bfe11fbf960c934a497",
+  "ruleVersion": "2026-09-30.1",
+  "resources": 22118,
+  "concepts": 42,
+  "resourcesWithSourceTags": 1351,
+  "sourceMentions": 1491,
+  "inferredCandidates": 125,
+  "paidApiCalls": 0,
+  "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+}

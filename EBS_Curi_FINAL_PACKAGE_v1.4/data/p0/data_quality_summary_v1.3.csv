@@ -1,0 +1,13 @@
+﻿metric,value,note
+total_rows,604,통합 Raw/Seed Catalog
+program_series_rows,421,granularity 재확인 필요
+episode_rows,92,PD로그 중심
+clip_rows,68,교과연계 Seed 포함
+episode_seed_rows,23,후보 Seed
+synopsis_nonempty,92,15.2%
+content_id_nonempty,0,Raw는 비어 있음; P0 Candidate Layer에서 deterministic ID 생성
+record_id_unique,604,604/604 고유
+source_url_unique,444,일부 Source는 list/course 단위 URL 반복
+pilot_official_clip_rows,40,"초5·6 사회/과학, Silver Seed"
+p0_mapping_ready_seed,75,40 Clip + 35 synopsis VOD
+p0_enrichment_queue,15,"다큐프라임 15, 상세 소개문 보강 필요"

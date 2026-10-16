@@ -1,0 +1,151 @@
+%% B_=broadcast-catalog.sqlite, S_=semantic-layer.sqlite, A_=automatic-assets.sqlite
+%% 실제 테이블명은 접두어 뒤 이름이다. 점선은 논리 참조이며 SQL FK가 아니다.
+erDiagram
+    B_pages ||..o{ B_episodes : "payload.collectionJob"
+    B_episodes ||..o| B_link_checks : "id 일치·FK 없음"
+    B_episodes ||..o{ B_episode_text : "id·FTS5 색인"
+    B_episodes ||..o{ B_source_enrichments : "source_id·FK 없음"
+    B_pages {
+        TEXT job PK
+        TEXT source_url
+        TEXT request_body
+        TEXT response_hash
+        INTEGER count
+        TEXT fetched_at
+        TEXT status
+        TEXT error
+    }
+    B_episodes {
+        TEXT id PK
+        TEXT identity UK
+        TEXT program
+        TEXT title
+        TEXT synopsis
+        TEXT url
+        TEXT source_url
+        TEXT broadcast_date
+        TEXT course_id
+        TEXT step_id
+        TEXT lect_id
+        TEXT variant
+        TEXT collected_at
+        TEXT content_hash
+        TEXT payload
+    }
+    B_link_checks {
+        TEXT id PK
+        TEXT title
+        TEXT url
+        TEXT status
+        TEXT checked_at
+        TEXT detail
+    }
+    B_episode_text {
+        TEXT id "FTS5 UNINDEXED"
+        TEXT title
+        TEXT program
+        TEXT synopsis
+    }
+    B_source_enrichments {
+        TEXT event_id PK
+        TEXT source_id
+        TEXT checked_at
+        TEXT status
+        TEXT record
+    }
+
+    S_builds ||--o{ S_resources : build_id
+    S_resources ||--o{ S_tags : resource_id
+    S_concepts ||--o{ S_tags : concept_id
+    S_concepts o|..o{ S_concepts : "broader_id·FK 없음"
+    S_builds {
+        TEXT id PK
+        TEXT rule_version
+        TEXT created_at
+        INTEGER resource_count
+    }
+    S_resources {
+        TEXT id PK
+        TEXT content_hash
+        TEXT build_id FK
+    }
+    S_concepts {
+        TEXT id PK
+        TEXT label
+        TEXT subject
+        TEXT aliases
+        TEXT broader_id
+    }
+    S_tags {
+        TEXT resource_id PK,FK
+        TEXT concept_id PK,FK
+        TEXT status PK
+        TEXT from_concept_id PK
+        TEXT field
+        INTEGER start
+        INTEGER end
+        TEXT quote
+        TEXT excerpt
+        TEXT source_url
+        TEXT rule_version
+        TEXT checked_at
+    }
+
+    A_sources o|--o{ A_runs : source_hash
+    A_sources ||--o{ A_assets : source_hash
+    A_runs ||--o{ A_relations : run_id
+    A_runs o|--o{ A_runs : retry_of
+    A_relations ||--o{ A_assets : relation_id
+    A_assets ||--o| A_search_projection : asset_id
+    A_runs o|--o{ A_events : run_id
+    A_assets o|--o{ A_events : asset_id
+    A_sources {
+        TEXT content_hash PK
+        TEXT resource_key
+        TEXT snapshot
+    }
+    A_runs {
+        TEXT id PK
+        TEXT request_key
+        TEXT request
+        TEXT input_hash
+        TEXT source_hash FK
+        TEXT state
+        TEXT started_at
+        TEXT finished_at
+        TEXT lease_until
+        TEXT retry_of FK
+        TEXT report
+        TEXT error
+    }
+    A_relations {
+        TEXT id PK
+        TEXT run_id FK
+        TEXT standard_id
+        TEXT evidence
+    }
+    A_assets {
+        TEXT id PK
+        TEXT relation_id FK
+        TEXT resource_key
+        TEXT standard_id
+        TEXT source_hash FK
+        TEXT state
+        TEXT search_state
+        TEXT saved_at
+        TEXT reason
+        TEXT human_review_ref
+    }
+    A_search_projection {
+        TEXT asset_id PK,FK
+        TEXT payload
+        TEXT prepared_at
+    }
+    A_events {
+        INTEGER id PK
+        TEXT run_id FK
+        TEXT asset_id FK
+        TEXT type
+        TEXT reason
+        TEXT recorded_at
+    }

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-12",
+  "cases": [
+    {
+      "q": "대방어",
+      "id": "PDLOG-080",
+      "title": "거친 바다로부터 정밀한 숙성까지, 겨울철 대방어",
+      "preview": {
+        "keywords": [
+          "겨울철",
+          "대방어",
+          "노동"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "올해 첫 대방어 소식을 듣고 동해안으로 찾아간 막내PD가 직접 배에 올랐다. 아름다운 일출과 함께하는 낭만 조업을 기대했건만, 현실은 15kg 대방어를 들고 나르는 무한 노동의 굴레? 운동장만큼 넓은 200m 정치망 그물과, 방어 4천 마리가 담긴 해상 가두리, 체계적인 대방어 방혈 과정과 셰프 출신 베테랑의 대방어회까지!",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 30,
+            "end": 72,
+            "quote": "올해 첫 대방어 소식을 듣고 동해안으로 찾아간 막내PD가 직접 배에 올랐다."
+          },
+          {
+            "field": "summary",
+            "start": 73,
+            "end": 132,
+            "quote": "아름다운 일출과 함께하는 낭만 조업을 기대했건만, 현실은 15kg 대방어를 들고 나르는 무한 노동의 굴레?"
+          },
+          {
+            "field": "summary",
+            "start": 151,
+            "end": 229,
+            "quote": "운동장만큼 넓은 200m 정치망 그물과, 방어 4천 마리가 담긴 해상 가두리, 체계적인 대방어 방혈 과정과 셰프 출신 베테랑의 대방어회까지!"
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "겨울철",
+            "field": "title",
+            "quote": "겨울철",
+            "start": 19,
+            "score": 9
+          },
+          {
+            "keyword": "대방어",
+            "field": "title",
+            "quote": "대방어",
+            "start": 23,
+            "score": 9
+          },
+          {
+            "keyword": "노동",
+            "field": "summary",
+            "quote": "노동",
+            "start": 123,
+            "score": 3
+          }
+        ]
+      }
+    },
+    {
+      "q": "생명의 첫 문장",
+      "id": "BCAST-d7d2a0c76c9f0cd8e5cc",
+      "title": "AI가 쓴 생명의 첫 문장",
+      "preview": {
+        "keywords": [
+          "AI"
+        ],
+        "label": "방송 내용 안내 · 공개 소개문에서 구성",
+        "text": "인간의 언어를 배우듯 DNA의 ‘문법’을 학습한 AI가, 자연에는 없던 바이러스의 설계도를 써냈다. AI가 만든 285개의 DNA 가운데 16개는 실제로 대장균을 감염시키는 바이러스로 작동했다. 생명의 문장을 쓰기 시작한 AI가 어디까지 확장될 수 있을지, 그 가능성과 위험을 함께 살펴본다.",
+        "evidence": [
+          {
+            "field": "summary",
+            "start": 0,
+            "end": 55,
+            "quote": "인간의 언어를 배우듯 DNA의 ‘문법’을 학습한 AI가, 자연에는 없던 바이러스의 설계도를 써냈다."
+          },
+          {
+            "field": "summary",
+            "start": 56,
+            "end": 108,
+            "quote": "AI가 만든 285개의 DNA 가운데 16개는 실제로 대장균을 감염시키는 바이러스로 작동했다."
+          },
+          {
+            "field": "summary",
+            "start": 109,
+            "end": 163,
+            "quote": "생명의 문장을 쓰기 시작한 AI가 어디까지 확장될 수 있을지, 그 가능성과 위험을 함께 살펴본다."
+          }
+        ],
+        "method": "SOURCE_SENTENCE_SELECTION",
+        "issues": [],
+        "reviewNote": "",
+        "note": "서비스가 공개 소개문에서 내용 문장을 골라 구성했습니다. 소개문의 시점·주장과 실제 영상 확인은 구분합니다.",
+        "basis": "SOURCE_DESCRIPTION",
+        "keywordEvidence": [
+          {
+            "keyword": "AI",
+            "field": "title",
+            "quote": "AI",
+            "start": 0,
+            "score": 8
+          }
+        ]
+      }
+    }
+  ],
+  "paidApiCalls": 0
+}

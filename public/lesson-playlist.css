@@ -1,0 +1,43 @@
+/* 폴더의 자료와 수업 재생 순서를 나란히 배치한다. */
+.lesson-shell { max-width:1600px; }
+.folder-main.has-playlist { display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:24px; align-items:start; }
+.folder-main.has-playlist .folder-videos { grid-template-columns:1fr; }
+.folder-main.has-playlist #folder-content { min-width:0; }
+.lesson-playlist { position:sticky; top:20px; padding:20px; border:1px solid var(--line); border-radius:12px; background:var(--curi-surfaceMuted, #f2f3ef); min-width:0; }
+.lesson-playlist[hidden] { display:none; }
+.playlist-heading { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
+.playlist-heading span,.playlist-help,.playlist-source { font-size:12px; color:var(--muted); }
+.playlist-help { line-height:1.7; }
+#lesson-playlist-status { font-size:13px; color:var(--green); overflow-wrap:anywhere; }
+#lesson-playlist-items { list-style:none; margin:0; padding:0; display:grid; gap:12px; max-height:65vh; overflow-y:auto; }
+.playlist-empty { min-height:260px; display:grid; place-items:center; text-align:center; border:1px dashed var(--line); border-radius:8px; color:var(--muted); font-size:13px; }
+.playlist-empty[hidden] { display:none; }
+.segment-card,.playlist-card { padding:14px; background:var(--white); border:1px solid var(--line); border-radius:10px; min-width:0; overflow-wrap:anywhere; }
+.segment-card { margin:10px 0; }
+.segment-card[draggable=true],.playlist-card { cursor:grab; }
+.segment-card-heading,.playlist-card-heading { display:flex; gap:8px; align-items:start; }
+.segment-card-heading b,.playlist-card-heading h3 { flex:1; margin:0; font-size:14px; line-height:1.5; }
+.playlist-number { display:grid; place-items:center; min-width:24px; height:24px; border-radius:50%; color:var(--white); background:var(--green); font-size:12px; }
+.playlist-card-heading .playlist-remove {display:grid;place-items:center;flex-shrink:0;width:20px;height:20px;min-height:20px;padding:2px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.playlist-remove svg {display:block;width:14px;height:14px}
+.playlist-card-heading .drag-grip {display:grid;place-items:center;flex-shrink:0;width:18px;height:20px;color:var(--muted);font-size:16px;line-height:1}
+.playlist-card-heading .playlist-remove:hover {background:var(--curi-surfaceMuted);color:var(--curi-ink)}
+.segment-card p,.playlist-card p { font-size:12px; line-height:1.6; margin:8px 0; }
+.segment-card-note { white-space:pre-wrap; color:var(--muted); }
+.segment-card-actions,.playlist-card-actions { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.segment-card-actions a { margin-right:auto; }
+.segment-card-actions button,.playlist-card-actions button { min-height:40px; padding:6px 10px; font-size:12px; }
+.playlist-card-actions button[data-overview-play] { width:100%; }
+.playlist-total { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; border-top:1px solid var(--line); padding-top:18px; margin-top:20px; }
+.playlist-total strong { font-size:26px; font-variant-numeric:tabular-nums; color:var(--green); }
+.playlist-total small { width:100%; font-size:12px; color:var(--muted); }
+.is-drop-target { outline:3px solid var(--green); outline-offset:3px; }
+.playlist-card:focus { outline:2px solid var(--green); outline-offset:-2px; }
+body:not(.has-lesson-playlist) [data-playlist-add] { display:none; }
+@media(max-width:1180px) { .folder-main.has-playlist { grid-template-columns:1fr; } .lesson-playlist { position:static; } .playlist-empty { min-height:140px; } }
+@media(max-width:600px) { .lesson-playlist { padding:16px; } #lesson-playlist-items { max-height:none; } }
+
+/* 리스트 제목이 아이콘에 밀리거나 잘리지 않도록 가용 너비에서 줄바꿈한다. */
+.playlist-card-heading {gap:4px}
+.playlist-card-heading .playlist-number {min-width:20px;height:20px;font-size:11px;flex-shrink:0}
+.folder-main .playlist-card .playlist-card-heading h3 {min-width:0;font-size:13px;font-weight:500;line-height:1.5;white-space:normal;overflow-wrap:anywhere;overflow:visible}

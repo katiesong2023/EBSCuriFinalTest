@@ -1,0 +1,343 @@
+{
+  "generatedAt": "2026-10-16T06:03:37.499Z",
+  "metrics": [
+    {
+      "stage": "local",
+      "queries": 370,
+      "nonempty": 40,
+      "top1": {
+        "relevant": 31,
+        "partial": 9,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 40,
+        "relevantShare": 0.775
+      },
+      "top3": {
+        "relevant": 57,
+        "partial": 20,
+        "irrelevant": 2,
+        "unjudged": 0,
+        "exposures": 79,
+        "relevantShare": 0.7215189873417721
+      },
+      "queriesWithRelevantTop3": 31,
+      "empty": 330
+    },
+    {
+      "stage": "previousLlmSupplement",
+      "queries": 370,
+      "nonempty": 72,
+      "top1": {
+        "relevant": 49,
+        "partial": 23,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 72,
+        "relevantShare": 0.6805555555555556
+      },
+      "top3": {
+        "relevant": 80,
+        "partial": 35,
+        "irrelevant": 3,
+        "unjudged": 0,
+        "exposures": 118,
+        "relevantShare": 0.6779661016949152
+      },
+      "queriesWithRelevantTop3": 50,
+      "empty": 298
+    },
+    {
+      "stage": "anchoredConditions",
+      "queries": 370,
+      "nonempty": 72,
+      "top1": {
+        "relevant": 64,
+        "partial": 8,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 72,
+        "relevantShare": 0.8888888888888888
+      },
+      "top3": {
+        "relevant": 111,
+        "partial": 13,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 124,
+        "relevantShare": 0.8951612903225806
+      },
+      "queriesWithRelevantTop3": 65,
+      "empty": 298
+    },
+    {
+      "stage": "independentEntailment",
+      "queries": 370,
+      "nonempty": 49,
+      "top1": {
+        "relevant": 48,
+        "partial": 1,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 49,
+        "relevantShare": 0.9795918367346939
+      },
+      "top3": {
+        "relevant": 68,
+        "partial": 1,
+        "irrelevant": 0,
+        "unjudged": 0,
+        "exposures": 69,
+        "relevantShare": 0.9855072463768116
+      },
+      "queriesWithRelevantTop3": 48,
+      "empty": 321
+    }
+  ],
+  "knownRelevant": 57,
+  "missingCandidates": 3,
+  "lostAll": 19,
+  "lostTop3": 28,
+  "losses": [
+    {
+      "set": "new200",
+      "id": "Q023",
+      "query": "다문화 가정 이웃",
+      "resourceId": "BCAST-e338391ea6f4ef309dae",
+      "title": "무지갯빛 말레이시아의 골목대장 자매들!",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-5cf70af05ea91d1b1fad",
+      "title": "우리 동네 핫플레이스 5부 최고의 한 끼를 위하여",
+      "stage": "QUERY_CONTRACT"
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-11c6c4076ac40f504bc9",
+      "title": "‘억’ 소리 나는 그녀들 1부 곰보배추로 13억",
+      "stage": "QUERY_CONTRACT"
+    },
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "resourceId": "BCAST-1ecfc5874bad21a3edfc",
+      "title": "‘억’ 소리 나는 그녀들 2부 꽃문어로 10억",
+      "stage": "QUERY_CONTRACT"
+    },
+    {
+      "set": "new200",
+      "id": "Q052",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "resourceId": "BCAST-7223c22691cb54b4b924",
+      "title": "아담 쉐보르스키 - 민주주의 난제 2강 어떻게 인기를 얻었을까",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "new200",
+      "id": "Q108",
+      "query": "실 전화기는 어떻게 소리가 전달될까",
+      "resourceId": "BCAST-b464ecdca1139922ae40",
+      "title": "여보세요?",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "resourceId": "BCAST-3ae380d82bcd390fd2ed",
+      "title": "도서관에서 책 빌리기 도전!",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "resourceId": "BCAST-42cb718c8c18c2a86d25",
+      "title": "도서관에 간 꺼병이들",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q028",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "resourceId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q049",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "resourceId": "BCAST-5d8e926d1f0903ba4e77",
+      "title": "시민의 탄생 - 5부 연결자들",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "resourceId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "resourceId": "BCAST-076b63322b8a48f4d42c",
+      "title": "비밀의 땅 파미르 - 1부 세계의 지붕",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "resourceId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "resourceId": "BCAST-96e893fd838fc3739cc4",
+      "title": "자석을 찾아라",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "resourceId": "BCAST-7c5470496fdc6b9adbb1",
+      "title": "먼지 같은 차별도 있습니다",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "resourceId": "BCAST-7237e22384453e542437",
+      "title": "모두의 차별",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "BCAST-5f49781a67f4ea133b7a",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 5강 다문화주의라는 숭고한 위험",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "partial",
+        "unknown"
+      ]
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "resourceId": "BCAST-9103eb5ea2e4e90d2e91",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+      "stage": "SOURCE_REQUIREMENTS",
+      "states": [
+        "yes",
+        "unknown"
+      ]
+    }
+  ],
+  "quotesChecked": 354,
+  "metadataChecked": 39,
+  "verifiedCalls": 847,
+  "sourceResponses": 368,
+  "expectedSourceResponses": 368,
+  "incomplete": false,
+  "missingLabels": 0,
+  "entailmentResponses": 72,
+  "expectedEntailmentResponses": 72,
+  "entailmentIncomplete": false,
+  "previousConservativeUsd": 0.8466296000000008,
+  "additionalConservativeUsd": 0.5754998749999992,
+  "totalConservativeUsd": 1.422129475,
+  "remainingApprovedUsd": 0.577870525,
+  "changedStores": [],
+  "queryOnly": [
+    {
+      "set": "new200",
+      "id": "Q027",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "reason": "UNRESOLVED_QUERY"
+    },
+    {
+      "set": "previous170",
+      "id": "X100-Q084",
+      "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+      "reason": "UNRESOLVED_QUERY"
+    }
+  ],
+  "caveat": "동일370 원문·원천 고정. 후보 독립 질문 조건·내용/선호 분리·원문 번호 대조. 미평가를 관련으로 세지 않는다. 에이전트의 잠정 텍스트 평가이며 교사/실제 영상 정답률·학년 적합성·전체 재현율이 아니다. 비용은 캐시 할인을 제외한 과대 추산이고 계정 잔액/실청구액이 아니다."
+}

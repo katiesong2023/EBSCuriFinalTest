@@ -1,0 +1,68 @@
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+const { createSemanticReviewCandidates } = require('./semantic-review-candidates');
+const { prepareSemanticReview, applySemanticReview } = require('./semantic-review-model');
+const { prepareRequirementReview, applyRequirementReview } = require('./semantic-requirement-review');
+const { mergeReviewedCandidates } = require('./semantic-result-merge');
+const item = (id, title, summary, extra = {}) => ({ id, title, summary, program: '실제 내용', kind: 'episode', sourceUrl: 'https://example.invalid/' + id, ...extra });
+const respond = value => ({ status: 'completed', output: [{ type: 'message', content: [{ type: 'output_text', text: JSON.stringify(value) }] }] });
+async function main() {
+  const cases = [];
+  const catalog = { resources: [item('one', '빛과 그림자', '빛을 물체가 가로막으면 그 뒤에 그림자가 생깁니다.'),
+    item('two', '도시의 심장', '이곳은 도시의 심장에 비유되는 중심 광장입니다.'),
+    item('three', '긴 설명', '다른 이야기입니다. '.repeat(80) + '빛을 물체가 막아 그림자가 생기는 원리를 관찰합니다.'),
+    item('four', '프로그램 목록', '전체 회차 목록', { kind: 'collection' })] };
+  let retrievalCalls = 0;
+  const semanticSearch = async () => { retrievalCalls++; return { status: 'OFFLINE_TEST', matches: new Map([['one', { similarity: 0.9 }], ['two', { similarity: 0.8 }], ['three', { similarity: 0.7 }], ['four', { similarity: 0.6 }]]) }; };
+  const engine = createSemanticReviewCandidates(catalog, { semanticSearch });
+  const batch = await engine.retrieve('그림자 생성 원리');
+  assert.ok(batch.candidates.length); assert.ok(!batch.candidates.some(c => c.item.kind === 'collection')); cases.push('기본 개별 영상·목록 분리');
+  assert.ok(batch.candidates.find(c => c.item.id === 'three').passages.some(p => p.start > 200 && p.quote.includes('원리'))); cases.push('소개문 앞200자 밖의 관련 문장 검색');
+  const index = batch.candidates.findIndex(c => c.item.id === 'one');
+  const selected = { intent: '물체가 빛을 가려 그림자가 생기는 원인', matches: [{ i: index, e: ['빛을 물체가 가로막으면 그 뒤에 그림자가 생깁니다.'] }] };
+  const result = applySemanticReview(batch, respond(selected));
+  assert.equal(result.accepted, true); assert.equal(result.results[0].id, 'one');
+  const proof = result.results[0].semanticSourceReview.evidence[0];
+  assert.equal(catalog.resources[0].summary.slice(proof.start, proof.end), proof.quote); cases.push('검색어와 다른 원문 표현·호스트 인용 위치 계산');
+  assert.equal(applySemanticReview(batch, respond({ intent: '내용 없음', matches: [] })).results.length, 0); cases.push('빈 판단을 전체 목록으로 바꾸지 않음');
+  assert.equal(applySemanticReview(batch, respond({ intent: '시험', matches: [{ i: 999, e: ['발명한 문장'] }] })).accepted, false); cases.push('없는 후보 거절');
+  assert.equal(applySemanticReview(batch, respond({ ...selected, matches: [{ i: index, e: ['자료에 없는 내용입니다.'] }] })).accepted, false); cases.push('없는 인용 거절');
+  assert.equal(applySemanticReview(batch, { status: 'incomplete', output: [] }).accepted, false); cases.push('미완료 응답 거절');
+  assert.equal(applySemanticReview(batch, respond({ ...selected, matches: [selected.matches[0], selected.matches[0]] })).accepted, false); cases.push('중복 후보 거절');
+  const spaced = { ...selected, matches: [{ i: index, e: ['빛을 물체가 가로막으면\n그 뒤에 그림자가 생깁니다.'] }] };
+  assert.equal(applySemanticReview(batch, respond(spaced)).accepted, true); cases.push('줄바꿈 차이는 호스트에서 원문 좌표로 연결');
+  const mixed = { ...selected, matches: [selected.matches[0], { i: batch.candidates.findIndex(c => c.item.id === 'two'), e: ['자료에 없는 인용입니다.'] }] };
+  const mixedResult = applySemanticReview(batch, respond(mixed));
+  assert.equal(mixedResult.accepted, true); assert.equal(mixedResult.results.length, 1); assert.equal(mixedResult.rejected.length, 1);
+  cases.push('근거 없는 후보만 거절하고 다른 후보의 검증 근거 보존');
+  const oldSummary = batch.candidates[index].item.summary;
+  batch.candidates[index].item.summary += ' 변경';
+  assert.equal(applySemanticReview(batch, respond(selected)).reason, 'SOURCE_CHANGED');
+  batch.candidates[index].item.summary = oldSummary; cases.push('변경된 원문 거절');
+  const masked = batch.candidates.find(c => c.item.id === 'two');
+  assert.ok(!masked.packet.title.includes('심장')); cases.push('은유를 검색 원문에서 보류');
+  assert.equal((await engine.retrieve('초등학생 교육용 자료')).candidates.length, 0); cases.push('활용 문맥만 있으면 전체 탐색하지 않음');
+  assert.ok((await engine.retrieve('달')).candidates.length); cases.push('한 글자 주제도 버리지 않음');
+  assert.equal((await engine.retrieve('그림자 다큐만')).candidates.length, 0); cases.push('형식 필수 조건을 LLM 전 단계에서 적용');
+  const prepared = prepareSemanticReview(batch);
+  assert.equal(prepared.payload.store, false); assert.ok(!JSON.stringify(prepared).includes('OPENAI_API_KEY')); cases.push('전송은 질문·후보 원문만');
+  const finalBatch = { query: batch.query, candidates: [batch.candidates[index]] };
+  const matrix = { requirements: ['그림자가 생기는 원인'], candidates: [{ i: 0, e: [selected.matches[0].e[0]] }] };
+  assert.equal(applyRequirementReview(finalBatch, respond(matrix)).results.length, 1); cases.push('각 필수 조건에 원문 근거가 있을 때만 통과');
+  assert.equal(applyRequirementReview(finalBatch, respond({ requirements: ['그림자 생성', '5분 이내'], candidates: [{ i: 0, e: [selected.matches[0].e[0], null] }] })).results.length, 0); cases.push('하나의 필수 조건 미확인도 결과에서 제외');
+  assert.equal(applyRequirementReview(finalBatch, respond({ ...matrix, candidates: [{ i: 0, e: [] }] })).accepted, false); cases.push('불완전 조건 행렬 거절');
+  assert.equal(applyRequirementReview(finalBatch, respond({ ...matrix, candidates: [] })).accepted, false); cases.push('후보 일부만 검증한 응답 거절');
+  assert.equal(applyRequirementReview(finalBatch, respond({ ...matrix, candidates: [{ i: 0, e: ['없는 문장을 근거로 창작'] }] })).results.length, 0); cases.push('필수 조건의 발명된 인용 제외');
+  assert.equal(prepareRequirementReview(finalBatch).payload.store, false); cases.push('조건 검증도 응답 저장 비활성');
+  const reviewed = applyRequirementReview(finalBatch, respond(matrix));
+  const existing = [catalog.resources[1]];
+  assert.deepEqual(mergeReviewedCandidates(existing, reviewed).map(r => r.id), ['two', 'one']);
+  assert.equal(existing.length, 1); cases.push('기존 결과·순서·입력을 보존하면서 검증 후보만 보충');
+  assert.deepEqual(mergeReviewedCandidates(existing, { accepted: false, results: reviewed.results }), existing); cases.push('모델 실패 시 기존 결과 보존');
+  assert.equal(mergeReviewedCandidates(existing, { accepted: true, results: [catalog.resources[0]] }).length, 1); cases.push('조건 검증 없는 후보는 병합하지 않음');
+  assert.equal(mergeReviewedCandidates(reviewed.results, reviewed).length, 1); cases.push('검증 후보 중복 보충 방지');
+  const report = { passed: cases.length, failed: 0, cases, mockedSemanticCalls: retrievalCalls, paidApiCalls: 0 };
+  fs.writeFileSync('docs/r12-40-semantic-source-checks.json', JSON.stringify(report, null, 2) + '\n');
+  console.log(JSON.stringify(report));
+}
+main().catch(error => { console.error(error.message); process.exitCode = 1; });

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11T09:03:35.185Z",
+  "cases": [
+    {
+      "name": "이전 대표 보기 주소는 단일 결과로 복구·현재 조건만 URL 저장",
+      "passed": true
+    },
+    {
+      "name": "전체 방송일 정렬·2페이지·새로고침·뒤로가기",
+      "passed": true
+    },
+    {
+      "name": "주제 묶음·개념·최대3개 원문 태그와 미분류 자유 검색",
+      "passed": true
+    },
+    {
+      "name": "프로그램명 검색·선택·다른 필터별 전체 건수",
+      "passed": true
+    },
+    {
+      "name": "연도·기간 경계·역전 안내·날짜 미확인",
+      "passed": true
+    },
+    {
+      "name": "빈 결과에도 필터별0건·현재 조건·전체 해제 유지",
+      "passed": true
+    },
+    {
+      "name": "교과·소개문·사람/자동 확인·페이지 필터와 목록 유형 구분",
+      "passed": true
+    },
+    {
+      "name": "다른 판본·근거 펼침·내 자료 저장·수업 폴더 왕복 조건 보존",
+      "passed": true
+    },
+    {
+      "name": "조회 실패·재시도·늦은 응답으로 현재 조건 덮어쓰기 방지",
+      "passed": true
+    },
+    {
+      "name": "1440/390px 필터·결과 표시·HTML 삽입 방지·API 입력 오류",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "writes": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "fixture": "임시 복제 서버·합성 방송30개·새 브라우저 저장 공간. 실제 교사 적합성 평가 아님"
+}

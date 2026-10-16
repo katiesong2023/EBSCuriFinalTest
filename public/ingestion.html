@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curi 콘텐츠 증분 가져오기</title>
+    <link rel="stylesheet" href="/ingestion.css">
+    <link rel="stylesheet" href="/admin-nav.css">
+    <script src="/admin-session.js"></script>
+  <link rel="stylesheet" href="/curi-tokens.css"><link rel="stylesheet" href="/fonts/plex.css"><link rel="stylesheet" href="/admin-theme.css"><link rel="icon" href="/brand/ebs-curi-folder.svg" type="image/svg+xml"></head>
+  <body class="curi-admin">
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">CuriMap · 수동 증분 가져오기</p>
+        <h1>신규·변경 콘텐츠 확인</h1>
+        <p>CSV 또는 콘텐츠 1건을 먼저 미리 본 뒤, 정상 항목만 저장합니다.</p>
+      </header>
+
+      <section class="notice" aria-label="저장 경계 안내">
+        가져오기는 원문을 저장하고 변경된 연계 근거를 무효화합니다. 자동 연계 검사와 선택적 사람 검토는 관리 작업공간에서 이어갈 수 있습니다. 가져오기만으로 사람 승인 자산이 만들어지지 않습니다.
+      </section>
+
+      <section class="panel" aria-labelledby="input-title">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <div>
+            <h2 id="input-title">입력 방법</h2>
+            <p>필수 항목은 출처 시스템, 원본 콘텐츠 ID, 원본 URL, 제목입니다.</p>
+          </div>
+        </div>
+
+        <div class="input-choice" role="radiogroup" aria-label="입력 방법 선택">
+          <label><input type="radio" name="input-type" value="csv" checked> CSV 파일 또는 붙여넣기</label>
+          <label><input type="radio" name="input-type" value="single"> 콘텐츠 1건</label>
+        </div>
+
+        <section id="csv-input" class="input-section">
+          <label for="csv-file">CSV 파일 선택
+            <input id="csv-file" type="file" accept=".csv,text/csv">
+          </label>
+          <label for="csv-text">또는 CSV 붙여넣기
+            <textarea id="csv-text" rows="8" placeholder="source_system,source_content_id,source_url,title,synopsis&#10;EBS_EXAMPLE,123,https://www.ebs.co.kr/example,콘텐츠 제목,소개문"></textarea>
+          </label>
+          <label class="checkbox-label">
+            <input id="source-snapshot" type="checkbox">
+            이 파일은 하나의 출처 전체 내보내기입니다. 파일에서 사라진 기존 항목을 비활성 후보로 표시합니다.
+          </label>
+        </section>
+
+        <section id="single-input" class="input-section" hidden>
+          <div class="field-grid">
+            <label>출처 시스템 *<input id="source-system" placeholder="예: EBS_VOD"></label>
+            <label>원본 콘텐츠 ID *<input id="source-content-id" placeholder="예: VOD-12345"></label>
+            <label class="wide">원본 URL *<input id="source-url" type="url" placeholder="https://www.ebs.co.kr/..."></label>
+            <label class="wide">제목 *<input id="title" placeholder="콘텐츠 제목"></label>
+            <label class="wide">공개 출처에서 확인한 소개문 · 관리자 의견/메모 제외<textarea id="synopsis" rows="3"></textarea></label>
+            <label>프로그램명<input id="program-name"></label>
+            <label>회차<input id="episode-no"></label>
+            <label>콘텐츠 단위<input id="content-level" placeholder="예: 영상"></label>
+            <label>원본 수정 시각<input id="source-original-modified-at" type="datetime-local"></label>
+            <label>학년 참고값<input id="grade-band-seed" placeholder="예: 초5~6"></label>
+            <label>교과 참고값<input id="subject-seed" placeholder="예: 사회"></label>
+            <label>교육과정 단원 참고값<input id="curriculum-unit-seed"></label>
+          </div>
+        </section>
+
+        <div class="actions">
+          <button id="preview-button" type="button">미리보기</button>
+          <button id="apply-button" type="button" disabled>정상 항목 저장</button>
+        </div>
+        <p id="request-status" class="request-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="preview-title">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <div>
+            <h2 id="preview-title">저장 전 결과</h2>
+            <p>변경이 없는 항목은 AI 호출·임베딩·재검수 대상으로 보내지 않습니다.</p>
+          </div>
+        </div>
+        <div id="summary" class="summary empty">아직 미리보기 결과가 없습니다.</div>
+        <div id="changes" class="result-list"></div>
+        <div id="errors" class="error-list"></div>
+      </section>
+    </main>
+    <script src="/ingestion.js"></script>
+  </body>
+</html>

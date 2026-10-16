@@ -1,0 +1,105 @@
+{
+  "layouts": [
+    {
+      "label": "admin",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "admin",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "detail",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "detail",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "curriculum",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "curriculum",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "ingestion",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "ingestion",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "curimap",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "curimap",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "login",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "login",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "legacy",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    },
+    {
+      "label": "legacy",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(251, 247, 239)",
+      "font": "\"Gothic A1\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", sans-serif"
+    }
+  ],
+  "errors": [],
+  "isolatedAdminData": true,
+  "actualLoginPassed": true
+}

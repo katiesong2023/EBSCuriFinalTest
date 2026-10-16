@@ -1,0 +1,53 @@
+{
+  "scope": "기존 검증 자료에 근거한 범위 비교",
+  "checks": [
+    {
+      "work": "R07-16",
+      "verified": "문장 보존·잘림 의심 표시·공식4소개 복구",
+      "notVerified": "전체23,360회차 원문 확보·이번12회차 상세 복구",
+      "evidence": [
+        "Tasks/task-r07-16-broadcast-guides.md",
+        "docs/r07-16-official-source-applied.json"
+      ]
+    },
+    {
+      "work": "R07-19 E5/120요청",
+      "verified": "빈 결과·후보 변화·조건·실행경로",
+      "notVerified": "독립 상위5 관련성·정답 상위20 발견률·전체 원문 보강",
+      "evidence": [
+        "docs/r07-19-quality-comparison.json",
+        "Tasks/task-r07-19-natural-language-search.md"
+      ]
+    },
+    {
+      "work": "계약/연결39·HTTP7",
+      "verified": "수작성응답의 원문/논리·필터 보존·미확인/오류·화면/저장",
+      "notVerified": "실제 모델 이해·새 관계 판정·공식 텍스트 확보",
+      "evidence": [
+        "docs/r07-19-request-connection-check.json",
+        "docs/r07-19-request-connection-http-check.json"
+      ]
+    },
+    {
+      "work": "외부3차/30원문검토",
+      "verified": "별도문자열/oracle의부적합/원문부족 발견",
+      "notVerified": "제품LOCAL_E5 품질·수집 복구·실제교사효용",
+      "evidence": [
+        "docs/r07-19-teacher-track-review.json"
+      ]
+    }
+  ],
+  "conclusion": {
+    "mainCause": "검증 단위가 안전성/구조/회귀에 집중했고 데이터 확보·새 질문의 유용성 기준은 미완료로 분리되어 있었다. 발견된 공백을 복구 task로 전환하는 단계가 부족했다.",
+    "goalChange": "처음부터 자료 발견·관련성·원문 근거가 목표였으므로 완전히 다른 목적이 된 것은 아니다. 사례별 개선→계약→교사 선택으로 검증 구체성이 높아졌다.",
+    "duplication": "반복 회귀는 보존 확인에 필요하지만 계약/미리보기/평가 결과가 별도 경로에 누적됐다. v1/v2와 제품/프로토타입의 비교 기준이 달라 검증 개수를 합산해 품질 향상으로 볼 수 없다. 같은 실패를 중복 구현으로 해결했다는 증거는 없다.",
+    "disclosureGap": "통과 개수보다 실제모델0/독립정답없음/원문공백미해결을 먼저 설명해야 했음."
+  },
+  "currentAuditCounts": {
+    "IDENTITY_UNCONFIRMED": 6,
+    "DETAIL_TEXT_STILL_INSUFFICIENT": 1,
+    "DETAIL_UNCHANGED_INSUFFICIENT": 1,
+    "RECOVERABLE_COLLECTION_GAP": 4
+  },
+  "paidApiCalls": 0
+}

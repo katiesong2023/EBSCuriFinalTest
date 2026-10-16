@@ -1,0 +1,83 @@
+{
+  "scope": "기존 잠정 원문 평가와 같은 기준. 조건 행렬을 통과한 새13쌍의 제목·소개·공식 보조 원문을 읽은 판단. 교사/영상 정답률 아님.",
+  "labels": {
+    "new200/Q013/BCAST-4f089fedc7ab0e9c80b9": {
+      "query": "생산과 소비의 뜻",
+      "fingerprint": "8c3e181228d6168d97fee0a429f3712a15b67d8b657d409bd9345780e56558e1",
+      "score": 1,
+      "reason": "생산·소비 용어와 사례지만 두 뜻을 직접 설명하지 않는다."
+    },
+    "new200/Q020/BCAST-9159ea23b42239698a94": {
+      "query": "아이가 줄어들면 우리 동네는 어떻게 될까",
+      "fingerprint": "57e1feb8358b387b3862b6f64221bb2ca39e75446e63d1f2664a03b38e9eb6e7",
+      "score": 2,
+      "reason": "학령인구 감소에 따른 학교 통폐합·지역사회 변화가 공식 원문에 직접 있다."
+    },
+    "new200/Q027/BCAST-3b1dabb9f9c8de93e6ec": {
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "fingerprint": "b4503597cc4deb2cdcf7226690ca49f2bca1ea58d9c71d736f0b5f2468810771",
+      "score": 2,
+      "reason": "한국기행의 정선 지역 생활·경관 소개다. 이용자의 특정 지역은 미지정이다."
+    },
+    "new200/Q028/BCAST-c85f90bc191cbc865817": {
+      "query": "고장의자연환경과인문환경",
+      "fingerprint": "9ad545b3b0db6a4e324fca37cba5bb2cc6df261534c8ce049a2c4ce3d78e625b",
+      "score": 2,
+      "reason": "전통마을의 자연환경과 인간의 주거문화를 함께 설명한다."
+    },
+    "new200/Q051/BCAST-a410a151d026fc730893": {
+      "query": "4·19 혁명과 5·18 민주화 운동은 어떤 사건이었나요",
+      "fingerprint": "20931bd54b0aa9caf7732daed6790c836c0c37f53d5cc775869885e3689d2cde",
+      "score": 1,
+      "reason": "4·19는 있으나 5·18은 제공 원문에 확인되지 않는다."
+    },
+    "new200/Q068/BCAST-7f901b53df38d9965ea4": {
+      "query": "어린이 인권 침해 사례인데 너무 자극적이지 않은 영상",
+      "fingerprint": "8f9ed8a7e21aa85b21cbeb5af91ead7761ccfe637051eafb7161194e6f2693a7",
+      "score": 1,
+      "reason": "아동학대 일상 사례지만 자극적이지 않음을 원문만으로 확정할 수 없다."
+    },
+    "new200/Q069/BCAST-23d8e9e0e8a878e04216": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "c97e85889d29583e3bcbd40acb1ef21f9ba8e90a65808329688af8058a9b0328",
+      "score": 2,
+      "reason": "도시 개발로 훼손된 청계천·안양천의 생태복원과 공존을 직접 다룬다."
+    },
+    "new200/Q069/BCAST-2995c7b8bd7257e023f9": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "45b82fe857882ff758e3167f6aa4d6be70bf428492a3236ece427acc4f62f3ff",
+      "score": 2,
+      "reason": "도시 녹지·친환경 건축과 식물의 환경 개선 효과를 공식 원문에서 확인했다."
+    },
+    "new200/Q097/BCAST-3496a184371ddcd83fbf": {
+      "query": "인권 침해 구제 방법과 실제 사례를 같이 담은 영상",
+      "fingerprint": "bdc5919b226863da80df3d4263dba2ba74b505b031f224b92237ccafbdf67c65",
+      "score": 0,
+      "reason": "자연의 법적 권리로 사람의 인권 침해·구제 사례가 아니다."
+    },
+    "previous170/D70-Q020/BCAST-96e893fd838fc3739cc4": {
+      "query": "자석 수업 도입에 아이들이 결과를 예상해 볼 관찰 자료가 필요해요",
+      "fingerprint": "85d65329b50db98f3546196ded6db6aa85ea1eb94c25dc818135e7f08aa66cbb",
+      "score": 2,
+      "reason": "자석에 붙는 물체 구분·관찰과 성질 탐구를 직접 다룬다."
+    },
+    "previous170/D70-Q037/BCAST-f2b7f0fc2d240440acee": {
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "fingerprint": "13ce21123afcb2355c724d87abd120d29af4da2c946226432c3d3b4f767219b5",
+      "score": 2,
+      "reason": "학교폭력·왕따와 관계·토론의 일상 인권 사례가 있다."
+    },
+    "previous170/D70-Q055/BCAST-15fd00a3f3bb3a86637d": {
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "fingerprint": "46d9a0406429917b2d170e6dd8fdc90bc7877d4e42b905f5cb926560bc992fa7",
+      "score": 2,
+      "reason": "곤충들의 먹고 먹히는 관계와 천적을 직접 다룬다."
+    },
+    "previous170/X100-Q026/BCAST-8cd727acb3725410151a": {
+      "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+      "fingerprint": "9b8a5b2919045c52a09e507f4c33bfc95924880ba9a0e27e28da44ce4909cd1e",
+      "score": 2,
+      "reason": "파종·새싹·열매와 씨앗을 다시 얻는 성장 순서를 공식 원문에 명시한다."
+    }
+  }
+}

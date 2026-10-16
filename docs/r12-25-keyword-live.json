@@ -1,0 +1,2371 @@
+{
+  "checkedAt": "2026-10-15T10:57:48.392Z",
+  "cases": [
+    {
+      "query": "어깨관절",
+      "total": 5,
+      "results": [
+        {
+          "id": "BCAST-b3d14344ddc6dbf9c26b",
+          "title": "어깨, 활짝 펴다 - 정형외과 전문의 이용걸 교수",
+          "keywords": [
+            {
+              "label": "질환",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 28,
+                "end": 30,
+                "quote": "질환",
+                "context": "정형외과 전문의 이용걸 교수를 통해 어깨관절 관련 질환에 대해 알아본다.",
+                "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3067710"
+              }
+            },
+            {
+              "label": "어깨관절",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 24,
+                "quote": "어깨관절",
+                "context": "정형외과 전문의 이용걸 교수를 통해 어깨관절 관련 질환에 대해 알아본다.",
+                "sourceUrl": "https://home.ebs.co.kr/bestdoctors/vodReplayView?pageNm=replay&siteCd=ME&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3067710"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-6bbcde39a016266ce5f5",
+          "title": "당신의 어깨는 건강하십니까? - 정형외과 박진영교수",
+          "keywords": [
+            {
+              "label": "수술",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 85,
+                "end": 87,
+                "quote": "수술",
+                "context": "사람이 직립보행을 하면서 쓰게된 팔에 이상이 생기면 무릎과는 달리 자연스럽게 나을 꺼라 여기지만 힘줄과 인대가 파열되고, 빨리 치료하지 않으면 인공관절 수술까지 해야하는 어깨관절 통증에 대하여 알아본다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3059936"
+              }
+            },
+            {
+              "label": "통증",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 100,
+                "end": 102,
+                "quote": "통증",
+                "context": "사람이 직립보행을 하면서 쓰게된 팔에 이상이 생기면 무릎과는 달리 자연스럽게 나을 꺼라 여기지만 힘줄과 인대가 파열되고, 빨리 치료하지 않으면 인공관절 수술까지 해야하는 어깨관절 통증에 대하여 알아본다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3059936"
+              }
+            },
+            {
+              "label": "어깨관절",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 95,
+                "end": 99,
+                "quote": "어깨관절",
+                "context": "사람이 직립보행을 하면서 쓰게된 팔에 이상이 생기면 무릎과는 달리 자연스럽게 나을 꺼라 여기지만 힘줄과 인대가 파열되고, 빨리 치료하지 않으면 인공관절 수술까지 해야하는 어깨관절 통증에 대하여 알아본다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3059936"
+              }
+            },
+            {
+              "label": "무릎",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 29,
+                "end": 31,
+                "quote": "무릎",
+                "context": "사람이 직립보행을 하면서 쓰게된 팔에 이상이 생기면 무릎과는 달리 자연스럽게 나을 꺼라 여기지만 힘줄과 인대가 파열되고, 빨리 치료하지 않으면 인공관절 수술까지 해야하는 어깨관절 통증에 대하여 알아본다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3059936"
+              }
+            },
+            {
+              "label": "인공관절",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 80,
+                "end": 84,
+                "quote": "인공관절",
+                "context": "사람이 직립보행을 하면서 쓰게된 팔에 이상이 생기면 무릎과는 달리 자연스럽게 나을 꺼라 여기지만 힘줄과 인대가 파열되고, 빨리 치료하지 않으면 인공관절 수술까지 해야하는 어깨관절 통증에 대하여 알아본다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=3059936"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-1867e88ec60b91146beb",
+          "title": "단위체조30-영웅체조",
+          "keywords": [
+            {
+              "label": "어깨",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 70,
+                "end": 72,
+                "quote": "어깨",
+                "context": "대상:치매예방,강정노동,스트레스해소,브레인,힐링 운동분류:스트레칭 효과:어깨관절 순환, 견갑골 스트레칭 부위:어깨, 견갑골,다리 동작:양손을 뻗고 옆으로 이동하며 크게 원을 그려 돌리기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10207940&stepId=20009662&lectId=20410239"
+              }
+            },
+            {
+              "label": "어깨관절",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 46,
+                "end": 50,
+                "quote": "어깨관절",
+                "context": "대상:치매예방,강정노동,스트레스해소,브레인,힐링 운동분류:스트레칭 효과:어깨관절 순환, 견갑골 스트레칭 부위:어깨, 견갑골,다리 동작:양손을 뻗고 옆으로 이동하며 크게 원을 그려 돌리기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10207940&stepId=20009662&lectId=20410239"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-740c833473ee5e6ca0f3",
+          "title": "단위체조29-누워서비틀기",
+          "keywords": [
+            {
+              "label": "어깨",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 70,
+                "end": 72,
+                "quote": "어깨",
+                "context": "대상:치매예방,강정노동,스트레스해소,브레인,힐링 운동분류:스트레칭 효과:어깨관절 순환, 견갑골 스트레칭 부위:어깨, 견갑골,다리 동작:양손을 뻗고 옆으로 이동하며 크게 원을 그려 돌리기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10207940&stepId=20009662&lectId=20410238"
+              }
+            },
+            {
+              "label": "어깨관절",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 46,
+                "end": 50,
+                "quote": "어깨관절",
+                "context": "대상:치매예방,강정노동,스트레스해소,브레인,힐링 운동분류:스트레칭 효과:어깨관절 순환, 견갑골 스트레칭 부위:어깨, 견갑골,다리 동작:양손을 뻗고 옆으로 이동하며 크게 원을 그려 돌리기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10207940&stepId=20009662&lectId=20410238"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-a106a809a502a9b5c2c3",
+          "title": "어깨·골반 통증을 잡아라",
+          "keywords": [
+            {
+              "label": "운동",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 58,
+                "end": 60,
+                "quote": "운동",
+                "context": "고관절은 무릎 관절에 이어 몸에서 두번째로 큰 관절이며 어깨관절에 이상이 올시에는 능동적, 수동적 관절 운동 제한을 보인다.",
+                "sourceUrl": "https://bestdoctors.ebs.co.kr/bestdoctors/vodReplayView?siteCd=ME&prodId=454&courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&lectId=10394582"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "무대감독",
+      "total": 2,
+      "results": [
+        {
+          "id": "BCAST-36812328a9ca2cec77c5",
+          "title": "무대감독(1부)",
+          "keywords": [
+            {
+              "label": "무대감독",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 17,
+                "end": 21,
+                "quote": "무대감독",
+                "context": "빛과 어둠의 경계에 선 사람들 무대감독의 이야기.",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3066000"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-5368ad8969d48ba0c409",
+          "title": "무대감독(2부)",
+          "keywords": [
+            {
+              "label": "공연",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 23,
+                "end": 25,
+                "quote": "공연",
+                "context": "소극장 공연을 하는 사람들의 힘든 현실과 작은 것에서 소소한 즐거움에서 행복을 느끼는 모습을 보여준다.",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3066084"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "장아찌",
+      "total": 9,
+      "results": [
+        {
+          "id": "BCAST-4d2c77ca8fbf0e0fde62",
+          "title": "윤혜신의 손쉽게 만드는 장아찌 (연근우엉간장장아찌&깻잎된장장아찌&반건조채소장아찌)",
+          "keywords": [
+            {
+              "label": "장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 11,
+                "quote": "장아찌",
+                "context": "손쉽게 만드는 장아찌 (연근우엉간장장아찌&깻잎된장장아찌&반건조채소장아찌)",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20161298"
+              }
+            },
+            {
+              "label": "연근우엉간장장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 13,
+                "end": 22,
+                "quote": "연근우엉간장장아찌",
+                "context": "손쉽게 만드는 장아찌 (연근우엉간장장아찌&깻잎된장장아찌&반건조채소장아찌)",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20161298"
+              }
+            },
+            {
+              "label": "깻잎된장장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 23,
+                "end": 30,
+                "quote": "깻잎된장장아찌",
+                "context": "손쉽게 만드는 장아찌 (연근우엉간장장아찌&깻잎된장장아찌&반건조채소장아찌)",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20161298"
+              }
+            },
+            {
+              "label": "반건조채소장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 31,
+                "end": 39,
+                "quote": "반건조채소장아찌",
+                "context": "손쉽게 만드는 장아찌 (연근우엉간장장아찌&깻잎된장장아찌&반건조채소장아찌)",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20161298"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-6df6a3e431f319ccc961",
+          "title": "임효숙의 소고기 우엉말이 조림과 총각무 장아찌",
+          "keywords": [
+            {
+              "label": "장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 17,
+                "end": 20,
+                "quote": "장아찌",
+                "context": "소고기 우엉말이 조림과 총각무 장아찌",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10981192"
+              }
+            },
+            {
+              "label": "소고기",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "소고기",
+                "context": "소고기 우엉말이 조림과 총각무 장아찌",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10981192"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-93dfb2bb74c41111b05e",
+          "title": "김영준의 달래육전×두릅 장아찌",
+          "keywords": [
+            {
+              "label": "장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 11,
+                "quote": "장아찌",
+                "context": "달래육전×두릅 장아찌",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=60041283"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-a457bb6a9b9f0f16da59",
+          "title": "이하연의 마늘 장아찌와 꼬막 회무침",
+          "keywords": [
+            {
+              "label": "장아찌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 3,
+                "end": 6,
+                "quote": "장아찌",
+                "context": "마늘 장아찌와 꼬막 회무침",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20107990"
+              }
+            },
+            {
+              "label": "마늘",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "마늘",
+                "context": "마늘 장아찌와 꼬막 회무침",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20107990"
+              }
+            },
+            {
+              "label": "꼬막",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "꼬막",
+                "context": "마늘 장아찌와 꼬막 회무침",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20107990"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-48073970e5ef8c5bb4da",
+          "title": "최진흔의 김치 소고기찜과 양파 장아찌",
+          "keywords": [
+            {
+              "label": "김치",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "김치",
+                "context": "김치 소고기찜과 양파 장아찌",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10893071"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-10f1d02ae966539a190a",
+          "title": "이혜정의 치즈 닭갈비와 양배추 장아찌",
+          "keywords": [
+            {
+              "label": "치즈",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "치즈",
+                "context": "치즈 닭갈비와 양배추 장아찌",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20066841"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-0fb4313cd1e0f046c43e",
+          "title": "새콤달콤 냉국기행 5부 청외를 아십니까?",
+          "keywords": [
+            {
+              "label": "가족",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 207,
+                "end": 209,
+                "quote": "가족",
+                "context": "온 가족이 똘똘 뭉친 귀향 농부 형두씨네 여름날을 따라가 본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60615446"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-625b08d986715d83f268",
+          "title": "차가운 것이 좋아 4부 여름 보약, 참외로세!",
+          "keywords": [
+            {
+              "label": "요리",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 233,
+                "end": 235,
+                "quote": "요리",
+                "context": "그곳의 또 한 가지 자랑, 이태리 며느리의 퓨전 요리!",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60495463"
+              }
+            },
+            {
+              "label": "과일",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 23,
+                "end": 25,
+                "quote": "과일",
+                "context": "더위로 지칠 때 보약보다 좋은 것이 제철 과일 참외!",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60495463"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-884f0a96be7c3a0baf03",
+          "title": "파키스탄, 겨울이 가나 봄 - 집 밖은 빙하 계곡",
+          "keywords": [
+            {
+              "label": "저울",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 84,
+                "end": 86,
+                "quote": "저울",
+                "context": "다마네코 전망대 - 멜로디 마켓의 ‘스트리트 푸드’ (라왈핀디) 라자바자 - 파키스탄식 채소튀김 ‘파코라’, 저울 - 3대를 이어온 장아찌 가게 (카라코람하이웨이) 카라코람하이웨이에서 만난 사람들, 풍경 - 뷰포인트 재글롯에서 국기 게양 (호퍼밸리) 빙하 마을, 빙하를 터전으로 살아가는 사람들",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057425&lectId=60589849"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "자유",
+      "total": 79,
+      "results": [
+        {
+          "id": "BCAST-45887e14858ddda9bbd4",
+          "title": "자유",
+          "keywords": [
+            {
+              "label": "자유",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 1,
+                "end": 3,
+                "quote": "자유",
+                "context": "“자유”를 마음껏 누리는 방법에 대해 생각해볼까?",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=BA0AA000000000009&stepId=01BA0AA000000000009&pageNumber=141&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-6b3b60609f84a91254e3",
+          "title": "자유를 찾아서",
+          "keywords": [
+            {
+              "label": "자유",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 22,
+                "end": 24,
+                "quote": "자유",
+                "context": "자유를 찾아서",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=10020373&stepId=10024179&pageNumber=6&orderby=NEW"
+              }
+            },
+            {
+              "label": "동물원",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 8,
+                "quote": "동물원",
+                "context": "쓰담쓰담 동물원 프렌쥬(시즌2) 10.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=10020373&stepId=10024179&pageNumber=6&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-e99c9eff870a037e4ace",
+          "title": "제18화 자유를 위하여",
+          "keywords": [
+            {
+              "label": "자유",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 59,
+                "end": 61,
+                "quote": "자유",
+                "context": "주제곡 : 로시니 네오월드 건설현장에 네오가 시찰을 나온다는 소문이 퍼지자 미래사람들은 자유를 위한 봉기를 준비하고, 리노스와 와와일행은 미래사람들의 해방을 위해 2083년으로 출발..",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax"
+              }
+            },
+            {
+              "label": "건설현장",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 25,
+                "end": 29,
+                "quote": "건설현장",
+                "context": "주제곡 : 로시니 네오월드 건설현장에 네오가 시찰을 나온다는 소문이 퍼지자 미래사람들은 자유를 위한 봉기를 준비하고, 리노스와 와와일행은 미래사람들의 해방을 위해 2083년으로 출발..",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-0cd9fa824f4dabb548bf",
+          "title": "비노드 아가왈 1 <자유 무역의 역사> 1강. 왜 국가는 무역을 하는가",
+          "keywords": [
+            {
+              "label": "강",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 212,
+                "end": 213,
+                "quote": "강",
+                "context": "이번 강의에서 비노드 아가왈 교수는 무역의 기본 이론인 ‘절대우위론’을 통해 자유 무역이 국가의 부를 키우는 원리를 자세히 설명한다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057800&lectId=60409302"
+              }
+            },
+            {
+              "label": "무역",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 23,
+                "end": 25,
+                "quote": "무역",
+                "context": "17세기만 하더라도 유럽의 국가들은 무역을 제로섬 게임(Zero-sum Game)이라 여겼다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057800&lectId=60409302"
+              }
+            },
+            {
+              "label": "생산",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 143,
+                "end": 145,
+                "quote": "생산",
+                "context": "그는 절대적 우위를 갖는 제품 생산을 특화해 다른 나라와 교환하면 부의 증대가 가능하다고 주장했다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057800&lectId=60409302"
+              }
+            },
+            {
+              "label": "유럽",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 14,
+                "end": 16,
+                "quote": "유럽",
+                "context": "17세기만 하더라도 유럽의 국가들은 무역을 제로섬 게임(Zero-sum Game)이라 여겼다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057800&lectId=60409302"
+              }
+            },
+            {
+              "label": "영국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 100,
+                "end": 102,
+                "quote": "영국",
+                "context": "하지만 영국의 경제학자 애덤 스미스의 생각은 달랐다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057800&lectId=60409302"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-0bd2bcd9236a9b8413c8",
+          "title": "비노드 아가왈 1 <자유 무역의 역사> 4강. 자유무역은 왜 비판받나",
+          "keywords": [
+            {
+              "label": "무역",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 49,
+                "end": 51,
+                "quote": "무역",
+                "context": "“오늘날의 시장 구조에서 자유 무역은 최선의 정책일까?”.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            },
+            {
+              "label": "산업",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 97,
+                "end": 99,
+                "quote": "산업",
+                "context": "그들이 이런 자문을 한 이유는 독점이나 과점 형태를 띠는 산업이 증가하면서 이들 기업이 가격을 조작해 폭리를 취하는 경우가 많아졌기 때문이다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            },
+            {
+              "label": "시장",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 38,
+                "end": 40,
+                "quote": "시장",
+                "context": "“오늘날의 시장 구조에서 자유 무역은 최선의 정책일까?”.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            },
+            {
+              "label": "구조",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 41,
+                "end": 43,
+                "quote": "구조",
+                "context": "“오늘날의 시장 구조에서 자유 무역은 최선의 정책일까?”.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            },
+            {
+              "label": "자원",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 202,
+                "end": 204,
+                "quote": "자원",
+                "context": "그뿐만 아니라 오늘날의 국제 무역이 자원(노동력, 자본) 이동의 어려움과 실업 증가, 소득 불평등의 원인이 된다는 목소리 또한 높은데 해결책은 없는 걸까?",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            },
+            {
+              "label": "불평등",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 233,
+                "end": 236,
+                "quote": "불평등",
+                "context": "그뿐만 아니라 오늘날의 국제 무역이 자원(노동력, 자본) 이동의 어려움과 실업 증가, 소득 불평등의 원인이 된다는 목소리 또한 높은데 해결책은 없는 걸까?",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413570"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-38323c1d9eed60727534",
+          "title": "비노드 아가왈 1 <자유 무역의 역사> 6강. 가트는 왜 생겨났나",
+          "keywords": [
+            {
+              "label": "무역",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 41,
+                "end": 43,
+                "quote": "무역",
+                "context": "산업혁명으로 상품 생산이 전문화, 분업화되면서 19세기 중반이 되면 자유 무역의 황금기가 시작된다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057641&lectId=60413565"
+              }
+            },
+            {
+              "label": "생산",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 10,
+                "end": 12,
+                "quote": "생산",
+                "context": "산업혁명으로 상품 생산이 전문화, 분업화되면서 19세기 중반이 되면 자유 무역의 황금기가 시작된다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057641&lectId=60413565"
+              }
+            },
+            {
+              "label": "미국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 60,
+                "end": 62,
+                "quote": "미국",
+                "context": "그러나 미국과 독일 같은 국가들은 여전히 수입을 제한하고 관세장벽을 강화하면서 전 세계의 무역 기조는 불과 30년 만에 보호 무역으로 급반전된다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057641&lectId=60413565"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-9a5827b3dd9a82a17bc2",
+          "title": "비노드 아가왈 1 <자유 무역의 역사> 7강. 가트의 원칙과 WTO의 탄생",
+          "keywords": [
+            {
+              "label": "무역",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 48,
+                "end": 50,
+                "quote": "무역",
+                "context": "제2차 세계대전 이후 체결된 가트(GATT)는 관세장벽과 수출입 제한을 철폐하고 국제 무역과 물자교류, 고용 확대를 목적으로 삼았다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057811&lectId=60413573"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-ed4cb1f552f9231c9382",
+          "title": "퀜틴 스키너 <마키아벨리 강독> 4강 로마사 논고: 자유를 지키는 방법",
+          "keywords": [
+            {
+              "label": "시민",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 27,
+                "end": 29,
+                "quote": "시민",
+                "context": "마키아벨리는 위대한 공화국을 유지하는 핵심으로 ‘시민의 자유 보장’을 꼽는다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057936&lectId=60564655"
+              }
+            },
+            {
+              "label": "철학",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 201,
+                "end": 203,
+                "quote": "철학",
+                "context": "마키아벨리의 철학이 로마 공화국에서 벌어진 정치적 사건과 함께 전개되어 시청자에게 더욱 흥미롭게 다가갈 것이다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057936&lectId=60564655"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-5b2cf2f2e102baa0cda5",
+          "title": "클라우스 피베크 <헤겔> 7강 법철학 (1) 자유와 정의를 위한 철학",
+          "keywords": [
+            {
+              "label": "법",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 80,
+                "end": 81,
+                "quote": "법",
+                "context": "인격, 도덕성, 윤리성으로 이어지는 자유의 발전 과정을 통해 헤겔이 법과 국가를 어떻게 ‘실현된 자유의 체계’로 이해했는지 설명한다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60669047"
+              }
+            },
+            {
+              "label": "구조",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 33,
+                "end": 35,
+                "quote": "구조",
+                "context": "7강은 헤겔의 에서 가장 중요한 주제인 ‘자유’의 구조를 다룬다.",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60023845&lectId=60669047"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "속담",
+      "total": 111,
+      "results": [
+        {
+          "id": "BCAST-d2c7095870aaab6b419f",
+          "title": "프로이트가 속담을 만났을 때",
+          "keywords": [
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "속담",
+                "context": "속담으로 심리학을 풀어 보다",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=77"
+              }
+            },
+            {
+              "label": "심리학",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 8,
+                "quote": "심리학",
+                "context": "속담으로 심리학을 풀어 보다",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=77"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-4865f8233ef5c87ea39d",
+          "title": "대결! 속담 이야기",
+          "keywords": [
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 125,
+                "end": 127,
+                "quote": "속담",
+                "context": "속담 이야기 속으로 빠져보자~!",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40051471&stepId=60055539&pageNumber=9&orderby=NEW"
+              }
+            },
+            {
+              "label": "외로움",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 104,
+                "end": 107,
+                "quote": "외로움",
+                "context": "딩동댕 요정들의 이야기와 함께라면 어두운 밤 외로움도 안녕!",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40051471&stepId=60055539&pageNumber=9&orderby=NEW"
+              }
+            },
+            {
+              "label": "동화",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 14,
+                "end": 16,
+                "quote": "동화",
+                "context": "딩동댕 요정들이 들려주는 동화 및 이야기 코너.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40051471&stepId=60055539&pageNumber=9&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-ae3432e6e4f749cb236c",
+          "title": "자막속담에 담긴 교훈",
+          "keywords": [
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "속담",
+                "context": "속담의 특성 알기, 여러 가지 속담 알기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10020502&stepId=10029833&lectId=10689910"
+              }
+            },
+            {
+              "label": "가지",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 18,
+                "end": 20,
+                "quote": "가지",
+                "context": "속담의 특성 알기, 여러 가지 속담 알기",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10020502&stepId=10029833&lectId=10689910"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-b9ca812904d099b5f972",
+          "title": "34화 O에 넣어도 아프지 않다",
+          "keywords": [
+            {
+              "label": "관용어",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "관용어",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=8&orderby=NEW"
+              }
+            },
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "속담",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=8&orderby=NEW"
+              }
+            },
+            {
+              "label": "그림",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 16,
+                "end": 18,
+                "quote": "그림",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=8&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-097a248f11ec8b67a851",
+          "title": "63화 허파에 OO 들다",
+          "keywords": [
+            {
+              "label": "관용어",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "관용어",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=5&orderby=NEW"
+              }
+            },
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "속담",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=5&orderby=NEW"
+              }
+            },
+            {
+              "label": "그림",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 16,
+                "end": 18,
+                "quote": "그림",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=5&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-3b46dd406c71a27f9c57",
+          "title": "15화 귀에 못이 박히다",
+          "keywords": [
+            {
+              "label": "관용어",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 25,
+                "end": 28,
+                "quote": "관용어",
+                "context": "15화 귀에 못이 박히다 빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax"
+              }
+            },
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 22,
+                "end": 24,
+                "quote": "속담",
+                "context": "15화 귀에 못이 박히다 빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax"
+              }
+            },
+            {
+              "label": "그림",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 30,
+                "end": 32,
+                "quote": "그림",
+                "context": "15화 귀에 못이 박히다 빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-1c52e8975a08c1088bca",
+          "title": "빨리빨리~",
+          "keywords": [
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "속담",
+                "context": "알라퐁의 성격급한 에피소드를 가지고 속담에 대해 알아본다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=BA0AA000000000009&stepId=01BA0AA000000000009&pageNumber=263&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-3dfa09fd609653d565b0",
+          "title": "40화 손에 O을 쥐다",
+          "keywords": [
+            {
+              "label": "관용어",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "관용어",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=7&orderby=NEW"
+              }
+            },
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "속담",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=7&orderby=NEW"
+              }
+            },
+            {
+              "label": "그림",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 16,
+                "end": 18,
+                "quote": "그림",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=7&orderby=NEW"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-51fe6c176a5c0efcdc10",
+          "title": "74화 말이 O가 된다",
+          "keywords": [
+            {
+              "label": "관용어",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "관용어",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=4&orderby=NEW"
+              }
+            },
+            {
+              "label": "속담",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "속담",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=4&orderby=NEW"
+              }
+            },
+            {
+              "label": "그림",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 16,
+                "end": 18,
+                "quote": "그림",
+                "context": "빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax?courseId=40046423&stepId=60049489&pageNumber=4&orderby=NEW"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "갯벌 생태계",
+      "total": 5,
+      "results": [
+        {
+          "id": "BCAST-3225002c08823553e9cf",
+          "title": "자막갯벌의 방랑자들",
+          "keywords": [
+            {
+              "label": "해안 지형",
+              "conceptId": "coast",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 34,
+                "end": 36,
+                "quote": "갯벌",
+                "context": "인간의 무분별한 개발로 인해 밀리고 밀려 공사장에서 서식하는 갯벌의 생명들",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10025338&stepId=60057285&lectId=60230117"
+              }
+            },
+            {
+              "label": "갯벌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 34,
+                "end": 36,
+                "quote": "갯벌",
+                "context": "인간의 무분별한 개발로 인해 밀리고 밀려 공사장에서 서식하는 갯벌의 생명들",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=10025338&stepId=60057285&lectId=60230117"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-1ec3e5b4c8845d1b5031",
+          "title": "강화갯벌이 살아있는 까닭",
+          "keywords": [
+            {
+              "label": "해안 지형",
+              "conceptId": "coast",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 7,
+                "quote": "갯벌",
+                "context": "강화 갯벌에 대해 알아본다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=11"
+              }
+            },
+            {
+              "label": "갯벌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 7,
+                "quote": "갯벌",
+                "context": "강화 갯벌에 대해 알아본다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=11"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "keywords": [
+            {
+              "label": "생태계",
+              "conceptId": "ecosystem",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 100,
+                "end": 103,
+                "quote": "생태계",
+                "context": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            },
+            {
+              "label": "해안 지형",
+              "conceptId": "coast",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 97,
+                "end": 99,
+                "quote": "갯벌",
+                "context": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            },
+            {
+              "label": "갯벌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 97,
+                "end": 99,
+                "quote": "갯벌",
+                "context": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            },
+            {
+              "label": "농사",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 65,
+                "end": 67,
+                "quote": "농사",
+                "context": "홀통 해변에서는 전통 고기잡이 방식인 덤벙으로 물고기를 잡는 어부 부부와 비옥한 황토밭에서 고구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            },
+            {
+              "label": "전통",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 19,
+                "end": 21,
+                "quote": "전통",
+                "context": "홀통 해변에서는 전통 고기잡이 방식인 덤벙으로 물고기를 잡는 어부 부부와 비옥한 황토밭에서 고구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            },
+            {
+              "label": "굴",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 144,
+                "end": 145,
+                "quote": "굴",
+                "context": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-476930fd6c046ab2c55c",
+          "title": "유부도 겨울철새 이야기",
+          "keywords": [
+            {
+              "label": "생태계",
+              "conceptId": "ecosystem",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 237,
+                "end": 240,
+                "quote": "생태계",
+                "context": "검은머리물떼새가 유부도를 찾아오는 이유는 생태계의 보물창고라고 불리는 드넓은 갯벌이 있기 때문이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "에너지",
+              "conceptId": "energy",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 963,
+                "end": 966,
+                "quote": "에너지",
+                "context": "짧은 거리를 이동할 때에는 접고 있던 한 발을 펴지 않고 한 발만 이용해 이동을 하는데 이는 에너지를 줄이기 위해서다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "바다",
+              "conceptId": "ocean",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1545,
+                "end": 1547,
+                "quote": "바다",
+                "context": "수많은 바다 생명들과 갯벌을 사라지게 만들었던 새만금 방조제의 영향이 유부도의 갯벌에도 다가온 것이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "해안 지형",
+              "conceptId": "coast",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 257,
+                "end": 259,
+                "quote": "갯벌",
+                "context": "검은머리물떼새가 유부도를 찾아오는 이유는 생태계의 보물창고라고 불리는 드넓은 갯벌이 있기 때문이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "갯벌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 257,
+                "end": 259,
+                "quote": "갯벌",
+                "context": "검은머리물떼새가 유부도를 찾아오는 이유는 생태계의 보물창고라고 불리는 드넓은 갯벌이 있기 때문이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "습지",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1347,
+                "end": 1349,
+                "quote": "습지",
+                "context": "뿐만 아니라 한때는 염전이었던 곳은 습지가 되어 붉은머리오목눈이, 노랑턱멧새, 바다직박구리 등 텃새들까지도 품어내는 새들의 낙원이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "새만금",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1567,
+                "end": 1570,
+                "quote": "새만금",
+                "context": "수많은 바다 생명들과 갯벌을 사라지게 만들었던 새만금 방조제의 영향이 유부도의 갯벌에도 다가온 것이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            },
+            {
+              "label": "러시아",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 719,
+                "end": 722,
+                "quote": "러시아",
+                "context": "약 11종의 검은머리물떼새 중 동북아종은 겨울이 되면 러시아 캄차카 반도에서 한반도로 이동해 겨울을 난다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000024390",
+                "supplementId": "7956f124d3f8fe5729d9e195",
+                "contentHash": "a51d9f1269b62f28b65b34fc13704e1b2d19f7f9bdcdcc5eafc860ea7eb48558"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-17b49b656eeabd655058",
+          "title": "자막최후의 진객 점박이 물범은 살아있다",
+          "keywords": [
+            {
+              "label": "물",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 109,
+                "end": 110,
+                "quote": "물",
+                "context": "이것이 야생이다3 : 3%의 세상최후의 진객 점박이물범은 살아있다 서해바다의 귀한 손님,점박이물범을 찾아 물속으로 뛰어든 최수종 - 매년 봄, 백령도와 가로림만을 찾아오는 귀한 손님 점박이물범- 물 공포증 이겨내고 스킨스쿠버 다이빙에 도전한 최수종- 다양한 생물의 쉼터이자 야생동물의 안식처 백령도 - 방송일시 : 2022년 8월 11일(목) 밤 9시 50분, EBS1 한반도를 지켜왔던 범과 사자예로부터 한반도의 바다는 범과 사자가 지켜왔다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "생태계",
+              "conceptId": "ecosystem",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1428,
+                "end": 1431,
+                "quote": "생태계",
+                "context": "매년 10여 마리의 점박이물범이 잊지 않고 찾아온다는 것은 가로림만의 먹이사슬 생태계가 탄탄하다는 증거다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "야생동물",
+              "conceptId": "wildlife",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 153,
+                "end": 157,
+                "quote": "야생동물",
+                "context": "이것이 야생이다3 : 3%의 세상최후의 진객 점박이물범은 살아있다 서해바다의 귀한 손님,점박이물범을 찾아 물속으로 뛰어든 최수종 - 매년 봄, 백령도와 가로림만을 찾아오는 귀한 손님 점박이물범- 물 공포증 이겨내고 스킨스쿠버 다이빙에 도전한 최수종- 다양한 생물의 쉼터이자 야생동물의 안식처 백령도 - 방송일시 : 2022년 8월 11일(목) 밤 9시 50분, EBS1 한반도를 지켜왔던 범과 사자예로부터 한반도의 바다는 범과 사자가 지켜왔다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "바다",
+              "conceptId": "ocean",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 232,
+                "end": 234,
+                "quote": "바다",
+                "context": "이것이 야생이다3 : 3%의 세상최후의 진객 점박이물범은 살아있다 서해바다의 귀한 손님,점박이물범을 찾아 물속으로 뛰어든 최수종 - 매년 봄, 백령도와 가로림만을 찾아오는 귀한 손님 점박이물범- 물 공포증 이겨내고 스킨스쿠버 다이빙에 도전한 최수종- 다양한 생물의 쉼터이자 야생동물의 안식처 백령도 - 방송일시 : 2022년 8월 11일(목) 밤 9시 50분, EBS1 한반도를 지켜왔던 범과 사자예로부터 한반도의 바다는 범과 사자가 지켜왔다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "해안 지형",
+              "conceptId": "coast",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1371,
+                "end": 1373,
+                "quote": "갯벌",
+                "context": "물범을 찾아가는 길에 흰발농게, 붉은발농게, 방게 등 다양한 갯벌 친구들을 만난다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "썰물",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1062,
+                "end": 1064,
+                "quote": "썰물",
+                "context": "썰물 때 바위가 드러나야 물범이 올라오기 때문이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "갯벌",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1371,
+                "end": 1373,
+                "quote": "갯벌",
+                "context": "물범을 찾아가는 길에 흰발농게, 붉은발농게, 방게 등 다양한 갯벌 친구들을 만난다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "생물",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 144,
+                "end": 146,
+                "quote": "생물",
+                "context": "이것이 야생이다3 : 3%의 세상최후의 진객 점박이물범은 살아있다 서해바다의 귀한 손님,점박이물범을 찾아 물속으로 뛰어든 최수종 - 매년 봄, 백령도와 가로림만을 찾아오는 귀한 손님 점박이물범- 물 공포증 이겨내고 스킨스쿠버 다이빙에 도전한 최수종- 다양한 생물의 쉼터이자 야생동물의 안식처 백령도 - 방송일시 : 2022년 8월 11일(목) 밤 9시 50분, EBS1 한반도를 지켜왔던 범과 사자예로부터 한반도의 바다는 범과 사자가 지켜왔다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "열",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 589,
+                "end": 590,
+                "quote": "열",
+                "context": "생명의 쉼터, 백령도인천항에서 228km 북한 땅과는 17km, 남한 본토보다 북한 본토가 열 세배 이상 가까운 백령도는 뱃길만 4시간 걸리는 외딴 섬이다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "먹이사슬",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1423,
+                "end": 1427,
+                "quote": "먹이사슬",
+                "context": "매년 10여 마리의 점박이물범이 잊지 않고 찾아온다는 것은 가로림만의 먹이사슬 생태계가 탄탄하다는 증거다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "습지",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 829,
+                "end": 831,
+                "quote": "습지",
+                "context": "바다로 둘러싸인 섬이지만 농경지와 저수지, 습지까지 있어 점박이물범을 비롯한 야생동물에게 최고의 쉼터가 되는 낯설고 아름다운 섬, 백령도를 만나본다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "교육",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 1171,
+                "end": 1173,
+                "quote": "교육",
+                "context": "물범을 만나기 전 스킨스쿠버 다이빙 교육까지 수료한 최수종, 거센 조류와 탁한 시야 속에서 과연 점박이물범을 만날 수 있을까?",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "일본",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 371,
+                "end": 373,
+                "quote": "일본",
+                "context": "일제강점기에 마구잡이로 포획되어 멸종된 독도 바다사자 강치는 이제 일본 땅에서 박제로만 확인할 수 있다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            },
+            {
+              "label": "중국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "sourceSupplement",
+                "start": 778,
+                "end": 780,
+                "quote": "중국",
+                "context": "매년 봄 우리바다를 찾아오는 점박이물범은 11월 경 번식지인 중국 랴오둥만으로 이동해 그곳에서 출산을 한다.",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001359079",
+                "supplementId": "b81e0ec85c2764c433343ab8",
+                "contentHash": "f3c35ea847a50575d777ed0d620604c5b9cb5f817d1edee099c9d982ffd831ec"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "과거 서울의 모습",
+      "total": 7,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "keywords": [
+            {
+              "label": "서울",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 22,
+                "end": 24,
+                "quote": "서울",
+                "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+              }
+            },
+            {
+              "label": "역사",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 13,
+                "quote": "역사",
+                "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+              }
+            },
+            {
+              "label": "도시",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 18,
+                "end": 20,
+                "quote": "도시",
+                "context": "2,000년 도읍의 역사를 지닌 도시, 서울.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60226168"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "keywords": [
+            {
+              "label": "환경",
+              "conceptId": "environment",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 6,
+                "end": 9,
+                "quote": "재활용",
+                "context": "빈집의 재활용.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6"
+              }
+            },
+            {
+              "label": "재활용",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 6,
+                "end": 9,
+                "quote": "재활용",
+                "context": "빈집의 재활용.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "keywords": [
+            {
+              "label": "역사",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 254,
+                "end": 256,
+                "quote": "역사",
+                "context": "대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다.",
+                "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+              }
+            },
+            {
+              "label": "대한민국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 151,
+                "end": 155,
+                "quote": "대한민국",
+                "context": "대한민국 IT산업의 성공 신화를 만들어 내기도 했던 이곳은 고층빌딩 등이 늘어서 강남에서도 가장 현대적인 경관을 가지고 있지만 살짝만 비켜나가면 천년고찰 봉은사, 선정릉 등 가장 오랜 역사의 숨결을 느낄 수 있는 곳이기도 하다.",
+                "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+              }
+            },
+            {
+              "label": "서울",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "서울",
+                "context": "서울의 지하철 2호선 강남역에서 삼성역에 이르는 약 4㎞의 거리가 테헤란로(路)이다.",
+                "sourceUrl": "https://worldtrip.ebs.co.kr/worldtrip/replayView?siteCd=KH&prodId=441153&courseId=40046448&stepId=60049532&lectId=60554231"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "keywords": [
+            {
+              "label": "대한민국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 67,
+                "end": 71,
+                "quote": "대한민국",
+                "context": "1963년 이전까지 경기 광주군에 속하는 전형적인 농촌이었던 강남이 대한민국의 심장이 된 것은 한강이 있었기 때문.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+              }
+            },
+            {
+              "label": "서울",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 101,
+                "end": 103,
+                "quote": "서울",
+                "context": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+              }
+            },
+            {
+              "label": "채소",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 105,
+                "end": 107,
+                "quote": "채소",
+                "context": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60553335"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "keywords": [
+            {
+              "label": "도시",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 38,
+                "end": 40,
+                "quote": "도시",
+                "context": "지금 우리에게 필요한 도시는?",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385815"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "keywords": [
+            {
+              "label": "소설",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 36,
+                "end": 38,
+                "quote": "소설",
+                "context": "독립을 향한 거대한 야망을 품진 않았지만 기어이 우리글로 소설가는 경성을 묘사하기로 마음먹는다",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20224953"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "keywords": [
+            {
+              "label": "역사",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 29,
+                "end": 31,
+                "quote": "역사",
+                "context": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10407448"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "지식채널e 인권 관련 편",
+      "total": 27,
+      "results": [
+        {
+          "id": "BCAST-7c5470496fdc6b9adbb1",
+          "title": "먼지 같은 차별도 있습니다",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 79,
+                "end": 81,
+                "quote": "차별",
+                "context": "분명 상대를 비하하려는 의도는 아니었지만, 일상생활에서 자주 발견되는 '미세한 차별' '미세한 차별'은 2015년 옥스퍼드 사전에 등재될 정도다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20354609"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 79,
+                "end": 81,
+                "quote": "차별",
+                "context": "분명 상대를 비하하려는 의도는 아니었지만, 일상생활에서 자주 발견되는 '미세한 차별' '미세한 차별'은 2015년 옥스퍼드 사전에 등재될 정도다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20354609"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-7237e22384453e542437",
+          "title": "모두의 차별",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 76,
+                "end": 78,
+                "quote": "차별",
+                "context": "모든 사람은 바라보는 기준에 따라 사회의 주류로 특권을 누리기도, 소수자로 차별을 받기도 한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20404586"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 76,
+                "end": 78,
+                "quote": "차별",
+                "context": "모든 사람은 바라보는 기준에 따라 사회의 주류로 특권을 누리기도, 소수자로 차별을 받기도 한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20404586"
+              }
+            },
+            {
+              "label": "장애인",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 26,
+                "end": 29,
+                "quote": "장애인",
+                "context": "대기업 회사원 성 소수자 김씨, 고학력자 중증 장애인 이씨.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20404586"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "keywords": [
+            {
+              "label": "지방의회",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 96,
+                "end": 100,
+                "quote": "지방의회",
+                "context": "조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "조례",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 26,
+                "end": 28,
+                "quote": "조례",
+                "context": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "차별",
+                "context": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "차별",
+                "context": "2023년 5월, 뉴욕에서도 특별한 차별 금지 조례가 제정되었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "법률",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 137,
+                "end": 139,
+                "quote": "법률",
+                "context": "국민을 대상으로 한 헌법이나 법률과는 달리, 각 지역의 특성을 고려해 지역 현안을 해결하기 때문에 우리의 삶과 맞닿아 있다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "시민",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 201,
+                "end": 203,
+                "quote": "시민",
+                "context": "약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "심리",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 259,
+                "end": 261,
+                "quote": "심리",
+                "context": "약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "가족",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 213,
+                "end": 215,
+                "quote": "가족",
+                "context": "약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "청소년",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 240,
+                "end": 243,
+                "quote": "청소년",
+                "context": "약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            },
+            {
+              "label": "서울",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 198,
+                "end": 200,
+                "quote": "서울",
+                "context": "약 936만 서울 시민의 곁에서 다자녀 가족과 치매 환자를 지원하고, 아이돌 연습생 등 청소년 문화예술인 전체를 대상으로 심리와 진로 상담도 지원하는 서울특별시의회 조례.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-cdd947c3da286f72854a",
+          "title": "당신의 튜브 3부- 새로운 노동자의 탄생",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 110,
+                "end": 112,
+                "quote": "인권",
+                "context": "'좋아요' 앞에서 흔들리는 인권, 동물권.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20308720"
+              }
+            },
+            {
+              "label": "동물",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 32,
+                "end": 34,
+                "quote": "동물",
+                "context": "그 안에 속해 있는 아이와 동물.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20308720"
+              }
+            },
+            {
+              "label": "아이",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 28,
+                "end": 30,
+                "quote": "아이",
+                "context": "그 안에 속해 있는 아이와 동물.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20308720"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-616ff468b33c8a32c3e3",
+          "title": "[공고에서 만나] 1부 수업을 시작하겠습니다",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 4,
+                "end": 6,
+                "quote": "차별",
+                "context": "세상의 차별과 편견에 정면으로 맞서며, 아이들이 ‘바른 사회인’으로 성장할 수 있도록 든든한 어른의 역할을 해내고 있는 지한구 교사의 이야기를 조명한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 4,
+                "end": 6,
+                "quote": "차별",
+                "context": "세상의 차별과 편견에 정면으로 맞서며, 아이들이 ‘바른 사회인’으로 성장할 수 있도록 든든한 어른의 역할을 해내고 있는 지한구 교사의 이야기를 조명한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+              }
+            },
+            {
+              "label": "편견",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 8,
+                "end": 10,
+                "quote": "편견",
+                "context": "세상의 차별과 편견에 정면으로 맞서며, 아이들이 ‘바른 사회인’으로 성장할 수 있도록 든든한 어른의 역할을 해내고 있는 지한구 교사의 이야기를 조명한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+              }
+            },
+            {
+              "label": "아이",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 22,
+                "end": 24,
+                "quote": "아이",
+                "context": "세상의 차별과 편견에 정면으로 맞서며, 아이들이 ‘바른 사회인’으로 성장할 수 있도록 든든한 어른의 역할을 해내고 있는 지한구 교사의 이야기를 조명한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+              }
+            },
+            {
+              "label": "교육",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 98,
+                "end": 100,
+                "quote": "교육",
+                "context": "그가 보여주는 진정한 교육의 가치와 아이들을 바라보는 따뜻한 시선이, 우리 곁을 다시 돌아보게 하는 뜻깊은 시간으로 이어질 수 있기를 기대한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60685814"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-2cb5aefa24dfb761f5eb",
+          "title": "[코로나 단상] A or B",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 122,
+                "end": 124,
+                "quote": "인권",
+                "context": "사생활 침해로 무너진 개인의 인권.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20283582"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-edfc32a86931652c5042",
+          "title": "90%의 스트라디바리우스",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 46,
+                "end": 48,
+                "quote": "차별",
+                "context": "그는 일제강점기에 일본으로 건너가 수많은 역경과 차별을 겪었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20332442"
+              }
+            },
+            {
+              "label": "소리",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 113,
+                "end": 115,
+                "quote": "소리",
+                "context": "아름다운 소리를 만들기 위해 자연의 감각을 느끼고 심지어 혀로 맛을 보는 등 엄청난 노력으로 마스터 메이커의 영예를 얻었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20332442"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 46,
+                "end": 48,
+                "quote": "차별",
+                "context": "그는 일제강점기에 일본으로 건너가 수많은 역경과 차별을 겪었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20332442"
+              }
+            },
+            {
+              "label": "일본",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 29,
+                "end": 31,
+                "quote": "일본",
+                "context": "그는 일제강점기에 일본으로 건너가 수많은 역경과 차별을 겪었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20332442"
+              }
+            },
+            {
+              "label": "자연",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 124,
+                "end": 126,
+                "quote": "자연",
+                "context": "아름다운 소리를 만들기 위해 자연의 감각을 느끼고 심지어 혀로 맛을 보는 등 엄청난 노력으로 마스터 메이커의 영예를 얻었다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20332442"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-c78d46de7089eb81e418",
+          "title": "나는 당신이고 당신은 나입니다",
+          "keywords": [
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 42,
+                "end": 44,
+                "quote": "차별",
+                "context": "다른 종교와 인종을 향한 차별로 시작된 끔찍한 참사에 대해 뉴질랜드 시민들은 춤으로 추모와 연대의 메시지를 전한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60293722"
+              }
+            },
+            {
+              "label": "차별",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 42,
+                "end": 44,
+                "quote": "차별",
+                "context": "다른 종교와 인종을 향한 차별로 시작된 끔찍한 참사에 대해 뉴질랜드 시민들은 춤으로 추모와 연대의 메시지를 전한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60293722"
+              }
+            },
+            {
+              "label": "시민",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 66,
+                "end": 68,
+                "quote": "시민",
+                "context": "다른 종교와 인종을 향한 차별로 시작된 끔찍한 참사에 대해 뉴질랜드 시민들은 춤으로 추모와 연대의 메시지를 전한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60293722"
+              }
+            },
+            {
+              "label": "종교",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 31,
+                "end": 33,
+                "quote": "종교",
+                "context": "다른 종교와 인종을 향한 차별로 시작된 끔찍한 참사에 대해 뉴질랜드 시민들은 춤으로 추모와 연대의 메시지를 전한다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60293722"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BCAST-05400ae95244b19750b8",
+          "title": "다이아몬드, 왕좌의 게임",
+          "keywords": [
+            {
+              "label": "환경",
+              "conceptId": "environment",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 243,
+                "end": 245,
+                "quote": "환경",
+                "context": "많은 탄소 배출로 환경이 파괴되고, 노동자 인권 문제도 언제나 제기된다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60286694"
+              }
+            },
+            {
+              "label": "인권",
+              "conceptId": "rights",
+              "kind": "REGISTERED_CONCEPT",
+              "evidence": {
+                "field": "summary",
+                "start": 257,
+                "end": 259,
+                "quote": "인권",
+                "context": "많은 탄소 배출로 환경이 파괴되고, 노동자 인권 문제도 언제나 제기된다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60286694"
+              }
+            },
+            {
+              "label": "노동자",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 253,
+                "end": 256,
+                "quote": "노동자",
+                "context": "많은 탄소 배출로 환경이 파괴되고, 노동자 인권 문제도 언제나 제기된다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60286694"
+              }
+            },
+            {
+              "label": "영국",
+              "kind": "SOURCE_KEYWORD",
+              "evidence": {
+                "field": "summary",
+                "start": 161,
+                "end": 163,
+                "quote": "영국",
+                "context": "이는 영국의 식민지 시절 빼앗긴 블러드 다이아몬드라는 것이다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60286694"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

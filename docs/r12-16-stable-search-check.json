@@ -1,0 +1,73 @@
+{
+  "passed": 4,
+  "cases": [
+    "폴더 독 제거·브랜드 유지",
+    "검색 6폭·3/2/compact열·가로 넘침0",
+    "카드·목록 보기·닫기·다시 검색",
+    "담기 팝업 폴더 선택·저장·되돌리기·메모 보존"
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "columns": "442.656px 442.672px 442.656px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 736,
+        "textWidth": 455.0995788574219
+      }
+    },
+    {
+      "width": 1280,
+      "scroll": 1280,
+      "columns": "389.328px 389.328px 389.344px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 736,
+        "textWidth": 455.0995788574219
+      }
+    },
+    {
+      "width": 1000,
+      "scroll": 1000,
+      "columns": "456px 456px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 736,
+        "textWidth": 455.0995788574219
+      }
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "columns": "340px 340px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 504,
+        "textWidth": 455.0995788574219
+      }
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "columns": "326px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 158,
+        "textWidth": 455.0995788574219
+      }
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "columns": "296px",
+      "background": "rgb(251, 247, 239)",
+      "guide": {
+        "width": 141,
+        "textWidth": 455.0995788574219
+      }
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

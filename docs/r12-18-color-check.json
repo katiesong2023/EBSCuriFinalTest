@@ -1,0 +1,117 @@
+{
+  "passed": 14,
+  "checks": [
+    {
+      "name": "본문/크림",
+      "foreground": "#1A1A1A",
+      "background": "#FBF7EF",
+      "ratio": 16.29,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "설명/크림",
+      "foreground": "#5C5961",
+      "background": "#FBF7EF",
+      "ratio": 6.43,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "주요 버튼",
+      "foreground": "#1A1A1A",
+      "background": "#FF9660",
+      "ratio": 8.11,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "hover",
+      "foreground": "#1A1A1A",
+      "background": "#FFAE85",
+      "ratio": 9.65,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "라일락",
+      "foreground": "#1A1A1A",
+      "background": "#C5B5FA",
+      "ratio": 9.42,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "연두",
+      "foreground": "#1A1A1A",
+      "background": "#BFE06C",
+      "ratio": 11.68,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "블루",
+      "foreground": "#1A1A1A",
+      "background": "#A8BBFF",
+      "ratio": 9.3,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "선택 텍스트",
+      "foreground": "#1A1A1A",
+      "background": "#E9E0FF",
+      "ratio": 13.73,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "선택 링/크림",
+      "foreground": "#6438B6",
+      "background": "#FBF7EF",
+      "ratio": 7.06,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "선택 링/선택면",
+      "foreground": "#6438B6",
+      "background": "#E9E0FF",
+      "ratio": 5.95,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "선택 링/폴더",
+      "foreground": "#6438B6",
+      "background": "#FFBE96",
+      "ratio": 4.69,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "입력경계",
+      "foreground": "#85796C",
+      "background": "#FFFFFF",
+      "ratio": 4.24,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "짙은 강조",
+      "foreground": "#63351F",
+      "background": "#FBF7EF",
+      "ratio": 9.54,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "폴더 설명",
+      "foreground": "#5C5961",
+      "background": "#FFD0AF",
+      "ratio": 4.87,
+      "target": 4.5,
+      "passed": true
+    }
+  ]
+}

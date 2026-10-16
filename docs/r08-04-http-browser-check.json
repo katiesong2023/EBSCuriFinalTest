@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-05T00:23:32.041Z",
+  "cases": [
+    {
+      "name": "관계 조회·결정·검색 재시도 인증/Origin 및 실제 확인 없는 승인 차단",
+      "passed": true
+    },
+    {
+      "name": "기존 검수 직접 주소→로그인→동일 원문/관계 작업공간·실명 오표시 없음",
+      "passed": true
+    },
+    {
+      "name": "입력 중 단축키 무동작·미저장 이탈 취소·선택 관계 저장 단축키",
+      "passed": true
+    },
+    {
+      "name": "응답 유실·동일 요청 재확인·중복 클릭은 새 결정/자산 없음",
+      "passed": true
+    },
+    {
+      "name": "형제 관계 승인·한 관계 보류·제외·자동 재검사 후 재공개 차단",
+      "passed": true
+    },
+    {
+      "name": "검색 준비 실패는 결정/자산 성공과 분리·재시도에 새 승인 없음",
+      "passed": true
+    },
+    {
+      "name": "동시 탭의 과거 결정·원문 변경 화면 거절과 주제/사람 필터 무효화",
+      "passed": true
+    },
+    {
+      "name": "방송 원문 가져오기·보강 후에도 판본과 실제 제외 우선순위 보존",
+      "passed": true
+    },
+    {
+      "name": "현재 원문/이전 판단 비교·390px·다음 이동·원래 승인4/교사 폴더 보존",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "479de8b68137a26ba18ffa40023c76cd4b41861971de983aa44497cd5bd2287e"
+  },
+  "fixture": "임시 JSON/방송/자동 DB, 합성 사람 입력·고정 시험 임베딩. 실제 사람 평가/원본 변경/유료 호출 없음",
+  "paidApiCalls": 0
+}

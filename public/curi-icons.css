@@ -1,0 +1,49 @@
+/* 줄인 폴더 이미지 너비를 유지하며 선택 영역과 삭제 버튼도 함께 맞춘다. */
+/* 기존5/4/2열에서 줄인 폴더 너비를 유지하며 빈 열 여백을 없앤다. */
+.library-folder-group {grid-template-columns:repeat(auto-fill,calc(10% - .4px));gap:12px}
+#folder-list .folder-card {width:100%}
+@media(max-width:1279px) {.library-folder-group {grid-template-columns:repeat(auto-fill,12.5%)}}
+@media(max-width:767px) {.library-folder-group {grid-template-columns:repeat(auto-fill,calc(25% + 2px))}}
+/* 안쪽 선택 링과 여백으로 스크롤 경계에서도 표시가 잘리지 않게 한다. */
+#folder-list .folder-select {border-radius:12px;outline-offset:-4px;isolation:isolate}
+#folder-list .folder-select[aria-pressed=true] {box-shadow:inset 0 0 0 2px var(--curi-selection);background:var(--curi-selectionSoft)}
+#folder-list .folder-select>span:last-child {padding:6px}
+.folder-art,.folder-select[aria-pressed=true] .folder-art {width:100%;background:transparent;border:0;border-radius:0;isolation:isolate;margin:4px 0 8px}
+.folder-art::before {content:'';position:absolute;inset:0;width:auto;height:auto;border-radius:0;background:var(--folder-label,var(--curi-folder));mask:url('brand/folder-shape.svg') center/100% 100% no-repeat;z-index:-2}
+/* 앞·뒷면을 같은 좌표계로 그려 하단 곡률과 끝선을 일치시킨다. */
+.folder-art::after {content:'';position:absolute;inset:0;border-radius:0;background:color-mix(in srgb,var(--folder-label,var(--curi-folder)) 78%,white);mask:url('brand/folder-front.svg') center/100% 100% no-repeat;box-shadow:none;z-index:0}
+.folder-art img {top:23%;height:62%;z-index:-1}
+.folder-empty-label {inset:45% 8px 8px;color:var(--curi-muted)}
+.folder-delete {top:22px;right:10px}
+/* 확장 폴더도 같은 실루엣을 사용하며 탭을 버튼 경계 안에 넣는다. */
+#folder-cards {padding:4px;gap:12px 8px}
+#folder-cards .mini-folder {background:transparent;border:0;border-radius:10px;padding:32px 10px 12px;isolation:isolate;outline-offset:-4px}
+#folder-cards .mini-folder::before {content:'';position:absolute;inset:0;width:auto;height:auto;border-radius:0;background:var(--folder-label,var(--curi-folder));mask:url('brand/folder-shape.svg') center/100% 100% no-repeat;z-index:-2}
+#folder-cards .mini-folder::after {content:'';position:absolute;inset:30% 1% 2%;background:color-mix(in srgb,var(--folder-label,var(--curi-folder)) 78%,white);border-radius:4px 4px 8px 8px;z-index:-1}
+#folder-cards .mini-folder[aria-pressed=true] {box-shadow:inset 0 0 0 2px var(--curi-selection);color:var(--curi-ink)}
+#folder-cards .mini-folder[aria-pressed=true]::after {background:color-mix(in srgb,var(--folder-label,var(--curi-folder)) 62%,white)}
+/* 파일은 폴더 탭 대신 오른쪽 위 접힌 모서리를 가진 종이 형태다. */
+.scene-poster,.small-poster,.scene-note-card .scene-note,.scene-empty-card .scene-empty {
+  border-radius:4px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%);
+}
+.scene-poster::before,.small-poster::before {content:'';position:absolute;right:0;top:0;width:16px;height:16px;background:var(--curi-lilac);clip-path:polygon(0 0,0 100%,100% 100%);z-index:2}
+.small-poster img {border-radius:0}
+.scene-number,.scene-tab {border-radius:3px 3px 0 0}
+.saved-segments {padding:8px 4px 16px;scroll-padding-inline:4px}
+.segment-card {border-radius:6px;outline-offset:-2px}
+.segment-card:focus-within {box-shadow:inset 0 0 0 2px var(--curi-selection)}
+/* 선택/포커스 라인은 폴더 앞면 안쪽에 두어 상단 휴지통과 분리한다. */
+#folder-cards .mini-folder[aria-pressed=true],#folder-cards .mini-folder:focus-visible {outline:none;box-shadow:none}
+#folder-cards .mini-folder[aria-pressed=true]::after,#folder-cards .mini-folder:focus-visible::after {outline:2px solid var(--curi-selection);outline-offset:-2px}
+/* 미리보기의 장면 번호는 파일 모양 안쪽에 두어 접힘 마스크에 잘리지 않는다. */
+.small-poster .scene-tab {top:0;left:0;z-index:3}
+
+/* 확장 폴더 앞면은 아래 모서리를 축으로 살짝 열린다. */
+#folder-cards .mini-folder::after {transform-origin:center bottom;transition:transform 180ms var(--curi-ease,ease),box-shadow 180ms var(--curi-ease,ease)}
+@media (hover:hover) {
+  #folder-cards .mini-folder:hover:not(:disabled)::after {transform:perspective(320px) rotateX(-20deg);box-shadow:0 -2px 5px #0000000c}
+}
+#folder-cards .mini-folder:focus-visible:not(:disabled)::after {transform:perspective(320px) rotateX(-20deg);box-shadow:0 -2px 5px #0000000c}
+@media (prefers-reduced-motion:reduce) {
+  #folder-cards .mini-folder::after {transition:none!important;transform:none!important}
+}

@@ -1,0 +1,37 @@
+{
+  "resourceId": "BCAST-52add5515810a0979368",
+  "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+  "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001923754&uri=%2Fkor%2Fpr%2Frelease",
+  "status": "ATTACHED",
+  "supplement": {
+    "id": "905fefca8f073a4e59faa7cc",
+    "type": "PRESS_RELEASE",
+    "label": "EBS 공식 보도자료",
+    "title": "EBS 다큐프라임 '생명의 전략, 기생' 1부 나는 너로 완성된다",
+    "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001923754&uri=%2Fkor%2Fpr%2Frelease",
+    "publishedAt": "2023-02-17",
+    "checkedAt": "2026-10-16T06:48:01.234Z",
+    "identity": {
+      "resourceId": "BCAST-52add5515810a0979368",
+      "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+      "program": "EBS 다큐프라임",
+      "broadcastDate": "2023-02-20",
+      "variant": "EPISODE",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60315447"
+    },
+    "identityEvidence": [
+      "생명의 전략, 기생",
+      "1부",
+      "2023-02-20"
+    ],
+    "text": "1부 ‘나는 너로 완성된다’는 기생생물, 바이러스의 입장에서 기생생물의 생존방식을 고찰한다. 지구의 생물 종은 약 700만에서 900만 종으로 추정된다. 이 중 적어도 절반이 기생생물이라고 기생충학자들은 이야기한다. 심지어 기생은 이제까지 진화해온 생물들의 생활사 중 가장 흔한 형태여서 육식이나 초식 같은 먹이활동보다 더 자주 출현한 것이라고도 말한다. 그렇다면 기생은 지구상에 존재하는 생명의 궁극적인 전략일까? 하지만 기생에도 대가는 따른다. 다른 생명의 몸에 들어가 면역체계를 회피하고 숙주의 성장을 조절하고 행동을 조종하는 데에는 엄청난 어려움이 따를 수밖에 없다. 기생벌에게는 이런 과정을 도와주는 동료가 있는데 바로 폴리드나바이러스(Polydnavirus)다. 과거 별개의 종이었던 바이러스가 기생벌에 들어가 기생벌의 번식을 돕고 그 결과로 유전자의 복제를 이어가고 스스로는 기생벌의 분자병기로 복무하게 되었다. 기생도 결국은 누군가의 도움이 없다면 이룰 수 없는 일인 것이다. 생명은 결코 홀로 살아갈 수 없다. 우리는 모두 누군가로 인해 하나가 되고 완성된다. 청띠신선나비애벌레에 기생하는 고치벌과 고치벌 고치에 기생하는 중복기생체 좀벌, 꼬마길앞잡이 애벌레를 생매장하는 굼벵이벌, 숙주 면역계의 공격으로부터 애벌레를 지켜주는 기생벌의 공생체 폴리드나바이러스 등 공생을 통해 완성되는 기생과 이를 통해 자연이 균형을 이루는 모습을 담은 다큐멘터리, EBS 다큐프라임 <생명의 전략, 기생> 1부 ‘나는 너로 완성된다’는 오는 2월 20일 밤 9시 50분, EBS 1TV에서 방송된다.",
+    "location": "1부 나는 너로 완성된다 본문·다른 회차 설명 제외",
+    "originalStart": 852,
+    "originalEnd": 1635,
+    "offsetUnit": "UTF16_CODE_UNIT",
+    "responseHash": "8114d40495cebae771fb695e92e98ef8be55aebea70aad76c0bf959b7efb413c",
+    "contentHash": "07ad51f03e798bd34ba6066710ad465d256c8edcdc432f46b2102a7a1f52d7b5",
+    "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+  },
+  "identityNote": "공식 보도자료의 시리즈명·1부 표기·헤더 방송일2023-02-20 대조. 본문의2022년 표기는 헤더/게시일과 불일치하므로 방송일 근거로 사용하지 않음. 제목의 너로/너로 인해 차이는 원본 값을 보존하며 해당1부만 수동 대조."
+}

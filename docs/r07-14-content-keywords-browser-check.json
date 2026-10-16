@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-12T12:56:11.598Z",
+  "cases": [
+    {
+      "name": "기본8개·전체 펼침·추가 키워드·원문 정보",
+      "passed": true
+    },
+    {
+      "name": "등록 개념 없는 사찰음식 소재·빈 태그 배지 제거·저장 유지",
+      "passed": true
+    },
+    {
+      "name": "390px 키워드/펼침 넘침 없음·원문 열기",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0
+}

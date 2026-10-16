@@ -1,0 +1,33 @@
+flowchart TB
+    EBS["EBS 공식 공개 목록·상세 페이지"]
+    MOE["2022 개정 교육과정 공식 원문"]
+
+    subgraph Server["서버 저장소 · 2026-10-05 실제 구현 기준"]
+        B["방송 원본 · broadcast-catalog.sqlite<br/>episodes · pages · link_checks<br/>episode_text · source_enrichments"]
+        J["교육과정·사람 확인 · curi-store.json<br/>contents · curriculumStandards<br/>mappingRuns · contentCurriculumMaps<br/>verifiedAssets · searchProjection<br/>relationReviews: 최초 실제 결정 때 생성"]
+        A["자동 연계 이력 · automatic-assets.sqlite<br/>sources · runs · relations<br/>assets · search_projection · events<br/>인용·검사는 relations.evidence JSON"]
+        C["메모리 검색 카탈로그<br/>CSV·지리 JSON·방송·관리 자료 통합<br/>현재 원문에서 태그·품질 계산"]
+        S["시맨틱 감사 스냅샷 · semantic-layer.sqlite<br/>builds · resources · concepts · tags<br/>재빌드 가능 · 일반 검색은 이 DB를 읽지 않음"]
+        P["교사 검색 API<br/>주제 검색·필터·정렬<br/>현재 유효한 자동 후보 / 사람 확인 표시"]
+    end
+
+    subgraph Browser["교사 브라우저 localStorage · 서버 DB와 분리"]
+        L["내 자료 · 수업 폴더·메모<br/>curi.discovery.shelf.v1<br/>curi.teacher.folders.v1<br/>curi.teacher.search.v1"]
+    end
+
+    EBS -->|공식 회차 ID로 수집·원문 대조| B
+    MOE -->|공식 코드·원문·출처 보존| J
+    B -->|읽기 전용 통합| C
+    J -->|관리 원문·현재 사람 확인| C
+    C -->|명시적 재빌드| S
+    B -->|같은 원본·판본의 검사 스냅샷| A
+    J -.->|공식 성취기준·실제 사람 결정 대조| A
+    C -->|현재 메모리 태그로 검색| P
+    A -->|현재 유효한 자동 자산·공개 투영| P
+    J -->|현재 유효한 사람 확인 자산| P
+    P -->|선택 자료 사본·개인 메모| L
+    L -.->|재열기·내보내기 때 현재 정보 재조회| P
+
+    %% 화살표는 처리·참조 흐름이며 SQL 외래키를 의미하지 않는다.
+    %% 자동 근거 검사와 실제 사람 확인은 별도 경로다.
+    %% 사람 확인은 교사 검색이나 자동 후보 제공의 필수 선행 절차가 아니다.

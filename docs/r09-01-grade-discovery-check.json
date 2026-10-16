@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-10T14:43:28.390Z",
+  "cases": [
+    {
+      "name": "전체214 기준과 여섯 과정·교과22/51/27/51/37/26을 반환",
+      "passed": true
+    },
+    {
+      "name": "각 구간의 옵션·선택 기준·보완목록이 같은 과정과 교과에 속함",
+      "passed": true
+    },
+    {
+      "name": "다른 과정·교과의 선택 ID 및 중학 전체를 중1로 요청하는 입력은 거절",
+      "passed": true
+    },
+    {
+      "name": "공식 원문 대조·중1 편성 참고가 자동 규칙 또는 사람 승인을 만들지 않음",
+      "passed": true
+    },
+    {
+      "name": "45단원 중심어136 기준은 원문 실제 표현만 포함하고 수행어를 제외",
+      "passed": true
+    },
+    {
+      "name": "호기심·의한·가진다·자전거만 있는 소개문은 천체 후보가 아님",
+      "passed": true
+    },
+    {
+      "name": "추가136을 뺀 같은 카탈로그 기준과 기존78 결과가 완전히 같음",
+      "passed": true
+    },
+    {
+      "name": "R08-05 기존 공백78 집계와 현재 기존 과정의 차이가 없음",
+      "passed": true
+    },
+    {
+      "name": "실제 JSON·방송·시맨틱·자동자산 저장소는 변경하지 않음",
+      "passed": true
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "9ec9d3161d28e1aca844e013561b6c53df83b45e63f74077f9be2b140031716b",
+    "broadcast-catalog.sqlite": "153807f71a0e819a6792d474947fef8f472a66ee1de221939fe36240b71e547b",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "d5e523f0bb88f362890c380c7107916e51f92e3d1b42b697ea3b458b1532800a"
+  },
+  "paidApiCalls": 0
+}

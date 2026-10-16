@@ -1,0 +1,82 @@
+{
+  "scope": "Proposed opaque token pairs; not complete product audit",
+  "checks": [
+    {
+      "foreground": "ink",
+      "background": "canvas",
+      "ratio": 14.88,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "muted",
+      "background": "canvas",
+      "ratio": 5.4,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "muted",
+      "background": "surfaceMuted",
+      "ratio": 5.07,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "surface",
+      "background": "primary",
+      "ratio": 8.29,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "primary",
+      "background": "primarySoft",
+      "ratio": 7.08,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "warning",
+      "background": "warningSoft",
+      "ratio": 5.02,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "error",
+      "background": "errorSoft",
+      "ratio": 5.61,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "controlBorder",
+      "background": "surface",
+      "ratio": 3.32,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "foreground": "controlBorder",
+      "background": "canvas",
+      "ratio": 3.18,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "foreground": "focus",
+      "background": "surface",
+      "ratio": 5.39,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "foreground": "focus",
+      "background": "surfaceMuted",
+      "ratio": 4.84,
+      "minimum": 3,
+      "passed": true
+    }
+  ]
+}

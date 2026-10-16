@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-30T14:12:05.619Z",
+  "cases": [
+    {
+      "name": "일반어 OR와 분기 해석을 실제 HTTP로 연결",
+      "passed": true
+    },
+    {
+      "name": "여러 단어 제외가 지리 패널로 돌아오지 않음",
+      "passed": true
+    },
+    {
+      "name": "고유명사와 시간 조건은 결과·미확인 안내로 분리",
+      "passed": true
+    },
+    {
+      "name": "사회·과학 자연어 질문과 원문 주제 근거",
+      "passed": true
+    },
+    {
+      "name": "자료 목록 먼저·소개문과 추천 이유는 펼치기",
+      "passed": true
+    },
+    {
+      "name": "새 과학 자료 모음·재접속·준비 메모 출처 보존",
+      "passed": true
+    },
+    {
+      "name": "프로덕션 근거 묶음·유료 호출 차단",
+      "passed": true
+    },
+    {
+      "name": "새로운 미보유 조건은 빈 결과",
+      "passed": true
+    },
+    {
+      "name": "모바일 펼침·긴 미확인 조건 가로 넘침 없음",
+      "passed": true
+    },
+    {
+      "name": "서버 오류 후 해석·결과 제거와 재시도",
+      "passed": true
+    }
+  ],
+  "passed": 10,
+  "pageErrors": [],
+  "externalRequestsBlocked": 0,
+  "paidApiCalls": 0,
+  "storageUnchanged": true,
+  "hashes": {
+    "approval": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcasts": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106"
+  },
+  "note": "수집 완료 후 고정된 실자료에서 로컬 UI/HTTP 계약 확인. 고정 가상 자료 전후 비교 및 교육적 정확도 평가와 별도."
+}

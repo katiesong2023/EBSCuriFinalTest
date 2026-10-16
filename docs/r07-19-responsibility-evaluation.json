@@ -1,0 +1,947 @@
+{
+  "version": 1,
+  "preparedOn": "2026-10-13",
+  "scope": "개발 실패/부분 충족10질문의 구현 책임과 재검증 기준. 제품 코드·서버·원본 변경 및 API 호출 없음.",
+  "columns": [
+    "질문",
+    "기대 해석",
+    "실제 후보·근거",
+    "실패 원인",
+    "담당 개선",
+    "재검증 기준"
+  ],
+  "sourceHashes": {
+    "docs/r07-19-geography-review-inputs.json": "27c7b6454e13141f56523e450cbdf705680c4106f1c818919e0f9d83ffea9411",
+    "docs/r07-19-geography-regression.json": "e3ef98c5a675db31cae1f729e20465520e374273a9ddeb430c669dd01dd525ae",
+    "docs/r07-19-geography-running-server-check.json": "d5db82146a1021962e1758e353a123fcddef5b7503af9d2462f0c07ee12984b3"
+  },
+  "rows": [
+    {
+      "id": "V01",
+      "question": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "국내 화산 지형의 지역 사례",
+        "conditions": [
+          "국내"
+        ],
+        "purpose": "수업자료"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 3,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-0ec326f52253e62ce575",
+            "title": "하늘이 내려준 선물, 빗물이야기",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+            "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+            "evidence": [],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-791196c0822a06144ed5",
+            "title": "화산섬 제주도",
+            "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133167&courseId=10204000&stepId=20006824&lectId=20280104",
+            "summary": "",
+            "evidence": [],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "해당하는·수업자료의 내용어 잔류와 좁은 의미 검색 실행 조건",
+        "certainty": "CONFIRMED",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 요청 문법과 주제·지역 조건·목적 분리"
+        ],
+        "dataSearchVerificationHuman": [
+          "검색: 해석 결과를 주제/필수 조건/관계 점수에 연결",
+          "검색: 의미 검색 실제 호출",
+          "데이터: 자료별 지역·국가의 원문 근거 확보"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "해당하는/수업자료가 필수 내용어가 아니고 국내 조건이 유지되며 알려진 한라산 후보를 상위20에서 발견한다.",
+      "llmComparison": {
+        "sameQuestion": "화산지형에 해당하는 우리나라 지역 수업자료",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V02",
+      "question": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "화산 활동 → 지형 형성 → 국내 지역 사례",
+        "conditions": [
+          "국내"
+        ],
+        "purpose": "수업자료"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 2,
+        "currentCount": 2,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-0ec326f52253e62ce575",
+            "title": "하늘이 내려준 선물, 빗물이야기",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+            "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "국내 조건 소실; 화산 언급과 별개 원인의 카르스트 형성이 섞임",
+        "certainty": "CONFIRMED",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 국내 필수 조건과 형성 관계 추출",
+          "B: 후보별 형성 설명·부분 충족·미확인 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "데이터: 국가/지역 근거를 회차에 연결",
+          "검색: 국내 조건 강제",
+          "검증/검색: 자기 회차 인용 대조 후 관계 점수를 순위에 반영"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "과테말라·장소 불명 후보를 국내 충족으로 제공하지 않는다. 물/바위 카르스트를 화산 형성으로 판정하지 않고 한라산 단순 언급은 부분/미확인으로 남긴다.",
+      "llmComparison": {
+        "sameQuestion": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V03",
+      "question": "국내 화산 지형의 특징을 설명하는 영상",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "지형의 특징 설명",
+        "conditions": [
+          "국내"
+        ],
+        "purpose": "영상"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 2,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-0ec326f52253e62ce575",
+            "title": "하늘이 내려준 선물, 빗물이야기",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+            "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "설명하는/특징을 후보 필수어로 취급; 원문에서 구체 특징 설명 미확인",
+        "certainty": "CONFIRMED_FOR_PARSER_UNRESOLVED_FOR_CONTENT",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 설명 목적과 특징 요구 분리",
+          "B: 특징 설명과 단순 언급 구분"
+        ],
+        "dataSearchVerificationHuman": [
+          "검색: 특징 요구를 필수 일반어 AND 대신 관계 평가에 연결",
+          "데이터: 같은 회차의 공식 특징 설명 원문 확보",
+          "검증: 인용 일치·조건 강제"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "국내 주제 후보를 찾되 화산 지형을 다룬다는 소개만으로 특징 설명 충족을 확정하지 않는다.",
+      "llmComparison": {
+        "sameQuestion": "국내 화산 지형의 특징을 설명하는 영상",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V04",
+      "question": "한라산의 화산 지형을 설명하는 자료",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "한라산의 지형 설명",
+        "conditions": [
+          "장소: 한라산"
+        ],
+        "purpose": "자료"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 2,
+        "currentCount": 2,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-0ec326f52253e62ce575",
+            "title": "하늘이 내려준 선물, 빗물이야기",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+            "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              },
+              {
+                "field": "summary",
+                "start": 296,
+                "end": 369,
+                "quote": "특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다."
+              }
+            ],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "지형 직접 언급과 현무암/빗물 활용의 주변 내용을 구분할 필요",
+        "certainty": "CONFIRMED",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "B: 후보 원문의 직접 설명·주변 내용·미확인 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "검증: 해당 회차 인용 위치/내용 재대조",
+          "검색: 관계/주제 수준을 순위에 반영",
+          "사람: 실제 장면·난이도·교사 효용 확인"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "한라산 지형 직접 언급을 빗물 주변 내용보다 먼저 표시한다. 실제 지형 설명·영상 적합성이 확인되지 않았음을 표시한다.",
+      "llmComparison": {
+        "sameQuestion": "한라산의 화산 지형을 설명하는 자료",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V05",
+      "question": "제주도에서 용암이 만든 지형을 보여주는 영상",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "용암 → 지형 형성",
+        "conditions": [
+          "장소: 제주도"
+        ],
+        "purpose": "영상"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 1,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "대표 개념명 없는 표현과 제주도/한라산 포함 관계의 후보 발견 실패; 확보 소개문에 용암 형성 설명 부족",
+        "certainty": "CONFIRMED_FOR_RETRIEVAL_UNRESOLVED_FOR_FULL_RELATION",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 용암이 만든 지형을 개념·인과 관계로 확장",
+          "B: 용암 형성 설명 여부 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "검색: 확장된 개념/관계를 받아 전체 방송 후보 발견",
+          "데이터: 제주도와 한라산의 장소 포함 근거 및 동일 회차 원문 연결",
+          "검증: 원문에 없는 용암 설명을 충족으로 사용하지 않음"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "제주도 조건을 유지한 관련 후보를 발견하고, 한라산의 화산 지형 언급을 용암 형성 설명으로 승격하지 않는다.",
+      "llmComparison": {
+        "sameQuestion": "제주도에서 용암이 만든 지형을 보여주는 영상",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V06",
+      "question": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": "국내 지역 사례",
+        "conditions": [
+          "국내",
+          "해외 제외"
+        ],
+        "purpose": "자료"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 2,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-0ec326f52253e62ce575",
+            "title": "하늘이 내려준 선물, 빗물이야기",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+            "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 230,
+                "end": 295,
+                "quote": "제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다."
+              }
+            ],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "지역 범위·해외 제외와 요청 문법을 검색 계약으로 연결하지 못함",
+        "certainty": "CONFIRMED",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 필수 국내/해외 제외와 추천 목적 분리"
+        ],
+        "dataSearchVerificationHuman": [
+          "검색: 후보·필터·페이지·fallback 모두에 조건 강제",
+          "데이터: 지역 불명/혼합 여부 근거 확보"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "국내 조건과 해외 제외를 A/B 결과나 오류 fallback에서도 보존한다. 혼합·미확인 장소를 국내 단독 충족으로 확정하지 않는다.",
+      "llmComparison": {
+        "sameQuestion": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V07",
+      "question": "화산 지형",
+      "expectedInterpretation": {
+        "topic": "화산 지형",
+        "relation": null,
+        "conditions": [],
+        "purpose": null
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 24,
+        "currentCount": 24,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "GEO-PARK-HALLA",
+            "title": "제7호 한라산 국립공원",
+            "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+            "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-a29fff109e61a3dcab2d",
+            "title": "인도네시아 화산 트레일 지구의 뜨거운 심장, 브로모路!",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60645507",
+            "summary": "자바 남부 구눙키둘에서 밧줄을 타고 수직 좀블랑 동굴로 하강해 하늘에서 쏟아지는 신비로운 햇살을 경험하고, 솔로에서 장작불 위 큰 솥에서 끓인 찐 보양식 탱클렝을 맛본다. 오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다.<br>",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 96,
+                "end": 214,
+                "quote": "오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-16cc4ce5d4cb31a53206",
+            "title": "중년의 여행법, 인도네시아-다시 한번 뜨겁게, 브로모 화산",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057427&lectId=60583070",
+            "summary": "여전히 화산 활동이 활발한 활화산 브로모 화산 트래킹에 도전한다. 브로모 화산 트래킹 거점 도시 말랑 중앙광장에서 다양한 현지인들과 어울리고, 벽화 마을을 돌며 숨겨진 사연을 듣고, 야시장에서 젊은이들과 멋진 시간을 보낸다. 브로모 화산을 향하여 툼팍세우 폭포의 장관을 보고, 화산피해를 입었던 응아다 마을 텡거족 사람들을 만나 화산의 이야기를 듣는다. 새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 198,
+                "end": 251,
+                "quote": "새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-af19741ff313f1c6f411",
+            "title": "화산 곁에 사는 이유",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+            "summary": "인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 27,
+                "quote": "인도네시아에서는 화산섬에 가장 많은 인구가 산다."
+              }
+            ],
+            "localRelationStatus": "DIRECT_TOPIC_MENTION",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-e62e352286bfdf0e7886",
+            "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+            "summary": "지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데...",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 121,
+                "end": 179,
+                "quote": "끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지."
+              }
+            ],
+            "localRelationStatus": "ADJACENT_TOPIC_ONLY",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "화산 언급·위성 감시·지형 소개가 섞임; 일부 편성/재구성 안내만 보유",
+        "certainty": "CONFIRMED",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "B: 지형 주제의 직접 설명·주변 언급·원문 부족 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "데이터: 공식 소개문/대본/학습자료를 정확한 회차에 연결",
+          "검증/검색: 인용 일치·확인 수준 및 순위 반영"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "국내 조건을 새로 추가하지 않는다. 주제 직접 언급/주변 내용/원문 부족을 구분하고 원문 밖 설명은 생성하지 않는다.",
+      "llmComparison": {
+        "sameQuestion": "화산 지형",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V08",
+      "question": "화산 폭발 피해를 다룬 영상",
+      "expectedInterpretation": {
+        "topic": "화산 폭발",
+        "relation": "폭발 → 피해 사례",
+        "conditions": [],
+        "purpose": "영상"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 0,
+        "semantic": "LOCAL_E5",
+        "top5": []
+      },
+      "failureCause": {
+        "description": "빈 결과. 소개문 부족·자료 미보유·피해 표현의 후보 검색 누락 중 어느 원인인지 미확정",
+        "certainty": "UNRESOLVED",
+        "currentStatus": "DISCOVERY_UNRESOLVED"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 폭발 피해 관계와 지형 형성을 구분",
+          "B: 후보가 확보되면 실제 피해 근거와 보류를 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "데이터: 공식 피해 관련 원문의 보유/회차 연결 조사",
+          "검색: 분화·피해 등의 다른 표현을 사용한 후보 누락 진단",
+          "검증: 알려진 정답을 원문 대조한 후 발견률 계산"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "LLM 해석이 좋아져도 후보가 없으면 해결로 처리하지 않는다. 피해 원문이 있는 알려진 정답을 확보한 뒤 동일 질문의 상위20 발견과 상위5 관련성을 비교한다.",
+      "llmComparison": {
+        "sameQuestion": "화산 폭발 피해를 다룬 영상",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V09",
+      "question": "우리나라 해안 지형을 보여주는 수업 자료",
+      "expectedInterpretation": {
+        "topic": "해안 지형",
+        "relation": "국내 해안 지형 사례",
+        "conditions": [
+          "국내"
+        ],
+        "purpose": "수업자료"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 6,
+        "currentCount": 3,
+        "semantic": "LOCAL_E5",
+        "top5": [
+          {
+            "id": "BCAST-9d8d4642df739046b698",
+            "title": "고창, 산과 갯벌이 건네는 이야기",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60604305",
+            "summary": "고창의 정신적 지주로 불리는 선운산. 특히 고창 심원면사무소에서 출발해 선운산 능선을 따라 걷는 서해랑길 42코스는 284개의 코리아 둘레길 중 베스트34에 손꼽힐 정도로 아름다움을 자랑한다. 선운산 숲길에서 만나는 천 오백년 고찰 선운사에선 몸과 마음의 여유를 느낄 수 있다. 넓은 고창의 바다는 갖가지 보물들을 내놓는데 그 중에서도 소금을 빼놓을 수 없다. 점점 사라져가는 염전을 지키기 위한 김지아 씨 삼부자의 고군분투 소금 채취기와 갯벌에서 찾아내는 조개의 여왕, 백합! 고창의 명물 백합정식까지 만나본다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 202,
+                "end": 267,
+                "quote": "점점 사라져가는 염전을 지키기 위한 김지아 씨 삼부자의 고군분투 소금 채취기와 갯벌에서 찾아내는 조개의 여왕, 백합!"
+              }
+            ],
+            "localRelationStatus": "NOT_EVALUATED",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-d19644f820a63bb95792",
+            "title": "대를 이어 합니다 4부 갯벌에서 캐는 보물",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60509492",
+            "summary": "바다의 보물이라 불리며 음식 맛의 기본이 되는 소금. 어디서나 쉽게 구할 수 있지만 그중에서도 명품 소금이 따로 있다! 우리나라 천일염의 보고 전라남도 신안에서 3대째 소금 명인의 길을 걷고 있다는 박형기 씨. 그의 소금은 갯벌을 다져 만든 토판천일염으로 맛은 물론 미네랄 함량이 높아 최고급 소금으로 분류된다. 바람 한 점, 그늘 한쪽 없이 하는 고된 일이지만 소금 명인이라는 긍지를 이어받아 그의 아들까지 4대째 가업을 잇는 중이다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 118,
+                "end": 174,
+                "quote": "그의 소금은 갯벌을 다져 만든 토판천일염으로 맛은 물론 미네랄 함량이 높아 최고급 소금으로 분류된다."
+              }
+            ],
+            "localRelationStatus": "NOT_EVALUATED",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          },
+          {
+            "id": "BCAST-04d6a3cba5fe859f2e25",
+            "title": "무안, 풍요를 품다",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+            "summary": "풍요의 땅 무안. 홀통 해변에서는 전통 고기잡이 방식인 덤벙으로 물고기를 잡는 어부 부부와 비옥한 황토밭에서 고구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다. 한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 93,
+                "end": 177,
+                "quote": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다."
+              }
+            ],
+            "localRelationStatus": "NOT_EVALUATED",
+            "evidenceMeaning": "자기 회차 원문 인용/로컬 단서 상태이며 요청 완전 충족이나 사람 승인이 아님"
+          }
+        ]
+      },
+      "failureCause": {
+        "description": "국내 범위 단서가 있는 일부 후보만 보존; 여행/생업과 지형 설명 구분 미완료",
+        "certainty": "CONFIRMED_FOR_PARTIAL_EVIDENCE",
+        "currentStatus": "LOCAL_FIXED_OR_PARTIAL"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 국내 조건과 수업 목적 분리",
+          "B: 해안 지형 설명과 여행·생업 주변 내용 비교"
+        ],
+        "dataSearchVerificationHuman": [
+          "데이터: 국내 장소 어휘 밖 자료의 국가/지역 근거 보강",
+          "검색/검증: 화산에 한정된 관계 판정을 해안의 요구/원문으로 별도 검증",
+          "사람: 수업 활용 장면 확인"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "국내 조건 위반0을 유지하면서 국내 장소 어휘가 좁아 발생한 누락을 별도 측정한다. 여행/생업 언급을 지형 특징 설명으로 확정하지 않는다.",
+      "llmComparison": {
+        "sameQuestion": "우리나라 해안 지형을 보여주는 수업 자료",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    },
+    {
+      "id": "V10",
+      "question": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "expectedInterpretation": {
+        "topic": "동물",
+        "relation": "낮 활동 ↔ 밤 활동 비교",
+        "conditions": [
+          "비교 대상: 낮/밤의 활동"
+        ],
+        "purpose": "영상"
+      },
+      "expectationProvenance": "사용자 제시 책임 분리 원칙과 원래 요청의 구절에 근거한 평가 기대값. LLM 실행 결과 아님. 요청에 없는 조건/형성 요구는 추가하지 않음.",
+      "actualCandidatesAndEvidence": {
+        "beforeCount": 0,
+        "currentCount": 0,
+        "semantic": "LOCAL_E5",
+        "top5": []
+      },
+      "failureCause": {
+        "description": "자전으로 바꾸던 과잉 확장은 차단됨. 비교 후보의 원문 공백/검색 누락은 미확정",
+        "certainty": "CONFIRMED_FOR_OVEREXPANSION_UNRESOLVED_FOR_RECALL",
+        "currentStatus": "DISCOVERY_UNRESOLVED"
+      },
+      "responsibleImprovement": {
+        "llmRole": [
+          "A: 시간대별 동물 활동 비교를 추출하고 자전을 필수 주제로 추가하지 않음",
+          "B: 비교 사례의 실제 원문 설명 유무 판정"
+        ],
+        "dataSearchVerificationHuman": [
+          "검색: 해석된 비교 대상/관계를 후보 발견과 연결",
+          "데이터: 주행성/야행성 등의 공식 원문 보유/회차 연결 조사",
+          "검증: 실제 비교 근거 인용·순위 반영"
+        ],
+        "llmEffectStatus": "NOT_RUN"
+      },
+      "reverificationCriterion": "자전/회전이 원래 조건으로 추가되지 않는다. 확인된 동물 활동 비교 정답을 마련한 뒤 같은 질문의 발견·관련성·조건 보존을 비교한다.",
+      "llmComparison": {
+        "sameQuestion": "낮과 밤에 활동하는 동물을 비교하는 영상",
+        "localOnly": {
+          "available": true,
+          "source": "docs/r07-19-geography-regression.json"
+        },
+        "localPlusA": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "localPlusAAndB": {
+          "executed": false,
+          "precisionAt5": null,
+          "knownAnswerRecallAt20": null
+        },
+        "qualityImprovementConfirmed": false
+      }
+    }
+  ],
+  "sharedResponsibilities": {
+    "A": "원문 요청에서 주제·관계·필수/제외·선호·목적을 구절과 대응하여 추출",
+    "SEARCH": "A 결과를 실제 후보 검색/필수 조건 강제/후보 원문 확보에 연결; 의미 검색 실행 조건은 검색 코드 책임",
+    "B": "검색 시스템이 제공한 후보 원문에서 요구 충족/부분 충족/미확인을 비교",
+    "VALIDATION": "허용 후보ID·회차·원문 인용 위치를 검증하고 명시 조건 재적용 후 순위 반영",
+    "DATA": "공식 소개문·대본·학습자료의 실제 확보/국가·지역 근거/회차 연결",
+    "HUMAN": "영상 장면·난이도·선수개념·교사 효용 확인"
+  },
+  "comparisonProtocol": {
+    "variants": [
+      "LOCAL_ONLY",
+      "LOCAL_PLUS_A",
+      "LOCAL_PLUS_A_PLUS_B"
+    ],
+    "fixed": "같은 질문·자료/회차/원문 지문·필수 조건·판정 기준을 고정한다. 원문 보강은 별도 데이터 변화 비교로 분리한다.",
+    "measurements": [
+      "해석 조건의 구절 대응/누락/임의 추가",
+      "알려진 정답의 상위20 발견률(정답 미확보는 분모 제외)",
+      "상위5의 적합/부분/부적합/원문 부족(미검토 제외)",
+      "국내/장소/제외/프로그램·형태의 위반",
+      "요청 관계별 인용과 충족 판정",
+      "비용·p50/p95 지연·실패 fallback"
+    ],
+    "BIsolation": "재정렬 자체의 효과는 동일 후보ID/원문 집합으로 비교하고, 전체 A+B 검색 효과는 별도로 보고한다.",
+    "groundTruth": "LLM 판단만으로 정답을 확정하지 않는다. 독립 원문 판정과 영상/교사 효용을 구분한다.",
+    "approval": "유료 실행 범위/예산 승인은 아직 없으며 기존 비용 비교안만 참조한다.",
+    "paidApiCalls": 0
+  },
+  "stage1ContractReference": {
+    "version": "curi-request-v1",
+    "document": "docs/r07-19-request-interpretation-contract.md",
+    "outputSchema": "docs/r07-19-request-interpretation.schema.json",
+    "inputSchema": "docs/r07-19-request-input-envelope.schema.json",
+    "productConnected": false,
+    "exampleV01": {
+      "requiredLogic": [
+        "화산 지형",
+        "국내",
+        "지역 사례"
+      ],
+      "context": "수업자료",
+      "notAdded": [
+        "한라산 필수",
+        "제주도 필수",
+        "화산 형성 과정 필수"
+      ],
+      "expansionLimit": "다른 표현/가설은 후보 발견용이며 필수 조건/충족 근거로 사용하지 않는다."
+    },
+    "validationDistinction": {
+      "normal": 10,
+      "structuralRejected": 8,
+      "developmentExpectedMeaningRejected": 5,
+      "generalMeaningGuarantee": false
+    }
+  },
+  "stage1RuntimeConnection": {
+    "productConnected": true,
+    "actualLlmConnected": false,
+    "source": "CALLER_SUPPLIED_NOT_LLM_EXECUTION",
+    "endpoint": "POST /api/curi/discover/interpretation",
+    "normalGet": "LOCAL_ONLY envelope",
+    "validation": "EXPLICIT_GUARDS_ONLY",
+    "report": "docs/r07-19-request-connection-running-check.json",
+    "paidApiCalls": 0,
+    "note": "stage1ContractReference는 수신 당시 비연결 기록으로 보존한다. 의미 성능/A·B 비교는 미실행이다."
+  }
+}

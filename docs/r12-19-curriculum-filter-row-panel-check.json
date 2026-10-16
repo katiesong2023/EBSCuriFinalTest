@@ -1,0 +1,337 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "row": [
+        {
+          "label": "수업 대상",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "top": 430.015625,
+          "height": 32
+        }
+      ],
+      "gradeMappings": [
+        [
+          "초등 3학년",
+          "elementary34"
+        ],
+        [
+          "초등 4학년",
+          "elementary34"
+        ],
+        [
+          "초등 3~4학년군",
+          "elementary34"
+        ],
+        [
+          "초등 5학년",
+          "elementary56"
+        ],
+        [
+          "초등 6학년",
+          "elementary56"
+        ],
+        [
+          "초등 5~6학년군",
+          "elementary56"
+        ],
+        [
+          "중학교 1학년",
+          "middle1"
+        ],
+        [
+          "all",
+          ""
+        ]
+      ],
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "row": [
+        {
+          "label": "수업 대상",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "top": 430.015625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "top": 430.015625,
+          "height": 32
+        }
+      ],
+      "gradeMappings": [
+        [
+          "초등 3학년",
+          "elementary34"
+        ],
+        [
+          "초등 4학년",
+          "elementary34"
+        ],
+        [
+          "초등 3~4학년군",
+          "elementary34"
+        ],
+        [
+          "초등 5학년",
+          "elementary56"
+        ],
+        [
+          "초등 6학년",
+          "elementary56"
+        ],
+        [
+          "초등 5~6학년군",
+          "elementary56"
+        ],
+        [
+          "중학교 1학년",
+          "middle1"
+        ],
+        [
+          "all",
+          ""
+        ]
+      ],
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "row": [
+        {
+          "label": "수업 대상",
+          "top": 455.203125,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "top": 455.203125,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "top": 455.203125,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "top": 455.203125,
+          "height": 32
+        }
+      ],
+      "gradeMappings": [
+        [
+          "초등 3학년",
+          "elementary34"
+        ],
+        [
+          "초등 4학년",
+          "elementary34"
+        ],
+        [
+          "초등 3~4학년군",
+          "elementary34"
+        ],
+        [
+          "초등 5학년",
+          "elementary56"
+        ],
+        [
+          "초등 6학년",
+          "elementary56"
+        ],
+        [
+          "초등 5~6학년군",
+          "elementary56"
+        ],
+        [
+          "중학교 1학년",
+          "middle1"
+        ],
+        [
+          "all",
+          ""
+        ]
+      ],
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "row": [
+        {
+          "label": "수업 대상",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "top": 671.515625,
+          "height": 32
+        }
+      ],
+      "gradeMappings": [
+        [
+          "초등 3학년",
+          "elementary34"
+        ],
+        [
+          "초등 4학년",
+          "elementary34"
+        ],
+        [
+          "초등 3~4학년군",
+          "elementary34"
+        ],
+        [
+          "초등 5학년",
+          "elementary56"
+        ],
+        [
+          "초등 6학년",
+          "elementary56"
+        ],
+        [
+          "초등 5~6학년군",
+          "elementary56"
+        ],
+        [
+          "중학교 1학년",
+          "middle1"
+        ],
+        [
+          "all",
+          ""
+        ]
+      ],
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "row": [
+        {
+          "label": "수업 대상",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "과정",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "교과",
+          "top": 671.515625,
+          "height": 32
+        },
+        {
+          "label": "검색",
+          "top": 671.515625,
+          "height": 32
+        }
+      ],
+      "gradeMappings": [
+        [
+          "초등 3학년",
+          "elementary34"
+        ],
+        [
+          "초등 4학년",
+          "elementary34"
+        ],
+        [
+          "초등 3~4학년군",
+          "elementary34"
+        ],
+        [
+          "초등 5학년",
+          "elementary56"
+        ],
+        [
+          "초등 6학년",
+          "elementary56"
+        ],
+        [
+          "초등 5~6학년군",
+          "elementary56"
+        ],
+        [
+          "중학교 1학년",
+          "middle1"
+        ],
+        [
+          "all",
+          ""
+        ]
+      ],
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "toggleAndReloadPassed": true
+}

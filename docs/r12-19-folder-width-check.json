@@ -1,0 +1,146 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "sizes": [
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        },
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        },
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        },
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        },
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        },
+        {
+          "width": 127.59375,
+          "height": 100,
+          "container": 255
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "sizes": [
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        },
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        },
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        },
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        },
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        },
+        {
+          "width": 108,
+          "height": 112,
+          "container": 216
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "sizes": [
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        },
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        },
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        },
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        },
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        },
+        {
+          "width": 79.5,
+          "height": 112,
+          "container": 159
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "sizes": [
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        },
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        },
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        },
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        },
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        },
+        {
+          "width": 72,
+          "height": 112,
+          "container": 144
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

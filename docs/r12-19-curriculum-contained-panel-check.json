@@ -1,0 +1,57 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "backgroundColors": [
+        "color(srgb 0.959843 0.980549 0.907765)",
+        "color(srgb 0.963608 0.953569 0.996863)",
+        "color(srgb 0.945412 0.957333 1)"
+      ],
+      "targetAndStandardSaved": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "toggleAndReloadPassed": true
+}

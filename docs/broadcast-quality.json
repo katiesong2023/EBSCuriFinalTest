@@ -1,0 +1,535 @@
+{
+  "generatedAt": "2026-09-30T19:23:49.172Z",
+  "target": {
+    "programs": 50,
+    "episodeIds": 20000
+  },
+  "actual": {
+    "episodeIds": 22753,
+    "programLabels": 88,
+    "conservativeNamedProgramFamilies": 79,
+    "originalEpisodes": 22692,
+    "distinctProgramTitles": 21502,
+    "courseIds": 88,
+    "nonemptyDescription": 10175,
+    "nonRepeatedDescription": 8964,
+    "titleOnly": 13789,
+    "matchedLinks": 200
+  },
+  "catalog": {
+    "catalog": 22118,
+    "individual": 21674,
+    "collections": 444,
+    "withDescription": 8292,
+    "workingSet": 144,
+    "indexedContents": 4,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22692,
+    "broadcastCatalog": 22753,
+    "broadcastDescriptions": 10175,
+    "broadcastPrograms": 88,
+    "broadcastTitleGroups": 21511,
+    "directLinks": 341
+  },
+  "semantic": {
+    "generatedAt": "2026-09-30T14:08:48.362Z",
+    "buildId": "d140de6aa4c140ebe837817c",
+    "ruleVersion": "2026-09-30.2",
+    "resources": 22118,
+    "concepts": 60,
+    "resourcesWithSourceTags": 1496,
+    "sourceMentions": 1668,
+    "inferredCandidates": 179,
+    "paidApiCalls": 0,
+    "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다.",
+    "bySubjectMentions": {
+      "공통": 229,
+      "과학": 995,
+      "사회": 444
+    }
+  },
+  "inventory": 808,
+  "programs": [
+    {
+      "program": "딩동댕 유치원",
+      "count": 2855,
+      "descriptions": 20
+    },
+    {
+      "program": "지식채널e",
+      "count": 2796,
+      "descriptions": 2793
+    },
+    {
+      "program": "위대한 수업, 그레이트 마인즈",
+      "count": 1600,
+      "descriptions": 1600
+    },
+    {
+      "program": "최고의 요리비결",
+      "count": 1600,
+      "descriptions": 1600
+    },
+    {
+      "program": "한국기행",
+      "count": 1261,
+      "descriptions": 52
+    },
+    {
+      "program": "명의",
+      "count": 974,
+      "descriptions": 0
+    },
+    {
+      "program": "극한 직업",
+      "count": 924,
+      "descriptions": 924
+    },
+    {
+      "program": "방귀대장 뿡뿡이",
+      "count": 885,
+      "descriptions": 20
+    },
+    {
+      "program": "모여라 딩동댕",
+      "count": 638,
+      "descriptions": 20
+    },
+    {
+      "program": "EBS 다큐프라임",
+      "count": 631,
+      "descriptions": 621
+    },
+    {
+      "program": "다큐 오늘",
+      "count": 559,
+      "descriptions": 539
+    },
+    {
+      "program": "우리집 유치원",
+      "count": 556,
+      "descriptions": 20
+    },
+    {
+      "program": "세계테마기행",
+      "count": 469,
+      "descriptions": 21
+    },
+    {
+      "program": "한글용사 아이야",
+      "count": 389,
+      "descriptions": 20
+    },
+    {
+      "program": "EBS 캠페인",
+      "count": 371,
+      "descriptions": 0
+    },
+    {
+      "program": "생방송 뭐든지 해결단",
+      "count": 352,
+      "descriptions": 20
+    },
+    {
+      "program": "고향민국",
+      "count": 344,
+      "descriptions": 10
+    },
+    {
+      "program": "하나뿐인 지구",
+      "count": 325,
+      "descriptions": 321
+    },
+    {
+      "program": "딩동댕 딩동댕",
+      "count": 318,
+      "descriptions": 20
+    },
+    {
+      "program": "생방송 톡! 톡! 보니 하니",
+      "count": 297,
+      "descriptions": 20
+    },
+    {
+      "program": "역사채널e",
+      "count": 263,
+      "descriptions": 263
+    },
+    {
+      "program": "서울대 음대 레슨노트",
+      "count": 255,
+      "descriptions": 0
+    },
+    {
+      "program": "고양이를 부탁해",
+      "count": 214,
+      "descriptions": 0
+    },
+    {
+      "program": "세상에 나쁜 개는 없다",
+      "count": 189,
+      "descriptions": 40
+    },
+    {
+      "program": "마샤와 곰",
+      "count": 184,
+      "descriptions": 20
+    },
+    {
+      "program": "내 친구 몬덕이",
+      "count": 161,
+      "descriptions": 20
+    },
+    {
+      "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+      "count": 148,
+      "descriptions": 140
+    },
+    {
+      "program": "GO! GO! Giggles",
+      "count": 147,
+      "descriptions": 20
+    },
+    {
+      "program": "해요와 해요",
+      "count": 145,
+      "descriptions": 20
+    },
+    {
+      "program": "왔다! 내 손주",
+      "count": 137,
+      "descriptions": 20
+    },
+    {
+      "program": "최고다! 호기심딱지",
+      "count": 134,
+      "descriptions": 20
+    },
+    {
+      "program": "생방송 방과 후 듄듄",
+      "count": 132,
+      "descriptions": 20
+    },
+    {
+      "program": "꼬마버스 타요 (Eng.)",
+      "count": 128,
+      "descriptions": 120
+    },
+    {
+      "program": "Magic Ice Cream Truck",
+      "count": 112,
+      "descriptions": 20
+    },
+    {
+      "program": "똑똑 문해력 박사 - 속담과 관용어 편",
+      "count": 105,
+      "descriptions": 20
+    },
+    {
+      "program": "똑똑 문해력 박사 - 어휘 편",
+      "count": 105,
+      "descriptions": 20
+    },
+    {
+      "program": "숲 속 친구 파파룰라(HD)",
+      "count": 104,
+      "descriptions": 20
+    },
+    {
+      "program": "위인극장",
+      "count": 104,
+      "descriptions": 20
+    },
+    {
+      "program": "취미는 과학",
+      "count": 102,
+      "descriptions": 102
+    },
+    {
+      "program": "뇌가 젊어지는 체조",
+      "count": 100,
+      "descriptions": 0
+    },
+    {
+      "program": "춤추는 소녀 와와",
+      "count": 98,
+      "descriptions": 40
+    },
+    {
+      "program": "최고의 요리비결 공방",
+      "count": 85,
+      "descriptions": 0
+    },
+    {
+      "program": "EBS 평생학교",
+      "count": 84,
+      "descriptions": 0
+    },
+    {
+      "program": "귀하신 몸",
+      "count": 80,
+      "descriptions": 80
+    },
+    {
+      "program": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+      "count": 80,
+      "descriptions": 0
+    },
+    {
+      "program": "특집/기획/특강",
+      "count": 80,
+      "descriptions": 80
+    },
+    {
+      "program": "희망풍경",
+      "count": 80,
+      "descriptions": 40
+    },
+    {
+      "program": "쓰담쓰담 동물원 프렌쥬",
+      "count": 78,
+      "descriptions": 20
+    },
+    {
+      "program": "딩동댕 친구들-장난감나라의 비밀",
+      "count": 65,
+      "descriptions": 20
+    },
+    {
+      "program": "글로벌 아빠찾아 삼만리",
+      "count": 53,
+      "descriptions": 0
+    },
+    {
+      "program": "곰디와 친구들",
+      "count": 52,
+      "descriptions": 20
+    },
+    {
+      "program": "뭐든지 뮤직박스",
+      "count": 52,
+      "descriptions": 20
+    },
+    {
+      "program": "삐뽀삐뽀! 우리 몸 X파일",
+      "count": 51,
+      "descriptions": 20
+    },
+    {
+      "program": "발명이 팡팡!",
+      "count": 49,
+      "descriptions": 0
+    },
+    {
+      "program": "교육 특집 프로그램",
+      "count": 47,
+      "descriptions": 0
+    },
+    {
+      "program": "두근두근 방방",
+      "count": 47,
+      "descriptions": 20
+    },
+    {
+      "program": "공감 플러스",
+      "count": 40,
+      "descriptions": 0
+    },
+    {
+      "program": "어린이 프로그램",
+      "count": 40,
+      "descriptions": 0
+    },
+    {
+      "program": "일단 해봐요 생방송 오후 1시",
+      "count": 40,
+      "descriptions": 0
+    },
+    {
+      "program": "출동! 슈퍼윙스",
+      "count": 40,
+      "descriptions": 20
+    },
+    {
+      "program": "과학 다큐 비욘드",
+      "count": 38,
+      "descriptions": 38
+    },
+    {
+      "program": "이것이 야생이다",
+      "count": 36,
+      "descriptions": 0
+    },
+    {
+      "program": "고고다이노 공룡탐험대",
+      "count": 26,
+      "descriptions": 20
+    },
+    {
+      "program": "냉장고 나라 코코몽",
+      "count": 26,
+      "descriptions": 20
+    },
+    {
+      "program": "명탐정 피트",
+      "count": 26,
+      "descriptions": 20
+    },
+    {
+      "program": "뽀롱뽀롱 뽀로로",
+      "count": 26,
+      "descriptions": 20
+    },
+    {
+      "program": "허풍선이 과학쇼",
+      "count": 26,
+      "descriptions": 26
+    },
+    {
+      "program": "곽준빈의 세계 기사식당",
+      "count": 24,
+      "descriptions": 8
+    },
+    {
+      "program": "엄마 까투리",
+      "count": 23,
+      "descriptions": 20
+    },
+    {
+      "program": "꼬마버스 타요",
+      "count": 17,
+      "descriptions": 17
+    },
+    {
+      "program": "과학/환경 특집 프로그램",
+      "count": 16,
+      "descriptions": 0
+    },
+    {
+      "program": "로보카 폴리",
+      "count": 16,
+      "descriptions": 16
+    },
+    {
+      "program": "지구 영웅 번개맨",
+      "count": 13,
+      "descriptions": 13
+    },
+    {
+      "program": "비버와 함께 떠나는 컴퓨터 과학",
+      "count": 12,
+      "descriptions": 0
+    },
+    {
+      "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+      "count": 12,
+      "descriptions": 8
+    },
+    {
+      "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+      "count": 10,
+      "descriptions": 0
+    },
+    {
+      "program": "과학/환경",
+      "count": 8,
+      "descriptions": 0
+    },
+    {
+      "program": "최태성 서경석의 여행본색",
+      "count": 8,
+      "descriptions": 8
+    },
+    {
+      "program": "코봇 지구를 지켜라",
+      "count": 8,
+      "descriptions": 8
+    },
+    {
+      "program": "딩동댕 보건실",
+      "count": 6,
+      "descriptions": 0
+    },
+    {
+      "program": "취미는 과학여행",
+      "count": 6,
+      "descriptions": 0
+    },
+    {
+      "program": "신계숙의 맛터사이클 다이어리",
+      "count": 5,
+      "descriptions": 5
+    },
+    {
+      "program": "채소가지구",
+      "count": 4,
+      "descriptions": 0
+    },
+    {
+      "program": "경이로운 자연의 세계",
+      "count": 2,
+      "descriptions": 0
+    },
+    {
+      "program": "자연 다큐",
+      "count": 2,
+      "descriptions": 0
+    },
+    {
+      "program": "과학 다큐멘터리",
+      "count": 1,
+      "descriptions": 1
+    },
+    {
+      "program": "우주탐사 이야기",
+      "count": 1,
+      "descriptions": 0
+    },
+    {
+      "program": "지구탐사 이야기",
+      "count": 1,
+      "descriptions": 1
+    }
+  ],
+  "limitations": [
+    "programLabels는 저장 프로그램명 기준, 시즌·영문판 및 포괄 목록 포함. conservativeNamedProgramFamilies는 HD/영문판 표기 병합 및 포괄 목록 제외한 보수적 이름 집계이며 편성 전수 판정 아님.",
+    "회차 수는 메타데이터 ID 수이며 영상 다운로드·시청·재생 확인 수가 아니다.",
+    "소개문은 제목 반복을 제외해도 짧은 문구가 포함되며 충분한 설명 여부 전수 판정은 미실행.",
+    "태그는 60개 편집 어휘의 원문 표현 일치이며 교육과정 승인이나 관계 설명 검증이 아니다."
+  ],
+  "paidApiCalls": 0,
+  "linkAudit": {
+    "httpOk": 21,
+    "titleExactMatches": 19,
+    "selectedIdentityMatches": 20,
+    "pageIdentityMatches": 19,
+    "descriptionMatches": 16,
+    "bodyOnlyMatches": 2,
+    "titlesWithDeclaredEpisodePrefixMatch": 20,
+    "descriptionDisplayLabelMatches": 2,
+    "textRelevanceCounts": {
+      "PARTIAL_SUPPORT": 9,
+      "TEXT_SUPPORT": 5,
+      "INSUFFICIENT_DESCRIPTION": 1,
+      "TOPIC_ONLY": 6
+    },
+    "playbackChecks": 0,
+    "subtitleChecks": 0,
+    "sceneDurationChecks": 0,
+    "appliedMismatchIds": [
+      "BCAST-b3fcf41eba96e61930d8"
+    ],
+    "statuses": [
+      {
+        "status": "MATCHED",
+        "count": 200
+      },
+      {
+        "status": "MISMATCH",
+        "count": 1
+      }
+    ],
+    "note": "R4의 21개 목적표본 감사는 이전 규칙의 상위 결과에 대한 기록이며 최신 전체 검색 정확도 평가가 아니다."
+  }
+}

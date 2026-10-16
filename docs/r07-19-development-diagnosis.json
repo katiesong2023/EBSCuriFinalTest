@@ -1,0 +1,1522 @@
+{
+  "generatedAt": "2026-10-13T10:32:37.166Z",
+  "paidApiCalls": 0,
+  "rows": [
+    {
+      "q": "연소",
+      "before": 2,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-024c5222a4833c2b6b0d",
+          "title": "유독가스- 은밀하게 치명적인",
+          "summary": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 31,
+                "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-0a75155233cbcd0e0da0",
+          "title": "당신의 집은 따뜻합니까?",
+          "summary": "자막에너지를 절약하며 난방 성능까지 뛰어난 패시브 하우스와 화목 보일러에 대해 알아본다 삶의 공간, 집! 행복은 ‘집’에서부터 시작된다 난방비 걱정없이 따뜻한 겨울나기! - “즐거운 곳에서는 날 오라 하여도, 내 쉴 곳은 작은 집, 내 집뿐이네.\" Home Sweet Home(즐거운 나의 집)이라는 노래 가사의 한 구절이다. ‘집’이란 삶이 최초로 시작되는 공간이기에 단순히 공간 그 이상의 의미를 지닌다. 때문에 ‘삶의 질’과도 밀접한 연관을 가지는 공간, 집! 그러나 어느 순간부터 ‘좋은 집’이 투자 가치가 있는 집, 돈이 되는 집과 동의어가 되어 버린 듯한 요즘… 진정으로 ‘좋은 집’, ‘살기 좋은 집’이란 무엇일까? 여름에는 에어컨, 겨울에는 온갖 난방용품을 끼고 사는 것이 당연해버린 요즘… 때문에 계절이 바뀔 때마다 전기세와 가스비 걱정에 많은 주부들이 한숨짓는다. 냉‧난방기구 없이 여름에는 시원하고, 겨울에는 따뜻하게 지낼 수 있는 집이 있을까? 그런 집은 정말 ‘꿈의 집’인 걸까? 긴 겨울, 우리 집은 난방비 걱정없이 따뜻할 수 있을까? 전국에 때 이른 초겨울 추위가 닥치면서 겨울채비도 예년보다 빨라졌다. 매년 극한으로 추워지는 날씨와 더불어 각 가정의 가장 큰 걱정은 바로 난방비! 하지만 부쩍 오른 난방비 걱정에 마음놓고 따뜻하게 지낼 수 없는 것이 현실이다. 때문에 겨울철이면 전기장판이나 난로와 같은 난방가전부터 창문에 붙이는 뽁뽁이 보온시트와 문풍지까지... 적은 비용으로 조금이나마 더 난방을 할 수 있는 제품들이 불티나게 팔리는 모습은 요즘의 신풍속도로 자리잡고 있다. 특히나 에너지 복지의 사각지대에 놓인 시골 농가들에게 긴 겨울 난방문제는 더 큰 걱정이다. 기름보일러의 기름값으로만 한 달에 40~50만 원을 들여도 춥게 지내는 것이 현실! 그러나 최근 시골농가에서 기름보일러 연료비의 1/3 정도로, 연료비 부담을 크게 덜어주며 하향식 화목보일러가 각광받고 있다. 하향식 화목보일러는 미국이나 유럽 등지에서는 오래전부터 사용되어 온 친환경 고효율 보일러방식! 기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다. 그러나 이러한 방법들은 지속가능한 대안이 될 수 없다. 적은 에너지를 사용하면서 추운 겨울을 따뜻하게 지낼 수 있는 방법은 정말 없는 걸까?",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 1009,
+                "end": 1073,
+                "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "before": 0,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-024c5222a4833c2b6b0d",
+          "title": "유독가스- 은밀하게 치명적인",
+          "summary": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 31,
+                "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+              }
+            ],
+            "details": [
+              {
+                "label": "필요 조건",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "필요 조건: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-0a75155233cbcd0e0da0",
+          "title": "당신의 집은 따뜻합니까?",
+          "summary": "자막에너지를 절약하며 난방 성능까지 뛰어난 패시브 하우스와 화목 보일러에 대해 알아본다 삶의 공간, 집! 행복은 ‘집’에서부터 시작된다 난방비 걱정없이 따뜻한 겨울나기! - “즐거운 곳에서는 날 오라 하여도, 내 쉴 곳은 작은 집, 내 집뿐이네.\" Home Sweet Home(즐거운 나의 집)이라는 노래 가사의 한 구절이다. ‘집’이란 삶이 최초로 시작되는 공간이기에 단순히 공간 그 이상의 의미를 지닌다. 때문에 ‘삶의 질’과도 밀접한 연관을 가지는 공간, 집! 그러나 어느 순간부터 ‘좋은 집’이 투자 가치가 있는 집, 돈이 되는 집과 동의어가 되어 버린 듯한 요즘… 진정으로 ‘좋은 집’, ‘살기 좋은 집’이란 무엇일까? 여름에는 에어컨, 겨울에는 온갖 난방용품을 끼고 사는 것이 당연해버린 요즘… 때문에 계절이 바뀔 때마다 전기세와 가스비 걱정에 많은 주부들이 한숨짓는다. 냉‧난방기구 없이 여름에는 시원하고, 겨울에는 따뜻하게 지낼 수 있는 집이 있을까? 그런 집은 정말 ‘꿈의 집’인 걸까? 긴 겨울, 우리 집은 난방비 걱정없이 따뜻할 수 있을까? 전국에 때 이른 초겨울 추위가 닥치면서 겨울채비도 예년보다 빨라졌다. 매년 극한으로 추워지는 날씨와 더불어 각 가정의 가장 큰 걱정은 바로 난방비! 하지만 부쩍 오른 난방비 걱정에 마음놓고 따뜻하게 지낼 수 없는 것이 현실이다. 때문에 겨울철이면 전기장판이나 난로와 같은 난방가전부터 창문에 붙이는 뽁뽁이 보온시트와 문풍지까지... 적은 비용으로 조금이나마 더 난방을 할 수 있는 제품들이 불티나게 팔리는 모습은 요즘의 신풍속도로 자리잡고 있다. 특히나 에너지 복지의 사각지대에 놓인 시골 농가들에게 긴 겨울 난방문제는 더 큰 걱정이다. 기름보일러의 기름값으로만 한 달에 40~50만 원을 들여도 춥게 지내는 것이 현실! 그러나 최근 시골농가에서 기름보일러 연료비의 1/3 정도로, 연료비 부담을 크게 덜어주며 하향식 화목보일러가 각광받고 있다. 하향식 화목보일러는 미국이나 유럽 등지에서는 오래전부터 사용되어 온 친환경 고효율 보일러방식! 기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다. 그러나 이러한 방법들은 지속가능한 대안이 될 수 없다. 적은 에너지를 사용하면서 추운 겨울을 따뜻하게 지낼 수 있는 방법은 정말 없는 걸까?",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 1009,
+                "end": 1073,
+                "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+              }
+            ],
+            "details": [
+              {
+                "label": "필요 조건",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "필요 조건: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "연소에 필요한 조건을 설명해주는 영상",
+      "before": 0,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-024c5222a4833c2b6b0d",
+          "title": "유독가스- 은밀하게 치명적인",
+          "summary": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 31,
+                "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+              }
+            ],
+            "details": [
+              {
+                "label": "필요 조건",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "필요 조건: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-0a75155233cbcd0e0da0",
+          "title": "당신의 집은 따뜻합니까?",
+          "summary": "자막에너지를 절약하며 난방 성능까지 뛰어난 패시브 하우스와 화목 보일러에 대해 알아본다 삶의 공간, 집! 행복은 ‘집’에서부터 시작된다 난방비 걱정없이 따뜻한 겨울나기! - “즐거운 곳에서는 날 오라 하여도, 내 쉴 곳은 작은 집, 내 집뿐이네.\" Home Sweet Home(즐거운 나의 집)이라는 노래 가사의 한 구절이다. ‘집’이란 삶이 최초로 시작되는 공간이기에 단순히 공간 그 이상의 의미를 지닌다. 때문에 ‘삶의 질’과도 밀접한 연관을 가지는 공간, 집! 그러나 어느 순간부터 ‘좋은 집’이 투자 가치가 있는 집, 돈이 되는 집과 동의어가 되어 버린 듯한 요즘… 진정으로 ‘좋은 집’, ‘살기 좋은 집’이란 무엇일까? 여름에는 에어컨, 겨울에는 온갖 난방용품을 끼고 사는 것이 당연해버린 요즘… 때문에 계절이 바뀔 때마다 전기세와 가스비 걱정에 많은 주부들이 한숨짓는다. 냉‧난방기구 없이 여름에는 시원하고, 겨울에는 따뜻하게 지낼 수 있는 집이 있을까? 그런 집은 정말 ‘꿈의 집’인 걸까? 긴 겨울, 우리 집은 난방비 걱정없이 따뜻할 수 있을까? 전국에 때 이른 초겨울 추위가 닥치면서 겨울채비도 예년보다 빨라졌다. 매년 극한으로 추워지는 날씨와 더불어 각 가정의 가장 큰 걱정은 바로 난방비! 하지만 부쩍 오른 난방비 걱정에 마음놓고 따뜻하게 지낼 수 없는 것이 현실이다. 때문에 겨울철이면 전기장판이나 난로와 같은 난방가전부터 창문에 붙이는 뽁뽁이 보온시트와 문풍지까지... 적은 비용으로 조금이나마 더 난방을 할 수 있는 제품들이 불티나게 팔리는 모습은 요즘의 신풍속도로 자리잡고 있다. 특히나 에너지 복지의 사각지대에 놓인 시골 농가들에게 긴 겨울 난방문제는 더 큰 걱정이다. 기름보일러의 기름값으로만 한 달에 40~50만 원을 들여도 춥게 지내는 것이 현실! 그러나 최근 시골농가에서 기름보일러 연료비의 1/3 정도로, 연료비 부담을 크게 덜어주며 하향식 화목보일러가 각광받고 있다. 하향식 화목보일러는 미국이나 유럽 등지에서는 오래전부터 사용되어 온 친환경 고효율 보일러방식! 기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다. 그러나 이러한 방법들은 지속가능한 대안이 될 수 없다. 적은 에너지를 사용하면서 추운 겨울을 따뜻하게 지낼 수 있는 방법은 정말 없는 걸까?",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 1009,
+                "end": 1073,
+                "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+              }
+            ],
+            "details": [
+              {
+                "label": "필요 조건",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "필요 조건: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘연소’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "산소가 부족할 때 불이 탈 때 생기는 문제를 보여주세요",
+      "before": 0,
+      "after": 0,
+      "first": []
+    },
+    {
+      "q": "다문화",
+      "before": 10,
+      "after": 10,
+      "first": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 51,
+                "end": 131,
+                "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "summary": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 40,
+                "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다."
+              },
+              {
+                "field": "summary",
+                "start": 45,
+                "end": 172,
+                "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들",
+          "summary": "이주민이 인구의 5%를 차지하는 2025년 한국사회. 이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057021",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 29,
+                "quote": "이주민이 인구의 5%를 차지하는 2025년 한국사회."
+              },
+              {
+                "field": "summary",
+                "start": 30,
+                "end": 76,
+                "quote": "이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘이주민’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-a66feddc1e1e27b62f47",
+          "title": "어른도감 - 마이크를 건네주는 어른",
+          "summary": "이주민의 목소리가 전파를 타고 흘러나오는 곳...",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=30",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "이주민의 목소리가 전파를 타고 흘러나오는 곳."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘이주민’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-9103eb5ea2e4e90d2e91",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "summary": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=68",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 37,
+                "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "서로 다른 문화의 사람들이 함께 살아가는 사례",
+      "before": 10,
+      "after": 10,
+      "first": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "semantic": {
+            "similarity": 0.8845613576798137,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 203,
+              "quote": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기."
+            },
+            "sourceKey": "15f9f096d5514da92eb69fe60019b8e4518679258733fdbf48bcf109543d94ac",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 51,
+                "end": 131,
+                "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD."
+              }
+            ],
+            "details": [
+              {
+                "label": "서로 다른 문화의 공존 사례",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 51,
+                    "end": 131,
+                    "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD."
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "서로 다른 문화의 공존 사례: 관련 표현은 있으나 방법·관계·장면 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "summary": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+          "semantic": {
+            "similarity": 0.871088041783815,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 172,
+              "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+            },
+            "sourceKey": "4f321f880f935ddb8c5c27d519b469a5e4a92568f866f67ffd3c12761a972b53",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 40,
+                "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다."
+              },
+              {
+                "field": "summary",
+                "start": 45,
+                "end": 172,
+                "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+              }
+            ],
+            "details": [
+              {
+                "label": "서로 다른 문화의 공존 사례",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 40,
+                    "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다."
+                  },
+                  {
+                    "field": "summary",
+                    "start": 45,
+                    "end": 172,
+                    "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "서로 다른 문화의 공존 사례: 관련 표현은 있으나 방법·관계·장면 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-9103eb5ea2e4e90d2e91",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "summary": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=68",
+          "semantic": {
+            "similarity": 0.8656132253132882,
+            "evidence": {
+              "field": "title",
+              "start": 0,
+              "end": 35,
+              "quote": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+            },
+            "sourceKey": "73c8675073df95f4cb1801aef851cb4b1cc309b34f36ca810c329ee249108f8d",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 37,
+                "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+              }
+            ],
+            "details": [
+              {
+                "label": "서로 다른 문화의 공존 사례",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 37,
+                    "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "서로 다른 문화의 공존 사례: 관련 표현은 있으나 방법·관계·장면 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-827805531238e24c5411",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 2강 민족주의의 쾌거",
+          "summary": "더빙윌 킴리카 - 다문화 사회가 왔다 2강 민족주의의 쾌거",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=68",
+          "semantic": {
+            "similarity": 0.8613897185910271,
+            "evidence": {
+              "field": "title",
+              "start": 0,
+              "end": 30,
+              "quote": "윌 킴리카 - 다문화 사회가 왔다 2강 민족주의의 쾌거"
+            },
+            "sourceKey": "95956de7e8f7403b4e17ba02abbc109e28397e35c4246db8807a5e572585cadc",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 32,
+                "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 2강 민족주의의 쾌거"
+              }
+            ],
+            "details": [
+              {
+                "label": "서로 다른 문화의 공존 사례",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 32,
+                    "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 2강 민족주의의 쾌거"
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "서로 다른 문화의 공존 사례: 관련 표현은 있으나 방법·관계·장면 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-742a12eafe39b91b4f2c",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 3강 민족주의의 그늘",
+          "summary": "더빙윌 킴리카 - 다문화 사회가 왔다 3강 민족주의의 그늘",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=68",
+          "semantic": {
+            "similarity": 0.8521492015152624,
+            "evidence": {
+              "field": "title",
+              "start": 0,
+              "end": 30,
+              "quote": "윌 킴리카 - 다문화 사회가 왔다 3강 민족주의의 그늘"
+            },
+            "sourceKey": "4d08ff0a98d73a2a030f1bd8b0eab31eabda9bd51934909929c9f3e260ea5430",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 32,
+                "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 3강 민족주의의 그늘"
+              }
+            ],
+            "details": [
+              {
+                "label": "서로 다른 문화의 공존 사례",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 32,
+                    "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 3강 민족주의의 그늘"
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "서로 다른 문화의 공존 사례: 관련 표현은 있으나 방법·관계·장면 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "이주민과 주민이 서로 이해하며 살아가는 모습을 보여주는 자료",
+      "before": 0,
+      "after": 10,
+      "first": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "semantic": {
+            "similarity": 0.8565929834544647,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 203,
+              "quote": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기."
+            },
+            "sourceKey": "15f9f096d5514da92eb69fe60019b8e4518679258733fdbf48bcf109543d94ac",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 51,
+                "end": 131,
+                "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD."
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "summary": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+          "semantic": {
+            "similarity": 0.8413215305911496,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 172,
+              "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+            },
+            "sourceKey": "4f321f880f935ddb8c5c27d519b469a5e4a92568f866f67ffd3c12761a972b53",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 40,
+                "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다."
+              },
+              {
+                "field": "summary",
+                "start": 45,
+                "end": 172,
+                "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들",
+          "summary": "이주민이 인구의 5%를 차지하는 2025년 한국사회. 이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057021",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 29,
+                "quote": "이주민이 인구의 5%를 차지하는 2025년 한국사회."
+              },
+              {
+                "field": "summary",
+                "start": 30,
+                "end": 76,
+                "quote": "이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다"
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘이주민’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-a66feddc1e1e27b62f47",
+          "title": "어른도감 - 마이크를 건네주는 어른",
+          "summary": "이주민의 목소리가 전파를 타고 흘러나오는 곳...",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=30",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "이주민의 목소리가 전파를 타고 흘러나오는 곳."
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘이주민’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-9103eb5ea2e4e90d2e91",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "summary": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=68",
+          "semantic": {
+            "similarity": 0.8485857836403553,
+            "evidence": {
+              "field": "title",
+              "start": 0,
+              "end": 35,
+              "quote": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+            },
+            "sourceKey": "73c8675073df95f4cb1801aef851cb4b1cc309b34f36ca810c329ee249108f8d",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 37,
+                "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐"
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "다문화"
+            ],
+            "text": "요청한 ‘다문화’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "지구 자전",
+      "before": 2,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-4280dd3cf2aaac6c3584",
+          "title": "지구의 자전 속도가 느려지는 이유",
+          "summary": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다. ...",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 32,
+                "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "지구",
+              "자전"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-418eb389c28af0afd751",
+          "title": "지구가 도는 속도",
+          "summary": "자전, 공전, 은하 내 공전까지! 지구가 우주에서 움직이는 속도를 알아본다....",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 18,
+                "quote": "자전, 공전, 은하 내 공전까지!"
+              },
+              {
+                "field": "summary",
+                "start": 19,
+                "end": 42,
+                "quote": "지구가 우주에서 움직이는 속도를 알아본다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "지구"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "before": 0,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-4280dd3cf2aaac6c3584",
+          "title": "지구의 자전 속도가 느려지는 이유",
+          "summary": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다. ...",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+          "semantic": {
+            "similarity": 0.8732336110382695,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 34,
+              "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다. ."
+            },
+            "sourceKey": "f5342940cbf6a853177eb0326d529e3736ab680ec93e0068423d70e7d5056ddb",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 32,
+                "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+              }
+            ],
+            "details": [
+              {
+                "label": "원인·결과",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "변화·과정",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "원인·결과: 대응하는 소개문 문장을 찾지 못함",
+              "변화·과정: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "지구",
+              "자전"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-418eb389c28af0afd751",
+          "title": "지구가 도는 속도",
+          "summary": "자전, 공전, 은하 내 공전까지! 지구가 우주에서 움직이는 속도를 알아본다....",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+          "semantic": {
+            "similarity": 0.8759121134146236,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 42,
+              "quote": "자전, 공전, 은하 내 공전까지! 지구가 우주에서 움직이는 속도를 알아본다."
+            },
+            "sourceKey": "154c8e51b49872aa4f19755ed524de4b04f008cdd498aecd6df9e56ea61c523f",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 18,
+                "quote": "자전, 공전, 은하 내 공전까지!"
+              },
+              {
+                "field": "summary",
+                "start": 19,
+                "end": 42,
+                "quote": "지구가 우주에서 움직이는 속도를 알아본다."
+              }
+            ],
+            "details": [
+              {
+                "label": "원인·결과",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              },
+              {
+                "label": "변화·과정",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "원인·결과: 대응하는 소개문 문장을 찾지 못함",
+              "변화·과정: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "지구"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "before": 0,
+      "after": 2,
+      "first": [
+        {
+          "id": "BCAST-4280dd3cf2aaac6c3584",
+          "title": "지구의 자전 속도가 느려지는 이유",
+          "summary": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다. ...",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+          "semantic": {
+            "similarity": 0.877674243164497,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 34,
+              "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다. ."
+            },
+            "sourceKey": "f5342940cbf6a853177eb0326d529e3736ab680ec93e0068423d70e7d5056ddb",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 32,
+                "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+              }
+            ],
+            "details": [
+              {
+                "label": "변화·과정",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "변화·과정: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "지구",
+              "자전"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-418eb389c28af0afd751",
+          "title": "지구가 도는 속도",
+          "summary": "자전, 공전, 은하 내 공전까지! 지구가 우주에서 움직이는 속도를 알아본다....",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+          "semantic": {
+            "similarity": 0.8929298044601242,
+            "evidence": {
+              "field": "summary",
+              "start": 0,
+              "end": 42,
+              "quote": "자전, 공전, 은하 내 공전까지! 지구가 우주에서 움직이는 속도를 알아본다."
+            },
+            "sourceKey": "154c8e51b49872aa4f19755ed524de4b04f008cdd498aecd6df9e56ea61c523f",
+            "status": "SIMILARITY_ONLY",
+            "relationStatus": "UNCONFIRMED"
+          },
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 18,
+                "quote": "자전, 공전, 은하 내 공전까지!"
+              },
+              {
+                "field": "summary",
+                "start": 19,
+                "end": 42,
+                "quote": "지구가 우주에서 움직이는 속도를 알아본다."
+              }
+            ],
+            "details": [
+              {
+                "label": "변화·과정",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인",
+              "변화·과정: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "지구"
+            ],
+            "text": "요청한 ‘지구 · 자전’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "선거",
+      "before": 12,
+      "after": 12,
+      "first": [
+        {
+          "id": "BCAST-7fd1bfb95415f72166b0",
+          "title": "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+          "summary": "제비뽑기 선거를 위해선 검은 돌과 흰 돌, 시민들의 이름표 그리고 ‘클레로테리온’이라는 추첨 장치가 필요했다. 과연 이 참신한 ‘제비뽑기 선거’는 어떤 규칙으로 시행된 것일까? 게다가 이렇게 선출된 대표가 정의롭게 국가를 이끌 것이라고 어떻게 믿을 수 있었을까? ‘제비뽑기 선거’가 가능했던 이유는 시민들 간의 ‘진정한 민주주의’에 대한 믿음이 있었기 때문인데...<br><br> 이러한 아테네의 제비뽑기 선거는 오늘날 우리에게도 많은 것을 시사한다. 그렇다면 현대에는 추첨 민주주의가 불가능할까? 놀랍게도 캐나다에서 추첨 방식으로 선거를 한 사례가 있는데... 고대 아테네부터 현재까지, 다양한 방식으로 시행되었던 ‘제비뽑기 선거’를 통해 민주주의의 본질에 대해 질문해 본다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60451951",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 61,
+                "quote": "제비뽑기 선거를 위해선 검은 돌과 흰 돌, 시민들의 이름표 그리고 ‘클레로테리온’이라는 추첨 장치가 필요했다."
+              },
+              {
+                "field": "summary",
+                "start": 62,
+                "end": 98,
+                "quote": "과연 이 참신한 ‘제비뽑기 선거’는 어떤 규칙으로 시행된 것일까?"
+              },
+              {
+                "field": "summary",
+                "start": 147,
+                "end": 202,
+                "quote": "‘제비뽑기 선거’가 가능했던 이유는 시민들 간의 ‘진정한 민주주의’에 대한 믿음이 있었기 때문인데."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-9d8c578db0f9810f5fb9",
+          "title": "아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+          "summary": "민주주의는 시민이 직접 통치자와 통치 방식을 선택한다. 바로 민주주의 꽃이라고도 불리는 선거를 통해서다. 아담 쉐보르스키는 '선거의 패자는 왜 선거 결과에 어째서 이의를 제기하지 않고 승복하는가?'라는 질문을 던지며, 선거의 작동 원리 및 폭력을 사용하지 않고도 분쟁을 해결하는 방법에 관해 설명한다.",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057740&lectId=60298283",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 31,
+                "end": 58,
+                "quote": "바로 민주주의 꽃이라고도 불리는 선거를 통해서다."
+              },
+              {
+                "field": "summary",
+                "start": 59,
+                "end": 109,
+                "quote": "아담 쉐보르스키는 '선거의 패자는 왜 선거 결과에 어째서 이의를 제기하지 않고 승복하는가?"
+              },
+              {
+                "field": "summary",
+                "start": 109,
+                "end": 168,
+                "quote": "'라는 질문을 던지며, 선거의 작동 원리 및 폭력을 사용하지 않고도 분쟁을 해결하는 방법에 관해 설명한다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-2879e35e0d97ad7d18df",
+          "title": "깨끗한 선거",
+          "summary": "선거가 끝나고 쓰레기가 남았다",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=73",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 16,
+                "quote": "선거가 끝나고 쓰레기가 남았다"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-d356777fc3abba17bae4",
+          "title": "이상한 선거",
+          "summary": "득표 수가 많아도 패할 수 있다? 직선제인듯 간선제인듯 모호하고 복잡한 미국 대선! 선거인단은 누구이고, 경합주란 무엇인지. 미국 대선을 앞두고 복잡한 선거 방식을 쉽게 살펴본다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60532483",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 70,
+                "end": 100,
+                "quote": "미국 대선을 앞두고 복잡한 선거 방식을 쉽게 살펴본다."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-64937fea1e995473ee42",
+          "title": "투표를 안 하면 어떻게 될까?",
+          "summary": "선거 투표율이 낮은 대한민국. 우리가 행사하는 한 표의 소중한 권리에 대해 알아본다....",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=207",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 16,
+                "quote": "선거 투표율이 낮은 대한민국."
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "선거",
+              "투표"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "대표를 뽑는 과정",
+      "before": 12,
+      "after": 12,
+      "first": [
+        {
+          "id": "BCAST-7fd1bfb95415f72166b0",
+          "title": "[선거의 인문학] 1부 - 아테네의 제비뽑기 선거",
+          "summary": "제비뽑기 선거를 위해선 검은 돌과 흰 돌, 시민들의 이름표 그리고 ‘클레로테리온’이라는 추첨 장치가 필요했다. 과연 이 참신한 ‘제비뽑기 선거’는 어떤 규칙으로 시행된 것일까? 게다가 이렇게 선출된 대표가 정의롭게 국가를 이끌 것이라고 어떻게 믿을 수 있었을까? ‘제비뽑기 선거’가 가능했던 이유는 시민들 간의 ‘진정한 민주주의’에 대한 믿음이 있었기 때문인데...<br><br> 이러한 아테네의 제비뽑기 선거는 오늘날 우리에게도 많은 것을 시사한다. 그렇다면 현대에는 추첨 민주주의가 불가능할까? 놀랍게도 캐나다에서 추첨 방식으로 선거를 한 사례가 있는데... 고대 아테네부터 현재까지, 다양한 방식으로 시행되었던 ‘제비뽑기 선거’를 통해 민주주의의 본질에 대해 질문해 본다.",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60451951",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 61,
+                "quote": "제비뽑기 선거를 위해선 검은 돌과 흰 돌, 시민들의 이름표 그리고 ‘클레로테리온’이라는 추첨 장치가 필요했다."
+              },
+              {
+                "field": "summary",
+                "start": 62,
+                "end": 98,
+                "quote": "과연 이 참신한 ‘제비뽑기 선거’는 어떤 규칙으로 시행된 것일까?"
+              },
+              {
+                "field": "summary",
+                "start": 147,
+                "end": 202,
+                "quote": "‘제비뽑기 선거’가 가능했던 이유는 시민들 간의 ‘진정한 민주주의’에 대한 믿음이 있었기 때문인데."
+              }
+            ],
+            "details": [
+              {
+                "label": "투표로 대표를 선출하는 방법",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 99,
+                    "end": 146,
+                    "quote": "게다가 이렇게 선출된 대표가 정의롭게 국가를 이끌 것이라고 어떻게 믿을 수 있었을까?"
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "투표로 대표를 선출하는 방법: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-64937fea1e995473ee42",
+          "title": "투표를 안 하면 어떻게 될까?",
+          "summary": "선거 투표율이 낮은 대한민국. 우리가 행사하는 한 표의 소중한 권리에 대해 알아본다....",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=207",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 16,
+                "quote": "선거 투표율이 낮은 대한민국."
+              }
+            ],
+            "details": [
+              {
+                "label": "투표로 대표를 선출하는 방법",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 16,
+                    "quote": "선거 투표율이 낮은 대한민국."
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "투표로 대표를 선출하는 방법: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [
+              "선거",
+              "투표"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-1ea7db5bb98bac94287c",
+          "title": "아동인권 6부작 어린人권 4부 역발상 프로젝트: 잔소리란 무엇인가",
+          "summary": "잔소리 투표, 부모 자녀 모의고사 등 다양한 프로젝트를 통해 '존중받는 아이가 존중하는 어른으로 성장할 수 있다'는 메시지를 전하는 다큐",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055773",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 76,
+                "quote": "잔소리 투표, 부모 자녀 모의고사 등 다양한 프로젝트를 통해 '존중받는 아이가 존중하는 어른으로 성장할 수 있다'는 메시지를 전하는 다큐"
+              }
+            ],
+            "details": [
+              {
+                "label": "투표로 대표를 선출하는 방법",
+                "evidence": [
+                  {
+                    "field": "summary",
+                    "start": 0,
+                    "end": 76,
+                    "quote": "잔소리 투표, 부모 자녀 모의고사 등 다양한 프로젝트를 통해 '존중받는 아이가 존중하는 어른으로 성장할 수 있다'는 메시지를 전하는 다큐"
+                  }
+                ],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "투표로 대표를 선출하는 방법: 관련 표현은 있으나 방법·관계·장면 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘투표’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-9d8c578db0f9810f5fb9",
+          "title": "아담 쉐보르스키 - 민주주의 난제 1강 선거 결과에 왜 승복할까",
+          "summary": "민주주의는 시민이 직접 통치자와 통치 방식을 선택한다. 바로 민주주의 꽃이라고도 불리는 선거를 통해서다. 아담 쉐보르스키는 '선거의 패자는 왜 선거 결과에 어째서 이의를 제기하지 않고 승복하는가?'라는 질문을 던지며, 선거의 작동 원리 및 폭력을 사용하지 않고도 분쟁을 해결하는 방법에 관해 설명한다.",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057740&lectId=60298283",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 31,
+                "end": 58,
+                "quote": "바로 민주주의 꽃이라고도 불리는 선거를 통해서다."
+              },
+              {
+                "field": "summary",
+                "start": 59,
+                "end": 109,
+                "quote": "아담 쉐보르스키는 '선거의 패자는 왜 선거 결과에 어째서 이의를 제기하지 않고 승복하는가?"
+              },
+              {
+                "field": "summary",
+                "start": 109,
+                "end": 168,
+                "quote": "'라는 질문을 던지며, 선거의 작동 원리 및 폭력을 사용하지 않고도 분쟁을 해결하는 방법에 관해 설명한다."
+              }
+            ],
+            "details": [
+              {
+                "label": "투표로 대표를 선출하는 방법",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "투표로 대표를 선출하는 방법: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        },
+        {
+          "id": "BCAST-2879e35e0d97ad7d18df",
+          "title": "깨끗한 선거",
+          "summary": "선거가 끝나고 쓰레기가 남았다",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=73",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 16,
+                "quote": "선거가 끝나고 쓰레기가 남았다"
+              }
+            ],
+            "details": [
+              {
+                "label": "투표로 대표를 선출하는 방법",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "원리·과정 설명: 관계 충족은 별도 확인",
+              "투표로 대표를 선출하는 방법: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [
+              "선거"
+            ],
+            "text": "요청한 ‘선거’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "q": "우리 동네 문제를 주민들이 함께 결정하는 사례",
+      "before": 0,
+      "after": 1,
+      "first": [
+        {
+          "id": "BCAST-18f513f0b52db7f21110",
+          "title": "인스턴트 웨딩",
+          "summary": "자막궁전과도 같은 예식장, 값비싼 드레스, 하얀 봉투와 식권 비슷비슷한 주례사, 수십 가지의 뷔페 음식 한번 쓰면 버려지는 꽃 장식.... 30분이면 초스피드로 끝나 버리는 ‘인스턴트 웨딩’ 한국 사회에서 결혼은 쉽고, 간편하게 먹을 수 있는 ‘햄버거’를 닮았다. 일생에서 가장 빛나는 순간! 대한민국 ‘결혼식’은 어떤 모습일까? 의미는 사라지고, 형식만 남은 결혼식-- 과연 이대로 괜찮을까? 지난 가을, 제주도의 신혼집에서 지인들과 조촐한 결혼식을 올린 이효리, 이상순 커플! 왜 그들은 연예인으로서의 각종 특혜를 포기하고 「작은 결혼식」을 택했던 걸까? 연인이 아닌 부부로서 방송에 첫 모습을 보인 이효리, 이상순 커플! 그들이 생각하는 진짜 결혼이야기- 2013, 대한민국 웨딩 문화를 생각해본다. 인스턴트 웨딩, 이제는 지겹다! 한 해 결혼하는 커플 약 33만 쌍! 하지만 그들의 결혼 모습은 크게 다르지 않다. 스드메(스튜디오+드레스+메이크업) 패키지와 결혼을 대신 준비해주는 웨딩플래너, 짜인 예식 순서에 이르기까지.... 결혼 준비 과정부터 결혼식까지 일련의 준비 과정은 마치 제품을 찍어내는 ‘공장’을 연상케 한다. 진정한 축하의 자리보다는 ‘봉투’를 전달하기 위해, ‘얼굴도장’을 찍기 위해 귀찮아도 가야만 하는 예식장! 대한민국의 결혼식은 피곤하다. ‘거품’ 가득한 결혼문화! ‘빚’을 내서라도 행복해 보이고 싶다? 드레스 가격 수 천 만원! 단 하루, 결혼식 비용에만 수억 원을 들이는 연예인들의 초호화 결혼식! 이는 비단 연예인의 얘기만이 아니다. 실속과 내실보다는 다른 사람의 이목을 신경 써야 하는 ‘보여주기식’ 결혼에는 언제나 낭비와 거품의 유혹이 존재한다. 최근 조사에 따르면, 주택마련비용을 제외한 우리나라 1인당 평균 결혼비용은 약 5198만원! 적게는 334만 원에서 많게는 3억 3650만 원까지! 무려 100배 이상 차이 나는 금액이다. 돈 때문에 결혼을 포기하고, 결혼과 동시에 빚더미에 안게 되는 ‘웨딩푸어족’까지.... 돈으로 얼룩진 결혼문화! 과연 빚을 내서라도 행복해 보여야만 할까? 인스턴트 대신 ‘느린 결혼식’을 올리다! 인스턴트 웨딩 대신 새로운 선택을 하는 사람들이 늘고 있다. 100여 명의 손님을 초대해 검소하지만 뜻 깊은 결혼식을 준비하고 있는 <시청 결혼식> 이은정, 전재영 부부! 외국 영화에서 보듯 자신이 나고 자란 앞마당에서 <정원 결혼식>을 올린 임바다, 양혜정 부부! 그리고 오로지 동네 주민들의 힘으로 결혼식을 올린 <마을 결혼식> 허길수, 심수림 부부! 예식장 장소부터 헤어와 메이크업, 피로연 음식까지 십시일반 이웃들의 힘으로 만들어진 국내 마을 결혼식 1호 커플의 특별한 결혼식 풍경을 들여다본다.",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=8",
+          "semantic": null,
+          "sourceExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 1198,
+                "end": 1225,
+                "quote": "그리고 오로지 동네 주민들의 힘으로 결혼식을 올린"
+              }
+            ],
+            "details": [
+              {
+                "label": "공존·참여 사례",
+                "evidence": [],
+                "status": "MENTION_ONLY"
+              }
+            ],
+            "unconfirmed": [
+              "공존·참여 사례: 대응하는 소개문 문장을 찾지 못함"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘동네 · 주민’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "judgment": "UNREVIEWED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "path": "/",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/lesson.html",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/lesson.html",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/lesson.html",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/",
+      "overlap": false,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/lesson.html",
+      "overlap": false,
+      "overflow": false
+    }
+  ],
+  "webLayouts": 8,
+  "extensionStaticWidth": 360,
+  "extensionStaticOverflow": false,
+  "extensionBehaviorTested": false
+}

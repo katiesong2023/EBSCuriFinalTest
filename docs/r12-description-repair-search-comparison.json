@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-15",
+  "requests": 170,
+  "inputSha256": "a99fa5f071484c27e88aa4f439bfb9cdee4708b77ec79b0e2c7f2946e429267d",
+  "beforeEmpty": 157,
+  "afterEmpty": 154,
+  "beforeTop5": 36,
+  "afterTop5": 42,
+  "gains": [
+    "마을 축제",
+    "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+    "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요"
+  ],
+  "losses": [],
+  "changedRequests": 10,
+  "changes": [
+    {
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "before": 10,
+      "after": 13,
+      "beforeIds": [
+        "BCAST-42cb718c8c18c2a86d25",
+        "BCAST-de34a2dbeac459d4a378",
+        "BCAST-41267a32f2e8b45d36bb",
+        "BCAST-4ee5be140ead0d12cd1d",
+        "BCAST-143436bd604426e911f1"
+      ],
+      "afterIds": [
+        "BCAST-42cb718c8c18c2a86d25",
+        "BCAST-bb5ae0e9bf37676b84ce",
+        "BCAST-de34a2dbeac459d4a378",
+        "BCAST-752a0ebda75aafb4cb14",
+        "BCAST-58286d8e21f282f5ba62"
+      ]
+    },
+    {
+      "query": "마을 축제",
+      "before": 0,
+      "after": 2,
+      "beforeIds": [],
+      "afterIds": [
+        "BCAST-f26a7c98a9cfd82c92b0",
+        "BCAST-263e8fc5a3bf3dc4388a"
+      ]
+    },
+    {
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "before": 0,
+      "after": 1,
+      "beforeIds": [],
+      "afterIds": [
+        "BCAST-f50bd0db15a3b32c76ab"
+      ]
+    },
+    {
+      "query": "어린이의 권리",
+      "before": 1,
+      "after": 2,
+      "beforeIds": [
+        "BCAST-26e69ead6e14d727c26d"
+      ],
+      "afterIds": [
+        "BCAST-26e69ead6e14d727c26d",
+        "BCAST-221579c803c0ad4f2e17"
+      ]
+    },
+    {
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "before": 1,
+      "after": 2,
+      "beforeIds": [
+        "BCAST-793986e731a60a54b5e9"
+      ],
+      "afterIds": [
+        "BCAST-793986e731a60a54b5e9",
+        "BCAST-b8cdb98631e1826ebc04"
+      ]
+    },
+    {
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "before": 0,
+      "after": 1,
+      "beforeIds": [],
+      "afterIds": [
+        "BCAST-562bff14dc981a775d0b"
+      ]
+    },
+    {
+      "query": "세계의 기후와 생활",
+      "before": 6,
+      "after": 17,
+      "beforeIds": [
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-c758a0cc89b6305a56c0",
+        "BCAST-63f4a6b059325a2aa328",
+        "BCAST-17fc205bb84eab78edd3",
+        "BCAST-0c7602db364d6d0cd2be"
+      ],
+      "afterIds": [
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-c758a0cc89b6305a56c0",
+        "BCAST-0d08b1091a7cb6de865a",
+        "BCAST-63f4a6b059325a2aa328",
+        "BCAST-12043189f9ec2b1a500f"
+      ]
+    },
+    {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "before": 45,
+      "after": 58,
+      "beforeIds": [
+        "BCAST-10314e095244cb754377",
+        "BCAST-dd00bb970222169873c2",
+        "BCAST-03df91fa6a47030ab89d",
+        "BCAST-59b631b537dc518d02ab",
+        "BCAST-1da970630a3f983fa0ca"
+      ],
+      "afterIds": [
+        "BCAST-dd00bb970222169873c2",
+        "BCAST-10314e095244cb754377",
+        "BCAST-59b631b537dc518d02ab",
+        "BCAST-1da970630a3f983fa0ca",
+        "BCAST-03df91fa6a47030ab89d"
+      ]
+    },
+    {
+      "query": "독도",
+      "before": 9,
+      "after": 11,
+      "beforeIds": [
+        "BCAST-a7d7600fe01735b38ac8",
+        "BCAST-b9bd9c450d9e9b9a0ad3",
+        "BCAST-83bd6582a24a95721610",
+        "BCAST-5a6d462f2b7f0f30aebb",
+        "BCAST-ce171f36f1284f098f39"
+      ],
+      "afterIds": [
+        "BCAST-ce171f36f1284f098f39",
+        "BCAST-9252637d16e92170b27a",
+        "BCAST-a7d7600fe01735b38ac8",
+        "BCAST-5a6d462f2b7f0f30aebb",
+        "BCAST-b9bd9c450d9e9b9a0ad3"
+      ]
+    },
+    {
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "before": 10,
+      "after": 5,
+      "beforeIds": [
+        "PDLOG-048",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-a66feddc1e1e27b62f47",
+        "BCAST-9103eb5ea2e4e90d2e91"
+      ],
+      "afterIds": [
+        "PDLOG-048",
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-13a205a80a146bacfac4"
+      ]
+    }
+  ],
+  "quoteChecks": 657,
+  "changedDuringFinalRun": [],
+  "scope": "공식 원문과 파생 색인 갱신 전후의 개발170 비교. 동일 원문에서 검색 엔진 효과를 분리한 평가나 실제 교사 효용 검증이 아님.",
+  "paidApiCalls": 0
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-05T00:14:25.729Z",
+  "cases": [
+    {
+      "name": "초안 없는 신규 자료도 자동 미처리로 집계·선택적 사람 검토와 분리",
+      "passed": true
+    },
+    {
+      "name": "등록 어휘 0개인 충분한 소개문은 실제 오류로 분류하지 않음",
+      "passed": true
+    },
+    {
+      "name": "원문 부족·인용 실패·상충·미지원·보류 지표 분리와 중복 자료 수",
+      "passed": true
+    },
+    {
+      "name": "오류 우선·제목순·최근 검사순·검색어 범위 분모",
+      "passed": true
+    },
+    {
+      "name": "후보·구조 통과·공개 자산·실행 단위와 상세 근거 분리",
+      "passed": true
+    },
+    {
+      "name": "검색 준비 실패와 생성/검사 실패를 따로 분류",
+      "passed": true
+    },
+    {
+      "name": "변경 후 목록에서 빠져도 선택 자료 유지·다음/마지막 이동",
+      "passed": true
+    },
+    {
+      "name": "원문 변경은 이력·인용을 유지하며 현재 변경 예외로 표시",
+      "passed": true
+    },
+    {
+      "name": "100개를 넘는 실행·최신 후보 집계가 이력 API 제한에 잘리지 않음",
+      "passed": true
+    },
+    {
+      "name": "자산 저장 실패 재시도는 후보 재생성 없이 현재 버전 대조 후 저장",
+      "passed": true
+    },
+    {
+      "name": "공개 자산 없는 후보 0건도 원문 변경 재검사 대상",
+      "passed": true
+    },
+    {
+      "name": "원본 없는 실행 실패도 관리 작업에서 사라지지 않음",
+      "passed": true
+    },
+    {
+      "name": "기존 원본·승인4·자동 DB 변경 없음",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "protectedHashes": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "479de8b68137a26ba18ffa40023c76cd4b41861971de983aa44497cd5bd2287e"
+  },
+  "storesUnchanged": true,
+  "paidApiCalls": 0
+}

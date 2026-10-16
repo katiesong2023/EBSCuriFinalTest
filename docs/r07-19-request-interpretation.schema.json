@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:curi:request-interpretation:v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "curi-request-v1"
+    },
+    "originalQuery": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "READY",
+        "NEEDS_CLARIFICATION",
+        "UNRESOLVED"
+      ]
+    },
+    "clauses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/clause"
+      },
+      "minItems": 0
+    },
+    "expression": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/expression"
+        }
+      ]
+    },
+    "expansions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "clauseId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "basis": {
+            "enum": [
+              "PARAPHRASE",
+              "HYPOTHESIS"
+            ]
+          }
+        },
+        "required": [
+          "clauseId",
+          "text",
+          "basis"
+        ]
+      },
+      "minItems": 0
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "sourceSpan": {
+            "$ref": "#/$defs/span"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "sourceSpan",
+          "reason",
+          "question"
+        ]
+      },
+      "minItems": 0
+    },
+    "grammarSpans": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/span"
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "version",
+    "originalQuery",
+    "status",
+    "clauses",
+    "expression",
+    "expansions",
+    "unresolved",
+    "grammarSpans"
+  ],
+  "$defs": {
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "quote"
+      ]
+    },
+    "clause": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^c[1-9][0-9]*$"
+        },
+        "kind": {
+          "enum": [
+            "topic",
+            "entity",
+            "relation",
+            "geography",
+            "program",
+            "form",
+            "duration",
+            "subtitles",
+            "scene",
+            "date",
+            "audience",
+            "curriculum",
+            "purpose",
+            "other"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "required",
+            "excluded",
+            "preferred",
+            "context"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceSpans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/span"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "mode",
+        "label",
+        "sourceSpans"
+      ]
+    },
+    "expression": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "ref"
+            },
+            "clauseId": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "op",
+            "clauseId"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "enum": [
+                "all",
+                "any"
+              ]
+            },
+            "children": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/expression"
+              },
+              "minItems": 2
+            },
+            "sourceSpans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/span"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "op",
+            "children",
+            "sourceSpans"
+          ]
+        }
+      ]
+    }
+  }
+}

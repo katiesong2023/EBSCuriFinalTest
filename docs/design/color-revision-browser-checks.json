@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-15",
+  "layoutChecks": [
+    {
+      "option": 4,
+      "requestedWidth": 1440,
+      "section": "web",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 1440,
+      "section": "extension",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 1440,
+      "section": "system",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 1440,
+      "section": "grid",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 390,
+      "section": "web",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 390,
+      "section": "extension",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 390,
+      "section": "system",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 390,
+      "section": "grid",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 360,
+      "section": "web",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 360,
+      "section": "extension",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 360,
+      "section": "system",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 4,
+      "requestedWidth": 360,
+      "section": "grid",
+      "bg": "rgb(251, 247, 239)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 1440,
+      "section": "web",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 1440,
+      "section": "extension",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 1440,
+      "section": "system",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 1440,
+      "section": "grid",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 390,
+      "section": "web",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 390,
+      "section": "extension",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 390,
+      "section": "system",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 390,
+      "section": "grid",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 390,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 360,
+      "section": "web",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 360,
+      "section": "extension",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 360,
+      "section": "system",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    },
+    {
+      "option": 3,
+      "requestedWidth": 360,
+      "section": "grid",
+      "bg": "rgb(244, 240, 230)",
+      "missingImages": 0,
+      "overflow": false,
+      "width": 360,
+      "passed": true
+    }
+  ],
+  "behaviorChecks": [
+    {
+      "option": 3,
+      "name": "bring-step-two",
+      "passed": true
+    },
+    {
+      "option": 3,
+      "name": "menu-escape-focus",
+      "passed": true
+    },
+    {
+      "option": 3,
+      "name": "extension-time-error",
+      "passed": true
+    },
+    {
+      "option": 4,
+      "name": "bring-step-two",
+      "passed": true
+    },
+    {
+      "option": 4,
+      "name": "menu-escape-focus",
+      "passed": true
+    },
+    {
+      "option": 4,
+      "name": "extension-time-error",
+      "passed": true
+    },
+    {
+      "option": 4,
+      "name": "search-submit-single-result",
+      "passed": true
+    },
+    {
+      "option": 3,
+      "name": "search-submit-single-result",
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "protectedFilesCompared": 129,
+  "changedProtectedFiles": [],
+  "missingLocalReferences": [],
+  "contrastPairs": 24
+}

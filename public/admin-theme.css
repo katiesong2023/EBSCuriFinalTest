@@ -1,0 +1,123 @@
+/* 운영 v1.1 구조/타이포와 컬러 v1.2를 관리자 작업공간에 연결한다. */
+body.curi-admin {
+  --ink:var(--curi-ink);--muted:var(--curi-muted);--line:var(--curi-line);
+  --paper:var(--curi-surface);--white:var(--curi-surface);--surface:var(--curi-surface);
+  --bg:var(--curi-canvas);--background:var(--curi-canvas);
+  --accent:var(--curi-primary);--primary:var(--curi-ink);--green:var(--curi-primary);
+  --primary-soft:var(--curi-primarySoft);--warning:var(--curi-warning);--warning-soft:var(--curi-warningSoft);
+  --danger:var(--curi-error);--danger-soft:var(--curi-errorSoft);--error:var(--curi-error);--error-soft:var(--curi-errorSoft);
+  --success:#2D6A43;--success-soft:#E8F0E6;--radius:var(--curi-radius-panel);--shadow:var(--curi-shadow-popup);
+  min-width:0;margin:0;background:var(--curi-canvas);color:var(--curi-ink);font:400 14px/1.6 var(--curi-font);
+}
+.curi-admin * {box-sizing:border-box}
+.curi-admin [hidden] {display:none!important}
+.curi-admin :is(button,input,select,textarea) {font:inherit}
+.curi-admin :is(h1,h2,h3,h4) {color:var(--ink);font-family:var(--curi-font);font-weight:500;letter-spacing:-.02em;overflow-wrap:anywhere;text-wrap:balance}
+.curi-admin h1 {margin:4px 0 12px;font-size:24px;line-height:1.4}
+.curi-admin h2 {margin:0 0 12px;font-size:18px;line-height:1.5}
+.curi-admin h3 {font-size:15px;line-height:1.5}
+.curi-admin h4 {font-size:14px;line-height:1.5}
+.curi-admin :is(b,strong,th,summary) {font-weight:500}
+.curi-admin :is(p,li,label,td) {overflow-wrap:anywhere}
+.curi-admin label {font-size:13px;font-weight:500}
+.curi-admin .section-number {flex:0 0 auto;min-width:24px;white-space:nowrap;color:var(--muted);font-size:12px;font-weight:500}
+.curi-admin :is(.card-label,.source-link) {color:var(--curi-primary);font-weight:500}
+.curi-admin .result-status {color:var(--ink);font-size:13px;font-weight:400}
+.curi-admin .result-status[data-state=success] {color:var(--success)}
+.curi-admin .result-status[data-state=held] {color:var(--warning)}
+.curi-admin .result-status[data-state=error] {color:var(--danger)}
+.curi-admin :is(.status-evidence,.draft-status,.standard-item strong,.draft-header h3,.tag-list span,.requirement-status,.comparison-dimensions dt,.requirement-comparison dt) {color:var(--curi-primary);font-weight:500}
+.curi-admin .draft-status[data-state=success] {color:var(--success)}
+.curi-admin .draft-status[data-state=error] {color:var(--danger)}
+.curi-admin :is(.source-type,.text-label,.edit-field) {font-weight:500}
+.curi-admin :is(.requirement-reason,.quote-provenance) {color:var(--muted)}
+.curi-admin :is(a,summary) {color:var(--curi-primary);text-underline-offset:3px}
+.curi-admin :is(.admin-shell,.page-shell,main.shell) {width:100%;max-width:1280px;margin:32px auto 64px;padding:0 24px}
+.curi-admin .page-header {margin:0 0 24px;padding:0 0 20px;border-bottom:1px solid var(--line)}
+.curi-admin .eyebrow {margin:0 0 8px;font:400 12px/1.5 var(--curi-font);letter-spacing:.02em;color:var(--muted)}
+.curi-admin :is(.muted,.filter-scope,#count-explanation) {font-size:12px;line-height:1.6;color:var(--muted)}
+.curi-admin :is(button,.button,.primary-link) {display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;max-width:100%;padding:8px 14px;border:1px solid transparent;border-radius:var(--curi-radius-control);background:var(--curi-ink);color:white;font-size:13px;font-weight:500;line-height:1.5;text-decoration:none;cursor:pointer;transition:background var(--curi-motion-fast),border-color var(--curi-motion-fast)}
+.curi-admin :is(button,.button,.primary-link):hover:not(:disabled) {background:var(--curi-primaryHover);color:white}
+.curi-admin :is(button,.button):active:not(:disabled) {background:var(--curi-primary)}
+.curi-admin button:disabled {cursor:default;opacity:.45}
+.curi-admin :is(.pagination button,.admin-session-nav button,#clear-selection,#job-stop,#job-clear,.actions button:not(:first-child),.page-header .button) {background:var(--curi-surfaceMuted);color:var(--ink);border-color:var(--line)}
+.curi-admin :is(.pagination button,.admin-session-nav button,#clear-selection,#job-stop,#job-clear,.actions button:not(:first-child),.page-header .button):hover:not(:disabled) {background:var(--curi-primarySoft);color:var(--ink)}
+.curi-admin :is(input,select,textarea) {min-width:0;min-height:40px;padding:8px 12px;border:1px solid var(--curi-controlBorder);border-radius:var(--curi-radius-control);background:var(--surface);color:var(--ink);font-size:14px;font-weight:400;box-shadow:none}
+.curi-admin :is(input[type=checkbox],input[type=radio]) {width:16px;min-width:16px;height:16px;min-height:16px;padding:0;accent-color:var(--curi-selection)}
+.curi-admin textarea {resize:vertical;max-width:100%}
+.curi-admin :is(input,select,textarea):disabled {color:var(--muted);background:var(--curi-surfaceMuted);opacity:1}
+.curi-admin #curriculum-form select,.curi-admin #state {border-color:var(--curi-controlBorder);background:var(--surface)}
+.curi-admin :is(button,a,input,select,textarea,summary):focus-visible {outline:2px solid var(--curi-focus);outline-offset:2px}
+.curi-admin :is(.panel,.resource,.metric,.search-panel,.curriculum-candidate,.requirement-comparison,.result-item) {min-width:0;padding:20px;border:1px solid var(--line);border-radius:var(--curi-radius-panel);background:var(--surface);box-shadow:none}
+.curi-admin :is(.panel,.search-panel) {margin:16px 0}
+.curi-admin :is(.comparison-grid,.human-compare,.content-grid,.curriculum-candidate) {gap:20px}
+.curi-admin :is(.comparison-grid,.human-compare,.content-grid)>* {min-width:0}
+.curi-admin :is(.content-card,.evidence-card,.draft-card,.review-points,.content-preview,.candidate-card,.mapping-card,.invocation-card,.decision-option) {border:1px solid var(--line);border-radius:var(--curi-radius-panel);background:var(--surface)}
+.curi-admin .decision-option:has(input:checked) {border-color:var(--curi-selection);background:var(--curi-primarySoft)}
+.curi-admin :is(.standard-item,.draft-header,.draft-detail,.tag-list span,.comparison-dimensions>div,.requirement-comparison dl>div) {border-color:var(--line)}
+.curi-admin :is(.notice,.source-text,.comparison-grid blockquote,.curriculum-comparison blockquote) {padding:14px 16px;border:0;border-radius:8px;background:var(--curi-surfaceMuted);color:var(--ink);font-size:13px;font-weight:400;line-height:1.7}
+.curi-admin .metrics {gap:12px}
+.curi-admin .metric {padding:16px;font-size:12px;color:var(--muted)}
+.curi-admin .metric strong {margin-top:8px;font-size:24px;line-height:1.4;color:var(--ink);font-variant-numeric:tabular-nums}
+.curi-admin .metric:hover {background:var(--curi-primarySoft);border-color:var(--curi-accent)}
+.curi-admin :is(.badge,.status-badge,.summary span) {display:inline-block;padding:4px 9px;border:0;border-radius:var(--curi-radius-pill);background:var(--curi-surfaceMuted);color:var(--ink);font-size:11px;font-weight:500;line-height:1.5}
+.curi-admin :is(.badge.warning,.warning,.warning-item,.notice.warning) {background:var(--curi-warningSoft);color:var(--curi-warning)}
+.curi-admin :is(.error-item,.danger,.badge.error,.badge.danger) {background:var(--curi-errorSoft);color:var(--curi-error)}
+.curi-admin :is(.badge.success,.success) {background:var(--success-soft);color:var(--success)}
+.curi-admin :is(.work-reasons,.relation-state) {font-weight:500}
+.curi-admin summary {min-height:32px;padding:6px 0;font-size:13px;line-height:20px;cursor:pointer}
+.curi-admin .filters {padding:16px;border-radius:var(--curi-radius-panel);background:var(--curi-surfaceMuted);gap:12px}
+.curi-admin .filters label {font-size:12px;font-weight:500;min-width:0}
+.curi-admin .filters label :is(input,select) {display:block;margin-top:6px}
+.curi-admin .filters label:first-child {min-width:180px}
+.curi-admin .actions {gap:8px;align-items:center}
+.curi-admin .actions label {font-size:12px}
+.curi-admin .table-scroll {max-width:100%;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.curi-admin table {width:100%;border-collapse:collapse;font-size:12px;line-height:1.6}
+.curi-admin :is(th,td) {padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.curi-admin th {background:var(--curi-surfaceMuted);color:var(--ink)}
+.curi-admin tr:last-child td {border-bottom:0}
+.curi-admin pre {font-size:12px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+.curi-admin fieldset {min-width:0;border:1px solid var(--line);border-radius:8px}
+.curi-admin .admin-session-nav {display:flex;flex-wrap:wrap;align-items:center;gap:20px;min-height:72px;padding:16px 24px;border-bottom:1px solid var(--line);background:var(--curi-canvas);font:400 13px/1.5 var(--curi-font)}
+.curi-admin .admin-session-nav>a {color:var(--ink);text-decoration:none}
+.curi-admin .admin-session-nav>a:not(.admin-brand):hover {text-decoration:underline}
+.curi-admin .admin-session-nav>a[aria-current=page] {color:var(--curi-primary);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+.curi-admin .admin-session-nav button {width:auto;flex:0 0 auto;margin-left:0}
+.curi-admin .admin-brand {display:inline-flex;align-items:center;gap:8px;margin-right:auto;color:var(--ink);font:400 18px/1.2 var(--curi-font);letter-spacing:-.03em;text-decoration:none;white-space:nowrap}
+.curi-admin .admin-brand img {display:block;width:30px;height:30px}
+.curi-admin .admin-brand small {font-size:11px;letter-spacing:0}
+.curi-admin .admin-subnav {display:flex;justify-content:flex-end;padding:12px 24px;border-bottom:1px solid var(--line)}
+.curi-admin .admin-subnav nav {display:flex;gap:16px;flex-wrap:wrap;font-size:12px}
+.curi-admin .hero {display:block;min-height:0;padding:0;margin:0 0 24px}
+.curi-admin .hero h1 {font-size:24px}
+.curi-admin .hero p {font-size:14px}
+.curi-admin .login-shell {width:calc(100% - 32px);max-width:440px;margin:10vh auto;padding:32px;border:1px solid var(--line);border-radius:var(--curi-radius-panel);background:white;box-shadow:var(--curi-shadow-popup)}
+.curi-admin .login-shell>.admin-brand {display:flex;justify-content:center;margin:0 0 32px}
+.curi-admin .login-shell>h1 {font-size:20px;margin-top:16px}
+.curi-admin .login-shell>p {font-size:13px;color:var(--muted)}
+.curi-admin .login-shell label {margin-top:20px;font-size:12px;font-weight:500}
+.curi-admin .login-shell input {display:block;width:100%;margin-top:6px}
+.curi-admin .login-shell button {width:100%;margin-top:12px}
+@media(max-width:950px) {
+  .curi-admin :is(.comparison-grid,.human-compare,.content-grid,.curriculum-candidate) {grid-template-columns:minmax(0,1fr)}
+  .curi-admin .filters {flex-wrap:wrap;align-items:flex-end}
+  .curi-admin .filters label {flex:1 1 180px;width:auto!important}
+}
+@media(max-width:600px) {
+  .curi-admin :is(.admin-shell,.page-shell,main.shell) {margin:24px auto 40px;padding:0 16px}
+  .curi-admin .admin-session-nav {gap:12px;padding:12px 16px;min-height:64px}
+  .curi-admin .admin-session-nav .admin-brand {flex:1 1 calc(100% - 90px);order:0}
+  .curi-admin .admin-session-nav button {order:1;margin-left:0}
+  .curi-admin .admin-session-nav>a:not(.admin-brand) {order:2}
+  .curi-admin :is(h1,.hero h1) {font-size:20px}
+  .curi-admin h2 {font-size:16px}
+  .curi-admin :is(.panel,.resource,.search-panel,.curriculum-candidate) {padding:16px}
+  .curi-admin .resources {grid-template-columns:minmax(0,1fr)}
+  .curi-admin .metrics {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .curi-admin .metric strong {font-size:20px}
+  .curi-admin .actions {flex-wrap:wrap}
+  .curi-admin .login-shell {margin:24px auto;padding:24px}
+  .curi-admin .admin-subnav {padding:12px 16px}
+}
+@media(prefers-reduced-motion:reduce) {.curi-admin * {scroll-behavior:auto;transition:none!important}}

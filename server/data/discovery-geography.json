@@ -1,0 +1,80 @@
+{
+  "version": "2026-09-28.1",
+  "note": "공식 페이지 검색 색인의 제목·소개 요약을 로컬 보관. 실시간 페이지 접근과 영상 재생은 미확인. 교육과정 승인 자료가 아니다.",
+  "concepts": [
+    {
+      "id": "east-high-west-low",
+      "label": "동고서저",
+      "aliases": ["동고서저", "동쪽이 높고 서쪽이 낮", "동쪽은 높고 서쪽은 낮", "동쪽 높고 서쪽 낮"],
+      "description": "우리나라의 동쪽 산지와 서쪽 평야를 비교하는 탐색입니다. 한 장소만으로 전국의 높낮이를 설명할 수 없으므로 산지와 평야 자료를 함께 살펴봅니다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0059933",
+      "sourceLabel": "한국민족문화대백과사전 · 평야",
+      "places": [
+        { "name": "설악산", "aliases": ["설악산", "설악"], "evidenceTerms": ["공룡능선", "대청봉", "울산바위", "암봉", "산세", "산맥", "해발", "능선", "기암괴석"], "role": "동쪽 산지 사례", "note": "산지의 모습을 살펴볼 자료입니다. 동고서저의 원인 설명 여부는 별도 확인이 필요합니다.", "resourceIds": ["GEO-SEORAK", "GEO-PARK-SEORAK"] },
+        { "name": "김제", "evidenceTerms": ["김제평야", "호남평야", "만경평야", "지평선", "넓은 들", "너른 들", "평야"], "role": "서쪽 평야 비교 장소", "note": "호남평야를 구성하는 김제평야와 연결해 비교할 장소입니다. 개별 회차의 제목·소개문 근거를 확인하세요.", "resourceIds": ["GEO-GIMJE"] }
+      ],
+      "directResourceIds": ["ECLIP-046"],
+      "questions": ["지도에서 설악산과 김제의 위치를 찾아보세요.", "두 장소에서 높은 산지와 넓고 낮은 땅의 모습을 비교해 보세요.", "동고서저를 설명하려면 어떤 높이 지도나 단면도가 더 필요할까요?"]
+    },
+    {
+      "id": "volcano",
+      "label": "화산 지형",
+      "aliases": ["화산 지형", "화산지형", "화산"],
+      "evidenceTerms": ["화산 지형", "화산지형", "화산활동", "화산 활동", "화산 폭발", "화산폭발", "화산섬", "분화구", "용암", "현무암"],
+      "description": "한라산을 사례로 화산 지형을 탐색합니다. 자료 소개가 다루는 범위와 실제 장면을 구분해서 확인하세요.",
+      "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+      "sourceLabel": "EBS 중학 · 국립공원 강의 소개",
+      "places": [{ "name": "한라산", "role": "화산 지형 사례", "note": "EBS 강의 소개에 화산 지형이 명시되어 있습니다.", "resourceIds": ["GEO-PARK-HALLA"] }],
+      "directResourceIds": [],
+      "questions": ["화산 활동이 만든 지형의 특징을 찾아보세요.", "산이 있다는 사실만으로 화산 지형이라고 할 수 있을까요?"]
+    },
+    {
+      "id": "coast",
+      "label": "해안 지형",
+      "aliases": ["해안 지형", "해안지형", "리아스식 해안", "리아스 해안"],
+      "description": "한려해상의 해안 형태를 살펴보는 탐색입니다.",
+      "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+      "sourceLabel": "EBS 중학 · 국립공원 강의 소개",
+      "places": [{ "name": "한려해상", "role": "해안 지형 사례", "note": "EBS 강의 소개에 해식 지형과 리아스식 해안이 명시되어 있습니다.", "resourceIds": ["GEO-PARK-HALLYEO"] }],
+      "directResourceIds": [],
+      "questions": ["해안선이 복잡한 곳을 지도에서 찾아보세요.", "해식 지형이 만들어지는 과정을 설명해 보세요."]
+    }
+  ],
+  "resources": [
+    {
+      "id": "GEO-SEORAK", "kind": "episode", "program": "한국기행", "title": "움트는 강원 — 1부 아! 설악이어라",
+      "summary": "EBS 방송 소개는 설악산과 주변 지역을 다루며 백담사에서 대청봉까지 이어지는 산길과 겨울 산의 경관을 소개합니다.",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=3&option=respond&pageNo=4&postId=10001569455&searchCondition=title&searchKeyword=",
+      "linkLabel": "EBS 방송 소개", "evidenceLevel": "INDEXED_DESCRIPTION", "evidenceLabel": "공식 소개 검색 색인 · 요약", "sourceDate": "2015-02-23", "checkedAt": "2026-09-28", "durationMinutes": null,
+      "limitation": "소개문 검색 색인으로 확인했습니다. 원문 페이지의 현재 접근 상태·영상 재생·장면 시점은 미확인입니다."
+    },
+    {
+      "id": "GEO-GIMJE", "kind": "episode", "program": "한국기행", "title": "김제 — 1부 하늘, 땅을 만나다 지평선 이야기",
+      "summary": "EBS미디어의 전북 역사문화기행 상품 목록에서 확인한 김제 편입니다. 제목의 지평선을 단서로 평야 비교 자료를 찾아볼 수 있습니다.",
+      "sourceUrl": "https://www.ebsmedia.net/shop/shopdetail.html?branduid=705349",
+      "linkLabel": "EBS미디어 상품 목록", "evidenceLevel": "TITLE_ONLY", "evidenceLabel": "공식 상품 목록 · 제목 근거", "checkedAt": "2026-09-28", "durationMinutes": 17,
+      "limitation": "유료 상품 목록입니다. 무료 재생 링크가 아니며 실제 평야 장면과 설명은 미확인입니다."
+    },
+    {
+      "id": "GEO-PARK-SEORAK", "kind": "lesson", "program": "EBS 중학 국립공원", "title": "제5호 설악산 국립공원",
+      "summary": "설악산의 암석 경관을 소개하고 울산바위, 돌산과 흙산, 강한 바람과 산불을 함께 다루는 강의입니다.",
+      "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+      "linkLabel": "EBS 강좌 목록", "evidenceLevel": "INDEXED_DESCRIPTION", "evidenceLabel": "공식 강의 소개 검색 색인 · 요약", "checkedAt": "2026-09-28", "durationMinutes": 8,
+      "limitation": "중학 강의 목록입니다. 초등 적합성·개별 재생 주소·장면 시점은 미확인입니다."
+    },
+    {
+      "id": "GEO-PARK-HALLA", "kind": "lesson", "program": "EBS 중학 국립공원", "title": "제7호 한라산 국립공원",
+      "summary": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+      "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+      "linkLabel": "EBS 강좌 목록", "evidenceLevel": "INDEXED_DESCRIPTION", "evidenceLabel": "공식 강의 소개 검색 색인 · 요약", "checkedAt": "2026-09-28", "durationMinutes": 8,
+      "limitation": "중학 강의 목록입니다. 초등 적합성·개별 재생 주소·장면 시점은 미확인입니다."
+    },
+    {
+      "id": "GEO-PARK-HALLYEO", "kind": "lesson", "program": "EBS 중학 국립공원", "title": "제4호 한려해상 국립공원",
+      "summary": "바닷물에 의한 침식 지형과 복잡하게 들어간 해안의 형태를 다루는 강의입니다.",
+      "sourceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+      "linkLabel": "EBS 강좌 목록", "evidenceLevel": "INDEXED_DESCRIPTION", "evidenceLabel": "공식 강의 소개 검색 색인 · 요약", "checkedAt": "2026-09-28", "durationMinutes": 8,
+      "limitation": "중학 강의 목록입니다. 초등 적합성·개별 재생 주소·장면 시점은 미확인입니다."
+    }
+  ]
+}

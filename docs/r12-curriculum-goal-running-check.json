@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "q": "자석",
+      "mode": "candidates",
+      "total": 0,
+      "scopes": []
+    },
+    {
+      "q": "자석",
+      "mode": "priority",
+      "total": 2,
+      "scopes": [
+        {
+          "id": "BCAST-24cb7586692e2a707640",
+          "scope": "EXPANSION",
+          "goal": "지구 자전과 낮·밤의 원인 설명"
+        },
+        {
+          "id": "BCAST-2d032ce4b233bfe29ceb",
+          "scope": "EXPANSION",
+          "goal": "지구 자전과 낮·밤의 원인 설명"
+        }
+      ]
+    },
+    {
+      "q": "자전",
+      "mode": "priority",
+      "total": 3,
+      "scopes": [
+        {
+          "id": "BCAST-012ead6030a246fe0eeb",
+          "scope": "RELATED",
+          "goal": "지구 자전과 낮·밤의 원인 설명"
+        },
+        {
+          "id": "BCAST-4280dd3cf2aaac6c3584",
+          "scope": "RELATED",
+          "goal": "지구 자전과 낮·밤의 원인 설명"
+        },
+        {
+          "id": "BCAST-418eb389c28af0afd751",
+          "scope": "RELATED",
+          "goal": "지구 자전과 낮·밤의 원인 설명"
+        }
+      ]
+    }
+  ],
+  "liveStylesAndGoalOrder": true,
+  "paidApiCalls": 0,
+  "teacherStudy": false
+}

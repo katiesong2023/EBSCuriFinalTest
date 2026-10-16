@@ -1,0 +1,68 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "cards": [
+        {
+          "width": 442.65625,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        },
+        {
+          "width": 442.671875,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        },
+        {
+          "width": 442.65625,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "cards": [
+        {
+          "width": 326,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        },
+        {
+          "width": 326,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        },
+        {
+          "width": 326,
+          "border": "1px",
+          "background": "rgb(251, 247, 239)",
+          "padding": "12px",
+          "buttonOpacity": "1",
+          "buttonPosition": "static"
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "saveUndoPassed": true,
+  "isolatedData": true,
+  "focusTriggeredRequests": 0
+}

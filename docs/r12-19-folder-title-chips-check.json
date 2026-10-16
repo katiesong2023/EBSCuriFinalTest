@@ -1,0 +1,496 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "alignment": {
+        "name": {
+          "x": 263.5,
+          "y": 281.1875,
+          "bottom": 322.1875,
+          "right": 525.5,
+          "width": 262,
+          "height": 41,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "28px"
+        },
+        "panel": {
+          "x": 244,
+          "y": 321.1875,
+          "bottom": 1203.40625,
+          "right": 1420,
+          "width": 1176,
+          "height": 882.21875,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "14px"
+        },
+        "palette": {
+          "x": 263.5,
+          "y": 251.1875,
+          "bottom": 275.1875,
+          "right": 549.5,
+          "width": 286,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "13px"
+        },
+        "selected": {
+          "x": 318.5,
+          "y": 254.1875,
+          "bottom": 272.1875,
+          "right": 336.5,
+          "width": 18,
+          "height": 18,
+          "outline": "2px",
+          "outlineStyle": "solid",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "button": {
+          "x": 315.5,
+          "y": 251.1875,
+          "bottom": 275.1875,
+          "right": 339.5,
+          "width": 24,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "chips": [
+          {
+            "x": 266.5,
+            "right": 284.5,
+            "width": 18
+          },
+          {
+            "x": 292.5,
+            "right": 310.5,
+            "width": 18
+          },
+          {
+            "x": 318.5,
+            "right": 336.5,
+            "width": 18
+          },
+          {
+            "x": 344.5,
+            "right": 362.5,
+            "width": 18
+          },
+          {
+            "x": 370.5,
+            "right": 388.5,
+            "width": 18
+          }
+        ]
+      },
+      "selectionAndRenamePassed": true
+    },
+    {
+      "width": 1000,
+      "alignment": {
+        "name": {
+          "x": 227.5,
+          "y": 281.1875,
+          "bottom": 322.1875,
+          "right": 489.5,
+          "width": 262,
+          "height": 41,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "28px"
+        },
+        "panel": {
+          "x": 208,
+          "y": 321.1875,
+          "bottom": 1554.03125,
+          "right": 980,
+          "width": 772,
+          "height": 1232.84375,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "14px"
+        },
+        "palette": {
+          "x": 227.5,
+          "y": 251.1875,
+          "bottom": 275.1875,
+          "right": 513.5,
+          "width": 286,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "13px"
+        },
+        "selected": {
+          "x": 282.5,
+          "y": 254.1875,
+          "bottom": 272.1875,
+          "right": 300.5,
+          "width": 18,
+          "height": 18,
+          "outline": "2px",
+          "outlineStyle": "solid",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "button": {
+          "x": 279.5,
+          "y": 251.1875,
+          "bottom": 275.1875,
+          "right": 303.5,
+          "width": 24,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "chips": [
+          {
+            "x": 230.5,
+            "right": 248.5,
+            "width": 18
+          },
+          {
+            "x": 256.5,
+            "right": 274.5,
+            "width": 18
+          },
+          {
+            "x": 282.5,
+            "right": 300.5,
+            "width": 18
+          },
+          {
+            "x": 308.5,
+            "right": 326.5,
+            "width": 18
+          },
+          {
+            "x": 334.5,
+            "right": 352.5,
+            "width": 18
+          }
+        ]
+      },
+      "selectionAndRenamePassed": true
+    },
+    {
+      "width": 768,
+      "alignment": {
+        "name": {
+          "x": 227.5,
+          "y": 306.375,
+          "bottom": 347.375,
+          "right": 489.5,
+          "width": 262,
+          "height": 41,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "28px"
+        },
+        "panel": {
+          "x": 208,
+          "y": 346.375,
+          "bottom": 1543.765625,
+          "right": 748,
+          "width": 540,
+          "height": 1197.390625,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "14px"
+        },
+        "palette": {
+          "x": 227.5,
+          "y": 276.375,
+          "bottom": 300.375,
+          "right": 513.5,
+          "width": 286,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "13px"
+        },
+        "selected": {
+          "x": 282.5,
+          "y": 279.375,
+          "bottom": 297.375,
+          "right": 300.5,
+          "width": 18,
+          "height": 18,
+          "outline": "2px",
+          "outlineStyle": "solid",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "button": {
+          "x": 279.5,
+          "y": 276.375,
+          "bottom": 300.375,
+          "right": 303.5,
+          "width": 24,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "chips": [
+          {
+            "x": 230.5,
+            "right": 248.5,
+            "width": 18
+          },
+          {
+            "x": 256.5,
+            "right": 274.5,
+            "width": 18
+          },
+          {
+            "x": 282.5,
+            "right": 300.5,
+            "width": 18
+          },
+          {
+            "x": 308.5,
+            "right": 326.5,
+            "width": 18
+          },
+          {
+            "x": 334.5,
+            "right": 352.5,
+            "width": 18
+          }
+        ]
+      },
+      "selectionAndRenamePassed": true
+    },
+    {
+      "width": 390,
+      "alignment": {
+        "name": {
+          "x": 31.5,
+          "y": 528.375,
+          "bottom": 565.375,
+          "right": 287.5,
+          "width": 256,
+          "height": 37,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "24px"
+        },
+        "panel": {
+          "x": 16,
+          "y": 564.375,
+          "bottom": 1594.234375,
+          "right": 374,
+          "width": 358,
+          "height": 1029.859375,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "14px"
+        },
+        "palette": {
+          "x": 31.5,
+          "y": 498.375,
+          "bottom": 522.375,
+          "right": 311.5,
+          "width": 280,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "13px"
+        },
+        "selected": {
+          "x": 86.5,
+          "y": 501.375,
+          "bottom": 519.375,
+          "right": 104.5,
+          "width": 18,
+          "height": 18,
+          "outline": "2px",
+          "outlineStyle": "solid",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "button": {
+          "x": 83.5,
+          "y": 498.375,
+          "bottom": 522.375,
+          "right": 107.5,
+          "width": 24,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "chips": [
+          {
+            "x": 34.5,
+            "right": 52.5,
+            "width": 18
+          },
+          {
+            "x": 60.5,
+            "right": 78.5,
+            "width": 18
+          },
+          {
+            "x": 86.5,
+            "right": 104.5,
+            "width": 18
+          },
+          {
+            "x": 112.5,
+            "right": 130.5,
+            "width": 18
+          },
+          {
+            "x": 138.5,
+            "right": 156.5,
+            "width": 18
+          }
+        ]
+      },
+      "selectionAndRenamePassed": true
+    },
+    {
+      "width": 360,
+      "alignment": {
+        "name": {
+          "x": 31.5,
+          "y": 547.375,
+          "bottom": 584.375,
+          "right": 257.5,
+          "width": 226,
+          "height": 37,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "24px"
+        },
+        "panel": {
+          "x": 16,
+          "y": 583.375,
+          "bottom": 1637.234375,
+          "right": 344,
+          "width": 328,
+          "height": 1053.859375,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "1px",
+          "font": "14px"
+        },
+        "palette": {
+          "x": 31.5,
+          "y": 517.375,
+          "bottom": 541.375,
+          "right": 281.5,
+          "width": 250,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "13px"
+        },
+        "selected": {
+          "x": 86.5,
+          "y": 520.375,
+          "bottom": 538.375,
+          "right": 104.5,
+          "width": 18,
+          "height": 18,
+          "outline": "2px",
+          "outlineStyle": "solid",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "button": {
+          "x": 83.5,
+          "y": 517.375,
+          "bottom": 541.375,
+          "right": 107.5,
+          "width": 24,
+          "height": 24,
+          "outline": "3px",
+          "outlineStyle": "none",
+          "offset": "0px",
+          "border": "0px",
+          "font": "12px"
+        },
+        "chips": [
+          {
+            "x": 34.5,
+            "right": 52.5,
+            "width": 18
+          },
+          {
+            "x": 60.5,
+            "right": 78.5,
+            "width": 18
+          },
+          {
+            "x": 86.5,
+            "right": 104.5,
+            "width": 18
+          },
+          {
+            "x": 112.5,
+            "right": 130.5,
+            "width": 18
+          },
+          {
+            "x": 138.5,
+            "right": 156.5,
+            "width": 18
+          }
+        ]
+      },
+      "selectionAndRenamePassed": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

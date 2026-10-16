@@ -1,0 +1,2076 @@
+{
+  "preparedAt": "2026-10-13",
+  "rows": [
+    {
+      "id": "G1-01",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "지도",
+      "topic": "지도",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "지도",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-02",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "우리 동네을 설명해주는 영상",
+      "topic": "우리 동네",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "우리 동네",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-03",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "문화유산이 생기는 까닭을 알려주는 자료",
+      "topic": "문화유산",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "문화유산",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-04",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "다문화의 변화 과정을 관찰하는 수업 자료",
+      "topic": "다문화",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "다문화",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-05",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "선거의 원인과 결과를 비교하는 사례",
+      "topic": "선거",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "선거",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-06",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "지역 문제 다큐멘터리",
+      "topic": "지역 문제",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지역 문제",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-07",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "농업 강의 제외",
+      "topic": "농업",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "농업",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-08",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "교통 다큐프라임에서 찾아주세요",
+      "topic": "교통",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "교통",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-09",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "도시 수업 도입에 활용하고 싶어요",
+      "topic": "도시",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "도시",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-10",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "환경과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "환경",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "환경",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-11",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "지도의 변화 과정을 관찰하는 수업 자료",
+      "topic": "지도",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지도",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-12",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "우리 동네의 원인과 결과를 비교하는 사례",
+      "topic": "우리 동네",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "우리 동네",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-13",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "문화유산 다큐멘터리",
+      "topic": "문화유산",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "문화유산",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-14",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "다문화 강의 제외",
+      "topic": "다문화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "다문화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-15",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "선거 다큐프라임에서 찾아주세요",
+      "topic": "선거",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "선거",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-16",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "지역 문제 수업 도입에 활용하고 싶어요",
+      "topic": "지역 문제",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "지역 문제",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-17",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "농업과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "농업",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "농업",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-18",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "교통",
+      "topic": "교통",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "교통",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-19",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "도시을 설명해주는 영상",
+      "topic": "도시",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "도시",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G1-20",
+      "grade": "초3~4",
+      "subject": "사회",
+      "query": "환경이 생기는 까닭을 알려주는 자료",
+      "topic": "환경",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "환경",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-01",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "자석",
+      "topic": "자석",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "자석",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-02",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "물을 설명해주는 영상",
+      "topic": "물",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "물",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-03",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "동물이 생기는 까닭을 알려주는 자료",
+      "topic": "동물",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "동물",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-04",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "식물의 변화 과정을 관찰하는 수업 자료",
+      "topic": "식물",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "식물",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-05",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "지층의 원인과 결과를 비교하는 사례",
+      "topic": "지층",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "지층",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-06",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "화석 다큐멘터리",
+      "topic": "화석",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "화석",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-07",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "소리 강의 제외",
+      "topic": "소리",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "소리",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-08",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "그림자 다큐프라임에서 찾아주세요",
+      "topic": "그림자",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "그림자",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-09",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "달 수업 도입에 활용하고 싶어요",
+      "topic": "달",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "달",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-10",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "흙과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "흙",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "흙",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-11",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "자석의 변화 과정을 관찰하는 수업 자료",
+      "topic": "자석",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "자석",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-12",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "물의 원인과 결과를 비교하는 사례",
+      "topic": "물",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "물",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-13",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "동물 다큐멘터리",
+      "topic": "동물",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "동물",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-14",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "식물 강의 제외",
+      "topic": "식물",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "식물",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-15",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "지층 다큐프라임에서 찾아주세요",
+      "topic": "지층",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지층",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-16",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "화석 수업 도입에 활용하고 싶어요",
+      "topic": "화석",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "화석",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-17",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "소리과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "소리",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "소리",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-18",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "그림자",
+      "topic": "그림자",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "그림자",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-19",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "달을 설명해주는 영상",
+      "topic": "달",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "달",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G2-20",
+      "grade": "초3~4",
+      "subject": "과학",
+      "query": "흙이 생기는 까닭을 알려주는 자료",
+      "topic": "흙",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "흙",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-01",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "선거",
+      "topic": "선거",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "선거",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-02",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "민주주의을 설명해주는 영상",
+      "topic": "민주주의",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "민주주의",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-03",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "인권이 생기는 까닭을 알려주는 자료",
+      "topic": "인권",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "인권",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-04",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "경제의 변화 과정을 관찰하는 수업 자료",
+      "topic": "경제",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "경제",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-05",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "독립운동의 원인과 결과를 비교하는 사례",
+      "topic": "독립운동",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "독립운동",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-06",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "고조선 다큐멘터리",
+      "topic": "고조선",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "고조선",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-07",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "다문화 강의 제외",
+      "topic": "다문화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "다문화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-08",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "인구 다큐프라임에서 찾아주세요",
+      "topic": "인구",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "인구",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-09",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "무역 수업 도입에 활용하고 싶어요",
+      "topic": "무역",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "무역",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-10",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "기후과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "기후",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "기후",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-11",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "선거의 변화 과정을 관찰하는 수업 자료",
+      "topic": "선거",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "선거",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-12",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "민주주의의 원인과 결과를 비교하는 사례",
+      "topic": "민주주의",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "민주주의",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-13",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "인권 다큐멘터리",
+      "topic": "인권",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "인권",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-14",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "경제 강의 제외",
+      "topic": "경제",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "경제",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-15",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "독립운동 다큐프라임에서 찾아주세요",
+      "topic": "독립운동",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "독립운동",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-16",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "고조선 수업 도입에 활용하고 싶어요",
+      "topic": "고조선",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "고조선",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-17",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "다문화과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "다문화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "다문화",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-18",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "인구",
+      "topic": "인구",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "인구",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-19",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "무역을 설명해주는 영상",
+      "topic": "무역",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "무역",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G3-20",
+      "grade": "초5~6",
+      "subject": "사회",
+      "query": "기후이 생기는 까닭을 알려주는 자료",
+      "topic": "기후",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "기후",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-01",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "연소",
+      "topic": "연소",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "연소",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-02",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "지구 자전을 설명해주는 영상",
+      "topic": "지구 자전",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지구 자전",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-03",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "생태계이 생기는 까닭을 알려주는 자료",
+      "topic": "생태계",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "생태계",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-04",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "태양계의 변화 과정을 관찰하는 수업 자료",
+      "topic": "태양계",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "태양계",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-05",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "산소의 원인과 결과를 비교하는 사례",
+      "topic": "산소",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "산소",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-06",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "소화 다큐멘터리",
+      "topic": "소화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "소화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-07",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "전기 강의 제외",
+      "topic": "전기",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "전기",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-08",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "물질 다큐프라임에서 찾아주세요",
+      "topic": "물질",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "물질",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-09",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "증발 수업 도입에 활용하고 싶어요",
+      "topic": "증발",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "증발",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-10",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "화산과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "화산",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "화산",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-11",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "연소의 변화 과정을 관찰하는 수업 자료",
+      "topic": "연소",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "연소",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-12",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "지구 자전의 원인과 결과를 비교하는 사례",
+      "topic": "지구 자전",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지구 자전",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-13",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "생태계 다큐멘터리",
+      "topic": "생태계",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "생태계",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-14",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "태양계 강의 제외",
+      "topic": "태양계",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "태양계",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-15",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "산소 다큐프라임에서 찾아주세요",
+      "topic": "산소",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "산소",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-16",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "소화 수업 도입에 활용하고 싶어요",
+      "topic": "소화",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "소화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-17",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "전기과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "전기",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "전기",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-18",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "물질",
+      "topic": "물질",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "물질",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-19",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "증발을 설명해주는 영상",
+      "topic": "증발",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "증발",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G4-20",
+      "grade": "초5~6",
+      "subject": "과학",
+      "query": "화산이 생기는 까닭을 알려주는 자료",
+      "topic": "화산",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "화산",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-01",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "인권",
+      "topic": "인권",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "인권",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-02",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "세계화을 설명해주는 영상",
+      "topic": "세계화",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "세계화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-03",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "시장이 생기는 까닭을 알려주는 자료",
+      "topic": "시장",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "시장",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-04",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "문화의 변화 과정을 관찰하는 수업 자료",
+      "topic": "문화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "문화",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-05",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "기후의 원인과 결과를 비교하는 사례",
+      "topic": "기후",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "기후",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-06",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "지리 다큐멘터리",
+      "topic": "지리",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지리",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-07",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "주민 참여 강의 제외",
+      "topic": "주민 참여",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "주민 참여",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-08",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "정치 다큐프라임에서 찾아주세요",
+      "topic": "정치",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "정치",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-09",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "자원 수업 도입에 활용하고 싶어요",
+      "topic": "자원",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "자원",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-10",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "재해과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "재해",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "재해",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-11",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "인권의 변화 과정을 관찰하는 수업 자료",
+      "topic": "인권",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "인권",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-12",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "세계화의 원인과 결과를 비교하는 사례",
+      "topic": "세계화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "세계화",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-13",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "시장 다큐멘터리",
+      "topic": "시장",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "시장",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-14",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "문화 강의 제외",
+      "topic": "문화",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "문화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-15",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "기후 다큐프라임에서 찾아주세요",
+      "topic": "기후",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "기후",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-16",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "지리 수업 도입에 활용하고 싶어요",
+      "topic": "지리",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지리",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-17",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "주민 참여과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "주민 참여",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "주민 참여",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-18",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "정치",
+      "topic": "정치",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "정치",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-19",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "자원을 설명해주는 영상",
+      "topic": "자원",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "자원",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G5-20",
+      "grade": "중1 참고",
+      "subject": "사회",
+      "query": "재해이 생기는 까닭을 알려주는 자료",
+      "topic": "재해",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "재해",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-01",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "마찰력",
+      "topic": "마찰력",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "마찰력",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-02",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "중력을 설명해주는 영상",
+      "topic": "중력",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "중력",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-03",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "힘이 생기는 까닭을 알려주는 자료",
+      "topic": "힘",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "힘",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-04",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "광합성의 변화 과정을 관찰하는 수업 자료",
+      "topic": "광합성",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "광합성",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-05",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "호흡의 원인과 결과를 비교하는 사례",
+      "topic": "호흡",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "호흡",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-06",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "상태 변화 다큐멘터리",
+      "topic": "상태 변화",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "상태 변화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-07",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "열 강의 제외",
+      "topic": "열",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "열",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-08",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "빛 다큐프라임에서 찾아주세요",
+      "topic": "빛",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "빛",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-09",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "생물 다양성 수업 도입에 활용하고 싶어요",
+      "topic": "생물 다양성",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "생물 다양성",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-10",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "지구과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "지구",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지구",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-11",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "마찰력의 변화 과정을 관찰하는 수업 자료",
+      "topic": "마찰력",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "마찰력",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-12",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "중력의 원인과 결과를 비교하는 사례",
+      "topic": "중력",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "중력",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-13",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "힘 다큐멘터리",
+      "topic": "힘",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "힘",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-14",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "광합성 강의 제외",
+      "topic": "광합성",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "광합성",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-15",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "호흡 다큐프라임에서 찾아주세요",
+      "topic": "호흡",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "호흡",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-16",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "상태 변화 수업 도입에 활용하고 싶어요",
+      "topic": "상태 변화",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "상태 변화",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-17",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "열과 블루드래곤가상물질을 모두 다루는 자료",
+      "topic": "열",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "열",
+        "required": [
+          "블루드래곤가상물질"
+        ],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-18",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "빛",
+      "topic": "빛",
+      "split": "final",
+      "meaning": {
+        "coreTopic": "빛",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-19",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "생물 다양성을 설명해주는 영상",
+      "topic": "생물 다양성",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "생물 다양성",
+        "required": [],
+        "relation": null
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    },
+    {
+      "id": "G6-20",
+      "grade": "중1 참고",
+      "subject": "과학",
+      "query": "지구이 생기는 까닭을 알려주는 자료",
+      "topic": "지구",
+      "split": "development",
+      "meaning": {
+        "coreTopic": "지구",
+        "required": [],
+        "relation": "비교/원인/과정은 원문 확인"
+      },
+      "provenance": "AGENT_AUTHORED_CURRICULUM_LANGUAGE",
+      "independentReview": "UNREVIEWED",
+      "knownAnswers": [],
+      "judgments": []
+    }
+  ],
+  "sourceHashes": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "limits": "独립 개발/최종 입력 분리. 실제 교사 요청과 독립 사람 의미 심사는 미확보. 미판정 결과를 관련성 점수로 사용하지 않는다."
+}

@@ -1,0 +1,50 @@
+{
+  "passed": 5,
+  "cases": [
+    "폴더 독 제거·브랜드 유지",
+    "하단 안내는 스크린리더용 유지·빈 입력 안내/입력 시 숨김/지우면 복원",
+    "검색 6폭·3/2/compact열·가로 넘침0",
+    "카드·목록 보기·닫기·다시 검색",
+    "담기 팝업 폴더 선택·저장·되돌리기·메모 보존"
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "columns": "453.328px 453.328px 453.328px",
+      "background": "rgb(251, 247, 239)"
+    },
+    {
+      "width": 1280,
+      "scroll": 1280,
+      "columns": "400px 400px 400px",
+      "background": "rgb(251, 247, 239)"
+    },
+    {
+      "width": 1000,
+      "scroll": 1000,
+      "columns": "472px 472px",
+      "background": "rgb(251, 247, 239)"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "columns": "356px 356px",
+      "background": "rgb(251, 247, 239)"
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "columns": "358px",
+      "background": "rgb(251, 247, 239)"
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "columns": "328px",
+      "background": "rgb(251, 247, 239)"
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

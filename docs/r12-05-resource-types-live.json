@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-15T08:00:36.673Z",
+  "rows": [
+    {
+      "input": {
+        "kind": "all"
+      },
+      "total": 20787,
+      "listingCount": 448,
+      "results": [
+        {
+          "id": "BCAST-d9387edd6090c8993251",
+          "title": "……",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-68c7f8d70c9e71132963",
+          "title": "‘금이야 옥이야’, 불가리아 손주의 성장 일기",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-9b48c38fdc724380dde5",
+          "title": "'당뇨기'가 있으십니까? - 전당뇨",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-c99ea264aa7edb607c27",
+          "title": "'데굴데굴' 내 몸의 걸림돌, 요로결석",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-4f29fafa33060d249de2",
+          "title": "'라떼'의 변명",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "BCAST-8c1037bc928073e7b8b6",
+          "title": "‘본 투 비 한국인’ 스웨덴 손주들과의 동상이몽",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-f9045f806a38e978d185",
+          "title": "'생과 사'의 최전선, 응급센터",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-b04747af26268d171402",
+          "title": "'시골 의사',100년 인술을 잇다 -정형외과전문의김인권원장-",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-11c6c4076ac40f504bc9",
+          "title": "‘억’ 소리 나는 그녀들 1부 곰보배추로 13억",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": "listing"
+      },
+      "total": 448,
+      "listingCount": 448,
+      "results": [
+        {
+          "id": "DP-60055823",
+          "title": "100세 쇼크",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60056041",
+          "title": "10대 성장 보고서",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60055968",
+          "title": "10대 자살에 관한 보고서",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60056075",
+          "title": "16인의 성공도전 설득의 비밀",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60056015",
+          "title": "1935코레아-스텐베리만의 기억",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60058901",
+          "title": "1942 조세이 탄광",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60055860",
+          "title": "2017 시대탐구 청년",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60055797",
+          "title": "3.1절 특집 다큐멘터리 후손",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60055945",
+          "title": "33분마다 떠나는 사람들",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": "lesson"
+      },
+      "total": 0,
+      "listingCount": 448,
+      "results": []
+    },
+    {
+      "input": {
+        "q": "갯벌 생태계"
+      },
+      "total": 5,
+      "listingCount": 0,
+      "results": [
+        {
+          "id": "BCAST-3225002c08823553e9cf",
+          "title": "자막갯벌의 방랑자들",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-1ec3e5b4c8845d1b5031",
+          "title": "강화갯벌이 살아있는 까닭",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-476930fd6c046ab2c55c",
+          "title": "유부도 겨울철새 이야기",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        },
+        {
+          "id": "BCAST-17b49b656eeabd655058",
+          "title": "자막최후의 진객 점박이 물범은 살아있다",
+          "kind": "episode",
+          "presentation": {
+            "unit": "VIDEO",
+            "formats": [],
+            "destination": "EPISODE"
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "국립공원",
+        "kind": "listing"
+      },
+      "total": 8,
+      "listingCount": 8,
+      "results": [
+        {
+          "id": "DP-60055817",
+          "title": "미스터리 아일랜드 붉은 크리스마스 섬",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60056025",
+          "title": "살아있는 생태박물관, 북 술라웨시",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60055961",
+          "title": "세계의 섬",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "DP-60056071",
+          "title": "세계의 섬-마다가스카르의 리머, 그리고 카멜레온",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        },
+        {
+          "id": "GEO-PARK-HALLYEO",
+          "title": "제4호 한려해상 국립공원",
+          "kind": "lesson",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "LESSON_LIST"
+          }
+        },
+        {
+          "id": "GEO-PARK-SEORAK",
+          "title": "제5호 설악산 국립공원",
+          "kind": "lesson",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "LESSON_LIST"
+          }
+        },
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "kind": "lesson",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "LESSON_LIST"
+          }
+        },
+        {
+          "id": "DP-60056103",
+          "title": "미국의 국립공원",
+          "kind": "collection",
+          "presentation": {
+            "unit": "LISTING",
+            "formats": [],
+            "destination": "SEARCH"
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "실제 API 기본 영상/목록/강의 분리",
+    "갯벌 검색 유지",
+    "국립공원 관련 목록 실제 조회",
+    "목록에 방송일 표시 안 함",
+    "1440/390px·브라우저 오류 없음"
+  ],
+  "errors": [],
+  "paidApiCalls": 0
+}

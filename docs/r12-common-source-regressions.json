@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-15T10:29:15.327Z",
+  "scope": "이미 확인한 콘텐츠의 원문을 재사용한 개발 회귀. 제품 코드에는 테스트 ID/콘텐츠 ID 예외 없음.",
+  "checks": [
+    {
+      "queryId": "Q145",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "contentId": "BCAST-3f4997db5eb4281bd5a6",
+      "title": "대리석 유랑기(Epic of a Stone)",
+      "expectedMatched": false,
+      "result": {
+        "matched": false,
+        "reason": "NON_BIOLOGICAL_RELATION",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "Q167",
+      "query": "6학년 계절의 변화 단원 정리용 애니메이션 5분 이내",
+      "contentId": "BCAST-5c7bd51e6690dd30a6d4",
+      "title": "화려한 게 좋아",
+      "expectedMatched": false,
+      "result": {
+        "matched": false,
+        "reason": "NON_PHYSICAL_SEASON_CONTEXT",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "Q173",
+      "query": "에너지 전환 예시",
+      "contentId": "BCAST-9df46748150053c77ee0",
+      "title": "당신의 분노가 향하는 곳",
+      "expectedMatched": false,
+      "result": {
+        "matched": false,
+        "reason": "DISCONNECTED_OR_EDITORIAL_MENTION",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "Q118",
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "contentId": "BCAST-5c28e304a68389d9795a",
+      "title": "몰라 몰라 대소동",
+      "expectedMatched": false,
+      "result": {
+        "matched": false,
+        "reason": "MISSING_EXTRACTION_PROCESS",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "D70-Q033",
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "contentId": "BCAST-f50bd0db15a3b32c76ab",
+      "title": "카를로 로벨리 <시간의 과학> 2강 시간은 미래로 흐르는가",
+      "expectedMatched": false,
+      "result": {
+        "matched": false,
+        "reason": "DISCONNECTED_OR_EDITORIAL_MENTION",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "D70-Q082",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "contentId": "BCAST-b7ea99f0dd385b579d34",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "expectedMatched": true,
+      "result": {
+        "matched": true,
+        "reason": "SOURCE_CONTENT_CONTEXT",
+        "evidence": []
+      }
+    },
+    {
+      "queryId": "D70-Q082",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "contentId": "BCAST-ee6c729aaf350fa7b033",
+      "title": "챠강티메 - 흰 낙타 이야기 1부",
+      "expectedMatched": true,
+      "result": {
+        "matched": true,
+        "reason": "SOURCE_CONTENT_CONTEXT",
+        "evidence": []
+      }
+    }
+  ],
+  "paidApiCalls": 0
+}

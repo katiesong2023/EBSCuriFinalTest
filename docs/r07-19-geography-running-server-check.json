@@ -1,0 +1,805 @@
+{
+  "generatedAt": "2026-10-13T11:04:41.968Z",
+  "target": "http://localhost:3000/api/curi/discover?workspace=teacher",
+  "rows": [
+    {
+      "id": "V01",
+      "query": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "before": 0,
+      "after": 3,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 1257,
+        "externalApiCalls": 0
+      },
+      "geographicScope": {
+        "required": [
+          "DOMESTIC"
+        ],
+        "quotes": [
+          "우리나라"
+        ]
+      },
+      "elapsedMs": 19503,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-791196c0822a06144ed5",
+          "title": "화산섬 제주도",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 6,
+                "quote": "제주"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "query": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "before": 2,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 705,
+        "externalApiCalls": 0
+      },
+      "geographicScope": {
+        "required": [
+          "DOMESTIC"
+        ],
+        "quotes": [
+          "우리나라의"
+        ]
+      },
+      "elapsedMs": 1936,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "query": "국내 화산 지형의 특징을 설명하는 영상",
+      "before": 0,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 119,
+        "externalApiCalls": 0
+      },
+      "geographicScope": {
+        "required": [
+          "DOMESTIC"
+        ],
+        "quotes": [
+          "국내"
+        ]
+      },
+      "elapsedMs": 1102,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "query": "한라산의 화산 지형을 설명하는 자료",
+      "before": 2,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 72,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 501,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "query": "제주도에서 용암이 만든 지형을 보여주는 영상",
+      "before": 0,
+      "after": 1,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 70,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 427,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V06",
+      "query": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+      "before": 0,
+      "after": 2,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 68,
+        "externalApiCalls": 0
+      },
+      "geographicScope": {
+        "required": [
+          "DOMESTIC"
+        ],
+        "quotes": [
+          "해외 사례는 제외해줘",
+          "우리나라"
+        ]
+      },
+      "elapsedMs": 916,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 4,
+                "end": 7,
+                "quote": "한라산"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 3,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-0ec326f52253e62ce575",
+          "title": "하늘이 내려준 선물, 빗물이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 162,
+                "end": 166,
+                "quote": "대한민국"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 233,
+                "quote": "제주도"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 230,
+                "end": 232,
+                "quote": "제주"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 299,
+                "end": 302,
+                "quote": "한라산"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 1,
+            "status": "ADJACENT_TOPIC_ONLY",
+            "label": "화산 소재의 주변 내용 · 지형 설명 미확인",
+            "evidence": [],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "query": "화산 지형",
+      "before": 24,
+      "after": 24,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 76,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 659,
+      "first": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 26,
+                "quote": "한라산의 기후와 화산 지형을 다루는 강의입니다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-a29fff109e61a3dcab2d",
+          "title": "인도네시아 화산 트레일 지구의 뜨거운 심장, 브로모路!",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 96,
+                "end": 214,
+                "quote": "오토바이를 타고 숲속을 달려 마다카리푸라 폭포의 천연 수영장에서 물놀이를 즐기고, 브로모 화산 일출 투어에서 화산과 함께 살아가는 마부의 일상을 만나고, 하얀 연기가 피어오르는 분화구의 압도적인 장관과 마주한다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        },
+        {
+          "id": "BCAST-16cc4ce5d4cb31a53206",
+          "title": "중년의 여행법, 인도네시아-다시 한번 뜨겁게, 브로모 화산",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": []
+          },
+          "requestRelation": {
+            "rank": 2,
+            "status": "DIRECT_TOPIC_MENTION",
+            "label": "화산 지형 직접 언급 · 관계 설명 미확인",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 198,
+                "end": 251,
+                "quote": "새벽 1시반 출발 브로모의 일출을 본 뒤 브로모 화산 분화구의 두렵고도 장엄한 풍경과 마주한다."
+              }
+            ],
+            "unconfirmed": [
+              "요청한 지형의 특징·형성 설명은 이 원문에서 확인하지 못했습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "V08",
+      "query": "화산 폭발 피해를 다룬 영상",
+      "before": 0,
+      "after": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 67,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 556,
+      "first": []
+    },
+    {
+      "id": "V09",
+      "query": "우리나라 해안 지형을 보여주는 수업 자료",
+      "before": 6,
+      "after": 3,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 69,
+        "externalApiCalls": 0
+      },
+      "geographicScope": {
+        "required": [
+          "DOMESTIC"
+        ],
+        "quotes": [
+          "우리나라"
+        ]
+      },
+      "elapsedMs": 960,
+      "first": [
+        {
+          "id": "BCAST-9d8d4642df739046b698",
+          "title": "고창, 산과 갯벌이 건네는 이야기",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "고창"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 0,
+                "end": 2,
+                "quote": "고창"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          }
+        },
+        {
+          "id": "BCAST-d19644f820a63bb95792",
+          "title": "대를 이어 합니다 4부 갯벌에서 캐는 보물",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 67,
+                "end": 71,
+                "quote": "우리나라"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 85,
+                "end": 87,
+                "quote": "신안"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          }
+        },
+        {
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "geographicEvidence": {
+            "matches": true,
+            "evidence": [
+              {
+                "scope": "DOMESTIC",
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "무안"
+              },
+              {
+                "scope": "DOMESTIC",
+                "field": "summary",
+                "start": 6,
+                "end": 8,
+                "quote": "무안"
+              }
+            ],
+            "status": "SOURCE_LOCATION_CUE"
+          },
+          "requestRelation": {
+            "rank": 0,
+            "status": "NOT_EVALUATED",
+            "evidence": [],
+            "unconfirmed": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "V10",
+      "query": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "before": 0,
+      "after": 0,
+      "retrieval": {
+        "keyword": true,
+        "semantic": "LOCAL_E5",
+        "elapsedMs": 83,
+        "externalApiCalls": 0
+      },
+      "elapsedMs": 411,
+      "first": []
+    }
+  ],
+  "protectedStoresUnchanged": true,
+  "paidApiCalls": 0
+}

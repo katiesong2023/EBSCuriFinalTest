@@ -1,0 +1,22 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "submitScroll": true,
+      "loadingVisible": true,
+      "enterScroll": true,
+      "sortStable": true
+    },
+    {
+      "width": 390,
+      "reducedMotion": "reduce",
+      "submitScroll": true,
+      "loadingVisible": true,
+      "enterScroll": true,
+      "sortStable": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

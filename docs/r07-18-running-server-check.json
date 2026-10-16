@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-13T09:24:41.283Z",
+  "q": "연소",
+  "total": 2,
+  "results": [
+    {
+      "id": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "relevanceReason": "소개문에서 ‘연소’ 표현 확인"
+    },
+    {
+      "id": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "relevanceReason": "소개문에서 ‘연소’ 표현 확인"
+    }
+  ],
+  "paidApiCalls": 0
+}

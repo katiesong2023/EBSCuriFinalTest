@@ -1,0 +1,41 @@
+.curriculum-select { margin: 1rem 0; min-width: 0; }
+.curriculum-select [data-views] { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .8rem; }
+.curriculum-select [data-views][hidden], .curriculum-select-controls[hidden] { display: none !important; }
+.curriculum-select-controls { display: flex; flex-wrap: wrap; gap: .65rem; }
+.curriculum-select-controls label { display: grid; gap: .3rem; flex: 1 1 9rem; min-width: 0; }
+.curriculum-select-controls input, .curriculum-select-controls select { width: 100%; min-width: 0; }
+.curriculum-select-options { max-height: 20rem; overflow: auto; margin: .6rem 0; border: 1px solid var(--line, #d6e0d9); border-radius: .6rem; }
+.curriculum-select-options label { display: flex; align-items: flex-start; gap: .65rem; padding: .8rem; border-bottom: 1px solid var(--line, #d6e0d9); cursor: pointer; }
+.curriculum-select-options input { flex: 0 0 auto; width: 1.1rem; min-height: 1.1rem; margin-top: .3rem; }
+.curriculum-select-options span { min-width: 0; overflow-wrap: anywhere; }
+.curriculum-selected { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-top: .8rem; }
+#teaching-save-dialog, #folder-picker-dialog { width: min(46rem, calc(100vw - 2rem)); max-height: calc(100dvh - 2rem); overflow: auto; }
+.folder-curriculum { margin: .8rem 0; }
+#teaching-save-dialog[open] { display: flex; flex-direction: column; }
+#teaching-save-dialog > [data-curriculum] { min-height: 0; overflow: auto; }
+#teaching-save-dialog > [data-confirm] { flex-shrink: 0; padding: .85rem; background: var(--primary, #174c3c); color: white; }
+
+#folder-picker-dialog[open] { display: flex; flex-direction: column; }
+#folder-picker-dialog .bring-content { min-height: 0; overflow: auto; }
+#folder-picker-options { border: 0; padding: 0; margin: 1rem 0; }
+#folder-picker-options label { display: flex; align-items: center; gap: .7rem; padding: .7rem; border: 1px solid var(--line); border-radius: .6rem; margin: .4rem 0; }
+#folder-picker-options input { width: 1.15rem; min-height: 1.15rem; flex: 0 0 auto; }
+#folder-picker-new-name { display: grid; gap: .4rem; margin: .8rem 0; }
+#folder-picker-name { width: 100%; min-width: 0; }
+#folder-picker-confirm { flex-shrink: 0; padding: .85rem; background: var(--green); color: white; }
+
+/* 가져오기 카드는 교육과정 → 폴더의 두 단계를 표시한다. */
+#folder-picker-dialog { padding: 24px; border-radius: 22px; box-shadow: 0 24px 80px #153a3030; }
+#folder-picker-dialog .dialog-header h2 { font-size: 22px; }
+#folder-picker-resource { font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+#folder-picker-dialog [hidden] { display: none !important; }
+#folder-picker-dialog .bring-hint, #folder-picker-selection { font-size: 13px; color: var(--muted); line-height: 1.7; }
+#folder-picker-dialog .curriculum-select { margin-top: 0; }
+#folder-picker-dialog .bring-actions { display: flex; gap: 10px; flex-shrink: 0; }
+#folder-picker-dialog .bring-actions button { flex: 1; padding: 12px; }
+#folder-picker-dialog .bring-actions [data-open-lesson] { flex:1; display:flex; align-items:center; justify-content:center; padding:12px; text-align:center; }
+#folder-picker-dialog .bring-progress { display: flex; justify-content: center; gap: 8px; padding: 20px 0 0; flex-shrink: 0; }
+#folder-picker-dialog .bring-progress span { width: 7px; height: 7px; border-radius: 50%; background: var(--line, #d6e0d9); }
+#folder-picker-dialog .bring-progress [aria-current="step"] { background: var(--green, #174c3c); }
+#folder-picker-dialog::backdrop { background: #153a3070; backdrop-filter: blur(3px); }
+@media (max-width: 600px) { #folder-picker-dialog { padding: 20px; } }

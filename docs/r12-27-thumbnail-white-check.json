@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-15T11:36:58.455Z",
+  "desktop": {
+    "titleColor": "rgb(255, 255, 255)",
+    "programColor": "rgb(255, 255, 255)",
+    "programSize": "16.5px"
+  },
+  "mobile": {
+    "titleColor": "rgb(255, 255, 255)",
+    "programDisplay": "none"
+  },
+  "personalStorageWrites": false
+}

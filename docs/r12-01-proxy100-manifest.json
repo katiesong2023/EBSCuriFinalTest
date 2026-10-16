@@ -1,0 +1,341 @@
+{
+  "dataset": "curi-teacher-proxy100-v1",
+  "created_date": "2026-10-14",
+  "origin": "AI_AUTHORED_TEACHER_PROXY",
+  "actual_teacher_requests": 0,
+  "human_review": "NOT_REVIEWED",
+  "search_executed": false,
+  "model_answer_ground_truth": false,
+  "generation": "작성 에이전트가 사용자 프롬프트의 분포/조건에 따라 질문과 기대 해석을 작성. 사례 필드의 수업 목적은 대리 맥락이며 원문 조건과 분리.",
+  "exposure": "생성·검토 담당 에이전트는100개 내용을 보았음. final은 향후 개발 미사용 평가용이며 완전한 블라인드/독립 교사 평가가 아님.",
+  "total": 100,
+  "files": {
+    "development": {
+      "path": "r12-01-proxy100-development.json",
+      "sha256": "b154d22408f2bae51aed1778c8852a95c5168e29255eb0abd4659f9329f46376",
+      "count": 70
+    },
+    "final": {
+      "path": "r12-01-proxy100-final.json",
+      "sha256": "0d10532754478346ab1b6cbe7ec381149094afac7651a36e6b463343e5d13a32",
+      "count": 30
+    }
+  },
+  "split_rule": "분할은질문별무작위가아닌전체주제군단위. 과정/교과별 final5씩, development12/12/12/12/11/11. 동일주제군과표현변형의양쪽중복금지.",
+  "separation_scope": "이번100개 내부의주제군분리. 기존152사례/과거개발과넓은주제중첩은배제했다고주장하지않음.",
+  "topic_family_assignments": {
+    "MAP": {
+      "label": "지도·기호·방위·길찾기",
+      "split": "development",
+      "ids": [
+        "Q001",
+        "Q003",
+        "Q006",
+        "Q009",
+        "Q014",
+        "Q016"
+      ]
+    },
+    "COMMUNITY": {
+      "label": "마을 시설·지역 생활·생활 변화",
+      "split": "development",
+      "ids": [
+        "Q004",
+        "Q007",
+        "Q008",
+        "Q011",
+        "Q013",
+        "Q015",
+        "Q083"
+      ]
+    },
+    "MAGNET": {
+      "label": "자석·극·자성",
+      "split": "development",
+      "ids": [
+        "Q018",
+        "Q020",
+        "Q023",
+        "Q025",
+        "Q028",
+        "Q031",
+        "Q033",
+        "Q099"
+      ]
+    },
+    "WATER": {
+      "label": "물의 상태·증발·응결",
+      "split": "development",
+      "ids": [
+        "Q021",
+        "Q024",
+        "Q026",
+        "Q030",
+        "Q032",
+        "Q064",
+        "Q089",
+        "Q097"
+      ]
+    },
+    "RIGHTS": {
+      "label": "인권·차별·권리 보호",
+      "split": "development",
+      "ids": [
+        "Q035",
+        "Q037",
+        "Q040",
+        "Q042",
+        "Q045",
+        "Q048",
+        "Q050"
+      ]
+    },
+    "DEMOC": {
+      "label": "주민 참여·공동 의사결정·선거",
+      "split": "development",
+      "ids": [
+        "Q038",
+        "Q041",
+        "Q043",
+        "Q047",
+        "Q049",
+        "Q073",
+        "Q081"
+      ]
+    },
+    "COMBUST": {
+      "label": "연소 조건·소화",
+      "split": "development",
+      "ids": [
+        "Q052",
+        "Q054",
+        "Q057",
+        "Q059",
+        "Q062",
+        "Q066"
+      ]
+    },
+    "ECOSYSTEM": {
+      "label": "먹이 관계·생물 변화",
+      "split": "development",
+      "ids": [
+        "Q055",
+        "Q058",
+        "Q060",
+        "Q065",
+        "Q067"
+      ]
+    },
+    "CLIMATE": {
+      "label": "기후·자연환경과 생활",
+      "split": "development",
+      "ids": [
+        "Q069",
+        "Q070",
+        "Q072",
+        "Q075",
+        "Q077",
+        "Q079",
+        "Q080",
+        "Q082"
+      ]
+    },
+    "FORCE": {
+      "label": "힘·평형·마찰·부력",
+      "split": "development",
+      "ids": [
+        "Q085",
+        "Q087",
+        "Q088",
+        "Q091",
+        "Q093",
+        "Q094",
+        "Q095",
+        "Q098"
+      ]
+    },
+    "HERITAGE": {
+      "label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "ids": [
+        "Q002",
+        "Q005",
+        "Q010",
+        "Q012",
+        "Q017"
+      ]
+    },
+    "SOUND": {
+      "label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "ids": [
+        "Q019",
+        "Q022",
+        "Q027",
+        "Q029",
+        "Q034"
+      ]
+    },
+    "TRADE": {
+      "label": "국가간 무역·수출·수입",
+      "split": "final",
+      "ids": [
+        "Q036",
+        "Q039",
+        "Q044",
+        "Q046",
+        "Q051"
+      ]
+    },
+    "ASTRO": {
+      "label": "태양계·행성 특징·운동",
+      "split": "final",
+      "ids": [
+        "Q053",
+        "Q056",
+        "Q061",
+        "Q063",
+        "Q068"
+      ]
+    },
+    "MIGRATION": {
+      "label": "인구 이동·집중·감소",
+      "split": "final",
+      "ids": [
+        "Q071",
+        "Q074",
+        "Q076",
+        "Q078",
+        "Q084"
+      ]
+    },
+    "ROCK": {
+      "label": "암석 조직·생성·변화",
+      "split": "final",
+      "ids": [
+        "Q086",
+        "Q090",
+        "Q092",
+        "Q096",
+        "Q100"
+      ]
+    }
+  },
+  "grade_subject_distribution": [
+    {
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "total": 17,
+      "development": 12,
+      "final": 5
+    },
+    {
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "total": 17,
+      "development": 12,
+      "final": 5
+    },
+    {
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "total": 17,
+      "development": 12,
+      "final": 5
+    },
+    {
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "total": 17,
+      "development": 12,
+      "final": 5
+    },
+    {
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "total": 16,
+      "development": 11,
+      "final": 5
+    },
+    {
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "total": 16,
+      "development": 11,
+      "final": 5
+    }
+  ],
+  "primary_type_distribution": [
+    {
+      "type": "짧은 주제 검색",
+      "total": 10,
+      "development": 7,
+      "final": 3
+    },
+    {
+      "type": "수업 목표와 활용 목적을 포함한 요청",
+      "total": 15,
+      "development": 11,
+      "final": 4
+    },
+    {
+      "type": "일상 표현을 사용한 요청",
+      "total": 15,
+      "development": 11,
+      "final": 4
+    },
+    {
+      "type": "원인·결과·과정·관계 요청",
+      "total": 15,
+      "development": 11,
+      "final": 4
+    },
+    {
+      "type": "비교 요청",
+      "total": 10,
+      "development": 6,
+      "final": 4
+    },
+    {
+      "type": "복수 필수 조건·AND/OR 요청",
+      "total": 10,
+      "development": 7,
+      "final": 3
+    },
+    {
+      "type": "제외·부정 조건 요청",
+      "total": 10,
+      "development": 7,
+      "final": 3
+    },
+    {
+      "type": "선호 조건 요청",
+      "total": 5,
+      "development": 3,
+      "final": 2
+    },
+    {
+      "type": "시간·자막·형식·프로그램 조건 요청",
+      "total": 5,
+      "development": 3,
+      "final": 2
+    },
+    {
+      "type": "모호함·충돌·정당한 빈 결과",
+      "total": 5,
+      "development": 4,
+      "final": 1
+    }
+  ],
+  "validation": {
+    "count_and_ids": true,
+    "unique_queries": true,
+    "grade_subject_and_type_counts": true,
+    "topic_family_intersection": [],
+    "condition_phrase_matches": true,
+    "exact_query_overlap_with_old152": [],
+    "single_explicit_fictional_target": 1,
+    "actual_teacher_files_unchanged": true
+  },
+  "evaluation_use": "개발 담당에게development파일만전달. 개발 변경동결후final파일을실행/원문판정. final 결과로개선한뒤에는개발회귀로전환하고새평가세트준비. 의미기대값은AI작성가설이며사람검토/출처정답확보후판정."
+}

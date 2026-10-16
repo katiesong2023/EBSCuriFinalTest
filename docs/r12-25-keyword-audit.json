@@ -1,0 +1,700 @@
+{
+  "startedAt": "2026-10-15T10:55:47.938Z",
+  "finishedAt": "2026-10-15T10:56:30.261Z",
+  "total": 23403,
+  "representatives": 22161,
+  "variants": 1242,
+  "before": {
+    "withKeywords": 8806,
+    "empty": 14597
+  },
+  "after": {
+    "withKeywords": 15591,
+    "empty": 7812
+  },
+  "newlyFilled": 6787,
+  "newKeywordCount": 11522,
+  "totalKeywords": 30201,
+  "quoteChecks": 30201,
+  "fromSupplements": 38,
+  "lost": [
+    {
+      "id": "BCAST-76964b5dc7ed2033a3a1",
+      "title": "안전접촉지대",
+      "before": [
+        "도시"
+      ]
+    },
+    {
+      "id": "BCAST-6c3534e1c16dcbef7a0f",
+      "title": "FIFA의 탄생",
+      "before": [
+        "영국"
+      ]
+    }
+  ],
+  "missing": {
+    "NO_DESCRIPTION": 1373,
+    "NO_RELIABLE_CONTENT_WORD": 5196,
+    "TITLE_COPY": 817,
+    "PRODUCTION_OR_UNUSABLE_DESCRIPTION": 426
+  },
+  "programs": {
+    "EBS 다큐프라임": {
+      "total": 1040,
+      "beforeEmpty": 317,
+      "afterEmpty": 170,
+      "newlyFilled": 147
+    },
+    "다큐멘터리K": {
+      "total": 12,
+      "beforeEmpty": 2,
+      "afterEmpty": 2,
+      "newlyFilled": 0
+    },
+    "PD로그": {
+      "total": 92,
+      "beforeEmpty": 15,
+      "afterEmpty": 1,
+      "newlyFilled": 14
+    },
+    "교과연계 클립": {
+      "total": 68,
+      "beforeEmpty": 68,
+      "afterEmpty": 68,
+      "newlyFilled": 0
+    },
+    "딩동댕 딩동댕": {
+      "total": 322,
+      "beforeEmpty": 110,
+      "afterEmpty": 19,
+      "newlyFilled": 91
+    },
+    "나의 두 번째 교과서": {
+      "total": 5,
+      "beforeEmpty": 5,
+      "afterEmpty": 5,
+      "newlyFilled": 0
+    },
+    "취미는 과학": {
+      "total": 111,
+      "beforeEmpty": 34,
+      "afterEmpty": 12,
+      "newlyFilled": 22
+    },
+    "지식채널e": {
+      "total": 2798,
+      "beforeEmpty": 1551,
+      "afterEmpty": 917,
+      "newlyFilled": 636
+    },
+    "수상한 방송국": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "AI 고전, 역사를 바꾼 100책": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "부모의 첫 성교육": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "한국기행": {
+      "total": 1261,
+      "beforeEmpty": 249,
+      "afterEmpty": 54,
+      "newlyFilled": 195
+    },
+    "EBS 중학 국립공원": {
+      "total": 3,
+      "beforeEmpty": 0,
+      "afterEmpty": 0,
+      "newlyFilled": 0
+    },
+    "하나뿐인 지구": {
+      "total": 325,
+      "beforeEmpty": 139,
+      "afterEmpty": 44,
+      "newlyFilled": 95
+    },
+    "극한 직업": {
+      "total": 924,
+      "beforeEmpty": 580,
+      "afterEmpty": 404,
+      "newlyFilled": 176
+    },
+    "명의": {
+      "total": 974,
+      "beforeEmpty": 591,
+      "afterEmpty": 104,
+      "newlyFilled": 487
+    },
+    "역사채널e": {
+      "total": 263,
+      "beforeEmpty": 151,
+      "afterEmpty": 37,
+      "newlyFilled": 114
+    },
+    "EBS 캠페인": {
+      "total": 371,
+      "beforeEmpty": 360,
+      "afterEmpty": 353,
+      "newlyFilled": 7
+    },
+    "위인극장": {
+      "total": 104,
+      "beforeEmpty": 96,
+      "afterEmpty": 84,
+      "newlyFilled": 12
+    },
+    "발명이 팡팡!": {
+      "total": 49,
+      "beforeEmpty": 49,
+      "afterEmpty": 49,
+      "newlyFilled": 0
+    },
+    "과학/환경": {
+      "total": 8,
+      "beforeEmpty": 5,
+      "afterEmpty": 4,
+      "newlyFilled": 1
+    },
+    "자연 다큐": {
+      "total": 2,
+      "beforeEmpty": 2,
+      "afterEmpty": 2,
+      "newlyFilled": 0
+    },
+    "다큐 오늘": {
+      "total": 559,
+      "beforeEmpty": 526,
+      "afterEmpty": 502,
+      "newlyFilled": 24
+    },
+    "교육 특집 프로그램": {
+      "total": 47,
+      "beforeEmpty": 35,
+      "afterEmpty": 33,
+      "newlyFilled": 2
+    },
+    "희망풍경": {
+      "total": 80,
+      "beforeEmpty": 49,
+      "afterEmpty": 31,
+      "newlyFilled": 18
+    },
+    "과학/환경 특집 프로그램": {
+      "total": 16,
+      "beforeEmpty": 15,
+      "afterEmpty": 14,
+      "newlyFilled": 1
+    },
+    "특집/기획/특강": {
+      "total": 80,
+      "beforeEmpty": 40,
+      "afterEmpty": 26,
+      "newlyFilled": 14
+    },
+    "최고의 요리비결": {
+      "total": 1600,
+      "beforeEmpty": 1537,
+      "afterEmpty": 512,
+      "newlyFilled": 1025
+    },
+    "이것이 야생이다": {
+      "total": 36,
+      "beforeEmpty": 13,
+      "afterEmpty": 5,
+      "newlyFilled": 8
+    },
+    "과학 다큐 비욘드": {
+      "total": 38,
+      "beforeEmpty": 23,
+      "afterEmpty": 11,
+      "newlyFilled": 12
+    },
+    "고양이를 부탁해": {
+      "total": 214,
+      "beforeEmpty": 166,
+      "afterEmpty": 65,
+      "newlyFilled": 101
+    },
+    "비버와 함께 떠나는 컴퓨터 과학": {
+      "total": 12,
+      "beforeEmpty": 12,
+      "afterEmpty": 12,
+      "newlyFilled": 0
+    },
+    "글로벌 아빠찾아 삼만리": {
+      "total": 53,
+      "beforeEmpty": 12,
+      "afterEmpty": 10,
+      "newlyFilled": 2
+    },
+    "서울대 음대 레슨노트": {
+      "total": 255,
+      "beforeEmpty": 255,
+      "afterEmpty": 3,
+      "newlyFilled": 252
+    },
+    "우리집 유치원": {
+      "total": 556,
+      "beforeEmpty": 411,
+      "afterEmpty": 185,
+      "newlyFilled": 226
+    },
+    "뇌가 젊어지는 체조": {
+      "total": 100,
+      "beforeEmpty": 77,
+      "afterEmpty": 31,
+      "newlyFilled": 46
+    },
+    "생방송 방과 후 듄듄": {
+      "total": 132,
+      "beforeEmpty": 132,
+      "afterEmpty": 81,
+      "newlyFilled": 51
+    },
+    "공감 플러스": {
+      "total": 40,
+      "beforeEmpty": 0,
+      "afterEmpty": 0,
+      "newlyFilled": 0
+    },
+    "채소가지구": {
+      "total": 4,
+      "beforeEmpty": 4,
+      "afterEmpty": 3,
+      "newlyFilled": 1
+    },
+    "일단 해봐요 생방송 오후 1시": {
+      "total": 40,
+      "beforeEmpty": 6,
+      "afterEmpty": 1,
+      "newlyFilled": 5
+    },
+    "최고의 요리비결 공방": {
+      "total": 85,
+      "beforeEmpty": 79,
+      "afterEmpty": 53,
+      "newlyFilled": 26
+    },
+    "딩동댕 보건실": {
+      "total": 6,
+      "beforeEmpty": 6,
+      "afterEmpty": 6,
+      "newlyFilled": 0
+    },
+    "위대한 수업, 그레이트 마인즈": {
+      "total": 1600,
+      "beforeEmpty": 325,
+      "afterEmpty": 173,
+      "newlyFilled": 152
+    },
+    "세상에 나쁜 개는 없다": {
+      "total": 189,
+      "beforeEmpty": 113,
+      "afterEmpty": 68,
+      "newlyFilled": 45
+    },
+    "고향민국": {
+      "total": 344,
+      "beforeEmpty": 69,
+      "afterEmpty": 20,
+      "newlyFilled": 49
+    },
+    "귀하신 몸": {
+      "total": 80,
+      "beforeEmpty": 42,
+      "afterEmpty": 8,
+      "newlyFilled": 34
+    },
+    "세계테마기행": {
+      "total": 469,
+      "beforeEmpty": 105,
+      "afterEmpty": 39,
+      "newlyFilled": 66
+    },
+    "신계숙의 맛터사이클 다이어리": {
+      "total": 5,
+      "beforeEmpty": 3,
+      "afterEmpty": 2,
+      "newlyFilled": 1
+    },
+    "곽준빈의 세계 기사식당": {
+      "total": 24,
+      "beforeEmpty": 3,
+      "afterEmpty": 3,
+      "newlyFilled": 0
+    },
+    "최태성 서경석의 여행본색": {
+      "total": 8,
+      "beforeEmpty": 1,
+      "afterEmpty": 0,
+      "newlyFilled": 1
+    },
+    "세계 극한직업 - 추성훈의 밥값은 해야지": {
+      "total": 12,
+      "beforeEmpty": 5,
+      "afterEmpty": 4,
+      "newlyFilled": 1
+    },
+    "취미는 과학여행": {
+      "total": 6,
+      "beforeEmpty": 0,
+      "afterEmpty": 0,
+      "newlyFilled": 0
+    },
+    "AI 드라마 - 부활수업": {
+      "total": 28,
+      "beforeEmpty": 12,
+      "afterEmpty": 4,
+      "newlyFilled": 8
+    },
+    "어린이 프로그램": {
+      "total": 40,
+      "beforeEmpty": 40,
+      "afterEmpty": 40,
+      "newlyFilled": 0
+    },
+    "EBS 평생학교": {
+      "total": 84,
+      "beforeEmpty": 78,
+      "afterEmpty": 77,
+      "newlyFilled": 1
+    },
+    "GO! GO! Giggles": {
+      "total": 147,
+      "beforeEmpty": 110,
+      "afterEmpty": 21,
+      "newlyFilled": 89
+    },
+    "모여라 딩동댕": {
+      "total": 638,
+      "beforeEmpty": 542,
+      "afterEmpty": 469,
+      "newlyFilled": 73
+    },
+    "방귀대장 뿡뿡이": {
+      "total": 885,
+      "beforeEmpty": 750,
+      "afterEmpty": 320,
+      "newlyFilled": 430
+    },
+    "딩동댕 유치원": {
+      "total": 2855,
+      "beforeEmpty": 2186,
+      "afterEmpty": 1126,
+      "newlyFilled": 1060
+    },
+    "숲 속 친구 파파룰라(HD)": {
+      "total": 104,
+      "beforeEmpty": 78,
+      "afterEmpty": 66,
+      "newlyFilled": 12
+    },
+    "곰디와 친구들": {
+      "total": 52,
+      "beforeEmpty": 31,
+      "afterEmpty": 19,
+      "newlyFilled": 12
+    },
+    "Magic Ice Cream Truck": {
+      "total": 112,
+      "beforeEmpty": 102,
+      "afterEmpty": 81,
+      "newlyFilled": 21
+    },
+    "쓰담쓰담 동물원 프렌쥬": {
+      "total": 78,
+      "beforeEmpty": 74,
+      "afterEmpty": 0,
+      "newlyFilled": 74
+    },
+    "마샤와 곰": {
+      "total": 184,
+      "beforeEmpty": 159,
+      "afterEmpty": 143,
+      "newlyFilled": 16
+    },
+    "성인 문해교육 프로젝트2 공부하기 좋은 날": {
+      "total": 80,
+      "beforeEmpty": 61,
+      "afterEmpty": 16,
+      "newlyFilled": 45
+    },
+    "코봇 지구를 지켜라": {
+      "total": 8,
+      "beforeEmpty": 8,
+      "afterEmpty": 8,
+      "newlyFilled": 0
+    },
+    "냉장고 나라 코코몽": {
+      "total": 26,
+      "beforeEmpty": 8,
+      "afterEmpty": 2,
+      "newlyFilled": 6
+    },
+    "삐뽀삐뽀! 우리 몸 X파일": {
+      "total": 51,
+      "beforeEmpty": 39,
+      "afterEmpty": 22,
+      "newlyFilled": 17
+    },
+    "두근두근 방방": {
+      "total": 47,
+      "beforeEmpty": 44,
+      "afterEmpty": 2,
+      "newlyFilled": 42
+    },
+    "허풍선이 과학쇼": {
+      "total": 26,
+      "beforeEmpty": 26,
+      "afterEmpty": 24,
+      "newlyFilled": 2
+    },
+    "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험": {
+      "total": 10,
+      "beforeEmpty": 10,
+      "afterEmpty": 10,
+      "newlyFilled": 0
+    },
+    "딩동댕 친구들-장난감나라의 비밀": {
+      "total": 65,
+      "beforeEmpty": 56,
+      "afterEmpty": 24,
+      "newlyFilled": 32
+    },
+    "생방송 톡! 톡! 보니 하니": {
+      "total": 297,
+      "beforeEmpty": 243,
+      "afterEmpty": 212,
+      "newlyFilled": 31
+    },
+    "해요와 해요": {
+      "total": 145,
+      "beforeEmpty": 84,
+      "afterEmpty": 29,
+      "newlyFilled": 55
+    },
+    "뭐든지 뮤직박스": {
+      "total": 52,
+      "beforeEmpty": 37,
+      "afterEmpty": 11,
+      "newlyFilled": 26
+    },
+    "뽀롱뽀롱 뽀로로 (Eng.)": {
+      "total": 148,
+      "beforeEmpty": 148,
+      "afterEmpty": 148,
+      "newlyFilled": 0
+    },
+    "꼬마버스 타요 (Eng.)": {
+      "total": 128,
+      "beforeEmpty": 128,
+      "afterEmpty": 128,
+      "newlyFilled": 0
+    },
+    "춤추는 소녀 와와": {
+      "total": 98,
+      "beforeEmpty": 68,
+      "afterEmpty": 54,
+      "newlyFilled": 14
+    },
+    "내 친구 몬덕이": {
+      "total": 161,
+      "beforeEmpty": 98,
+      "afterEmpty": 51,
+      "newlyFilled": 47
+    },
+    "한글용사 아이야": {
+      "total": 389,
+      "beforeEmpty": 324,
+      "afterEmpty": 161,
+      "newlyFilled": 163
+    },
+    "생방송 뭐든지 해결단": {
+      "total": 352,
+      "beforeEmpty": 281,
+      "afterEmpty": 200,
+      "newlyFilled": 81
+    },
+    "로보카 폴리": {
+      "total": 16,
+      "beforeEmpty": 11,
+      "afterEmpty": 7,
+      "newlyFilled": 4
+    },
+    "똑똑 문해력 박사 - 속담과 관용어 편": {
+      "total": 105,
+      "beforeEmpty": 105,
+      "afterEmpty": 0,
+      "newlyFilled": 105
+    },
+    "똑똑 문해력 박사 - 어휘 편": {
+      "total": 105,
+      "beforeEmpty": 92,
+      "afterEmpty": 0,
+      "newlyFilled": 92
+    },
+    "고고다이노 공룡탐험대": {
+      "total": 26,
+      "beforeEmpty": 6,
+      "afterEmpty": 5,
+      "newlyFilled": 1
+    },
+    "왔다! 내 손주": {
+      "total": 137,
+      "beforeEmpty": 19,
+      "afterEmpty": 17,
+      "newlyFilled": 2
+    },
+    "명탐정 피트": {
+      "total": 26,
+      "beforeEmpty": 8,
+      "afterEmpty": 1,
+      "newlyFilled": 7
+    },
+    "최고다! 호기심딱지": {
+      "total": 134,
+      "beforeEmpty": 44,
+      "afterEmpty": 19,
+      "newlyFilled": 25
+    },
+    "엄마 까투리": {
+      "total": 23,
+      "beforeEmpty": 9,
+      "afterEmpty": 1,
+      "newlyFilled": 8
+    },
+    "뽀롱뽀롱 뽀로로": {
+      "total": 26,
+      "beforeEmpty": 20,
+      "afterEmpty": 7,
+      "newlyFilled": 13
+    },
+    "출동! 슈퍼윙스": {
+      "total": 40,
+      "beforeEmpty": 29,
+      "afterEmpty": 24,
+      "newlyFilled": 5
+    },
+    "꼬마버스 타요": {
+      "total": 17,
+      "beforeEmpty": 13,
+      "afterEmpty": 11,
+      "newlyFilled": 2
+    },
+    "지구 영웅 번개맨": {
+      "total": 13,
+      "beforeEmpty": 12,
+      "afterEmpty": 11,
+      "newlyFilled": 1
+    },
+    "경이로운 자연의 세계": {
+      "total": 2,
+      "beforeEmpty": 2,
+      "afterEmpty": 2,
+      "newlyFilled": 0
+    },
+    "과학 다큐멘터리": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "지구탐사 이야기": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "우주탐사 이야기": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    },
+    "덩이랑 쾡이랑 인물 한국사": {
+      "total": 14,
+      "beforeEmpty": 7,
+      "afterEmpty": 2,
+      "newlyFilled": 5
+    },
+    "EBS AI 문학관": {
+      "total": 1,
+      "beforeEmpty": 1,
+      "afterEmpty": 1,
+      "newlyFilled": 0
+    }
+  },
+  "sourceIdentityAndTextHashesMatched": 23403,
+  "protectedBefore": {
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+    "server/content-keywords.js": "ba8fc939ba4e0e19fe0fffa4b6408316fd28ecf79b870aa514a89ab7f16decc3",
+    "server/keyword-context.js": "694909126903024550ac73623a6e3da79052d91e0de4d804cd1497446364f2ab",
+    "server/keyword-vocabulary.js": "fc67a30a9424932fd3729e13038c364f33059e5c35d54be35b6ad6bd8ad3a5c7",
+    "server/source-editorial.js": "76fceebe24d8c3c0519525c051af41e59826ee2c219b32773f927af73ee9b2a5",
+    "server/source-context.js": "d3349e458a697e72aa558e03de020729b8b044de54ee8a36009d0adf3356903f",
+    "server/source-literal.js": "476c894927dea9d56219972b16c86c38e75ab47a856767a25e1d800a2b234094",
+    "server/semantic-pattern.js": "61cbfc0aa5e7a6d92e83dcad827bb1ad05a46368c361a1f72af29cc804ba6cd6",
+    "server/semantic-build.js": "6f02ecd5d2ddecdaf31e3ebca9312f10324258a29d77dd98327b31a83fe5ba29",
+    "server/semantic-layer.js": "7c79d9c5022675be256a31863088cfafb948b6b57e8dde8c90d2b280c6811667"
+  },
+  "protectedAfter": {
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+    "server/content-keywords.js": "ba8fc939ba4e0e19fe0fffa4b6408316fd28ecf79b870aa514a89ab7f16decc3",
+    "server/keyword-context.js": "694909126903024550ac73623a6e3da79052d91e0de4d804cd1497446364f2ab",
+    "server/keyword-vocabulary.js": "fc67a30a9424932fd3729e13038c364f33059e5c35d54be35b6ad6bd8ad3a5c7",
+    "server/source-editorial.js": "76fceebe24d8c3c0519525c051af41e59826ee2c219b32773f927af73ee9b2a5",
+    "server/source-context.js": "d3349e458a697e72aa558e03de020729b8b044de54ee8a36009d0adf3356903f",
+    "server/source-literal.js": "476c894927dea9d56219972b16c86c38e75ab47a856767a25e1d800a2b234094",
+    "server/semantic-pattern.js": "61cbfc0aa5e7a6d92e83dcad827bb1ad05a46368c361a1f72af29cc804ba6cd6",
+    "server/semantic-build.js": "6f02ecd5d2ddecdaf31e3ebca9312f10324258a29d77dd98327b31a83fe5ba29",
+    "server/semantic-layer.js": "7c79d9c5022675be256a31863088cfafb948b6b57e8dde8c90d2b280c6811667"
+  },
+  "changedDuringRun": [],
+  "derivedSemanticBuild": {
+    "generatedAt": "2026-10-15T10:56:29.847Z",
+    "buildId": "e7abe8adc4b4088e9d5e34e9",
+    "ruleVersion": "2026-10-15.1",
+    "ruleHashes": {
+      "semantic-layer.js": "7c79d9c5022675be256a31863088cfafb948b6b57e8dde8c90d2b280c6811667",
+      "semantic-pattern.js": "61cbfc0aa5e7a6d92e83dcad827bb1ad05a46368c361a1f72af29cc804ba6cd6",
+      "keyword-context.js": "694909126903024550ac73623a6e3da79052d91e0de4d804cd1497446364f2ab",
+      "content-keywords.js": "ba8fc939ba4e0e19fe0fffa4b6408316fd28ecf79b870aa514a89ab7f16decc3",
+      "keyword-vocabulary.js": "fc67a30a9424932fd3729e13038c364f33059e5c35d54be35b6ad6bd8ad3a5c7",
+      "source-editorial.js": "76fceebe24d8c3c0519525c051af41e59826ee2c219b32773f927af73ee9b2a5",
+      "source-context.js": "d3349e458a697e72aa558e03de020729b8b044de54ee8a36009d0adf3356903f",
+      "supplement-search.js": "7485fafa6223d67430fef6e52414cf0d9ee6c25c3491c317bff77e516d38e864",
+      "source-supplements.js": "49738d6c2700e1ece7a40054ae8f8482f94e2d0b62c672aa495cdddce1a9ce7c",
+      "broadcast-guide-text.js": "1d61038b2475bfb46e82faaa4bc5adaabb51a5b6714f4fa5a9df61a89057dc1b",
+      "source-text-quality.js": "8badcc3834e9651bdbec91fc0c6cfa8aa86ca7e3e48c5a4b3175f408c75e3a45",
+      "source-literal.js": "476c894927dea9d56219972b16c86c38e75ab47a856767a25e1d800a2b234094"
+    },
+    "resources": 23403,
+    "concepts": 60,
+    "resourcesWithSourceTags": 3069,
+    "sourceMentions": 3971,
+    "inferredCandidates": 217,
+    "sourceKeywords": 30201,
+    "paidApiCalls": 0,
+    "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+  },
+  "rows": "docs/r12-25-keyword-results.jsonl",
+  "paidApiCalls": 0,
+  "scope": "고정 입력 전체 대표/판본. 추출어는 원문 언급이며 의미/장면/학년/교육과정 승인 아님. 제목 복사/빈 본문에는 추정 태그를 넣지 않음."
+}

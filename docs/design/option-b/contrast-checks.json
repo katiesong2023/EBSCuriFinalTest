@@ -1,0 +1,143 @@
+{
+  "formula": "WCAG relative luminance; sRGB",
+  "checks": [
+    {
+      "name": "body-dark",
+      "foreground": "#F6F3EB",
+      "background": "#111214",
+      "ratio": 16.9,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "meta-dark",
+      "foreground": "#B6B8BF",
+      "background": "#111214",
+      "ratio": 9.46,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "meta-panel",
+      "foreground": "#B6B8BF",
+      "background": "#1C1E22",
+      "ratio": 8.42,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "body-paper",
+      "foreground": "#191B20",
+      "background": "#F6F3EB",
+      "ratio": 15.54,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "meta-paper",
+      "foreground": "#555B65",
+      "background": "#F6F3EB",
+      "ratio": 6.17,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "primary",
+      "foreground": "#191B20",
+      "background": "#FF9660",
+      "ratio": 8.03,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "primary-hover",
+      "foreground": "#191B20",
+      "background": "#FFAE85",
+      "ratio": 9.55,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "science",
+      "foreground": "#191B20",
+      "background": "#C5B5FA",
+      "ratio": 9.32,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "cross",
+      "foreground": "#191B20",
+      "background": "#BFE06C",
+      "ratio": 11.56,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "error-dark",
+      "foreground": "#FFB5B5",
+      "background": "#1C1E22",
+      "ratio": 9.96,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "error-paper",
+      "foreground": "#A32B35",
+      "background": "#F6F3EB",
+      "ratio": 6.41,
+      "target": 4.5,
+      "passed": true
+    },
+    {
+      "name": "focus-dark",
+      "foreground": "#A8BBFF",
+      "background": "#292C31",
+      "ratio": 7.48,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "focus-paper",
+      "foreground": "#2952AD",
+      "background": "#F6F3EB",
+      "ratio": 6.52,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "input-dark",
+      "foreground": "#858B96",
+      "background": "#1C1E22",
+      "ratio": 4.87,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "input-paper",
+      "foreground": "#777E88",
+      "background": "#FFFEFC",
+      "ratio": 4.07,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "border-paper",
+      "foreground": "#777E88",
+      "background": "#F6F3EB",
+      "ratio": 3.7,
+      "target": 3,
+      "passed": true
+    },
+    {
+      "name": "border-button",
+      "foreground": "#555B65",
+      "background": "#F6F3EB",
+      "ratio": 6.17,
+      "target": 3,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "scope": "selected text/control pairs; not a full accessibility audit"
+}

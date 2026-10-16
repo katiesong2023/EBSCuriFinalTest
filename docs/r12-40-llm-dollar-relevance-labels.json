@@ -1,0 +1,875 @@
+{
+  "scope": "기존 기준과 같은 에이전트 잠정 원문 평가. 교사/영상 정답률 아님.",
+  "labels": {
+    "new200/Q109/BCAST-2d032ce4b233bfe29ceb": {
+      "query": "자석의 극 N극 S극",
+      "fingerprint": "f504374868d0d74fae51b9323250db2cb3f05a9dfc61a5cadeee8dcf81006b16",
+      "score": 2,
+      "reason": "공식 대본에서 두 극과 같은 극의 밀어냄·다른 극의 달라붙음을 직접 설명한다. N/S 명칭·학년 적합성은 별도 확인이다."
+    },
+    "new200/Q148/BCAST-85aec6f94c84e4003bdd": {
+      "query": "습도 이슬 구름 비",
+      "fingerprint": "a71287070ae68a8422d6f5e261f3d6736bde9292ec2f28c7eea10a612b77d8e7",
+      "score": 0,
+      "reason": "비만 치료 내용으로 습도·이슬·구름·강수와 무관하다."
+    },
+    "new200/Q148/BCAST-6ea89ba40d5bd1755f42": {
+      "query": "습도 이슬 구름 비",
+      "fingerprint": "5dad078bc4bada581a8829735d6a2154c901fc9dbd0aac4c9b114fa575e60fa5",
+      "score": 1,
+      "reason": "비를 만드는 미술 놀이만 소개하며 습도·이슬·구름과의 관계는 확인되지 않는다."
+    },
+    "new200/Q148/BCAST-2292d4ab9288706bedb8": {
+      "query": "습도 이슬 구름 비",
+      "fingerprint": "c717fe7060abc0b7c942f89960f5977a63963ca790dffff63dcec36c87c3253a",
+      "score": 1,
+      "reason": "이슬 맺힌 아침의 노래로 이슬만 연관되며 습도·구름·강수 설명은 미확인이다."
+    },
+    "new200/Q008/BCAST-d695bfa7a91a6a384329": {
+      "query": "설날 추석 세시 풍속",
+      "fingerprint": "a4b8f8ac2a600f6532d20a145554524c5c91a3709927dcfc8eacdb035651c096",
+      "score": 1,
+      "reason": "설날의 세배·전통 놀이만 확인되며 추석 풍속은 미확인."
+    },
+    "new200/Q008/BCAST-da206b484615bbbd00cc": {
+      "query": "설날 추석 세시 풍속",
+      "fingerprint": "21c6695ecd61a7932beb6d305520b64953723d565601297f5267649bcc36566b",
+      "score": 1,
+      "reason": "설날 세배·윷놀이만 확인되며 추석은 미확인."
+    },
+    "new200/Q008/BCAST-627df3c368a4d86b2a3e": {
+      "query": "설날 추석 세시 풍속",
+      "fingerprint": "31629bcc3d23b7a21eb4c2bc3360f9c62d041dc3a3805dbe21f249449a933d3c",
+      "score": 1,
+      "reason": "설날 활동만 나열되고 추석 풍속은 미확인."
+    },
+    "new200/Q015/BCAST-d9387edd6090c8993251": {
+      "query": "희소썽 쉽게 설명",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표의 세대별 해석으로 경제적 희소성과 무관."
+    },
+    "new200/Q015/BCAST-68c7f8d70c9e71132963": {
+      "query": "희소썽 쉽게 설명",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "불가리아 가족 성장기로 희소성 설명과 무관."
+    },
+    "new200/Q015/BCAST-9b48c38fdc724380dde5": {
+      "query": "희소썽 쉽게 설명",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학 설명으로 희소성과 무관."
+    },
+    "new200/Q017/BCAST-ce1721b43f7741c59028": {
+      "query": "주민 참여 지역 문제 해결",
+      "fingerprint": "aaa9339e7e8720237529d19958f7d0cc2ea624b036333cbac9563d3f6726c753",
+      "score": 2,
+      "reason": "주민참여조례·공청회·토론회로 시민의 지역 의사결정 참여를 직접 다룸."
+    },
+    "new200/Q017/BCAST-41236586c72656a2741e": {
+      "query": "주민 참여 지역 문제 해결",
+      "fingerprint": "db0d3e97de36a1f7b81733a2faae1118c0b16e9e7cc2d3299bd7b5fdee153839",
+      "score": 1,
+      "reason": "지방의회의 지역 문제 해결은 설명하나 주민 참여 과정은 미확인."
+    },
+    "new200/Q021/BCAST-107e81e3003480253641": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "b5479d3827a5160ec3676c0a198ac8496af7ea41e1d0b04954e88e8b37d916d4",
+      "score": 1,
+      "reason": "노인의 삶은 직접 주제지만 고령화 사회의 맥락·특징은 원문 부족."
+    },
+    "new200/Q021/BCAST-fc40018a75de92a757b3": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "df1ea22baff603388b27524684a0124f0e5b8a6a37870add0913cd960a4f5e21",
+      "score": 1,
+      "reason": "노년 질환·삶의 질을 다루지만 고령화 사회와 노인 생활 일반은 부분적."
+    },
+    "new200/Q021/BCAST-430086053b3830d63751": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "038a339e89e9a7ae4aa5d7f1cad7c32dfd7f484850f8906aaa1b8647deb6abd7",
+      "score": 1,
+      "reason": "어르신 장수·결혼 사진의 생활 사례지만 고령화 사회 설명은 미확인."
+    },
+    "new200/Q023/BCAST-55632a5eb398214606ee": {
+      "query": "다문화 가정 이웃",
+      "fingerprint": "93a9ba968ee6eeb7edd44f314a735c07d87488f3878c9d3142b38fc03f40eaf5",
+      "score": 0,
+      "reason": "동물 캐릭터의 친절한 이웃 이야기이며 다문화 가정 근거 없음."
+    },
+    "new200/Q023/BCAST-322dd97de14b1f057dc9": {
+      "query": "다문화 가정 이웃",
+      "fingerprint": "5dd1a9cf42eb9e14d1fc8b5be5897cfcb9c03cafd3b479976a7ed4d10fe38a96",
+      "score": 1,
+      "reason": "이민자 가정과 낯선 나라 이야기는 인접 주제이나 다문화 이웃 관계는 미확인."
+    },
+    "new200/Q041/BCAST-953787f16eb05d49e21a": {
+      "query": "고조선 건국 이야기 단군",
+      "fingerprint": "2e6df57fa8f573f09a573852e2b064e3f2a5397fdf8c7ab7c614edb20dcfde10",
+      "score": 2,
+      "reason": "단군 신화와 나라의 성립을 직접 설명."
+    },
+    "new200/Q041/BCAST-deccd8c06b51ebd1c2f1": {
+      "query": "고조선 건국 이야기 단군",
+      "fingerprint": "7617cb1a7d1da0b8ab1321876a5e75abd981a38a3246dd19e8af4989ab2733cb",
+      "score": 0,
+      "reason": "단군 이래는 관용적 수식이며 실제 내용은 엿 장인·전통 간식."
+    },
+    "new200/Q047/BCAST-9ee2377a3c1051a5906d": {
+      "query": "흥선대원군 통상 수교 거부",
+      "fingerprint": "1f3dbbacadc94ef63f31af3ccf98a511f80c33e27a3c087a8ca342daae485e5f",
+      "score": 1,
+      "reason": "흥선대원군의 무기 개발만 확인되고 통상 수교 거부는 미확인."
+    },
+    "new200/Q050/BCAST-d5010b5b1dec70ea4e93": {
+      "query": "광복과 6·25 전쟁",
+      "fingerprint": "ed0e0b98a95fbe1cf6ec15cfd2b64e40a0e0c3c88bc995b5a073a28954ddb11c",
+      "score": 1,
+      "reason": "광복·전쟁은 교육사 배경이며 해당 역사 사건 설명은 부분적."
+    },
+    "new200/Q050/BCAST-fc40fbcbaadd5e49e3c2": {
+      "query": "광복과 6·25 전쟁",
+      "fingerprint": "ae4090cf4ff13305db89a0df44722c33e9de5aaa462d3150b701f5ab5eec5132",
+      "score": 1,
+      "reason": "광복군 작전은 광복에 연관되나 6·25 전쟁은 없음."
+    },
+    "new200/Q050/BCAST-f9bc48e2900ec705cc35": {
+      "query": "광복과 6·25 전쟁",
+      "fingerprint": "1c15f0309ff3c932615a2193662ea8fd2c50bc506f58cc782d4719e97f71f83d",
+      "score": 1,
+      "reason": "광복 후 분단·전쟁 직전 우편 교환 사례이며 전쟁 자체 설명은 미확인."
+    },
+    "new200/Q056/BCAST-2c69289ba130cdaab8ad": {
+      "query": "한강의 기적 경제 성장 과정",
+      "fingerprint": "a9aca528e5f3bf4a5a256bd82b03ebc12bb8ced8218c39a61bf7358b0a870253",
+      "score": 0,
+      "reason": "중국 성장 모델로 한국 한강의 기적·성장 과정과 대상이 다름."
+    },
+    "new200/Q056/BCAST-5ee5b04ea0b5c43c96c7": {
+      "query": "한강의 기적 경제 성장 과정",
+      "fingerprint": "14efef2baaa4a971d35c47f3030f7409075184f629297262e386517672ba8cf8",
+      "score": 0,
+      "reason": "중국 자본주의 도입 과정으로 한국 성장 과정과 대상이 다름."
+    },
+    "new200/Q056/BCAST-02379670824f725f9e15": {
+      "query": "한강의 기적 경제 성장 과정",
+      "fingerprint": "bd53a9fd6fa66d55282c756dcca8f7aa678be8b41cb9a36445aedf8731dc80aa",
+      "score": 0,
+      "reason": "세계화 비판·지역 경제의 선택으로 한강의 기적 과정 근거 없음."
+    },
+    "new200/Q069/BCAST-5fc2f5af03f671abe2fa": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "b03a6a90bf631608265078e8fb72ab2d53c9d2d32faf1f4fd6c5eb89d508acf3",
+      "score": 1,
+      "reason": "도시 개발은 다루나 환경 보호와의 양립·연결은 미확인."
+    },
+    "new200/Q069/BCAST-e29b5b7f626a39fd22cf": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "48af3e386eb41fdefc3d37e9f139e48e754836701d7f256931e3cff3af908cd8",
+      "score": 1,
+      "reason": "환경 보호는 다루나 도시 개발과의 연결은 없음."
+    },
+    "new200/Q069/BCAST-159832984af4680fa5c7": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "8fedb3b5db8ba8cf405c5407e23743b767e936ae9154f4b5382cbe58f007fe00",
+      "score": 1,
+      "reason": "재활용·환경 보호는 다루나 도시 개발과 양립 여부는 없음."
+    },
+    "new200/Q076/BCAST-d9387edd6090c8993251": {
+      "query": "위도와 경도 표준시",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 세대 차이로 위도·경도·표준시와 무관."
+    },
+    "new200/Q076/BCAST-68c7f8d70c9e71132963": {
+      "query": "위도와 경도 표준시",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 위도·경도·표준시와 무관."
+    },
+    "new200/Q076/BCAST-9b48c38fdc724380dde5": {
+      "query": "위도와 경도 표준시",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학 설명으로 좌표·표준시와 무관."
+    },
+    "new200/Q078/BCAST-0e28c222b7f23817963b": {
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "fingerprint": "9afee0114bece4de934b14c70d923ebd0f2c70f062e1bd63b374aa9253895d25",
+      "score": 0,
+      "reason": "훈자 마을 생활이지만 열대 우림 기후·생활 근거 없음."
+    },
+    "new200/Q078/BCAST-afc33b9356f9f1e24617": {
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "fingerprint": "8db1061fc185d0c9c39f01e5b1c5d8c54e9d4ea3e1aba7ec537a3cfa337ffbf2",
+      "score": 0,
+      "reason": "파키스탄 도시 라마단·음식 여행으로 열대 우림 기후 근거 없음."
+    },
+    "new200/Q078/BCAST-b8ec6a747bfd84d7ee37": {
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "fingerprint": "51b42fcb2d52022f6bcb927570245cfb3aa0c74abb6240a6f072eeb25b165c15",
+      "score": 0,
+      "reason": "훈자·파키스탄 산촌 생활이며 열대 우림 기후 근거 없음."
+    },
+    "new200/Q081/BCAST-73c70df7f8049bec9da3": {
+      "query": "안데스 고산 도시 생활",
+      "fingerprint": "a14fc965e34b75cdddaafbe812a1815889ba7f8daa3e2e3cd606b6ffca8e2853",
+      "score": 1,
+      "reason": "안데스 고산의 순례·농촌 생활은 확인되나 도시 생활은 미확인."
+    },
+    "new200/Q081/BCAST-e69079f1a94381ad0876": {
+      "query": "안데스 고산 도시 생활",
+      "fingerprint": "e70ece9879f7b568ab8418c69d81f3e999ae9c5e048b2018c44d610391504c5b",
+      "score": 1,
+      "reason": "안데스 주변 여러 지역 여행으로 고산 도시 생활의 연결은 미확인."
+    },
+    "new200/Q081/BCAST-a2a43cfc9612af9dcb2a": {
+      "query": "안데스 고산 도시 생활",
+      "fingerprint": "5f6593c562738c73a0252b17bd83fddffd7550436cc06f5a724498e1991cd893",
+      "score": 0,
+      "reason": "조지아 도시·산촌이며 안데스가 아님."
+    },
+    "new200/Q084/BCAST-6d0b49266af2b28ee987": {
+      "query": "석유 때문에 나라끼리 분쟁이 생기는 이유",
+      "fingerprint": "4c3e947ffd7ddf4aa57cac527d80751bf74866587768199ca7676070bfe8f4c9",
+      "score": 2,
+      "reason": "석유를 노린 국가들의 전쟁이라는 인과를 직접 제시."
+    },
+    "new200/Q084/BCAST-c0f1e239f6106e5cf118": {
+      "query": "석유 때문에 나라끼리 분쟁이 생기는 이유",
+      "fingerprint": "e4313512de59737ccd0590729be3a03d7ad1c0ab623d6616afce23a3fc47985d",
+      "score": 1,
+      "reason": "분쟁 뒤 나프타 공급 위기는 있으나 석유가 분쟁을 일으키는 이유는 미확인."
+    },
+    "new200/Q084/BCAST-11749d6d960b2b0bb017": {
+      "query": "석유 때문에 나라끼리 분쟁이 생기는 이유",
+      "fingerprint": "098c9976a973b3f8cd801ec03085fae3bcf0bad3690c5772ce82dab0bfcf3cc6",
+      "score": 2,
+      "reason": "석유 수송 통로·우회 한계·국가 의존과 군사 갈등의 연결을 직접 설명."
+    },
+    "new200/Q086/BCAST-d9387edd6090c8993251": {
+      "query": "사회화 과정과 사회화 기관",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 세대 차이이며 사회화 과정·기관의 설명 없음."
+    },
+    "new200/Q086/BCAST-68c7f8d70c9e71132963": {
+      "query": "사회화 과정과 사회화 기관",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기이지만 사회화 과정·기관의 역할 근거 없음."
+    },
+    "new200/Q086/BCAST-9b48c38fdc724380dde5": {
+      "query": "사회화 과정과 사회화 기관",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 사회화와 무관."
+    },
+    "new200/Q090/BCAST-243cc943c94b07ad87cf": {
+      "query": "대중 매체와 대중문화 비판적 수용",
+      "fingerprint": "c3eb78c69e865bcb59d0c8d2dd1a2669a61572eef174d186fc324fc951dec7e1",
+      "score": 1,
+      "reason": "매체 발달과 대중문화 산업의 역사는 있으나 비판적 수용 방법은 미확인."
+    },
+    "new200/Q090/BCAST-9b6cfb9327f930d37c7f": {
+      "query": "대중 매체와 대중문화 비판적 수용",
+      "fingerprint": "c348e656277d800bdd0044b9dcb80a9897f16586c75b3d5cccf7d3ae9a7908ba",
+      "score": 1,
+      "reason": "능동적 팬덤 소비·비판 참여는 있지만 비판적 매체 수용 일반은 부분적."
+    },
+    "new200/Q090/BCAST-76780144b8b2b6bcbe7f": {
+      "query": "대중 매체와 대중문화 비판적 수용",
+      "fingerprint": "b1ebd2ec7661daddd00c1720ec6a46ab8e306865c1c4afa8b010c863442dcfed",
+      "score": 1,
+      "reason": "대중문화 패권과 매체 산업 변화이며 비판적 수용 방법은 미확인."
+    },
+    "new200/Q095/BCAST-3d5059e64e621fde36fa": {
+      "query": "사법과 공법은 어떻게 다를까",
+      "fingerprint": "bac57f870d0ea01d4d6917db2014b8d172a912ea29f364222e98b61fbbe4fc1f",
+      "score": 0,
+      "reason": "공법은 도로 건설 방법이며 법률의 공법/사법 구분과 무관."
+    },
+    "new200/Q095/BCAST-407fa3f6166ccb5c0c99": {
+      "query": "사법과 공법은 어떻게 다를까",
+      "fingerprint": "439070929591a56d341223a470ea68aa8009f76cb4fec7a0e66e1e3d5b454d89",
+      "score": 0,
+      "reason": "모듈러 주택 시공법으로 법률과 무관."
+    },
+    "new200/Q095/BCAST-e2d18481f866487851de": {
+      "query": "사법과 공법은 어떻게 다를까",
+      "fingerprint": "b527275f9d864c1d855d4e7949feb4163703bd86ed8d675e26a314635126bc5e",
+      "score": 0,
+      "reason": "돔 건축 공법으로 법률과 무관."
+    },
+    "new200/Q101/BCAST-8b04ff8370a866947db4": {
+      "query": "물체와 물질의 차이",
+      "fingerprint": "2377c9ed0c584169705c47e08148805c56a1a4ca1e6def9e1d630e37f2a07337",
+      "score": 2,
+      "reason": "물질과 물체의 개념을 직접 설명하는 학습 자료."
+    },
+    "new200/Q101/BCAST-ec39eab79e8a54aacfea": {
+      "query": "물체와 물질의 차이",
+      "fingerprint": "b41406f52442ec8f6f47c329d3726321b2432d05904970cdb3c3bf099ee7e5bf",
+      "score": 0,
+      "reason": "오렉신·수면 연구로 물체와 물질의 개념 구분과 무관."
+    },
+    "new200/Q101/BCAST-f8731a0d74db4fe94681": {
+      "query": "물체와 물질의 차이",
+      "fingerprint": "5df8e8bb05cfb2403722c09ff5fae750c755c56986a1837fd9e9d3d49a443c00",
+      "score": 0,
+      "reason": "암흑 물질의 정체이며 물체/물질의 기초 개념 구분 근거 없음."
+    },
+    "new200/Q112/BCAST-d76f81ca578afac9acb4": {
+      "query": "달의 표면 충돌구",
+      "fingerprint": "bbf3764419cb4aa8d07f81b380f7f2f470832a4b012c2ca6a3bfab5d09938a64",
+      "score": 0,
+      "reason": "달 탐사 배설물 처리 이야기로 표면 충돌구 설명 없음."
+    },
+    "new200/Q112/BCAST-ca60eccdd6412d1d3b0e": {
+      "query": "달의 표면 충돌구",
+      "fingerprint": "ceb27c136efaab0cb292a45a729778e7de4bf07ae9e2ed52ecd8e3a2fc0e7cee",
+      "score": 0,
+      "reason": "달의 겉보기 크기 착시이며 충돌구와 다른 현상."
+    },
+    "new200/Q112/BCAST-6030cd9110ad21462318": {
+      "query": "달의 표면 충돌구",
+      "fingerprint": "2ec7a05af6ce48a7a6aacb2962ded163bc9879b5af749cd6616ada21bb6bf28f",
+      "score": 0,
+      "reason": "한국 달 탐사 기술이며 달 표면 충돌구 근거 없음."
+    },
+    "new200/Q113/BCAST-dd88904035fcd94105ca": {
+      "query": "강낭콩 싹이 트는 과정 타임랩스",
+      "fingerprint": "7cc302d3c84cfdef8001e639839f40cb19991f3784550d5c309250718e6d6772",
+      "score": 0,
+      "reason": "제목의 강낭콩과 달리 내용은 젓가락 옮기기 놀이로 발아와 무관."
+    },
+    "new200/Q118/BCAST-8f3da3f6bf271ff88c6a": {
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "fingerprint": "e0491e43cd8302071ce066b1d660187937a1b34d6caa73f9c5477475b73466f2",
+      "score": 1,
+      "reason": "이색 소금 가공은 있으나 바닷물에서 소금을 얻는 과정은 미확인."
+    },
+    "new200/Q118/BCAST-2d46090151361e234a1f": {
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "fingerprint": "142b684bc3b9e72abb6fc8261d7d7aaca228393faad6b8ef19cd12e84fd68e9b",
+      "score": 1,
+      "reason": "소금의 성질은 다루나 바닷물에서 얻는 과정은 미확인."
+    },
+    "new200/Q118/BCAST-9c8296fe6f984c591402": {
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "fingerprint": "f9a8287c8c09fa8ebabcb0564aed46f3563abc815ceaecab06ec4cf41e31e576",
+      "score": 0,
+      "reason": "전래동화의 마법 맷돌로 실제 소금 추출 과정과 다름."
+    },
+    "new200/Q119/BCAST-294e0b9e721b2f2131eb": {
+      "query": "화산 분출물 용암 화산재",
+      "fingerprint": "9551a69e1a929cbde23a481b56f2377e9e6f62271ece1443c6a3121c28ba2583",
+      "score": 1,
+      "reason": "실제 용암·마그마 관찰은 있으나 화산재 등 분출물 전체 설명은 미확인."
+    },
+    "new200/Q119/BCAST-9350c53086c93422c7b8": {
+      "query": "화산 분출물 용암 화산재",
+      "fingerprint": "3f07cee373e7dec8bd3110ca8c3881cc3282919432e8cdd3305d00d9e69fcf23",
+      "score": 0,
+      "reason": "용암은 초등학교 이름이며 화산 분출물이 아님."
+    },
+    "new200/Q119/BCAST-71f993ee4dbc18bb820a": {
+      "query": "화산 분출물 용암 화산재",
+      "fingerprint": "a7c765ba9acba339c082a911e76be80e3b31d9d2b0ee5a8360bb0157c40240aa",
+      "score": 1,
+      "reason": "화산·용암·마그마는 다루나 화산재·분출물 전체는 미확인."
+    },
+    "new200/Q125/BCAST-a3ebdd6b0b2a1a3b070b": {
+      "query": "그림자는 왜 생길까",
+      "fingerprint": "317bec71e2c294ae32f326732072d82f44bf8c6e290c947a48253c9bc60afb3b",
+      "score": 1,
+      "reason": "그림자 놀이·특성은 있으나 형성 원인 설명은 미확인."
+    },
+    "new200/Q125/BCAST-aa3e3c731a80526fa5b1": {
+      "query": "그림자는 왜 생길까",
+      "fingerprint": "e454a25646f117caa0603d73e239fef707a8483b75b814d6e9577b1859f736f4",
+      "score": 1,
+      "reason": "그림자 식별 놀이지만 그림자 생성 원인은 미확인."
+    },
+    "new200/Q125/BCAST-bad7d274e25f7bc20582": {
+      "query": "그림자는 왜 생길까",
+      "fingerprint": "5e7c1840a833ed6111450784611d1b1dfaa1e8b04f3990a82a9c124194bd15a5",
+      "score": 0,
+      "reason": "낙타의 그림자 우화에 대한 선택으로 광학적 생성 원인과 다름."
+    },
+    "new200/Q128/BCAST-bc4755523a6a94a2096a": {
+      "query": "선인장은 어떻게 사막에서 살아남을까",
+      "fingerprint": "1760a01827dbbd6eab8d5dd2d1d1199bc6bc40618f044258f20e827c7aca96c3",
+      "score": 1,
+      "reason": "극한 기후의 선인장이 주제지만 구체적인 사막 생존 기작은 원문 부족."
+    },
+    "new200/Q128/BCAST-70cd84b19ce027c733bd": {
+      "query": "선인장은 어떻게 사막에서 살아남을까",
+      "fingerprint": "16264dca4afce8d280712b48697f70f7e4dbdac930d0b110fe266bf15a246b3b",
+      "score": 0,
+      "reason": "선인장 그림 그리기로 사막 적응 설명 없음."
+    },
+    "new200/Q128/BCAST-f4d9002dd13ff0ac7588": {
+      "query": "선인장은 어떻게 사막에서 살아남을까",
+      "fingerprint": "005f696c1e67e14ff10bc5bee1bbfacbf6191cd5f32e33f8890b5720961a5571",
+      "score": 1,
+      "reason": "다른 꽃과 달리 생존하는 선인장 이야기는 있으나 사막의 생존 원리는 미확인."
+    },
+    "new200/Q133/BCAST-5876fef33095a23a189c": {
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "fingerprint": "70e33d0ae2d6afd2a10c4372f95254777f521b35f3ac770032c1996b935e1f3b",
+      "score": 0,
+      "reason": "물속 곤충 채집이며 한살이·완전 탈바꿈 근거 없음."
+    },
+    "new200/Q133/BCAST-58a5347702e0c7d0ee03": {
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "fingerprint": "6aceab4a6467a7420f38b1355c435e10e58ac4ae55abeb517dc1e8f4a07036fc",
+      "score": 1,
+      "reason": "곤충의 번식은 다루나 완전 탈바꿈의 전 과정은 미확인."
+    },
+    "new200/Q133/BCAST-4898568e3316eeb435ce": {
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "fingerprint": "f5b1c6716f3f1bffcbe283aa6ed5a3c20848f774101e1f574ed8a7145395d98e",
+      "score": 0,
+      "reason": "곤충 이름 외우기이며 한살이·탈바꿈 설명 없음."
+    },
+    "new200/Q135/BCAST-e8dab1038d2854614d92": {
+      "query": "공기는 무게가 있을까",
+      "fingerprint": "ffecae80015eee03d088a5c572a586e6c4c2cd1b9fa0ca0270a45f52ad9327c4",
+      "score": 0,
+      "reason": "공기 가시화·오염 예방이며 무게 설명 없음."
+    },
+    "new200/Q135/BCAST-135317332149bf8eef14": {
+      "query": "공기는 무게가 있을까",
+      "fingerprint": "6a2931b6e6cc7e5735b7ec2552bff000468dc7971489d4ff4d60aefa57506b6d",
+      "score": 0,
+      "reason": "공기 장난감 제작만 확인되며 무게 근거 없음."
+    },
+    "new200/Q135/BCAST-9273ffc8a9ae441c02d5": {
+      "query": "공기는 무게가 있을까",
+      "fingerprint": "7039347610a9c661a73ca691c24b9398b2d93d5aa81c2b60b258f7bf4f431415",
+      "score": 0,
+      "reason": "대기오염 위험성이며 공기 무게와 무관."
+    },
+    "new200/Q138/BCAST-12a49db28b502090395b": {
+      "query": "대류 실험 물감 영상",
+      "fingerprint": "1cdbf91117544c19d9566e75d1392f233dbd92ebed674271649f6f38ff345046",
+      "score": 0,
+      "reason": "물감 구슬 만들기이며 대류 실험 근거 없음."
+    },
+    "new200/Q138/BCAST-b85de575a8c2feccafc1": {
+      "query": "대류 실험 물감 영상",
+      "fingerprint": "772c40c79cf2c1e736d7d320bd06c5358a2d5fdfcf11fde2053f3230ed67a743",
+      "score": 0,
+      "reason": "포도 물감 만들기이며 대류와 무관."
+    },
+    "new200/Q138/BCAST-cab0d9d126a3feebd57f": {
+      "query": "대류 실험 물감 영상",
+      "fingerprint": "bba67ec727ef068972bceec4466c2b2e899271ea4c23f55aed8fbf6aabf2316d",
+      "score": 0,
+      "reason": "물감 혼색 원리로 대류와 다른 현상."
+    },
+    "new200/Q158/BCAST-1be608ef1aca2c9af8a0": {
+      "query": "기체 압럭과 부피",
+      "fingerprint": "b0b45b03ec1ace3c95086cbe4ecadbbb7d6180481acd1923bc1844ea678dd95c",
+      "score": 1,
+      "reason": "수압 변화와 체내 기체 기포는 다루나 압력-부피 관계 설명은 미확인."
+    },
+    "new200/Q161/BCAST-4a3f70f17027a2faa93b": {
+      "query": "물에 넣은 빨대는 왜 꺾여 보일까",
+      "fingerprint": "2a8de0b32cdbdf4121b21c858cb16f78d2250b8771191354f6e5b35b8824fa3b",
+      "score": 0,
+      "reason": "빨대로 물 옮기기이며 꺾여 보이는 굴절 현상은 없음."
+    },
+    "new200/Q163/BCAST-12c7ac966259a25753ab": {
+      "query": "전기 회로 직렬 병렬",
+      "fingerprint": "834647d63652466c2351df52ae9564143d8a5d9ade4f9f92fd1fb2e13c2b22fc",
+      "score": 0,
+      "reason": "광산 작업의 전구는 배경일 뿐 직렬·병렬 회로 설명 없음."
+    },
+    "new200/Q168/BCAST-c4bd24c71576406c073c": {
+      "query": "연소의 조건 소화 방법",
+      "fingerprint": "359e3e6460b4d0d4a29e657ee0609eb4b386d6fe5064dfcc72549a1cb25a88aa",
+      "score": 0,
+      "reason": "소화는 소의 음식물 소화이며 연소·불 끄기와 무관."
+    },
+    "new200/Q168/BCAST-ac1b4443b0f9dc3cef33": {
+      "query": "연소의 조건 소화 방법",
+      "fingerprint": "0090151b59bf19da9eb43d16867359fe6d07128d70e7d876b3d6fcebca5bef37",
+      "score": 0,
+      "reason": "음식물 소화 촉진 요가로 소화(消火)가 아님."
+    },
+    "new200/Q168/BCAST-36c6fa1305c288267600": {
+      "query": "연소의 조건 소화 방법",
+      "fingerprint": "b213c501d6c89ea9324dc8d4890afaf6bc82bfbc32f5db4cc8550aa51054ab77",
+      "score": 0,
+      "reason": "인체 소화 과정으로 불 끄기와 무관."
+    },
+    "new200/Q170/BCAST-3fcac61cd3985e509404": {
+      "query": "소화 기관 순환 기관",
+      "fingerprint": "3748ae6949a8d2aa424fa6ec669548366ecf16d4e59220e045b30c907673bb58",
+      "score": 0,
+      "reason": "바다의 순환으로 신체의 소화·순환 기관이 아님."
+    },
+    "new200/Q170/BCAST-ac1b4443b0f9dc3cef33": {
+      "query": "소화 기관 순환 기관",
+      "fingerprint": "0090151b59bf19da9eb43d16867359fe6d07128d70e7d876b3d6fcebca5bef37",
+      "score": 1,
+      "reason": "소화 기관은 언급하지만 순환 기관과의 연결은 없음."
+    },
+    "new200/Q170/BCAST-01bb5774b712efe912db": {
+      "query": "소화 기관 순환 기관",
+      "fingerprint": "497afac046f2a55e09f9b32d607000150f430a90a0ecc98883de3f317172832f",
+      "score": 0,
+      "reason": "생태계 포식·기생·생명 순환으로 신체 기관이 아님."
+    },
+    "new200/Q171/BCAST-d9387edd6090c8993251": {
+      "query": "심장이 뛰는 모습 애니메이션",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 세대 차이로 심장 박동 애니메이션과 무관."
+    },
+    "new200/Q171/BCAST-68c7f8d70c9e71132963": {
+      "query": "심장이 뛰는 모습 애니메이션",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 심장 박동 애니메이션과 무관."
+    },
+    "new200/Q171/BCAST-9b48c38fdc724380dde5": {
+      "query": "심장이 뛰는 모습 애니메이션",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 설명이며 심장 박동 애니메이션 근거 없음."
+    },
+    "new200/Q175/BCAST-9a441ec04f83364f9337": {
+      "query": "곰팡이와 세균은 우리에게 이로울까 해로울까",
+      "fingerprint": "af4d811ada2077332238c93cee07b1feb60e12e749079626df85bb8fd15d119a",
+      "score": 1,
+      "reason": "해로운 세균은 직접 설명하나 곰팡이·유익한 측면의 대조는 미확인."
+    },
+    "new200/Q175/BCAST-a75b0033b64ddcdc39cf": {
+      "query": "곰팡이와 세균은 우리에게 이로울까 해로울까",
+      "fingerprint": "d1d05f1939a16cb2c70ad468a21beb8787c6d96459fef595ab761b79dcf37e5c",
+      "score": 1,
+      "reason": "곰팡이 알레르기·세균 감염은 다루지만 유익/유해의 균형 설명은 없음."
+    },
+    "new200/Q179/BCAST-d9387edd6090c8993251": {
+      "query": "과학 실험실 안전 수칙",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 실험실 안전과 무관."
+    },
+    "new200/Q179/BCAST-68c7f8d70c9e71132963": {
+      "query": "과학 실험실 안전 수칙",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 실험실 안전과 무관."
+    },
+    "new200/Q179/BCAST-9b48c38fdc724380dde5": {
+      "query": "과학 실험실 안전 수칙",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학이며 실험실 안전 수칙과 무관."
+    },
+    "new200/Q187/BCAST-00ad3adabb62ae8e3263": {
+      "query": "입자 운동 상태 변화 잠열",
+      "fingerprint": "0937916647212dd2d00867fb876021eedb2a9e56d379587e3ae6da3fa5d3db91",
+      "score": 0,
+      "reason": "관성의 운동 상태이며 입자 운동·상변화·잠열과 다른 주제."
+    },
+    "new200/Q187/BCAST-63c7ba04cac90f9c6cad": {
+      "query": "입자 운동 상태 변화 잠열",
+      "fingerprint": "035e8b379bd58781cc5476eb7eb6bf3e116dd07ffac73d81600dac118382cdc4",
+      "score": 0,
+      "reason": "바이러스 입자·감염이며 상태 변화의 입자 운동이 아님."
+    },
+    "new200/Q187/BCAST-365e6b9d4fbb6369bd7c": {
+      "query": "입자 운동 상태 변화 잠열",
+      "fingerprint": "6549d56fec199656fd66d5c0d4b4746bfe5784ad84a2c7309a866fb39b7d9cc4",
+      "score": 0,
+      "reason": "공룡 애니메이션의 피해를 입자 표현으로 물리 입자와 무관."
+    },
+    "new200/Q188/BCAST-d9387edd6090c8993251": {
+      "query": "융해렬 응고열 예시",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 융해열·응고열과 무관."
+    },
+    "new200/Q188/BCAST-68c7f8d70c9e71132963": {
+      "query": "융해렬 응고열 예시",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 융해열·응고열과 무관."
+    },
+    "new200/Q188/BCAST-9b48c38fdc724380dde5": {
+      "query": "융해렬 응고열 예시",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 융해열·응고열과 무관."
+    },
+    "new200/Q191/BCAST-c3d21309643e7f8f3db0": {
+      "query": "중력 탄성력 마찰력 부력",
+      "fingerprint": "bfd265ed655be7d16aa2f681224a522bbaa7172b09126417c14e5f7a1086b4df",
+      "score": 1,
+      "reason": "중력은 설명하나 탄성력·마찰력·부력은 미확인."
+    },
+    "new200/Q191/BCAST-3c891a33de46b51c2a4b": {
+      "query": "중력 탄성력 마찰력 부력",
+      "fingerprint": "7e6f71edf94ee19b12034a3e0d3d0954162b110970fbab18e3f89dee4b4603de",
+      "score": 1,
+      "reason": "중력 습관은 언급되나 여러 힘의 개념·관계는 원문 부족."
+    },
+    "new200/Q191/BCAST-9f0f0a269efa13265078": {
+      "query": "중력 탄성력 마찰력 부력",
+      "fingerprint": "0f7d3a1b0c3982b149f383551b3d59974a377d8c18f3f08e60f0645f702945d1",
+      "score": 0,
+      "reason": "과학적 영감의 심리가 주제이고 힘은 발견 일화의 배경뿐."
+    },
+    "new200/Q195/BCAST-89ff761de9a81ab3b3d7": {
+      "query": "파동 진폭 진동수 파장",
+      "fingerprint": "d21a56aed40f2c08748af9cbab97e0777ac8332996c74499d15e7e95ed73f55c",
+      "score": 1,
+      "reason": "양자적 파동 개념은 있으나 진폭·진동수·파장 설명은 미확인."
+    },
+    "new200/Q195/BCAST-d47d2d043acc530b3b76": {
+      "query": "파동 진폭 진동수 파장",
+      "fingerprint": "35598686cc646b02e06d83161d9148197cd9241064c9abd4bb654ff8435c9b53",
+      "score": 0,
+      "reason": "사회적 파장은 비유이며 물리적 파동이 아님."
+    },
+    "new200/Q195/BCAST-3f5f0e585f338840776f": {
+      "query": "파동 진폭 진동수 파장",
+      "fingerprint": "b2cc4c6ea05b3818265014804ff86f519362ccf1bb1c9fb85f1293540f99e52d",
+      "score": 0,
+      "reason": "파장은 기후 변화의 영향이라는 비유이며 물리적 파동이 아님."
+    },
+    "new200/Q197/BCAST-7231642fc8396ebb802c": {
+      "query": "암석은 어떻게 순환할까",
+      "fingerprint": "26be139b5724c4b2bbf954b8e9639b973f942b3d93c606c5eca14a7b9ddd1c1d",
+      "score": 1,
+      "reason": "암석·지형 형성은 다루나 암석의 순환 전 과정은 미확인."
+    },
+    "new200/Q197/BCAST-9b0d17fe44352cba0ea9": {
+      "query": "암석은 어떻게 순환할까",
+      "fingerprint": "6e065d9f11ad5d501be3a49413d737a7bce0632ea561d781117a3ecdee77e29a",
+      "score": 0,
+      "reason": "암석·석회암 관광 지명만 있고 암석 순환 근거 없음."
+    },
+    "new200/Q197/BCAST-50df730475837f7fe825": {
+      "query": "암석은 어떻게 순환할까",
+      "fingerprint": "1d3ab2ad8c29f000289602840aae67ef1ea8067d2ff85bcd33b0462f45e2f50e",
+      "score": 0,
+      "reason": "암석 위 요새가 관광 배경이며 암석 순환과 무관."
+    },
+    "previous170/D70-Q009/BCAST-d9387edd6090c8993251": {
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 해석으로 지도 기호와 장소 찾기와 무관."
+    },
+    "previous170/D70-Q009/BCAST-68c7f8d70c9e71132963": {
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 지도 기호와 장소 찾기와 무관."
+    },
+    "previous170/D70-Q009/BCAST-9b48c38fdc724380dde5": {
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 지도 기호와 무관."
+    },
+    "previous170/D70-Q021/BCAST-d9387edd6090c8993251": {
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 해석으로 물의 상태 변화 관찰과 무관."
+    },
+    "previous170/D70-Q021/BCAST-68c7f8d70c9e71132963": {
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 물의 상태 변화와 무관."
+    },
+    "previous170/D70-Q021/BCAST-9b48c38fdc724380dde5": {
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 물의 상태 변화와 무관."
+    },
+    "previous170/D70-Q045/BCAST-d9387edd6090c8993251": {
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 법의 권리 보호·침해 비교와 무관."
+    },
+    "previous170/D70-Q045/BCAST-68c7f8d70c9e71132963": {
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 법의 권리 보호·침해 비교와 무관."
+    },
+    "previous170/D70-Q045/BCAST-9b48c38fdc724380dde5": {
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 법의 권리 보호·침해 비교와 무관."
+    },
+    "previous170/D70-Q062/BCAST-d9387edd6090c8993251": {
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 소화 방법 비교와 무관."
+    },
+    "previous170/D70-Q062/BCAST-68c7f8d70c9e71132963": {
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 소화 방법 비교와 무관."
+    },
+    "previous170/D70-Q062/BCAST-9b48c38fdc724380dde5": {
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 소화 방법 비교와 무관."
+    },
+    "previous170/D70-Q069/BCAST-ea911bb6afb25361f7d2": {
+      "query": "세계의 기후와 생활",
+      "fingerprint": "e0b0427445261ed47f539ce5f827b2d02c606ca4cfbe15e27d5bd0bdb17a5faf",
+      "score": 0,
+      "reason": "세계 시장 소개만 있고 기후와 생활의 연결 근거 없음."
+    },
+    "previous170/D70-Q069/BCAST-570bed2ca0947519dd5d": {
+      "query": "세계의 기후와 생활",
+      "fingerprint": "2d9653618170539461264909e6eb1f67821f3a8d7c0956760f5a9ad18ccabdf5",
+      "score": 1,
+      "reason": "기후 위기의 심리·출산 영향은 다루나 세계 기후 특징별 생활 비교는 미확인."
+    },
+    "previous170/D70-Q069/BCAST-76a56e6fc46864000a82": {
+      "query": "세계의 기후와 생활",
+      "fingerprint": "6cf0cb4cba1de8d08914bff14a7721f1b6829a6b0b129276f64fa8e8254393b7",
+      "score": 0,
+      "reason": "조선 만국박람회·근대화로 세계 기후와 생활의 연결이 아님."
+    },
+    "previous170/D70-Q083/BCAST-4deb9bf8b94091521773": {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "fingerprint": "d6b5d1eef657de7090244dff31dde9da3e7fa3ac0a01ff3737f0161a29d0a6b5",
+      "score": 0,
+      "reason": "마을 당산나무의 기이한 이야기로 동네 변화 과정은 없음."
+    },
+    "previous170/D70-Q083/BCAST-03df91fa6a47030ab89d": {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "fingerprint": "122afed6432a4c9815de9a04027965833db0e1f58b44a34a8792ded85fb4d277",
+      "score": 1,
+      "reason": "40년 된 미용실의 사랑방 역할은 있으나 동네 전후 변화의 비교는 미확인."
+    },
+    "previous170/D70-Q083/PDLOG-090": {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "fingerprint": "272558d529a18f70b1bd0333f585981e8f9d73686980ce7cc84dd9af925562ff",
+      "score": 0,
+      "reason": "지역 경찰의 일상 업무로 동네 변화와 무관."
+    },
+    "previous170/D70-Q093/BCAST-c3d21309643e7f8f3db0": {
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "fingerprint": "bfd265ed655be7d16aa2f681224a522bbaa7172b09126417c14e5f7a1086b4df",
+      "score": 1,
+      "reason": "중력은 설명하나 부력을 함께 설명하는 근거 없음."
+    },
+    "previous170/D70-Q093/BCAST-3c891a33de46b51c2a4b": {
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "fingerprint": "7e6f71edf94ee19b12034a3e0d3d0954162b110970fbab18e3f89dee4b4603de",
+      "score": 1,
+      "reason": "중력은 언급되지만 부력과 함께 설명하는 근거는 없음."
+    },
+    "previous170/D70-Q093/BCAST-9f0f0a269efa13265078": {
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "fingerprint": "0f7d3a1b0c3982b149f383551b3d59974a377d8c18f3f08e60f0645f702945d1",
+      "score": 0,
+      "reason": "과학적 영감의 심리로 물체의 중력·부력 작용 설명과 다름."
+    },
+    "previous170/X100-Q002/BCAST-d9387edd6090c8993251": {
+      "query": "방위표와 지도 기호",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 방위표·지도 기호와 무관."
+    },
+    "previous170/X100-Q002/BCAST-68c7f8d70c9e71132963": {
+      "query": "방위표와 지도 기호",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 방위표·지도 기호와 무관."
+    },
+    "previous170/X100-Q002/BCAST-9b48c38fdc724380dde5": {
+      "query": "방위표와 지도 기호",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 방위표·지도 기호와 무관."
+    },
+    "previous170/X100-Q019/BCAST-96e893fd838fc3739cc4": {
+      "query": "자석 N극 S극",
+      "fingerprint": "85d65329b50db98f3546196ded6db6aa85ea1eb94c25dc818135e7f08aa66cbb",
+      "score": 1,
+      "reason": "자석에 붙는 물체만 확인되며 두 극의 성질은 미확인."
+    },
+    "previous170/X100-Q019/BCAST-2d032ce4b233bfe29ceb": {
+      "query": "자석 N극 S극",
+      "fingerprint": "f504374868d0d74fae51b9323250db2cb3f05a9dfc61a5cadeee8dcf81006b16",
+      "score": 2,
+      "reason": "공식 대본에서 같은 극의 밀어냄·다른 극의 끌림을 설명. N/S 명칭 자체는 미확인."
+    },
+    "previous170/X100-Q019/BCAST-332fbd405c5ad9b47bee": {
+      "query": "자석 N극 S극",
+      "fingerprint": "ceefe65b2510c33ca4f8517ee82dd4126e98fcb26cc9c04165fab9ae7f9a719e",
+      "score": 1,
+      "reason": "자석 성질을 활용한 놀이지만 N/S 두 극의 설명은 미확인."
+    },
+    "previous170/X100-Q027/BCAST-d9387edd6090c8993251": {
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "fingerprint": "be43fe1e9bd69ff655518bf2ea6e086f7409076e06be0e476dc253597a436ecd",
+      "score": 0,
+      "reason": "말줄임표 이야기로 실 전화기의 소리 전달과 무관."
+    },
+    "previous170/X100-Q027/BCAST-68c7f8d70c9e71132963": {
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "fingerprint": "9adf3c83bc2b07719da056b9b04c066bc26df7be70b50629f102cfeba33322ed",
+      "score": 0,
+      "reason": "가족 성장기로 실 전화기와 무관."
+    },
+    "previous170/X100-Q027/BCAST-9b48c38fdc724380dde5": {
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "fingerprint": "daa52b287828b7b10a764337da92708f4bf74eace791edd2465c03ea0428a54f",
+      "score": 0,
+      "reason": "전당뇨 의학으로 실 전화기와 무관."
+    },
+    "previous170/X100-Q069/BCAST-f557f4b9d9b38f627bb8": {
+      "query": "경도와 시차",
+      "fingerprint": "932e849acd492d7a5a9c7a70820a3d9140c2425fa4e8570f51086fdd16270c6c",
+      "score": 1,
+      "reason": "경도 0 좌표는 다루나 경도와 시차의 연결은 없음."
+    },
+    "previous170/X100-Q069/BCAST-ed544c0d093089fc00f8": {
+      "query": "경도와 시차",
+      "fingerprint": "276e4d767831893b9e04b2c7075318367f8c74ed82030e03d464509146570303",
+      "score": 1,
+      "reason": "시차 적응의 생활 사례는 있지만 경도와의 원리 연결은 없음."
+    },
+    "previous170/X100-Q069/BCAST-db767004f7cf52456aaf": {
+      "query": "경도와 시차",
+      "fingerprint": "3bcca22261ec7f9f272a5528e96ba61e3575b35c0608fce5a985a18dd05ab696",
+      "score": 0,
+      "reason": "시차 적응은 여행 배경의 짧은 언급이며 주제는 할머니의 독일 일상."
+    },
+    "previous170/X100-Q085/BCAST-8b65eb7bb0a9bb374693": {
+      "query": "광물의 조흔색",
+      "fingerprint": "673d85cbf1950a2d003b356b1016d80106f0e417b7deae8ac80722e4e9994caf",
+      "score": 1,
+      "reason": "광물의 자연 색상은 관찰하지만 조흔판의 가루색·조흔색 판별은 미확인."
+    },
+    "previous170/X100-Q085/BCAST-d43de0eb136fabf517d5": {
+      "query": "광물의 조흔색",
+      "fingerprint": "34b5d639fcdd40b9b3a16de95d70194c9eae0517511d26c9f7bfa1713bc4b347",
+      "score": 0,
+      "reason": "플라스틱 오염과 신종 광물이 주제이며 조흔색 설명 없음."
+    }
+  }
+}

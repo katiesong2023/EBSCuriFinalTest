@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+KEY.md
+*.pem
+*.key
+# Generated and personal state
+node_modules/
+.DS_Store
+npm-debug.log*
+:memory:.ses
+server/data/.model-cache/
+server/data/.teacher-model-cache/
+server/data/*.sqlite
+server/data/*.sqlite-wal
+server/data/*.sqlite-shm
+*.lock.tmp
+# Full executable ZIP goes to Releases, not Git
+release-assets/
+EBS_CURI_Submission_*.zip
+outputs/
+
+# Local verification and packaging artifacts
+/local-test-results/
+/release-assets/
+/github-upload/
+/GITHUB_UPLOAD_CHECKS.json
+/00_업로드_안내.txt
+*.zip.sha256

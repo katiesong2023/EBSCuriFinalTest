@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-12",
+  "cases": [
+    {
+      "name": "비유적 제목에서 본문에 없는 용어·자유 제목 단어 제외",
+      "passed": true
+    },
+    {
+      "name": "소개문의 비유·인명·부정·동명이의 의미 보류",
+      "passed": true
+    },
+    {
+      "name": "문자 그대로 다루는 과학 개념·부정 뒤 긍정 문장 근거",
+      "passed": true
+    },
+    {
+      "name": "교육 탐색 대표 어휘 정리·추정 상위 개념 금지·원문 위치와 문장",
+      "passed": true
+    },
+    {
+      "name": "긴 소개문 도입의 단발성 주변 소재 제외",
+      "passed": true
+    },
+    {
+      "name": "실제 카탈로그 비유 사례6건 확인",
+      "passed": true
+    },
+    {
+      "name": "전체 원문 대조·제목 인용 태그0·보호 저장소 동일",
+      "passed": true
+    }
+  ],
+  "actual": [
+    {
+      "id": "PDLOG-044",
+      "title": "바다의 우유, 굴 따러가세",
+      "summary": "자막무치고 부치고 끓이고 곁들여서 즐기는 겨울철 별미, 굴. 임PD\\~ 웰컴 투 굴 월드\\~ 따고 담고 가끔은 꽈당하는 쉴 틈 없는 굴 공장 24시! 특명, 하루 5톤 굴을 까라?! 빡세게 굴러야만 굴을 얻는다! 불굴의 임PD, 도전의 끝은?",
+      "keywords": [
+        {
+          "label": "굴",
+          "evidence": {
+            "field": "summary",
+            "start": 31,
+            "end": 32,
+            "quote": "굴",
+            "context": "무치고 부치고 끓이고 곁들여서 즐기는 겨울철 별미, 굴.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-036",
+      "title": "심장으로 듣는 아이돌 빅오션! 그 매니저가 되다",
+      "summary": "자막세계 최초 청각 장애인 아이돌 빅오션! 그들을 만나러 이PD가 간다! 평소, 아이돌을 잘 모르던 이PD는 빅오션의 음악에 빠져 무작정 그들의 매니저가 되어봤는데... 어라? 할 일이 너무 많다! 무대 위 아이돌을 빛나게 만들기 위한, 무대 뒤 매니저의 역할과 고군분투하며 그들의 공연을 완성해본다.",
+      "keywords": [
+        {
+          "label": "음악",
+          "evidence": {
+            "field": "summary",
+            "start": 66,
+            "end": 68,
+            "quote": "음악",
+            "context": "평소, 아이돌을 잘 모르던 이PD는 빅오션의 음악에 빠져 무작정 그들의 매니저가 되어봤는데... 어라?",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "공연",
+          "evidence": {
+            "field": "summary",
+            "start": 158,
+            "end": 160,
+            "quote": "공연",
+            "context": "무대 위 아이돌을 빛나게 만들기 위한, 무대 뒤 매니저의 역할과 고군분투하며 그들의 공연을 완성해본다.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "청각 장애",
+          "evidence": {
+            "field": "summary",
+            "start": 8,
+            "end": 13,
+            "quote": "청각 장애",
+            "context": "세계 최초 청각 장애인 아이돌 빅오션!",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "장애인",
+          "evidence": {
+            "field": "summary",
+            "start": 11,
+            "end": 14,
+            "quote": "장애인",
+            "context": "세계 최초 청각 장애인 아이돌 빅오션!",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BCAST-023acb5b8fe8bb4cb583",
+      "title": "역사의 빛, 청년 제6부 억만장자의 독립운동",
+      "summary": "유일한 박사의 생애를 통해 독립운동이 주는 교훈을 배운다.",
+      "keywords": [
+        {
+          "label": "독립운동",
+          "evidence": {
+            "field": "summary",
+            "start": 15,
+            "end": 19,
+            "quote": "독립운동",
+            "context": "유일한 박사의 생애를 통해 독립운동이 주는 교훈을 배운다.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055811&lectId=20134741"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9c4afe74cd84ffcce1f4",
+      "title": "심장이 뛴다, 화성",
+      "summary": "서울에서 1시간 30분 거리, 바다와 섬의 정취를 느낄 수 있는 곳, 우리나라 근현대사의 아픈 역사를 간직한 매향리 사격장이 폐쇄된 후 평화의 상징이 된 도시이자 비극적으로 생을 마감한 사도세좌와 정조의 애틋한 이야기가 깃든 곳으로 간다.",
+      "keywords": [
+        {
+          "label": "바다",
+          "evidence": {
+            "field": "summary",
+            "start": 17,
+            "end": 19,
+            "quote": "바다",
+            "context": "서울에서 1시간 30분 거리, 바다와 섬의 정취를 느낄 수 있는 곳, 우리나라 근현대사의 아픈 역사를 간직한 매향리 사격장이 폐쇄된 후 평화의 상징이 된 도시이자 비극적으로 생을 마감한 사도세좌와 정조의 애틋한 이야기가 깃든 곳으로 간다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40049943&stepId=60054050&lectId=60593609"
+          }
+        },
+        {
+          "label": "역사",
+          "evidence": {
+            "field": "summary",
+            "start": 53,
+            "end": 55,
+            "quote": "역사",
+            "context": "서울에서 1시간 30분 거리, 바다와 섬의 정취를 느낄 수 있는 곳, 우리나라 근현대사의 아픈 역사를 간직한 매향리 사격장이 폐쇄된 후 평화의 상징이 된 도시이자 비극적으로 생을 마감한 사도세좌와 정조의 애틋한 이야기가 깃든 곳으로 간다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40049943&stepId=60054050&lectId=60593609"
+          }
+        },
+        {
+          "label": "평화",
+          "evidence": {
+            "field": "summary",
+            "start": 76,
+            "end": 78,
+            "quote": "평화",
+            "context": "서울에서 1시간 30분 거리, 바다와 섬의 정취를 느낄 수 있는 곳, 우리나라 근현대사의 아픈 역사를 간직한 매향리 사격장이 폐쇄된 후 평화의 상징이 된 도시이자 비극적으로 생을 마감한 사도세좌와 정조의 애틋한 이야기가 깃든 곳으로 간다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40049943&stepId=60054050&lectId=60593609"
+          }
+        },
+        {
+          "label": "서울",
+          "evidence": {
+            "field": "summary",
+            "start": 0,
+            "end": 2,
+            "quote": "서울",
+            "context": "서울에서 1시간 30분 거리, 바다와 섬의 정취를 느낄 수 있는 곳, 우리나라 근현대사의 아픈 역사를 간직한 매향리 사격장이 폐쇄된 후 평화의 상징이 된 도시이자 비극적으로 생을 마감한 사도세좌와 정조의 애틋한 이야기가 깃든 곳으로 간다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40049943&stepId=60054050&lectId=60593609"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BCAST-ca5d48cc8cebd113713d",
+      "title": "이지연의 일본 소도시 기행-일본의 심장, 기후",
+      "summary": "일본의 심장이라 불리는 내륙의 기후현. ‘히다의 산, 미노의 물’이라 불리는 지역이다. 시작은 ‘히다의 작은 교토’라 불리는 다카야마시다. 에도시대가 살아있는 이곳의 옛 골목길에는 지역의 별미들이 즐비해 있다. 사케, 히다규, 호바미소 등을 맛보며 미식투어에 나선다. 이어 산속의 동화 같은 마을, 시라카와고와을 거쳐 칼의 도시, 세키로 향한다. 600년 전통의 대장간에서는 어떤 칼이 만들어질까 체험한다.",
+      "keywords": [
+        {
+          "label": "도시",
+          "evidence": {
+            "field": "summary",
+            "start": 181,
+            "end": 183,
+            "quote": "도시",
+            "context": "이어 산속의 동화 같은 마을, 시라카와고와을 거쳐 칼의 도시, 세키로 향한다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057456&lectId=60718225"
+          }
+        },
+        {
+          "label": "일본",
+          "evidence": {
+            "field": "summary",
+            "start": 0,
+            "end": 2,
+            "quote": "일본",
+            "context": "일본의 심장이라 불리는 내륙의 기후현.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057456&lectId=60718225"
+          }
+        },
+        {
+          "label": "물",
+          "evidence": {
+            "field": "summary",
+            "start": 34,
+            "end": 35,
+            "quote": "물",
+            "context": "‘히다의 산, 미노의 물’이라 불리는 지역이다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057456&lectId=60718225"
+          }
+        },
+        {
+          "label": "전통",
+          "evidence": {
+            "field": "summary",
+            "start": 199,
+            "end": 201,
+            "quote": "전통",
+            "context": "600년 전통의 대장간에서는 어떤 칼이 만들어질까 체험한다.",
+            "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057456&lectId=60718225"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-051",
+      "title": "머구리의 바다",
+      "summary": "자막머구리를 아시나요? 산소 호스 하나에 의지한 채, 깊은 심해에 들어가는 머구리. 누군가는 죽음이 옆에 있다고 하고, 누군가는 지옥과도 같다는 머구리의 어업. 바닷속 풍경이 궁금했던 최 PD, 최북단 바다에서 머구리에 도전하다! 물에 들어가면 천국이라며 오늘도 바다에서 유영할 준비를 하는 박명호 베테랑. 근데 새벽부터 배들이 분주하게 무언가를 준비한다? 저도어장이 열리는 날, 고성 앞바다에서는 전쟁을 방불케 하는 전경이 펼쳐진다. 그리고 그 현장에서 어민들이 이야기하는 어업의 현실. 최북단 바다에서 우리는 계속 문어를 만날 수 있을까? 머구리의, 그리고 우리 모두의 바다가 잘 지켜지길 바라는 마음이 담긴 이야기.",
+      "keywords": [
+        {
+          "label": "바다",
+          "evidence": {
+            "field": "summary",
+            "start": 113,
+            "end": 115,
+            "quote": "바다",
+            "context": "바닷속 풍경이 궁금했던 최 PD, 최북단 바다에서 머구리에 도전하다!",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "물",
+          "evidence": {
+            "field": "summary",
+            "start": 129,
+            "end": 130,
+            "quote": "물",
+            "context": "물에 들어가면 천국이라며 오늘도 바다에서 유영할 준비를 하는 박명호 베테랑.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "산소",
+          "evidence": {
+            "field": "summary",
+            "start": 13,
+            "end": 15,
+            "quote": "산소",
+            "context": "산소 호스 하나에 의지한 채, 깊은 심해에 들어가는 머구리.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        },
+        {
+          "label": "어업",
+          "evidence": {
+            "field": "summary",
+            "start": 86,
+            "end": 88,
+            "quote": "어업",
+            "context": "누군가는 죽음이 옆에 있다고 하고, 누군가는 지옥과도 같다는 머구리의 어업.",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&"
+          }
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "total": 23403,
+    "withKeywords": 15591,
+    "keywordCount": 30199,
+    "withoutSummary": 1373
+  },
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "semantic-layer.sqlite": "5966f27d403ea9a4b438fcb4a5f237b9b6661df6f8db6320aa0f98bc165681e7",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "limitations": "명시적 소개문·문장 규칙 기반. 모델의 전체 맥락 이해·교육과정 적합성 판정은 아님. 검색용 기존 태그 색인은 보존."
+}

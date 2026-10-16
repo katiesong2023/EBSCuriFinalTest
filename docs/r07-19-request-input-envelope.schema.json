@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "curi-request-input-v1"
+    },
+    "requestId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lockedConditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "string"
+          },
+          "owner": {
+            "const": "SYSTEM"
+          }
+        },
+        "required": [
+          "name",
+          "value",
+          "owner"
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "requestId",
+    "query",
+    "lockedConditions"
+  ]
+}

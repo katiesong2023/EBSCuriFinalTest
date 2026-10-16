@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-05T02:00:37.884Z",
+  "baseCatalog": {
+    "total": 22118,
+    "legacyDescription": 8292,
+    "minimumPassed": 5104
+  },
+  "allVariants": {
+    "total": 23360,
+    "legacyDescription": 9072,
+    "minimumPassed": 5134
+  },
+  "protectedHashes": {
+    "curi-store.json": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+    "broadcast-catalog.sqlite": "53451b156ed44afc05995b0ec5ffe74cffa6967268bf95bf221f595da4ccf106",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "479de8b68137a26ba18ffa40023c76cd4b41861971de983aa44497cd5bd2287e"
+  }
+}

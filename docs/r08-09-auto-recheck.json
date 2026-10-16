@@ -1,0 +1,843 @@
+{
+  "runId": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+  "reused": false,
+  "saveStatus": "CHECKED",
+  "searchPreparation": {
+    "status": "READY",
+    "ready": 1,
+    "failed": 0,
+    "invalidated": 0
+  },
+  "schemaVersion": 1,
+  "runs": [
+    {
+      "id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "request_key": "668dd346c1a9017c3b53bd06899b7071853269b71ce51baa8f3619d3e3e2087c",
+      "request": {
+        "resourceId": "BCAST-edc5b3f9fd8742c0b2f0",
+        "standardId": "6사04-01"
+      },
+      "input_hash": "1e375a2294f55d4e9c6cc234c8998fcce69cf46f5b7ba511e378400838047f95",
+      "source_hash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+      "state": "CHECKED",
+      "started_at": "2026-10-10T23:55:36.662Z",
+      "finished_at": "2026-10-10T23:55:37.283Z",
+      "lease_until": "2026-10-11T00:00:37.053Z",
+      "retry_of": "AUTO-RUN-e82f7da0-51b3-4d14-9f6f-85d8e812c16f",
+      "report": {
+        "status": "CHECKED",
+        "checkedAt": "2026-10-10T23:55:36.662Z",
+        "generationMethod": "LOCAL_RULES",
+        "source": {
+          "sourceSystem": "EBS_BROADCAST",
+          "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+          "variant": "EPISODE",
+          "sourceVersion": "EBS_PUBLIC_METADATA",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+          "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+          "kind": "episode",
+          "active": true,
+          "sourceMismatch": false,
+          "fields": {
+            "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+            "synopsis": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다. 그러나 농경문청동기는 크기도 작으며 심지어 아랫부분이 부러져 있고 전체 문양이 잘 보이지도 않는다. 그런데 어떻게 농경문 청동기가 청동기 시대를 대표하는 유물이 될 수 있었던 것일까? <br>그 비밀은 농경문청동기에 그려진 ‘문양’에 숨겨져 있다. 그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다. 왜 이 남자는 벌거벗고 있는 것일까? 30년 넘게 미스터리였던 남자의 정체는 청동기 시대를 이해하는 ‘열쇠’가 되었다는데... 그림 속에 숨겨진 메시지를 하나하나 맞춰보며, 농경문 청동기를 자세히 들여다본다."
+          },
+          "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042"
+        },
+        "scope": {
+          "requestedSubject": "사회",
+          "requestedGradeBand": "5~6학년군",
+          "requestedStandardId": "6사04-01",
+          "version": "automatic-evidence-v3:source-text-v3",
+          "curriculumVersion": "2022 개정",
+          "gradeBand": "5~6학년군",
+          "rules": [
+            {
+              "id": "election-and-sovereignty",
+              "subject": "사회",
+              "standardId": "6사08-01",
+              "standardText": "민주주의에서 선거의 의미와 역할을 파악하고, 시민의 주권 행사를 위해 선거에 참여하는 태도를 기른다.",
+              "requirements": [
+                {
+                  "id": "representative-selection",
+                  "text": "시민이 투표로 대표를 뽑는 선거의 역할"
+                },
+                {
+                  "id": "sovereign-expression",
+                  "text": "선거 참여와 시민 주권 행사의 연결"
+                }
+              ],
+              "unverified": [
+                "학생이 선거의 의미·역할을 이해했는지",
+                "실제 선거 참여 태도와 수업 활용 적합성"
+              ],
+              "discoveryTerms": [
+                "표를 던져",
+                "대표자",
+                "유권자",
+                "통치자"
+              ]
+            },
+            {
+              "id": "rotation-and-day-night",
+              "subject": "과학",
+              "standardId": "6과12-02",
+              "standardText": "지구의 자전을 알고, 낮과 밤이 생기는 이유를 설명할 수 있다.",
+              "requirements": [
+                {
+                  "id": "rotation",
+                  "text": "지구가 스스로 회전한다는 자전 설명"
+                },
+                {
+                  "id": "day-night-cause",
+                  "text": "지구 자전이 낮과 밤을 만드는 원인이라는 설명"
+                }
+              ],
+              "unverified": [
+                "영상 속 관찰·모형·장면의 실제 내용",
+                "학생이 낮과 밤의 원인을 설명할 수 있는지"
+              ],
+              "discoveryTerms": [
+                "스스로 돈다",
+                "스스로 돌기",
+                "지구가 회전",
+                "지구는 회전",
+                "낮과 밤"
+              ]
+            },
+            {
+              "id": "bronze-artifact-and-farming",
+              "subject": "사회",
+              "standardId": "6사04-01",
+              "standardText": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+              "requirements": [
+                {
+                  "id": "artifact-period",
+                  "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+                },
+                {
+                  "id": "farming-depiction",
+                  "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+                }
+              ],
+              "unverified": [
+                "해당 유물의 고조선 소속 여부",
+                "원문에서 소개한 사례 외 당시 생활 전반",
+                "학생이 유적·유물로 당시 생활을 추론하는 수행",
+                "영상의 실제 장면·학년 적합성"
+              ],
+              "discoveryTerms": [
+                "농경문 청동기",
+                "농경문청동기",
+                "밭을 가는"
+              ]
+            },
+            {
+              "id": "combustion-and-ecosystem-damage",
+              "subject": "과학",
+              "standardId": "6과14-04",
+              "standardText": "연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.",
+              "requirements": [
+                {
+                  "id": "combustion-emissions",
+                  "text": "화석연료가 탈 때 오염 물질이 발생하는 관계"
+                },
+                {
+                  "id": "emissions-damage",
+                  "text": "연소 생성물이 산성비를 거쳐 산림·수중 생태계에 피해를 주는 관계"
+                }
+              ],
+              "unverified": [
+                "영상 속 피해 장면과 수치의 확인",
+                "다른 연소 생성물·피해 경로",
+                "학생의 피해 사례 수집·분석·해결책 제안·공유 수행"
+              ],
+              "discoveryTerms": [
+                "황산화물",
+                "질소산화물",
+                "산성비",
+                "화석연료",
+                "석탄을 태우면"
+              ]
+            }
+          ],
+          "limitation": "제한된 한국어 서술 패턴 검사이며 의미 정확도·영상 내용·학년 적합성을 보증하지 않습니다."
+        },
+        "sourceQuality": {
+          "category": "detailed",
+          "label": "구체적 내용 설명",
+          "version": "source-text-v3",
+          "rank": 4,
+          "status": "PASS",
+          "code": "SOURCE_DESCRIPTION_AVAILABLE",
+          "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+          "topicTextAvailable": true,
+          "detailedMappingAllowed": true
+        },
+        "retrieval": {
+          "status": "CANDIDATES_FOUND",
+          "retrievalMode": "RELATION_THEN_TERM_MATCH",
+          "retrievalScope": {
+            "subject": "사회",
+            "gradeBand": "초등 5~6학년군",
+            "courseId": "elementary56",
+            "officialStandardCount": 1,
+            "constraint": "공식 원문 대조 또는 실제 사람 확인을 기록한 활성 성취기준 중 요청 과정의 기준만 반환합니다. 원문 대조는 사람의 연계 승인이 아닙니다.",
+            "evaluationNote": "반환은 공식 목록 제약 검증용 후보이며 교육과정 의미 정확도 또는 최종 연계 승인을 뜻하지 않습니다."
+          },
+          "input": {
+            "contentCuriId": "AUTO-INPUT",
+            "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+            "synopsisProvided": true,
+            "subject": "사회",
+            "gradeBand": "5~6학년군"
+          },
+          "candidates": [
+            {
+              "curriculumCuriId": "CURI-CURR-2022-6사04-01",
+              "achievementStandardId": "6사04-01",
+              "achievementStandard": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+              "subject": "사회",
+              "gradeBand": "5~6학년군",
+              "unit": {
+                "number": "4",
+                "title": "유적과 유물로 살펴본 옛 사람들의 생활"
+              },
+              "officialSource": {
+                "document": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+                "pdfPage": "37",
+                "curriculumVersion": "2022 개정"
+              },
+              "matchedTerms": [
+                "시대",
+                "유물"
+              ],
+              "supportedRequirementCount": 2
+            }
+          ]
+        },
+        "relations": [
+          {
+            "ruleVersion": "automatic-evidence-v3:source-text-v3",
+            "generationMethod": "LOCAL_RULES",
+            "source": {
+              "sourceSystem": "EBS_BROADCAST",
+              "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+              "variant": "EPISODE",
+              "sourceVersion": "EBS_PUBLIC_METADATA",
+              "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+              "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+              "kind": "episode",
+              "active": true,
+              "sourceMismatch": false,
+              "fields": {
+                "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+                "synopsis": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다. 그러나 농경문청동기는 크기도 작으며 심지어 아랫부분이 부러져 있고 전체 문양이 잘 보이지도 않는다. 그런데 어떻게 농경문 청동기가 청동기 시대를 대표하는 유물이 될 수 있었던 것일까? <br>그 비밀은 농경문청동기에 그려진 ‘문양’에 숨겨져 있다. 그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다. 왜 이 남자는 벌거벗고 있는 것일까? 30년 넘게 미스터리였던 남자의 정체는 청동기 시대를 이해하는 ‘열쇠’가 되었다는데... 그림 속에 숨겨진 메시지를 하나하나 맞춰보며, 농경문 청동기를 자세히 들여다본다."
+              },
+              "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042"
+            },
+            "standard": {
+              "curriculumCuriId": "CURI-CURR-2022-6사04-01",
+              "sourceSystem": "MOE_2022_CURRICULUM",
+              "sourceStandardId": "6사04-01",
+              "standardId": "6사04-01",
+              "requirement": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+              "subject": "사회",
+              "gradeBand": "5~6학년군",
+              "curriculumVersion": "2022 개정",
+              "document": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+              "page": "37",
+              "sourceFingerprint": "e5e88b6ffd874a8fe46c0a2c71254ed4323ed4915630529f79d440427c11b3dd",
+              "evidenceHash": "ec14ca41dc51c88b588de6c41c699b1c017795389e5301b8b989555ce0380d79"
+            },
+            "matchedTerms": [
+              "시대",
+              "유물"
+            ],
+            "quotes": [
+              {
+                "field": "synopsis",
+                "start": 0,
+                "end": 64,
+                "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다.",
+                "sourceSystem": "EBS_BROADCAST",
+                "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+                "variant": "EPISODE",
+                "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+                "offsetUnit": "UTF16_CODE_UNIT"
+              },
+              {
+                "field": "synopsis",
+                "start": 204,
+                "end": 244,
+                "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다.",
+                "sourceSystem": "EBS_BROADCAST",
+                "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+                "variant": "EPISODE",
+                "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+                "offsetUnit": "UTF16_CODE_UNIT"
+              }
+            ],
+            "semantic": {
+              "ruleId": "bronze-artifact-and-farming",
+              "status": "SUPPORTED",
+              "reason": "지원하는 명시적 설명을 소개문에서 확인했습니다. 전체 성취기준 충족은 미확인입니다.",
+              "supportedRequirements": [
+                {
+                  "id": "artifact-period",
+                  "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+                },
+                {
+                  "id": "farming-depiction",
+                  "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+                }
+              ],
+              "connectedParts": [
+                "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+                "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+              ],
+              "unconfirmedParts": [
+                "해당 유물의 고조선 소속 여부",
+                "원문에서 소개한 사례 외 당시 생활 전반",
+                "학생이 유적·유물로 당시 생활을 추론하는 수행",
+                "영상의 실제 장면·학년 적합성"
+              ],
+              "standardCoverage": "PARTIAL",
+              "requirementResults": [
+                {
+                  "id": "artifact-period",
+                  "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+                  "status": "SUPPORTED",
+                  "evidence": [
+                    {
+                      "field": "synopsis",
+                      "start": 0,
+                      "end": 64,
+                      "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다."
+                    }
+                  ],
+                  "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+                },
+                {
+                  "id": "farming-depiction",
+                  "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례",
+                  "status": "SUPPORTED",
+                  "evidence": [
+                    {
+                      "field": "synopsis",
+                      "start": 204,
+                      "end": 244,
+                      "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다."
+                    }
+                  ],
+                  "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+                }
+              ],
+              "explicitConflicts": [],
+              "interpretationHeld": false,
+              "ignoredNegations": []
+            },
+            "inspection": {
+              "checkedAt": "2026-10-10T23:55:36.662Z",
+              "ruleVersion": "automatic-evidence-v3:source-text-v3",
+              "status": "PASS",
+              "checks": [
+                {
+                  "code": "OFFICIAL_CANDIDATE_ALLOWED",
+                  "status": "PASS",
+                  "message": "현재 지원 범위의 공식 원문·코드·출처가 있는 후보인지 확인"
+                },
+                {
+                  "code": "OFFICIAL_VERSION_MATCH",
+                  "status": "PASS",
+                  "message": "현재 공식 성취기준 원문·출처·버전과 대조"
+                },
+                {
+                  "code": "SOURCE_IDENTITY_MATCH",
+                  "status": "PASS",
+                  "message": "자료·판본 식별자를 대조"
+                },
+                {
+                  "code": "SOURCE_VERSION_MATCH",
+                  "status": "PASS",
+                  "message": "현재 원문 필드·지문·출처·활성 상태를 대조"
+                },
+                {
+                  "code": "SOURCE_LOCATION_AVAILABLE",
+                  "status": "PASS",
+                  "message": "공식 EBS 출처와 텍스트 출처·버전 존재 및 알려진 출처 불일치 확인; 도착 페이지·재생 검사는 별도"
+                },
+                {
+                  "code": "SOURCE_ACTIVE",
+                  "status": "PASS",
+                  "message": "활성 회차·강의·클립 단위인지 확인"
+                },
+                {
+                  "code": "RULE_VERSION_MATCH",
+                  "status": "PASS",
+                  "message": "현재 로컬 검사 규칙·생성 방식과 대조"
+                },
+                {
+                  "code": "SOURCE_TEXT_SUFFICIENT",
+                  "status": "PASS",
+                  "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다."
+                },
+                {
+                  "code": "QUOTE_REQUIRED",
+                  "status": "PASS",
+                  "message": "검사 가능한 인용문이 필요함"
+                },
+                {
+                  "code": "QUOTE_IDENTITY_MATCH",
+                  "status": "PASS",
+                  "message": "인용이 같은 자료·판본·원문 버전·출처에 속하는지 확인"
+                },
+                {
+                  "code": "QUOTE_POSITION_VALID",
+                  "status": "PASS",
+                  "message": "원문 필드와 UTF-16 시작/끝 위치 확인"
+                },
+                {
+                  "code": "QUOTE_EXISTS",
+                  "status": "PASS",
+                  "message": "인용문이 지정한 원문 위치에 정확히 존재하는지 확인"
+                },
+                {
+                  "code": "RELATION_EVIDENCE_MATCH",
+                  "status": "PASS",
+                  "message": "연결 부분·미확인 요구·인용을 현재 규칙 결과와 대조; 의미 정확도 검증은 아님"
+                }
+              ],
+              "semantic": {
+                "ruleId": "bronze-artifact-and-farming",
+                "status": "SUPPORTED",
+                "reason": "지원하는 명시적 설명을 소개문에서 확인했습니다. 전체 성취기준 충족은 미확인입니다.",
+                "supportedRequirements": [
+                  {
+                    "id": "artifact-period",
+                    "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+                  },
+                  {
+                    "id": "farming-depiction",
+                    "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+                  }
+                ],
+                "connectedParts": [
+                  "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+                  "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+                ],
+                "unconfirmedParts": [
+                  "해당 유물의 고조선 소속 여부",
+                  "원문에서 소개한 사례 외 당시 생활 전반",
+                  "학생이 유적·유물로 당시 생활을 추론하는 수행",
+                  "영상의 실제 장면·학년 적합성"
+                ],
+                "standardCoverage": "PARTIAL",
+                "requirementResults": [
+                  {
+                    "id": "artifact-period",
+                    "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+                    "status": "SUPPORTED",
+                    "evidence": [
+                      {
+                        "field": "synopsis",
+                        "start": 0,
+                        "end": 64,
+                        "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다."
+                      }
+                    ],
+                    "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+                  },
+                  {
+                    "id": "farming-depiction",
+                    "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례",
+                    "status": "SUPPORTED",
+                    "evidence": [
+                      {
+                        "field": "synopsis",
+                        "start": 204,
+                        "end": 244,
+                        "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다."
+                      }
+                    ],
+                    "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+                  }
+                ],
+                "explicitConflicts": [],
+                "interpretationHeld": false,
+                "ignoredNegations": []
+              },
+              "publicationEligible": true,
+              "verificationLevel": "AUTOMATIC_EVIDENCE_CHECKED",
+              "label": "자동 근거 검사 통과",
+              "currentValidity": "CURRENT",
+              "humanReview": {
+                "status": "NOT_EVALUATED",
+                "note": "이 자동 검사는 기존 사람 결정의 존재·유효성을 판정하거나 새 결정을 만들지 않습니다."
+              },
+              "searchPreparation": "NOT_REQUESTED",
+              "unverified": [
+                "교육과정 의미 정확도",
+                "출처 도착 페이지",
+                "영상 재생·자막·장면",
+                "학년 적합성",
+                "학생의 학습 수행"
+              ]
+            }
+          }
+        ],
+        "summary": {
+          "candidates": 1,
+          "structurallyPassed": 1,
+          "publishable": 1,
+          "unsupported": 0
+        },
+        "hold": null,
+        "topicDiscovery": {
+          "availableText": true,
+          "label": "주제 관련 자료",
+          "note": "소재 표현은 주제 탐색에 사용할 수 있으나 이 실행은 검색 제공 상태를 변경하지 않습니다."
+        },
+        "persisted": true,
+        "paidApiCalls": 0,
+        "note": "자동 구조 검사와 제한된 관계 설명 검사입니다. 사람 승인·전체 성취기준 충족·의미 정확도 측정이 아닙니다."
+      },
+      "error": null
+    }
+  ],
+  "relations": [
+    {
+      "id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426:0",
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "standard_id": "CURI-CURR-2022-6사04-01",
+      "evidence": {
+        "ruleVersion": "automatic-evidence-v3:source-text-v3",
+        "generationMethod": "LOCAL_RULES",
+        "source": {
+          "sourceSystem": "EBS_BROADCAST",
+          "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+          "variant": "EPISODE",
+          "sourceVersion": "EBS_PUBLIC_METADATA",
+          "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+          "textSourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+          "kind": "episode",
+          "active": true,
+          "sourceMismatch": false,
+          "fields": {
+            "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+            "synopsis": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다. 그러나 농경문청동기는 크기도 작으며 심지어 아랫부분이 부러져 있고 전체 문양이 잘 보이지도 않는다. 그런데 어떻게 농경문 청동기가 청동기 시대를 대표하는 유물이 될 수 있었던 것일까? <br>그 비밀은 농경문청동기에 그려진 ‘문양’에 숨겨져 있다. 그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다. 왜 이 남자는 벌거벗고 있는 것일까? 30년 넘게 미스터리였던 남자의 정체는 청동기 시대를 이해하는 ‘열쇠’가 되었다는데... 그림 속에 숨겨진 메시지를 하나하나 맞춰보며, 농경문 청동기를 자세히 들여다본다."
+          },
+          "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042"
+        },
+        "standard": {
+          "curriculumCuriId": "CURI-CURR-2022-6사04-01",
+          "sourceSystem": "MOE_2022_CURRICULUM",
+          "sourceStandardId": "6사04-01",
+          "standardId": "6사04-01",
+          "requirement": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+          "subject": "사회",
+          "gradeBand": "5~6학년군",
+          "curriculumVersion": "2022 개정",
+          "document": "교육부 고시 제2022-33호 [별책 7] 사회과 교육과정",
+          "page": "37",
+          "sourceFingerprint": "e5e88b6ffd874a8fe46c0a2c71254ed4323ed4915630529f79d440427c11b3dd",
+          "evidenceHash": "ec14ca41dc51c88b588de6c41c699b1c017795389e5301b8b989555ce0380d79"
+        },
+        "matchedTerms": [
+          "시대",
+          "유물"
+        ],
+        "quotes": [
+          {
+            "field": "synopsis",
+            "start": 0,
+            "end": 64,
+            "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다.",
+            "sourceSystem": "EBS_BROADCAST",
+            "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+            "variant": "EPISODE",
+            "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+            "offsetUnit": "UTF16_CODE_UNIT"
+          },
+          {
+            "field": "synopsis",
+            "start": 204,
+            "end": 244,
+            "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다.",
+            "sourceSystem": "EBS_BROADCAST",
+            "sourceContentId": "BCAST-edc5b3f9fd8742c0b2f0",
+            "variant": "EPISODE",
+            "contentHash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+            "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+            "offsetUnit": "UTF16_CODE_UNIT"
+          }
+        ],
+        "semantic": {
+          "ruleId": "bronze-artifact-and-farming",
+          "status": "SUPPORTED",
+          "reason": "지원하는 명시적 설명을 소개문에서 확인했습니다. 전체 성취기준 충족은 미확인입니다.",
+          "supportedRequirements": [
+            {
+              "id": "artifact-period",
+              "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+            },
+            {
+              "id": "farming-depiction",
+              "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+            }
+          ],
+          "connectedParts": [
+            "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+            "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+          ],
+          "unconfirmedParts": [
+            "해당 유물의 고조선 소속 여부",
+            "원문에서 소개한 사례 외 당시 생활 전반",
+            "학생이 유적·유물로 당시 생활을 추론하는 수행",
+            "영상의 실제 장면·학년 적합성"
+          ],
+          "standardCoverage": "PARTIAL",
+          "requirementResults": [
+            {
+              "id": "artifact-period",
+              "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+              "status": "SUPPORTED",
+              "evidence": [
+                {
+                  "field": "synopsis",
+                  "start": 0,
+                  "end": 64,
+                  "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다."
+                }
+              ],
+              "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+            },
+            {
+              "id": "farming-depiction",
+              "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례",
+              "status": "SUPPORTED",
+              "evidence": [
+                {
+                  "field": "synopsis",
+                  "start": 204,
+                  "end": 244,
+                  "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다."
+                }
+              ],
+              "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+            }
+          ],
+          "explicitConflicts": [],
+          "interpretationHeld": false,
+          "ignoredNegations": []
+        },
+        "inspection": {
+          "checkedAt": "2026-10-10T23:55:36.662Z",
+          "ruleVersion": "automatic-evidence-v3:source-text-v3",
+          "status": "PASS",
+          "checks": [
+            {
+              "code": "OFFICIAL_CANDIDATE_ALLOWED",
+              "status": "PASS",
+              "message": "현재 지원 범위의 공식 원문·코드·출처가 있는 후보인지 확인"
+            },
+            {
+              "code": "OFFICIAL_VERSION_MATCH",
+              "status": "PASS",
+              "message": "현재 공식 성취기준 원문·출처·버전과 대조"
+            },
+            {
+              "code": "SOURCE_IDENTITY_MATCH",
+              "status": "PASS",
+              "message": "자료·판본 식별자를 대조"
+            },
+            {
+              "code": "SOURCE_VERSION_MATCH",
+              "status": "PASS",
+              "message": "현재 원문 필드·지문·출처·활성 상태를 대조"
+            },
+            {
+              "code": "SOURCE_LOCATION_AVAILABLE",
+              "status": "PASS",
+              "message": "공식 EBS 출처와 텍스트 출처·버전 존재 및 알려진 출처 불일치 확인; 도착 페이지·재생 검사는 별도"
+            },
+            {
+              "code": "SOURCE_ACTIVE",
+              "status": "PASS",
+              "message": "활성 회차·강의·클립 단위인지 확인"
+            },
+            {
+              "code": "RULE_VERSION_MATCH",
+              "status": "PASS",
+              "message": "현재 로컬 검사 규칙·생성 방식과 대조"
+            },
+            {
+              "code": "SOURCE_TEXT_SUFFICIENT",
+              "status": "PASS",
+              "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다."
+            },
+            {
+              "code": "QUOTE_REQUIRED",
+              "status": "PASS",
+              "message": "검사 가능한 인용문이 필요함"
+            },
+            {
+              "code": "QUOTE_IDENTITY_MATCH",
+              "status": "PASS",
+              "message": "인용이 같은 자료·판본·원문 버전·출처에 속하는지 확인"
+            },
+            {
+              "code": "QUOTE_POSITION_VALID",
+              "status": "PASS",
+              "message": "원문 필드와 UTF-16 시작/끝 위치 확인"
+            },
+            {
+              "code": "QUOTE_EXISTS",
+              "status": "PASS",
+              "message": "인용문이 지정한 원문 위치에 정확히 존재하는지 확인"
+            },
+            {
+              "code": "RELATION_EVIDENCE_MATCH",
+              "status": "PASS",
+              "message": "연결 부분·미확인 요구·인용을 현재 규칙 결과와 대조; 의미 정확도 검증은 아님"
+            }
+          ],
+          "semantic": {
+            "ruleId": "bronze-artifact-and-farming",
+            "status": "SUPPORTED",
+            "reason": "지원하는 명시적 설명을 소개문에서 확인했습니다. 전체 성취기준 충족은 미확인입니다.",
+            "supportedRequirements": [
+              {
+                "id": "artifact-period",
+                "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+              },
+              {
+                "id": "farming-depiction",
+                "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+              }
+            ],
+            "connectedParts": [
+              "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+              "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+            ],
+            "unconfirmedParts": [
+              "해당 유물의 고조선 소속 여부",
+              "원문에서 소개한 사례 외 당시 생활 전반",
+              "학생이 유적·유물로 당시 생활을 추론하는 수행",
+              "영상의 실제 장면·학년 적합성"
+            ],
+            "standardCoverage": "PARTIAL",
+            "requirementResults": [
+              {
+                "id": "artifact-period",
+                "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명",
+                "status": "SUPPORTED",
+                "evidence": [
+                  {
+                    "field": "synopsis",
+                    "start": 0,
+                    "end": 64,
+                    "quote": "‘최고의 명품 청동기’라 불리는 농경문 청동기는 청동기 시대를 배울 때 교과서에 빠지지 않고 등장하는 문화유산이다."
+                  }
+                ],
+                "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+              },
+              {
+                "id": "farming-depiction",
+                "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례",
+                "status": "SUPPORTED",
+                "evidence": [
+                  {
+                    "field": "synopsis",
+                    "start": 204,
+                    "end": 244,
+                    "quote": "그림을 자세히 보면 ‘벌거벗은 남자’가 밭을 갈고 있는 걸 볼 수 있다."
+                  }
+                ],
+                "reason": "이 요구의 대상·작용·결과를 직접 연결한 문장입니다."
+              }
+            ],
+            "explicitConflicts": [],
+            "interpretationHeld": false,
+            "ignoredNegations": []
+          },
+          "publicationEligible": true,
+          "verificationLevel": "AUTOMATIC_EVIDENCE_CHECKED",
+          "label": "자동 근거 검사 통과",
+          "currentValidity": "CURRENT",
+          "humanReview": {
+            "status": "NOT_EVALUATED",
+            "note": "이 자동 검사는 기존 사람 결정의 존재·유효성을 판정하거나 새 결정을 만들지 않습니다."
+          },
+          "searchPreparation": "NOT_REQUESTED",
+          "unverified": [
+            "교육과정 의미 정확도",
+            "출처 도착 페이지",
+            "영상 재생·자막·장면",
+            "학년 적합성",
+            "학생의 학습 수행"
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "AUTO-ASSET-33abbe45bc232376953b364d55c816b4c548437f56e0a3c3aaa3ab94103583bd",
+      "relation_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426:0",
+      "resource_key": "f08a8b69e3ca5ee205e956b9e74100088b984ea1ffb7db8b4b75c664fe5d80d4",
+      "standard_id": "CURI-CURR-2022-6사04-01",
+      "source_hash": "1ac5b64f2308d3e61434fe9ad59e99e878ed6828f38b3002bbad3cb2c1765042",
+      "state": "CURRENT",
+      "search_state": "READY",
+      "saved_at": "2026-10-10T23:55:37.283Z",
+      "reason": null,
+      "human_review_ref": null
+    }
+  ],
+  "events": [
+    {
+      "id": 34,
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "asset_id": null,
+      "type": "STARTED",
+      "reason": null,
+      "recorded_at": "2026-10-10T23:55:36.662Z"
+    },
+    {
+      "id": 35,
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "asset_id": "AUTO-ASSET-24c5974944cc10c388e467bf2ce2ffde35b6323d1949ea0d0cecb96dfe7dd20a",
+      "type": "SUPERSEDED",
+      "reason": "NEW_VERSION",
+      "recorded_at": "2026-10-10T23:55:37.283Z"
+    },
+    {
+      "id": 36,
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "asset_id": "AUTO-ASSET-33abbe45bc232376953b364d55c816b4c548437f56e0a3c3aaa3ab94103583bd",
+      "type": "SAVED",
+      "reason": null,
+      "recorded_at": "2026-10-10T23:55:37.283Z"
+    },
+    {
+      "id": 37,
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "asset_id": null,
+      "type": "CHECKED",
+      "reason": null,
+      "recorded_at": "2026-10-10T23:55:37.284Z"
+    },
+    {
+      "id": 38,
+      "run_id": "AUTO-RUN-d71f1593-4021-45ce-9d6b-445c4db80426",
+      "asset_id": "AUTO-ASSET-33abbe45bc232376953b364d55c816b4c548437f56e0a3c3aaa3ab94103583bd",
+      "type": "SEARCH_READY",
+      "reason": null,
+      "recorded_at": "2026-10-10T23:55:37.503Z"
+    }
+  ]
+}

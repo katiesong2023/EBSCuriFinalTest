@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-30T22:46:42.212Z",
+  "input": {
+    "query": "우주 관련 수업을 하고 싶어 주제를 선정해줘",
+    "grade": "초등 5~6학년군",
+    "subject": "과학",
+    "sort": "oldest"
+  },
+  "total": 1,
+  "results": [
+    {
+      "id": "CURI-beb2fa7f-c413-527e-8d79-adcf351e8d7a",
+      "title": "계절별 날씨의 특징",
+      "score": 0.8504538431483237
+    }
+  ],
+  "approvalSha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "sourceSha256": "8c391029443f3d99c514144bfd625d189755863219ac4cd8c61959f8d7f683cb",
+  "paidApiCalls": 0
+}

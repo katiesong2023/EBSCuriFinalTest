@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-10T14:45:38.686Z",
+  "cases": [
+    {
+      "name": "여섯 과정·교과 구간의 공식 범위와 후보가 교차하지 않음",
+      "passed": true
+    },
+    {
+      "name": "광범위 기존 표기는 기존5~6만 유지·중1과 중학 전체를 구별",
+      "passed": true
+    },
+    {
+      "name": "공식 코드·교과·학교급·학년군과 선언 과정의 충돌 거절",
+      "passed": true
+    },
+    {
+      "name": "서로 다른 학교급 열거는 각각 보존하고 이종 범위는 미확인",
+      "passed": true
+    },
+    {
+      "name": "현재 승인 집계는 탐색 후보 밖 자산도 세고 다른 교과·과정은 제외",
+      "passed": true
+    },
+    {
+      "name": "선택 기준의 과정이 방송 기존 학년보다 우선·충돌은 거절",
+      "passed": true
+    },
+    {
+      "name": "편성 미확인·공식 원문 대조 누락은 중1 지원으로 계산하지 않음",
+      "passed": true
+    },
+    {
+      "name": "추가 네 구간은 공식 구조를 확인해도 규칙 미지원·자동 공개0",
+      "passed": true
+    },
+    {
+      "name": "기존78 기준 스냅샷 바이트와 승인4는 그대로",
+      "passed": true
+    },
+    {
+      "name": "중1 편성 변경은 해당 관계 버전을 무효화·다른 과정 보존",
+      "passed": true
+    },
+    {
+      "name": "미지원 관계 저장·재실행은 이력 재사용하고 검색 공개하지 않음",
+      "passed": true
+    },
+    {
+      "name": "중1 사람 결정은 격리 저장·편성 변경은 해당 승인만 무효화",
+      "passed": true
+    },
+    {
+      "name": "실제 원본4저장소 해시·기존 승인 이력 보존",
+      "passed": true
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "9ec9d3161d28e1aca844e013561b6c53df83b45e63f74077f9be2b140031716b",
+    "broadcast-catalog.sqlite": "153807f71a0e819a6792d474947fef8f472a66ee1de221939fe36240b71e547b",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "d5e523f0bb88f362890c380c7107916e51f92e3d1b42b697ea3b458b1532800a"
+  },
+  "fixture": "합성 공식 문장·편성·사람 입력을 사용하는 임시 저장소 계약 시험. 실제 공식 원문 검증/사람 평가 아님",
+  "paidApiCalls": 0
+}

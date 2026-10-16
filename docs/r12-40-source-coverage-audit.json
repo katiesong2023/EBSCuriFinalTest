@@ -1,0 +1,729 @@
+{
+  "generatedAt": "2026-10-16T01:26:27.127Z",
+  "catalog": 23403,
+  "recognizedZeroConditions": 39,
+  "noExplicitSourceCueTerms": 17,
+  "affectedQueries": 21,
+  "outsideCurrentScopeTerms": 22,
+  "scope": "기존370에서 실패한 등록 필수어의 전체 제목/소개/공식 보조 원문 명시 단서 감사. 표현 확장을 포함하지만 의미상 관련 자료 전부나 영상 미보유를 판정하지 않음.",
+  "topPrograms": [
+    [
+      "딩동댕 유치원",
+      2855
+    ],
+    [
+      "지식채널e",
+      2798
+    ],
+    [
+      "최고의 요리비결",
+      1600
+    ],
+    [
+      "위대한 수업, 그레이트 마인즈",
+      1600
+    ],
+    [
+      "한국기행",
+      1261
+    ],
+    [
+      "EBS 다큐프라임",
+      1040
+    ],
+    [
+      "명의",
+      974
+    ],
+    [
+      "극한 직업",
+      924
+    ],
+    [
+      "방귀대장 뿡뿡이",
+      885
+    ],
+    [
+      "모여라 딩동댕",
+      638
+    ],
+    [
+      "다큐 오늘",
+      559
+    ],
+    [
+      "우리집 유치원",
+      556
+    ],
+    [
+      "세계테마기행",
+      469
+    ],
+    [
+      "한글용사 아이야",
+      389
+    ],
+    [
+      "EBS 캠페인",
+      371
+    ]
+  ],
+  "rows": [
+    {
+      "term": "문화유산",
+      "requests": [
+        "new200/Q004",
+        "new200/Q042"
+      ],
+      "explicitSourceCount": 17,
+      "examples": [
+        {
+          "id": "DP-60055924",
+          "title": "참매와 나",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055966",
+          "title": "우랄ㆍ알타이를 가다",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055974",
+          "title": "안데스",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "통신수단",
+      "requests": [
+        "new200/Q007"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "디지털",
+      "requests": [
+        "new200/Q026"
+      ],
+      "explicitSourceCount": 64,
+      "examples": [
+        {
+          "id": "DP-60055794",
+          "title": "Z세대, 오래된 미래 속으로",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056107",
+          "title": "시민의 탄생",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055911",
+          "title": "미래를 바꾸는 교육",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "지도",
+      "requests": [
+        "new200/Q026"
+      ],
+      "explicitSourceCount": 73,
+      "examples": [
+        {
+          "id": "DP-60055765",
+          "title": "다이어트 혁명 0.5%의 비밀",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055845",
+          "title": "4차 인간",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056089",
+          "title": "당신이 모르는 호주",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "삼국시대",
+      "requests": [
+        "new200/Q042"
+      ],
+      "explicitSourceCount": 9,
+      "examples": [
+        {
+          "id": "BCAST-63837ca4be5f5f398e7f",
+          "title": "사라진 흑우를 찾아서",
+          "program": "역사채널e"
+        },
+        {
+          "id": "BCAST-4fdd0e2053b019178617",
+          "title": "서산, 역사가 숨 쉬는 땅 해미",
+          "program": "고향민국"
+        },
+        {
+          "id": "BCAST-dcbf3197bb1e240b6d6b",
+          "title": "팡베이천 <삼국지 촉한의 영웅들> 5강 관우(상) 백마전투의 일기당천",
+          "program": "위대한 수업, 그레이트 마인즈"
+        }
+      ]
+    },
+    {
+      "term": "4·19",
+      "requests": [
+        "new200/Q051",
+        "previous170/X100-Q046"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "무역",
+      "requests": [
+        "new200/Q057"
+      ],
+      "explicitSourceCount": 54,
+      "examples": [
+        {
+          "id": "DP-60055969",
+          "title": "아시아의 허브 말레이시아",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056027",
+          "title": "서울 G20 정상회의 특집",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056038",
+          "title": "인센스로드 최초의 무역로대탐험",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "그래프",
+      "requests": [
+        "new200/Q057"
+      ],
+      "explicitSourceCount": 6,
+      "examples": [
+        {
+          "id": "DP-60055898",
+          "title": "삶과 죽음의 그래프",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-a8b999844427c304ba01",
+          "title": "삶과 죽음의 그래프 - 2부 미끄럼틀 사회를 구하라!",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-deb186d464b7fd89df60",
+          "title": "테렌스 타오 <모두를 위한 수학> 4강. 최고의 검색 엔진 만들기",
+          "program": "위대한 수업, 그레이트 마인즈"
+        }
+      ]
+    },
+    {
+      "term": "남북통일",
+      "requests": [
+        "new200/Q061"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "민주주의",
+      "requests": [
+        "new200/Q092"
+      ],
+      "explicitSourceCount": 68,
+      "examples": [
+        {
+          "id": "DP-60056107",
+          "title": "시민의 탄생",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055878",
+          "title": "민주주의",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-6bf85a6bbbea59cc5bba",
+          "title": "민주주의 1부 시민의 권력의지",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "민주 정치",
+      "requests": [
+        "new200/Q092"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "거울",
+      "requests": [
+        "new200/Q126"
+      ],
+      "explicitSourceCount": 21,
+      "examples": [
+        {
+          "id": "DP-60056082",
+          "title": "모성탐구 엄마가 달라졌어요",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-cddc9ec307f2fb84ea95",
+          "title": "[피아노] 라벨 거울 레슨 - 피아노 김희재",
+          "program": "서울대 음대 레슨노트"
+        },
+        {
+          "id": "BCAST-5aebf3606baa6a79c861",
+          "title": "달에 붙인 거울",
+          "program": "지식채널e"
+        }
+      ]
+    },
+    {
+      "term": "대류",
+      "requests": [
+        "new200/Q138"
+      ],
+      "explicitSourceCount": 1,
+      "examples": [
+        {
+          "id": "BCAST-ec158f439dd2c7b5d5f7",
+          "title": "54화 <휘뚜루마뚜루 뭐든지 실험실>",
+          "program": "생방송 뭐든지 해결단"
+        }
+      ]
+    },
+    {
+      "term": "물감",
+      "requests": [
+        "new200/Q138"
+      ],
+      "explicitSourceCount": 20,
+      "examples": [
+        {
+          "id": "BCAST-9bdbed15eb8d58bdac6a",
+          "title": "우리 동네 핫플레이스 4부 구슬과 항아리",
+          "program": "한국기행"
+        },
+        {
+          "id": "BCAST-a2f5172148e91efcb00f",
+          "title": "우리 동네 핫플레이스 4부 구슬과 항아리(수어방송)",
+          "program": "한국기행"
+        },
+        {
+          "id": "BCAST-b85de575a8c2feccafc1",
+          "title": "예쁜색 포도물감!",
+          "program": "딩동댕 유치원"
+        }
+      ]
+    },
+    {
+      "term": "용질",
+      "requests": [
+        "new200/Q141",
+        "previous170/X100-Q068"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "용매",
+      "requests": [
+        "new200/Q141"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "구름",
+      "requests": [
+        "new200/Q149"
+      ],
+      "explicitSourceCount": 44,
+      "examples": [
+        {
+          "id": "ECLIP-015",
+          "title": "구름이 발생하는 현상",
+          "program": "교과연계 클립"
+        },
+        {
+          "id": "BCAST-21d23bc91ae1d3e16b39",
+          "title": "구름의 무게는 얼마나 될까?",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-8258f3bd33305b31a3e9",
+          "title": "어느 날 구름이 내게 말을 걸어왔다",
+          "program": "지식채널e"
+        }
+      ]
+    },
+    {
+      "term": "색깔",
+      "requests": [
+        "new200/Q153"
+      ],
+      "explicitSourceCount": 53,
+      "examples": [
+        {
+          "id": "DP-60056071",
+          "title": "세계의 섬-마다가스카르의 리머, 그리고 카멜레온",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-3b21bbcd32b8c74d42bb",
+          "title": "봄의 어떤 색깔",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-cfecf3d1f42a4c94e6fb",
+          "title": "무지개는 일곱 색깔이 아니다",
+          "program": "지식채널e"
+        }
+      ]
+    },
+    {
+      "term": "양배추",
+      "requests": [
+        "new200/Q153"
+      ],
+      "explicitSourceCount": 10,
+      "examples": [
+        {
+          "id": "BCAST-41138738eca3f87ada17",
+          "title": "당신만 모르는 잡초 사용법",
+          "program": "하나뿐인 지구"
+        },
+        {
+          "id": "BCAST-ace5b86080176b5f2094",
+          "title": "전진주의 크림소스 떡볶이와 양배추 버섯피클",
+          "program": "최고의 요리비결"
+        },
+        {
+          "id": "BCAST-4f5cfd25b5529ae918c3",
+          "title": "이보은의 소고기 미역죽과 양배추 물김치",
+          "program": "최고의 요리비결"
+        }
+      ]
+    },
+    {
+      "term": "이산화탄소",
+      "requests": [
+        "new200/Q157"
+      ],
+      "explicitSourceCount": 14,
+      "examples": [
+        {
+          "id": "ECLIP-030",
+          "title": "이산화탄소 만들어 성질 알아보기",
+          "program": "교과연계 클립"
+        },
+        {
+          "id": "BCAST-37c6a52d79842d438613",
+          "title": "고래의 수학",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-82325bad44dbcc40006d",
+          "title": "빌게이츠가 주목한 이산화탄소 포집기술",
+          "program": "지식채널e"
+        }
+      ]
+    },
+    {
+      "term": "빛",
+      "requests": [
+        "new200/Q162",
+        "new200/Q194"
+      ],
+      "explicitSourceCount": 114,
+      "examples": [
+        {
+          "id": "DP-60058162",
+          "title": "베이비부머 은퇴 없는 세대",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056315",
+          "title": "SF 자연다큐멘터리 꿀벌",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055781",
+          "title": "강제혁신",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "렌즈",
+      "requests": [
+        "new200/Q162"
+      ],
+      "explicitSourceCount": 10,
+      "examples": [
+        {
+          "id": "DP-60055781",
+          "title": "강제혁신",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055838",
+          "title": "5원소, 문명의 기원",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055894",
+          "title": "의학, 동과 서",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "전자석",
+      "requests": [
+        "new200/Q164",
+        "previous170/X100-Q052"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "심장",
+      "requests": [
+        "new200/Q171"
+      ],
+      "explicitSourceCount": 97,
+      "examples": [
+        {
+          "id": "DP-60055988",
+          "title": "치매를 부탁해2",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056062",
+          "title": "생명의 디자인",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60056069",
+          "title": "위대한 칸, 칭기즈의 비밀",
+          "program": "EBS 다큐프라임"
+        }
+      ]
+    },
+    {
+      "term": "열평형",
+      "requests": [
+        "new200/Q184"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "열팽창",
+      "requests": [
+        "new200/Q184",
+        "new200/Q186"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "물질",
+      "requests": [
+        "new200/Q190"
+      ],
+      "explicitSourceCount": 81,
+      "examples": [
+        {
+          "id": "DP-60055754",
+          "title": "커넥션",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "DP-60055838",
+          "title": "5원소, 문명의 기원",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "PDLOG-079",
+          "title": "이어도사나, 제주 해녀",
+          "program": "PD로그"
+        }
+      ]
+    },
+    {
+      "term": "기체",
+      "requests": [
+        "new200/Q190"
+      ],
+      "explicitSourceCount": 2,
+      "examples": [
+        {
+          "id": "ECLIP-028",
+          "title": "기체 모으기",
+          "program": "교과연계 클립"
+        },
+        {
+          "id": "BCAST-1be608ef1aca2c9af8a0",
+          "title": "잠수병",
+          "program": "명의"
+        }
+      ]
+    },
+    {
+      "term": "탄성력",
+      "requests": [
+        "new200/Q191",
+        "previous170/X100-Q094"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "마찰력",
+      "requests": [
+        "new200/Q191",
+        "new200/Q192",
+        "previous170/D70-Q091"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "부력",
+      "requests": [
+        "new200/Q191",
+        "previous170/D70-Q093"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "힘과 운동",
+      "requests": [
+        "new200/Q192"
+      ],
+      "explicitSourceCount": 6,
+      "examples": [
+        {
+          "id": "DP-60056011",
+          "title": "과학혁명의 이정표",
+          "program": "EBS 다큐프라임"
+        },
+        {
+          "id": "BCAST-00ad3adabb62ae8e3263",
+          "title": "관성의 법칙",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-9f0f0a269efa13265078",
+          "title": "왜 샤워 중에 떠오를까?",
+          "program": "지식채널e"
+        }
+      ]
+    },
+    {
+      "term": "방위",
+      "requests": [
+        "previous170/D70-Q001",
+        "previous170/D70-Q014"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "증발",
+      "requests": [
+        "previous170/D70-Q097"
+      ],
+      "explicitSourceCount": 2,
+      "examples": [
+        {
+          "id": "BCAST-12dcd3b3739eebcacd3c",
+          "title": "물과 불은 사랑할 수 있을까?",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-a70f8032b5125c801492",
+          "title": "팔아야 산다! 라이브 커머스 전성시대",
+          "program": "극한 직업"
+        }
+      ]
+    },
+    {
+      "term": "자석",
+      "requests": [
+        "previous170/D70-Q099"
+      ],
+      "explicitSourceCount": 21,
+      "examples": [
+        {
+          "id": "BCAST-b1894204bf81147a1665",
+          "title": "아름답지만, 치명적인",
+          "program": "지식채널e"
+        },
+        {
+          "id": "BCAST-f50bd0db15a3b32c76ab",
+          "title": "카를로 로벨리 <시간의 과학> 2강 시간은 미래로 흐르는가",
+          "program": "위대한 수업, 그레이트 마인즈"
+        },
+        {
+          "id": "BCAST-7e55e93d782189394196",
+          "title": "카를로 로벨리 <시간의 과학> 2강 시간은 미래로 흐르는가(수어)",
+          "program": "위대한 수업, 그레이트 마인즈"
+        }
+      ]
+    },
+    {
+      "term": "달 모양",
+      "requests": [
+        "previous170/X100-Q022"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "굴절",
+      "requests": [
+        "previous170/X100-Q065"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "빛의 굴절",
+      "requests": [
+        "previous170/X100-Q065"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    },
+    {
+      "term": "화성암",
+      "requests": [
+        "previous170/X100-Q090"
+      ],
+      "explicitSourceCount": 0,
+      "examples": []
+    }
+  ],
+  "paidApiCalls": 0
+}

@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "name": "search",
+      "width": 1440,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "library",
+      "width": 1440,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "search",
+      "width": 1280,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "library",
+      "width": 1280,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "search",
+      "width": 390,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "library",
+      "width": 390,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "search",
+      "width": 360,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "library",
+      "width": 360,
+      "overflow": false,
+      "background": "rgb(250, 250, 248)",
+      "smallButtons": []
+    },
+    {
+      "name": "bring-step-and-escape",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion",
+      "passed": true
+    },
+    {
+      "name": "extension-360",
+      "passed": true,
+      "fixtureOnly": true
+    }
+  ],
+  "errors": [],
+  "realEbsPlayback": false,
+  "userProfileModified": false
+}

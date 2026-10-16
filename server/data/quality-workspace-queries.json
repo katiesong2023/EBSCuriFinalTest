@@ -1,0 +1,16 @@
+{
+  "version": "r09-20261004",
+  "author": "AGENT",
+  "use": "TECHNICAL_HOLDOUT_THEN_DEVELOPMENT",
+  "limits": "실행 전에 고정한 새 표현이다. 실제 교사 요청·독립 최종 사람 평가가 아니며, 진단 이후에는 개발용으로 관리한다.",
+  "queries": [
+    { "id": "S01", "subject": "사회", "query": "민주주의 수업 자료를 찾아주세요.", "keyword": "민주주의", "topic": "democracy-participation", "requestedRelation": "민주주의 주제 자료; 시민 참여 방향은 선택 이후 확인" },
+    { "id": "S02", "subject": "사회", "query": "다양한 문화가 함께 사는 모습을 보여 주는 방송을 찾고 있어요.", "keyword": "다문화", "requestedRelation": "서로 다른 문화의 사람들이 함께 살아가는 모습" },
+    { "id": "S03", "subject": "사회", "query": "사막 또는 툰드라 생활 자료를 추천해 주세요.", "keyword": "사막 생활", "requestedRelation": "사막 또는 툰드라 환경에서의 생활" },
+    { "id": "S04", "subject": "사회", "query": "고조선 유물 발굴 과정을 살펴볼 자료를 찾아주세요.", "keyword": "고조선", "requestedRelation": "고조선 유물의 발굴 과정" },
+    { "id": "N01", "subject": "과학", "query": "우주 탐사 자료를 추천해 주세요.", "keyword": "우주 탐사", "topic": "space-explore", "requestedRelation": "우주를 탐사하는 방법" },
+    { "id": "N02", "subject": "과학", "query": "생태계 수업 자료를 찾아주세요.", "keyword": "생태계", "topic": "ecosystem-bees", "requestedRelation": "생태계 주제 자료; 꿀벌 방향은 선택 이후 확인" },
+    { "id": "N03", "subject": "과학", "query": "심장이나 소화기관의 움직임을 보여주는 자료를 찾아주세요.", "keyword": "심장 또는 소화기관", "requestedRelation": "심장 또는 소화기관의 움직임을 보여주는 장면" },
+    { "id": "N04", "subject": "과학", "query": "산성비 또는 바다 산성화 사례를 찾아주세요.", "keyword": "산성비 또는 산성화", "requestedRelation": "산성비 또는 바다 산성화의 실제 사례" }
+  ]
+}

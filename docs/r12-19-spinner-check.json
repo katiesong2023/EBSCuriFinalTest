@@ -1,0 +1,22 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "animation": "curi-search-spin",
+      "latestRequestPreserved": true,
+      "successRestored": true,
+      "errorRestored": true
+    },
+    {
+      "width": 390,
+      "reducedMotion": "reduce",
+      "animation": "none",
+      "latestRequestPreserved": true,
+      "successRestored": true,
+      "errorRestored": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true
+}

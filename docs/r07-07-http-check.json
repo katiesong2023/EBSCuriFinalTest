@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-11T07:24:16.227Z",
+  "passed": 5,
+  "cases": [
+    {
+      "name": "공개 교사 API의 세 경우와 전체 목록",
+      "passed": true
+    },
+    {
+      "name": "학년 차이·공식 원문·선택 관계·필터·페이지 응답",
+      "passed": true
+    },
+    {
+      "name": "중1 괄호 코드와 자동 비교 미지원은 정상 탐색",
+      "passed": true
+    },
+    {
+      "name": "입력 오류와 중복 조건은400·기준을 조용히 해제하지 않음",
+      "passed": true
+    },
+    {
+      "name": "기존 기준 API·일반 API는 유지, 관리자 쓰기는401",
+      "passed": true
+    }
+  ],
+  "rows": [
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 1,
+      "standard": null,
+      "searchMode": "QUERY",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 10,
+      "standard": "6사04-01",
+      "searchMode": "STANDARD",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 1,
+      "standard": "6사04-01",
+      "searchMode": "COMBINED",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher",
+      "status": 200,
+      "total": 20749,
+      "standard": null,
+      "searchMode": "ALL",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 2,
+      "standard": "6과12-02",
+      "searchMode": "COMBINED",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 0,
+      "standard": "9사(지리)01-01",
+      "searchMode": "COMBINED",
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&standard=fake",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "현재 공식 목록에 없는 성취기준입니다. 선택 기준을 확인하세요."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&standard=6사04-01&state=fake",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "관계 상태 조건이 올바르지 않습니다."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&unknown=x",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "허용하지 않은 자료 검색 조건입니다."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&standard=6사04-01&standard=6과12-02",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "같은 검색 조건을 여러 번 지정할 수 없습니다."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&standard=6사04-01&page=0",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "페이지가 올바르지 않습니다."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "workspace=teacher&state=UNSUPPORTED",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "관계 상태 조건을 적용할 성취기준을 선택하세요."
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": "standard=6사04-01",
+      "status": 400,
+      "total": null,
+      "standard": null,
+      "searchMode": null,
+      "error": "성취기준 조건은 교사 자료 검색에서 사용하세요. workspace=teacher가 필요합니다."
+    },
+    {
+      "route": "/api/curi/curriculum",
+      "query": {},
+      "status": 200,
+      "total": 10,
+      "standard": "6사04-01",
+      "searchMode": null,
+      "error": null
+    },
+    {
+      "route": "/api/curi/discover",
+      "query": {},
+      "status": 200,
+      "total": 39,
+      "standard": null,
+      "searchMode": null,
+      "error": null
+    }
+  ],
+  "paidApiCalls": 0,
+  "scope": "격리 로컬 서버의 실제 읽기 응답·입력 오류·미인증 쓰기 차단. 통합 화면/교사 효용 검증 아님"
+}

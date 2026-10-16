@@ -1,0 +1,1505 @@
+{
+  "scope": "동일370의 첫 결과 전체 평가를 위한 새250쌍. 제목·소개·모델 인용을 읽고 경계 사례는 공식 보조 원문을 추가 확인한 에이전트 잠정 텍스트 평가. 교사/영상 정답률 아님. 미평가 상위2·3개는 관련으로 세지 않음.",
+  "labels": {
+    "new200/Q003/BCAST-af610fed31ea2b7ac78d": {
+      "query": "초3 지도 읽기 수업 도입에 쓸 3분짜리 영상",
+      "fingerprint": "5ae321ce2fe5ae6dc731149f457b97743643c996c5b5d65f409315aef19c8a84",
+      "score": 0,
+      "reason": "운동 안전 캠페인으로 지도 읽기와 무관하다."
+    },
+    "new200/Q005/BCAST-41283c7b39e6a93bbd27": {
+      "query": "옛날 사람들은 어떻게 빨래를 했을까",
+      "fingerprint": "69dc204c5e915bf3c00fff4b59be3b29789ef98477aac65ef3646bc5e9ace16f",
+      "score": 1,
+      "reason": "빨래 신체 놀이이며 과거 빨래 방법을 설명하는 근거는 없다."
+    },
+    "new200/Q006/BCAST-31bd8b1e22e0ad029383": {
+      "query": "옛날 교통수단과 오늘날 교통수단 비교",
+      "fingerprint": "55d761b50637d73fcaa862434417c091d201ad2444e6481761c3dc461baaf3f6",
+      "score": 1,
+      "reason": "과거·현재 생활 비교지만 교통수단 비교는 미확인이다."
+    },
+    "new200/Q007/BCAST-57b15f48ec3166581419": {
+      "query": "애들한테 옛날 통신수단 보여줄 만한 거 없나요",
+      "fingerprint": "869bc86b4a595340706431574822e3cc26ecafa3b8adbd026d0dcdc57b9baad7",
+      "score": 2,
+      "reason": "전화기 이전에 소식을 전한 방법을 직접 질문하는 내용이다."
+    },
+    "new200/Q008/BCAST-8615104075baa4a592f8": {
+      "query": "설날 추석 세시 풍속",
+      "fingerprint": "af2a8810617b9bef12b06fd00f98c4181ee425adc0dac53a5d39c2086d956292",
+      "score": 1,
+      "reason": "설날 풍속만 확인되며 함께 요청한 추석 풍속은 미확인이다."
+    },
+    "new200/Q009/BCAST-a45f774f7828750a8549": {
+      "query": "가족의 모습은 시대에 따라 어떻게 달라졌을까",
+      "fingerprint": "b12480dbd09f0a7b9aba135ba2312984d169b9aa0b27cf76c438ccbf96d7a7e5",
+      "score": 2,
+      "reason": "대가족에서 핵가족으로 변화한 가족구성과 주거문화를 직접 다룬다."
+    },
+    "new200/Q010/BCAST-aaf891c2e14252861fe8": {
+      "query": "농촌 어촌 산지촌 생활 모습",
+      "fingerprint": "36e9d9cbcf5a686e8457d0312b4ff9882a78e14b517b0ae93af759e3926e0283",
+      "score": 1,
+      "reason": "도시·농촌·어촌 생활은 있으나 산지촌은 미확인이다."
+    },
+    "new200/Q011/BCAST-2995c7b8bd7257e023f9": {
+      "query": "4학년 촌락과 도시 단원에서 도시 문제를 보여줄 다큐",
+      "fingerprint": "45b82fe857882ff758e3167f6aa4d6be70bf428492a3236ece427acc4f62f3ff",
+      "score": 2,
+      "reason": "도시 녹지 부족·미세먼지 문제와 식물의 해결 효과가 공식 원문에 직접 있다."
+    },
+    "new200/Q013/BCAST-c2d44349e6ca503fd09d": {
+      "query": "생산과 소비의 뜻",
+      "fingerprint": "b2801c91c33a879c710ac451034328fd11d88b974746c00b2d1a29ae6bdc3de7",
+      "score": 1,
+      "reason": "생산·소비라는 용어만 언급하며 뜻 설명은 확인되지 않는다."
+    },
+    "new200/Q015/BCAST-1ed3bde9deae6f287483": {
+      "query": "희소썽 쉽게 설명",
+      "fingerprint": "6a3f942628ede5d1b2f50f4498cff21a404934ede6e1c0a7f03d2dad5f3543f6",
+      "score": 0,
+      "reason": "경제의 희소성 오타 질문에 희귀병 환자 일상을 반환했다."
+    },
+    "new200/Q018/BCAST-80deb5b939bd6407d23a": {
+      "query": "시청이나 소방서 같은 공공 기관은 무슨 일을 하나요",
+      "fingerprint": "31251e3327b7843f4cdbc602bc96ef3772aa492c23b3c108ff60b2ffb5a3fbc8",
+      "score": 2,
+      "reason": "공공 기관의 예인 소방서에서 소방관과 안전체험을 한다."
+    },
+    "new200/Q019/BCAST-73162d0fa6f882b242c0": {
+      "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+      "fingerprint": "52ca69b752488440cbea21530f62a2c423b715ba1515ba60d3e9b1f313a7e8f1",
+      "score": 2,
+      "reason": "빈곤한 지역을 바꾸는 실제 투자 프로그램 사례가 있다."
+    },
+    "new200/Q020/BCAST-8032a9c9b124771419fd": {
+      "query": "아이가 줄어들면 우리 동네는 어떻게 될까",
+      "fingerprint": "5dd2464932e3b9978d7ce03927949c2eb654faa21a9c621b958a4f0b42bda104",
+      "score": 2,
+      "reason": "저출생이 유치원 인원 감소·폐원으로 이어지는 직접 사례다."
+    },
+    "new200/Q021/BCAST-20c22d717cce30a88dfe": {
+      "query": "고령화 사회 노인 생활",
+      "fingerprint": "6cadd9fbd91b4642893e730e62c02d4eb586163b54378515bbb0763c8960e3ba",
+      "score": 2,
+      "reason": "노인의 요양시설 생활과 가족·사회 문제를 직접 다룬다."
+    },
+    "new200/Q022/BCAST-5e37cc33cddbd648fbea": {
+      "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+      "fingerprint": "ebc366ba97a666696e7a8b352f0ce82bc772404e9847e351cfd4136885ae3aa1",
+      "score": 1,
+      "reason": "스마트폰 장단점 토론이나 생활 변화의 구체 내용은 미확인이다."
+    },
+    "new200/Q024/BCAST-5e066dca108f1c03ee8a": {
+      "query": "편견 없이 다른 문화를 존중하는 내용, 강의 말고 짧은 클립",
+      "fingerprint": "13d0fd9de458681c7f7c7fbf308f2d6338ab1b5e15a49f4fdaf3cd7cb561d487",
+      "score": 1,
+      "reason": "음식 문화 다양성은 있지만 문화 편견·존중의 연결과 짧은 길이는 미확인이다."
+    },
+    "new200/Q025/BCAST-902b456a6220a21aad85": {
+      "query": "우리 동네 이름에는 어떤 뜻이 숨어 있을까",
+      "fingerprint": "64e2318e4169e2924ca56803a793f94af9953afb2c426279a9d4b107b6de2729",
+      "score": 2,
+      "reason": "충무로·수유역 등 지역 이름의 유래를 직접 설명한다."
+    },
+    "new200/Q028/BCAST-ea9f2e1845b37fe97cd6": {
+      "query": "고장의자연환경과인문환경",
+      "fingerprint": "252f61a44b577b05d3d5a09a6002be60e8e206c39381d9e420ca2ff1c1bcd9ff",
+      "score": 2,
+      "reason": "고인돌 문화유적과 습지 등 지역의 자연·인문 환경을 함께 다룬다."
+    },
+    "new200/Q029/BCAST-0195b800a0e30b31e477": {
+      "query": "옛날 아이들 놀이 실제 모습 담긴 자료 화면",
+      "fingerprint": "5ddfa8539155a32e54855ddf5693bbd5748946572ac7333193fe697ee216563b",
+      "score": 1,
+      "reason": "전래놀이 재현은 있으나 과거 실제 기록 화면은 미확인이다."
+    },
+    "new200/Q030/BCAST-e2561a8ae5e5221955d9": {
+      "query": "지역 축제가 경제에 주는 영향과 문화적 의미를 함께 보여주는 영상",
+      "fingerprint": "e15a0ff1b5ff72e8590fbaa34d9de85b4147415236c56f703b0da0bb611d3a3c",
+      "score": 1,
+      "reason": "단오 문화교류 축제지만 지역 경제 효과는 확인되지 않는다."
+    },
+    "new200/Q031/BCAST-d2d4b4dfa1b421d6c4f2": {
+      "query": "우리나라 국토의 위치와 영역",
+      "fingerprint": "8fc6bf519df03b64125c1b4bc74bbe7ef9935c66a9340666a018efce33fd3f2e",
+      "score": 1,
+      "reason": "도별 위치·도시 이름이며 국토 전체의 위치·영역은 일부만 확인된다."
+    },
+    "new200/Q034/BCAST-3f5f0e585f338840776f": {
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "fingerprint": "b2cc4c6ea05b3818265014804ff86f519362ccf1bb1c9fb85f1293540f99e52d",
+      "score": 1,
+      "reason": "한반도 기후 변화 자료지만 5분 이내 클립 조건은 미확인이다."
+    },
+    "new200/Q035/BCAST-bc85f8ad5bcf334e9acf": {
+      "query": "태풍 홍수 대비 방법",
+      "fingerprint": "bb199432e67f86ee0ceeab6c43de010b7a64545d569fbf5264f0b6f2e17b0c66",
+      "score": 2,
+      "reason": "태풍·장마 사고에 대비하는 교량 점검 현장이 직접 나온다."
+    },
+    "new200/Q036/BCAST-6998a10b7de63e82b3d4": {
+      "query": "사람들은 왜 수도권에 몰려 살까",
+      "fingerprint": "3969458b5c15d81fd20541ece1bcb42c82c33f7c875921660cfacd4ceebe8f2e",
+      "score": 2,
+      "reason": "교육·일자리를 따라 수도권에 집중되는 원인과 그 결과가 공식 원문에 있다."
+    },
+    "new200/Q037/BCAST-c91079ed50377bd522eb": {
+      "query": "인권의 뜻과 인권 보호",
+      "fingerprint": "cea8f33133873e963b9df97dc2acfe9e4492912695f00d3a206a7abc95d3ffba",
+      "score": 1,
+      "reason": "인권 침해 사례와 미래 문제이며 인권의 뜻·보호 방안은 충분히 확인되지 않는다."
+    },
+    "new200/Q040/BCAST-1e560c4f299f874060aa": {
+      "query": "법을 왜 지켜야 하는지 6학년이 공감할 만한 사례 영상",
+      "fingerprint": "f4a4e4c49612c24335c340278ba8546e87a62585d73d5eaf0e75950334bf412f",
+      "score": 1,
+      "reason": "불문율의 사례이며 법을 지키는 이유와는 구별된다."
+    },
+    "new200/Q044/BCAST-2e6eb6ef67810d5f7194": {
+      "query": "역사채널e 세종대왕 한글 창제",
+      "fingerprint": "5234707b262355789af9fa6f8cf750dce7b8ceccc7c01f7db7e5140094f53ed4",
+      "score": 2,
+      "reason": "프로그램·인물·한글 창제 요청이 원문에 직접 확인된다."
+    },
+    "new200/Q045/BCAST-3499fd51ba5a165a92ca": {
+      "query": "임진왜란 이순신 수업 도입용 짧은 영상",
+      "fingerprint": "e032bdc63e3f6447789d0e5cee746c690cb7f1a2acde888090ad027871c26231",
+      "score": 1,
+      "reason": "임진왜란·이순신은 직접 관련되나 짧은 길이는 미확인이다."
+    },
+    "new200/Q046/BCAST-c262997b930ae52d1701": {
+      "query": "정약룡 거중기",
+      "fingerprint": "e9d8ab6370a2411ba1fec60db02c7ecaa499b3a33bee4377eec7198f3a6b59fe",
+      "score": 2,
+      "reason": "인물 오타에도 정약용의 거중기 체험을 찾았다."
+    },
+    "new200/Q049/BCAST-78d00cd420b443722fd6": {
+      "query": "독립운동가 실제 사진과 기록 자료",
+      "fingerprint": "45b117904b435637c2bfb210f1e202adbf49f7c93011d394e041cf5579800427",
+      "score": 1,
+      "reason": "독립운동가 사진은 제목에 있으나 요청한 기록 자료를 함께 확인하지 못했다."
+    },
+    "new200/Q051/BCAST-d956121f0908fe8c8f79": {
+      "query": "4·19 혁명과 5·18 민주화 운동은 어떤 사건이었나요",
+      "fingerprint": "cf706cca1f4a7de7166ef96c894c4fbadd7f3efe1848e10ed304fd2c93663574",
+      "score": 2,
+      "reason": "두 민주화 사건을 소녀의 일기로 함께 살펴본다."
+    },
+    "new200/Q054/BCAST-41236586c72656a2741e": {
+      "query": "삼권 분립 국회 정부 법원",
+      "fingerprint": "db0d3e97de36a1f7b81733a2faae1118c0b16e9e7cc2d3299bd7b5fdee153839",
+      "score": 1,
+      "reason": "의회와 행정부 견제는 있으나 법원과 삼권 분립 전체는 미확인이다."
+    },
+    "new200/Q057/BCAST-9a5827b3dd9a82a17bc2": {
+      "query": "우리나라 무역과 다른 나라와의 경제 교류를 그래프와 함께",
+      "fingerprint": "a5e3694384833c09185aabe7bfc6488e9c874765c4e880ef37fa02269c44eca1",
+      "score": 1,
+      "reason": "일반 국제무역이며 한국 경제 교류·그래프 조건은 미확인이다."
+    },
+    "new200/Q058/BCAST-9e27793187ef14a7385a": {
+      "query": "세계 지도와 지구본 차이",
+      "fingerprint": "e5a178ef80e50d453cc07258929c205d5a60639d52a87d7fb7fb2e3fcedd30a9",
+      "score": 1,
+      "reason": "지도·방향 내용이나 지구본과의 차이는 원문에 없다."
+    },
+    "new200/Q059/BCAST-57f3b250a0fdf8d2dc83": {
+      "query": "세계테마기행 사막 지역 사람들 생활",
+      "fingerprint": "3b87a767f38e79b0182fee6409757849354713fe32aeb6fdcac8986a0fb6e837",
+      "score": 2,
+      "reason": "세계테마기행에서 사막 두바이 주민의 일상·캠핑을 다룬다."
+    },
+    "new200/Q060/BCAST-430651fee7358aa5666e": {
+      "query": "중국 일본 러시아는 우리나라와 어떤 관계일까",
+      "fingerprint": "1d994393e58d3afb10143c8593ab24e2c4b7af69539b7e66f6d2c3ecb1a6c741",
+      "score": 1,
+      "reason": "한중일 역사 관계이며 러시아 관계는 함께 확인되지 않는다."
+    },
+    "new200/Q061/BCAST-28ab54821a334fe7a92c": {
+      "query": "남북통일 필요성",
+      "fingerprint": "94e35d8f4f17cda1d60cf9eb4629c3183537574ad25f0aab34431c8ba34c665b",
+      "score": 1,
+      "reason": "남북 문화·경제 교류 사례이나 통일 필요성 설명은 미확인이다."
+    },
+    "new200/Q062/BCAST-1d621c40649efbf381be": {
+      "query": "지구촌 분쟁 사례 조사 활동 전에 보여줄 영상",
+      "fingerprint": "ee5e33d454074027769298811606b5fe0c54d7ff844183d8c1ba7d9635e8919e",
+      "score": 1,
+      "reason": "기후 난민 피해는 있지만 분쟁 사례는 미확인이다."
+    },
+    "new200/Q063/BCAST-0c7602db364d6d0cd2be": {
+      "query": "기후 위기와 지속 가능한 미래를 사회 과학 융합으로 다룬 다큐",
+      "fingerprint": "40fb42ebf42d269a7dcc1b3da714700176951c5c05724605982aceedf0769f8d",
+      "score": 2,
+      "reason": "기후·자원 등 사회 문제와 생체모방 지속가능 기술을 함께 다룬다."
+    },
+    "new200/Q064/BCAST-e2822685decb3f110c65": {
+      "query": "난민은 왜 생기고 우리는 무엇을 할 수 있을까",
+      "fingerprint": "8d5d68fe43802b53afc6c5809e06a8389d5019cd878bd9d74b3f3c57a9727594",
+      "score": 2,
+      "reason": "전쟁·지진으로 발생한 난민·이재민과 대피소 지원 활동을 함께 다룬다."
+    },
+    "new200/Q065/BCAST-08e767f8ccce3cd4d235": {
+      "query": "유엔과 국제기구 하는 일",
+      "fingerprint": "f7596a6979d410e5d7821ec0b4fb097cb94e4338d9d419ac96b141b511fc4cc2",
+      "score": 2,
+      "reason": "UN 세계인권선언·국제기구의 조약과 감시 역할을 직접 설명한다."
+    },
+    "new200/Q066/BCAST-18cfb3c84e47d5c1d949": {
+      "query": "공정무역 초콜릿 생산 과정 보여주는 영상",
+      "fingerprint": "a0f7e3e8736d4dd4af64df057e9c6bccdfa3120affb8a10946fdf265dd636f06",
+      "score": 1,
+      "reason": "카카오와 초콜릿 생산 과정은 있으나 공정무역은 미확인이다."
+    },
+    "new200/Q067/BCAST-1124edc2ce3a1b2de5f1": {
+      "query": "어린이보호구역법 왜생겼나",
+      "fingerprint": "563f1445b8dbd74455f44373c2fd309e6c4adbfc465e1f7a45d6460de7a97626",
+      "score": 2,
+      "reason": "어린이 교통사고와 스쿨존 보호 필요성을 직접 다룬다. 법 조문 해설은 별도다."
+    },
+    "new200/Q068/BCAST-dc238929d9787a198b60": {
+      "query": "어린이 인권 침해 사례인데 너무 자극적이지 않은 영상",
+      "fingerprint": "9243681766eb483d65cf8da1d3d0536947d9b50415099fa6c025d5b1fd1dee81",
+      "score": 1,
+      "reason": "어린이 인권의 가치만 확인되고 침해 사례·비자극성은 미확인이다."
+    },
+    "new200/Q069/BCAST-171710548c231d6436ed": {
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "fingerprint": "5829909eb73108079978dd94981f3b1528e31dbc0dd94499b8eb57693ebda123",
+      "score": 2,
+      "reason": "지역 개발과 양서류 서식지 보존의 갈등을 다룬다."
+    },
+    "new200/Q070/BCAST-5866dd04d72c3a3e7456": {
+      "query": "유네스코 세계유산 종묘 석굴암",
+      "fingerprint": "77b0b725362d910882886f8b2a9ea87ca58f6423e8bacdab84dd40a67349403c",
+      "score": 1,
+      "reason": "석굴암만 확인되며 함께 요청한 종묘는 확인되지 않는다."
+    },
+    "new200/Q071/BCAST-60d08be1b982648f5aa9": {
+      "query": "조선 시대 양반 상민 노비 생활 비교되는 재밌는 거",
+      "fingerprint": "83a903b6256a04449807e976a2eb88a7f52a6695695284cbb813a3bce174d373",
+      "score": 1,
+      "reason": "양반·노비 신분 차이는 있으나 상민까지 생활 비교는 미확인이다."
+    },
+    "new200/Q073/BCAST-95cde06223e3b1919195": {
+      "query": "저출생 문제를 인구 그래프와 실제 가족 이야기로 함께 보여주는 다큐",
+      "fingerprint": "33465497aeeceeb9e5953fc3157e05009c3205920a0d5994d68944603e7bfa24",
+      "score": 1,
+      "reason": "저출생·결혼 출산 가치관 다큐지만 인구 그래프는 미확인이다."
+    },
+    "new200/Q074/BCAST-79a6e31c4a091699906a": {
+      "query": "용돈을 어떻게 써야 합리적인 선택일까",
+      "fingerprint": "1c823e846902857c7d53ce21720ed3f08af6f274c5f4c0e5d016f2e73233e753",
+      "score": 2,
+      "reason": "갖고 싶은 것 절제와 합리적 소비를 직접 다룬다."
+    },
+    "new200/Q075/BCAST-01334b5855509be2a044": {
+      "query": "6학년 2학기 지구촌 환경 문제 마무리 차시용 영상",
+      "fingerprint": "3011d8ae49249b78ae05ee58bc9dc2ad8d4e948fb205c9f835b893298797ece8",
+      "score": 2,
+      "reason": "한국 청소년의 기후행동을 밀착 취재하는 환경 문제 자료다."
+    },
+    "new200/Q076/BCAST-f557f4b9d9b38f627bb8": {
+      "query": "위도와 경도 표준시",
+      "fingerprint": "932e849acd492d7a5a9c7a70820a3d9140c2425fa4e8570f51086fdd16270c6c",
+      "score": 1,
+      "reason": "위도·경도 0의 지점은 있으나 표준시는 미확인이다."
+    },
+    "new200/Q077/BCAST-5151633be5b8419439d8": {
+      "query": "나라마다 시간이 다른 이유는 무엇일까",
+      "fingerprint": "7bb84e195055dd9b57e1fb3d6445ffcde887c5e71dda1add44f2702bedead9b9",
+      "score": 0,
+      "reason": "개인의 삶 속도에 관한 비유로 국가별 시간 차이 원리와 무관하다."
+    },
+    "new200/Q078/BCAST-8aa04e1120ff9eccbbfc": {
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "fingerprint": "c36b837ad714b3c1dd013e36e065cb026da6dded1ef72101abb7a2ffe91142d1",
+      "score": 2,
+      "reason": "열대우림의 라칸돈 사람들 생활·마야 문화를 직접 다룬다."
+    },
+    "new200/Q080/BCAST-2ab01f526d80f1e4a218": {
+      "query": "북극 사람들은 추위에 어떻게 적응해 살까",
+      "fingerprint": "c09006b0d4ae280f4d3df2be04a86fa071fc9cb379395a24f5836dc0d801cd67",
+      "score": 1,
+      "reason": "혹한 적응 생활이지만 시베리아 오이먀콘을 북극으로 확인할 수 없다."
+    },
+    "new200/Q081/BCAST-41e41531096138800b9f": {
+      "query": "안데스 고산 도시 생활",
+      "fingerprint": "d0b830959b3fff52c348b9fc5b1b459e1098f77f082a254a439df4dd9a1f877b",
+      "score": 2,
+      "reason": "안데스 도시 쿠스코의 거리·음식·생활을 다룬다."
+    },
+    "new200/Q082/BCAST-e62e352286bfdf0e7886": {
+      "query": "지진과 화산 피해를 지리와 과학 시각으로 함께 보는 자료",
+      "fingerprint": "dfa7b6d55614c74f792d7104619abe9016a52edc5a5b9c9b15daf23f0c3cf759",
+      "score": 1,
+      "reason": "위성의 지진·화산 관측은 있지만 피해와 지리 시각은 충분히 확인되지 않는다."
+    },
+    "new200/Q083/BCAST-562bff14dc981a775d0b": {
+      "query": "화석 연료 신재생 에너지 자원 분포",
+      "fingerprint": "701d555764b8b56c531d7f0741ae6549af875cc18130f073379a8bc361eed045",
+      "score": 1,
+      "reason": "에너지 전환·원자력 자료이며 화석·신재생 자원 분포는 미확인이다."
+    },
+    "new200/Q085/BCAST-ba2e9797570adb0351d6": {
+      "query": "중1 지리 시간에 보여줄 세계 관광지 영상 재밌는 걸로",
+      "fingerprint": "8a9cc4f530539ed4c0759762f85d836cd27dc0588e1c94a7e6798a668d6393c0",
+      "score": 2,
+      "reason": "스리랑카 관광지·교통·해양 활동을 직접 소개한다."
+    },
+    "new200/Q087/BCAST-f2b7f0fc2d240440acee": {
+      "query": "역할 갈등은 어떤 상황에서 생기나요",
+      "fingerprint": "13ce21123afcb2355c724d87abd120d29af4da2c946226432c3d3b4f767219b5",
+      "score": 0,
+      "reason": "역할극으로 학교폭력을 다루지만 사회학적 역할 갈등 사례가 아니다."
+    },
+    "new200/Q088/BCAST-5e066dca108f1c03ee8a": {
+      "query": "중1 문화 단원에서 문화 상대주의 토론 전에 보여줄 사례 영상",
+      "fingerprint": "13d0fd9de458681c7f7c7fbf308f2d6338ab1b5e15a49f4fdaf3cd7cb561d487",
+      "score": 1,
+      "reason": "괴식 문화 사례이지만 문화 상대주의 관점은 충분히 확인되지 않는다."
+    },
+    "new200/Q089/BCAST-5e066dca108f1c03ee8a": {
+      "query": "문화접번 예시",
+      "fingerprint": "13d0fd9de458681c7f7c7fbf308f2d6338ab1b5e15a49f4fdaf3cd7cb561d487",
+      "score": 1,
+      "reason": "음식 문화 소재이며 문화 접변의 상호 변화는 미확인이다."
+    },
+    "new200/Q093/BCAST-edb666341a411d4f6e2d": {
+      "query": "대통령제와 의원 내각제 비교",
+      "fingerprint": "843f988d09d6ebc3a96b7c7d16f09c921e2197a0eaf6c2ce6e808b458e57f978",
+      "score": 1,
+      "reason": "대통령제 역사만 확인되며 의원내각제와 비교는 없다."
+    },
+    "new200/Q094/BCAST-ce1721b43f7741c59028": {
+      "query": "시민 정치 참여 방법, 선거 말고 다른 방법도",
+      "fingerprint": "aaa9339e7e8720237529d19958f7d0cc2ea624b036333cbac9563d3f6726c753",
+      "score": 2,
+      "reason": "공청회·토론회·주민참여조례 등 선거 이외 참여 방법을 직접 다룬다."
+    },
+    "new200/Q095/BCAST-01c5def31d60db3f6267": {
+      "query": "사법과 공법은 어떻게 다를까",
+      "fingerprint": "d632aba35edf7ccf97ae2ce46048f8419b7a12625aeab50a8813ce2e69a48e84",
+      "score": 1,
+      "reason": "법·국가 권리 일반 내용이며 사법·공법 구별은 미확인이다."
+    },
+    "new200/Q096/BCAST-16a649479d806e78bb2f": {
+      "query": "모의 재판 진행 과정 보여주는 영상",
+      "fingerprint": "199c6c468ed8b5b31817e9555ec211e384a7865c88ef0ab955453a60bb4c89e1",
+      "score": 1,
+      "reason": "동화 재판 소재이나 모의재판의 진행 절차는 미확인이다."
+    },
+    "new200/Q097/BCAST-a45c2d036d448f67f148": {
+      "query": "인권 침해 구제 방법과 실제 사례를 같이 담은 영상",
+      "fingerprint": "7e848059e7690db14eed51c93319d9386a15d784e78fc147d4c81574aeafa877",
+      "score": 2,
+      "reason": "칠레 국민 사례와 인권 침해에 맞서는 방법을 함께 설명한다."
+    },
+    "new200/Q098/BCAST-edc117c8f7cea86f3ec2": {
+      "query": "지역 브랜드 지리적 표시제",
+      "fingerprint": "6886d6c6fbab20dd00556744353afbe9481ee7c46a14b1011852d962600539c3",
+      "score": 2,
+      "reason": "지역 특산물의 지리적 표시 등록과 지역대표산업 연결이 직접 있다."
+    },
+    "new200/Q100/BCAST-c3cfb74a8979103b6704": {
+      "query": "기후 변화로 사라지는 섬나라 얘기 짧게",
+      "fingerprint": "6a9789d2ebb7aa11f713cc4eca16ec8d59d6b4bfc401a4eb3d70dfc5e13560b3",
+      "score": 1,
+      "reason": "투발루 해수면 피해는 직접 관련되나 짧은 길이는 미확인이다."
+    },
+    "new200/Q102/BCAST-ea3a2512db1301062087": {
+      "query": "왜 컵은 유리나 플라스틱으로 만들까",
+      "fingerprint": "649de36db62d99a080478bb2df8fe73eddbc27fa0ceb1f5677255098768cab71",
+      "score": 1,
+      "reason": "유리의 특성과 사용을 다루나 컵 재료 선택·플라스틱 비교는 미확인이다."
+    },
+    "new200/Q103/BCAST-982822bab202efcfe658": {
+      "query": "땅속에 사는 동물 실제 영상",
+      "fingerprint": "61f1d5a40fdf79bcba656b72dda4448850ce39f3f48ba25187fb9329edc85c56",
+      "score": 2,
+      "reason": "땅 위·속 생물을 실제 관찰하는 내용이다. 실제 영상 장면은 별도다."
+    },
+    "new200/Q104/BCAST-58264ab018e30fb4b841": {
+      "query": "3학년 동물의 생활 단원 분류 활동용 영상",
+      "fingerprint": "0be0514b93e9f1d420ea43574ef44380305f5879d9d6b79eac8a8279f2330c25",
+      "score": 1,
+      "reason": "동물 관찰은 있지만 분류 기준·활동은 충분히 확인되지 않는다."
+    },
+    "new200/Q105/BCAST-bcf6f1e5b192556fa91f": {
+      "query": "흐르는 물에 의한 침식 퇴적",
+      "fingerprint": "cb36a36560385cf78fa056b6d73de88cd032463ed350499a9ad2c55626eedaa3",
+      "score": 1,
+      "reason": "하천 퇴적은 있으나 물에 의한 침식 과정은 함께 확인되지 않는다."
+    },
+    "new200/Q106/BCAST-3f44592dcea989109c59": {
+      "query": "흙은 어떻게 만들어질까",
+      "fingerprint": "ce3eb3a49ddc14a2f950da5fbba7671ba898017c25a4b438f7555b6c602ce289",
+      "score": 1,
+      "reason": "흙 관찰·놀이이며 생성 과정 설명은 미확인이다."
+    },
+    "new200/Q107/BCAST-1cc5a10bc1d89a72d576": {
+      "query": "소리의 세기와 높낮이 실험",
+      "fingerprint": "354f5210cee0049e2091a2f4e654de8c59470f9a9e898240a4f2bf550219922d",
+      "score": 1,
+      "reason": "주파수 실험은 있으나 소리 세기·높낮이 실험 전체는 미확인이다."
+    },
+    "new200/Q109/BCAST-8f74d58b9fb059ba4172": {
+      "query": "자석의 극 N극 S극",
+      "fingerprint": "3d0c8377b0f8f8c010e2ddfc544033d2fbed78124055030368af7ba84b6c8327",
+      "score": 2,
+      "reason": "자석이 붙고 밀어내는 성질을 놀이로 직접 보여준다. N/S 명칭은 별도다."
+    },
+    "new200/Q111/BCAST-0f7c9aac689c8e474429": {
+      "query": "지구는 왜 둥글게 보일까",
+      "fingerprint": "5b5e55f4a753df8b26f0321e06a2f7f3a2b8dbbe8c2ab5c32c68e8302f266693",
+      "score": 1,
+      "reason": "둥근 지구라는 사실만 언급하며 둥글게 보이는 이유는 미확인이다."
+    },
+    "new200/Q112/BCAST-726602eeeaffd78e61b7": {
+      "query": "달의 표면 충돌구",
+      "fingerprint": "513473f2531e5787df64aab5f942f8c19009998aa53d76fc2bd05e2783c7ffb6",
+      "score": 1,
+      "reason": "달 탐사·관측 자료이지만 표면 충돌구 내용은 미확인이다."
+    },
+    "new200/Q113/BCAST-4df4adb8b3762e4fb2fe": {
+      "query": "강낭콩 싹이 트는 과정 타임랩스",
+      "fingerprint": "7dce81a580e238f4d6ce00a19f4cd70e8394d58efc34074701381a0608068bb3",
+      "score": 1,
+      "reason": "강낭콩 발아는 있으나 과정의 타임랩스 장면은 미확인이다."
+    },
+    "new200/Q114/ECLIP-010": {
+      "query": "4학년 식물의 한살이 관찰 일지 쓰기 전에 보여줄 영상",
+      "fingerprint": "43789eae0ce6dc1247d25076284dc5129e19a7b7085d54642e1715fcc4fe8a71",
+      "score": 2,
+      "reason": "식물 한살이 관찰을 위한 씨앗 심기로 관찰 준비 내용과 직접 관련된다."
+    },
+    "new200/Q115/BCAST-93e70469cf9f798372d8": {
+      "query": "용수철저울 무게 재기",
+      "fingerprint": "f716bd5619c02e23208d9020feac742e425349bbe1df6ed00d3d78d904d4bd0b",
+      "score": 1,
+      "reason": "무게 재기는 있으나 고무줄 저울을 용수철저울로 확인할 수 없다."
+    },
+    "new200/Q116/BCAST-929261a452f6f9075278": {
+      "query": "시소는 어떻게 수평을 잡을까",
+      "fingerprint": "4b2b700c2a781df8bd591072e4c37b058f8c957d804e020533eebdeb13e9ee07",
+      "score": 2,
+      "reason": "시소와 양팔저울 원리를 직접 다룬다."
+    },
+    "new200/Q120/BCAST-6567d0321ad7cb407d59": {
+      "query": "지진이 났을 때 대처 방법과 지진이 생기는 원리를 같이",
+      "fingerprint": "6601036cbfe6191d331dae261fb58d05f314719fceede4cbf11d010bfeb4ea29",
+      "score": 2,
+      "reason": "지진 발생 원인과 대피 방법이 소개문에 함께 있다."
+    },
+    "new200/Q121/BCAST-8de02c53e7fedcce9ccb": {
+      "query": "하나뿐인 지구 화산 섬 제주도",
+      "fingerprint": "3f229053980e0b260951c455d6fbe1a85d98550b89ac72574a3e21c023a43098",
+      "score": 1,
+      "reason": "요청 프로그램의 제주 환경 자료이나 화산 내용은 미확인이다."
+    },
+    "new200/Q122/BCAST-8a0e82c3d2b19061efbc": {
+      "query": "얼음이 녹으면 무게가 달라질까",
+      "fingerprint": "8db85ad4938017d215840b841c9d84c5cd752fb70c7afbeca0358cc4268beb06",
+      "score": 1,
+      "reason": "얼음의 융해는 있지만 질량 변화의 실험·설명은 미확인이다."
+    },
+    "new200/Q125/BCAST-3dd75cb5fbdf699f3084": {
+      "query": "그림자는 왜 생길까",
+      "fingerprint": "7b30eb25eb883391b1ff4344179c8ecd70688e74f15fde5e4bd8a08aed346e8c",
+      "score": 1,
+      "reason": "그림자 소재이나 생성 원리의 구체 설명은 원문에 없다."
+    },
+    "new200/Q127/BCAST-3f187e43f5ea5545260a": {
+      "query": "물에 사는 식물 사막에 사는 식물",
+      "fingerprint": "d705681a66b1adf525198cee1975fe700352db686fb466c84bb70b182d2cc8d0",
+      "score": 1,
+      "reason": "수생식물의 생태·구조만 확인되며 사막 식물은 없다."
+    },
+    "new200/Q130/BCAST-a722e041a4f83b37382f": {
+      "query": "물부족해결방법 어린이",
+      "fingerprint": "46c3ab2194197da2251c352b6c81c988adac78f92edf116a6f2c629be2bc0f4c",
+      "score": 2,
+      "reason": "안개를 모아 식수를 만드는 물 부족 해결 기술을 직접 다룬다."
+    },
+    "new200/Q131/BCAST-2abe823f0005a22057ee": {
+      "query": "애들이 좋아할 만한 동물 위장 영상",
+      "fingerprint": "95b78accdcf8eb498f84206be2b4a7e4e40a340a67b8ac63767dc479de247c15",
+      "score": 2,
+      "reason": "동물 위장술을 직접 다룬다. 학생 선호는 별도 확인이다."
+    },
+    "new200/Q132/BCAST-21d3a3f26b56450f2986": {
+      "query": "북극곰 적응, 다큐 전체 말고 몇 분짜리 클립만",
+      "fingerprint": "54e27c5d734675c8f0124cc5c610380367b1eca7123e8122d71eb54fe868f0cc",
+      "score": 1,
+      "reason": "북극곰 추위 적응은 있으나 몇 분짜리 클립 조건은 미확인이다."
+    },
+    "new200/Q133/BCAST-15fd00a3f3bb3a86637d": {
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "fingerprint": "46d9a0406429917b2d170e6dd8fdc90bc7877d4e42b905f5cb926560bc992fa7",
+      "score": 1,
+      "reason": "곤충 일생·생태는 있으나 완전 탈바꿈 과정은 미확인이다."
+    },
+    "new200/Q134/BCAST-171710548c231d6436ed": {
+      "query": "멸종 위기 동물 보호를 사회 문제로도 연결할 수 있는 다큐",
+      "fingerprint": "5829909eb73108079978dd94981f3b1528e31dbc0dd94499b8eb57693ebda123",
+      "score": 2,
+      "reason": "멸종위기 양서류 보호와 개발·보존의 사회 갈등을 연결한다."
+    },
+    "new200/Q136/ECLIP-012": {
+      "query": "온도계 사용법",
+      "fingerprint": "410dce0f519ad1fa17128db03560d5fccc1e69cbf466ed06e4bc1599d596c870",
+      "score": 1,
+      "reason": "건습구 온도계 소재이며 사용법은 원문에 확인되지 않는다."
+    },
+    "new200/Q139/BCAST-58407eac3a4a313d3035": {
+      "query": "태양계 행성 크기 비교",
+      "fingerprint": "8332d408d86002099b9ff90c93036c281600114d4c941a3cbb8e9bb51feea641",
+      "score": 1,
+      "reason": "외계행성 크기·유형을 다루나 태양계 행성 간 크기 비교는 미확인이다."
+    },
+    "new200/Q141/BCAST-5cb32c115e6715734429": {
+      "query": "용해와 용액 용질 용매",
+      "fingerprint": "17479f0316ea6de110f52de57cc3e2c8504b82cf21056a045b3976138dd95a3a",
+      "score": 0,
+      "reason": "알루미늄을 열로 녹이는 공장으로 용질·용매의 용해와 다른 뜻이다."
+    },
+    "new200/Q144/BCAST-58a9db2e1cc01c641d6d": {
+      "query": "생태계 구성 요소 생산자 소비자 분해자",
+      "fingerprint": "6f64e0ea5f4c2ca794cc261e0bfd0435f02b69691bb4728b2f8510d904f7b7ba",
+      "score": 1,
+      "reason": "생태계 제목만으로 생산자·소비자·분해자 내용은 확인할 수 없다."
+    },
+    "new200/Q146/BCAST-01bb5774b712efe912db": {
+      "query": "다큐프라임 생태계 평형",
+      "fingerprint": "497afac046f2a55e09f9b32d607000150f430a90a0ecc98883de3f317172832f",
+      "score": 2,
+      "reason": "공식 원문이 죽음·탄생과 생태계 균형 유지의 연결을 직접 설명한다."
+    },
+    "new200/Q147/BCAST-1342638d283f65cf12a9": {
+      "query": "환경 오염이 생물에 주는 영향과 우리가 할 수 있는 실천을 함께",
+      "fingerprint": "4b24f5d5be20e8ac5ecb499bed439658f74929098995b761688d278267d6ef65",
+      "score": 1,
+      "reason": "물 순환 실천은 있으나 오염이 생물에 미치는 영향은 미확인이다."
+    },
+    "new200/Q148/BCAST-55dbae541a2815487683": {
+      "query": "습도 이슬 구름 비",
+      "fingerprint": "8559f418d2ee457dfdc61a4e7134e40fd9969444bd5820f30bc5ace9673be6dc",
+      "score": 1,
+      "reason": "구름·비는 있지만 습도·이슬까지 함께 확인되지 않는다."
+    },
+    "new200/Q152/BCAST-51ace5e291ac7176675d": {
+      "query": "5학년 속력 단원 교통안전 연결 차시 영상",
+      "fingerprint": "2e3ce9f8f92dd6854b3a3f3f16f8d927ba6c4a87392a3d7dd28b171371916c97",
+      "score": 1,
+      "reason": "교통안전 자료이며 속력과의 연결은 미확인이다."
+    },
+    "new200/Q154/BCAST-c4c421a84a120ce0e6fe": {
+      "query": "생활 속에서 산성과 염기성 용액은 어디에 쓰이나요",
+      "fingerprint": "6a91b2bf54bf12f46d5c284d90454930704d9b4ce63992642853930f378d8caa",
+      "score": 1,
+      "reason": "산·염기 지시약 관찰이지 생활 속 사용 사례는 미확인이다."
+    },
+    "new200/Q155/BCAST-2c2cf3492949f2f57446": {
+      "query": "낮과 밤이 생기는 이유 지구 자전",
+      "fingerprint": "9f93ace010774a4239f15d37afe32041ded2fb30f6b6ca7cf53b0399d1fd3964",
+      "score": 2,
+      "reason": "낮과 밤 발생 원인을 알아보는 내용이다. 자전 설명의 상세는 별도다."
+    },
+    "new200/Q156/ECLIP-026": {
+      "query": "달의 모양은 왜 매일 바뀔까",
+      "fingerprint": "efb77e2cfa42895d08b660755c36fbdf317c50369e192d3d7bdd06804d73ca77",
+      "score": 2,
+      "reason": "달 모양이 변하는 이유가 제목에 직접 명시돼 있다."
+    },
+    "new200/Q158/ECLIP-017": {
+      "query": "기체 압럭과 부피",
+      "fingerprint": "714742bd92febee5956c5aebda7997b541955b1f0f80d5965af5e06d6a9a999f",
+      "score": 1,
+      "reason": "공기 무게·기압 관계이며 압력·부피 관계는 미확인이다."
+    },
+    "new200/Q159/BCAST-e5bb33f9015d722f04f0": {
+      "query": "광합성 잎 줄기 뿌리",
+      "fingerprint": "6a77c799649db10fa571e86756da9f1c2dc0c8769a4457590165b7834953c71c",
+      "score": 1,
+      "reason": "뿌리 흡수·광합성은 있으나 잎·줄기의 기능까지는 미확인이다."
+    },
+    "new200/Q165/BCAST-1950ea76df3900bc8c1b": {
+      "query": "전기 절약이랑 안전 관련해서 아이들 보기 좋은 거",
+      "fingerprint": "7d04a9e5617ee351877ec015b5c0c0daf3019f22fb458083dfaa969379619627",
+      "score": 1,
+      "reason": "전기 안전만 확인되며 절약 내용은 미확인이다."
+    },
+    "new200/Q166/BCAST-db67da0b5d12d7fd45a6": {
+      "query": "여름은 왜 더울까 태양 고도",
+      "fingerprint": "7a493f0c8de9e9499eddba4a280dc49f22d007562b768fa91ae1ccd637d683d2",
+      "score": 1,
+      "reason": "태양의 빛·열 소재이며 계절과 태양 고도의 관계는 미확인이다."
+    },
+    "new200/Q168/BCAST-b81e036f1e7a96b29413": {
+      "query": "연소의 조건 소화 방법",
+      "fingerprint": "54f2e365ef6146166595270d0e755d980e6f65026f49b8dff3e53baab3927353",
+      "score": 1,
+      "reason": "소화기 발명 소재지만 연소 조건·소화 원리는 미확인이다."
+    },
+    "new200/Q169/BCAST-4b4157803a1302f9cca4": {
+      "query": "불 끄는 방법, 실험 말고 실제 화재 대피 영상",
+      "fingerprint": "f58b61d2253ab1e9afc60519c62f9ebf9034ec9d239ef2b9c5d5b9b83a2de8ed",
+      "score": 1,
+      "reason": "화재 대피 방법은 있으나 실제 화재 현장 영상은 미확인이다."
+    },
+    "new200/Q170/BCAST-c9672b259faa09a1b43a": {
+      "query": "소화 기관 순환 기관",
+      "fingerprint": "eac0835861adc93ae9a26185f013bdad50d276e33c608a961ced605490377ce6",
+      "score": 1,
+      "reason": "간염 진료 내용으로 소화·순환 기관 구조를 함께 확인하지 못했다."
+    },
+    "new200/Q174/BCAST-f93459552b0944091ab9": {
+      "query": "신재생 에너지를 과학 원리와 에너지 정책 측면에서 함께",
+      "fingerprint": "b32eca02478fe1b57c7c7ae380882a1c2f869ed8b2689470a259e41a59aff2a3",
+      "score": 1,
+      "reason": "에너지 과학 원리는 있지만 신재생 정책 측면은 미확인이다."
+    },
+    "new200/Q176/BCAST-823fe91aba587a72e13c": {
+      "query": "로봇이나 AI 같은 과학 기술 미래 직업 관련된 거",
+      "fingerprint": "0001ba816c6562cc50153ec0e19a790e0e3c69ad0dfde0a7a667607e7640405b",
+      "score": 1,
+      "reason": "AI·로봇 미래 기술은 있으나 직업 변화는 원문에서 확인되지 않는다."
+    },
+    "new200/Q178/BCAST-9b3c8fbf2ae87c99e7d9": {
+      "query": "미세먼지가 생기는 원리와 건강 영향 사회 문제까지",
+      "fingerprint": "87319f2afe02a61c5b1169254c454d5680e29e27b2da9ffe30fac921d5d775c8",
+      "score": 1,
+      "reason": "미세먼지 건강 영향은 있으나 발생 원리는 함께 확인되지 않는다."
+    },
+    "new200/Q180/ECLIP-004": {
+      "query": "5학년 1학기 첫 시간 과학 탐구 방법 소개 영상",
+      "fingerprint": "e850b69f3a0c2d15a812a6bc73031f0d65b5dd30f033d47621b8c1dd8382f1b1",
+      "score": 2,
+      "reason": "기초 탐구 방법인 관찰 활동을 직접 소개한다."
+    },
+    "new200/Q182/BCAST-e7fd8f300a4f66aeda25": {
+      "query": "현미경으로 본 양파 표피 세포",
+      "fingerprint": "8f3cddb1cb73bf55cc30e9463af74325817fe956889f2258f76961dc2dfa5013",
+      "score": 1,
+      "reason": "현미경 역사 자료이며 양파 표피 세포 관찰은 미확인이다."
+    },
+    "new200/Q183/BCAST-bf54c7c4bd7a60697df0": {
+      "query": "같은 종인데 왜 생김새가 다를까",
+      "fingerprint": "0e4807938e6dd56a234341b4a4b843c60efe3c9c87b03e8b5fb7d73d039645a9",
+      "score": 0,
+      "reason": "서로 다른 종의 새 생태이며 같은 종 내 외형 차이 설명과 다르다."
+    },
+    "new200/Q184/BCAST-f661fa05ba7c368d69e7": {
+      "query": "열평형 비열 열팽창",
+      "fingerprint": "1f602235cc1eb95ebf8a60eb47dd7971d62116cc5a002f52cdbaa788a72bcf7e",
+      "score": 1,
+      "reason": "온도 차이와 팽창·수축은 있으나 비열·열평형까지 미확인이다."
+    },
+    "new200/Q185/BCAST-10f7d56e79221f18e7a1": {
+      "query": "여름 바닷가 모래는 뜨거운데 바닷물은 왜 덜 뜨거울까",
+      "fingerprint": "a7ba4a9666373a0ad9f05d5b700bc19758385cd702341c11bb00cb5cc35bfaf7",
+      "score": 0,
+      "reason": "해변 모래 놀이로 모래와 바닷물의 비열 차이 설명과 무관하다."
+    },
+    "new200/Q188/BCAST-9f604d333deb438ce3cb": {
+      "query": "융해렬 응고열 예시",
+      "fingerprint": "dd5fd5028e32f8c31224aa93a3937fef34d97f64888211cdcc43b98d43685d54",
+      "score": 1,
+      "reason": "소금의 융해 과정은 있지만 융해열·응고열 설명은 미확인이다."
+    },
+    "new200/Q189/BCAST-95e3ff0cb4ac231c7d54": {
+      "query": "높은 산에 가면 과자 봉지가 왜 부풀까",
+      "fingerprint": "8d852bc3db14b2798d37d19c0404f90f8778c48ad2fed64e01a39c0de64ab776",
+      "score": 1,
+      "reason": "고산 지역의 부푼 과자는 있으나 기압에 따른 원리 설명은 미확인이다."
+    },
+    "new200/Q193/BCAST-8031b372a93332406590": {
+      "query": "무거운 배는 어떻게 물에 뜰까",
+      "fingerprint": "87620f9cc1d3eb0f0385e62640df903f51843c6f713cddcfab5dee54bcbd3b76",
+      "score": 0,
+      "reason": "공기 중 풍선 부양 내용이며 물에 뜨는 배의 원리는 아니다."
+    },
+    "new200/Q194/BCAST-70f807f6ee7bf2c9f63c": {
+      "query": "빛의 합성 무대 조명 실험",
+      "fingerprint": "89e66a6d28f84d1bd0daf1ce3d9ccfdafdab87ebec7a14bdf730340cb3d57b2c",
+      "score": 0,
+      "reason": "조명과 생산성의 호손효과 연구로 빛 합성 실험과 무관하다."
+    },
+    "new200/Q199/BCAST-0c7602db364d6d0cd2be": {
+      "query": "과학 기술이 인류의 지속 가능한 삶에 기여한 사례와 문제점",
+      "fingerprint": "40fb42ebf42d269a7dcc1b3da714700176951c5c05724605982aceedf0769f8d",
+      "score": 1,
+      "reason": "생체모방 기술의 지속가능 기여는 있으나 기술 자체의 문제점은 미확인이다."
+    },
+    "new200/Q200/BCAST-7231642fc8396ebb802c": {
+      "query": "판의 이동으로 지진대 화산대 분포를 지도와 함께",
+      "fingerprint": "26be139b5724c4b2bbf954b8e9639b973f942b3d93c606c5eca14a7b9ddd1c1d",
+      "score": 1,
+      "reason": "지질학·재난 자료지만 판 이동과 지진·화산대 지도는 미확인이다."
+    },
+    "previous170/D70-Q001/BCAST-9e27793187ef14a7385a": {
+      "query": "방위와 지도 기호",
+      "fingerprint": "e5a178ef80e50d453cc07258929c205d5a60639d52a87d7fb7fb2e3fcedd30a9",
+      "score": 1,
+      "reason": "지도·방향 제목은 있지만 방위와 지도 기호 설명은 미확인이다."
+    },
+    "previous170/D70-Q003/BCAST-8e4315751b2499cc3e67": {
+      "query": "처음 지도를 배우는 아이들에게 길을 찾는 방법을 소개하는 도입 자료가 필요해요",
+      "fingerprint": "a81999fd5b66ba3fbb7d08d200bc52f5f3683222e0332a82a4d3ee1f971d7b70",
+      "score": 2,
+      "reason": "모르는 곳을 지도로 찾아가는 방법이 직접 명시돼 있다."
+    },
+    "previous170/D70-Q004/BCAST-ee4de9bd6ff77e35ba28": {
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "fingerprint": "5a05c050edbd534ff694d4f4b5ff94192d8c12f7e64399712e4cd6ba9e5f83d4",
+      "score": 1,
+      "reason": "사고 이후 주민 대피 생활 사례이며 평상시 시설과 주민 생활 연결은 일부다."
+    },
+    "previous170/D70-Q006/BCAST-4441086946ca19d73d3c": {
+      "query": "종이에 그려 놓은 동네 그림을 보고 찾아가는 모습을 보여주는 영상",
+      "fingerprint": "52792ec3c2c676db9225956fabd2fb18f87a1c1456298d1e8fad60b75bc717c2",
+      "score": 0,
+      "reason": "한반도 모양 지형을 방문하는 체험이며 동네 그림으로 길 찾기와 무관하다."
+    },
+    "previous170/D70-Q007/BCAST-b2fb0fb022417372c563": {
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "fingerprint": "b260cc5cca690f7295ba5d2f656e29427ed770fb4abfb3fa8fcd3fd6586bd60c",
+      "score": 2,
+      "reason": "재활용 현장 작업자들을 취재하는 자료로 요청 내용에 직접 연결된다."
+    },
+    "previous170/D70-Q008/BCAST-6aa7e3c5f33a9533dc93": {
+      "query": "소방서가 마을 사람들의 안전을 어떻게 지키는지 보여주세요",
+      "fingerprint": "02aed8eabd56aed1ac200f303d5ed5b4c9915b13a0845a09724427dc4bafca20",
+      "score": 1,
+      "reason": "소방서 일상의 제목뿐이며 마을 안전을 지키는 구체 업무는 미확인이다."
+    },
+    "previous170/D70-Q009/BCAST-8e4315751b2499cc3e67": {
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "fingerprint": "a81999fd5b66ba3fbb7d08d200bc52f5f3683222e0332a82a4d3ee1f971d7b70",
+      "score": 1,
+      "reason": "지도 길 찾기는 있으나 약속된 그림·기호 역할은 미확인이다."
+    },
+    "previous170/D70-Q011/BCAST-aa40772654edb8140706": {
+      "query": "시장에서 물건을 사는 모습과 온라인으로 사는 모습을 비교할 자료",
+      "fingerprint": "6a18fa21f258188970c626cc73b627d2047bf42989d79bc330f7330f840d93ab",
+      "score": 1,
+      "reason": "시장 구매만 확인되며 온라인 구매와 비교는 없다."
+    },
+    "previous170/D70-Q014/BCAST-8e4315751b2499cc3e67": {
+      "query": "지도 기호와 방위를 모두 사용해서 길을 찾는 사례를 보여주세요",
+      "fingerprint": "a81999fd5b66ba3fbb7d08d200bc52f5f3683222e0332a82a4d3ee1f971d7b70",
+      "score": 1,
+      "reason": "지도 길 찾기는 있지만 기호와 방위의 동시 활용은 미확인이다."
+    },
+    "previous170/D70-Q015/BCAST-c562b55e32ad01bab3f5": {
+      "query": "마을 축제",
+      "fingerprint": "89f33912ea66ab6494055e1c10491ea8f9c87a4e234a1176330f35452e1100ac",
+      "score": 2,
+      "reason": "마을 주민이 직접 기획한 갈쿠나무 축제 사례다."
+    },
+    "previous170/D70-Q016/BCAST-d09850e55aefdb35c98b": {
+      "query": "지도 읽는 방법을 보여주는 자료 중 자동차 운전 경로 안내만 하는 것은 제외해주세요",
+      "fingerprint": "a98212ca9d99fc1aadd9f66f1bd6ffb0d5b2cee70a9d91aadb9301bc89203b78",
+      "score": 0,
+      "reason": "인도·차도 교통안전 내용으로 지도 읽기 방법과 무관하다."
+    },
+    "previous170/D70-Q020/BCAST-4c634caf078fa19395a5": {
+      "query": "자석 수업 도입에 아이들이 결과를 예상해 볼 관찰 자료가 필요해요",
+      "fingerprint": "968d79891c45f81e3d1af86de8dad9703386a2a1be5f766ef5f78e779609e70d",
+      "score": 2,
+      "reason": "자석에 붙는 물건을 찾아보는 관찰·탐색 활동이 직접 있다."
+    },
+    "previous170/D70-Q021/BCAST-072e76631f0488e9084b": {
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "fingerprint": "5f458b45c0c95e6eee84a9cbe59d2eea2a476ec34ee4eefb3c4d67c03ca1305c",
+      "score": 2,
+      "reason": "물의 상태 변화 에피소드로 물 모습 관찰 활동과 직접 관련된다."
+    },
+    "previous170/D70-Q023/BCAST-96e893fd838fc3739cc4": {
+      "query": "쇠붙이를 끌어당기는 자석의 성질을 보여주세요 가능하면 가까이 찍은 화면이 있으면 좋겠어요",
+      "fingerprint": "85d65329b50db98f3546196ded6db6aa85ea1eb94c25dc818135e7f08aa66cbb",
+      "score": 2,
+      "reason": "자석에 붙는 물체 구분을 직접 다룬다. 근접 촬영은 선택 조건으로 미확인이다."
+    },
+    "previous170/D70-Q024/BCAST-9140698e653415b6b065": {
+      "query": "젖은 빨래가 햇볕 아래에서 마르는 과정을 보여주는 자료",
+      "fingerprint": "ea1bbaf3aa790b2cd3c96771033b4cb20b930ede074dea364f14d0bbd4f22407",
+      "score": 0,
+      "reason": "빨래 신체 놀이로 햇빛 아래 건조·증발 과정과 무관하다."
+    },
+    "previous170/D70-Q025/BCAST-8f74d58b9fb059ba4172": {
+      "query": "자석을 뒤집어 가까이 대면 붙거나 밀리는 까닭을 설명해주세요",
+      "fingerprint": "3d0c8377b0f8f8c010e2ddfc544033d2fbed78124055030368af7ba84b6c8327",
+      "score": 1,
+      "reason": "붙고 밀리는 현상은 있지만 극 방향에 따른 까닭은 충분히 확인되지 않는다."
+    },
+    "previous170/D70-Q026/BCAST-072e76631f0488e9084b": {
+      "query": "찬 컵 겉에 물방울이 생기는 과정을 설명하는 자료",
+      "fingerprint": "5f458b45c0c95e6eee84a9cbe59d2eea2a476ec34ee4eefb3c4d67c03ca1305c",
+      "score": 1,
+      "reason": "일반 상태 변화 자료이며 찬 컵 외부 응결 사례는 미확인이다."
+    },
+    "previous170/D70-Q030/BCAST-242599984b41aa6526b2": {
+      "query": "물이 얼 때와 얼음이 녹을 때의 모습을 둘 다 보여주는 자료",
+      "fingerprint": "81bea581114aa1cb8c96e85084e36a45f2eebae9ee2e16fc8c60cf80862bf30e",
+      "score": 2,
+      "reason": "물이 얼고 다시 녹는 과정을 모두 명시한다."
+    },
+    "previous170/D70-Q031/BCAST-24cb7586692e2a707640": {
+      "query": "막대자석과 말굽자석에서 극의 위치를 확인하고 비교하는 실험 자료",
+      "fingerprint": "b38d863934209a2489a9639c0da52e8fc557db36bd814000e5412b25d1b1c05b",
+      "score": 1,
+      "reason": "막대자석 사용은 있지만 말굽자석과 극 위치 비교는 미확인이다."
+    },
+    "previous170/D70-Q032/BCAST-00c61866072dce9de46b": {
+      "query": "물이 마르는 과정을 찾고 있어요 피부가 건조해진다는 비유는 제외해주세요",
+      "fingerprint": "e2bdb4b9cf1410a95603a344df567a5c0d020c5a8c8210f624f9fc10b4d8ea8f",
+      "score": 0,
+      "reason": "인체 탈수·물 섭취로 물이 마르는 증발 과정과 다르다."
+    },
+    "previous170/D70-Q033/BCAST-2d032ce4b233bfe29ceb": {
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "fingerprint": "f504374868d0d74fae51b9323250db2cb3f05a9dfc61a5cadeee8dcf81006b16",
+      "score": 2,
+      "reason": "자석을 클립 속에 넣었다 들어올리는 실제 동작 대본이 있다."
+    },
+    "previous170/D70-Q037/BCAST-9e056ef68d591338d420": {
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "fingerprint": "e6045cf11aae788d1fb69a04ecfc6f6439db642bfbbc383550ece8339edc4b15",
+      "score": 1,
+      "reason": "장난감 공유 갈등은 있으나 인권 문제로 연결하는 근거는 부족하다."
+    },
+    "previous170/D70-Q038/BCAST-af466c00ebc5ae94c9b0": {
+      "query": "학급의 규칙을 함께 정하는 활동 전에 의사결정 과정을 보여주고 싶어요",
+      "fingerprint": "7344de7b8139c3798b08ec1e9e3584c654ada5a98dd9e8f92a0a96f6ee5364f0",
+      "score": 1,
+      "reason": "규칙 단어 학습이며 공동 의사결정 과정은 미확인이다."
+    },
+    "previous170/D70-Q040/BCAST-19725ba00938ae0684dc": {
+      "query": "누구든 태어날 때부터 존중받아야 한다는 내용을 실제 사례로 보여주세요",
+      "fingerprint": "9183b080c5815e025b728533f6591537a8478f73be0d7f00ea4afec5ea54adc6",
+      "score": 1,
+      "reason": "아기 탄생·생명의 소중함은 있으나 보편적 인권 사례는 미확인이다."
+    },
+    "previous170/D70-Q041/BCAST-14f4549fbec1a2ea52f0": {
+      "query": "여러 사람이 서로 의견을 듣고 하나의 약속을 정하는 모습을 찾고 있어요",
+      "fingerprint": "6886e730cdf2031962a93d65cf915debd5633dc530f7196069891cd47d16ef3e",
+      "score": 2,
+      "reason": "필요한 규칙을 의논해 정하는 과정이 직접 명시된다."
+    },
+    "previous170/D70-Q042/BCAST-006958cbcbf16462144b": {
+      "query": "일상에서 차별이 생겼을 때 권리를 지키기 위해 어떤 도움을 받을 수 있는지 보여주세요",
+      "fingerprint": "05d7a881abbd9de24dddd3af644111334fe71c0b619c012c3b2f435114178a2a",
+      "score": 1,
+      "reason": "다문화 인권 보호의 사회적 재원 문제이며 개인이 받는 도움 절차는 미확인이다."
+    },
+    "previous170/D70-Q043/BCAST-ee4de9bd6ff77e35ba28": {
+      "query": "주민들의 의견이 지역 정책에 반영되는 과정을 설명하는 자료",
+      "fingerprint": "5a05c050edbd534ff694d4f4b5ff94192d8c12f7e64399712e4cd6ba9e5f83d4",
+      "score": 1,
+      "reason": "주민·정부 소통 실패 사례이며 의견이 정책에 반영되는 과정은 미확인이다."
+    },
+    "previous170/D70-Q045/BCAST-3496a184371ddcd83fbf": {
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "fingerprint": "bdc5919b226863da80df3d4263dba2ba74b505b031f224b92237ccafbdf67c65",
+      "score": 1,
+      "reason": "자연의 법적 권리 보호는 있으나 보호·침해 사례 비교는 충분히 확인되지 않는다."
+    },
+    "previous170/D70-Q047/BCAST-5538687a806e96dd8b96": {
+      "query": "주민 의견을 모으는 과정과 최종 결정을 내리는 과정이 모두 있는 자료",
+      "fingerprint": "809e7b9e0e14d474c2914dd73c51bbeb052240a5d74ec36d202102fcd2e9b6bd",
+      "score": 1,
+      "reason": "여론 수집은 있으나 최종 의사결정 과정은 미확인이다."
+    },
+    "previous170/D70-Q048/BCAST-e2769aa627f511f22700": {
+      "query": "학교의 규칙이 어린이의 권리를 어떻게 지키는지 사례로 설명해주세요",
+      "fingerprint": "999a317d24d073154c42775f10e51e42d9537610b3ac50d328a01f0a311ab045",
+      "score": 1,
+      "reason": "학교 교사의 교육활동 보호이며 어린이 권리를 지키는 규칙은 미확인이다."
+    },
+    "previous170/D70-Q050/BCAST-a45c2d036d448f67f148": {
+      "query": "인권 침해를 해결한 사례를 찾고 있어요 잔인한 폭력 장면은 빼주세요",
+      "fingerprint": "7e848059e7690db14eed51c93319d9386a15d784e78fc147d4c81574aeafa877",
+      "score": 1,
+      "reason": "인권 해결 사례는 있으나 잔인한 장면이 없다는 조건은 원문으로 확인하지 못했다."
+    },
+    "previous170/D70-Q052/BCAST-4a7896b88d7064e924ac": {
+      "query": "불이 타는 데 필요한 것",
+      "fingerprint": "d4b6a2c3fb3d9d74efe0fc9e345c5c13295259f3e4b6fd02625fadb4f8034b83",
+      "score": 1,
+      "reason": "화재 대처 질문이며 연소에 필요한 조건은 미확인이다."
+    },
+    "previous170/D70-Q054/BCAST-4b4157803a1302f9cca4": {
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "fingerprint": "f58b61d2253ab1e9afc60519c62f9ebf9034ec9d239ef2b9c5d5b9b83a2de8ed",
+      "score": 1,
+      "reason": "화재 대피는 있으나 불을 끄는 원리·방법은 미확인이다."
+    },
+    "previous170/D70-Q055/BCAST-cf6767d667fe2fb14a5a": {
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "fingerprint": "8e8a08e9ab73ab7f2b56e8d75b1a282b93269b41cf31c3e5213a16ccf9c2c3cb",
+      "score": 2,
+      "reason": "습지 곤충의 먹고 먹히는 생존경쟁을 직접 다룬다."
+    },
+    "previous170/D70-Q057/ECLIP-034": {
+      "query": "같은 재료인데 공기가 통하지 않으면 불이 꺼지는 모습을 보여주는 영상",
+      "fingerprint": "ea5865bb0872c71f9c6fbf843e3c1906fea88b5eff7722b218fe56579c802c63",
+      "score": 1,
+      "reason": "불 발견 제목만 있으며 공기 차단 소화 실험은 미확인이다."
+    },
+    "previous170/D70-Q058/BCAST-a00fc49350a75702fcc7": {
+      "query": "어떤 생물이 줄어들자 그 생물을 먹던 동물도 영향을 받는 모습을 찾고 있어요",
+      "fingerprint": "e736725b508ff410677835bc68f35b5424a427de3ff6ed6876192ed1369d4a7c",
+      "score": 1,
+      "reason": "어류 감소·어장 변화지만 먹이 감소가 포식자에 주는 영향은 미확인이다."
+    },
+    "previous170/D70-Q060/BCAST-3452e1e4f92edceecb87": {
+      "query": "한 종류의 생물이 사라졌을 때 먹이 관계가 달라지는 과정을 보여주세요",
+      "fingerprint": "e62f8a6100095b05b75bad8756bff7611f7fefa09aa5a035129d96d12690f2af",
+      "score": 1,
+      "reason": "누에 감소 원인은 있지만 다른 생물의 먹이 관계 변화는 미확인이다."
+    },
+    "previous170/D70-Q062/ECLIP-032": {
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "fingerprint": "91c0470e5cb5eca58b62b47109edeaf605770f8d30c98ad9187d6a59ac639212",
+      "score": 1,
+      "reason": "소화 방법 제목만으로 물·공기 차단 비교를 확인할 수 없다."
+    },
+    "previous170/D70-Q064/BCAST-072e76631f0488e9084b": {
+      "query": "물이 증발하는 과정과 수증기가 물방울로 바뀌는 과정이 모두 나오는 자료",
+      "fingerprint": "5f458b45c0c95e6eee84a9cbe59d2eea2a476ec34ee4eefb3c4d67c03ca1305c",
+      "score": 1,
+      "reason": "일반 상태 변화만 명시돼 증발·응결 두 과정 동시 제시는 미확인이다."
+    },
+    "previous170/D70-Q065/BCAST-184376a13953620ef8bf": {
+      "query": "숲이나 연못 중 한 곳의 먹이 관계를 보여주는 사례면 돼요",
+      "fingerprint": "bc5d6561403624e62b6b468a2bd0b7550a2a8e453171063133329410327a1c69",
+      "score": 1,
+      "reason": "먹이그물은 있으나 하천이며 지정한 숲·연못 장소와 다르다."
+    },
+    "previous170/D70-Q066/BCAST-4b4157803a1302f9cca4": {
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "fingerprint": "f58b61d2253ab1e9afc60519c62f9ebf9034ec9d239ef2b9c5d5b9b83a2de8ed",
+      "score": 1,
+      "reason": "화재 대처·대피 자료이며 안전한 연소 관찰과 제외 장면 조건은 미확인이다."
+    },
+    "previous170/D70-Q070/BCAST-98fc61b6122ed020c28f": {
+      "query": "기후에 맞는 생활 모습을 토론할 때 근거로 쓸 실제 지역 사례가 필요해요",
+      "fingerprint": "1d32e851b67a894108da0001718cd4c8396936b85d4113d80745804c87f67670",
+      "score": 0,
+      "reason": "산불 피해 지역의 변화로 기후에 적응한 생활 모습 사례가 아니다."
+    },
+    "previous170/D70-Q072/BCAST-88e8f61585cb4eda1ce1": {
+      "query": "비가 적게 오는 곳에서 사람들이 물을 아껴 쓰며 살아가는 자료",
+      "fingerprint": "f8aca7738c0732949c6f4213d36cb80fde5daa55121bb846134dd039eca94b4e",
+      "score": 1,
+      "reason": "일반 물 절약이며 강수 적은 지역 사람들의 실제 생활은 미확인이다."
+    },
+    "previous170/D70-Q073/BCAST-73162d0fa6f882b242c0": {
+      "query": "시민들이 동네의 불편한 점을 알리고 함께 바꾸는 이야기를 찾고 있어요",
+      "fingerprint": "52ca69b752488440cbea21530f62a2c423b715ba1515ba60d3e9b1f313a7e8f1",
+      "score": 1,
+      "reason": "지역 투자·기회 개선이지만 주민이 불편을 알리고 바꾸는 과정은 미확인이다."
+    },
+    "previous170/D70-Q075/BCAST-0a75155233cbcd0e0da0": {
+      "query": "날씨가 오랫동안 덥거나 추운 것이 집의 모습에 어떤 영향을 주는지 설명하는 자료",
+      "fingerprint": "356e99990fa235a7c38685f53bc6ddcfb5801fb3b4822f39fc747e255ea7468a",
+      "score": 2,
+      "reason": "겨울 추위에 대응한 단열·난방 성능의 주택 사례를 다룬다."
+    },
+    "previous170/D70-Q077/BCAST-45b366ba31bacaa2cbaf": {
+      "query": "비가 많은 지역과 적은 지역에서 농사짓는 모습을 비교하고 싶어요",
+      "fingerprint": "cc76c27c19b5e30c899a9ebde3cac56eb15fe19ef095b1e816fdf76caebdb05f",
+      "score": 1,
+      "reason": "물 풍부한 저지대 농사는 있으나 강수 차이에 따른 농사 비교는 미확인이다."
+    },
+    "previous170/D70-Q079/BCAST-d24ae3c78f9b6da63e77": {
+      "query": "추운 지역의 주거를 다룬 자료 중 관광 숙소 광고만 하는 영상은 제외해주세요",
+      "fingerprint": "0d03c4cef02392ff86cd504ccaa31f092904b0cfdcbb0f367a7d9a853c258456",
+      "score": 1,
+      "reason": "춥고 더운 나라 제목뿐이며 주거 내용은 미확인이다."
+    },
+    "previous170/D70-Q080/BCAST-7f1bc695f6800ec4107d": {
+      "query": "자연환경에 맞춘 옷차림을 찾고 있어요 가능하면 현지 사람의 설명이 있으면 좋겠어요",
+      "fingerprint": "a32eb698ba64cb8c00a6dc1df650e0f75060a361cadaca2687f12fe77b8eeeed",
+      "score": 2,
+      "reason": "날씨·상황에 따른 복장 이유를 직접 다룬다. 현지인 설명은 선택 조건으로 미확인이다."
+    },
+    "previous170/D70-Q081/BCAST-8d8ac9bfb6d22e74a6b9": {
+      "query": "주민이 공공 문제를 해결하는 지식채널e 회차를 찾아주세요",
+      "fingerprint": "5ac2f539c62df0ac1d384f6fa3c1faf00e9342e7a16d3796459d3b48e1f56e6e",
+      "score": 1,
+      "reason": "공공언어 개선 문제는 있으나 주민이 해결하는 과정은 미확인이다."
+    },
+    "previous170/D70-Q083/BCAST-bebb4c0281a72aeed961": {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "fingerprint": "134b0a7fb865ff37c7026232128649f4716e8a0425420290b47703dfc5c076fb",
+      "score": 2,
+      "reason": "빈집 재활용 프로젝트로 동네가 바뀌는 사례다."
+    },
+    "previous170/D70-Q085/BCAST-a35a5109c47b855faae7": {
+      "query": "힘의 평형",
+      "fingerprint": "c72ef09f4150c8d5a8ed831a93dad98ad75c76539bec9baa1d042a025f176106",
+      "score": 0,
+      "reason": "척추의 신체 평형으로 물리학적 힘의 평형 설명과 다르다."
+    },
+    "previous170/D70-Q088/BCAST-9fb03dfca411fb7eb62c": {
+      "query": "물속에 넣은 물체가 위로 떠오르려는 힘을 설명하는 자료",
+      "fingerprint": "681c4b01148e17a2ab2eb06d3573142e661177e4fcd45ea340c60627474b41fa",
+      "score": 1,
+      "reason": "물의 힘이라는 소개만으로 부력의 구체 설명은 확인할 수 없다."
+    },
+    "previous170/D70-Q093/BCAST-8b04ff8370a866947db4": {
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "fingerprint": "2377c9ed0c584169705c47e08148805c56a1a4ca1e6def9e1d630e37f2a07337",
+      "score": 1,
+      "reason": "물질·물체 일반 개념이며 중력·부력 동시 설명은 미확인이다."
+    },
+    "previous170/D70-Q094/BCAST-d3bc10c82e593f90db0f": {
+      "query": "저런 힘이 물체를 멈추게 하는 과정을 알려주는 자료",
+      "fingerprint": "66bbb2d941aeef0ad77bd7efa830d1c5bf705834fc21d43a475d1fa44739e274",
+      "score": 0,
+      "reason": "딸꾹질 멈추기와 물체를 멈추는 힘은 무관하다. 지시어 문맥도 없다."
+    },
+    "previous170/D70-Q095/BCAST-9d549c8fe65272acd4bb": {
+      "query": "물체에 작용하는 힘을 그리는 활동 전에 움직임을 관찰할 자료가 필요해요",
+      "fingerprint": "f30ac119786b979e09fff9b681cc8ca359778a0d6b3feb529318711519ebdb45",
+      "score": 0,
+      "reason": "뇌의 생물학적 운동 제어로 물체의 힘과 운동 관찰 요청과 다르다."
+    },
+    "previous170/D70-Q098/BCAST-ad14bcb2a06c2f297739": {
+      "query": "저런 힘 때문에 움직이는 모습을 설명하는 자료가 필요해요",
+      "fingerprint": "2f00bd0eb240bda2444f258ee4c65bb1226724bae38f53bf12af4a620b8cbfcf",
+      "score": 0,
+      "reason": "앞 문맥 없는 지시어를 대륙 이동으로 임의 해석해 요청 충족을 확인할 수 없다."
+    },
+    "previous170/X100-Q001/BCAST-29d32f61d0ac1751ed9b": {
+      "query": "옛날 교통수단",
+      "fingerprint": "7d496e7b6d43fc0a609728aad06790325af925f2245ce12e870f92c83f5ee9da",
+      "score": 1,
+      "reason": "교통수단 이야기지만 과거의 교통수단은 미확인이다."
+    },
+    "previous170/X100-Q002/BCAST-9e27793187ef14a7385a": {
+      "query": "방위표와 지도 기호",
+      "fingerprint": "e5a178ef80e50d453cc07258929c205d5a60639d52a87d7fb7fb2e3fcedd30a9",
+      "score": 1,
+      "reason": "지도·방향 제목만으로 방위표와 지도 기호 동시 설명은 미확인이다."
+    },
+    "previous170/X100-Q003/BCAST-c41df0bf3cc1ff152fc9": {
+      "query": "우리 고장 공공기관 조사하기 전에 아이들이 소방서, 우체국, 주민센터가 각각 무슨 일을 하는지 감 잡을 수 있게 도입으로 보여줄 영상 찾아요",
+      "fingerprint": "05f17fb5aaa2e9e1fb28e5d4d74abefd22cdd86747a937da37eaf44da995b417",
+      "score": 1,
+      "reason": "소방관 역할만 확인되며 우체국·주민센터는 없다."
+    },
+    "previous170/X100-Q005/BCAST-57b15f48ec3166581419": {
+      "query": "옛날 통신 수단에서 오늘날 통신 수단으로 바뀐 모습을 보고 학생들이 '편리해진 점과 새로 생긴 문제'를 토의하게 하려고 합니다",
+      "fingerprint": "869bc86b4a595340706431574822e3cc26ecafa3b8adbd026d0dcdc57b9baad7",
+      "score": 1,
+      "reason": "옛 통신만 있으며 현대와 변화 비교는 미확인이다."
+    },
+    "previous170/X100-Q006/BCAST-a334e0c4d27f7656da86": {
+      "query": "아이들이 시장에서 물건 사는 거랑 마트에서 사는 거 말고, 물건이 어디서 만들어져서 우리 손에 오는지 궁금해해요. 그걸 보여줄 수 있는 거요",
+      "fingerprint": "abcb357529624190d7e08502b397080daee9be0bf83f93368a7e1a8b5e392cf0",
+      "score": 2,
+      "reason": "누가 어디서 재배하고 어떤 유통경로로 식탁에 오는지 직접 다룬다."
+    },
+    "previous170/X100-Q007/BCAST-d5fdbf6c187e744a5c66": {
+      "query": "산골 마을이랑 바닷가 마을 사람들이 먹고사는 방법이 어떻게 다른지 보여주는 영상",
+      "fingerprint": "f344dec8f5f1760e9fd3dabf8eecdb3dff4c55280b9d54ce1cbc6c4dd0910068",
+      "score": 1,
+      "reason": "바닷가·산골 음식 차이는 있지만 경제활동·생계 방법은 충분히 확인되지 않는다."
+    },
+    "previous170/X100-Q008/BCAST-7ca6a0a89a7523a498f3": {
+      "query": "할머니 할아버지 어릴 적에는 집안일을 어떻게 했는지, 그때 쓰던 물건들이 나오는 거 찾아요",
+      "fingerprint": "facbc70553a7d82a0764bcf358128d29000aa7d451292bb00d8db5a5e8d9af87",
+      "score": 2,
+      "reason": "과거 사용 물건과 쓰임을 퀴즈로 다룬다. 구체 집안일 범위는 별도다."
+    },
+    "previous170/X100-Q009/BCAST-d70848107e9bb28be57a": {
+      "query": "고장에 새 도로나 지하철이 생기면 사람들 생활이 어떻게 달라지는지 알려주는 자료",
+      "fingerprint": "ad9a4434cb4dc89cf00e29a74a433f553b2a4139b5d35a048220227550b10103",
+      "score": 1,
+      "reason": "도시 생활 변화는 있으나 새 도로·지하철 개통의 인과관계는 미확인이다."
+    },
+    "previous170/X100-Q010/BCAST-f34d5321ace5f18f41bd": {
+      "query": "논이 많은 지역에서는 왜 쌀농사를 많이 짓게 됐는지, 땅 모양이나 물이랑 연결해서 설명해 주는 영상",
+      "fingerprint": "4f601da4291d3aebd86551085ccb370cb0cca5496f200be89297b04921e21f05",
+      "score": 1,
+      "reason": "쌀농사 지역은 있지만 지형·물과의 연결은 미확인이다."
+    },
+    "previous170/X100-Q012/BCAST-ba4725369de8520bc131": {
+      "query": "종이 지도랑 디지털 영상 지도가 쓰임새가 어떻게 다른지 비교해서 보여줄 만한 거",
+      "fingerprint": "c23be2b81af96e013f24249c3072f34d7cc4e9625f6f9ddd1df72323a47420ed",
+      "score": 1,
+      "reason": "지도 활용 사례이며 종이·디지털 지도 쓰임 비교는 미확인이다."
+    },
+    "previous170/X100-Q013/BCAST-487b95afc9103eaf2599": {
+      "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+      "fingerprint": "9bf1f57f5a90f927cc9698438c5bc15f0066aa9c38f20921c86bac7497c4ff99",
+      "score": 1,
+      "reason": "근대 목조 건축 재생은 있으나 문화유산의 건축 방법·재료 설명은 부족하다."
+    },
+    "previous170/X100-Q014/BCAST-f26a7c98a9cfd82c92b0": {
+      "query": "고장 대표 축제 소개 영상 찾는데, 관광 홍보처럼 볼거리만 나열하는 건 빼고 축제가 생겨난 배경이 나오는 걸로요",
+      "fingerprint": "c05bf65931b0d30397bb1c58bdf96a03326c737bca489c166dbd1f679132aa31",
+      "score": 1,
+      "reason": "축제 준비는 있으나 축제가 생겨난 배경은 미확인이다."
+    },
+    "previous170/X100-Q015/BCAST-0195b800a0e30b31e477": {
+      "query": "옛날 어린이들이 하던 놀이 영상 찾아요. 가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요",
+      "fingerprint": "5ddfa8539155a32e54855ddf5693bbd5748946572ac7333193fe697ee216563b",
+      "score": 2,
+      "reason": "옛 전래놀이를 엄마와 직접 해보는 내용이다. 상세 놀이 방법은 별도다."
+    },
+    "previous170/X100-Q017/BCAST-704702cd7605d7eb7c83": {
+      "query": "우리 지역 특산물이 만들어지는 과정을 보여주고 싶어요",
+      "fingerprint": "06c3c47a33348f207def8f6fb4e4c0a5cc1cb6258d223c043b0e39ea5e62b381",
+      "score": 1,
+      "reason": "지역 토종 작물 재배는 있지만 특정 특산물의 생산 과정은 충분히 확인되지 않는다."
+    },
+    "previous170/X100-Q018/BCAST-e1ce3e4eecc079398055": {
+      "query": "배추흰나비 한살이",
+      "fingerprint": "3fdfa915feb0f4257393c20f4cad15980418f355e4a4024b1e1c1682ce953883",
+      "score": 1,
+      "reason": "나비 일반 내용이며 배추흰나비의 한살이는 미확인이다."
+    },
+    "previous170/X100-Q019/BCAST-cb17c1c1e935c1205cbc": {
+      "query": "자석 N극 S극",
+      "fingerprint": "ee283f1d66fb466b50342c1bf3d0965977f6f098bac929b32de31457e007619e",
+      "score": 2,
+      "reason": "자석 극의 당김·밀어냄을 직접 다룬다. N/S 명칭 상세는 별도다."
+    },
+    "previous170/X100-Q020/BCAST-333f53067e5d9129753b": {
+      "query": "소리의 세기랑 높낮이 실험 전에, 아이들이 '큰 소리'와 '높은 소리'를 헷갈리지 않게 구분해 주는 자료가 필요해요",
+      "fingerprint": "3511d6db92d6888356ca77b9b2c09438fdb421ea4581a7a52210b1a90f876a1b",
+      "score": 1,
+      "reason": "소리 세기 구별만 있으며 높낮이와 비교는 없다."
+    },
+    "previous170/X100-Q021/ECLIP-003": {
+      "query": "고체, 액체, 기체를 처음 배울 때 주변 물건을 분류하는 활동 직전에 보여줄 영상",
+      "fingerprint": "774371b8cc98118c2c787c6804039037352438816ad6c80e0f6ad0b44d9b1b4d",
+      "score": 1,
+      "reason": "물질 탐색 제목이며 고체·액체·기체 분류는 미확인이다."
+    },
+    "previous170/X100-Q022/BCAST-6743f35f0a157e7ff48f": {
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "fingerprint": "4f4cc00de14f2d5cbd3225d6a67766dea02cd585e995a79b8f0f7d8b89892ab1",
+      "score": 2,
+      "reason": "한 달간 달 모양 변화를 직접 언급해 관찰 동기와 관련된다."
+    },
+    "previous170/X100-Q023/BCAST-9fb03dfca411fb7eb62c": {
+      "query": "젖은 빨래가 마르면 그 물은 어디로 간 건지 아이가 물어봤어요. 물이 눈에 안 보이게 날아가는 걸 보여줄 수 있는 거요",
+      "fingerprint": "681c4b01148e17a2ab2eb06d3573142e661177e4fcd45ea340c60627474b41fa",
+      "score": 1,
+      "reason": "물 일반 소재이나 증발 과정·행방은 미확인이다."
+    },
+    "previous170/X100-Q025/BCAST-039aa5bfe5cdf0068fe4": {
+      "query": "겨울만 되면 개구리랑 뱀이 다 어디 갔냐고 아이들이 궁금해해요",
+      "fingerprint": "1706fbc3fe98ce9f301ff6b9c25ff942389ef3ad39673efd2ecda970c36df926",
+      "score": 1,
+      "reason": "개구리 겨울잠 동요는 있으나 뱀과 겨울잠 원리·장소는 미확인이다."
+    },
+    "previous170/X100-Q026/BCAST-43954e434055b984f2c8": {
+      "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+      "fingerprint": "e4112eb872141d84752190aa57fd6007ce44d9d81aa56f08c1327ee782930616",
+      "score": 1,
+      "reason": "발아는 있지만 열매까지 성장 순서는 미확인이다."
+    },
+    "previous170/X100-Q027/BCAST-b464ecdca1139922ae40": {
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "fingerprint": "ab65a66bc972b9716a9d6fc880b714ae5ad03201eed5df61befc34cf883d6cd5",
+      "score": 1,
+      "reason": "실 전화기 전달은 있으나 실의 팽팽함·느슨함 비교는 미확인이다."
+    },
+    "previous170/X100-Q028/BCAST-1461be73628e0a51d1bf": {
+      "query": "곤충이랑 거미가 몸 구조에서 어떻게 다른지 비교해 주는 영상",
+      "fingerprint": "637cb1c4fd0977761d6120024086840b3cf1298d0b7cf1a160a8715853600368",
+      "score": 1,
+      "reason": "거미·곤충 구별 소재지만 몸 구조 비교는 미확인이다. 소개문 분류 오류도 별도 검토가 필요하다."
+    },
+    "previous170/X100-Q029/BCAST-06d8988c72372ffc9988": {
+      "query": "사막이나 극지방 중 한 곳에 사는 동물이 그 환경에 맞게 생긴 모습이 나오는 영상이요. 둘 중 하나만 나와도 괜찮아요",
+      "fingerprint": "99361f476c33b8781ca0e89d5554d8429c415dd70907fb76083bc2ef3b666c94",
+      "score": 1,
+      "reason": "사막 동물 소재만으로 환경에 적응한 생김새 설명은 미확인이다."
+    },
+    "previous170/X100-Q030/BCAST-bcf6f1e5b192556fa91f": {
+      "query": "흙이 만들어지는 과정을 보여주는데, 반드시 바위가 부서지는 장면과 식물·동물 같은 것이 섞이는 설명이 둘 다 있어야 해요",
+      "fingerprint": "cb36a36560385cf78fa056b6d73de88cd032463ed350499a9ad2c55626eedaa3",
+      "score": 0,
+      "reason": "바위틈 생물·동강 생태이며 암석 풍화와 유기물 혼합으로 흙 생성하는 내용이 아니다."
+    },
+    "previous170/X100-Q031/BCAST-de722feb1368ba340f3c": {
+      "query": "화산 영상 찾는데 실제 재난 피해 장면이나 사람이 다치는 장면은 빼 주세요. 화산 생김새랑 분출물 위주로요",
+      "fingerprint": "921f82ea3b2bb6a72d7fc581eb0146298cdd198a64bc2b1e51bc4eb5709cff18",
+      "score": 1,
+      "reason": "화산 자료지만 생김새·분출물과 피해 장면 제외는 확인하지 못했다."
+    },
+    "previous170/X100-Q032/BCAST-9fb03dfca411fb7eb62c": {
+      "query": "물의 세 가지 상태 설명 자료요. 실험실 기구 쓰는 건 말고 집에서 볼 수 있는 예로 보여주는 거",
+      "fingerprint": "681c4b01148e17a2ab2eb06d3573142e661177e4fcd45ea340c60627474b41fa",
+      "score": 1,
+      "reason": "물 소재만으로 세 상태·생활 속 예 조건을 확인할 수 없다."
+    },
+    "previous170/X100-Q034/BCAST-98f1b5f19b84f95dd94d": {
+      "query": "아까 본 거 같은, 돌이 층층이 쌓여 있는 이런 모습 다른 지역 것도 보여주고 싶어요",
+      "fingerprint": "d3f44067cc54e51d70409fbedba3359680c2fae8450335a7ee90e5474eb27291",
+      "score": 1,
+      "reason": "단양 지질 경관은 있으나 층층이 쌓인 퇴적 구조와 이전 문맥은 미확인이다."
+    },
+    "previous170/X100-Q035/BCAST-b9bd9c450d9e9b9a0ad3": {
+      "query": "독도",
+      "fingerprint": "c2cb652a60c295bfe5535dd6b6e5ab1b1f1048d6ce21f9380ef395cc8f411055",
+      "score": 2,
+      "reason": "독도 생태 탐사·바다사자 추적을 직접 다룬다."
+    },
+    "previous170/X100-Q036/BCAST-c9988890264a19a88597": {
+      "query": "삼권 분립",
+      "fingerprint": "593b7f7a5615711762c138d64c9ed27a089d357c6db3f8d4cd75e2a479a99608",
+      "score": 1,
+      "reason": "권력 분립 언급만으로 삼권의 역할·견제를 확인할 수 없다."
+    },
+    "previous170/X100-Q037/BCAST-7fd1bfb95415f72166b0": {
+      "query": "모의 학급 선거를 하기 전에 선거의 기본 원칙을 실제 사례로 이해시킬 영상 찾습니다",
+      "fingerprint": "d44fb48819112611d2e7b086542e76225b6167bb5563e0fe04bb666cc94d39c0",
+      "score": 1,
+      "reason": "추첨식 선거의 역사·규칙이며 오늘날 선거 기본 원칙 설명은 미확인이다."
+    },
+    "previous170/X100-Q038/BCAST-f2b7f0fc2d240440acee": {
+      "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+      "fingerprint": "13ce21123afcb2355c724d87abd120d29af4da2c946226432c3d3b4f767219b5",
+      "score": 2,
+      "reason": "학교폭력 사례와 상대 입장 이해·토론을 직접 연결한다."
+    },
+    "previous170/X100-Q040/BCAST-19c51d8449f8c8ffdc4c": {
+      "query": "사람들이 시골을 떠나서 도시로 몰려가면서 생긴 문제들 보여주는 영상",
+      "fingerprint": "1bc06e44778034877007d18bbb2af9fd92258b8eeb2a64405e6be1b8aa0812c6",
+      "score": 2,
+      "reason": "이농과 도시 생활의 어려움·귀농 포기를 직접 다룬다."
+    },
+    "previous170/X100-Q041/BCAST-06ca8ed397502a83a3ed": {
+      "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+      "fingerprint": "94023d7707bcc6ef363e3a56210ad15c047a9bcd3925ba4edda6fd7abb853ec3",
+      "score": 2,
+      "reason": "나라끼리 물건을 사고파는 무역을 직접 다룬다."
+    },
+    "previous170/X100-Q043/BCAST-1d6d7b6f6825069829e9": {
+      "query": "고려가 몽골의 침입에 어떻게 맞섰고, 그 과정에서 팔만대장경을 왜 만들었는지 알려주는 자료",
+      "fingerprint": "64e18ed7017f5fdd1caec22e74b215b1a4c9efc7dfac653c94c95a1c7af57dbe",
+      "score": 1,
+      "reason": "팔만대장경 보존 건축이며 몽골 침입과 제작 이유는 미확인이다."
+    },
+    "previous170/X100-Q044/BCAST-95cde06223e3b1919195": {
+      "query": "저출산이랑 고령화가 계속되면 사회에 어떤 변화가 생기는지",
+      "fingerprint": "33465497aeeceeb9e5953fc3157e05009c3205920a0d5994d68944603e7bfa24",
+      "score": 1,
+      "reason": "저출산 원인·대안은 있으나 고령화와 함께 사회 변화는 미확인이다."
+    },
+    "previous170/X100-Q045/BCAST-b6ac5b923f72e8e289c9": {
+      "query": "고조선 8조법과 오늘날 법이 하는 역할을 비교해 볼 수 있는 자료",
+      "fingerprint": "a4593c7f0b42c633ab9f5bb203fef0fddc4302cbad4c24bbad7267ec4dc16aa0",
+      "score": 1,
+      "reason": "고조선 일반 자료이며 8조법·현대법 비교는 미확인이다."
+    },
+    "previous170/X100-Q046/BCAST-a410a151d026fc730893": {
+      "query": "4·19 혁명과 6월 민주 항쟁의 공통점과 차이점을 정리할 수 있는 자료",
+      "fingerprint": "20931bd54b0aa9caf7732daed6790c836c0c37f53d5cc775869885e3689d2cde",
+      "score": 1,
+      "reason": "두 민주화 사건을 언급하나 공통점·차이 비교는 미확인이다."
+    },
+    "previous170/X100-Q047/BCAST-96169955971e87c7d0b3": {
+      "query": "세계 여러 나라의 기후랑 거기에 맞는 집 모양이 함께 나와야 하고, 열대와 한대 지역이 반드시 둘 다 들어간 영상이요",
+      "fingerprint": "572346fb2e181e702f76efcd16455297cb8a77b222d944fdb588e6d8a03276e6",
+      "score": 1,
+      "reason": "집의 다양한 모습뿐이며 열대·한대 동시 조건은 미확인이다."
+    },
+    "previous170/X100-Q048/BCAST-b16330d731e2391048e8": {
+      "query": "임진왜란 수업 자료인데 전투 장면은 빼 주세요. 백성들이 의병으로 나서게 된 배경이랑 생활 위주로요",
+      "fingerprint": "ff192e41e940263dfccb63d64c1761ed6913556991b84bf77bc5661ac162ef3d",
+      "score": 1,
+      "reason": "임진왜란 백성 생활은 있으나 의병의 발생 배경과 장면 제외는 미확인이다."
+    },
+    "previous170/X100-Q049/BCAST-1b0470c1dd1731e9818a": {
+      "query": "우리나라 경제 성장 과정 영상인데, 특정 기업 홍보 같은 건 빼고 1960~70년대 산업이 어떻게 바뀌었는지 나오는 거요",
+      "fingerprint": "1ba76a6806110ba390aa957ca03911323b09580d618f119397f56cffe760f341",
+      "score": 1,
+      "reason": "해당 시기 출생 세대의 현재 경제활동이며 당시 산업 변화는 미확인이다."
+    },
+    "previous170/X100-Q050/BCAST-8933206583e65337e971": {
+      "query": "조선의 신분 제도 자료요. 가능하면 드라마보다 다큐 형식이었으면 하고, 반드시 양반·중인·상민·천민 구분이 나와야 해요",
+      "fingerprint": "b1fc00bfd464408aa3c99d5eefb8ae4b052134b9b9373085d6d20f1467ba8fd5",
+      "score": 1,
+      "reason": "노비·천민만 확인되며 필수 네 신분 구분은 미확인이다."
+    },
+    "previous170/X100-Q053/ECLIP-024": {
+      "query": "용해와 용액",
+      "fingerprint": "d5b6b89e66f12a69ebbb9cf0fc95b3bf6c234a37a43349b44643549b971c841a",
+      "score": 1,
+      "reason": "용액 진하기는 있으나 용해 과정 전체는 미확인이다."
+    },
+    "previous170/X100-Q054/BCAST-9269f1fdb17fd5c83416": {
+      "query": "연소 조건 실험 전에 안전 교육도 겸해서 '불이 붙으려면 무엇이 필요할까' 질문을 던질 수 있는 도입 자료",
+      "fingerprint": "30bb631caeba1e32e09f8ed07f3fd3f110380bc971593eb664c93706e5ff0078",
+      "score": 0,
+      "reason": "갑상선 호르몬 설명의 연료 비유로 실제 연소 조건 자료가 아니다."
+    },
+    "previous170/X100-Q055/BCAST-184376a13953620ef8bf": {
+      "query": "먹이 사슬이랑 먹이 그물 배운 뒤에 '한 생물이 사라지면 어떻게 될까' 토론 자료로 쓸 영상",
+      "fingerprint": "bc5d6561403624e62b6b468a2bd0b7550a2a8e453171063133329410327a1c69",
+      "score": 1,
+      "reason": "먹이그물 관찰은 있지만 특정 생물 소멸의 결과는 미확인이다."
+    },
+    "previous170/X100-Q057/BCAST-c3cfb74a8979103b6704": {
+      "query": "아이들이 '지구의 허파'가 왜 점점 줄어드는지 물어봤어요",
+      "fingerprint": "6a9789d2ebb7aa11f713cc4eca16ec8d59d6b4bfc401a4eb3d70dfc5e13560b3",
+      "score": 1,
+      "reason": "기후변화 일반 자료이며 열대우림 감소 원인은 미확인이다."
+    },
+    "previous170/X100-Q060/BCAST-024c5222a4833c2b6b0d": {
+      "query": "초가 타고 나면 어떤 물질이 생기는지 확인하는 과정이 나오는 영상",
+      "fingerprint": "4cca47eb085f87dc13b756c1b61e240342bb8c9a1528f27a9e71ba45fb5f27e5",
+      "score": 1,
+      "reason": "일반 화재의 유독가스 실험이며 초 연소 생성물 확인은 미확인이다."
+    },
+    "previous170/X100-Q062/BCAST-c4c421a84a120ce0e6fe": {
+      "query": "산성 용액과 염기성 용액에 지시약을 넣었을 때 색이 어떻게 달라지는지 비교하는 영상",
+      "fingerprint": "6a91b2bf54bf12f46d5c284d90454930704d9b4ce63992642853930f378d8caa",
+      "score": 2,
+      "reason": "산·중·염기 용액의 지시약 관찰과 색 변화가 직접 있다."
+    },
+    "previous170/X100-Q064/BCAST-839bb0828e393109b217": {
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "fingerprint": "b8a0a348085f273613ac776765712ac4864cfae89af3a7cf62be94790242878f",
+      "score": 2,
+      "reason": "가뭄·개발로 훼손된 수생태계가 인공산란장으로 회복되는 과정을 공식 원문에서 확인했다."
+    },
+    "previous170/X100-Q066/BCAST-6b94ea2f436ad12a583c": {
+      "query": "우리 몸 소화 기관 영상인데 실제 수술 장면이나 내시경 같은 실물 장면은 빼고 그래픽으로 된 거",
+      "fingerprint": "d7b63b6424a5491955168d95cc11e756c68dfb32dacb090552b8feba39ffd04a",
+      "score": 1,
+      "reason": "신체 소재 제목만으로 소화기관·그래픽·실사 제외를 확인할 수 없다."
+    },
+    "previous170/X100-Q070/BCAST-32466f94833e5576e50d": {
+      "query": "문화 상대주의랑 자문화 중심주의를 구분하는 토론 수업 도입 자료가 필요해요. 학생들이 바로 판단 내리지 않고 생각해 볼 만한 사례 중심으로요",
+      "fingerprint": "433b15d914cbd85bce3c9a38cece1f6059f97a52d1a35110238ac71034ffa39c",
+      "score": 0,
+      "reason": "생태공동체 교육 교류로 문화 상대주의와 자문화 중심주의 구별 사례가 아니다."
+    },
+    "previous170/X100-Q071/BCAST-01334b5855509be2a044": {
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "fingerprint": "3011d8ae49249b78ae05ee58bc9dc2ad8d4e948fb205c9f835b893298797ece8",
+      "score": 2,
+      "reason": "청소년의 기후행동 참여를 밀착 취재해 참여 방법 탐색과 연결된다."
+    },
+    "previous170/X100-Q073/BCAST-c9ec026c792f2b07fa8f": {
+      "query": "사람이 태어나서 가족이나 학교, 친구들한테 배우면서 사회 구성원이 되어 가는 거",
+      "fingerprint": "6558141eeb4dfdf82d0d99451d7ce3a522aeaad4b3a12c0733eba0859b16a1c4",
+      "score": 2,
+      "reason": "문화 습득·양육 경험으로 사회성이 형성되는 과정을 직접 다룬다."
+    },
+    "previous170/X100-Q075/BCAST-6567d0321ad7cb407d59": {
+      "query": "지진이나 해일 같은 자연재해가 일어나는 곳이 판의 경계와 어떤 관계가 있는지",
+      "fingerprint": "6601036cbfe6191d331dae261fb58d05f314719fceede4cbf11d010bfeb4ea29",
+      "score": 1,
+      "reason": "지진 원인은 있으나 판 경계와 발생 위치 관계는 미확인이다."
+    },
+    "previous170/X100-Q076/BCAST-5c59228aff402598628b": {
+      "query": "석유 같은 자원이 몇몇 지역에 몰려 있어서 나라들 사이에 생기는 갈등",
+      "fingerprint": "8b44b94c561015d917d0851a9eb085fd6ee5abdf73bcc0db0d71e8631521c3c7",
+      "score": 1,
+      "reason": "천연자원과 빈부 격차는 있지만 자원 편중의 국가 간 갈등은 미확인이다."
+    },
+    "previous170/X100-Q078/BCAST-80609d9c7bd32e4368e7": {
+      "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+      "fingerprint": "937d3ac507f5e6411d630f1d7e765cec1d36fa45e411b7396982c7fed49a3676",
+      "score": 2,
+      "reason": "해수면 상승으로 바뀐 투발루 주민 생활과 인터뷰가 공식 원문에 직접 있다."
+    },
+    "previous170/X100-Q079/BCAST-2fad69e77c019f648c69": {
+      "query": "도시 재개발 영상인데 찬성하는 입장과 반대하는 입장이 모두 나와야 해요",
+      "fingerprint": "2fbf665a4f849d56a43b0691878289b527aedd9379cc56adc2fad162fcf40072",
+      "score": 1,
+      "reason": "재개발의 문제점·대안은 있지만 찬성·반대 양쪽 입장은 미확인이다."
+    },
+    "previous170/X100-Q081/BCAST-a9c33a88beed0f4ee69a": {
+      "query": "세계의 종교 경관 자료 찾는데 교리 설명은 빼고 건축물이나 거리 풍경만 나오는 걸로요",
+      "fingerprint": "895695f327b3cfa8249ef141872f6778f077c137cdd022002c3d76725537341b",
+      "score": 1,
+      "reason": "마야 건축·문화는 있으나 종교 경관만·교리 제외 조건은 미확인이다."
+    },
+    "previous170/X100-Q082/BCAST-d91cd522ea3d41341bca": {
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "fingerprint": "d1b81a6f8cbac402f9d76de60d746a54517521fef719feb7c80c67705a3c184a",
+      "score": 1,
+      "reason": "스코틀랜드 기업 브랜드이며 지역 공동 브랜드 사례는 미확인이다."
+    },
+    "previous170/X100-Q084/BCAST-16a649479d806e78bb2f": {
+      "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+      "fingerprint": "199c6c468ed8b5b31817e9555ec211e384a7865c88ef0ab955453a60bb4c89e1",
+      "score": 0,
+      "reason": "실제 법정 필수와 실사 제외가 모순인데 해소 없이 동화 재판을 반환했다."
+    },
+    "previous170/X100-Q086/ECLIP-002": {
+      "query": "생물 분류 단원에서 학생들이 직접 분류 기준을 세워 보기 전에, 기준에 따라 결과가 달라질 수 있다는 걸 보여줄 자료",
+      "fingerprint": "3c4bdfb84460e4d176958c53e580ed8285fa0c4aae5dbe739df45742a14aaa0c",
+      "score": 1,
+      "reason": "물질 기준 학용품 분류로 생물 분류 기준에 따른 결과 차이는 미확인이다."
+    },
+    "previous170/X100-Q088/BCAST-edc93d8ad545e48c8cdb": {
+      "query": "운동화 바닥이 닳는 거나 빙판길에서 미끄러지는 거 같은 걸 설명하는 영상",
+      "fingerprint": "75e7c5140db883ccd8f03813c22c238c5498111252ba90a967362e12eaf2d287",
+      "score": 1,
+      "reason": "빙판 안전 수칙은 있으나 마찰 현상의 원리는 미확인이다."
+    },
+    "previous170/X100-Q092/BCAST-2fe4557243f432f61400": {
+      "query": "현무암과 화강암을 비교 관찰하는 장면이 나오는 영상",
+      "fingerprint": "3b4c6d099ab4ea427a122f53db6796f4cbcb5ce511251929ce4f467e59cf6ecc",
+      "score": 1,
+      "reason": "현무암 경관만 있으며 화강암과 비교 관찰은 미확인이다."
+    },
+    "previous170/X100-Q093/BCAST-cab0d9d126a3feebd57f": {
+      "query": "빛의 색을 섞는 것과 물감 색을 섞는 게 어떻게 다른지",
+      "fingerprint": "bba67ec727ef068972bceec4466c2b2e899271ea4c23f55aed8fbf6aabf2316d",
+      "score": 1,
+      "reason": "물감 혼색은 있지만 빛 혼합과 차이 비교는 미확인이다."
+    },
+    "previous170/X100-Q094/BCAST-6281af8b41db5ec35cb9": {
+      "query": "탄성력 예시인데 용수철, 고무줄, 트램펄린 중 아무거나 하나 이상이면 되고, 늘어난 길이와 힘의 관계 설명은 꼭 있어야 해요",
+      "fingerprint": "79c2dcbb349e19fd4207f02a6a0639aa54c89805240d41239346e6c72d6631c4",
+      "score": 1,
+      "reason": "고무줄 탄성은 있지만 늘어난 길이와 힘 관계는 미확인이다."
+    },
+    "previous170/X100-Q095/BCAST-b7a49ffe770dd09bd2ec": {
+      "query": "기체의 온도와 부피 관계 영상인데 풍선 실험과 찌그러진 탁구공 펴기 같은 일상 예시가 둘 다 나와야 해요",
+      "fingerprint": "03bc5320cc9376dda88301aa7f414b8e1bc06197c6b956a038174ab1c568fff4",
+      "score": 0,
+      "reason": "풍선 그림 미술로 기체 온도·부피 실험과 무관하다."
+    },
+    "previous170/X100-Q096/BCAST-5341a1c4b7ecfdabcf05": {
+      "query": "생물 다양성이 줄어드는 걸 다룬 자료인데, 동물이 죽어 있는 사진이나 잔인한 사냥 장면은 빼 주세요",
+      "fingerprint": "afbee3e727c2cbeb6ffbe2f68eb36ef72c713001b12a3cfbf67eaf770bbe82a7",
+      "score": 1,
+      "reason": "수생태계 훼손은 있지만 죽은 동물·사냥 장면 제외는 미확인이다."
+    },
+    "previous170/X100-Q097/BCAST-d7b6fd3028c47bb49d40": {
+      "query": "중력 설명 영상인데 공식이나 계산 위주는 빼고, 우주 정거장에서 둥둥 뜨는 것 같은 현상 위주로요",
+      "fingerprint": "9bbb2fa654f450e900f77444220b30f4e2554237cfceac02522afb91c10d1b4e",
+      "score": 2,
+      "reason": "우주 무중력 상태의 실제 생활 현상을 다룬다. 수식 제외의 상세는 별도 확인이다."
+    },
+    "previous170/X100-Q099/BCAST-8aa88c4b1f26db604fe6": {
+      "query": "가상의 행성에 생물이 살려면 어떤 조건이 필요할지 상상해 보는 수업인데, 가상 행성 환경을 설정해서 보여주는 영상 있을까요?",
+      "fingerprint": "6918ea6f3006c94f4a9e7c628f674160e71d2392949796e396e1db1bae2a8ee1",
+      "score": 2,
+      "reason": "물과 다른 환경에서 가상 외계 생명체의 생존 조건을 탐색한다. 소개문 과학 사실의 진위는 이 검색 평가와 별도다."
+    },
+    "previous170/X100-Q100/BCAST-d6575b227dc25b82c1ab": {
+      "query": "저항에 대한 영상 찾아요. 수업에서 바로 쓰게요",
+      "fingerprint": "6d44dcc9b3e268309f54c5294c759eac710d7005df523dbbd846b4128a7af149",
+      "score": 1,
+      "reason": "사회적 저항의 한 의미로 관련되나 요청은 전기 저항 등 중의적이어서 의도 확정이 불가능하다."
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "checkedAt": "2026-10-10T15:16:33.863Z",
+  "cases": [
+    {
+      "name": "네 기준의 제한 규칙·실제 복구 원문 관계 근거",
+      "passed": true
+    },
+    {
+      "name": "유물 명칭만으로 생활 관계 공개 금지",
+      "passed": true
+    },
+    {
+      "name": "문양 맥락 없는 다른 그림·부정·인용 주장 보류",
+      "passed": true
+    },
+    {
+      "name": "연소→생성물→피해를 함께 확인하고 학생 수행은 미확인",
+      "passed": true
+    },
+    {
+      "name": "연소/피해 중 한 관계만 있거나 꿀벌 생태계 단어뿐이면 공개 금지",
+      "passed": true
+    },
+    {
+      "name": "의문·상충·제목 반복·부족 원문 보류",
+      "passed": true
+    },
+    {
+      "name": "변조 인용·공식 원문·규칙 버전 차단",
+      "passed": true
+    },
+    {
+      "name": "선택한 공식 기준·교과 불일치 거절",
+      "passed": true
+    },
+    {
+      "name": "관계 선택→별도 저장→검색·중복 재사용",
+      "passed": true
+    },
+    {
+      "name": "변경 후 관계 검색 무효화·현재 승인/취소 이력 JSON 불변",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "version": "automatic-evidence-v3:source-text-v3",
+    "curriculumVersion": "2022 개정",
+    "gradeBand": "5~6학년군",
+    "rules": [
+      {
+        "id": "election-and-sovereignty",
+        "subject": "사회",
+        "standardId": "6사08-01",
+        "standardText": "민주주의에서 선거의 의미와 역할을 파악하고, 시민의 주권 행사를 위해 선거에 참여하는 태도를 기른다.",
+        "requirements": [
+          {
+            "id": "representative-selection",
+            "text": "시민이 투표로 대표를 뽑는 선거의 역할"
+          },
+          {
+            "id": "sovereign-expression",
+            "text": "선거 참여와 시민 주권 행사의 연결"
+          }
+        ],
+        "unverified": [
+          "학생이 선거의 의미·역할을 이해했는지",
+          "실제 선거 참여 태도와 수업 활용 적합성"
+        ],
+        "discoveryTerms": [
+          "표를 던져",
+          "대표자",
+          "유권자",
+          "통치자"
+        ]
+      },
+      {
+        "id": "rotation-and-day-night",
+        "subject": "과학",
+        "standardId": "6과12-02",
+        "standardText": "지구의 자전을 알고, 낮과 밤이 생기는 이유를 설명할 수 있다.",
+        "requirements": [
+          {
+            "id": "rotation",
+            "text": "지구가 스스로 회전한다는 자전 설명"
+          },
+          {
+            "id": "day-night-cause",
+            "text": "지구 자전이 낮과 밤을 만드는 원인이라는 설명"
+          }
+        ],
+        "unverified": [
+          "영상 속 관찰·모형·장면의 실제 내용",
+          "학생이 낮과 밤의 원인을 설명할 수 있는지"
+        ],
+        "discoveryTerms": [
+          "스스로 돈다",
+          "스스로 돌기",
+          "지구가 회전",
+          "지구는 회전",
+          "낮과 밤"
+        ]
+      },
+      {
+        "id": "bronze-artifact-and-farming",
+        "subject": "사회",
+        "standardId": "6사04-01",
+        "standardText": "선사 시대와 고조선의 유적과 유물을 활용하여 당시 사람들의 생활을 추론한다.",
+        "requirements": [
+          {
+            "id": "artifact-period",
+            "text": "농경문 청동기를 청동기 시대의 문화유산으로 소개하는 설명"
+          },
+          {
+            "id": "farming-depiction",
+            "text": "농경문 청동기의 문양에 밭을 가는 사람이 그려진 사례"
+          }
+        ],
+        "unverified": [
+          "해당 유물의 고조선 소속 여부",
+          "원문에서 소개한 사례 외 당시 생활 전반",
+          "학생이 유적·유물로 당시 생활을 추론하는 수행",
+          "영상의 실제 장면·학년 적합성"
+        ],
+        "discoveryTerms": [
+          "농경문 청동기",
+          "농경문청동기",
+          "밭을 가는"
+        ]
+      },
+      {
+        "id": "combustion-and-ecosystem-damage",
+        "subject": "과학",
+        "standardId": "6과14-04",
+        "standardText": "연소 과정에서 생성되는 물질로 인한 생태계의 피해 사례를 수집하고 분석하여 해결책을 제안하고 공유할 수 있다.",
+        "requirements": [
+          {
+            "id": "combustion-emissions",
+            "text": "화석연료가 탈 때 오염 물질이 발생하는 관계"
+          },
+          {
+            "id": "emissions-damage",
+            "text": "연소 생성물이 산성비를 거쳐 산림·수중 생태계에 피해를 주는 관계"
+          }
+        ],
+        "unverified": [
+          "영상 속 피해 장면과 수치의 확인",
+          "다른 연소 생성물·피해 경로",
+          "학생의 피해 사례 수집·분석·해결책 제안·공유 수행"
+        ],
+        "discoveryTerms": [
+          "황산화물",
+          "질소산화물",
+          "산성비",
+          "화석연료",
+          "석탄을 태우면"
+        ]
+      }
+    ],
+    "limitation": "제한된 한국어 서술 패턴 검사이며 의미 정확도·영상 내용·학년 적합성을 보증하지 않습니다."
+  },
+  "operationalApprovals": {
+    "currentHumanApproved": 0,
+    "currentApprovedSearchProjection": 0,
+    "preservedWithdrawals": 4,
+    "source": "docs/r09-01-approval-revocation.json"
+  },
+  "paidApiCalls": 0,
+  "source": "실제 보강 원문/합성 반례·임시 자동DB. 의미 정확도 정답률 아님"
+}

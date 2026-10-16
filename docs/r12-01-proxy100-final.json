@@ -1,0 +1,1475 @@
+{
+  "dataset": "curi-teacher-proxy100-v1",
+  "created_date": "2026-10-14",
+  "origin": "AI_AUTHORED_TEACHER_PROXY",
+  "actual_teacher_requests": 0,
+  "human_review": "NOT_REVIEWED",
+  "search_executed": false,
+  "model_answer_ground_truth": false,
+  "generation": "작성 에이전트가 사용자 프롬프트의 분포/조건에 따라 질문과 기대 해석을 작성. 사례 필드의 수업 목적은 대리 맥락이며 원문 조건과 분리.",
+  "exposure": "생성·검토 담당 에이전트는100개 내용을 보았음. final은 향후 개발 미사용 평가용이며 완전한 블라인드/독립 교사 평가가 아님.",
+  "split": "final",
+  "count": 30,
+  "access_policy": "FINAL_EVALUATION_NOT_FOR_TUNING",
+  "rows": [
+    {
+      "id": "Q002",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "HERITAGE",
+      "topic_family_label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "primary_test_type": "제외·부정 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "우리 지역 문화유산을 소개하는 자료를 찾되 관광 상품 광고는 제외해주세요",
+      "lesson_goal": "문화유산에 대해 소개을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "문화유산"
+        ],
+        "requested_content_or_relation": [
+          "소개"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [
+          {
+            "condition": "관광 상품 광고는",
+            "supporting_phrase": "관광 상품 광고는 제외해주세요"
+          }
+        ],
+        "preferences": [],
+        "logical_structure": "SINGLE: 소개",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "제외되는 대상/장면을 양의 검색어나 주제 전체 제외로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 소개에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "문화유산의 소재는 확인되지만 소개의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "문화유산와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q005",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "HERITAGE",
+      "topic_family_label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "문화유산을 아끼는 이유를 아이들과 이야기할 때 쓸 자료를 찾아주세요",
+      "lesson_goal": "문화유산에 대해 보존 이유을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 설명/발표 준비",
+      "expected_interpretation": {
+        "core_topic": [
+          "문화유산"
+        ],
+        "requested_content_or_relation": [
+          "보존 이유"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 보존 이유",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 보존 이유에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "문화유산의 소재는 확인되지만 보존 이유의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "문화유산와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q010",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "HERITAGE",
+      "topic_family_label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "primary_test_type": "원인·결과·과정·관계 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "오래된 건물이 문화유산으로 남기까지 어떤 보존 노력이 있었는지 알려주는 영상",
+      "lesson_goal": "문화유산에 대해 보존 노력을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "문화유산"
+        ],
+        "requested_content_or_relation": [
+          "보존 노력"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 보존 노력",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 보존 노력에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "문화유산의 소재는 확인되지만 보존 노력의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "문화유산와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q012",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "HERITAGE",
+      "topic_family_label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "primary_test_type": "비교 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "옛날 사람들의 집과 오늘날 집의 생활 모습을 비교하고 싶어요",
+      "lesson_goal": "주거 문화에 대해 옛날과 오늘날 생활 비교을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "비교",
+      "expected_interpretation": {
+        "core_topic": [
+          "주거 문화"
+        ],
+        "requested_content_or_relation": [
+          "옛날과 오늘날 생활 비교"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 옛날과 오늘날 생활 비교",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성",
+          "실제 영상에서 두 대상의 비교가 이루어지는지"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "비교하는 두 대상을 모두 보존하고 단순 등장만으로 비교 충족을 표시하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 옛날과 오늘날 생활 비교에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "주거 문화의 소재는 확인되지만 옛날과 오늘날 생활 비교의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "주거 문화와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q017",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "사회",
+      "topic_family": "HERITAGE",
+      "topic_family_label": "문화유산·전통 주거·보존",
+      "split": "final",
+      "primary_test_type": "일상 표현을 사용한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "옛 건물이 무너지지 않도록 고쳐서 남기는 사람들의 이야기를 찾고 있어요",
+      "lesson_goal": "문화유산 수리에 대해 보존 수리의 이야기을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "문화유산 수리"
+        ],
+        "requested_content_or_relation": [
+          "보존 수리의 이야기"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 보존 수리의 이야기",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "일상 표현의 대상을 해석하되 비유/다의어만 일치한 자료를 추천하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 보존 수리의 이야기에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "문화유산 수리의 소재는 확인되지만 보존 수리의 이야기의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "문화유산 수리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q019",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "SOUND",
+      "topic_family_label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "소리의 높낮이",
+      "lesson_goal": "소리에 대해 높낮이을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "소리"
+        ],
+        "requested_content_or_relation": [
+          "높낮이"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 높낮이",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 높낮이에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "소리의 소재는 확인되지만 높낮이의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "소리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q022",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "SOUND",
+      "topic_family_label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "primary_test_type": "제외·부정 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "소리가 전달되는 과정을 설명하는 자료를 찾아주세요 보청기 제품 광고는 제외해주세요",
+      "lesson_goal": "소리에 대해 전달 과정을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "소리"
+        ],
+        "requested_content_or_relation": [
+          "전달 과정"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [
+          {
+            "condition": "보청기 제품 광고는",
+            "supporting_phrase": "보청기 제품 광고는 제외해주세요"
+          }
+        ],
+        "preferences": [],
+        "logical_structure": "SINGLE: 전달 과정",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "제외되는 대상/장면을 양의 검색어나 주제 전체 제외로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 전달 과정에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "소리의 소재는 확인되지만 전달 과정의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "소리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q027",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "SOUND",
+      "topic_family_label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "primary_test_type": "원인·결과·과정·관계 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "팽팽하게 당긴 고무줄을 튕기면 소리가 나는 까닭을 보여주세요",
+      "lesson_goal": "소리에 대해 고무줄 진동과 소리을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "소리"
+        ],
+        "requested_content_or_relation": [
+          "고무줄 진동과 소리"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 고무줄 진동과 소리",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 고무줄 진동과 소리에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "소리의 소재는 확인되지만 고무줄 진동과 소리의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "소리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q029",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "SOUND",
+      "topic_family_label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "primary_test_type": "복수 필수 조건·AND/OR 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "같은 악기에서 높은 소리와 낮은 소리가 나는 모습을 둘 다 보여주세요",
+      "lesson_goal": "소리에 대해 같은 악기의 높은 소리 AND 낮은 소리을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "소리"
+        ],
+        "requested_content_or_relation": [
+          "같은 악기의 높은 소리 AND 낮은 소리"
+        ],
+        "required_conditions": [
+          {
+            "condition": "같은 악기의 높은 소리 AND 낮은 소리",
+            "supporting_phrase": "같은 악기에서 높은 소리와 낮은 소리가 나는 모습을 둘 다 보여주세요"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 같은 악기의 높은 소리 AND 낮은 소리",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "복수 조건을 하나의 주제나 일괄 AND로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 같은 악기의 높은 소리 AND 낮은 소리에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "소리의 소재는 확인되지만 같은 악기의 높은 소리 AND 낮은 소리의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "소리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q034",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등3~4",
+      "subject": "과학",
+      "topic_family": "SOUND",
+      "topic_family_label": "소리·진동·전달·높낮이",
+      "split": "final",
+      "primary_test_type": "선호 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "실로 연결한 종이컵에서 소리가 전달되는 자료가 필요해요 애니메이션이면 더 좋겠어요",
+      "lesson_goal": "소리에 대해 실과 종이컵의 소리 전달을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "소리"
+        ],
+        "requested_content_or_relation": [
+          "실과 종이컵의 소리 전달"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [
+          {
+            "condition": "애니메이션이면 더 좋겠어요",
+            "supporting_phrase": "애니메이션이면 더 좋겠어요"
+          }
+        ],
+        "logical_structure": "SINGLE: 실과 종이컵의 소리 전달",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "가능하면/좋겠어요를 필수 조건으로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 실과 종이컵의 소리 전달에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "소리의 소재는 확인되지만 실과 종이컵의 소리 전달의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "소리와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q036",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "TRADE",
+      "topic_family_label": "국가간 무역·수출·수입",
+      "split": "final",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [
+        "실제 영상 확인 필요"
+      ],
+      "query": "국가 사이의 무역",
+      "lesson_goal": "무역에 대해 무역을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "무역"
+        ],
+        "requested_content_or_relation": [],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 주제 탐색",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 무역에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "무역의 소재는 확인되지만 무역의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "무역와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q039",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "TRADE",
+      "topic_family_label": "국가간 무역·수출·수입",
+      "split": "final",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "무역 수업 도입에서 다른 나라 물건이 우리에게 오는 모습을 보여줄 자료를 찾아주세요",
+      "lesson_goal": "무역에 대해 다른 나라 물건의 이동을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "도입",
+      "expected_interpretation": {
+        "core_topic": [
+          "무역"
+        ],
+        "requested_content_or_relation": [
+          "다른 나라 물건의 이동"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 다른 나라 물건의 이동",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 다른 나라 물건의 이동에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "무역의 소재는 확인되지만 다른 나라 물건의 이동의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "무역와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q044",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "TRADE",
+      "topic_family_label": "국가간 무역·수출·수입",
+      "split": "final",
+      "primary_test_type": "복수 필수 조건·AND/OR 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "나라끼리 물건을 사고파는 과정과 그로 인한 생활의 변화가 모두 나오는 자료",
+      "lesson_goal": "무역에 대해 교역 과정 AND 생활 변화을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "무역"
+        ],
+        "requested_content_or_relation": [
+          "교역 과정 AND 생활 변화"
+        ],
+        "required_conditions": [
+          {
+            "condition": "교역 과정 AND 생활 변화",
+            "supporting_phrase": "나라끼리 물건을 사고파는 과정과 그로 인한 생활의 변화가 모두 나오는 자료"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 교역 과정 AND 생활 변화",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "복수 조건을 하나의 주제나 일괄 AND로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 교역 과정 AND 생활 변화에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "무역의 소재는 확인되지만 교역 과정 AND 생활 변화의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "무역와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q046",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "TRADE",
+      "topic_family_label": "국가간 무역·수출·수입",
+      "split": "final",
+      "primary_test_type": "비교 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "물건을 수출하는 과정과 수입하는 과정을 비교할 자료",
+      "lesson_goal": "무역에 대해 수출과 수입 과정 비교을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "비교",
+      "expected_interpretation": {
+        "core_topic": [
+          "무역"
+        ],
+        "requested_content_or_relation": [
+          "수출과 수입 과정 비교"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 수출과 수입 과정 비교",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성",
+          "실제 영상에서 두 대상의 비교가 이루어지는지"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "비교하는 두 대상을 모두 보존하고 단순 등장만으로 비교 충족을 표시하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 수출과 수입 과정 비교에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "무역의 소재는 확인되지만 수출과 수입 과정 비교의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "무역와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q051",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "사회",
+      "topic_family": "TRADE",
+      "topic_family_label": "국가간 무역·수출·수입",
+      "split": "final",
+      "primary_test_type": "일상 표현을 사용한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "다른 나라에서 만든 물건이 우리 손에 들어오기까지 거치는 일을 보여주세요",
+      "lesson_goal": "무역에 대해 국가간 물건 이동 과정을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "무역"
+        ],
+        "requested_content_or_relation": [
+          "국가간 물건 이동 과정"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 국가간 물건 이동 과정",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "일상 표현의 대상을 해석하되 비유/다의어만 일치한 자료를 추천하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 국가간 물건 이동 과정에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "무역의 소재는 확인되지만 국가간 물건 이동 과정의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "무역와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q053",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "ASTRO",
+      "topic_family_label": "태양계·행성 특징·운동",
+      "split": "final",
+      "primary_test_type": "짧은 주제 검색",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "태양계 행성의 특징",
+      "lesson_goal": "태양계에 대해 행성 특징을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "태양계"
+        ],
+        "requested_content_or_relation": [
+          "행성 특징"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 행성 특징",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 행성 특징에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "태양계의 소재는 확인되지만 행성 특징의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "태양계와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q056",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "ASTRO",
+      "topic_family_label": "태양계·행성 특징·운동",
+      "split": "final",
+      "primary_test_type": "시간·자막·형식·프로그램 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "태양계 행성의 특징을 소개하는 5분 이내 영상이 필요해요",
+      "lesson_goal": "행성에 대해 특징 소개을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "행성"
+        ],
+        "requested_content_or_relation": [
+          "특징 소개"
+        ],
+        "required_conditions": [
+          {
+            "condition": "전체 영상 길이 5분 이하",
+            "supporting_phrase": "5분 이내"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 특징 소개",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "전체 재생시간: 사용 장면 길이와 구분"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "형식/프로그램/전체 길이/자막 조건을 주제 단어나 선호로 축소하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 특징 소개에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "행성의 소재는 확인되지만 특징 소개의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "행성와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q061",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "ASTRO",
+      "topic_family_label": "태양계·행성 특징·운동",
+      "split": "final",
+      "primary_test_type": "원인·결과·과정·관계 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "태양계에서 행성이 태양 주위를 움직이는 모습을 설명하는 자료",
+      "lesson_goal": "태양계에 대해 행성의 운동을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "태양계"
+        ],
+        "requested_content_or_relation": [
+          "행성의 운동"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 행성의 운동",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 행성의 운동에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "태양계의 소재는 확인되지만 행성의 운동의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "태양계와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q063",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "ASTRO",
+      "topic_family_label": "태양계·행성 특징·운동",
+      "split": "final",
+      "primary_test_type": "비교 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "지구와 화성의 특징을 비교하는 자료를 찾고 있어요",
+      "lesson_goal": "행성에 대해 지구와 화성 비교을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "비교",
+      "expected_interpretation": {
+        "core_topic": [
+          "행성"
+        ],
+        "requested_content_or_relation": [
+          "지구와 화성 비교"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 지구와 화성 비교",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성",
+          "실제 영상에서 두 대상의 비교가 이루어지는지"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "비교하는 두 대상을 모두 보존하고 단순 등장만으로 비교 충족을 표시하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 지구와 화성 비교에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "행성의 소재는 확인되지만 지구와 화성 비교의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "행성와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q068",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "초등5~6",
+      "subject": "과학",
+      "topic_family": "ASTRO",
+      "topic_family_label": "태양계·행성 특징·운동",
+      "split": "final",
+      "primary_test_type": "선호 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "우주에서 행성이 움직이는 모습을 찾고 있어요 모형이나 애니메이션이면 좋겠어요",
+      "lesson_goal": "행성에 대해 행성 운동을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "행성"
+        ],
+        "requested_content_or_relation": [
+          "행성 운동"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [
+          {
+            "condition": "애니메이션이면 좋겠어요",
+            "supporting_phrase": "애니메이션이면 좋겠어요"
+          }
+        ],
+        "logical_structure": "SINGLE: 행성 운동",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "가능하면/좋겠어요를 필수 조건으로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 행성 운동에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "행성의 소재는 확인되지만 행성 운동의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "행성와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q071",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "topic_family": "MIGRATION",
+      "topic_family_label": "인구 이동·집중·감소",
+      "split": "final",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "인구 이동 수업 도입에 사람들이 다른 지역으로 옮겨 가는 이유를 보여주고 싶어요",
+      "lesson_goal": "인구 이동에 대해 이동 이유을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "도입",
+      "expected_interpretation": {
+        "core_topic": [
+          "인구 이동"
+        ],
+        "requested_content_or_relation": [
+          "이동 이유"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 이동 이유",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 이동 이유에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "인구 이동의 소재는 확인되지만 이동 이유의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "인구 이동와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q074",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "topic_family": "MIGRATION",
+      "topic_family_label": "인구 이동·집중·감소",
+      "split": "final",
+      "primary_test_type": "일상 표현을 사용한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "살던 곳을 떠나 새 동네에서 일자리를 구하는 사람들의 이야기를 보여주세요",
+      "lesson_goal": "인구 이동에 대해 거주지 이동과 일자리을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "인구 이동"
+        ],
+        "requested_content_or_relation": [
+          "거주지 이동과 일자리"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 거주지 이동과 일자리",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "일상 표현의 대상을 해석하되 비유/다의어만 일치한 자료를 추천하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 거주지 이동과 일자리에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "인구 이동의 소재는 확인되지만 거주지 이동과 일자리의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "인구 이동와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q076",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "topic_family": "MIGRATION",
+      "topic_family_label": "인구 이동·집중·감소",
+      "split": "final",
+      "primary_test_type": "원인·결과·과정·관계 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "도시로 사람들이 모일 때 도시와 주변 지역이 어떻게 변하는지 알려주세요",
+      "lesson_goal": "인구 이동에 대해 도시 집중과 지역 변화을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "인구 이동"
+        ],
+        "requested_content_or_relation": [
+          "도시 집중과 지역 변화"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 도시 집중과 지역 변화",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 도시 집중과 지역 변화에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "인구 이동의 소재는 확인되지만 도시 집중과 지역 변화의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "인구 이동와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q078",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "topic_family": "MIGRATION",
+      "topic_family_label": "인구 이동·집중·감소",
+      "split": "final",
+      "primary_test_type": "복수 필수 조건·AND/OR 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "한 지역의 인구가 줄어드는 원인과 생활 변화가 모두 나오는 자료",
+      "lesson_goal": "인구 감소에 대해 원인 AND 생활 변화을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "인구 감소"
+        ],
+        "requested_content_or_relation": [
+          "원인 AND 생활 변화"
+        ],
+        "required_conditions": [
+          {
+            "condition": "원인 AND 생활 변화",
+            "supporting_phrase": "한 지역의 인구가 줄어드는 원인과 생활 변화가 모두 나오는 자료"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 원인 AND 생활 변화",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "복수 조건을 하나의 주제나 일괄 AND로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 원인 AND 생활 변화에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "인구 감소의 소재는 확인되지만 원인 AND 생활 변화의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "인구 감소와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q084",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "사회",
+      "topic_family": "MIGRATION",
+      "topic_family_label": "인구 이동·집중·감소",
+      "split": "final",
+      "primary_test_type": "모호함·충돌·정당한 빈 결과",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "인구 이동을 설명하는 영상 중 3분 이하이면서 10분 이상인 자료만 찾아주세요",
+      "lesson_goal": "인구 이동에 대해 인구 이동 설명을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "인구 이동"
+        ],
+        "requested_content_or_relation": [
+          "인구 이동 설명"
+        ],
+        "required_conditions": [
+          {
+            "condition": "전체 길이3분 이하",
+            "supporting_phrase": "3분 이하"
+          },
+          {
+            "condition": "전체 길이10분 이상",
+            "supporting_phrase": "10분 이상"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 인구 이동 설명",
+        "needs_clarification": [
+          "서로 충돌하는 길이 조건 중 어떤 조건을 적용할지"
+        ],
+        "not_verifiable_from_description_alone": [
+          "전체 영상 길이"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "모호함/충돌/정당한 빈 결과를 조건 삭제나 임의 추정으로 해결하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "모호한 조건은 추가 확인한 뒤 판단한다. 조건 충돌/가상 대상의 실제 영상 요구가 미해결이면 충족 후보를 확정하지 않는다.",
+        "partial": "인구 이동의 소재는 확인되지만 인구 이동 설명의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "인구 이동와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다. 모호함/충돌 또는 명시적 가상 대상 때문에 빈 결과가 정당할 수 있으며 임의로 조건을 바꾸지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q086",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "topic_family": "ROCK",
+      "topic_family_label": "암석 조직·생성·변화",
+      "split": "final",
+      "primary_test_type": "수업 목표와 활용 목적을 포함한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "암석을 구별하는 관찰 활동 전에 표면과 알갱이를 보여줄 자료가 필요해요",
+      "lesson_goal": "암석에 대해 표면과 알갱이 관찰을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "관찰/활동 준비",
+      "expected_interpretation": {
+        "core_topic": [
+          "암석"
+        ],
+        "requested_content_or_relation": [
+          "표면과 알갱이 관찰"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 표면과 알갱이 관찰",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 표면과 알갱이 관찰에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "암석의 소재는 확인되지만 표면과 알갱이 관찰의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "암석와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q090",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "topic_family": "ROCK",
+      "topic_family_label": "암석 조직·생성·변화",
+      "split": "final",
+      "primary_test_type": "일상 표현을 사용한 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "뜨거웠던 돌 물질이 식으면서 단단해지는 과정을 보여주세요",
+      "lesson_goal": "암석 생성에 대해 뜨거운 물질이 식고 굳음을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "내용 확인",
+      "expected_interpretation": {
+        "core_topic": [
+          "암석 생성"
+        ],
+        "requested_content_or_relation": [
+          "뜨거운 물질이 식고 굳음"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 뜨거운 물질이 식고 굳음",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "일상 표현의 대상을 해석하되 비유/다의어만 일치한 자료를 추천하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 뜨거운 물질이 식고 굳음에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "암석 생성의 소재는 확인되지만 뜨거운 물질이 식고 굳음의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "암석 생성와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q092",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "topic_family": "ROCK",
+      "topic_family_label": "암석 조직·생성·변화",
+      "split": "final",
+      "primary_test_type": "비교 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "모래 알갱이가 뚜렷한 암석과 결정 알갱이가 맞물린 암석을 비교하는 자료",
+      "lesson_goal": "암석에 대해 두 조직 비교을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "비교",
+      "expected_interpretation": {
+        "core_topic": [
+          "암석"
+        ],
+        "requested_content_or_relation": [
+          "두 조직 비교"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "AND: 두 조직 비교",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성",
+          "실제 영상에서 두 대상의 비교가 이루어지는지"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "비교하는 두 대상을 모두 보존하고 단순 등장만으로 비교 충족을 표시하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 두 조직 비교에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "암석의 소재는 확인되지만 두 조직 비교의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "암석와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q096",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "topic_family": "ROCK",
+      "topic_family_label": "암석 조직·생성·변화",
+      "split": "final",
+      "primary_test_type": "시간·자막·형식·프로그램 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "암석이 만들어지는 과정을 보여주는 자료 중 자막이 있는 것으로 찾아주세요",
+      "lesson_goal": "암석 생성에 대해 생성 과정을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "암석 생성"
+        ],
+        "requested_content_or_relation": [
+          "생성 과정"
+        ],
+        "required_conditions": [
+          {
+            "condition": "자막 제공",
+            "supporting_phrase": "자막이 있는"
+          }
+        ],
+        "excluded_conditions": [],
+        "preferences": [],
+        "logical_structure": "SINGLE: 생성 과정",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 자막 제공 여부"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "형식/프로그램/전체 길이/자막 조건을 주제 단어나 선호로 축소하지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 생성 과정에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "암석 생성의 소재는 확인되지만 생성 과정의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "암석 생성와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    },
+    {
+      "id": "Q100",
+      "origin": "AI_AUTHORED_TEACHER_PROXY",
+      "actual_teacher_request": false,
+      "grade_context": "중학교1학년 참고",
+      "subject": "과학",
+      "topic_family": "ROCK",
+      "topic_family_label": "암석 조직·생성·변화",
+      "split": "final",
+      "primary_test_type": "제외·부정 조건 요청",
+      "secondary_test_types": [
+        "내용·관계 근거",
+        "실제 영상 확인 필요"
+      ],
+      "query": "암석의 변화를 보여주는 자료를 찾고 있어요 돌 장식품 제품 광고는 제외해주세요",
+      "lesson_goal": "암석 변화에 대해 변화을 다루는 수업 문맥. 공식 단원/학년 배치를 보증하지 않음.",
+      "usage_purpose": "조건에 맞는 자료 탐색",
+      "expected_interpretation": {
+        "core_topic": [
+          "암석 변화"
+        ],
+        "requested_content_or_relation": [
+          "변화"
+        ],
+        "required_conditions": [],
+        "excluded_conditions": [
+          {
+            "condition": "돌 장식품 제품 광고는",
+            "supporting_phrase": "돌 장식품 제품 광고는 제외해주세요"
+          }
+        ],
+        "preferences": [],
+        "logical_structure": "SINGLE: 변화",
+        "needs_clarification": [],
+        "not_verifiable_from_description_alone": [
+          "실제 영상 장면과 교사의 대상 학년/수업에 대한 적합성"
+        ]
+      },
+      "interpretation_errors_to_watch": [
+        "제외되는 대상/장면을 양의 검색어나 주제 전체 제외로 바꾸지 않기",
+        "요청한 내용/관계의 원문 근거와 주제 언급만 있는 후보를 구분하기"
+      ],
+      "candidate_judgment_criteria": {
+        "suitable": "자기 회차 원문 또는 실제 확인한 영상에서 변화에 대응하는 내용 근거가 있고, 명시된 필수·제외 조건에 위배되지 않음. 학년 적합성은 별도 확인.",
+        "partial": "암석 변화의 소재는 확인되지만 변화의 구체적 내용·관계 또는 일부 필수 조건은 확인되지 않음.",
+        "insufficient_evidence": "제목 반복/소개문 없음/관련 관계·필수 조건의 근거 부족이면 원문 부족 또는 판단 보류로 남긴다. 영상 내용을 생성하지 않는다.",
+        "unsuitable": "암석 변화와 의미상 무관하거나 명시 필수·제외 조건을 위반함. 단어 일치만으로 적합으로 표시하지 않는다."
+      },
+      "empty_result_interpretation": "자료 미수집·공식 텍스트 부족·요청 해석/후보 발견 실패·명시 조건 불충족을 구분할 근거를 추가 확인한다. 빈 결과만으로 미보유를 확정하지 않는다.",
+      "known_answer_ids": [],
+      "independent_human_review": "NOT_REVIEWED"
+    }
+  ]
+}

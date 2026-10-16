@@ -1,0 +1,1149 @@
+{
+  "checkedAt": "2026-10-15T14:22:31.798Z",
+  "samples": 16,
+  "rows": [
+    {
+      "query": "갯벌 생태계",
+      "id": "BCAST-3225002c08823553e9cf",
+      "title": "자막갯벌의 방랑자들",
+      "related": [
+        {
+          "id": "4과06-03",
+          "score": 48.335742253148965,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘갯벌’ 포함 / 자료 내용: 공식 문장에 ‘갯벌’ 포함",
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.111914084382988,
+          "searchScore": 16.111914084382988
+        },
+        {
+          "id": "6사01-01",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 해안 지형와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 해안 지형와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        }
+      ],
+      "total": 2,
+      "beforeIds": [
+        "4과06-03",
+        "4사03-01",
+        "4사07-01",
+        "6사07-02",
+        "6사01-01"
+      ]
+    },
+    {
+      "query": "갯벌 생태계",
+      "id": "BCAST-1ec3e5b4c8845d1b5031",
+      "title": "강화갯벌이 살아있는 까닭",
+      "related": [
+        {
+          "id": "4과06-03",
+          "score": 48.335742253148965,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘갯벌’ 포함 / 자료 내용: 공식 문장에 ‘갯벌’ 포함",
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.111914084382988,
+          "searchScore": 16.111914084382988
+        },
+        {
+          "id": "6사01-01",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 해안 지형와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 해안 지형와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        }
+      ],
+      "total": 2,
+      "beforeIds": [
+        "4과06-03",
+        "6사01-01"
+      ]
+    },
+    {
+      "query": "기후 변화",
+      "id": "BCAST-c758a0cc89b6305a56c0",
+      "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+      "related": [
+        {
+          "id": "6사02-01",
+          "score": 58.13378314912558,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘기후’ 포함 / 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘기후’ · ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후",
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "contentScore": 26.040995786380257,
+          "searchScore": 16.04639368137266
+        },
+        {
+          "id": "6사10-02",
+          "score": 42.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘기후’ 포함 / 자료 내용: 공식 문장에 ‘기후’ 포함",
+          "matchedTerms": [
+            "기후"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 14.04639368137266
+        },
+        {
+          "id": "4과16-01",
+          "score": 15.994602105007596,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.994602105007596,
+          "searchScore": 2
+        },
+        {
+          "id": "4과16-02",
+          "score": 15.994602105007596,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.994602105007596,
+          "searchScore": 2
+        },
+        {
+          "id": "4과16-03",
+          "score": 15.994602105007596,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘기후변화’ 포함",
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.994602105007596,
+          "searchScore": 2
+        },
+        {
+          "id": "9사(지리)03-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        }
+      ],
+      "total": 11,
+      "beforeIds": [
+        "6사02-01",
+        "6사10-02",
+        "4과16-01",
+        "4과16-02",
+        "4과16-03",
+        "4사10-02",
+        "6사02-02",
+        "6사12-01"
+      ]
+    },
+    {
+      "query": "기후 변화",
+      "id": "BCAST-e62e352286bfdf0e7886",
+      "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+      "related": [
+        {
+          "id": "6사10-02",
+          "score": 48.78565272450287,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘기후’ 포함 / 자료 내용: 공식 문장에 ‘기후’ · ‘환경’ 포함",
+          "matchedTerms": [
+            "기후",
+            "환경"
+          ],
+          "ruleSupported": false,
+          "contentScore": 20.692865361757548,
+          "searchScore": 14.04639368137266
+        },
+        {
+          "id": "6사02-01",
+          "score": 48.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘기후’ 포함 / 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘기후’ 포함 / 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [
+            "기후"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.04639368137266,
+          "searchScore": 16.04639368137266
+        },
+        {
+          "id": "4과16-02",
+          "score": 12.646471680384888,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘환경’ 포함 / 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [
+            "환경"
+          ],
+          "ruleSupported": false,
+          "contentScore": 8.646471680384888,
+          "searchScore": 2
+        },
+        {
+          "id": "4과16-01",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4과16-03",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "9사(지리)03-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 기후 변화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 기후 변화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4과11-04",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘지진’ 포함",
+          "matchedTerms": [
+            "지진"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.111914084382988,
+          "searchScore": 0
+        },
+        {
+          "id": "6과06-01",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘기상’ 포함",
+          "matchedTerms": [
+            "기상"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 0
+        }
+      ],
+      "total": 27,
+      "beforeIds": [
+        "6사10-02",
+        "4과11-04",
+        "6사02-01",
+        "6과06-01",
+        "6과06-03",
+        "6과01-03",
+        "6과04-01",
+        "6과14-04"
+      ]
+    },
+    {
+      "query": "민주주의",
+      "id": "BCAST-6bf85a6bbbea59cc5bba",
+      "title": "민주주의 1부 시민의 권력의지",
+      "related": [
+        {
+          "id": "9사(일사)03-03",
+          "score": 37.46839019649679,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": false,
+          "contentScore": 17.52897515534213,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)04-03",
+          "score": 37.46839019649679,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": false,
+          "contentScore": 17.52897515534213,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "4사08-01",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "4사08-02",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "6사08-03",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)03-01",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)03-02",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "6사08-01",
+          "score": 27.49868267591946,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ · ‘시민’ 포함",
+          "matchedTerms": [
+            "민주주의",
+            "시민"
+          ],
+          "ruleSupported": true,
+          "contentScore": 14.205739315149689,
+          "searchScore": 6.646471680384887
+        }
+      ],
+      "total": 17,
+      "beforeIds": [
+        "9사(일사)03-03",
+        "9사(일사)04-03",
+        "6사08-01",
+        "4사02-01",
+        "4사02-03",
+        "4사06-02",
+        "4사09-02",
+        "4사08-01"
+      ]
+    },
+    {
+      "query": "민주주의",
+      "id": "BCAST-ce98e55c1c58597bfca3",
+      "title": "민주주의 4부 기업과 민주주의",
+      "related": [
+        {
+          "id": "4사08-01",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "4사08-02",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "6사08-03",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)03-01",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)03-02",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)03-03",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "9사(일사)04-03",
+          "score": 29.90912256173199,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 9.96970752057733
+        },
+        {
+          "id": "6사08-01",
+          "score": 19.93941504115466,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘민주주의’ 포함 / 자료 내용: 공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": true,
+          "contentScore": 6.646471680384887,
+          "searchScore": 6.646471680384887
+        }
+      ],
+      "total": 17,
+      "beforeIds": [
+        "6사11-01",
+        "4사02-01",
+        "4사02-03",
+        "4사06-02",
+        "4사09-02",
+        "4사08-01",
+        "4사08-02",
+        "6사08-03"
+      ]
+    },
+    {
+      "query": "다문화",
+      "id": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "related": [
+        {
+          "id": "9사(지리)02-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 다문화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 다문화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "6사12-02",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘지구촌’ 포함",
+          "matchedTerms": [
+            "지구촌"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.111914084382988,
+          "searchScore": 0
+        }
+      ],
+      "total": 2,
+      "beforeIds": [
+        "6사12-02",
+        "9사(지리)02-02"
+      ]
+    },
+    {
+      "query": "다문화",
+      "id": "BCAST-0da6153d0ef4a3c2caa0",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가",
+      "related": [
+        {
+          "id": "9사(지리)02-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 다문화와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 다문화와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4사02-02",
+          "score": 14.04639368137266,
+          "reason": "공식 문장에 ‘과거’ 포함",
+          "matchedTerms": [
+            "과거"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 0
+        },
+        {
+          "id": "6사03-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "6사03-02",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(일사)06-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘인권’ 포함",
+          "matchedTerms": [
+            "인권"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "4사08-01",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 0
+        },
+        {
+          "id": "4사08-02",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 0
+        },
+        {
+          "id": "6사08-03",
+          "score": 9.96970752057733,
+          "reason": "공식 문장에 ‘민주주의’ 포함",
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "ruleSupported": false,
+          "contentScore": 9.96970752057733,
+          "searchScore": 0
+        }
+      ],
+      "total": 25,
+      "beforeIds": [
+        "4사02-02",
+        "6사03-01",
+        "6사03-02",
+        "9사(일사)06-01",
+        "4사08-01",
+        "4사08-02",
+        "6사08-03",
+        "9사(일사)03-01"
+      ]
+    },
+    {
+      "query": "독립운동",
+      "id": "BCAST-2d093401c6622a3a2018",
+      "title": "어느 독립운동가 부부의 일기",
+      "related": [],
+      "total": 0,
+      "beforeIds": []
+    },
+    {
+      "query": "독립운동",
+      "id": "BCAST-468ae4bf5265da1006aa",
+      "title": "또 하나의 독립운동 - 2부 나라를 구하는데 귀천은 없다!",
+      "related": [],
+      "total": 0,
+      "beforeIds": []
+    },
+    {
+      "query": "인체",
+      "id": "BCAST-2f3a535e0d4903c63a21",
+      "title": "자막겨울, 몸속 노폐물 배출에 도움 주는 ‘해조류’",
+      "related": [
+        {
+          "id": "6과04-03",
+          "score": 16.741276056255323,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 인체와 공식 문장 연결 / 자료 내용: 공식 문장에 ‘건강’ 포함 / 기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [
+            "건강"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.741276056255325,
+          "searchScore": 2
+        },
+        {
+          "id": "6과04-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 인체와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4과06-01",
+          "score": 16.111914084382988,
+          "reason": "공식 문장에 ‘바다’ 포함",
+          "matchedTerms": [
+            "바다"
+          ],
+          "ruleSupported": false,
+          "contentScore": 16.111914084382988,
+          "searchScore": 0
+        },
+        {
+          "id": "4과05-01",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.996471760050242,
+          "searchScore": 0
+        },
+        {
+          "id": "4과05-02",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.996471760050242,
+          "searchScore": 0
+        },
+        {
+          "id": "4과05-03",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.996471760050242,
+          "searchScore": 0
+        },
+        {
+          "id": "6과14-01",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.996471760050242,
+          "searchScore": 0
+        },
+        {
+          "id": "6과14-02",
+          "score": 7.996471760050242,
+          "reason": "공식 문장에 ‘물질’ 포함",
+          "matchedTerms": [
+            "물질"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.996471760050242,
+          "searchScore": 0
+        }
+      ],
+      "total": 27,
+      "beforeIds": [
+        "4과06-01",
+        "6과04-03",
+        "4과05-01",
+        "4과05-02",
+        "4과05-03",
+        "6과14-01",
+        "6과14-02",
+        "6과14-03"
+      ]
+    },
+    {
+      "query": "인체",
+      "id": "BCAST-fec3234717c50a22d199",
+      "title": "내 몸속의 돌, 결석",
+      "related": [
+        {
+          "id": "6과04-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 인체와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "6과04-03",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 인체와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 인체와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "6사12-01",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(지리)02-03",
+          "score": 7.559267634764801,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.559267634764801,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(지리)05-02",
+          "score": 7.559267634764801,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 7.559267634764801,
+          "searchScore": 0
+        }
+      ],
+      "total": 7,
+      "beforeIds": [
+        "4사10-02",
+        "6사02-02",
+        "6사12-01",
+        "9사(지리)02-03",
+        "9사(지리)05-02",
+        "6과04-02",
+        "6과04-03"
+      ]
+    },
+    {
+      "query": "화산",
+      "id": "BCAST-c55fce5d55a4c0af8b22",
+      "title": "화산은 왜 폭발할까?",
+      "related": [
+        {
+          "id": "4과11-02",
+          "score": 42.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘화산’ 포함 / 자료 내용: 공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 14.04639368137266
+        },
+        {
+          "id": "4과11-04",
+          "score": 42.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘화산’ 포함 / 자료 내용: 공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 14.04639368137266
+        }
+      ],
+      "total": 2,
+      "beforeIds": [
+        "4과11-02",
+        "4과11-04"
+      ]
+    },
+    {
+      "query": "화산",
+      "id": "BCAST-af19741ff313f1c6f411",
+      "title": "화산 곁에 사는 이유",
+      "related": [
+        {
+          "id": "4과11-02",
+          "score": 42.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘화산’ 포함 / 자료 내용: 공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 14.04639368137266
+        },
+        {
+          "id": "4과11-04",
+          "score": 42.139181044117976,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘화산’ 포함 / 자료 내용: 공식 문장에 ‘화산’ 포함",
+          "matchedTerms": [
+            "화산"
+          ],
+          "ruleSupported": false,
+          "contentScore": 14.04639368137266,
+          "searchScore": 14.04639368137266
+        },
+        {
+          "id": "4과14-01",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "4과14-03",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "6과14-04",
+          "score": 12.84385519461705,
+          "reason": "공식 문장에 ‘생태계’ 포함",
+          "matchedTerms": [
+            "생태계"
+          ],
+          "ruleSupported": true,
+          "contentScore": 12.84385519461705,
+          "searchScore": 0
+        },
+        {
+          "id": "4사10-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "6사02-02",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        },
+        {
+          "id": "6사12-01",
+          "score": 11.338901452147201,
+          "reason": "공식 문장에 ‘인구’ 포함",
+          "matchedTerms": [
+            "인구"
+          ],
+          "ruleSupported": false,
+          "contentScore": 11.338901452147201,
+          "searchScore": 0
+        }
+      ],
+      "total": 20,
+      "beforeIds": [
+        "4과11-02",
+        "4과11-04",
+        "4과14-01",
+        "4과14-03",
+        "6과14-04",
+        "4사10-02",
+        "6사02-02",
+        "6사12-01"
+      ]
+    },
+    {
+      "query": "전기",
+      "id": "BCAST-35d03677c15100e1bb42",
+      "title": "32화_전기와 자기, 어떻게 하나가 되었나?",
+      "related": [
+        {
+          "id": "6과15-01",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과15-02",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과15-04",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과08-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 에너지와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "6과08-03",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 에너지와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "4과01-01",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "contentScore": 10.80560423137292,
+          "searchScore": 0
+        },
+        {
+          "id": "4과01-04",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "contentScore": 10.80560423137292,
+          "searchScore": 0
+        },
+        {
+          "id": "9과05-01",
+          "score": 10.80560423137292,
+          "reason": "공식 문장에 ‘힘’ 포함",
+          "matchedTerms": [
+            "힘"
+          ],
+          "ruleSupported": false,
+          "contentScore": 10.80560423137292,
+          "searchScore": 0
+        }
+      ],
+      "total": 19,
+      "beforeIds": [
+        "4과01-01",
+        "4과09-01",
+        "6과15-01",
+        "6과15-02",
+        "6과15-04",
+        "4과01-04",
+        "9과05-01",
+        "9과05-02"
+      ]
+    },
+    {
+      "query": "전기",
+      "id": "BCAST-50097e29c7678df133ee",
+      "title": "전기가 어떻게 우리 집에 올까? 딩동",
+      "related": [
+        {
+          "id": "6과15-01",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과15-02",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과15-04",
+          "score": 38.53156558385115,
+          "reason": "자료를 찾은 검색어와 관련: 공식 문장에 ‘전기’ 포함 / 자료 내용: 공식 문장에 ‘전기’ 포함",
+          "matchedTerms": [
+            "전기"
+          ],
+          "ruleSupported": false,
+          "contentScore": 12.84385519461705,
+          "searchScore": 12.84385519461705
+        },
+        {
+          "id": "6과08-02",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 에너지와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        },
+        {
+          "id": "6과08-03",
+          "score": 6,
+          "reason": "자료를 찾은 검색어와 관련: 기존 주제 어휘 에너지와 공식 문장 연결 / 자료 내용: 기존 주제 어휘 에너지와 공식 문장 연결",
+          "matchedTerms": [],
+          "ruleSupported": false,
+          "contentScore": 2,
+          "searchScore": 2
+        }
+      ],
+      "total": 5,
+      "beforeIds": [
+        "6과15-01",
+        "6과15-02",
+        "6과15-04",
+        "6과08-02",
+        "6과08-03"
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

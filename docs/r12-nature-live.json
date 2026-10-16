@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-15T02:58:03.309Z",
+  "rows": [
+    {
+      "q": "갯벌 생태계",
+      "total": 5,
+      "programs": [],
+      "genres": [],
+      "results": [
+        {
+          "id": "BCAST-1ec3e5b4c8845d1b5031",
+          "title": "강화갯벌이 살아있는 까닭",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "program": "고향민국",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-476930fd6c046ab2c55c",
+          "title": "유부도 겨울철새 이야기",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-3225002c08823553e9cf",
+          "title": "자막갯벌의 방랑자들",
+          "program": "이것이 야생이다",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-17b49b656eeabd655058",
+          "title": "자막최후의 진객 점박이 물범은 살아있다",
+          "program": "이것이 야생이다",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        }
+      ]
+    },
+    {
+      "q": "갯벌 자연 다큐",
+      "total": 2,
+      "programs": [],
+      "genres": [
+        "다큐멘터리"
+      ],
+      "results": [
+        {
+          "id": "BCAST-1ec3e5b4c8845d1b5031",
+          "title": "강화갯벌이 살아있는 까닭",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "programCategory",
+              "quote": "자연·과학/다큐멘터리",
+              "sourceText": "자연·과학/다큐멘터리",
+              "sourceUrl": "https://www.ebs.co.kr/tv/search/programListNew",
+              "sourcePage": 57,
+              "checkedAt": "2026-09-30T13:12:31.520Z",
+              "sourceRecordHash": "a08e90e161159fc8051b6a33bd0f343ace3bf066f25eba8496ba860fbd874108",
+              "status": "OFFICIAL_PROGRAM_CATEGORY"
+            }
+          ],
+          "meaning": [
+            {
+              "requested": "자연환경",
+              "meaning": "natural-environment",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "sourceSupplement",
+                  "start": 383,
+                  "end": 385,
+                  "quote": "갯벌",
+                  "supplementId": "1bf1ffcea178e413391d41fb",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000109272"
+                },
+                {
+                  "field": "sourceSupplement",
+                  "start": 370,
+                  "end": 372,
+                  "quote": "정화",
+                  "supplementId": "1bf1ffcea178e413391d41fb",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000109272"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        },
+        {
+          "id": "BCAST-3225002c08823553e9cf",
+          "title": "자막갯벌의 방랑자들",
+          "program": "이것이 야생이다",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "programFormatEvidence",
+              "quote": "호랑이도 두려워하지 않는 와일드한 남자 최수종이, 자연과 야생의 정수를 실제 현장에서 몸으로 겪으며 생생히 전하는 12부작 생태 다큐멘터리 <이것이 야생이다3 – 3%의 세상>은 6월 2일 시청자에게 첫 방송을 선보인다.",
+              "sourceText": "호랑이도 두려워하지 않는 와일드한 남자 최수종이, 자연과 야생의 정수를 실제 현장에서 몸으로 겪으며 생생히 전하는 12부작 생태 다큐멘터리 <이것이 야생이다3 – 3%의 세상>은 6월 2일 시청자에게 첫 방송을 선보인다.",
+              "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001132009",
+              "checkedAt": "2026-10-15T02:50:43.799Z",
+              "sourceRecordHash": "250c13da2d1d769480169736d5a901d89ed235c747497a8b77344f2fb0b7d722",
+              "status": "OFFICIAL_PROGRAM_DECLARATION"
+            }
+          ],
+          "meaning": [
+            {
+              "requested": "자연환경",
+              "meaning": "natural-environment",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "sourceSupplement",
+                  "start": 922,
+                  "end": 924,
+                  "quote": "철새",
+                  "supplementId": "a993909e2409327bf464be4b",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001277134"
+                },
+                {
+                  "field": "sourceSupplement",
+                  "start": 953,
+                  "end": 955,
+                  "quote": "사냥",
+                  "supplementId": "a993909e2409327bf464be4b",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001277134"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "갯벌 생태계 자연 다큐",
+      "total": 2,
+      "programs": [],
+      "genres": [
+        "다큐멘터리"
+      ],
+      "results": [
+        {
+          "id": "BCAST-1ec3e5b4c8845d1b5031",
+          "title": "강화갯벌이 살아있는 까닭",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "programCategory",
+              "quote": "자연·과학/다큐멘터리",
+              "sourceText": "자연·과학/다큐멘터리",
+              "sourceUrl": "https://www.ebs.co.kr/tv/search/programListNew",
+              "sourcePage": 57,
+              "checkedAt": "2026-09-30T13:12:31.520Z",
+              "sourceRecordHash": "a08e90e161159fc8051b6a33bd0f343ace3bf066f25eba8496ba860fbd874108",
+              "status": "OFFICIAL_PROGRAM_CATEGORY"
+            }
+          ],
+          "meaning": [
+            {
+              "requested": "자연환경",
+              "meaning": "natural-environment",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "sourceSupplement",
+                  "start": 383,
+                  "end": 385,
+                  "quote": "갯벌",
+                  "supplementId": "1bf1ffcea178e413391d41fb",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000109272"
+                },
+                {
+                  "field": "sourceSupplement",
+                  "start": 370,
+                  "end": 372,
+                  "quote": "정화",
+                  "supplementId": "1bf1ffcea178e413391d41fb",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000109272"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        },
+        {
+          "id": "BCAST-3225002c08823553e9cf",
+          "title": "자막갯벌의 방랑자들",
+          "program": "이것이 야생이다",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [
+            {
+              "label": "다큐멘터리",
+              "field": "programFormatEvidence",
+              "quote": "호랑이도 두려워하지 않는 와일드한 남자 최수종이, 자연과 야생의 정수를 실제 현장에서 몸으로 겪으며 생생히 전하는 12부작 생태 다큐멘터리 <이것이 야생이다3 – 3%의 세상>은 6월 2일 시청자에게 첫 방송을 선보인다.",
+              "sourceText": "호랑이도 두려워하지 않는 와일드한 남자 최수종이, 자연과 야생의 정수를 실제 현장에서 몸으로 겪으며 생생히 전하는 12부작 생태 다큐멘터리 <이것이 야생이다3 – 3%의 세상>은 6월 2일 시청자에게 첫 방송을 선보인다.",
+              "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001132009",
+              "checkedAt": "2026-10-15T02:50:43.799Z",
+              "sourceRecordHash": "250c13da2d1d769480169736d5a901d89ed235c747497a8b77344f2fb0b7d722",
+              "status": "OFFICIAL_PROGRAM_DECLARATION"
+            }
+          ],
+          "meaning": [
+            {
+              "requested": "자연환경",
+              "meaning": "natural-environment",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "CONTEXT_COMPOSITION",
+              "evidence": [
+                {
+                  "field": "sourceSupplement",
+                  "start": 922,
+                  "end": 924,
+                  "quote": "철새",
+                  "supplementId": "a993909e2409327bf464be4b",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001277134"
+                },
+                {
+                  "field": "sourceSupplement",
+                  "start": 953,
+                  "end": 955,
+                  "quote": "사냥",
+                  "supplementId": "a993909e2409327bf464be4b",
+                  "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30001277134"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q": "숲 생태계",
+      "total": 16,
+      "programs": [],
+      "genres": [],
+      "results": [
+        {
+          "id": "BCAST-ae48647f3c062e9cbe3a",
+          "title": "바다에 숲을 일구다",
+          "program": "하나뿐인 지구",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-693737e6156fa8a91173",
+          "title": "생명의 땅 캄보디아 -1부- 숲에 깃든 생명들",
+          "program": "EBS 다큐프라임",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-995e7790116ad079a69a",
+          "title": "숲이 있었던 자리",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-156fdaed91f0ea50dba7",
+          "title": "생존의 무기",
+          "program": "지식채널e",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-29c762aa7b3ea2edaf04",
+          "title": "맹그로브의 눈물",
+          "program": "하나뿐인 지구",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        }
+      ]
+    },
+    {
+      "q": "습지 생태계",
+      "total": 10,
+      "programs": [],
+      "genres": [],
+      "results": [
+        {
+          "id": "BCAST-cf6767d667fe2fb14a5a",
+          "title": "습지 생명을 품다",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-44b8db12573eeaebde03",
+          "title": "섬 속의 늪, 장도 습지를 가다",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-2b665a04bab9bb38affb",
+          "title": "모래가 만든 내성천이야기",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-29b3312b45abb429d2ab",
+          "title": "자연의 쉼터, 고산습지를 가다",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-c2af7ac41ebde7172762",
+          "title": "살아있는 모래언덕 소황사구",
+          "program": "하나뿐인 지구",
+          "guide": "OFFICIAL_SUPPLEMENT_EXTRACT",
+          "genreEvidence": [],
+          "meaning": []
+        }
+      ]
+    },
+    {
+      "q": "사막 자연 다큐",
+      "total": 0,
+      "programs": [],
+      "genres": [
+        "다큐멘터리"
+      ],
+      "results": []
+    },
+    {
+      "q": "생물 다양성",
+      "total": 40,
+      "programs": [],
+      "genres": [],
+      "results": [
+        {
+          "id": "BCAST-8977151dbbe310684856",
+          "title": "26화_대멸종, 살 것인가, 사라질 것인가?",
+          "program": "취미는 과학",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-9694ae80039caa136731",
+          "title": "56화_예쁜꼬마선충, 왜 노벨상을 4개나 탔나?",
+          "program": "취미는 과학",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-d854100f308ca8a9c368",
+          "title": "73화_심해, 그 깊은 곳에 어떻게 생명이 사나?",
+          "program": "취미는 과학",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-1bd8777cbf5d4b5bcada",
+          "title": "91화_게임이론, 인간은 왜 서로를 배신할까?",
+          "program": "취미는 과학",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        },
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+          "program": "EBS 다큐프라임",
+          "guide": "SOURCE_SENTENCE_SELECTION",
+          "genreEvidence": [],
+          "meaning": []
+        }
+      ]
+    },
+    {
+      "q": "생태계 유니콘",
+      "total": 0,
+      "programs": [],
+      "genres": [],
+      "results": []
+    }
+  ],
+  "checks": [
+    "실제 GET 8질의",
+    "강화갯벌 검색 결과",
+    "공식 보조 설명 표시",
+    "기존 상세 정보 숨김 유지",
+    "1440/390px 가로 넘침 없음",
+    "브라우저 오류 없음"
+  ],
+  "errors": [],
+  "paidApiCalls": 0,
+  "postIndexCheck": {
+    "checkedAt": "2026-10-15T03:09:36.785Z",
+    "rows": [
+      {
+        "q": "갯벌 생태계",
+        "total": 5
+      },
+      {
+        "q": "갯벌 자연 다큐",
+        "total": 2
+      },
+      {
+        "q": "숲 생태계",
+        "total": 16
+      },
+      {
+        "q": "습지 생태계",
+        "total": 10
+      },
+      {
+        "q": "생물 다양성",
+        "total": 40
+      }
+    ]
+  }
+}

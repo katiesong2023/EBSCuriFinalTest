@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-10-15T02:58:25.499Z",
+  "resources": 23403,
+  "passages": 31506,
+  "embedded": 1091,
+  "reused": 30415,
+  "tokens": 33940,
+  "truncated": 0,
+  "elapsedMs": 10148,
+  "peakRssBytes": 843546624,
+  "paidApiCalls": 0,
+  "specKey": "f41f45026459306c62d62c0a4ddff2e4f5a2bf0316a5b2519d522efda6059a3c"
+}

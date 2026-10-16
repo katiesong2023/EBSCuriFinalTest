@@ -1,0 +1,1614 @@
+{
+  "generatedAt": "2026-09-30T14:09:18.967Z",
+  "method": "현재 출처 기반 탐색 엔진의 가상 수업 요청·핵심어 전수 실행. 교사 평가·정답셋 아님.",
+  "catalog": {
+    "catalog": 22118,
+    "individual": 21674,
+    "collections": 444,
+    "withDescription": 8292,
+    "workingSet": 144,
+    "indexedContents": 4,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22692,
+    "broadcastCatalog": 22753,
+    "broadcastDescriptions": 10175,
+    "broadcastPrograms": 88,
+    "broadcastTitleGroups": 21511,
+    "directLinks": 341
+  },
+  "summary": {
+    "scenarios": 30,
+    "requestsWithResults": 15,
+    "keywordsWithResults": 30,
+    "keywordsWithDirectResults": 22,
+    "uniqueKeywordCandidates": 425,
+    "keywordGaps": []
+  },
+  "paidApiCalls": 0,
+  "storeUnchanged": true,
+  "storeSha256": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "rows": [
+    {
+      "id": "G01",
+      "area": "지리·지역",
+      "situation": "산지와 평야 비교",
+      "teacherQuery": "동고서저 관련 클립을 추천해줘",
+      "keyword": "동고서저",
+      "need": "동쪽 산지와 서쪽 평야의 실제 장면 및 비교 근거",
+      "requestTotal": 10,
+      "requestTerms": [],
+      "keywordTotal": 10,
+      "directTotal": 8,
+      "candidateIds": [
+        "GEO-GIMJE",
+        "BCAST-0266ccbdac38db6404e4",
+        "BCAST-5b234f3204d1a1f0bafe",
+        "BCAST-aa3cb0d6fea4f682a051",
+        "BCAST-f35136de026124c367f9",
+        "GEO-SEORAK",
+        "BCAST-c347d2077a1034de7187",
+        "BCAST-02f70c649210a81d4877",
+        "GEO-PARK-SEORAK",
+        "ECLIP-046"
+      ],
+      "samples": [
+        {
+          "id": "GEO-GIMJE",
+          "title": "김제 — 1부 하늘, 땅을 만나다 지평선 이야기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3054984"
+        },
+        {
+          "id": "BCAST-0266ccbdac38db6404e4",
+          "title": "또 걸어보길 1부 금강산에서 해파랑까지",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60542547"
+        },
+        {
+          "id": "BCAST-5b234f3204d1a1f0bafe",
+          "title": "바람이 불어오는 곳 2부 설악산에 삽니다",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60077085"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "G02",
+      "area": "지리·지역",
+      "situation": "화산 지형 관찰",
+      "teacherQuery": "화산 지형을 보여줘",
+      "keyword": "화산 지형",
+      "need": "화산 분화구·용암 지형을 식별할 수 있는 장면",
+      "requestTotal": 17,
+      "requestTerms": [],
+      "keywordTotal": 17,
+      "directTotal": 9,
+      "candidateIds": [
+        "GEO-PARK-HALLA",
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-faaaeedd22b29cb42374",
+        "PDLOG-049",
+        "BCAST-2de9653994aee5d47437",
+        "BCAST-a29fff109e61a3dcab2d",
+        "BCAST-5ec45c008c1863534e1a",
+        "BCAST-16cc4ce5d4cb31a53206",
+        "BCAST-75973addd4733d3d5692",
+        "BCAST-af19741ff313f1c6f411",
+        "BCAST-b7ea99f0dd385b579d34",
+        "BCAST-9350c53086c93422c7b8",
+        "BCAST-cac6ad61ab562eb6abc2",
+        "BCAST-0ec326f52253e62ce575",
+        "BCAST-9d9b7dd76eae5f405a8d",
+        "BCAST-294e0b9e721b2f2131eb",
+        "BCAST-791196c0822a06144ed5"
+      ],
+      "samples": [
+        {
+          "id": "GEO-PARK-HALLA",
+          "title": "제7호 한라산 국립공원",
+          "kind": "lesson",
+          "evidenceLevel": "INDEXED_DESCRIPTION",
+          "url": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade"
+        },
+        {
+          "id": "BCAST-e62e352286bfdf0e7886",
+          "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067"
+        },
+        {
+          "id": "BCAST-faaaeedd22b29cb42374",
+          "title": "900개의 영혼,파푸아뉴기니 1부 화산섬, 마투핏",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055774&lectId=10316791"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "G03",
+      "area": "지리·지역",
+      "situation": "해안 지형 비교",
+      "teacherQuery": "해안 지형 관련 영상 추천해줘",
+      "keyword": "해안 지형",
+      "need": "동해안과 서해안의 특징을 비교할 서로 다른 자료",
+      "requestTotal": 1,
+      "requestTerms": [],
+      "keywordTotal": 1,
+      "directTotal": 0,
+      "candidateIds": [
+        "GEO-PARK-HALLYEO"
+      ],
+      "samples": [
+        {
+          "id": "GEO-PARK-HALLYEO",
+          "title": "제4호 한려해상 국립공원",
+          "kind": "lesson",
+          "evidenceLevel": "INDEXED_DESCRIPTION",
+          "url": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "G04",
+      "area": "지리·지역",
+      "situation": "산지의 생활",
+      "teacherQuery": "지리산에서 일하는 사람들의 생활을 보여줘",
+      "keyword": "지리산",
+      "need": "산지 환경과 생활 방식의 관계를 보여주는 소개문·장면",
+      "requestTotal": 0,
+      "requestTerms": [
+        "지리산",
+        "일하",
+        "사람들"
+      ],
+      "keywordTotal": 25,
+      "directTotal": 1,
+      "candidateIds": [
+        "PDLOG-060",
+        "BCAST-dfcfb7d2c2751fa5a2c6",
+        "BCAST-f7a1dc12090d9e89d747",
+        "BCAST-a9beff30a9c25bcdd6c2",
+        "BCAST-1b4143a6d9e63657eebf",
+        "BCAST-2569f1e3b679713fc41b",
+        "BCAST-fd346f17b648ef4c753d",
+        "BCAST-7e41a6d27b03b26e927e",
+        "BCAST-2649775f39f34397896b",
+        "BCAST-67c3679bcc42f901ac9a",
+        "BCAST-965e84046e9548b7e13e",
+        "BCAST-bbe80d0a42b932f81c5c",
+        "BCAST-ad225030d8a35be5f78e",
+        "BCAST-4e2095ee2646b013f31e",
+        "BCAST-08a11a67fd30e9ca7f10",
+        "BCAST-69481aff956e8cf27c4b",
+        "BCAST-9d1e1c405b5ab9575183",
+        "BCAST-c2b6682e589f28cda93d",
+        "BCAST-24a9f5065381e926c515",
+        "BCAST-bb006f583fe1a928dd5c",
+        "BCAST-21fe023e48ab96c4c0a5",
+        "BCAST-bf8ac9cdb7e9036830da",
+        "BCAST-30e37d164cf570579083",
+        "BCAST-971a386f0c2c1a02026e",
+        "BCAST-8b304f5e04c714687134"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-060",
+          "title": "해발 1,601미터로 출근합니다, 지리산 대피소",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60613869"
+        },
+        {
+          "id": "BCAST-dfcfb7d2c2751fa5a2c6",
+          "title": "山에 사네, 지리산 사람들",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10405522"
+        },
+        {
+          "id": "BCAST-f7a1dc12090d9e89d747",
+          "title": "섬진강 은어 지리산 석이",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10515558"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "G05",
+      "area": "지리·지역",
+      "situation": "영토와 바다",
+      "teacherQuery": "우리나라 영해 관련 클립 찾아줘",
+      "keyword": "영해",
+      "need": "영해 설명과 지도, 표현의 최신성 확인",
+      "requestTotal": 2,
+      "requestTerms": [
+        "영해"
+      ],
+      "keywordTotal": 2,
+      "directTotal": 1,
+      "candidateIds": [
+        "BCAST-a243129f08f5622ea60a",
+        "ECLIP-047"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-a243129f08f5622ea60a",
+          "title": "여섯 번째 대멸종 4부-사라진 경계",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055783&lectId=60145878"
+        },
+        {
+          "id": "ECLIP-047",
+          "title": "우리나라의 영해",
+          "kind": "clip",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10019659&lectureId=LS0000000010294001&clipId=CS000000000000005148"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "G06",
+      "area": "지리·지역",
+      "situation": "인구 분포와 지역 문제",
+      "teacherQuery": "인구 감소로 달라진 지역 생활을 보여줘",
+      "keyword": "인구",
+      "need": "지역별 인구 변화와 생활 변화의 구체적 사례",
+      "requestTotal": 0,
+      "requestTerms": [
+        "감소",
+        "달라진"
+      ],
+      "keywordTotal": 28,
+      "directTotal": 6,
+      "candidateIds": [
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-aedb344a88a7c6293744",
+        "BCAST-95cde06223e3b1919195",
+        "BCAST-6998a10b7de63e82b3d4",
+        "BCAST-f2008e036001cd848f36",
+        "BCAST-af19741ff313f1c6f411",
+        "BCAST-3af1bd7a3099af6061be",
+        "BCAST-c758a0cc89b6305a56c0",
+        "BCAST-28e8d19b1305d6e5e976",
+        "BCAST-82d2da6ca5de066cc435",
+        "BCAST-9c6cb7e4795cf6b2c666",
+        "BCAST-23d8e9e0e8a878e04216",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-10d5f26afe4224be8d75",
+        "BCAST-3aea0c08229e20447d93",
+        "BCAST-fd10861c8a9e57e7c500",
+        "BCAST-5d6b6ca9d75a6df982b7",
+        "BCAST-104ec4381f7b9b903483",
+        "BCAST-021376e3b46d72bf8e0b",
+        "BCAST-63f4a6b059325a2aa328",
+        "BCAST-19c51d8449f8c8ffdc4c",
+        "PDLOG-011",
+        "PDLOG-008",
+        "BCAST-1e0aaf9e6856472754fe",
+        "BCAST-60437e52e7af59ce3679",
+        "BCAST-52b64efbdb580710dc2f",
+        "BCAST-c43a219e4921ecde54b6",
+        "PDLOG-001"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-570bed2ca0947519dd5d",
+          "title": "기후 우울증에 걸린 사람들",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530"
+        },
+        {
+          "id": "BCAST-aedb344a88a7c6293744",
+          "title": "인구절벽에서 살아남기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60468399"
+        },
+        {
+          "id": "BCAST-95cde06223e3b1919195",
+          "title": "저출생 보고서 인구에서 인간으로 - 1부 선택",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055762&lectId=60302806"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "E01",
+      "area": "환경·생태",
+      "situation": "기후 변화 토론",
+      "teacherQuery": "기후 변화가 우리 생활에 미치는 영향 관련 영상 찾아줘",
+      "keyword": "기후 변화",
+      "need": "기후 변화의 원인과 영향을 구분하는 설명·사례",
+      "requestTotal": 39,
+      "requestTerms": [],
+      "keywordTotal": 39,
+      "directTotal": 3,
+      "candidateIds": [
+        "BCAST-e62e352286bfdf0e7886",
+        "BCAST-570bed2ca0947519dd5d",
+        "BCAST-01ec9cc11359ce2150f1",
+        "BCAST-63f5f5af8614d9b55db5",
+        "BCAST-c3cfb74a8979103b6704",
+        "BCAST-284e66e6ea18ee15bb9c",
+        "BCAST-f4f88ffb34e4b543fe96",
+        "BCAST-db8db6d7c4d94738c165",
+        "BCAST-98ae759bb403e95aca4f",
+        "BCAST-2789ca14f145d37f879a",
+        "BCAST-c114de34a48a27a5a63b",
+        "BCAST-c758a0cc89b6305a56c0",
+        "BCAST-80609d9c7bd32e4368e7",
+        "BCAST-570adc54ebfc34a6bd30",
+        "BCAST-54e08076257f39621eb6",
+        "BCAST-29c762aa7b3ea2edaf04",
+        "BCAST-df0c38a69b2d41cf402d",
+        "BCAST-ae48647f3c062e9cbe3a",
+        "BCAST-91225389fbe482569c23",
+        "BCAST-fc0f02b48a634ab38fda",
+        "BCAST-30e37d164cf570579083",
+        "BCAST-82325bad44dbcc40006d",
+        "BCAST-4f089fedc7ab0e9c80b9",
+        "BCAST-16c2b176de0918236c3c",
+        "BCAST-d184f31a076e6d78b8ae",
+        "BCAST-c7fe617e25c3db622e02",
+        "BCAST-382353e2bb8a9c6f5199",
+        "BCAST-6ff4f67f35c9c6bc6f46",
+        "BCAST-63f4a6b059325a2aa328",
+        "BCAST-3ee07eb88d9d11e57049",
+        "BCAST-8a4aba02ef98b1922ad7",
+        "BCAST-535e4970d03417c5dc6e",
+        "BCAST-e9639b00e9deb9299074",
+        "BCAST-3e95afc8112fedebdfb3",
+        "BCAST-53c64da8ccf6542a6c50",
+        "BCAST-6ba0a920b971555103ea",
+        "BCAST-86e479e03a20301a7906",
+        "BCAST-dd592546c5e835071a57",
+        "BCAST-97645d4c561a515e3cbe"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-e62e352286bfdf0e7886",
+          "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067"
+        },
+        {
+          "id": "BCAST-570bed2ca0947519dd5d",
+          "title": "기후 우울증에 걸린 사람들",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530"
+        },
+        {
+          "id": "BCAST-01ec9cc11359ce2150f1",
+          "title": "영주, 내성천 사람들",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60571481"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "E02",
+      "area": "환경·생태",
+      "situation": "옷의 재사용 경로",
+      "teacherQuery": "헌옷 관련 방송 추천해줘",
+      "keyword": "헌옷",
+      "need": "수거 이후 재사용·재활용 경로를 확인할 회차와 소개문",
+      "requestTotal": 1,
+      "requestTerms": [
+        "헌옷"
+      ],
+      "keywordTotal": 1,
+      "directTotal": 0,
+      "candidateIds": [
+        "PDLOG-012"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-012",
+          "title": "옷은 돌고 돈다, 최PD의 헌옷 추적기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/search?query=PD%EB%A1%9C%EA%B7%B8+%EC%98%B7%EC%9D%80+%EB%8F%8C%EA%B3%A0+%EB%8F%88%EB%8B%A4%2C+%EC%B5%9CPD%EC%9D%98+%ED%97%8C%EC%98%B7+%EC%B6%94%EC%A0%81%EA%B8%B0"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "E03",
+      "area": "환경·생태",
+      "situation": "생물 다양성 탐구",
+      "teacherQuery": "꿀벌이 줄어들면 생기는 문제를 설명하는 영상 찾아줘",
+      "keyword": "꿀벌",
+      "need": "양봉 직업 소개를 넘어 수분·생태계 관계를 설명하는 근거",
+      "requestTotal": 0,
+      "requestTerms": [
+        "줄어들면",
+        "문제"
+      ],
+      "keywordTotal": 22,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-58c5a1f27d5199b7a817",
+        "BCAST-2169d23411329938f461",
+        "BCAST-c795af87c725960152da",
+        "BCAST-2e5fa8b630245713d669",
+        "BCAST-4d3c4518f281e5454f87",
+        "PDLOG-007",
+        "BCAST-a69ff8287bbbf05be4e4",
+        "BCAST-d4a30402cf081d5a0b76",
+        "BCAST-30e37d164cf570579083",
+        "BCAST-455e77ca861c910f9c75",
+        "BCAST-ca58b325ef3f8ffba8da",
+        "BCAST-1cbb247056b4ade2b14f",
+        "BCAST-411fcff3a62a6289007d",
+        "BCAST-10e422deeb18a5200601",
+        "BCAST-687c56b16ed075c73477",
+        "BCAST-6536e389f05bc3ee32a9",
+        "BCAST-07313256cf07ba8d4cb2",
+        "BCAST-9cd9c04a42484e25e858",
+        "BCAST-23b8a1e281c4f199550e",
+        "BCAST-637ccf2537a60854900b",
+        "BCAST-6e548aa71487fecec2a0",
+        "BCAST-edad2e4e1eb8750f1b19"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-58c5a1f27d5199b7a817",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 1부 꿀벌 은하",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60609053"
+        },
+        {
+          "id": "BCAST-2169d23411329938f461",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 2부 꿀벌의 마음",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60609300"
+        },
+        {
+          "id": "BCAST-c795af87c725960152da",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "E04",
+      "area": "환경·생태",
+      "situation": "야생동물 보호",
+      "teacherQuery": "야생동물 구조와 보호 사례 찾아줘",
+      "keyword": "야생동물",
+      "need": "구조 이유·보호 방법과 학생 시청에 적절한 장면",
+      "requestTotal": 0,
+      "requestTerms": [
+        "구조",
+        "보호",
+        "사례"
+      ],
+      "keywordTotal": 36,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-eb8df09e07b844a6e8f1",
+        "BCAST-6e9ace47e4ca4af0c627",
+        "BCAST-68e880e9966ebc1c28fd",
+        "BCAST-9c8ee5165ab84137e61a",
+        "BCAST-1d4e129ba31a77c39f13",
+        "BCAST-f4fe75a5e6d4d245f5a9",
+        "BCAST-7582407629258c823a94",
+        "BCAST-cc2192c448ebb9ea7ba1",
+        "BCAST-076b63322b8a48f4d42c",
+        "BCAST-572506db63362f6ae0a3",
+        "BCAST-45b366ba31bacaa2cbaf",
+        "BCAST-e454abf75711cdd7acc2",
+        "BCAST-693737e6156fa8a91173",
+        "BCAST-17a1d15ef3fb20ee4d14",
+        "BCAST-36e182faa5af447cc6bb",
+        "BCAST-68aa99a3d6916152723f",
+        "BCAST-ee7a980c0ec44dfc7338",
+        "BCAST-27f3a027a7e093d86073",
+        "BCAST-4049a132df84a182fda6",
+        "BCAST-f59b1605decfc2a30e7c",
+        "BCAST-0bc24e243691167431a5",
+        "BCAST-82e29a45ac2b0251e4d4",
+        "BCAST-f47e85a4812a5f5a6409",
+        "BCAST-362881e54eb47a943321",
+        "BCAST-a7562d63a492d0a50d39",
+        "BCAST-77d165827b1122e26ed8",
+        "BCAST-49a5a05c1cecbf534092",
+        "PDLOG-006",
+        "BCAST-bf54c7c4bd7a60697df0",
+        "BCAST-746840a2573dc853468e",
+        "BCAST-845e44be74511f8febf0",
+        "BCAST-6417e05973fddaa793d6",
+        "BCAST-1f9b797d46ad4ec3ab8e",
+        "BCAST-274ac3524ecae1e3bb2a",
+        "BCAST-5a7879d27bdbeba68772",
+        "BCAST-bcd52d2d50955dfcc760"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-eb8df09e07b844a6e8f1",
+          "title": "‘검은 늑대’가 전해준 이야기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20223837"
+        },
+        {
+          "id": "BCAST-6e9ace47e4ca4af0c627",
+          "title": "가축 1부 - 왜 길들였을까?",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20381396"
+        },
+        {
+          "id": "BCAST-68e880e9966ebc1c28fd",
+          "title": "가축 2부 - 어떻게 길들였을까?",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20381400"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "E05",
+      "area": "환경·생태",
+      "situation": "산림 보전",
+      "teacherQuery": "백두대간 관련 방송 찾아줘",
+      "keyword": "백두대간",
+      "need": "산림 보전 활동과 그 필요성에 대한 구체적 근거",
+      "requestTotal": 15,
+      "requestTerms": [
+        "백두대간"
+      ],
+      "keywordTotal": 15,
+      "directTotal": 1,
+      "candidateIds": [
+        "PDLOG-059",
+        "BCAST-9f6f5b44d6b3fc2e0c8b",
+        "BCAST-c113e9ccb76b6cc8448d",
+        "BCAST-db2b74b579ded810bd06",
+        "BCAST-a228dd0321eb19d70ca9",
+        "BCAST-2649775f39f34397896b",
+        "BCAST-67c3679bcc42f901ac9a",
+        "BCAST-336fab4648b56ba9e213",
+        "BCAST-a773aefdd8781d2d7b53",
+        "BCAST-846c2561397160695d65",
+        "BCAST-a9b03c42ef9d63042cc4",
+        "BCAST-761f81f13a6f9e65e416",
+        "BCAST-86258fefea78e7326b10",
+        "BCAST-0f23ab64e66ba04720f4",
+        "BCAST-3e17e885107a8b784b1c"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-059",
+          "title": "위기의 백두대간을 지켜라",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60611006"
+        },
+        {
+          "id": "BCAST-9f6f5b44d6b3fc2e0c8b",
+          "title": "4년의 기록, 위기의 백두대간",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10461382"
+        },
+        {
+          "id": "BCAST-c113e9ccb76b6cc8448d",
+          "title": "백두대간의 중추 태백산, 국립공원이 되다",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10581694"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "E06",
+      "area": "환경·생태",
+      "situation": "바다 쓰레기 해결",
+      "teacherQuery": "해양 쓰레기를 줄이는 실천 사례 추천해줘",
+      "keyword": "해양 쓰레기",
+      "need": "오염 원인·영향과 실천 결과를 보여주는 사례",
+      "requestTotal": 0,
+      "requestTerms": [
+        "줄이",
+        "실천",
+        "사례"
+      ],
+      "keywordTotal": 5,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-158ddca800fdd87ee003",
+        "BCAST-545139e5a746aeff4b6e",
+        "BCAST-a32a7837933a881b83b5",
+        "BCAST-bd6f77a755a251cb9689",
+        "PDLOG-001"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-158ddca800fdd87ee003",
+          "title": "바다별을 깨끗하게 지켜요!",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000015&lectId=60524985&stepId=01BA0AA000000000015"
+        },
+        {
+          "id": "BCAST-545139e5a746aeff4b6e",
+          "title": "반짝 반짝 불가사리",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20371524"
+        },
+        {
+          "id": "BCAST-a32a7837933a881b83b5",
+          "title": "세상 어디에도 없던 쓰레기 줍는 섬 여행",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10474590"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "C01",
+      "area": "공동체·경제",
+      "situation": "다문화 교실 이야기",
+      "teacherQuery": "다문화 관련 방송 추천해줘",
+      "keyword": "다문화",
+      "need": "문화 차이를 존중하는 교실 사례, 편견을 강화하지 않는 맥락",
+      "requestTotal": 15,
+      "requestTerms": [],
+      "keywordTotal": 15,
+      "directTotal": 2,
+      "candidateIds": [
+        "PDLOG-048",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-85d72913fc864cac86dd",
+        "BCAST-9110488254f6fcf06a3e",
+        "BCAST-cf9a3a9f63c702f94ab2",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-ee6445ca9ece26750f24",
+        "BCAST-a66feddc1e1e27b62f47",
+        "BCAST-952ac8d5a08373d239be",
+        "BCAST-d097d72031317ca02847",
+        "BCAST-5f465e9b1718767216c1",
+        "BCAST-b033cbc1e279fdca297b",
+        "BCAST-5f49781a67f4ea133b7a",
+        "BCAST-997e7b17808eb774aff5",
+        "BCAST-b8f06109d73274759c2e"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60584697"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008"
+        },
+        {
+          "id": "BCAST-85d72913fc864cac86dd",
+          "title": "산골 마을 촘린의 겨울",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10428495"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "C02",
+      "area": "공동체·경제",
+      "situation": "우리 동네 안전",
+      "teacherQuery": "119 관련 방송 보여줘",
+      "keyword": "119",
+      "need": "공공 서비스 역할과 안전한 시청 구간, 자극적 구조 장면 여부",
+      "requestTotal": 17,
+      "requestTerms": [
+        "119"
+      ],
+      "keywordTotal": 17,
+      "directTotal": 1,
+      "candidateIds": [
+        "PDLOG-077",
+        "BCAST-0fb5a16aeeed9badc838",
+        "BCAST-ab131b03eca2217c89f6",
+        "BCAST-ee7a980c0ec44dfc7338",
+        "BCAST-1229a450e0f0347d04c5",
+        "BCAST-0af4edfc5a6aae04a9c7",
+        "BCAST-e7f8879896b9485e58c2",
+        "BCAST-cc1b9b1f6740f2fce017",
+        "BCAST-a960dac12ca43e7a1a59",
+        "BCAST-807bc70769f2ab81a736",
+        "BCAST-1bd839423c1c5d30ad1c",
+        "BCAST-31782aca3e443c09c95f",
+        "BCAST-1222c4ba871a7366213e",
+        "BCAST-3dde7d1737ab26788b5c",
+        "BCAST-42cfccc5c369b33e2869",
+        "BCAST-4b7170c30a912607c696",
+        "BCAST-1e80787f84440192e024"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-077",
+          "title": "119, 평범한 사람들의 뜨거운 이야기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60658184"
+        },
+        {
+          "id": "BCAST-0fb5a16aeeed9badc838",
+          "title": "가정의 달 특집 119수난구조대 1부",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10112452"
+        },
+        {
+          "id": "BCAST-ab131b03eca2217c89f6",
+          "title": "가정의 달 특집 119수난구조대 2부",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10112609"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "C03",
+      "area": "공동체·경제",
+      "situation": "학교의 분업",
+      "teacherQuery": "학교 급식이 만들어지는 과정을 보여줘",
+      "keyword": "급식",
+      "need": "급식 준비 과정과 구성원별 역할을 관찰할 장면",
+      "requestTotal": 0,
+      "requestTerms": [
+        "학교",
+        "급식",
+        "만들어지"
+      ],
+      "keywordTotal": 7,
+      "directTotal": 1,
+      "candidateIds": [
+        "PDLOG-074",
+        "BCAST-2a88cbc242d29908b6f0",
+        "BCAST-a334e0c4d27f7656da86",
+        "BCAST-6d761270667de5593afc",
+        "BCAST-263c5bd519531ee586df",
+        "BCAST-39c1b64e5cbbbe1dda6b",
+        "BCAST-fde9d67498d69326bcd0"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-074",
+          "title": "삼시세끼의 기적, 급식 조리실",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60650807"
+        },
+        {
+          "id": "BCAST-2a88cbc242d29908b6f0",
+          "title": "방학 특집 급식 해방",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20117412"
+        },
+        {
+          "id": "BCAST-a334e0c4d27f7656da86",
+          "title": "얼굴있는 먹거리 로컬푸드 학교급식을 바꾸다",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10176469"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "C04",
+      "area": "공동체·경제",
+      "situation": "지역 생산과 가공",
+      "teacherQuery": "제주 감귤이 상품이 되는 과정 찾아줘",
+      "keyword": "감귤",
+      "need": "생산·가공·유통 단계 중 실제로 설명되는 범위",
+      "requestTotal": 0,
+      "requestTerms": [
+        "제주",
+        "감귤",
+        "상품",
+        "되는"
+      ],
+      "keywordTotal": 4,
+      "directTotal": 1,
+      "candidateIds": [
+        "PDLOG-037",
+        "BCAST-ae05d1e8e7e1cac5535b",
+        "BCAST-12ac4de07cb0b2c77f76",
+        "BCAST-b77d86642516f04832ba"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-037",
+          "title": "제주 감귤의 여정, 감귤농장 & 과줄공장",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60559810"
+        },
+        {
+          "id": "BCAST-ae05d1e8e7e1cac5535b",
+          "title": "감귤 기차",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000009&lectId=10626486&stepId=01BA0AA000000000009"
+        },
+        {
+          "id": "BCAST-12ac4de07cb0b2c77f76",
+          "title": "문동일의 깻잎 멸치찜과 감귤 된장무침",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=10625984"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "C05",
+      "area": "공동체·경제",
+      "situation": "민주적 의사 결정",
+      "teacherQuery": "민주주의를 학급 회의로 설명하는 영상 추천해줘",
+      "keyword": "민주주의",
+      "need": "참여·토론·의사 결정 과정의 학생 눈높이 사례",
+      "requestTotal": 0,
+      "requestTerms": [
+        "학급",
+        "회의"
+      ],
+      "keywordTotal": 37,
+      "directTotal": 8,
+      "candidateIds": [
+        "BCAST-41236586c72656a2741e",
+        "BCAST-4091c34734ae75151231",
+        "BCAST-ce1721b43f7741c59028",
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-c1a279dcb17b7743652c",
+        "BCAST-9b68881971b88b0d3915",
+        "BCAST-ce98e55c1c58597bfca3",
+        "BCAST-64c002f7b8f4402a44f2",
+        "BCAST-663d31118a337a6cbbc5",
+        "BCAST-6814ef941aa74b6f7d2f",
+        "BCAST-8181215f948a87299174",
+        "BCAST-28678e8cf9b05194c9c4",
+        "BCAST-ded9ed0b7f69a36e1f6c",
+        "BCAST-0977334db0b21ef5fcdf",
+        "BCAST-1a5698514fb865a6cb2c",
+        "BCAST-288f6dca2204afecccab",
+        "BCAST-f1f82e7732fb93b6e0bb",
+        "BCAST-db668a13cf619e335aaa",
+        "BCAST-8533cd47698b1dc7511d",
+        "BCAST-af3fcd9b478dc44e4390",
+        "BCAST-7c410ab5ff5e28ec1319",
+        "BCAST-3784bfb5182727cc1d71",
+        "BCAST-305050b615d836ec4f4e",
+        "BCAST-c87fc36fa9017510d83b",
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-c1f760967df37fecf556",
+        "BCAST-beee9384f865339a5c72",
+        "BCAST-a9d9010ea60ccdd63e4b",
+        "BCAST-15ae7c3335197d6438bf",
+        "BCAST-9d8c578db0f9810f5fb9",
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-8647d368c101697eeac4",
+        "BCAST-a67b4f7153959ed7f3d7",
+        "BCAST-0d2d34879b16b7029cd4",
+        "BCAST-c7c4070ac02a3a870c9f",
+        "BCAST-769236efc5153cb4aca9",
+        "BCAST-1877c716047cf57b7115"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-41236586c72656a2741e",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525261"
+        },
+        {
+          "id": "BCAST-4091c34734ae75151231",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60525640"
+        },
+        {
+          "id": "BCAST-ce1721b43f7741c59028",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "C06",
+      "area": "공동체·경제",
+      "situation": "물가와 합리적 소비",
+      "teacherQuery": "물가가 오르면 소비가 어떻게 달라지는지 보여줘",
+      "keyword": "물가",
+      "need": "가격 변화와 가계 소비의 관계를 설명할 근거",
+      "requestTotal": 0,
+      "requestTerms": [
+        "오르면",
+        "소비",
+        "달라지는지"
+      ],
+      "keywordTotal": 3,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-de1d0ca88548674755b2",
+        "BCAST-705ecc225398d70c72cb",
+        "BCAST-1305463d0cee04bd39e3"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-de1d0ca88548674755b2",
+          "title": "누리엘 루비니 <재앙의 경제학> 4강 세계 인플레이션 전쟁",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057875&lectId=60467276"
+        },
+        {
+          "id": "BCAST-705ecc225398d70c72cb",
+          "title": "돈의 얼굴 3부 돈이 떨어졌습니다",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055748&lectId=60464077"
+        },
+        {
+          "id": "BCAST-1305463d0cee04bd39e3",
+          "title": "혼돈시대의 중앙은행 - 1부 물가를 조절하는 보이지 않는 손",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055808&lectId=20296035"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "H01",
+      "area": "역사·문화",
+      "situation": "유적으로 생활 추론",
+      "teacherQuery": "고인돌 관련 클립 찾아줘",
+      "keyword": "고인돌",
+      "need": "제작 과정과 사회 모습을 연결할 유물·설명",
+      "requestTotal": 5,
+      "requestTerms": [],
+      "keywordTotal": 5,
+      "directTotal": 2,
+      "candidateIds": [
+        "BCAST-edc5b3f9fd8742c0b2f0",
+        "BCAST-a9ae022bed5a04b977c3",
+        "BCAST-0e6786e007b16522e6bd",
+        "ECLIP-035",
+        "ECLIP-036"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-edc5b3f9fd8742c0b2f0",
+          "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527"
+        },
+        {
+          "id": "BCAST-a9ae022bed5a04b977c3",
+          "title": "<불의 검> 2부 설원의 노래",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055843&lectId=10878507"
+        },
+        {
+          "id": "BCAST-0e6786e007b16522e6bd",
+          "title": "황금비율의 비밀 - 1부 숨은 그림 찾기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055909&lectId=10242022"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "H02",
+      "area": "역사·문화",
+      "situation": "옛 지도 관찰",
+      "teacherQuery": "대동여지도 관련 영상 추천해줘",
+      "keyword": "대동여지도",
+      "need": "지도 표현 방식과 지명·기호를 관찰할 장면",
+      "requestTotal": 7,
+      "requestTerms": [],
+      "keywordTotal": 7,
+      "directTotal": 1,
+      "candidateIds": [
+        "BCAST-a65e80aa1b59128e5aa2",
+        "BCAST-e92a890f9d3f1a6b393f",
+        "BCAST-d50d5ebda538feb1b799",
+        "BCAST-1132d35100a2fdb07b2f",
+        "BCAST-a3a8ef08e468ee0a736a",
+        "BCAST-8bedc343472cd94cd777",
+        "ECLIP-066"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-a65e80aa1b59128e5aa2",
+          "title": "김정호의 갈비맛 닭다리구이×구운 양배추무침",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20315132"
+        },
+        {
+          "id": "BCAST-e92a890f9d3f1a6b393f",
+          "title": "김정호의 도라지 육회×들기름비빔면",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20316626"
+        },
+        {
+          "id": "BCAST-d50d5ebda538feb1b799",
+          "title": "김정호의 등심스테이크×더덕조림",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000020&stepId=01BP0PHPN0000000020&lectId=20315133"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "H03",
+      "area": "역사·문화",
+      "situation": "문화유산의 특징",
+      "teacherQuery": "불국사의 특징을 관찰할 수 있는 영상 찾아줘",
+      "keyword": "불국사",
+      "need": "건축물의 특징과 역사적 배경을 구분하는 설명",
+      "requestTotal": 0,
+      "requestTerms": [
+        "불국사",
+        "특징"
+      ],
+      "keywordTotal": 1,
+      "directTotal": 1,
+      "candidateIds": [
+        "ECLIP-042"
+      ],
+      "samples": [
+        {
+          "id": "ECLIP-042",
+          "title": "불국사",
+          "kind": "clip",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://primary.ebs.co.kr/parent/clip/teacherClip?courseId=10016600&lectureId=LS0000000010385734&clipId=CS000000000000005188"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "H04",
+      "area": "역사·문화",
+      "situation": "농민 운동의 원인과 전개",
+      "teacherQuery": "동학 농민 운동의 원인과 결과를 비교할 자료 찾아줘",
+      "keyword": "동학",
+      "need": "원인·전개·결과의 시간 순서를 확인할 자료",
+      "requestTotal": 0,
+      "requestTerms": [
+        "농민",
+        "운동",
+        "원인",
+        "결과"
+      ],
+      "keywordTotal": 5,
+      "directTotal": 1,
+      "candidateIds": [
+        "BCAST-a6d0756abc2a0aa941a9",
+        "BCAST-7da97bb5537ae758fbc8",
+        "BCAST-20c179826eea57fc8ed5",
+        "BCAST-2f73ff6e8e253ad668ee",
+        "ECLIP-057"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-a6d0756abc2a0aa941a9",
+          "title": "전봉준 - 꺼지지 않는 불꽃, 녹두장군",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000066&lectId=10139083&stepId=01BA0AA000000000066"
+        },
+        {
+          "id": "BCAST-7da97bb5537ae758fbc8",
+          "title": "전봉준 - 백성이 하늘인 세상",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000066&lectId=10135020&stepId=01BA0AA000000000066"
+        },
+        {
+          "id": "BCAST-20c179826eea57fc8ed5",
+          "title": "전봉준 - 일어나라 백성이여",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000066&lectId=10137517&stepId=01BA0AA000000000066"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "H05",
+      "area": "역사·문화",
+      "situation": "개항과 변화",
+      "teacherQuery": "강화도 조약 관련 클립 보여줘",
+      "keyword": "강화도 조약",
+      "need": "조약 내용과 당시 상황을 설명하는 근거",
+      "requestTotal": 2,
+      "requestTerms": [
+        "강화도",
+        "조약"
+      ],
+      "keywordTotal": 2,
+      "directTotal": 1,
+      "candidateIds": [
+        "BCAST-8de75540526fcd892066",
+        "ECLIP-063"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-8de75540526fcd892066",
+          "title": "알렉시스 더든 - 한일근대사 1강 페리 원정과 강화도 조약",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057747&lectId=60309540"
+        },
+        {
+          "id": "ECLIP-063",
+          "title": "강화도 조약",
+          "kind": "clip",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId=&lectureId=LS0000000010181360&clipId=CS000000000000001186"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "H06",
+      "area": "역사·문화",
+      "situation": "독립운동 인물 탐구",
+      "teacherQuery": "유관순의 독립운동을 초등학생에게 소개할 영상 추천해줘",
+      "keyword": "유관순",
+      "need": "활동의 역사적 근거와 연령에 적합한 설명",
+      "requestTotal": 0,
+      "requestTerms": [
+        "소개할"
+      ],
+      "keywordTotal": 1,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-94aa3e106b4757d14ac4"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-94aa3e106b4757d14ac4",
+          "title": "18살 소녀 유관순의 외침",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40051471&lectId=60628314&stepId=60055539"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "S01",
+      "area": "과학·관찰",
+      "situation": "계절의 날씨 비교",
+      "teacherQuery": "계절별 날씨 관련 클립 추천해줘",
+      "keyword": "날씨",
+      "need": "계절별 기온·습도 등 관찰 항목의 비교",
+      "requestTotal": 1,
+      "requestTerms": [
+        "계절별"
+      ],
+      "keywordTotal": 15,
+      "directTotal": 3,
+      "candidateIds": [
+        "BCAST-4fd098ad6619cd0bd8b6",
+        "BCAST-b426c1e2894b8fd8648e",
+        "BCAST-b49f80b10a95303f32cc",
+        "BCAST-02da1b82403bdd9fce16",
+        "BCAST-cc616e2a49a2ea9969a0",
+        "BCAST-570adc54ebfc34a6bd30",
+        "BCAST-a755354acfdd7ed16f17",
+        "BCAST-0a75155233cbcd0e0da0",
+        "BCAST-987665b472723315c8fe",
+        "BCAST-c3e42f18fb351fbd4d7d",
+        "BCAST-addac3ac547d5b12ed82",
+        "BCAST-06cb45e8c09aa39f3d0a",
+        "BCAST-739bf974ad0a75d2e37a",
+        "BCAST-5be2c81961781d6472e7",
+        "ECLIP-018"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-4fd098ad6619cd0bd8b6",
+          "title": "막대기 하나의 힘",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40051878&stepId=60056366&lectId=60625543"
+        },
+        {
+          "id": "BCAST-b426c1e2894b8fd8648e",
+          "title": "한라산 날씨, 예측이 어려운 이유",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20296126"
+        },
+        {
+          "id": "BCAST-b49f80b10a95303f32cc",
+          "title": "4월 6일의 날씨",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60094797"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "S02",
+      "area": "과학·관찰",
+      "situation": "달의 모양 변화",
+      "teacherQuery": "달의 모양 변화 관련 클립 찾아줘",
+      "keyword": "달의 모양",
+      "need": "달의 위상과 태양·지구·달 위치 관계 설명",
+      "requestTotal": 10,
+      "requestTerms": [],
+      "keywordTotal": 10,
+      "directTotal": 2,
+      "candidateIds": [
+        "BCAST-8eaaa9343c1e2e9e4bb9",
+        "BCAST-47e900dbfe7e198061a8",
+        "BCAST-c3a386a37448f35ea4bb",
+        "BCAST-5fb817dbe409f6b73d09",
+        "BCAST-d7e713f6d1c338afc1e6",
+        "BCAST-64e3b6cd578757458481",
+        "BCAST-2bcaaf9eb02a1fbc3198",
+        "BCAST-58d7860513007a256773",
+        "ECLIP-026",
+        "ECLIP-027"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-8eaaa9343c1e2e9e4bb9",
+          "title": "[지식知食, 아는 만큼 맛있다] 왜 크루아상은 초승달 모양일까?",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60718140"
+        },
+        {
+          "id": "BCAST-47e900dbfe7e198061a8",
+          "title": "293회 추석, 보름달이 떴어요!",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60104533&stepId=20006583"
+        },
+        {
+          "id": "BCAST-c3a386a37448f35ea4bb",
+          "title": "동글동글 보름달 떡",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000017&lectId=10309606&stepId=01BA0AA000000000017"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "S03",
+      "area": "과학·관찰",
+      "situation": "구름 생성 실험 준비",
+      "teacherQuery": "구름 발생 실험을 5분 이내 영상으로 보여줘",
+      "keyword": "구름",
+      "need": "실험 과정·안전 사항·실제 재생 시간 5분 이내",
+      "unsupportedConstraint": "재생 시간 상한 필터·실험 안전성 판정 미지원",
+      "requestTotal": 0,
+      "requestTerms": [
+        "발생",
+        "실험"
+      ],
+      "keywordTotal": 24,
+      "directTotal": 1,
+      "candidateIds": [
+        "BCAST-232fc6d677c23cd16480",
+        "BCAST-347b86708d83ddce4793",
+        "BCAST-7891431a604bbf88aef4",
+        "BCAST-eddb599cb80d5ab65b10",
+        "BCAST-8258f3bd33305b31a3e9",
+        "BCAST-c26979942ff6cf8db8d7",
+        "BCAST-f6b34fcef6d98a671000",
+        "BCAST-af010f1db4521c74ee66",
+        "BCAST-f556645da2f3d0d73ce4",
+        "BCAST-293fdf474e46de02c6a6",
+        "BCAST-55dbae541a2815487683",
+        "BCAST-aaf891c2e14252861fe8",
+        "BCAST-6e1dfdfa1e878437ab2f",
+        "BCAST-21d23bc91ae1d3e16b39",
+        "BCAST-21550bb721701ec1f702",
+        "BCAST-9cdca825e7b5556e1a5c",
+        "BCAST-40dfbf65b3f00fb90b66",
+        "BCAST-8503d19af2f73b38a508",
+        "BCAST-7eda0da6c840f4944fe0",
+        "BCAST-ba3c2641d647ba83311b",
+        "BCAST-4d758636962f8d41859e",
+        "BCAST-4943bc24d934bb197724",
+        "BCAST-ac2f9420412dbf6e8632",
+        "ECLIP-015"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-232fc6d677c23cd16480",
+          "title": "51화. 먹구름과 뭉게구름의 대결",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10210610&lectId=60654358&stepId=20012349"
+        },
+        {
+          "id": "BCAST-347b86708d83ddce4793",
+          "title": "구름 박사의 그림",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60122219"
+        },
+        {
+          "id": "BCAST-7891431a604bbf88aef4",
+          "title": "구름이 없어졌어요",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10006152&lectId=10256465&stepId=10011154"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "S04",
+      "area": "과학·관찰",
+      "situation": "식물의 물 이동",
+      "teacherQuery": "증산 작용 관련 클립 찾아줘",
+      "keyword": "증산",
+      "need": "관찰·실험 결과와 증산 작용의 연결 근거",
+      "requestTotal": 71,
+      "requestTerms": [],
+      "keywordTotal": 71,
+      "directTotal": 4,
+      "candidateIds": [
+        "PDLOG-059",
+        "PDLOG-056",
+        "BCAST-b15043803d8e35e71e15",
+        "BCAST-79884512dcf19a5d2153",
+        "BCAST-17a4162f7d6f810f4e2a",
+        "BCAST-603bee2e43521fcbe01f",
+        "BCAST-8aef6fccdf1eeb69c91d",
+        "BCAST-6164b4326dabbbb877c2",
+        "BCAST-7c463628352bb94b714d",
+        "BCAST-920c84e230549aca97b0",
+        "BCAST-e5bb33f9015d722f04f0",
+        "BCAST-33cb1a22144b3216fd41",
+        "BCAST-c85dadf4df94975b538f",
+        "BCAST-111dc06376632d1ff102",
+        "BCAST-a931005da4f93e0f278c",
+        "BCAST-2e9cd14204cce98100e7",
+        "BCAST-2995c7b8bd7257e023f9",
+        "BCAST-733c61ef6417afafb15a",
+        "BCAST-284b36effed9c2d3800f",
+        "BCAST-1565e5585372befdb564",
+        "BCAST-784475aecce7e370f480",
+        "BCAST-f4fe75a5e6d4d245f5a9",
+        "BCAST-793986e731a60a54b5e9",
+        "BCAST-30e37d164cf570579083",
+        "BCAST-0c0a50a31f0b288dccb7",
+        "BCAST-a19418812650582a4f9a",
+        "BCAST-a2ef20cabe3f18ba7f26",
+        "BCAST-0d6252ce2931db3213de",
+        "BCAST-0ba9a94c0af3ed7ee104",
+        "BCAST-607780aa237861c17f3c",
+        "BCAST-5109efc279e45ef53d6e",
+        "BCAST-0d94d4c503c3c5f32e9c",
+        "BCAST-a61972a2ff657e0872ad",
+        "BCAST-d5f940dc8f8b92ab0677",
+        "BCAST-080c44c8881ce2f4bdc0",
+        "BCAST-3e17e885107a8b784b1c",
+        "BCAST-b6c6f73a16deeb4aa611",
+        "BCAST-a4559be1f224dd490b82",
+        "BCAST-467e87b1150d6df83468",
+        "BCAST-e9a138a46983d37ce331",
+        "BCAST-db987564d6287cecd96f",
+        "BCAST-a13260e82a22489fdeca",
+        "BCAST-34512de32eb233380cc5",
+        "BCAST-f9eb0ba27c35a96cdc17",
+        "BCAST-c8f64fd30684f2619783",
+        "BCAST-81923a412a3c7fd086bf",
+        "BCAST-96001b389233e185c8c0",
+        "BCAST-17b4c48c88bca1b7c26f",
+        "BCAST-a5cf46acf6c5923f31db",
+        "BCAST-188bc81f2cc8a22e5169",
+        "BCAST-b63f8088c23c759dcbc7",
+        "BCAST-4f6306403d88a35fdb76",
+        "BCAST-3f187e43f5ea5545260a",
+        "BCAST-abb34d341cf73c5360df",
+        "BCAST-f4c32605f70d012c2c59",
+        "BCAST-43954e434055b984f2c8",
+        "BCAST-9798a1a5350152a87db3",
+        "BCAST-97a45c2217dd2b421dde",
+        "BCAST-ffd76f9aaca3cb11dc0b",
+        "BCAST-d08f5fd2116b739d617a",
+        "BCAST-73b6b1d525faa2debfd7",
+        "BCAST-a1bdf6d2acb3e864f044",
+        "BCAST-625318116ef788054908",
+        "BCAST-8097fff5535f6456ab5e",
+        "BCAST-122e0ff2a6e1e7b0a3c1",
+        "BCAST-ea6317c17c2ff9de0666",
+        "BCAST-c70e14b52dc2e9c349c7",
+        "BCAST-9cd1b36904cc940b0e33",
+        "BCAST-fff723909072840c15de",
+        "ECLIP-020",
+        "ECLIP-010"
+      ],
+      "samples": [
+        {
+          "id": "PDLOG-059",
+          "title": "위기의 백두대간을 지켜라",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60611006"
+        },
+        {
+          "id": "PDLOG-056",
+          "title": "환상의 나라에서 만난 정원사들",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60604264"
+        },
+        {
+          "id": "BCAST-b15043803d8e35e71e15",
+          "title": "[한 번쯤 궁금했던 그 질문들] 5부 식물이 먼저냐, 씨앗이 먼저냐",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60654393"
+        }
+      ],
+      "gap": "검색 후보 있음 · 내용 적합성 미판정"
+    },
+    {
+      "id": "S05",
+      "area": "과학·관찰",
+      "situation": "화재 대처 안전교육",
+      "teacherQuery": "자막이 있는 화재 대피 영상 추천해줘",
+      "keyword": "화재",
+      "need": "대피 행동의 정확성·자막 제공·시청 연령 적합성",
+      "unsupportedConstraint": "자막 유무 필터·안전 수칙의 최신성 판정 미지원",
+      "requestTotal": 0,
+      "requestTerms": [
+        "화재",
+        "대피"
+      ],
+      "keywordTotal": 16,
+      "directTotal": 2,
+      "candidateIds": [
+        "BCAST-6f42d64fdb65e6be59ff",
+        "BCAST-b60b2f5f607c50b1185a",
+        "PDLOG-077",
+        "BCAST-6eec2a694c44c2c821cc",
+        "BCAST-09ceb73545b3f0f4e78c",
+        "BCAST-5297e21728fc398a6387",
+        "BCAST-6206388355bb9f6d2890",
+        "BCAST-34e17bb1ed8eaece6fcb",
+        "BCAST-c4bf0963dbc111cba283",
+        "BCAST-415ba111de327b9cbaf4",
+        "BCAST-08662f063a4f2acbb6dd",
+        "BCAST-18bdd4d06d38c6991c11",
+        "BCAST-6ff4f67f35c9c6bc6f46",
+        "BCAST-9de361e85e6db2fe6be3",
+        "BCAST-1f877b157bb26f7327a2",
+        "ECLIP-031"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-6f42d64fdb65e6be59ff",
+          "title": "역사의 문을 여는 문화재 여행",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PAPC0000000028&stepId=01BP0PAPC0000000028&lectId=20185556"
+        },
+        {
+          "id": "BCAST-b60b2f5f607c50b1185a",
+          "title": "잿더미 속 진실을 찾아라!화재감식 전문 수사관",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=20437906"
+        },
+        {
+          "id": "PDLOG-077",
+          "title": "119, 평범한 사람들의 뜨거운 이야기",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60658184"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    },
+    {
+      "id": "S06",
+      "area": "과학·관찰",
+      "situation": "전기 회로 탐구",
+      "teacherQuery": "전기 회로 실험 관련 영상 찾아줘",
+      "keyword": "전기 회로",
+      "need": "회로 연결 과정과 전기 안전 수칙을 확인할 자료",
+      "requestTotal": 0,
+      "requestTerms": [
+        "실험"
+      ],
+      "keywordTotal": 3,
+      "directTotal": 0,
+      "candidateIds": [
+        "BCAST-c709d016d655f564b923",
+        "BCAST-09875a8b67ea1ffbcb47",
+        "BCAST-5a6282770abd1f1b0487"
+      ],
+      "samples": [
+        {
+          "id": "BCAST-c709d016d655f564b923",
+          "title": "어린 왕자야, 그런 일이 진짜로 있단다",
+          "kind": "episode",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385301"
+        },
+        {
+          "id": "BCAST-09875a8b67ea1ffbcb47",
+          "title": "꼬마 전구들의 꿈 / 인어공주",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000015&lectId=10622212&stepId=01BA0AA000000000015"
+        },
+        {
+          "id": "BCAST-5a6282770abd1f1b0487",
+          "title": "페트병 전구",
+          "kind": "episode",
+          "evidenceLevel": "TITLE_ONLY",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BB0CZ000000000104&stepId=01BB0CZ000000000104&lectId=10226993"
+        }
+      ],
+      "gap": "핵심어 후보 있음 · 요청 해석 부족"
+    }
+  ]
+}

@@ -1,0 +1,2757 @@
+{
+  "date": "2026-10-14",
+  "actualTeacherRequests": 0,
+  "finalEvaluationUsed": false,
+  "metrics": {
+    "requests": 170,
+    "errors": 0,
+    "empty": 157,
+    "withCandidates": 13,
+    "reviewedReturnedTop5": 36,
+    "judgments": {
+      "TEXT_SUPPORTED": 15,
+      "UNRELATED": 4,
+      "PARTIAL": 8,
+      "INSUFFICIENT_SOURCE": 9
+    },
+    "requestsWithTopicTextSupported": 10,
+    "knownDiagnosticAnchorsDiscovered": 4,
+    "knownDiagnosticAnchorRequests": 4,
+    "independentGoldRecall": null,
+    "apiQuoteChecks": 66,
+    "quoteFailures": 0,
+    "confirmedTextExclusionViolations": 0,
+    "exclusionCandidatePairs": 8,
+    "actualVideoConditionCompliance": null,
+    "teacherUsefulness": null
+  },
+  "beforeMetrics": {
+    "requests": 170,
+    "empty": 160,
+    "withCandidates": 10,
+    "reviewedReturnedTop5": 35,
+    "judgments": {
+      "TEXT_SUPPORTED": 11,
+      "UNRELATED": 7,
+      "PARTIAL": 9,
+      "INSUFFICIENT_SOURCE": 8
+    },
+    "requestsWithTopicTextSupported": 6,
+    "quoteChecks": 48,
+    "quoteFailures": 0,
+    "latencyMedianMs": 515.0,
+    "exclusionCandidatePairsReviewed": 10,
+    "exclusionTextScopeViolations": 1,
+    "exclusionUnknownPairs": 9,
+    "actualVideoExclusionComplianceRate": null,
+    "teacherUsefulness": null,
+    "knownAnswerRecall": null
+  },
+  "requestComparisons": [
+    {
+      "id": "D70-Q001",
+      "query": "방위와 지도 기호",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q003",
+      "query": "처음 지도를 배우는 아이들에게 길을 찾는 방법을 소개하는 도입 자료가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q004",
+      "query": "마을에 필요한 시설을 이야기하기 전에 주민 생활을 보여줄 자료를 찾고 있어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q006",
+      "query": "종이에 그려 놓은 동네 그림을 보고 찾아가는 모습을 보여주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q007",
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q008",
+      "query": "소방서가 마을 사람들의 안전을 어떻게 지키는지 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q009",
+      "query": "지도에서 사용하는 약속된 그림이 장소를 찾는 데 어떤 도움을 주는지 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q011",
+      "query": "시장에서 물건을 사는 모습과 온라인으로 사는 모습을 비교할 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q013",
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "beforeTotal": 0,
+      "afterTotal": 10,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "D70-Q014",
+      "query": "지도 기호와 방위를 모두 사용해서 길을 찾는 사례를 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q015",
+      "query": "마을 축제",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q016",
+      "query": "지도 읽는 방법을 보여주는 자료 중 자동차 운전 경로 안내만 하는 것은 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q018",
+      "query": "자석의 두 극",
+      "beforeTotal": 1,
+      "afterTotal": 1,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q020",
+      "query": "자석 수업 도입에 아이들이 결과를 예상해 볼 관찰 자료가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q021",
+      "query": "물의 모습이 달라지는 것을 관찰하는 활동 전에 보여줄 자료를 찾아주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q023",
+      "query": "쇠붙이를 끌어당기는 자석의 성질을 보여주세요 가능하면 가까이 찍은 화면이 있으면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q024",
+      "query": "젖은 빨래가 햇볕 아래에서 마르는 과정을 보여주는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q025",
+      "query": "자석을 뒤집어 가까이 대면 붙거나 밀리는 까닭을 설명해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q026",
+      "query": "찬 컵 겉에 물방울이 생기는 과정을 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q028",
+      "query": "자석에 끌리는 물체와 끌리지 않는 물체를 비교할 자료",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "D70-Q030",
+      "query": "물이 얼 때와 얼음이 녹을 때의 모습을 둘 다 보여주는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q031",
+      "query": "막대자석과 말굽자석에서 극의 위치를 확인하고 비교하는 실험 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q032",
+      "query": "물이 마르는 과정을 찾고 있어요 피부가 건조해진다는 비유는 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q033",
+      "query": "자석 관찰 활동 전에 실제로 자석을 움직이는 모습을 보여주고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q035",
+      "query": "어린이의 권리",
+      "beforeTotal": 1,
+      "afterTotal": 1,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q037",
+      "query": "인권 토론을 시작할 때 아이들이 문제를 찾아볼 일상 사례가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q038",
+      "query": "학급의 규칙을 함께 정하는 활동 전에 의사결정 과정을 보여주고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q040",
+      "query": "누구든 태어날 때부터 존중받아야 한다는 내용을 실제 사례로 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q041",
+      "query": "여러 사람이 서로 의견을 듣고 하나의 약속을 정하는 모습을 찾고 있어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q042",
+      "query": "일상에서 차별이 생겼을 때 권리를 지키기 위해 어떤 도움을 받을 수 있는지 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q043",
+      "query": "주민들의 의견이 지역 정책에 반영되는 과정을 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q045",
+      "query": "법이 권리를 보호한 사례와 권리가 침해된 사례를 비교하고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q047",
+      "query": "주민 의견을 모으는 과정과 최종 결정을 내리는 과정이 모두 있는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q048",
+      "query": "학교의 규칙이 어린이의 권리를 어떻게 지키는지 사례로 설명해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q049",
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q050",
+      "query": "인권 침해를 해결한 사례를 찾고 있어요 잔인한 폭력 장면은 빼주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q052",
+      "query": "불이 타는 데 필요한 것",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q054",
+      "query": "연소 수업에서 불을 끄는 방법을 예상하게 할 도입 자료를 찾아주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q055",
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "D70-Q057",
+      "query": "같은 재료인데 공기가 통하지 않으면 불이 꺼지는 모습을 보여주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q058",
+      "query": "어떤 생물이 줄어들자 그 생물을 먹던 동물도 영향을 받는 모습을 찾고 있어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q059",
+      "query": "연료와 공기만 있다고 항상 불이 붙는 것은 아닌 까닭을 설명해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q060",
+      "query": "한 종류의 생물이 사라졌을 때 먹이 관계가 달라지는 과정을 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q062",
+      "query": "물을 뿌려 끄는 방법과 공기를 막아 끄는 방법을 비교하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q064",
+      "query": "물이 증발하는 과정과 수증기가 물방울로 바뀌는 과정이 모두 나오는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q065",
+      "query": "숲이나 연못 중 한 곳의 먹이 관계를 보여주는 사례면 돼요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q066",
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q067",
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "beforeTotal": 5,
+      "afterTotal": 3,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "D70-Q069",
+      "query": "세계의 기후와 생활",
+      "beforeTotal": 6,
+      "afterTotal": 6,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q070",
+      "query": "기후에 맞는 생활 모습을 토론할 때 근거로 쓸 실제 지역 사례가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q072",
+      "query": "비가 적게 오는 곳에서 사람들이 물을 아껴 쓰며 살아가는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q073",
+      "query": "시민들이 동네의 불편한 점을 알리고 함께 바꾸는 이야기를 찾고 있어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q075",
+      "query": "날씨가 오랫동안 덥거나 추운 것이 집의 모습에 어떤 영향을 주는지 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q077",
+      "query": "비가 많은 지역과 적은 지역에서 농사짓는 모습을 비교하고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q079",
+      "query": "추운 지역의 주거를 다룬 자료 중 관광 숙소 광고만 하는 영상은 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q080",
+      "query": "자연환경에 맞춘 옷차림을 찾고 있어요 가능하면 현지 사람의 설명이 있으면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q081",
+      "query": "주민이 공공 문제를 해결하는 지식채널e 회차를 찾아주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q082",
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "beforeTotal": 2,
+      "afterTotal": 2,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q083",
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "beforeTotal": 45,
+      "afterTotal": 45,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q085",
+      "query": "힘의 평형",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q087",
+      "query": "물체를 양쪽에서 똑같이 밀었는데 움직이지 않는 모습을 보여주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q088",
+      "query": "물속에 넣은 물체가 위로 떠오르려는 힘을 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q089",
+      "query": "그릇에 담아 둔 물이 조금씩 줄어드는 모습을 관찰할 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q091",
+      "query": "물체가 움직이는 방향과 반대로 마찰력이 작용하는 까닭을 설명해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q093",
+      "query": "물체에 작용하는 중력과 부력을 함께 설명하는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q094",
+      "query": "저런 힘이 물체를 멈추게 하는 과정을 알려주는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q095",
+      "query": "물체에 작용하는 힘을 그리는 활동 전에 움직임을 관찰할 자료가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q097",
+      "query": "물이 증발하는 모습을 실제로 관찰하는 실험 영상만 찾아주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q098",
+      "query": "저런 힘 때문에 움직이는 모습을 설명하는 자료가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "D70-Q099",
+      "query": "가상의 블루드래곤광석이 자석에 붙는 실제 실험 영상을 찾아주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q001",
+      "query": "옛날 교통수단",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q002",
+      "query": "방위표와 지도 기호",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q003",
+      "query": "우리 고장 공공기관 조사하기 전에 아이들이 소방서, 우체국, 주민센터가 각각 무슨 일을 하는지 감 잡을 수 있게 도입으로 보여줄 영상 찾아요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q004",
+      "query": "세시풍속 단원 마무리로 설날, 단오, 추석에 하던 놀이와 음식을 정리해 줄 수 있는 자료 있을까요? 학생들이 표로 정리하는 활동에 쓰려고요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q005",
+      "query": "옛날 통신 수단에서 오늘날 통신 수단으로 바뀐 모습을 보고 학생들이 '편리해진 점과 새로 생긴 문제'를 토의하게 하려고 합니다",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q006",
+      "query": "아이들이 시장에서 물건 사는 거랑 마트에서 사는 거 말고, 물건이 어디서 만들어져서 우리 손에 오는지 궁금해해요. 그걸 보여줄 수 있는 거요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q007",
+      "query": "산골 마을이랑 바닷가 마을 사람들이 먹고사는 방법이 어떻게 다른지 보여주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q008",
+      "query": "할머니 할아버지 어릴 적에는 집안일을 어떻게 했는지, 그때 쓰던 물건들이 나오는 거 찾아요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q009",
+      "query": "고장에 새 도로나 지하철이 생기면 사람들 생활이 어떻게 달라지는지 알려주는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q010",
+      "query": "논이 많은 지역에서는 왜 쌀농사를 많이 짓게 됐는지, 땅 모양이나 물이랑 연결해서 설명해 주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q011",
+      "query": "옛날 결혼식과 오늘날 결혼식을 비교해 볼 수 있는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q012",
+      "query": "종이 지도랑 디지털 영상 지도가 쓰임새가 어떻게 다른지 비교해서 보여줄 만한 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q013",
+      "query": "우리나라 문화유산 중 석탑이나 목조 건축물, 둘 중 하나라도 나오면 되는데 반드시 만든 방법이나 재료 설명이 있어야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q014",
+      "query": "고장 대표 축제 소개 영상 찾는데, 관광 홍보처럼 볼거리만 나열하는 건 빼고 축제가 생겨난 배경이 나오는 걸로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q015",
+      "query": "옛날 어린이들이 하던 놀이 영상 찾아요. 가능하면 아이들이 직접 따라 할 수 있게 놀이 방법까지 나오면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q016",
+      "query": "EBS 애니메이션 형식으로 된 고장 이름 유래 이야기, 10분 안쪽으로 찾아요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q017",
+      "query": "우리 지역 특산물이 만들어지는 과정을 보여주고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q018",
+      "query": "배추흰나비 한살이",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q019",
+      "query": "자석 N극 S극",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q020",
+      "query": "소리의 세기랑 높낮이 실험 전에, 아이들이 '큰 소리'와 '높은 소리'를 헷갈리지 않게 구분해 주는 자료가 필요해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q021",
+      "query": "고체, 액체, 기체를 처음 배울 때 주변 물건을 분류하는 활동 직전에 보여줄 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q022",
+      "query": "달 모양이 바뀌는 걸 관찰 기록 과제로 내기 전에 동기 유발용으로 쓸 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q023",
+      "query": "젖은 빨래가 마르면 그 물은 어디로 간 건지 아이가 물어봤어요. 물이 눈에 안 보이게 날아가는 걸 보여줄 수 있는 거요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q024",
+      "query": "냉장고에 붙는 물건이랑 안 붙는 물건을 같이 보여주는 영상 있을까요? 아이들이 뭐가 붙고 안 붙는지 맞혀 보게 하려고요",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "X100-Q025",
+      "query": "겨울만 되면 개구리랑 뱀이 다 어디 갔냐고 아이들이 궁금해해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q026",
+      "query": "씨앗을 심으면 싹이 트고 열매를 맺기까지 어떤 순서로 자라는지 보여주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q027",
+      "query": "실 전화기로 소리가 어떻게 전달되는지, 실이 팽팽할 때랑 느슨할 때 차이까지 나오는 거요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q028",
+      "query": "곤충이랑 거미가 몸 구조에서 어떻게 다른지 비교해 주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q029",
+      "query": "사막이나 극지방 중 한 곳에 사는 동물이 그 환경에 맞게 생긴 모습이 나오는 영상이요. 둘 중 하나만 나와도 괜찮아요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q030",
+      "query": "흙이 만들어지는 과정을 보여주는데, 반드시 바위가 부서지는 장면과 식물·동물 같은 것이 섞이는 설명이 둘 다 있어야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q031",
+      "query": "화산 영상 찾는데 실제 재난 피해 장면이나 사람이 다치는 장면은 빼 주세요. 화산 생김새랑 분출물 위주로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q032",
+      "query": "물의 세 가지 상태 설명 자료요. 실험실 기구 쓰는 건 말고 집에서 볼 수 있는 예로 보여주는 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q033",
+      "query": "동물의 한살이 자료요. 있으면 좋겠는 건 실제 촬영 장면인데, 그림으로 된 것도 괜찮아요",
+      "beforeTotal": 1,
+      "afterTotal": 1,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q034",
+      "query": "아까 본 거 같은, 돌이 층층이 쌓여 있는 이런 모습 다른 지역 것도 보여주고 싶어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q035",
+      "query": "독도",
+      "beforeTotal": 9,
+      "afterTotal": 9,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q036",
+      "query": "삼권 분립",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q037",
+      "query": "모의 학급 선거를 하기 전에 선거의 기본 원칙을 실제 사례로 이해시킬 영상 찾습니다",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q038",
+      "query": "인권 침해 사례를 보고 해결 방법을 모둠별로 토론하려고 해요. 학교나 생활 속 사례가 나오는 자료면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q039",
+      "query": "조선 후기 실학자들의 생각을 소개하고, 학생들이 '내가 실학자라면 무엇을 바꿀까' 글쓰기를 하게 하려고요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q040",
+      "query": "사람들이 시골을 떠나서 도시로 몰려가면서 생긴 문제들 보여주는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q041",
+      "query": "우리가 쓰는 물건 중에 다른 나라에서 온 것도 많고, 우리 물건도 외국에 팔리잖아요. 그렇게 나라끼리 물건을 주고받는 걸 다룬 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q042",
+      "query": "일제가 토지 조사 사업을 하면서 농민들 삶이 어떻게 바뀌었는지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q043",
+      "query": "고려가 몽골의 침입에 어떻게 맞섰고, 그 과정에서 팔만대장경을 왜 만들었는지 알려주는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q044",
+      "query": "저출산이랑 고령화가 계속되면 사회에 어떤 변화가 생기는지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q045",
+      "query": "고조선 8조법과 오늘날 법이 하는 역할을 비교해 볼 수 있는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q046",
+      "query": "4·19 혁명과 6월 민주 항쟁의 공통점과 차이점을 정리할 수 있는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q047",
+      "query": "세계 여러 나라의 기후랑 거기에 맞는 집 모양이 함께 나와야 하고, 열대와 한대 지역이 반드시 둘 다 들어간 영상이요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q048",
+      "query": "임진왜란 수업 자료인데 전투 장면은 빼 주세요. 백성들이 의병으로 나서게 된 배경이랑 생활 위주로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q049",
+      "query": "우리나라 경제 성장 과정 영상인데, 특정 기업 홍보 같은 건 빼고 1960~70년대 산업이 어떻게 바뀌었는지 나오는 거요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q050",
+      "query": "조선의 신분 제도 자료요. 가능하면 드라마보다 다큐 형식이었으면 하고, 반드시 양반·중인·상민·천민 구분이 나와야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q051",
+      "query": "지식채널e에서 차별이나 인권을 다룬 편 중에 자막이 같이 나오는 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q052",
+      "query": "전자석",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q053",
+      "query": "용해와 용액",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q054",
+      "query": "연소 조건 실험 전에 안전 교육도 겸해서 '불이 붙으려면 무엇이 필요할까' 질문을 던질 수 있는 도입 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q055",
+      "query": "먹이 사슬이랑 먹이 그물 배운 뒤에 '한 생물이 사라지면 어떻게 될까' 토론 자료로 쓸 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q056",
+      "query": "추운 날 안경에 김 서리는 거랑 아침에 풀잎에 물방울 맺히는 게 같은 원리라는 걸 보여주는 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q057",
+      "query": "아이들이 '지구의 허파'가 왜 점점 줄어드는지 물어봤어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q058",
+      "query": "숟가락 끝을 뜨거운 국에 담그면 손잡이까지 뜨거워지는 거 설명하는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q059",
+      "query": "여름은 덥고 겨울은 추운 이유를 태양 남중 고도랑 연결해서 설명하는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q060",
+      "query": "초가 타고 나면 어떤 물질이 생기는지 확인하는 과정이 나오는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q061",
+      "query": "전구를 직렬로 연결할 때랑 병렬로 연결할 때 밝기가 왜 다른지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q062",
+      "query": "산성 용액과 염기성 용액에 지시약을 넣었을 때 색이 어떻게 달라지는지 비교하는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q063",
+      "query": "지구와 화성의 환경을 비교해서, 왜 지구에만 생물이 사는지 생각해 볼 수 있는 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q064",
+      "query": "생태계 평형이 깨진 사례인데, 국내든 해외든 상관없고 반드시 깨진 뒤 다시 회복되는 과정까지 나와야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q065",
+      "query": "빛의 굴절 보여주는 영상인데 물과 유리 두 경우가 모두 나와야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q066",
+      "query": "우리 몸 소화 기관 영상인데 실제 수술 장면이나 내시경 같은 실물 장면은 빼고 그래픽으로 된 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q067",
+      "query": "물체의 속력 구하는 방법 자료요. 실생활 교통수단 예시가 있으면 좋겠고, 꼭 필요한 건 이동 거리와 걸린 시간으로 계산하는 장면이에요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q068",
+      "query": "용질이 다 녹아서 더 이상 안 녹는 순간이 영상 몇 분쯤 나오는지 알 수 있는 거요. 수업 중에 그 부분만 틀려고요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q069",
+      "query": "경도와 시차",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q070",
+      "query": "문화 상대주의랑 자문화 중심주의를 구분하는 토론 수업 도입 자료가 필요해요. 학생들이 바로 판단 내리지 않고 생각해 볼 만한 사례 중심으로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q071",
+      "query": "청소년이 정치에 참여하는 방법을 알아보고, 학교 문제를 해결하는 제안서를 쓰는 활동에 쓸 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q072",
+      "query": "쓰레기 소각장이나 공항 같은 시설이 들어온다고 하면 다들 반대하는 현상, 그거 다룬 영상이요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q073",
+      "query": "사람이 태어나서 가족이나 학교, 친구들한테 배우면서 사회 구성원이 되어 가는 거",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q074",
+      "query": "열대 우림 지역에서 이동식 화전 농업을 하게 된 이유랑 그게 숲에 준 영향",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q075",
+      "query": "지진이나 해일 같은 자연재해가 일어나는 곳이 판의 경계와 어떤 관계가 있는지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q076",
+      "query": "석유 같은 자원이 몇몇 지역에 몰려 있어서 나라들 사이에 생기는 갈등",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q077",
+      "query": "선진국과 개발도상국 인구 구조 차이를 인구 피라미드로 비교한 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q078",
+      "query": "기후 변화로 생활이 바뀐 지역 사례인데, 해수면 상승이나 사막화 중 하나 이상 나오고 주민 인터뷰나 주민 생활 모습은 반드시 있어야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q079",
+      "query": "도시 재개발 영상인데 찬성하는 입장과 반대하는 입장이 모두 나와야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q080",
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "beforeTotal": 10,
+      "afterTotal": 10,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q081",
+      "query": "세계의 종교 경관 자료 찾는데 교리 설명은 빼고 건축물이나 거리 풍경만 나오는 걸로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q082",
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "beforeTotal": 5,
+      "afterTotal": 0,
+      "countChanged": true,
+      "top5Changed": true
+    },
+    {
+      "id": "X100-Q083",
+      "query": "EBS 다큐 중에 북극 지방 사람들 생활을 다룬 거요. 한국어 자막이 나오는 걸로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q084",
+      "query": "재판 과정 자료요. 실제 법정 촬영 장면이 반드시 나와야 하고, 아이들이 부담스러워해서 실사 장면 없이 그림으로만 된 걸로 찾아 주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q085",
+      "query": "광물의 조흔색",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q086",
+      "query": "생물 분류 단원에서 학생들이 직접 분류 기준을 세워 보기 전에, 기준에 따라 결과가 달라질 수 있다는 걸 보여줄 자료",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q087",
+      "query": "보일 법칙 설명할 때 주사기 실험을 화면으로 보여주려고 해요. 압력과 부피 관계가 그래프로 정리되면 더 좋고요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q088",
+      "query": "운동화 바닥이 닳는 거나 빙판길에서 미끄러지는 거 같은 걸 설명하는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q089",
+      "query": "여름에 마당에 물 뿌리면 시원해지는 거, 그게 왜 그런지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q090",
+      "query": "마그마가 식는 속도에 따라 화성암 결정 크기가 어떻게 달라지는지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q091",
+      "query": "판이 움직이면서 습곡 산맥이나 해구가 만들어지는 과정",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q092",
+      "query": "현무암과 화강암을 비교 관찰하는 장면이 나오는 영상",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q093",
+      "query": "빛의 색을 섞는 것과 물감 색을 섞는 게 어떻게 다른지",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q094",
+      "query": "탄성력 예시인데 용수철, 고무줄, 트램펄린 중 아무거나 하나 이상이면 되고, 늘어난 길이와 힘의 관계 설명은 꼭 있어야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q095",
+      "query": "기체의 온도와 부피 관계 영상인데 풍선 실험과 찌그러진 탁구공 펴기 같은 일상 예시가 둘 다 나와야 해요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q096",
+      "query": "생물 다양성이 줄어드는 걸 다룬 자료인데, 동물이 죽어 있는 사진이나 잔인한 사냥 장면은 빼 주세요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q097",
+      "query": "중력 설명 영상인데 공식이나 계산 위주는 빼고, 우주 정거장에서 둥둥 뜨는 것 같은 현상 위주로요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q098",
+      "query": "EBS 과학 프로그램 중에 진행자가 직접 상태 변화 실험을 하는 형식인 거요. 실험 장면이 영상 앞부분에 나오면 좋겠어요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q099",
+      "query": "가상의 행성에 생물이 살려면 어떤 조건이 필요할지 상상해 보는 수업인데, 가상 행성 환경을 설정해서 보여주는 영상 있을까요?",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    },
+    {
+      "id": "X100-Q100",
+      "query": "저항에 대한 영상 찾아요. 수업에서 바로 쓰게요",
+      "beforeTotal": 0,
+      "afterTotal": 0,
+      "countChanged": false,
+      "top5Changed": false
+    }
+  ],
+  "candidateReviews": [
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-42cb718c8c18c2a86d25",
+      "title": "도서관에 간 꺼병이들",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "사서·회원증·책 대출의 도서관 역할이 소개문에 명시된다. 실제 영상/학년은 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "친절한 사서의 도움으로 회원증도 만들고 책을 찾아보는데",
+          "start": 47,
+          "end": 77,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "8a14e91fb38586bf1e90289b27c62a19462d630b445633c59751560a0d53902a"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-de34a2dbeac459d4a378",
+      "title": "문명과 수학 - 5부 남겨진 문제들",
+      "rank": 2,
+      "judgment": "UNRELATED",
+      "reason": "수학 난제가 중심이다. 도서관 책 대출은 학자의 어린 시절 일화로 요청한 도서관 역할 자료로는 무관하다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "현대 수학의 지평을 살펴본다.",
+          "start": 329,
+          "end": 345,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "9bad4f051901aa1af3b1654dd8ede2bbc09444bf2e02d970941c735fbba635ff"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-41267a32f2e8b45d36bb",
+      "title": "도서관을 구하라",
+      "rank": 3,
+      "judgment": "PARTIAL",
+      "reason": "공공도서 보존과 시민 연대의 내용은 있으나 기관 역할을 직접 설명하는지 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "화상입은 70만권의 책을 살려내기 위한 LA시민들의 연대를 소개한다",
+          "start": 23,
+          "end": 60,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "b2c7177926441b84bc3bcc9c9930f8caa7961b6332d988ba2acff1eee1b99e58"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-4ee5be140ead0d12cd1d",
+      "title": "세상의 모든 지식 창고",
+      "rank": 4,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "도서관 역사에 관한 짧은 단서이며 구체적인 역할 설명의 근거는 부족하다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "최초의 도서관인 알렉산드리아 도서관에 대하여 알아본다",
+          "start": 0,
+          "end": 29,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "8f6ac506a1596780dc765b9ad014a5f698675e87e4743e5722d1599c41353d79"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-143436bd604426e911f1",
+      "title": "시민의 탄생 - 4부 당신은 누구세요?",
+      "rank": 5,
+      "judgment": "UNRELATED",
+      "reason": "사람책 도서관을 모티브로 한 공존 이야기이며 실제 도서관이나 주민센터의 역할 설명 근거가 없다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "사람책 도서관을 모티브로 낯선 이와 함께 살아가는 방법에 대해 고찰한다.",
+          "start": 0,
+          "end": 40,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "177179f9dce1716ac33363521745a3980cd017e97420183e1c6b8bbd0cb6ca66"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "title": "힘센 내 자석",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "공개 대본에 두 극과 같은/다른 극의 끌림·밀림이 명시됨. 소개문은 없지만 보조 원문으로 주제 판단 가능. 실제 영상/학년 적합성은 미확인.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "자석에는 두 가지 극이 있는데 이렇게 같은 색끼리 만나면 잘 봐.",
+          "start": 232,
+          "end": 268,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "supplementId": "0d1ba2c767d3dac99df15fdc",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "동일 자기회차 대본에 클립은 붙음·크레파스는 안 붙음이 명시된다. 두 극의 끌림/밀림만 다루는 다른 자석 자료와 구분한다.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "크레파스는 안 붙는구나.",
+          "start": 796,
+          "end": 809,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+          "supplementId": "6665a362546a8d30c74be22e",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q035",
+      "candidateId": "BCAST-26e69ead6e14d727c26d",
+      "title": "이런 놀이터 어때요?",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "무장애 놀이터를 통해 어린이의 놀 권리를 다루는 소개문이 있음. 넓은 권리 주제에 적합한 텍스트 후보.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "모든 어린이들의 놀 권리를 위해 만들어진 '무장애 놀이터'.",
+          "start": 0,
+          "end": 33,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q055",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "식물성 플랑크톤→동물성 플랑크톤→물고기의 직접 먹이 관계를 명시한다. 그림 그리기는 교실 활동으로 보존한다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며",
+          "start": 58,
+          "end": 103,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "c4af5a9aa9292cb8769358037e42dfe2e5e486e7712b4c2743b3e69d03856095"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-4f089fedc7ab0e9c80b9",
+      "title": "수산자원 과학으로 일구다",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "해조류의 소멸과 물고기의 먹이·서식처 감소가 원문에 연결된다. 경제적 비유가 없다는 영상 확인은 별도다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "해조류가 없어진 바다 속 물고기들은 먹이는 물론 서식처를 제공받기 어려운 상황이다.",
+          "start": 355,
+          "end": 401,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "8e8734fd0b40eb28cd5174dfc040babaea1b0bc852730c5061f878077aee2410"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "식물성 플랑크톤→동물성 플랑크톤→물고기의 먹이 관계를 명시한다. 제외 조건의 영상 부재는 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "이 식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며",
+          "start": 56,
+          "end": 103,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "c4af5a9aa9292cb8769358037e42dfe2e5e486e7712b4c2743b3e69d03856095"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-bd6f77a755a251cb9689",
+      "title": "플라스틱 인류 1부 플라스틱의 여행",
+      "rank": 3,
+      "judgment": "PARTIAL",
+      "reason": "생물이 플라스틱을 먹이로 착각하는 생태 영향 사례이다. 먹이 관계 자체의 설명과는 일부만 관련된다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "앨버트로스 새는 칫솔, 라이터 같은 플라스틱들을 먹이로 착각해 죽어가고 있다.",
+          "start": 870,
+          "end": 913,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "aa2036e4193436fe13cea862901608e6cf497c9729d866678b53bc1dea096859"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "title": "기후 우울증에 걸린 사람들",
+      "rank": 1,
+      "judgment": "PARTIAL",
+      "reason": "기후 위기가 정신 건강·출산 결정에 미치는 영향. 기후와 생활이라는 넓은 주제의 일부이나 지역별 기후/생활 모습 비교 근거는 없음. 그 비교를 원문 필수조건으로 추가하지 않음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "기후 위기가 불러온 정신적 고통과 저출산으로 이어지는 이유를 돌아본다.",
+          "start": 296,
+          "end": 335,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "reason": "히말라야 기후 변화·홍수와 주민 피해를 다루는 일부 사례. 세계의 기후와 생활을 폭넓게 설명하는지는 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "만년설이 녹으면서 생기는 홍수로 피해입는 사람들을 취재해본다.",
+          "start": 38,
+          "end": 72,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "title": "88화_MOF, 세상을 구할 물질인가?",
+      "rank": 3,
+      "judgment": "UNRELATED",
+      "reason": "주제는 분자를 포집하는 신물질 MOF. 기후 위기는 기술 필요성의 배경이고 기후와 생활 모습의 내용 근거는 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "MOF는 특정 분자를 선택적으로 포집하는 신물질로, 기후 위기와 에너지 문제 해결의 새로운 열쇠로 주목받고 있다.",
+          "start": 37,
+          "end": 100,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-63f4a6b059325a2aa328",
+      "title": "여섯 번째 대멸종 5부-멸종위기종 인류",
+      "rank": 4,
+      "judgment": "PARTIAL",
+      "reason": "기후 위기에 따른 인간/생물의 위협을 다루는 주변 내용. 기후별 생활 설명의 근거로 확정할 수 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "기후 위기는 약 80억 세계 인구를 위협하고 있다.",
+          "start": 93,
+          "end": 121,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-0c7602db364d6d0cd2be",
+      "title": "38억 년 생존의 기술, 자연이 답이다",
+      "rank": 5,
+      "judgment": "UNRELATED",
+      "reason": "생체모방 미래 기술 소개이며 기후·세계 표현이 배경에 등장한다. 기후와 생활을 설명하는 자료라는 근거 부족.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "인류의 난제를 풀어줄 지속가능한 미래 기술, 생체모방 기술의 세계를 소개한다.",
+          "start": 71,
+          "end": 114,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "소금 사막에서 소금을 캐고 운반하며 생계를 유지하는 삶이 명시됨. 다큐 형식은 프로그램 설명 단서 수준으로만 대조.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.",
+          "start": 394,
+          "end": 426,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "title": "챠강티메 - 흰 낙타 이야기 1부",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "몽골 고비 사막 유목민의 다양한 삶을 보여준다는 내용 근거가 있음. 실제 영상 형식/장면은 별도 확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+          "start": 54,
+          "end": 84,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-dd00bb970222169873c2",
+      "title": "동네의 맛 - 첫눈 내리던 날",
+      "rank": 1,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "시적 단문에서 동네가 돌아왔다는 내용만 확인됨. 구체적인 변화나 사용자의 실제 동네를 판단할 근거 부족.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "춥고 혹독한 계절 우리에게 '동네'가 돌아왔다.",
+          "start": 0,
+          "end": 26,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "title": "나의 오래된 단골집 4부 우리 동네 사랑방",
+      "rank": 2,
+      "judgment": "PARTIAL",
+      "reason": "40년 된 미용실이 사랑방 역할을 한다는 사례. 사용자 지역과 어떤 변화가 필요한지 미지정이므로 전체 충족은 보류.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "면 소재지에 40년 전 들어선 미용실이 동네 사랑방이 된 건",
+          "start": 65,
+          "end": 98,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-10314e095244cb754377",
+      "title": "동네의 색 - 살아갑니다, 사랑합니다",
+      "rank": 3,
+      "judgment": "PARTIAL",
+      "reason": "구멍가게가 사라지는 변화 소재는 있음. 사용자 지역/변화 요구를 확인하지 않아 적합 확정은 안 함.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "점점 사라져가는 동네 구멍가게를 그리다.",
+          "start": 0,
+          "end": 22,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-59b631b537dc518d02ab",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 2강 부유한 동네와 가난한 동네",
+      "rank": 4,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "더빙 표기와 강의 제목 수준. 특정 동네의 변화 내용/원인을 판단할 본문이 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "2강 부유한 동네와 가난한 동네",
+          "start": 29,
+          "end": 46,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-1da970630a3f983fa0ca",
+      "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법",
+      "rank": 5,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "수어 표기와 강의 제목 수준. 바꾸는 법이라는 제목만으로 실제 변화 내용을 확정할 수 없음.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "5강 빈곤한 동네를 바꾸는 법",
+          "start": 29,
+          "end": 45,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "붙는 클립/안 붙는 크레파스의 원문 비교 단서. 냉장고라는 요청 상황은 별도로 보존·실제 장면 미확인이다.",
+      "evidence": [
+        {
+          "field": "sourceSupplement",
+          "quote": "크레파스는 안 붙는구나.",
+          "start": 796,
+          "end": 809,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceHash": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+          "supplementId": "6665a362546a8d30c74be22e",
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": [
+        {
+          "quote": "냉장고에 ",
+          "label": "냉장고",
+          "status": "SCENE_NOT_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "requestId": "X100-Q033",
+      "candidateId": "ECLIP-008",
+      "title": "새끼를 낳는 동물의 한살이 알아보기",
+      "rank": 1,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "동물 한살이의 제목 단서만 있으며 소개문이 없다. 선호 제거로 발견됐지만 실제 한살이 내용 판단은 부족하다.",
+      "evidence": [
+        {
+          "field": "title",
+          "quote": "새끼를 낳는 동물의 한살이 알아보기",
+          "start": 0,
+          "end": 19,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "16154c51d82fe532be22984a8e9f96b41c0521759774469c2ef7ff71db62d5d5"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-a7d7600fe01735b38ac8",
+      "title": "독도 바다를 그리다",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "독도의 바닷속 생태와 이를 그리는 방법이 중심 내용이다. 원래 질문은 독도의 특정 측면을 지정하지 않았다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "독도의 바닷속 생태를 한눈에 볼 수 있는 방법",
+          "start": 0,
+          "end": 25,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "0fd8ff7501dee9d10878c539ec66f39d0d9b7868a71749999d177fb32f8db61d"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-b9bd9c450d9e9b9a0ad3",
+      "title": "신년 특집 독도 바다사자를 찾아서",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "독도 탐사·생태계·사라진 바다사자의 흔적이 중심 내용이다. 실제 재생과 학년 적합성은 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "그들을 통해 독도 생태계를 살펴보고, 일제 강점기 시절 사라진 바다사자의 흔적을 쫓아본다",
+          "start": 42,
+          "end": 91,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "64a1068222fd929d4b32576819c3d1f33dfe86033a5fb22260767ea04cccea20"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-5a6d462f2b7f0f30aebb",
+      "title": "설민석의 독도로-독도 교육편",
+      "rank": 3,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 독도 주제 단서는 있으나 내용 판단을 위한 설명이 부족하다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "설민석의 독도로-독도 교육편",
+          "start": 0,
+          "end": 15,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "617b5643c6b8856f05ff313d47acda3c5da69afcabe9f5adcb7a2c2173f629fe"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-ce171f36f1284f098f39",
+      "title": "일본은 알고 있었다-독도 1부",
+      "rank": 4,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 영토·역사 설명의 실제 내용은 제목으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "일본은 알고 있었다-독도 1부",
+          "start": 0,
+          "end": 16,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "d093f69655c4ae4bb333fc048edfb224ccdd1553f295b901216337ad7bec22b2"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-9252637d16e92170b27a",
+      "title": "일본은 알고 있었다-독도 2부",
+      "rank": 5,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "소개문이 제목과 같다. 영토·역사 설명의 실제 내용은 제목으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "일본은 알고 있었다-독도 2부",
+          "start": 0,
+          "end": 16,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "13cdd8ad4a2ce766280e2f7e7bece52f2100c568d0bb1515225828889cbe00e3"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "NOT_REQUESTED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-006958cbcbf16462144b",
+      "title": "잘 지내나요, 이방인?",
+      "rank": 1,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "다문화 사회·차별 대신 공존과 이주민의 권리를 다룬다는 원문 근거가 있다. 희화화/고정관념 장면의 부재는 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다.",
+          "start": 0,
+          "end": 40,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "7be4eb0f967fa1fea16d0a7a89a3d9ddbab5958922d9224d789f054f739f05b6"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "rank": 2,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "다문화/이주배경 초등 교실을 중심으로 다룬 소개문이 있다. 희화화/고정관념 장면의 부재는 미확인.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "다문화(이주배경) 학생들이 알록달록 꿈을 키워가는",
+          "start": 61,
+          "end": 88,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "17c1672de3c3bb7020e0521485673f686eaff80a7c701455063f916f8cc1d9b1"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-35d7fe0ce93a72871af6",
+      "title": "시민 미완: 경계의 청년들",
+      "rank": 3,
+      "judgment": "TEXT_SUPPORTED",
+      "reason": "이주민 2세대와 다민족 사회의 현안이 중심 내용이다. 제외 조건은 영상 확인 전 보류한다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다",
+          "start": 30,
+          "end": 76,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "7c15e6ca73793244f0bb63c321020a6776a316d6e963a0dc800c84344e892dd1"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-a66feddc1e1e27b62f47",
+      "title": "어른도감 - 마이크를 건네주는 어른",
+      "rank": 4,
+      "judgment": "PARTIAL",
+      "reason": "이주민의 목소리가 방송에 나오는 단서이나 다문화 사회의 설명 범위는 짧은 원문으로 확정하기 어렵다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "이주민의 목소리가 전파를 타고 흘러나오는 곳",
+          "start": 0,
+          "end": 24,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "af29438a1a821d5bdd502c722f14d74f4450ad72caf93445260a17f6b086e964"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-9103eb5ea2e4e90d2e91",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+      "rank": 5,
+      "judgment": "INSUFFICIENT_SOURCE",
+      "reason": "더빙 표기·제목 수준. 주제는 다문화이나 강의 내용과 제외 조건을 판단할 본문이 없다.",
+      "evidence": [
+        {
+          "field": "summary",
+          "quote": "민족주의냐, 다문화주의냐",
+          "start": 24,
+          "end": 37,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "sourceTextSha256": "f581dce52c486bd24c7ef20bdca1def347a56ad53445e2c41134ba81c605b765"
+        }
+      ],
+      "videoReviewed": false,
+      "gradeSuitability": "UNKNOWN",
+      "excludedConditionStatus": "UNKNOWN_VIDEO_NOT_REVIEWED",
+      "sceneContexts": []
+    }
+  ],
+  "apiQuoteChecks": [
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-42cb718c8c18c2a86d25",
+      "field": "summary",
+      "quote": "집에서 읽던 동화책 2권을 빌리기 위해 엄마를 따라 처음으로 도서관에 온 꺼병이들.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-de34a2dbeac459d4a378",
+      "field": "summary",
+      "quote": "세기의 난제 페르마의 마지막 정리와 푸앵카레의 추측으로 살펴보는 21세기의 수학1950년, 영국 캠브리지의 동네 도서관에서 10살난 꼬마가 수학 문제를 하나 발견했다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-4ee5be140ead0d12cd1d",
+      "field": "summary",
+      "quote": "최초의 도서관인 알렉산드리아 도서관에 대하여 알아본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q013",
+      "candidateId": "BCAST-143436bd604426e911f1",
+      "field": "summary",
+      "quote": "사람책 도서관을 모티브로 낯선 이와 함께 살아가는 방법에 대해 고찰한다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "quote": "자석은 그냥 막 달라붙는 줄만 알았는데.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q018",
+      "candidateId": "BCAST-2d032ce4b233bfe29ceb",
+      "field": "sourceSupplement",
+      "quote": "내 자석에 붙어라.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-이 크레파스가 자석에 붙을까?",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "안 붙네.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "크레파스는 안 붙는구나.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "이 막대자석에 클립이 다닥다닥 다 붙어.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-붙었다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "진짜 붙었어.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q028",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q035",
+      "candidateId": "BCAST-26e69ead6e14d727c26d",
+      "field": "summary",
+      "quote": "모든 어린이들의 놀 권리를 위해 만들어진 '무장애 놀이터'.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q055",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "단세포 생물인 식물성 플랑크톤은 바닷물에 녹는 이산화탄소를 광합성으로 처리하여 양분을 만든다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q055",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "또한 이 식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며 생태계의 매우 중요한 축을 형성하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q055",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "현미경으로 보는 작은 생물들의 삶과 죽음 그리고 그들의 생존전략을 방송 최초로 밝힌다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q055",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "또한 이 식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며 생태계의 매우 중요한 축을 형성하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-4f089fedc7ab0e9c80b9",
+      "field": "summary",
+      "quote": "2013년 현재, 바다 생태계를 복원하고 수산자원을 일구는 과학 수산의 현장을 가본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-4f089fedc7ab0e9c80b9",
+      "field": "summary",
+      "quote": "점차 확산되는 갯녹음 현상으로 바다속은 사막처럼 변해가고 해조류가 없어진 바다 속 물고기들은 먹이는 물론 서식처를 제공받기 어려운 상황이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-4f089fedc7ab0e9c80b9",
+      "field": "summary",
+      "quote": "점차 확산되는 갯녹음 현상으로 바다속은 사막처럼 변해가고 해조류가 없어진 바다 속 물고기들은 먹이는 물론 서식처를 제공받기 어려운 상황이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "또한 이 식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며 생태계의 매우 중요한 축을 형성하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "field": "summary",
+      "quote": "또한 이 식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며 생태계의 매우 중요한 축을 형성하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-bd6f77a755a251cb9689",
+      "field": "summary",
+      "quote": "플라스틱 유령들의 섬, 태평양 거대 쓰레기 지대 바다에 이른 플라스틱은 자연 상태에서 분해가 되지 않은 채로 남아서 생태계를 위협한다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-bd6f77a755a251cb9689",
+      "field": "summary",
+      "quote": "이로 인해, 앨버트로스 새는 칫솔, 라이터 같은 플라스틱들을 먹이로 착각해 죽어가고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q067",
+      "candidateId": "BCAST-bd6f77a755a251cb9689",
+      "field": "summary",
+      "quote": "이로 인해, 앨버트로스 새는 칫솔, 라이터 같은 플라스틱들을 먹이로 착각해 죽어가고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "quote": "MZ세대는 태어나는 순간부터 죽을 때까지 기후 위기를 겪어야 하는 세대다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "quote": "극심한 기후 변화로 인해 환경은 점점 살기 힘들어졌고, 예측되지 않는 미래에 대한 두려움과 무력감을 느끼는데.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-570bed2ca0947519dd5d",
+      "field": "summary",
+      "quote": "환경 보호 활동을 해도 심해지는 기후 위기에 ‘현타’를 느끼는 사람들도 많은 상황.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "field": "summary",
+      "quote": "세계의 지붕 히말라야에선 지금 시한폭탄의 카운트다운이 시작됐다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-c758a0cc89b6305a56c0",
+      "field": "summary",
+      "quote": "‘세계 인구 40% 식수원’, ‘만년설’ 히말라야가 기후 변화로 인해 새로운 재앙을 맞았다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "field": "summary",
+      "quote": "MOF는 특정 분자를 선택적으로 포집하는 신물질로, 기후 위기와 에너지 문제 해결의 새로운 열쇠로 주목받고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-17fc205bb84eab78edd3",
+      "field": "summary",
+      "quote": "인류의 미래를 바꿀 분자 세계의 가능성을 들여다본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-63f4a6b059325a2aa328",
+      "field": "summary",
+      "quote": "인수공통감염병 코로나19는 500만 명 넘는 희생을 낳았고, 기후 위기는 약 80억 세계 인구를 위협하고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q069",
+      "candidateId": "BCAST-0c7602db364d6d0cd2be",
+      "field": "summary",
+      "quote": "자막지구온난화, 에너지ㆍ자원 고갈, 물 부족, 식량문제, 급격한 인구증가, 생물다양성의 열화 등 범지구적인 위기는 현재진행형이다인류의 난제를 풀어줄 지속가능한 미래 기술, 생체모방 기술의 세계를 소개한다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "summary",
+      "quote": "용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "summary",
+      "quote": "그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-b7ea99f0dd385b579d34",
+      "field": "program",
+      "quote": "다큐",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "summary",
+      "quote": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "summary",
+      "quote": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q082",
+      "candidateId": "BCAST-ee6c729aaf350fa7b033",
+      "field": "program",
+      "quote": "다큐",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-dd00bb970222169873c2",
+      "field": "summary",
+      "quote": "춥고 혹독한 계절 우리에게 '동네'가 돌아왔다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "field": "summary",
+      "quote": "면 소재지에 40년 전 들어선 미용실이 동네 사랑방이 된 건, 여기 아니면 파마를 할 수 없는 할머니들, 그 할머니와 같이 오는 할아버지들이 있기 때문이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-03df91fa6a47030ab89d",
+      "field": "summary",
+      "quote": "무엇보다 동네 이웃들과 식구처럼 지내는 미용실 주인의 푸근한 마음이 있어서다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-10314e095244cb754377",
+      "field": "summary",
+      "quote": "점점 사라져가는 동네 구멍가게를 그리다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-59b631b537dc518d02ab",
+      "field": "summary",
+      "quote": "2강 부유한 동네와 가난한 동네",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "D70-Q083",
+      "candidateId": "BCAST-1da970630a3f983fa0ca",
+      "field": "summary",
+      "quote": "5강 빈곤한 동네를 바꾸는 법",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "안 붙네.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "크레파스는 안 붙는구나.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "이 막대자석에 클립이 다닥다닥 다 붙어.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-붙었다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "진짜 붙었어.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q024",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "field": "sourceSupplement",
+      "quote": "-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-a7d7600fe01735b38ac8",
+      "field": "summary",
+      "quote": "독도의 바닷속 생태를 한눈에 볼 수 있는 방법, 바다 밑을 일러스트로 그리면 된다?",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-b9bd9c450d9e9b9a0ad3",
+      "field": "summary",
+      "quote": "그들을 통해 독도 생태계를 살펴보고, 일제 강점기 시절 사라진 바다사자의 흔적을 쫓아본다",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-5a6d462f2b7f0f30aebb",
+      "field": "summary",
+      "quote": "설민석의 독도로-독도 교육편",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-ce171f36f1284f098f39",
+      "field": "summary",
+      "quote": "일본은 알고 있었다-독도 1부",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q035",
+      "candidateId": "BCAST-9252637d16e92170b27a",
+      "field": "summary",
+      "quote": "일본은 알고 있었다-독도 2부",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-006958cbcbf16462144b",
+      "field": "summary",
+      "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-006958cbcbf16462144b",
+      "field": "summary",
+      "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "PDLOG-048",
+      "field": "summary",
+      "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-35d7fe0ce93a72871af6",
+      "field": "summary",
+      "quote": "이주민이 인구의 5%를 차지하는 2025년 한국사회.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-35d7fe0ce93a72871af6",
+      "field": "summary",
+      "quote": "이제 청년기에 진입한 이주민 2세대에 주목, 다민족 국가 대한민국의 현안을 살펴본다",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-a66feddc1e1e27b62f47",
+      "field": "summary",
+      "quote": "이주민의 목소리가 전파를 타고 흘러나오는 곳.",
+      "exactMatch": true,
+      "identityMatch": true
+    },
+    {
+      "requestId": "X100-Q080",
+      "candidateId": "BCAST-9103eb5ea2e4e90d2e91",
+      "field": "summary",
+      "quote": "더빙윌 킴리카 - 다문화 사회가 왔다 1강 민족주의냐, 다문화주의냐",
+      "exactMatch": true,
+      "identityMatch": true
+    }
+  ],
+  "protectedStoresUnchanged": {
+    "server/data/broadcast-catalog.sqlite": true,
+    "server/data/semantic-layer.sqlite": true,
+    "server/data/automatic-assets.sqlite": true,
+    "server/data/broadcast-semantic-search.sqlite": true,
+    "server/data/curi-store.json": true
+  },
+  "changedDuringApiRun": [],
+  "limits": [
+    "4/4는기존진단앵커재발견이며새독립정답률아님",
+    "도서관상위에무관2/원문부족1/부분1이남음",
+    "157빈결과의의미적원인전체확정은미완료",
+    "주제근거요청20·무관10%목표는미달",
+    "자료보강/실제영상·교사선택효용은미실행"
+  ],
+  "beforeApi": "docs/r12-03-recheck170.json",
+  "afterApi": "docs/r12-03-content-verified170.json",
+  "afterLatencyMs": {
+    "p50": 557,
+    "p95": 1329,
+    "max": 27541,
+    "note": "서버 초기 자료 구성/캐시 상태가 포함된 이번 실행 관측치, 성능 효과 통제 실험 아님"
+  }
+}

@@ -1,0 +1,29 @@
+#curriculum-form { display:flex; gap:1rem; align-items:end; flex-wrap:wrap; }
+#curriculum-form label { display:grid; gap:.5rem; min-width:0; }
+#curriculum-form .standard-choice { flex:1; min-width:220px; }
+#curriculum-form select, #state { max-width:100%; padding:.6rem; border:1px solid #b9cdc2; border-radius:8px; background:white; }
+#curriculum-results { display:grid; gap:1.5rem; }
+.curriculum-candidate { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; padding:1rem; border:1px solid #d3dfd7; background:#fbfcfa; border-radius:16px; }
+.curriculum-comparison { padding:1rem; overflow-wrap:anywhere; }
+.curriculum-comparison blockquote { margin:.75rem 0; border-left:3px solid #55947c; padding:.5rem .8rem; background:#eef5f0; }
+.curriculum-comparison li { margin:.5rem 0; }
+.table-scroll { overflow:auto; } table { border-collapse:collapse; width:100%; font-size:.85rem; } th,td { text-align:left; padding:.6rem; border-bottom:1px solid #d3dfd7; }
+#source-queue li { margin:.75rem 0; overflow-wrap:anywhere; }
+#status.error { color:#963818; }
+@media(max-width:700px) { .curriculum-candidate { grid-template-columns:minmax(0,1fr); padding:.5rem; } .site-header { flex-wrap:wrap; } .site-header nav { font-size:.75rem; gap:.75rem; } #curriculum-form { display:grid; } #curriculum-form .standard-choice { min-width:0; } }
+
+#standard { width:100%; min-width:0; text-overflow:ellipsis; }
+@media(max-width:700px) { #curriculum-form { grid-template-columns:minmax(0,1fr); } }
+
+.comparison-dimensions, .requirement-comparison dl { margin:1rem 0; }
+.comparison-dimensions > div, .requirement-comparison dl > div { padding:.6rem 0; border-bottom:1px solid #d3dfd7; }
+.comparison-dimensions dt, .requirement-comparison dt { font-weight:700; color:#365a49; }
+.comparison-dimensions dd, .requirement-comparison dd { margin:.4rem 0 0; }
+.requirement-comparison { margin:1rem 0; padding:1rem; border:1px solid #d3dfd7; border-radius:10px; background:white; }
+.requirement-comparison h4 { margin:0; }
+.requirement-status { font-size:.85rem; color:#365a49; }
+.requirement-reason, .quote-provenance, .filter-scope { font-size:.8rem; color:#526558; line-height:1.6; }
+.quote-provenance code { overflow-wrap:anywhere; }
+.discovery-evidence { padding-top:1rem; }
+.other-standard-evidence { margin-top:1rem; border-top:1px solid #d3dfd7; padding-top:.75rem; }
+.curriculum-candidate > .resource-card { align-self:start; }

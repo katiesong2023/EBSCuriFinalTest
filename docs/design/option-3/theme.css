@@ -1,0 +1,15 @@
+/* 3안 개정: 미색 바탕을 웹·확장·메뉴까지 연결한다. */
+.product-frame{border-radius:0}.product-header nav button[aria-pressed=true]{background:transparent;color:var(--o-ink);border-color:var(--o-ink)}
+.product-header #menu-open,.section-nav button{border-radius:99px}
+.reading-stage{border-top:1px solid var(--o-line)}
+.visual{background:#E8DFD0;color:var(--o-ink)}.card:nth-child(2) .visual{background:var(--o-science)}.card:nth-child(3) .visual{background:var(--o-social)}
+.card{border-color:var(--o-border)}.type-display{font-weight:400}.logo-dark{border-color:var(--o-border)}
+.feature-art{background:var(--o-surface)}.feature-art span{background:var(--o-social)}.feature-art span:after{background:var(--o-surface)}
+.extension-box header{background:var(--o-surface);border-bottom:1px solid var(--o-line)}
+#nav-dialog{background:var(--o-canvas);color:var(--o-ink);--o-muted:#605C54;--o-focus:#2459B8;position:fixed;inset:16px 16px 16px auto;margin:0;width:min(420px,calc(100vw - 32px))}
+#nav-dialog .help{color:var(--o-muted)}#nav-dialog nav button:hover{background:var(--o-surface);color:var(--o-ink)}
+#nav-dialog .dialog-head button{color:var(--o-ink)}#nav-dialog nav span{background:var(--o-social);color:var(--o-actionInk)}
+.grid-areas>.g4{background:var(--o-social);color:var(--o-ink)}.grid-areas>.g8{background:var(--o-surface);color:var(--o-ink)}
+#nav-dialog .dialog-head button:hover:not(:disabled){background:var(--o-surface);color:var(--o-ink)}
+
+.logos .logo-light{order:-1}

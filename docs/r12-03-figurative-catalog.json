@@ -1,0 +1,4067 @@
+{
+  "date": "2026-10-15",
+  "version": "figurative-source-v1",
+  "scope": "전체 카탈로그 제목/소개문/모든 판본. 의미 이해 모델의 전량 판정은 아니다.",
+  "total": 23403,
+  "titleFieldsChecked": 23403,
+  "summaryFieldsChecked": 23403,
+  "withSummary": 10314,
+  "affected": 155,
+  "titleExpressions": 83,
+  "summaryExpressions": 92,
+  "registeredAliasesHeld": 6,
+  "reasons": {
+    "ABSTRACT_OBJECT": 17,
+    "COMPARISON_VEHICLE": 140,
+    "EXPLICIT_FIGURATIVE": 3,
+    "SEA_MILK": 1,
+    "BODY_METAPHOR": 2,
+    "COMPETITION_WAR": 6,
+    "QUOTED_SYMBOL": 1,
+    "ABSTRACT_NATURE": 3,
+    "LIVING_FOSSIL": 1,
+    "TITLE_CORROBORATED_FIGURATIVE": 1
+  },
+  "errors": [],
+  "protectedBefore": {
+    "server/data/broadcast-catalog.sqlite": "82fe13a9ab344191283d0f9b146b0fff80bc9af773cb37a2d9355018ddd76178",
+    "server/data/semantic-layer.sqlite": "4c3274232703e5c150d8e68b4ad4ddea5ad7914530cc6bc35a00142c7c9ee507",
+    "server/data/broadcast-semantic-search.sqlite": "15b10d8ae69146abb012b0878d860dcc2bc7ad7a939a5b365a234234f3771d3e",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/teacher-resources.sqlite": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea"
+  },
+  "protectedAfter": {
+    "server/data/broadcast-catalog.sqlite": "82fe13a9ab344191283d0f9b146b0fff80bc9af773cb37a2d9355018ddd76178",
+    "server/data/semantic-layer.sqlite": "4c3274232703e5c150d8e68b4ad4ddea5ad7914530cc6bc35a00142c7c9ee507",
+    "server/data/broadcast-semantic-search.sqlite": "15b10d8ae69146abb012b0878d860dcc2bc7ad7a939a5b365a234234f3771d3e",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/teacher-resources.sqlite": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea"
+  },
+  "changedDuringAudit": [],
+  "rows": [
+    {
+      "id": "DP-60055811",
+      "title": "역사의 빛, 청년",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "PDLOG-084",
+      "title": "금을 잡는 사람들, 연금술사",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "하루가 다르게 치솟는 금값. 금을 찾기 위해 직접 현장으로 뛰어든 이PD! 버려진 잔해 속 숨겨진 금과 그 가치를 들여다보는 시간. 강에서 사금을 채취하고, 쓰레기처럼 보이는 도시광산 속 전자회로기판에서 금을 회수하는 과정까지. 과연 이PD는 금을 잡을 수 있을까?!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 88,
+          "end": 93,
+          "quote": "쓰레기처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "강",
+          "quote": "강",
+          "start": 74,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-070",
+      "title": "죽도 마지막 어부 대나무 삼치잡이",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막삼 형제 아빠 김PD, 대나무 삼치잡이에 도전하다! 돛대같이 생긴 이 대나무가 사실은 낚싯대라고요? 삼치잡이만 50여 년 경력의 베테랑, 그의 스파르타 교육이 시작된다! 삼치 놓쳐 혼나고, 미끄러워 넘어지는 우당탕탕 초보 어부 김PD. 과연 베테랑의 수제자가 될 수 있을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 31,
+          "end": 35,
+          "quote": "돛대같이",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "교육",
+          "quote": "교육",
+          "start": 87,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-051",
+      "title": "머구리의 바다",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막머구리를 아시나요? 산소 호스 하나에 의지한 채, 깊은 심해에 들어가는 머구리. 누군가는 죽음이 옆에 있다고 하고, 누군가는 지옥과도 같다는 머구리의 어업. 바닷속 풍경이 궁금했던 최 PD, 최북단 바다에서 머구리에 도전하다! 물에 들어가면 천국이라며 오늘도 바다에서 유영할 준비를 하는 박명호 베테랑. 근데 새벽부터 배들이 분주하게 무언가를 준비한다? 저도어장이 열리는 날, 고성 앞바다에서는 전쟁을 방불케 하는 전경이 펼쳐진다. 그리고 그 현장에서 어민들이 이야기하는 어업의 현실. 최북단 바다에서 우리는 계속 문어를 만날 수 있을까? 머구리의, 그리고 우리 모두의 바다가 잘 지켜지길 바라는 마음이 담긴 이야기.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 223,
+          "end": 230,
+          "quote": "전쟁을 방불케",
+          "reason": "EXPLICIT_FIGURATIVE",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "바다",
+          "quote": "바다",
+          "start": 113,
+          "end": 115
+        },
+        {
+          "label": "물",
+          "quote": "물",
+          "start": 129,
+          "end": 130
+        },
+        {
+          "label": "산소",
+          "quote": "산소",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "label": "어업",
+          "quote": "어업",
+          "start": 86,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-047",
+      "title": "시골 버스는 사랑을 싣고",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막매화 만발 초봄의 하동, 그곳엔 특별한 직업이 있다? 어르신들의 버스 이용을 돕는 버스 도우미가 된 정 PD! 첫차부터 막차까지 웃음을 잃지 않는 12년 차 베테랑처럼, 그도 웃는 미소로 어르신께 먼저 다가갈 수 있을까? 내향인 정 PD의 시골 버스 도전기!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 90,
+          "end": 95,
+          "quote": "베테랑처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "직업",
+          "quote": "직업",
+          "start": 24,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-044",
+      "title": "바다의 우유, 굴 따러가세",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막무치고 부치고 끓이고 곁들여서 즐기는 겨울철 별미, 굴. 임PD\\~ 웰컴 투 굴 월드\\~ 따고 담고 가끔은 꽈당하는 쉴 틈 없는 굴 공장 24시! 특명, 하루 5톤 굴을 까라?! 빡세게 굴러야만 굴을 얻는다! 불굴의 임PD, 도전의 끝은?",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 6,
+          "quote": "우유",
+          "reason": "SEA_MILK",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "굴",
+          "quote": "굴",
+          "start": 31,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-030",
+      "title": "반세기가 녹아든 '최고의 유리 비결'",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막800도가 넘는 뜨거운 열기도 우리를 막을 수 없다! 꼭두새벽부터 유리공장에 도착한 이PD, 각오를 다지며 공장 문을 여는데... 풍선처럼 유리를 부는 인공 기술부터 모두가 협력해서 제 역할을 다 해내는 수동 과정까지. 최고의 온도 아래 \\<PD로그> 최장 경력의 베테랑이 모두 한자리에 모여 유리를 만든다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 75,
+          "end": 79,
+          "quote": "풍선처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "온도",
+          "quote": "온도",
+          "start": 129,
+          "end": 131
+        },
+        {
+          "label": "기술",
+          "quote": "기술",
+          "start": 90,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "PDLOG-012",
+      "title": "옷은 돌고 돈다, 최PD의 헌옷 추적기",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "summary": "자막옷장 속의 그 많은 옷은 어디로 갈까? 새 옷이 헌옷이 되는 순간, 옷의 운명은 뒤바뀐다. 버려지거나, 재활용 돼 국내 구제 매장에서 판매되고 동남아와 아프리카로 수출길에 오르기도 한다. 플라스틱의 시작부터 끝까지 추적했던 환경 피디가 이번엔 헌옷의 세계로 뛰어든다. 헌옷 수거 베테랑, 헌옷 분류 달인과 함께 일하며 헌옷을 온몸으로 느낀다. 거대한 산처럼 쌓였다가 폭포처럼 떨어지고, 강물처럼 흐른다는 헌옷. 그 흐름을 따라가며 옷에 대해 생각해보는 시간.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 207,
+          "end": 211,
+          "quote": "폭포처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 218,
+          "end": 222,
+          "quote": "강물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "플라스틱",
+          "quote": "플라스틱",
+          "start": 107,
+          "end": 111
+        },
+        {
+          "label": "환경",
+          "quote": "환경",
+          "start": 127,
+          "end": 129
+        },
+        {
+          "label": "아프리카",
+          "quote": "아프리카",
+          "start": 87,
+          "end": 91
+        },
+        {
+          "label": "재활용",
+          "quote": "재활용",
+          "start": 60,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "BCAST-0487c04243132d25e6c9",
+      "title": "<철학하라> 제1부 - 너희는 왜 우리를 미워하는가",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055851&lectId=10760168",
+      "summary": "나치의 홀로코스트를 비롯해 동성애 혐오, 여성 혐오 등 현대 사회의 불치병처럼 여겨지는 각종 혐오 문제를 라캉, 푸코, 데리다의 시각을 통해 분석한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 38,
+          "end": 43,
+          "quote": "불치병처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-023acb5b8fe8bb4cb583",
+      "title": "역사의 빛, 청년 제6부 억만장자의 독립운동",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055811&lectId=20134741",
+      "summary": "유일한 박사의 생애를 통해 독립운동이 주는 교훈을 배운다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 15,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "BCAST-21d23bc91ae1d3e16b39",
+      "title": "구름의 무게는 얼마나 될까?",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20434271",
+      "summary": "새털처럼 가벼울 것만 같았던 구름의 무게, 사실 수백 수천 톤이라고? 그런데 왜 안 떨어지지?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 4,
+          "quote": "새털처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "구름",
+          "quote": "구름",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "label": "무게",
+          "quote": "무게",
+          "start": 20,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "BCAST-b426c1e2894b8fd8648e",
+      "title": "한라산 날씨, 예측이 어려운 이유",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20296126",
+      "summary": "한라산 등반은 일기예보를 보고가도 무용지물. 날씨예측이 자주 빗나간다. 지구본의 위도와 경도처럼, 지구를 바둑판 모양으로 나누어 예측한다는 일기예보. 세계적인 수준이라는 측정시스템이 왜 한라산의 날씨를 예측하는 일에는 유독 약한 것일까.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 49,
+          "end": 53,
+          "quote": "경도처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "날씨",
+          "quote": "날씨",
+          "start": 109,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "BCAST-98b56fa27d0b607fa585",
+      "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20256193",
+      "summary": "점점 쓰레기처럼 쌓여가는 우주 인공위성 쓰레기. 모두가 쏘아 올리는데만 정신이<br>팔려있고, 정작 이것을 치우는데는 관심이 없다. 우주에서 발생한 공유지의 비극<br>인간은 어떤 선택을 할까..이것을 해결하는 방법은 없을까..",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 3,
+          "end": 8,
+          "quote": "쓰레기처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "우주",
+          "quote": "우주",
+          "start": 14,
+          "end": 16
+        },
+        {
+          "label": "환경",
+          "quote": "쓰레기",
+          "start": 22,
+          "end": 25
+        },
+        {
+          "label": "인공위성",
+          "quote": "인공위성",
+          "start": 17,
+          "end": 21
+        },
+        {
+          "label": "공유지의 비극",
+          "quote": "공유지의 비극",
+          "start": 83,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "BCAST-01238f9ea4de00755d6f",
+      "title": "우리들의 아기 판다 2부 - 굿바이, 푸바오",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60390765",
+      "summary": "자이언트 판다는 멸종 위기종으로 1980년대부터 세계자연기금(WWF)과 중국 정부가 ‘자이언트판다 보전 활동’을 추진 중이다. 큰 노력으로 2016년 멸종 위기종에서 취약종으로 심각성이 한 단계 낮아졌지만, 여전히 전 세계에 1,800여 마리에 불과하다. 따라서 푸바오도 본연의 야생성을 유지하기 위해 중국으로 돌아가 친구들을 만나고, 엄마 아이바오처럼 짝을 찾는 과정이 필요하다.<br><br>푸바오의 탄생과 성장 과정에 대해 알아봤던 1부에 이어서, 2부에서는 아기 판다들이 중국으로 돌아가는 이유에 대해서 알아본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 191,
+          "end": 197,
+          "quote": "아이바오처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "멸종",
+          "quote": "멸종",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "label": "중국",
+          "quote": "중국",
+          "start": 40,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "BCAST-02aecda3e4febd7d4398",
+      "title": "뭘 타고 떠나볼까~ 4부 매일 아침 떠나는 맨발 길(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=20003840&lectId=60526263",
+      "summary": "전국에 불어 닥친 맨발 걷기 열풍! 요즘엔 맨발로 산을 오르는 사람들을 쉽게 볼 수 있다. 일찌감치 맨발 걷기의 효과를 경험한 이들의 증언이 이어지고 있는데 그중 무려 암 후유증 일체(?)를 극복했다는 최경숙 씨를 만났다. 건강을 위해 서울 생활을 모두 정리하고 전라남도 영암으로 귀촌을 선택!! 월출산 아래 황톳길에서 매일 아침 맨발 걷기를 한 결과 1년도 채 되지 않아 완치 판정을 받았다는데... 그녀처럼 맨발 걷기의 매력에 푹 빠진 이들이 모여 동호회를 꾸렸다. 그들이 감행하는 맨발 월출산행에 함께 동행해 본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 225,
+          "end": 229,
+          "quote": "그녀처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "건강",
+          "quote": "건강",
+          "start": 125,
+          "end": 127
+        },
+        {
+          "label": "서울",
+          "quote": "서울",
+          "start": 132,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "BCAST-01f7533d1fed3b8214d0",
+      "title": "현지인처럼 살아볼까 2부 디스 이즈 내와리(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=20003840&lectId=60547554",
+      "summary": "울주의 산속 오지마을, 내와리. 작은 시골 농장에 금발에 푸른 눈을 가진 외국인들이 살고 있다. 미국인 포레스트, 슬로베니아인 파타, 독일인 슈테판까지. 이들이 제발로 시골농장을 찾아온 이유는 진짜 한국살이를 경험하고 싶어서라고. 겨울을 앞두고 직접 수확한 배추로 담그는 김장 등 팜스테이 체험 중인 이들을 만나본다",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-03df91fa6a47030ab89d",
+      "title": "나의 오래된 단골집 4부 우리 동네 사랑방",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60693527",
+      "summary": "이 미용실에서는 머리를 자르는 일보다, 모여서 먹고 마시고 이야기하고 서로의 안부를 묻는 일들이 더 많이 일어난다. 면 소재지에 40년 전 들어선 미용실이 동네 사랑방이 된 건, 여기 아니면 파마를 할 수 없는 할머니들, 그 할머니와 같이 오는 할아버지들이 있기 때문이다. 무엇보다 동네 이웃들과 식구처럼 지내는 미용실 주인의 푸근한 마음이 있어서다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 166,
+          "end": 170,
+          "quote": "식구처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-5b3ae9b976817ce2b57e",
+      "title": "커피보다 진하고 화산보다 뜨거운, 과테말라-눈 앞에서 화산이 펑펑! 안티과",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057446&lectId=60707837",
+      "summary": "거대한 화산이 병풍처럼 둘러싸여 있고 도시 전체가 ‘유네스코 세계 문화 유산’으로 지정되어 있는 과테말라의 옛 수도 안티구아 구도심에서 16세기 스페인 식민지 시대의 골목을 걷는다. 부활절을 앞두고 일주일 전에 열리는 퍼레이드(세마나 산타) 행진 속 참가자들도 만나고 화산이 보이는 카페에서 커피 한 잔으로 본격적인 여정을 시작한다. 화산의 나라, 과테말라는 37개 화산 중 활화산은 3곳 .‘아카테낭고 화산’에 올라 ‘푸에고 화산’의 진짜 분화를 목격한다. 전통 직조로 유명한 ‘산 안토니오 아과스 칼리엔테스 마을’의 직물 학교도 찾아가고, 과테말라의 ‘걱정 인형’을 만들어 본다",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 8,
+          "end": 12,
+          "quote": "병풍처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "화산",
+          "quote": "화산",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "label": "커피",
+          "quote": "커피",
+          "start": 163,
+          "end": 165
+        },
+        {
+          "label": "문화",
+          "quote": "문화",
+          "start": 37,
+          "end": 39
+        },
+        {
+          "label": "도시",
+          "quote": "도시",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 294,
+          "end": 296
+        },
+        {
+          "label": "스페인",
+          "quote": "스페인",
+          "start": 81,
+          "end": 84
+        },
+        {
+          "label": "전통",
+          "quote": "전통",
+          "start": 257,
+          "end": 259
+        },
+        {
+          "label": "유산",
+          "quote": "유산",
+          "start": 40,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "BCAST-ca5d48cc8cebd113713d",
+      "title": "이지연의 일본 소도시 기행-일본의 심장, 기후",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000013&stepId=60057456&lectId=60718225",
+      "summary": "일본의 심장이라 불리는 내륙의 기후현. ‘히다의 산, 미노의 물’이라 불리는 지역이다. 시작은 ‘히다의 작은 교토’라 불리는 다카야마시다. 에도시대가 살아있는 이곳의 옛 골목길에는 지역의 별미들이 즐비해 있다. 사케, 히다규, 호바미소 등을 맛보며 미식투어에 나선다. 이어 산속의 동화 같은 마을, 시라카와고와을 거쳐 칼의 도시, 세키로 향한다. 600년 전통의 대장간에서는 어떤 칼이 만들어질까 체험한다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 19,
+          "end": 21,
+          "quote": "심장",
+          "reason": "BODY_METAPHOR",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 4,
+          "end": 6,
+          "quote": "심장",
+          "reason": "BODY_METAPHOR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "도시",
+          "quote": "도시",
+          "start": 181,
+          "end": 183
+        },
+        {
+          "label": "일본",
+          "quote": "일본",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "label": "물",
+          "quote": "물",
+          "start": 34,
+          "end": 35
+        },
+        {
+          "label": "전통",
+          "quote": "전통",
+          "start": 199,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "id": "BCAST-c408b7fe64a209f6498a",
+      "title": "그게, 뭐였을까",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60767283",
+      "summary": "대기권 재진입 경보는 2015년 110건에서 2025년 820건으로 크게 증가했고, 우주쓰레기는 초속 7.8km의 속도로 움직이기 때문에 재진입 시각이 단 1분만 어긋나도 예상 낙하지점이 약 480km씩 달라질 수 있다. 플로리다에서 우주쓰레기가 주택을 뚫고 떨어진 사례처럼 피해가 발생해도 개인이 보상을 받는 과정은 복잡하며, 국제 우주물체 국제책임협약 역시 국가 간 책임만 규정하고 있어 개인의 직접적인 피해 구제에는 한계가 있다. 앞으로 수많은 위성이 추가로 발사될 상황에서 우주쓰레기를 누가 관리하고 사고의 책임을 누가 져야 하는지에 대한 새로운 논의가 필요하다는 문제를 제기한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 149,
+          "end": 153,
+          "quote": "사례처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "우주 쓰레기",
+          "quote": "우주쓰레기",
+          "start": 47,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "BCAST-fed4ff4b6c365c32ba8c",
+      "title": "내가 좋아하는 공룡",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "공룡 백과 TV를 통해 아이들이 좋아하는 공룡의 생김새를 알아본다, 또한 아이들이 공룡 분장을 하고 공룡처럼 걷기도 한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 56,
+          "end": 60,
+          "quote": "공룡처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "공룡",
+          "quote": "공룡",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "label": "아이",
+          "quote": "아이",
+          "start": 13,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9601f6add601ef93eac6",
+      "title": "번개맨처럼 되고 싶어요",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=15&courseId=BA0AA000000000015&stepId=01BA0AA000000000015&lectId=60633443",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "번개맨처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-4d8bf33c5b8ed91231bb",
+      "title": "고릴라처럼 쿵쾅쾅",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "고릴라처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-fef3e5e8356272f17ca6",
+      "title": "고양이처럼 쭈욱 쭈욱",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "고양이처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3c10f01a0916ee0e0c85",
+      "title": "파도처럼 흔들흔들",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "파도처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3d4536a5f910e898bd1d",
+      "title": "바람처럼 가볍게 후~",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "바람처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-73d4c736f639a5ca5218",
+      "title": "토끼처럼 깡총깡총",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "토끼처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-ddd88da6c929daf78e9e",
+      "title": "물고기처럼 살랑살랑",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "물고기처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9df81cfd50fc079df345",
+      "title": "개구리처럼 폴짝 폴짝",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "개구리처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-7638e65637520924881d",
+      "title": "강아지처럼 멍멍멍",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "강아지처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-f862370522be8ae2d474",
+      "title": "물개처럼 옹옹",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "물개처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2303f90ad34f9b71084c",
+      "title": "두더지처럼 쏙쏙",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "두더지처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9762b4c1d28051d39a58",
+      "title": "당신이 동물을 버리는 이유",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=10",
+      "summary": "자막10만, 한해 버려지는 개와 고양이의 수. 그 중 25%는 주인을 만나지 못해 안락사 처리 당하고 만다. 다섯 가구 중 한 가구는 동물과 함께 산다. 사랑한다며 동물을 많이 키우지만 우린 너무 쉽게 그들을 버린다. 우리는 왜 동물을 버릴까? 왜 동물을 키울까? 우리는 왜 동물을 키울까? 예부터 침입자로부터 집을 지키기 위해, 사냥을 하기 위하여, 우리의 외로움을 달래기 위하여, 또는 단순히 동물들의 거부할 수 없는 귀여움 때문에. 그렇게 그들을 곁에 두고 어루만지며 우리들은 인간관계에서 지친 마음을 위로받곤 한다. 나를 평가하지 아니하고 조건 없이 사랑을 베푸는 동물들, 하지만 우리는 그들을 버린다. 전국 어디에서도 손쉽게 동물을 구매할 수 있게 되었다. 애견샵에서, 일부 동물병원에서, 또 인터넷에서. 생명이 상품화 되어버리고 만 것이다. 개와 고양이는 번식장이라는 공장에서 마치 공산품처럼 생산되고, 경매장을 거친 후, 각 소비처로 유통되어진다, 너무 쉽게 구매할 수 있기에 쉽게 버리는 것은 아닐까? 사람들은 현실적인 이유로 동물을 버리기도 한다, 결혼을 했고, 이사를 하고, 임신을 하였기에 어쩔 수 없었노라며. 계산 없이 우릴 좋아해주기에 동물들을 사랑한다 말하는 우리는 정작 그들의 애정을 세속적인 저울 위에 올려놓곤 저울이 기울면 가차 없이 그들을 버리는 것은 아닐까? 동물을 버리는 것은 관계를 져버린다는 것이다. 쉽게 키우고 쉽게 버린다. 고양이와 사람, 강아지와 사람 사이의 매정한 이야기, 하지만 어딘지 사람과 사람 사이 우리의 행태와 닮았다. <당신이 동물을 버리는 이유>, 생명과 관계를 버리는 우리, 이내 더 차갑고 외로워지고야 마는 우리의 이야기. <연출 - 김지원 / 조연출 - 이미솔 / 작가 - 김연실, 정재용>",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 444,
+          "end": 449,
+          "quote": "공산품처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "동물",
+          "quote": "동물",
+          "start": 75,
+          "end": 77
+        },
+        {
+          "label": "저울",
+          "quote": "저울",
+          "start": 627,
+          "end": 629
+        }
+      ]
+    },
+    {
+      "id": "BCAST-615b0aae165925b2b663",
+      "title": "업사이클링(UPCYCLING), 버려짐에 새로운 가치를 입히다",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=10",
+      "summary": "자막단순한 재활용의 시대는 끝났다! 이제는 버려지는 제품에 디자인 또는 활용도를 더해 가치를 높여 새로운 제품으로 재탄생시키는 ‘업사이클링’의 시대! 선택받지 못한 재고 의류는 물론, 버려지는 자투리 천과 폐현수막까지 새로운 가치를 입혀 탄생되는 업사이클링 제품은 재활용의 차원을 넘어 한층 더 높은 가치를 추구한다. 환경과 가치, 아름답고 특별한 디자인을 추구하는 업사이클링은 자원이 부족한 현대 사회에서 재활용을 넘어 새로운 가치의 순환을 이야기한다. 재활용은 새 제품보다 가치가 낮다? 우린 디자인으로 승부한다! 한 해 동안 소각되어지는 재고 의류는 한 기업에서만 자그마치 40~50억 원. 유행이 지났다는 이유만으로, 한 번 입어보지도 못한 옷들이 불에 타 사라지고 있다. 이에 문제를 느끼고 재고를 이용해 새로운 디자인 의상을 만든 그룹이 있다. 바로 2012년 부산국제 영화제에서 업사이클링 된 드레스를 입고 나와 스포트라이트를 받았던, 문소리의 백색 드레스를 만든 코오롱 인더스트리의 “래; 코드”! 연간 수십억에 이르는 재고 상품을 해체하고, 재디자인해 아름다운 디자인 의상을 만드는 곳이다. 일반 디자인 과정보다 더 많은 과정을 거쳐 탄생하는 이 의상들은 장애인 단체와 함께 해체를 거쳐, 뛰어난 독립 디자이너들을 선별, 세상에 단 하나뿐인 가치 있는 의상이 만들어진다. 이미 독일, 파리 등 패션쇼에 진출한 “래; 코드”의 의상은 아름다운 디자인과 업사이클링을 담은 이야기로 해외 바이어들 사이에서 큰 주목을 받았다. 버려진 것에 생명을 불어 넣다! 실용성과 예술성을 동시에 갖춘가구 예술가의 작품을 방불케 하는 아름다운 가구들에는 사실 엄청난 비밀이 숨어있다! 아트 퍼니쳐를 만드는 “패브리커”는 그 이름에서도 알 수 있듯이 천을 다루는 사람들이라는 뜻이다. 대학시절부터 천을 다뤄왔다는 젊은 두 사장은 사용할 수 없이 버려지는 자투리 천과 질은 좋지만 버려지는 폐가구를 이용해 새로운 디자인 가구를 만들고 있다. 천을 사용한다고 하면 부드러운 질감을 생각하기 마련. 하지만 패브리커의 가구는 대리석처럼 단단하다! 천에 레진이라는 재료를 발라 겹겹이 쌓고 단단하게 만든 것! 예술가가 물감을 사용해 그림을 그리듯, 이들은 버려진 자투리 천을 물감처럼 이용해 이야기가 있는, 가치를 재발견할 수 있는 제품을 만든다. 본래의 가치를 잃고 버려지는 수많은 제품들. 지구상에 더 이상 소비할 재료가 남지 않는다면, 그때는 어떻게 될까? 업사이클링 기업들과 자연을 노래하는 ‘요술 당나귀’, 국내 최고 캘리그라퍼 강병인 선생님과 시민들이 함께 순환을 노래하는 ‘업사이클링 그린 콘서트!' 그리고 무분별한 소비문화 속에 병들어 가는 환경과 이 안에서 가치의 재발견을 위해 고군분투하는 업사이클링 기업들의 모습을 만나본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 790,
+          "end": 797,
+          "quote": "작품을 방불케",
+          "reason": "EXPLICIT_FIGURATIVE",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 1015,
+          "end": 1020,
+          "quote": "대리석처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 1098,
+          "end": 1102,
+          "quote": "물감처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "환경",
+          "quote": "환경",
+          "start": 178,
+          "end": 180
+        },
+        {
+          "label": "시민",
+          "quote": "시민",
+          "start": 1254,
+          "end": 1256
+        },
+        {
+          "label": "재활용",
+          "quote": "재활용",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "label": "예술",
+          "quote": "예술",
+          "start": 785,
+          "end": 787
+        },
+        {
+          "label": "독일",
+          "quote": "독일",
+          "start": 668,
+          "end": 670
+        },
+        {
+          "label": "자원",
+          "quote": "자원",
+          "start": 212,
+          "end": 214
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 1214,
+          "end": 1216
+        },
+        {
+          "label": "장애인",
+          "quote": "장애인",
+          "start": 600,
+          "end": 603
+        }
+      ]
+    },
+    {
+      "id": "BCAST-705bccb0f799e2a95a7d",
+      "title": "길-다시,걷기",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=10",
+      "summary": "자막제주 올레길이 인기를 끌면서 전국적으로 불어온 ‘걷는 길’ 열풍! 길에서 회복하고자 하는 것은, 자연에 대한 우리들의 감각이 아니었을까? 우리가 걸으면서 만날 수 있는 자연, 그 자연의 길을 다시 걸어보자. “정말 이상한 일이다, 인간이 첫 번째 발걸음을 떼어 놓은 이래로, 아무도 자기가 왜 걷는지. 어떻게 걷는지. 전에도 걸은 적이 있는지. 더 잘 걸을 수는 없는지. 걸으면 무슨 이점이 있는지에 대해 의문을 품지 않았다는 점이 이상하지 않은가?“ - 오노레 드 발자크 2019년까지 새로 생기는 ‘걷는 길’은 1만km에 달한다. 걷기열풍이 분 이후 둘레길을 위해 투입된 예산만 무려 2천억 원이 훌쩍 넘는다. 보존되고 발견되는 옛길이 아닌, 만들어지고 개발되는 새 길들. 그 길 위를 맹목적으로 걷는 우리는 무엇을 위해 걷는가? 사람들이 ‘걷는 길’을 원한다는 것은, 자연과 가까운 길을 원한다는 것이다. 걷기만을 위한 길이 아닌, 자연으로 통하는 길. 그렇게 자연에 몸을 내맡겨 보면 알게 된다. 가장 짧은 길, 가장 빠른 길이 가장 좋은 길이 아님을. 걷는다는 것은 자연을 만나는 일이다. 지구를 느끼는 일이다. ‘길’은 먼 곳에 있지 않다. \"운송기관은 마치 탄환처럼 지나가 버린다. 그리고 그 탄환 속에서 풍경을 보지도 못하고, 스스로 걷지도 못하며 우두커니 앉아 있는 동안 우리는 마침내 감각을 상실한다. 마치 화물칸의 짐짝처럼.\" -볼프강 벨부쉬 복잡한 도시에서는 사람들도, 차들도 빠르게 움직인다. 사람들은 목표를 향해 나아간다. 도시의 사람들은 직접 걷기보다 다른 수단을 찾기 시작했다. 우리를 위해 그 어느 때 보다 세계는 빨라졌다. 그렇게 우리는 우리의 편의를 위해 계속해서 길을 만들고, 또 길을 파괴한다. “사람은 땅을 본받고, 땅은 하늘을 본받고, 하늘은 길을 본받는데, 길은 자연을 본받는다.” -노자 나무에 등을 기대고 눈을 감고 귀를 기울이면, 나무들이 막 말을 건넬 듯싶다. 맨발로 땅을 밟고, 등허리를 나무에 맞닿은 그 순간, 지친 몸과 마음이 저절로 상쾌해진다. 길은 자연과 우리가 만나는 순간이면서 우리의 감각을 일깨우는 소중한 경험이다. 길 - 다시, 걷기 < 연출 : 김지원 / 작가 : 김명진 / 조연출 : 이미솔 >",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 601,
+          "end": 605,
+          "quote": "탄환처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 693,
+          "end": 697,
+          "quote": "짐짝처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "도시",
+          "quote": "도시",
+          "start": 713,
+          "end": 715
+        },
+        {
+          "label": "제주",
+          "quote": "제주",
+          "start": 2,
+          "end": 4
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 56,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "BCAST-d5f940dc8f8b92ab0677",
+      "title": "잡초처럼-황대권이 사는 법",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "summary": "자막이 세상에 불필요한 생명이 있을까? <야생초 편지>, <고맙다 잡초야>의 작가 황대권, 잡초 예찬론을 펼치며 잡초를 먹고 사는 그의 삶은 잡초와 닮았다. 주목받지 못하지만 생태계에서 제 역할을 묵묵히 해내는 잡초의 신비로운 세계와 황대권의 단순･소박한 일상 속으로 떠나본다 - 잡초(雜草)라는 단어는 한자로 ‘잡스러운 풀’, 학술적으론 ‘잘못된 자리에 난 잘못된 풀’로 풀이된다. 그 이름처럼 정말 잡초는 하찮고 무의미한 존재일까? 황대권은 아니라고 말한다. 엘리트 코스를 걷다가 1985년 구미유학생 간첩단 사건으로 수감된 그는 건강이 나빠졌지만, 잡초의 생명력 덕분에 감옥 속에서도 몸을 회복할 수 있었다. 잡초에 눈을 뜬 그는 잡초를 본격적으로 공부하게 됐고, 알면 알수록 신비한 잡초의 세계에 매료됐다. 잡초에 대한 그의 생각은 <야생초 편지>, <고맙다 잡초야> 등 책으로 발간돼 큰 호응을 얻었다. 실제 잡초는 땅에 생명을 불어넣는 역할을 한다. 뿌리로 흙의 숨통을 틔우고 빗물을 보관하며, 유기물이 돼 흙을 비옥하게 한다. 또한, 아무리 척박한 곳이라 할지라도 살아남기 위해 여러 가지 전략을 쓰며 번식에 성공하는 과정은 경이롭기까지 하다. <하나뿐인 지구-잡초처럼, 황대권이 사는 법>에서는 전라남도 영광에서 생명평화마을 공동체를 꾸리고 사는 황대권의 일상을 통해, 주목받지 못하지만 생태계에서 제 역할을 묵묵히 해내는 잡초를 돌아보는 시간을 가진다. 잡초를 닮은 황대권의 삶과 일상 <야생초 편지>로 베스트셀러 작가가 된 황대권은 잡초를 만난 것이 운명이라고 말한다. 경복고와 서울대를 졸업하고 미국 유학의 엘리트 코스를 달리던 그는 1985년 구미유학생 간첩단 사건으로 무기징역을 선고받고, 13년 2개월의 억울한 옥살이를 했다. 분노와 절망에 허덕이던 그는 정신적･육체적으로 망가졌고, 감옥에서 몸을 고칠만한 마땅한 방법도 없었다. 그때 길가의 잡초가 눈에 들어왔고 그의 삶은 변했다. 잡초에 대해 쓴 옥중 편지는 책으로 발간돼 큰 사랑을 받았고, 석방 이후 영국의 생태농업 유학과 전남 영광의 생태공동체 생활로 이어졌다. 이제 황대권은 잡초의 생명력을 이용한 자연주의 농법을 추구하며, 밭과 산에서 뜯은 잡초를 매끼 먹으며 산다. 잡초를 닮은 그의 삶이 잡초로 채워진 것이다. 척박한 땅을 비옥하게 만드는 잡초의 생명력 잡초는 다양한 역할을 한다. 잡초가 작물 밑에 들어차 있으면 밭농사를 지을 때 경작지를 덮어주는 멀칭이 따로 필요하지 않다. 또한 잡초는 강한 뿌리로 땅을 파고 들어가 흙의 숨통을 틔우고 공기를 땅속으로 나른다. 빗물을 저장해 땅 속 수분을 유지하고, 벌레들로부터 농작물을 일정 부분 보호해준다. 죽어선 유기물이 되어 흙을 비옥하게 하는 거름이 된다. 어디서든 살아남는 잡초의 생명력은 여러 가지 전략이 그 비결이다. 도꼬마리는 하나의 열매 안에 두 개의 씨앗을 가지고 있어, 둘 중 하나가 먼저 싹을 틔우고 문제없이 잘 자라면 그제야 나머지 씨앗이 싹을 틔운다. 도깨비바늘이나 털진득찰은 사람이나 동물의 몸에 붙어 다른 곳으로 씨앗을 옮긴다. 이렇듯 다양한 전략을 통해 잡초는 우리 주변에서 사라지지 않는다. 강인한 생명력으로 땅을 살리는 잡초는 자연의 신비함 그 자체다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "잡초처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 217,
+          "end": 221,
+          "quote": "이름처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "생태계",
+          "quote": "생태계",
+          "start": 98,
+          "end": 101
+        },
+        {
+          "label": "식물",
+          "quote": "씨앗",
+          "start": 1400,
+          "end": 1402
+        },
+        {
+          "label": "동물",
+          "quote": "동물",
+          "start": 1480,
+          "end": 1482
+        },
+        {
+          "label": "수분",
+          "quote": "수분",
+          "start": 1276,
+          "end": 1278
+        },
+        {
+          "label": "건강",
+          "quote": "건강",
+          "start": 299,
+          "end": 301
+        },
+        {
+          "label": "미국",
+          "quote": "미국",
+          "start": 792,
+          "end": 794
+        },
+        {
+          "label": "영국",
+          "quote": "영국",
+          "start": 998,
+          "end": 1000
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 1564,
+          "end": 1566
+        }
+      ]
+    },
+    {
+      "id": "BCAST-0ec326f52253e62ce575",
+      "title": "하늘이 내려준 선물, 빗물이야기",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "summary": "자막2013년은 UN이 정한 \"세계 물 협력의 해이다. 어떻게 관리하는냐에 따라 중요한 수자원이 될 수 있는 것이 빗물! 빗물의 대한 잘못된 정보를 바로잡고, 소중한 자연자원인 빗물 활용과 에너지 대안을 생각해본다 하늘이 내려준 선물, 빗물 1778년도 빗물관리 선진국, 조선! 2013년 대한민국의 빗물관리는 어디까지 왔을까? -빗물을 슬기롭게 활용하는 지혜는 우리 역사 속에서 심심치 않게 찾아볼 수 있다. 제주도의 경우, 지표면이 투수성 강한 현무암으로 구성되어서 하천의 대부분 건조할 때가 많기 때문에 물이 항상 귀했다. 특히 한라산 중산간 지역의 경우 물을 구하기는 더욱 힘들어 비가 올 때 지붕이나 나뭇가지로 흘러내리는 빗물을 받아먹는 일이 많았다. 제주도 들녘에서 쉽게 구할 수 있는 ‘새’를 재료로 처녀의 머리댕기처럼 ‘촘’을 땋아 잎이 넓은 활엽수 수목에 묶고, 그 밑에 ‘항’을 놓아 빗물을 모으기도 했는데 제주도에서는 이를 ‘촘항’이라고 한다. 그 뿐만 아니다. 조선시대 정조대왕이 즉위 후 가장 먼저 한 일도 빗물을 관리하는 일이었다. 1778년 정조2년에 제정된 제언절목에는 수 천년동안 축척된 선조들의 물 관리 비법과 철학이 잘 나타나 있다. 이처럼 일찍이 자연이 주는 혜택을 이용하며 자연에 순응할 줄 알았던 우리의 조상들, 2000년대를 살아가는 우리는 그 뜻을 잘 이어가고 있을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 403,
+          "end": 409,
+          "quote": "머리댕기처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "물",
+          "quote": "물",
+          "start": 20,
+          "end": 21
+        },
+        {
+          "label": "에너지",
+          "quote": "에너지",
+          "start": 106,
+          "end": 109
+        },
+        {
+          "label": "화산",
+          "quote": "현무암",
+          "start": 251,
+          "end": 254
+        },
+        {
+          "label": "역사",
+          "quote": "역사",
+          "start": 206,
+          "end": 208
+        },
+        {
+          "label": "현무암",
+          "quote": "현무암",
+          "start": 251,
+          "end": 254
+        },
+        {
+          "label": "대한민국",
+          "quote": "대한민국",
+          "start": 162,
+          "end": 166
+        },
+        {
+          "label": "제주",
+          "quote": "제주",
+          "start": 230,
+          "end": 232
+        },
+        {
+          "label": "철학",
+          "quote": "철학",
+          "start": 584,
+          "end": 586
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 606,
+          "end": 608
+        }
+      ]
+    },
+    {
+      "id": "BCAST-4f089fedc7ab0e9c80b9",
+      "title": "수산자원 과학으로 일구다",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "summary": "자막인류의 미래이자 국가 발전의 큰 영역, 바다 3면이 바다인 우리나라는 천혜의 수산자원으로 가득하다. 그러나 극심한 환경변화와 오염으로 인해 우리나라의 큰 자원인 수산자원이 줄어들고 있다. 이는 단순히 먹을거리가 사라지는 것을 넘어, 우리 어민들의 생계에도 큰 영향을 미친다. 2013년 현재, 바다 생태계를 복원하고 수산자원을 일구는 과학 수산의 현장을 가본다. 바다의 사막화, 이를 막기 위한 바다목장설립 제주와 동해일대를 중신으로 연안 암반지역에 해조류가 사라지고 석회조류가 번식해 돌이 하얗게 변하는 현상이 일어나고 있다. 이른바 바다사막화라 불리는 갯녹음 현상이다. 점차 확산되는 갯녹음 현상으로 바다속은 사막처럼 변해가고 해조류가 없어진 바다 속 물고기들은 먹이는 물론 서식처를 제공받기 어려운 상황이다. 이를 극복하고자 하는 방안으로 설립된 인공어초를 통한 바다목장 사업! 인공어초의 제작부터 바다목장의 결과를 살펴보았다. 수산생물의 쉼터, 바다목장 어족에 대한 무분별한 남획과 기후변화에 따른 갯녹음현상 등으로 위협받는 수산자원을 지키기 위한 바다목장 . 1998년에 처음 추진되어 10여 년이 지난 지금, 바다목장의 상황은 어떨까? 물고기, 패류, 해조류 등 다양한 수산생물의 활기 넘치는 바닷속을 들여다본다. 흔히 '광어'로 불리우는 넙치가 대중화된 까닭은? 1980년대 넙치양식기술의 개발로 횟감으로 대중들로 부터 가장 큰 인기를 얻게된 넙치. 국립수산과학원에서는 늘어가는 넙치수요량에 맞추어 현재까지 4세대째 육종개발중이다. 현재 우리나라의 넙치 육종기술은 세계1위! 일반 양식 넙치보다 성장속도가 30%이상 빠른 육종넙치(킹넙치)를 통해 육종기술의 현재를 살펴보고 앞으로 해외수출의 확대 및 질병에 의한 집단폐사를 막고자하는 연구원들의 노력을 살펴본다. '잡는' 어업에서 '기르는'어업으로 경제와 기술의 발전으로 우리는 대량소비시대속에 살고 있다. 우리가 편해지는만큼 많은 것들을 소비하고 이중에 상당부분은 자연에서 온다. '잡는' 어업에서 '기르는'어업으로의 전환가능성을 살펴본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 345,
+          "end": 349,
+          "quote": "사막처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "수산자원",
+          "quote": "수산자원",
+          "start": 45,
+          "end": 49
+        },
+        {
+          "label": "생태계",
+          "quote": "생태계",
+          "start": 169,
+          "end": 172
+        },
+        {
+          "label": "기후 변화",
+          "quote": "기후변화",
+          "start": 500,
+          "end": 504
+        },
+        {
+          "label": "바다",
+          "quote": "바다",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "label": "경제",
+          "quote": "경제",
+          "start": 904,
+          "end": 906
+        },
+        {
+          "label": "질병",
+          "quote": "질병",
+          "start": 849,
+          "end": 851
+        },
+        {
+          "label": "오염",
+          "quote": "오염",
+          "start": 72,
+          "end": 74
+        },
+        {
+          "label": "어업",
+          "quote": "어업",
+          "start": 889,
+          "end": 891
+        },
+        {
+          "label": "기술",
+          "quote": "기술",
+          "start": 908,
+          "end": 910
+        },
+        {
+          "label": "제주",
+          "quote": "제주",
+          "start": 230,
+          "end": 232
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 970,
+          "end": 972
+        }
+      ]
+    },
+    {
+      "id": "BCAST-792a76b169259fc5d49d",
+      "title": "극한의 땅 3부 히말라야, 벼랑 끝의 삶",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+      "summary": "세계의 지붕 히말라야에서 석청을 따며 살아가는 사람들의 이야기를 담았다.세계의 지붕, 히말라야. 그 높고 험한 산 속에 목숨을 걸고 벼랑 끝을 오르는 사람들이 있다.등산을 위해서가 아니라 생존을 위해 밧줄 하나에 의지한 채 수백 미터 벼랑 끝을 오르는 사람들. 바로 석청 사냥꾼 빠랑게들이다.히말라야에서 나는 석청은 1200년 전부터 네팔 왕실을 비롯해 전세계에서 찾는 희귀한 명약이다. 하지만 석청을 캐는 일은 세계에서 가장 난폭한 벌 아피스 라보리오사(Apis Laboriosa) 수만 마리와 싸워야 하는 가장 가혹한 직업이기도 하다. 빠랑게들은 그렇게 벼랑 끝에 매달려 석청을 따며 삶을 지탱해 왔다.가장 험난한 협곡에서 곡예같은 삶을 살아가는 빠랑게들의 일상. 그것은 천상의 고원에서 인간과 자연이 만들어가는 역동적인 삶의 파노라마를 보여줄 것이다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 351,
+          "end": 355,
+          "quote": "곡예같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 391,
+          "end": 393
+        }
+      ]
+    },
+    {
+      "id": "BCAST-3a61d6adfa80dff6370e",
+      "title": "한국인과 영어 1부 욕망의 언어 잉글리시",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055937",
+      "summary": "한국인에게 영어란 무엇인가?경제와 문화, 사회적 구조안에서 영어 성공신화와 영어 계급화 현상 등, 우리안의 영어에 대한 욕망을 점검한다. 과연 우리가 믿고 있는 영어성공신화의 진실은 무엇일까? 영어능력은 앞으로도 개인과 국가의 경쟁력을 높이는 절대 요소가 되는 것일까? 한국인에게 영어란 무엇인가?경제와 사회, 문화심리적 구조안에서 영어 성공신화와 영어 계급화 현상 등 우리안의 영어에 대한 욕망을 점검한다.# 영어 열풍의 감춰진 심리‘내 아이가 뒤처지는 것은 참을 수 없다!’지난 10월 서울에서 열린 어린이 영어 인증시험중의 하나인 제트(JET)시험장은 200여명의 초등학생 응시자와 부모들로 붐볐다. 응시자 중엔 유치원생들도 많았다.여섯 살, 일곱 살 아이들이 영어 인증시험을 보기 위해 몰려든 것이다.학부모들은 ‘남보다 먼저, 남보다 빨리 영어를 익히지 않으면 경쟁에 뒤처진다는 불안감이 생긴다’고 말한다. 내 아이가 뒤처지는 것은 참을 수 없고, 그래서 돈이 얼마가 들어가든 한국의 학부모들은 영어를 포기할 수 없는 것이다.영어가 외부와의 소통을 위한 언어가 아니라, 내부 경쟁에서 이기기 위해 필요한 수단이 돼버린 현실, 오늘의 영어광풍의 심리적 원인을 점검한다.# 토익 고득점자들과 원어민과의 토론 실험‘시험점수는 900점, 소통점수는 700점’토익(TOEIC) 열풍에 가려진 심리도 치열한 내부 경쟁 논리다. 끝없는 스펙경쟁에서토익점수가 개인의 능력을 말해주는 척도가 된 것이다.그럼 토익 점수가 영어실력을 대변할 수 있을까? 토익 900점 이상의 고득점자들과 원어민 영어 토론 실험을 해봤다. 결과는 ‘영어로 상대방과 대화나 의견을 주고 받는 소통점수는 평균 700점 수준’이라는 것.30대 기업 인사담당자들은 입사시험에서 토익이 차지하는 비중이 10퍼센트 미만이라고 입을 모은다. 토익 800점과 900점의 점수 차이도 1점 미만이라고 말한다.그럼에도 왜 토익 열풍은 계속되는 것일까. 경쟁에 대한 불안감, 살아남아서 성공해야 한다는 우리사회의 욕망이 그 기저에 있는 것은 아닐까.# 아버지에서 아이에게로 세대로 이어지는 영어 고민-얼마나 잘해야 하며 얼마나 투자해야 하나?한국사회에서 영어를 원어민처럼 하려면 조기교육을 받고 미국유학을 가야 한다.학습비용, 여행비용 등 수많은 비용들을 계속해서 부담해야 한다. 문제는 한국의 부모들은 기꺼이 이 투자를 감수할 마음이 있다는 데 있다.그렇다면 얼마나 많은 돈과 시간을 언제까지 영어교육에 투자해야 하는 것일까?그렇게 해서 배운 영어의 경쟁력은 어느 정도이며, 실제 경제현장에서 한 개인이 거둬들일 수 있는 영어로 인한 수익은 어느 정도일까?한 중산층 가정을 중심으로 아버지에서 아이에게로 이어지는 영어고민을 경제학적 관점에서 점검해 본다.# 한중일의 영어관- 영어 스트레스와 강박증, 한국이 가장 높다한중일 삼국의 대학생들에게 영어에 대한 스트레스 정도를 물어보았다. 결과는 한국, 중국, 일본의 순으로 영어 스트레스의 정도가 높았다. 일본이 영어열풍과 영어 스트레스부터 자유로운 이유는 무엇일까? 최근 한국 못지않게 영어열풍이 뜨겁게 불고 있는 중국은 영어에 대해 어떤 시선을 가지고 있을까?한국의 과도한 영어 스트레스와 영어 강박증을 통해 오늘 한국인의 심리속에 있는 욕망으로서의 영어를 들여다본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 1070,
+          "end": 1075,
+          "quote": "원어민처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "한국",
+          "quote": "한국",
+          "start": 495,
+          "end": 497
+        },
+        {
+          "label": "경제",
+          "quote": "경제",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "label": "문화",
+          "quote": "문화",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "label": "심리",
+          "quote": "심리",
+          "start": 241,
+          "end": 243
+        },
+        {
+          "label": "부모",
+          "quote": "부모",
+          "start": 1145,
+          "end": 1147
+        },
+        {
+          "label": "아이",
+          "quote": "아이",
+          "start": 246,
+          "end": 248
+        },
+        {
+          "label": "서울",
+          "quote": "서울",
+          "start": 274,
+          "end": 276
+        },
+        {
+          "label": "일본",
+          "quote": "일본",
+          "start": 1432,
+          "end": 1434
+        },
+        {
+          "label": "중국",
+          "quote": "중국",
+          "start": 1428,
+          "end": 1430
+        }
+      ]
+    },
+    {
+      "id": "BCAST-1054f9699c9a2a8c0111",
+      "title": "한국인과 영어 3부 영어로 쓰는 대한민국 60년사",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055937",
+      "summary": "한국전쟁부터 오늘까지, 대한민국이 걸어온 개발과 성장의 시간들을 영어라는 시각으로 들여다본다.한국전쟁 당시, 70불이었던 국민소득이불과 60여년만에 2만불로 바뀌는 과정에서 영어는 어떤 역할을 했을까?한국전쟁부터 오늘까지, 대한민국이 걸어온 개발과 성장의 시간들을영어라는 시각으로 들여다본다.# 한국전쟁, 생존의 무기 영어한국전쟁은 낯선 언어였던 영어를 전 국민에게 부각시키고 익숙하게 정착시킨 계기가 됐다. 미군의 참전과 휴전, 전후 복구과정에서 영어와 미국문화가 우후죽순 들어오게 된 것이다.‘오케이, 노, 할로, 추잉껌, 초콜릿, 기브 미...’시골아이들까지 낯선 영어단어를 뜻도 모르고 노래처럼 부르고, 통역병과 하우스보이, 기지촌, 미8군이라는 새로운 용어들이 정착하던 시절, 영어는 당시 한국인들이 가장 빠르게 돈을 벌고 살아남을 수 있었던 유일한 창구였다.# boys be ambitious!가난했던 이 땅의 소년들에게 캐치프레이즈가 돼줬던 구호60, 70년대에 중학교에 들어갔던 이들이라면 기억할 것이다. 까까머리를 하고 두근거리는 마음으로 처음 접하게 된 영어시간, 선생님은 칠판에 단 하나의 문장을 써놓고 소년들에게 소리쳐 외치게 했었다.‘Boys be ambitious! 소년이여 야망을 가져라!’가난을 벗어나기 위해서 배워야 했고, 자식교육이 미래에 대한 가장 큰 투자였던 시절, 이 땅의 소년들은 저마다의 가슴속에 이 문장을 새기며 이후의 세상을 헤쳐갔다.공부를 잘해서 취직을 하고, 돈을 벌어서 부모님과 동생들을 보살펴야 한다는 야망, 내 힘으로 집안을 일으켜야 한다는 절체절명의 야망... 그 힘과 희망으로 대한민국은 가난의 시대를 헤쳐 나왔다.# 수출 100억불과 무역영어, 그리고 성문종합영어의 추억1970년 10억달러 수출달성을 했던 한국은 불과 7년만인 1977년, 수출 100억불이라는 놀라운 성과를 보여준다. 돈이 되는 것은 모두 내다 팔았던 수출시대, 당연히 영어구사자의 수요가 절실해졌다.대학의 영문학과가 최고 학과가 되고, 소규모의 무역회사들이 우후죽순 등장하던 시절, 영어는 국가적인 관심사이자 정책이었다.이런 과정에서 매일 비즈니스 영어 문장을 정리해서 사무실로 배달됐던 영어잡지 ‘무역영어’가 인기를 얻고, 성문종합영어를 2~3번씩 독파하는 직장인과 대학생들의 행렬도 늘어가기 시작한다.# 펜팔영어에서 생활영어까지- 한국인들의 생활을 바꿔놓다미 국방부 인력정보처 서울사무소에서 정년퇴임한 허용환씨. 그에겐 어머니가 둘이다. 중학생시절인 1972년부터 지금까지 32년동안 펜팔을 통해서 캐나다 할머니와 모자의 연을 이어오고 있는 것이다.펜팔영어는 1960년대부터 한국의 청소년과 젊은이들에게 영어에 대한 갈증과 미국에 대한 욕구를 충족시켜준 창구였다. 학생잡지의 마지막 페이지에 수록됐던 외국인 주소는 영어를 말하고 써볼 기회가 없었던 한국의 청소년들에게 영어로 편지를 쓴다는 아주 매혹적인 기회를 제공했다.이후 80년대에 들어서 한국사회를 달궜던 이른바 ‘생활영어’ 열풍과 때를 맞춰 등장한 사교육 시장, 그리고 올림픽과 IMF까지- 시대상황과 함께 변화하는 영어환경과 영어에 대한 인식, 영어에 대한 사회적 욕망의 변화 등을 다각도로 점검한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 332,
+          "end": 336,
+          "quote": "노래처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "한국",
+          "quote": "한국",
+          "start": 877,
+          "end": 879
+        },
+        {
+          "label": "대한민국",
+          "quote": "대한민국",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "label": "청소년",
+          "quote": "청소년",
+          "start": 1297,
+          "end": 1300
+        },
+        {
+          "label": "올림픽",
+          "quote": "올림픽",
+          "start": 1490,
+          "end": 1493
+        },
+        {
+          "label": "미국",
+          "quote": "미국",
+          "start": 1320,
+          "end": 1322
+        },
+        {
+          "label": "캐나다",
+          "quote": "캐나다",
+          "start": 1250,
+          "end": 1253
+        }
+      ]
+    },
+    {
+      "id": "BCAST-0523aa59f09fd8d7c0e5",
+      "title": "학교의 발견-2부 아인슈타인, 천국에서의 1년",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055928",
+      "summary": "아인슈타인이 다녔던 스위스 아라우학교를 통해 아인슈타인에게 영향을 주었던 배움의 요소에 대해 살핀다 <아인슈타인, 천국에서의 1년>편은 두 소년의 불행했던 학창시절 회고담에서 시작된다. 혜세와 아인슈타인 두 위대한 인물의 실제 고백과 내면의 이야기를 영화같은 영상을 통해 전한다. 마치 헤르만 헤세의 소설 ‘수레바퀴 밑에서’를 연상케하는 19세기 독일의 학교와 교실 풍경에서 항상 도망치는 것을 상상했던 소년 아인슈타인. 그는 독일의 김나지움을 중퇴한 후, 대학진학을 위해 스위스의 한 학교에서 1년의 시간을 보내게 된다. 독일의 학교와는 완전히 다른 학풍에서 자유를 만끽한 소년 아인슈타인. 그 1년 동안 그는 20세기를 뒤흔든 상대성이론의 근간이 되는 생각을 키우게 되었다. 학교를 끔찍하게 싫어했던 문제 학생 아인슈타인이 천국이라고 표현했던 학교는 어떤 학교였을까? 그리고 그후 아인슈타인은 어떻게 성장했을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 140,
+          "end": 144,
+          "quote": "영화같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 198,
+          "end": 200
+        },
+        {
+          "label": "독일",
+          "quote": "독일",
+          "start": 194,
+          "end": 196
+        },
+        {
+          "label": "스위스",
+          "quote": "스위스",
+          "start": 11,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "BCAST-fe55b8b8b1648ba05352",
+      "title": "왜 우리는 대학에 가는가 - 1부 어메이징 데이",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055927",
+      "summary": "전국 10개 대학교, 44명의 대학생 다큐멘터리스트들이 6개월간 기록한 대학의 6가지 이야기(배움, 관계, 시험, 연애, 돈, 취업)를 ‘하루’라는 시간 속에 담았다. ‘우리들의 대학은 안녕한가’기성세대들이 말하는 청춘, 그것은 진실이 아니다.청춘이 직접 고백한 그들의 ‘이유 있는 아픔과 눈물’전국 44명의 대학생들이 기획, 촬영한 지금껏 듣지 못한 우리 대학생들의 ‘진짜’ 이야기EBS 교육대기획 6부작 <왜 우리는 대학에 가는가>는 초중고 12년 동안 입시전쟁을 겪고 대학생이 되었지만, 학점과 취업이라는 장애물 앞에서 나를 잃고 맹목적인 질주를 하고 있는 대한민국 청춘들에게 질문을 던지는 프로그램이다. “왜 우리는 대학에 가는가?”<어메이징 데이>는 전국 10개 대학교, 44명의 대학생 다큐멘터리스트들이 6개월간 기록한 대학의 6가지 이야기(배움, 관계, 시험, 연애, 돈, 취업)를 ‘하루’라는 시간 속에 담았다. 고등학교의 연장이 된 질문 없는 강의실, 취업을 위해 관계를 단절하는 자발적 아웃사이더, 88만원 세대의 슬픈 자화상, 지방대생의 취업고민까지… 대한민국 청춘들의 진솔한 자기 고백과 그 청춘들이 우리사회에 던지는 목소리를 담는다.이어서 방송되는 <인재의 탄생>와 <말문을 터라>는 대학생들의 시선으로 들려주는 <어메이징 데이>의 6가지 이야기 (배움, 관계, 시험, 연애, 돈, 취업) 중 우리 사회의 고질적 문제인 ‘배움’과 ‘취업’을 깊이 있게 확대 조명한다.<인재의 탄생>은 많은 대학과 기업의 혼재된 인재상들로 인해 자신의 길을 발견하지 못하거나 혹은 헤매고 있는 대학생, 취업준비생 5명이 출연한다. 6개월의 멘토링을 통해 진정한 인재상에 대해 깨닫고, 변화하는 과정을 담는다. <말문을 터라>는 질문과 생각이 사라진 오늘날의 대학 강의실을 탐구하고, 말문을 트는 것을 시작으로 진정한 배움을 찾아가는 과정을 보여준다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 258,
+          "end": 260,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "대한민국",
+          "quote": "대한민국",
+          "start": 315,
+          "end": 319
+        }
+      ]
+    },
+    {
+      "id": "BCAST-1d501e0bdaf8bcaf7428",
+      "title": "왜 우리는 대학에 가는가 - 2부 인재의 탄생",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055927",
+      "summary": "그야말로 인재 전쟁, 취업 전쟁이다. 인재의 조건이란 무엇일까? 스펙이 많으면, 대기업 취직에 성공하면 인재일까?대학생, 취업준비생 5명의 진정한 인재가 되기 위한 감동의 여정!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 15,
+          "end": 17,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-c66c49e38832b922ea80",
+      "title": "왜 우리는 대학에 가는가 - 3부 인재의 탄생",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055927",
+      "summary": "그야말로 인재 전쟁, 취업 전쟁이다. 인재의 조건이란 무엇일까? 스펙이 많으면, 대기업 취직에 성공하면 인재일까?대학생, 취업준비생 5명의 진정한 인재가 되기 위한 감동의 여정!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 15,
+          "end": 17,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-10d5f26afe4224be8d75",
+      "title": "아파트 중독-2부 시간이 만든 집",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055926",
+      "summary": "다른 나라의 아파트와는 다른 우리나라 아파트만의 특징은 무엇이며, 그것이 우리 삶에 미친 영향은 어떤 것인지 프랑스, 중국의 아파트와의 비교를 통해 알아본다.한국형으로 진화해온 우리의 아파트. 우리는 왜 아파트를 사랑하게 되었나?아파트는 해외에서 수입된 주거 형태이다. 영국, 독일, 프랑스 등 유럽에서부터 미국에 이르기까지 많은 나라들이 우리보다 훨씬 전에 아파트를 경험했고, 여전히 여전히 아파트에서 살고 있다. 그런데 우리나라를 ‘아파트공화국’이라 부르는 프랑스의 한 지리학자가 나타났다. 발레리 줄레조, 그는 우리나라의 아파트 단지를 보고 크게 놀랐다. 도대체 왜? 고대 로마의 ‘인슐라(Insula)’로부터 시작되었던 아파트는, 비교적 좁은 면적에 많은 사람들을 수용할 수 있었던 이유로 인구가 집중되는 도시에서 흔히 볼 수 있는 주거 형태이다. 하지만 우리나라처럼 아파트를 선호하는 나라는 많지 않다. 사람들이 북적이는 도시부터 도시외곽은 물론 비교적 한적한 시골에 이르기까지, 전국 구석구석 아파트가 일색이다.2부 ‘시간이 만든 집’에서는 오랜 아파트의 역사를 가진 프랑스, 막 시작된 도시화로 공장에서 찍어내듯 초고층 아파트를 건설하고 있는 중국, 그리고 어느 나라보다 아파트를 사랑하는 한국. 이 세 나라의 비교를 통해 대단지 아파트 생태계로 이루어진 한국 아파트만의 특징을 이야기한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 427,
+          "end": 433,
+          "quote": "우리나라처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "생태계",
+          "quote": "생태계",
+          "start": 644,
+          "end": 647
+        },
+        {
+          "label": "인구",
+          "quote": "인구",
+          "start": 390,
+          "end": 392
+        },
+        {
+          "label": "주거",
+          "quote": "주거",
+          "start": 142,
+          "end": 144
+        },
+        {
+          "label": "역사",
+          "quote": "역사",
+          "start": 541,
+          "end": 543
+        },
+        {
+          "label": "도시",
+          "quote": "도시",
+          "start": 399,
+          "end": 401
+        },
+        {
+          "label": "한국",
+          "quote": "한국",
+          "start": 617,
+          "end": 619
+        },
+        {
+          "label": "중국",
+          "quote": "중국",
+          "start": 66,
+          "end": 68
+        },
+        {
+          "label": "미국",
+          "quote": "미국",
+          "start": 172,
+          "end": 174
+        },
+        {
+          "label": "프랑스",
+          "quote": "프랑스",
+          "start": 61,
+          "end": 64
+        },
+        {
+          "label": "영국",
+          "quote": "영국",
+          "start": 151,
+          "end": 153
+        },
+        {
+          "label": "독일",
+          "quote": "독일",
+          "start": 155,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "BCAST-0e6786e007b16522e6bd",
+      "title": "황금비율의 비밀 - 1부 숨은 그림 찾기",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+      "summary": "고대로부터 아름다움의 상징으로, 인류가 발견한 가장 완벽한 수학원리로 얘기되는 황금비율. 황금비율에 숨은 역사적, 수학적 비밀을 알아본다1부 숨은 그림 찾기에서는 건축, 예술, 인체에서부터 자연계의 생식 나선까지 황금비율이 적용된 피조물들에서 그 법칙을 찾아간다.“황금비율이 절대적인 아름다움의 기준이라고 확신합니다.” - 스티븐 마쿠어트(성형외과 의사)다년간 성형 수술과 아름다운 얼굴에 대한 연구 끝에 ‘황금비율 마스크’를 완성한 스티븐 마쿠어트. 얼굴의 각 부분이 황금비율에 가까울수록 아름답다는 것을 발견한 그는, 황금비율 마스크를 성형 수술에 적용했고 그 결과는 대성공이었다. 수술 능력이 좋아서가 아니라 황금비율 마스크를 적용했기 때문에 결과가 좋았다는 마쿠어트. ‘아름다움’과 ‘수학적 질서'를 상징하는 이 비율은 심지어 7천 년 전의 바르나의 고대 유물에서도 발견됐다.“이 황금 사각판은 황금비율이 나타나는 제일 오래된 사례입니다.”- 크리스토 스몰레노브 (수학자)1976년부터 청동기 유적 발굴이 한창인 불가리아 바르나. 발굴팀 중 일부는 3천 개가 넘는 황금유물 중에 사각판이나 토우(진흙인형), 황금소 등에 황금비율이 숨겨져 있다고 한다. 이것은 가장 오래된 황금비율 사례로 꼽히는 피라미드보다 2000년 앞섰고, 그리스의 파르테논 신전보다 4500년 앞선 시기에 이미 황금비율이 사용됐다는 증거가 된다. 어떤 천문학자는 우주 만물에까지 적용되었다고 주장하는데... 이것은 수치의 우연일까 아니면 신의 암호일까.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 386,
+          "end": 398,
+          "quote": "‘수학적 질서'를 상징",
+          "reason": "QUOTED_SYMBOL",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "우주",
+          "quote": "우주",
+          "start": 695,
+          "end": 697
+        },
+        {
+          "label": "고인돌",
+          "quote": "청동기",
+          "start": 500,
+          "end": 503
+        },
+        {
+          "label": "주거",
+          "quote": "건축",
+          "start": 91,
+          "end": 93
+        },
+        {
+          "label": "유물·유적",
+          "quote": "유적",
+          "start": 504,
+          "end": 506
+        },
+        {
+          "label": "발굴",
+          "quote": "발굴",
+          "start": 507,
+          "end": 509
+        },
+        {
+          "label": "유적",
+          "quote": "유적",
+          "start": 504,
+          "end": 506
+        },
+        {
+          "label": "청동기",
+          "quote": "청동기",
+          "start": 500,
+          "end": 503
+        },
+        {
+          "label": "예술",
+          "quote": "예술",
+          "start": 95,
+          "end": 97
+        },
+        {
+          "label": "건축",
+          "quote": "건축",
+          "start": 91,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "BCAST-3eedbdafc99e3c0d6df0",
+      "title": "황금비율의 비밀- 2부 절대적이고 상대적인 진리",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+      "summary": "황금비율의 근거로 제시되는 수많은 건축, 회화가 황금비율이 아니라는데...오래되고 절대적인 황금비율의 상식 뒤집기를 통해 수학에 대한 관심을 높인다2부에서는 황금비율이 발견된 사례들을 구체적으로 살펴보며 그 실체를 파헤친다.웅장하면서도 고전적인 아름다움으로 건축미학의 극치를 보여주는, 그리스의 파르테논 신전.규칙적으로 12부분으로 나뉘며, 다른 건축물에선 찾아볼 수 없을 정도로 완벽하게 돌을 짜 맞춰 완성된 파르테논의 비율은 1:1.618로, 알려졌다. 과연 그럴까. 유네스코 지원으로 1980년대부터 원형복원사업에 착수한 그리스 고고학자들은 파르테논에 직접적으로 적용된 비율은 4:9라고 말한다. 보통 건축의 비례를 이야기할 때 언급하는 정면의 가로:세로 비, 측면:정면 비가 그렇다는 것이다. 황금비율의 흔적이라고는 ‘신전에 남은 46개의 기둥이 정확하게 ’정이십각형‘으로, 이것은 정오각형 작도에서 출발하며 ’정오각형‘은 황금비율을 포함한다.’는 것뿐이다.현대인들은 황금비율을 성공의 법칙처럼 여기며 무수히 많은 제품에 적용해왔다. 세계적으로 유명한 애플사의 로고 역시 황금비율로 만들어졌다고 알려졌다. 정작 애플 로고를 디자인한 롭 재노프는 황금비율이 무엇인지도 모른 채 사과를 직감적으로 그렸다고 한다. 아름다운 비례의 상징이자 균형과 조화의 핵심이라 믿어 의심치 않았던 황금비율이 진실이 아닐 수도 있다는 생각은 수학과 교수 키스 데블린을 만나며 더욱 확실해졌다.“명백한 거짓말입니다. 앵무조개를 재어보면 황금비율이 안 나옵니다. 거짓이라는 것을 알게 됐을 때 더는 황금비율의 예시들을 사용할 수 없었습니다. 제 학생들에게 거짓말을 할 수는 없으니까요.”- 키스 데블린 (프린스턴대학교 수학과 교수) 과연 황금비율의 진실은 무엇인가?EBS 다큐프라임 <황금비율의 비밀> 2부는 실증과 토론, 반론을 오가며 2천 년 넘게 우리를 현혹해온 황금비율의 진실을 추적하고, 그를 통해 재미있는 수학을 만나본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 500,
+          "end": 504,
+          "quote": "법칙처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "주거",
+          "quote": "건축",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "label": "건축",
+          "quote": "건축",
+          "start": 19,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "BCAST-218914929a90125c7652",
+      "title": "동물원 월요병",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+      "summary": "자막사람들처럼 동물원의 동물들고 사람이 많이 오고 가는 주말이 지나고 월요일이 돌아오면 많은 스트레스를 받는다고 한다 그 이유와 대안은?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 7,
+          "quote": "자막사람들처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-48f28d1aadabc3691b20",
+      "title": "번개맨처럼 뼈가 튼튼해지려면?",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "번개맨처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-0fc06c66a3c2bd5e955e",
+      "title": "용의자 철새",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+      "summary": "자막500원 동전에 그려진 학의 존재처럼 철새는 우리에게 친숙했었지만 지난해부터 AI 주범으로 지목된 이후 미운 오리 신세다. 과연 2015년 우리에게 철새가 어떤 존재인지 따져보고, 그 의미에 대해 논한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 18,
+          "end": 22,
+          "quote": "존재처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-fbe7ef7a7da1d9b65398",
+      "title": "공부 못하는 아이 - 3부 성적표를 뛰어넘는 성공비밀",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055896",
+      "summary": "전과목 F성적미달로 고등학교를 중퇴한 토드 로즈가 하버드대 교수가 된 사례와 국내 취재를 통하여 꼴찌가 성공하기 위한 필요 조건에 대해 탐색한다꼴찌 고등학교 중퇴자, 하버드대 토드 로즈 교수를 만나다수능 10년 후 청년 300명 추적조사, 인생의 성공을 결정짓는 열쇠는?전 과목 F, 성적 미달로 고등학교도 졸업하지 못했던 토드 로즈(38세)는 결국 하버드대 교육대학원의 교수가 되었다. 고등학교 1학년 때까지 심각한 게임중독에 빠져 성적은 꼴찌 중의 꼴찌였던 홍성호(27세) 씨는 명문대를 졸업하고, 현재 삼성전자에서 유능한 인재로 일하고 있다. 대한민국 많은 부모와 우리 사회의 믿음처럼, ‘공부 못하면, 인생 실패한다’는 말은 과연 진실일까?제작진은 수능 후 10년이 지난 현재 30세의 청년들에게 설문조사를 진행했다. 경제적 안정을 포함한 삶의 5가지 요소에서 모두 성공한 상위 20% 그룹을 분석한 결과, 이들의 성공적인 삶을 결정지은 것은 수능 성적이나 대학 간판이 아니었다. 이들은 명문대든 지방대든, 공통적으로 자신이 다닌 학교에 만족하고 있었으며, 대학 및 학과를 스스로 선택했고, 중고등학교 시절 부모와의 공부로 인한 갈등이 적었고, 부모로부터 높은 정서적 지지를 받고 있었다. 올해 초, 미국 퍼듀대와 갤럽이 미국 3만 명의 대학졸업자를 대상으로 조사한 연구 역시 정서적 지지, 즉 ‘나를 믿어주는 사람’의 존재 여부가 삶의 성공 여부에 큰 영향을 미친다고 분석하고 있다. 특히 제작진이 직접 만난, 성공적 삶을 영위하고 있는 출연자들은 모두 공통적으로 회복탄력성, 낙관성 등에서 높은 마음의 힘을 지니고 있었다.3부 <성적표를 뛰어넘는 성공 비밀> 편에서는 인생의 성공을 결정짓는 것이 성적표라는 대한민국의 믿음을 깨는, 놀라운 취재 결과를 공개한다!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 326,
+          "end": 330,
+          "quote": "믿음처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "갈등",
+          "quote": "갈등",
+          "start": 580,
+          "end": 582
+        },
+        {
+          "label": "부모",
+          "quote": "부모",
+          "start": 315,
+          "end": 317
+        },
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 525,
+          "end": 527
+        },
+        {
+          "label": "대한민국",
+          "quote": "대한민국",
+          "start": 307,
+          "end": 311
+        },
+        {
+          "label": "미국",
+          "quote": "미국",
+          "start": 620,
+          "end": 622
+        }
+      ]
+    },
+    {
+      "id": "BCAST-cccfd6fb78e6b39701c7",
+      "title": "개미처럼 작아지면",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "개미처럼 작아지면 나는 무엇을 할까",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "개미처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 4,
+          "quote": "개미처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-7ef20d41da74efaaba41",
+      "title": "가자, 바다로! / 하늘나라 마음의 창고",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=15&courseId=BA0AA000000000015&stepId=01BA0AA000000000015&lectId=60633443",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 20,
+          "end": 22,
+          "quote": "창고",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-19d7a749aa444f9c16bd",
+      "title": "자막금쪽같은 내 새끼, 뽀송이",
+      "sourceUrl": "https://home.ebs.co.kr/baddog/replay/5/list?courseId=10016245&stepId=10017539&c.page=2",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 6,
+          "quote": "자막금쪽같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-6749bdcf8cefddf05554",
+      "title": "공부의 배신 2부-나는 왜 너를 미워하는가",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055879",
+      "summary": "대입을 둘러싼 교육현장의 목소리를 들어본다.공부 12년, 그리고치열했던 입시전쟁에서 살아남은명문대 아이들이제부터 꿈꾸던 대학생활을시작할 수 있을까?대학생 50여명이 들려주는우리가 몰랐던우리 대학 이야기",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 42,
+          "end": 44,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "아이",
+          "quote": "아이",
+          "start": 55,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9d1bfc440d4ef3ab1e26",
+      "title": "이제는 실천이다-소금 다이어트",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=2",
+      "summary": "자막아침 점심 저녁 때론 회식까지. 모든 끼니를 외식으로 해결하는 현대인이 나트륨을 조절한다는 것은 불가능한 소리처럼 들린다. 소금 가득한 우리의 식단 어떻게 해야할까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 61,
+          "end": 65,
+          "quote": "소리처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "소금",
+          "quote": "소금",
+          "start": 71,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "BCAST-ddc94fbff9375f4d8786",
+      "title": "추석특집 취업전쟁",
+      "sourceUrl": "https://home.ebs.co.kr/sdocu/replay/4/list?courseId=BP0PAPC0000000028&stepId=01BP0PAPC0000000028&c.page=2",
+      "summary": "추석특집 취업전쟁",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 7,
+          "end": 9,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 7,
+          "end": 9,
+          "quote": "전쟁",
+          "reason": "COMPETITION_WAR",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-b7ea99f0dd385b579d34",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055866",
+      "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 242,
+          "end": 249,
+          "quote": "데칼코마니처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "소금",
+          "quote": "소금",
+          "start": 67,
+          "end": 69
+        },
+        {
+          "label": "화산",
+          "quote": "용암",
+          "start": 221,
+          "end": 223
+        },
+        {
+          "label": "바다",
+          "quote": "바다",
+          "start": 372,
+          "end": 374
+        },
+        {
+          "label": "사막",
+          "quote": "사막",
+          "start": 238,
+          "end": 240
+        },
+        {
+          "label": "아프리카",
+          "quote": "아프리카",
+          "start": 111,
+          "end": 115
+        },
+        {
+          "label": "용암",
+          "quote": "용암",
+          "start": 221,
+          "end": 223
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 460,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "id": "BCAST-90066ef76aac2f413d90",
+      "title": "우리도 마리오처럼 / 오즈의 마법사",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=15&courseId=BA0AA000000000015&stepId=01BA0AA000000000015&lectId=60633443",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 9,
+          "quote": "마리오처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-66c182d26aa380355243",
+      "title": "긴팔인간 - 1부. 음악 본능",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055861",
+      "summary": "노래하는 아시아의 유인원 기번(Gibbon). 그들도 인간처럼 음악 유전자를 가지고 태어난다. 인간을 제외한 유인원 중 유일하게 노래 부르는 기번의 생태를 음악에 초점을 맞춰 보여준다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 30,
+          "end": 34,
+          "quote": "인간처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "음악",
+          "quote": "음악",
+          "start": 35,
+          "end": 37
+        },
+        {
+          "label": "생태계",
+          "quote": "생태",
+          "start": 83,
+          "end": 85
+        },
+        {
+          "label": "아시아",
+          "quote": "아시아",
+          "start": 5,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "id": "BCAST-c74ff5d57876d910060f",
+      "title": "13화 독수리가 될꺼야!",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "잘하는 게 하나도 없는 파닥. 그림책 속의 독수리처럼 하늘을 날고 싶다. 코코몽에게 날개를 만들어 달라고 부탁도 해보고 날기 위한 여러 시도를 해보지만… 그러나 파닥이도 잘하는 게 있었다. 완두돼지 세콩이를 날개 깃털 속에 품고 토닥토닥 재우는 일을 정말 잘 한다는 것을 발견하게 되는데… 자존 ([명사]1 자기의 존재. 2 자기 힘으로 생존함. ) (나두 잘하는 게 있다)",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 24,
+          "end": 29,
+          "quote": "독수리처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-a291a59cf5c5168e57e5",
+      "title": "15화 밤은 무섭지 않아",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "아글이가 두고 간 요리모자를 갖다주기 위해 밤길을 걸어가는 아로미. 여기저기서 짐승소리가 들려오고, 그림자는 귀신처럼 너울너울한다. 두려움에 떠는 아로미. 어느새 얼굴을 내민 수박달님은 아로미를 지켜주듯 함께 따라간다. 아로미는 수박달님 때문에 두려움을 떨치게 된다. 용기 (밤은 무섭지 않아)",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 61,
+          "end": 65,
+          "quote": "귀신처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2721cdc9a787acdf6deb",
+      "title": "대동맥이 풍선처럼 부풀어 터진다! - 대동맥류",
+      "sourceUrl": "https://home.ebs.co.kr/bestdoctors/replay/1/list?courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&c.page=21",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 5,
+          "end": 9,
+          "quote": "풍선처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-91c74055675aef30a31a",
+      "title": "역사의 빛, 청년 제1부 프롤로그: 하와이애국단을 찾아서",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "배우 이순재가 하와이에서 독립운동 자금을 지원했던 하와이 한인 애국단의 흔적을 찾아나서는 기행 다큐멘터리",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 14,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "BCAST-26e810eb1652fb9a4187",
+      "title": "역사의 빛, 청년 제2부 영산에 살어리랏다",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "3.1운동은 각 지역에서 일어난 전국적 운동이나 서울을 중심으로 알려져있어 지방의 3.1운동을 조명한다. 경상남도 창녕 영산면의 아주 작은 마을에서 일어난 3.1운동을 살펴본다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "3.1운동",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "label": "서울",
+          "quote": "서울",
+          "start": 27,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "BCAST-a410a151d026fc730893",
+      "title": "역사의 빛, 청년 제3부 역사의 빛 청년",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "서대문 형무소에 3.1운동으로 수감된 학생 청년은 50%가 넘는다. 3.1운동 뿐 아니라 4.19혁명, 78년 6월 민주항쟁 등 나라가 어려울 때 역사의 변곡점마다 청년이 등장한다. 그 이유는 무엇일까? 3.1운동 100주년, 당시 청년들의 독립운동의 정신을 살펴보고, 현재 청년들에게 그 메세지를 전달하려 한다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "title",
+          "start": 18,
+          "end": 19,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "역사",
+          "quote": "역사",
+          "start": 82,
+          "end": 84
+        },
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 135,
+          "end": 139
+        },
+        {
+          "label": "4·19 혁명",
+          "quote": "4.19혁명",
+          "start": 50,
+          "end": 56
+        },
+        {
+          "label": "6월 민주항쟁",
+          "quote": "6월 민주항쟁",
+          "start": 62,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "BCAST-c711871bc1c4f09012f4",
+      "title": "위풍당당 원석 씨 나는 연예인처럼 산다",
+      "sourceUrl": "https://home.ebs.co.kr/hope/replay/3/list?courseId=BP0PHPN0000000023&stepId=01BP0PHPN0000000023&c.page=2",
+      "summary": "위풍당당 원석 씨 나는 연예인처럼 산다",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 13,
+          "end": 18,
+          "quote": "연예인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 13,
+          "end": 18,
+          "quote": "연예인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-93010afc1d141a259f2f",
+      "title": "역사의 빛, 청년 제4부 무라이(村井)의 안경",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "역사의 빛, 청년 - 4부 무라이(村井)의 안경",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "역사",
+          "quote": "역사",
+          "start": 0,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "id": "BCAST-26249af75bd5997184f0",
+      "title": "역사의 빛, 청년 제5부 우리가 당신을 기억하려면",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "1927년 임시정부를 향해가던 22세의 일본 유학도 조명하는 대만에서 히로히토의 장인인 육군대장 구니노미야를 단도(短刀)로 처단하고 수개월 후 구니노미야는 사망한다. 이 엄청난 의거에도 불구하고 왜 우리는 그를 모르고 살았는가. 독립운동가가 기억되는 조건과 기억되지 못하는 조건을 통해 한국사회가 바로 옆에서 놓치고 있는 독립운동의 기억을 되새겨본다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "기억",
+          "quote": "기억",
+          "start": 186,
+          "end": 188
+        },
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 128,
+          "end": 132
+        },
+        {
+          "label": "일본",
+          "quote": "일본",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "label": "대만",
+          "quote": "대만",
+          "start": 34,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "BCAST-fd67b859b1f40aee4cb8",
+      "title": "역사의 빛, 청년 제7부 100년의 가르침, 청년의 꿈",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "독립운동가이자 사회를 생각하는 기업가였던 유일한 박사를 롤모델로 하여 한국사회의 육아에 적용해본다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "label": "육아",
+          "quote": "육아",
+          "start": 45,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "BCAST-ccb9eb5bec28ffc336ff",
+      "title": "역사의 빛, 청년 제8부 지금, 여기 유일한",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "미국 OSS와 한반도 진입작전을 펼친 미국의 유일한과 중국의 김준엽의 활약상과 그들의 리더십을 탐구한다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "중국",
+          "quote": "중국",
+          "start": 30,
+          "end": 32
+        },
+        {
+          "label": "미국",
+          "quote": "미국",
+          "start": 0,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "id": "BCAST-a54d18362b0d34593c59",
+      "title": "당신은 몇 점인가요?",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=220",
+      "summary": "꼬리표처럼 붙는 인생의 성적표들 그리고 몇 점짜리 인생으로 기억될까...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 5,
+          "quote": "꼬리표처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-f68799f96710999cadc7",
+      "title": "송광 2부 제행무상",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055814",
+      "summary": "목우정 귀퉁이에 어치 가족이 둥지를 틀었다. 계곡 최고의 사냥꾼 물까마귀 새끼 역시 이소를 앞두고 있다. 일찍 동남아로부터 도착한 긴꼬리딱새들은 연일 새끼를 보호하기 위해 참땅벌과 개미들과 사투를 벌인다. 자연은 냉혹며 끊임없이 생존경쟁이 벌어지는 전쟁터다. 결국 긴꼬리딱새 둥지엔 무참히 희생된 새끼들만 남았다. 하지만 한 생명의 죽음은 소멸이 아니라 또 다른 생명으로 이어진다. 긴꼬리딱새의 2차 번식과 또다른 여름 진객 호반새의 여름사냥이 시작된다. 불가에선 모든 생명이 인연의 고리를 통해 그물처럼 연결돼 있다한다. 왕귀뚜라미와 긴꼬리의 노래소리가 깊어지며 하늘다람쥐의 가을 활공이 시작된다. 자연의 시간표엔 마지막이란 단어가 없다. 오로지 거대한 순환이 있고, 그 순환 속에 수많은 생명이 함께 살고 있을 뿐.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 278,
+          "end": 282,
+          "quote": "그물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "가족",
+          "quote": "가족",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 115,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "BCAST-d474ac3519d681bc45f9",
+      "title": "역사의 빛, 청년 - 제9부 교가재창",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "광주학생운동 90주년을 맞아 이 독립운동의 주역이었던 중ㆍ고등학생 및 교사들, 참여 학교들의 활약상을, 역시 학생들의 활약이 컸던 도쿄 2.8독립선언과 3.1운동과 더불어 조명ㆍ분석하고 지금 입시에 치중한 우리 교육이 놓치고 있는 요소와 새 시대 명문학교의 조건을 재정립해본다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 47,
+          "end": 49
+        },
+        {
+          "label": "교육",
+          "quote": "교육",
+          "start": 118,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "BCAST-6cbcfec1aa47a1f2510d",
+      "title": "역사의 빛, 청년 - 제10부 명문의 조건",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055811",
+      "summary": "광주학생운동 90주년을 맞아 이 독립운동의 주역이었던 중ㆍ고등학생 및 교사들, 참여 학교들의 활약상을, 역시 학생들의 활약이 컸던 도쿄 2.8독립선언과 3.1운동과 더불어 조명ㆍ분석하고 지금 입시에 치중한 우리 교육이 놓치고 있는 요소와 새 시대 명문학교의 조건을 재정립해본다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "독립운동",
+          "quote": "독립운동",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 47,
+          "end": 49
+        },
+        {
+          "label": "교육",
+          "quote": "교육",
+          "start": 118,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "BCAST-f90080b68cfcd957cbd8",
+      "title": "역사의 강물에 핀 꽃 - 8개의 백제 세계유산 이야기",
+      "sourceUrl": "https://home.ebs.co.kr/sdocu/replay/4/list?courseId=BP0PAPC0000000028&stepId=01BP0PAPC0000000028&c.page=1",
+      "summary": "자막역사의 강물에 핀 꽃 - 8개의 백제 세계유산 이야기",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 5,
+          "quote": "강",
+          "reason": "ABSTRACT_NATURE",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 6,
+          "end": 7,
+          "quote": "강",
+          "reason": "ABSTRACT_NATURE",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-31471822ecdad84ec5ef",
+      "title": "헌것을 새것처럼! - 인테리어 필름 시공과 소파 수리",
+      "sourceUrl": "https://home.ebs.co.kr/limit/replay/2/list?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&c.page=17",
+      "summary": "자막헌것을 새것처럼! - 인테리어 필름 시공과 소파 수리",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 8,
+          "quote": "새것처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 6,
+          "end": 10,
+          "quote": "새것처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-35526310873e06b7d5a2",
+      "title": "구해줘, 고양이 홈즈",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=211",
+      "summary": "하나같이 사랑이 담긴 집이네요 어디서 만나든 우리 앞으로도 함께 살아요...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 4,
+          "quote": "하나같이",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-17a625f376b08173a7b0",
+      "title": "[성악] 모차르트 오페라<코지 판 투테> \"바위처럼\" 레슨 - 성악 제니퍼 라모어(Jennifer Larmore)",
+      "sourceUrl": "https://home.ebs.co.kr/snumusic/replay/3/list?courseId=40033223&stepId=60035268&c.page=2",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 24,
+          "end": 28,
+          "quote": "바위처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-0c7254d875e189fb83e7",
+      "title": "나를 찾아줘",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=200",
+      "summary": "18세기 천문학자처럼 자신의 눈을 믿고 별 사이를 건너다보면 일어나는 작은 기적...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 5,
+          "end": 11,
+          "quote": "천문학자처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-f0df987741b7fd372d8b",
+      "title": "나무처럼 쑥쑥!",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "성장판에 대해 알아보고 키 성장에 도움이 되는 정보를 준다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "quote": "나무처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3eee3ad9005e541e0944",
+      "title": "영구동토층이 녹는다",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=195",
+      "summary": "얼마 전 1만 8000살로 추정되는, 강아지처럼 보이는 동물의 미라가 발견되었다. 항상 얼어있던 땅인 영구동...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 21,
+          "end": 26,
+          "quote": "강아지처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "동물",
+          "quote": "동물",
+          "start": 31,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "BCAST-2f8f3260c91911398387",
+      "title": "11일 간의 실종",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=187",
+      "summary": "‘추리소설보다 더 추리소설같은 의문의 실종’ 대대적인 보도, 15,000명의 수색 인원을 동원한 11일 간의...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 10,
+          "end": 16,
+          "quote": "추리소설같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-384dec07768616247182",
+      "title": "화성을 제2의 지구로 테라포밍",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=177",
+      "summary": "화성을 지구처럼 만드는 테라포밍이란?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 4,
+          "end": 8,
+          "quote": "지구처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3fe7bd1799ce226cc9ec",
+      "title": "제20화 왈츠의 리듬처럼",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "계획 사이보그는 무리한 스케쥴로 아이들을 괴롭힌다. 와와는 3박자 왈츠로 안정을 찾아 반복되는 일정에서 해방되고 사이보그를 물리친다......",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 9,
+          "end": 13,
+          "quote": "리듬처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "아이",
+          "quote": "아이",
+          "start": 18,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9e73045940da2f777bf9",
+      "title": "훈련도 실전처럼! 경찰견 훈련사",
+      "sourceUrl": "https://home.ebs.co.kr/limit/replay/2/list?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&c.page=15",
+      "summary": "자막훈련도 실전처럼! 경찰견 훈련사",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 8,
+          "quote": "실전처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 6,
+          "end": 10,
+          "quote": "실전처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-c04a3543963f37b10ba6",
+      "title": "내 그림은 몇 살인가요? 1부 - 다시 해보겠습니다",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=169",
+      "summary": "47세에 왕립미술대학에서 석사 학위를 받고 본격적인 작가 활동을 시작한 로즈 와일리. 그렇다고 드라마처럼 곧...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 53,
+          "end": 58,
+          "quote": "드라마처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3a2a054cc872b4c03f4e",
+      "title": "이건 좀 슬픈데",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=168",
+      "summary": "달걀 껍질처럼 쉽게 상처받는 사람의 마음. 상대적 박탈감의 심리....",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 3,
+          "end": 7,
+          "quote": "껍질처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "심리",
+          "quote": "심리",
+          "start": 33,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "BCAST-a37f0eedfda9cc7d5f3c",
+      "title": "제 62화 은빛 물결처럼",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=140&courseId=BB0CZ000000000058&stepId=01BB0CZ000000000058&lectId=60281259",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 9,
+          "end": 13,
+          "quote": "물결처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-c760068da3e165d9a1e2",
+      "title": "제 71화 흐르는 강물처럼",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=140&courseId=BB0CZ000000000058&stepId=01BB0CZ000000000058&lectId=60281259",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 10,
+          "end": 14,
+          "quote": "강물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-7e74998e6491282295be",
+      "title": "포스트 코로나 - 6부 가상시나리오 X",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056106",
+      "summary": "픽션(fiction)이 현실이 되고 실제가 픽션을 모방하는 세상, 시나리오 속의 바이러스가 현실에 나타났다!2015년 메르스를 겪으며 무참하게 무너졌던 당시 질병관리본부의 구성원들은 비정규 조직인 ‘원인불명감염병TF’를 꾸리고 바이러스 대유행 시나리오를 짜 실제로 바이러스가 창궐했을 때를 대비해 2019년 12월 17일 실전같은 연습을 했다. 그리고 2주 후 중국 우한에서 원인불명폐렴 환자들이 속출하기 시작했다. 시나리오에서 예측한 것들이 그대로 현실이 된 것이다. 그리고 우리는 신종코로나바이러스 발생초기부터 ‘K방역’ 호평 속에 코로나19를 막아내고 있다. 시나리오는 어떤 내용이었을까? 어떻게 예측할 수 있었고 무엇을 예측할 수 없었을까? 또 예측하고도 속수무책으로 당할 수밖에 없었던 것은 무엇이었을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 180,
+          "end": 184,
+          "quote": "실전같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "중국",
+          "quote": "중국",
+          "start": 202,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9e0cc1ec09a91627ff4b",
+      "title": "봄처럼, 재즈처럼",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=142",
+      "summary": "강렬한 색채의 야수파 화가 앙리 마티스, 말년에 그가 붓 대신 가위로 완성한 작품 세계...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 5,
+          "end": 9,
+          "quote": "재즈처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-ff5c84e2356bf0678f2e",
+      "title": "사랑 고백은 이들처럼",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=119",
+      "summary": "사랑을 그려 보낸 화가의 편지, 그 속에 담긴 삶과 예술 ...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 7,
+          "end": 11,
+          "quote": "이들처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "예술",
+          "quote": "예술",
+          "start": 29,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "BCAST-24afd6cce51d8177fbad",
+      "title": "어느 날 갑자기, 나에게",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=118",
+      "summary": "교통사고처럼 다가온 조현병, 병보다 편견이 더 무서운 세상...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 6,
+          "quote": "교통사고처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "편견",
+          "quote": "편견",
+          "start": 20,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "BCAST-ccfbd522ace373929e98",
+      "title": "잡초다움에 대하여",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=118",
+      "summary": "잡초처럼 살고 싶은 그대를 위해.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 4,
+          "quote": "잡초처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-0bd57277c5ffac508434",
+      "title": "내 피는 파란색",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=118",
+      "summary": "살아있는 화석, 투구게가 지구상에서 점점 사라져가는 이유 ...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 5,
+          "end": 7,
+          "quote": "화석",
+          "reason": "LIVING_FOSSIL",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-29a97ab343171fb94983",
+      "title": "포기해도 될까요?",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=112",
+      "summary": "\"절대 포기하지 마라\" 이 시대에 격언처럼 여겨지는 말이다. 포기...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 19,
+          "end": 23,
+          "quote": "격언처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-114ec9b18af588606fb0",
+      "title": "애호박에 줄긋기",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=104",
+      "summary": "'마트에 진열된 애호박은 상처 없이 매끈하고 곧은 모양이며 하나같이 비닐에 싸여있는데. 바로 애호박을 곧게 ...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 33,
+          "end": 37,
+          "quote": "하나같이",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2edce2f4b9d02c387e25",
+      "title": "나는 단순한 것들을 사랑한다",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=103",
+      "summary": "어린아이처럼 단순하고 독창적인 예술을 펼쳐 나간 화가 장욱진의 세상 ...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 6,
+          "quote": "어린아이처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "예술",
+          "quote": "예술",
+          "start": 17,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "BCAST-219bf04b39fd05ff75dc",
+      "title": "원소 이야기 Ⅱ 위대한 규소",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=100",
+      "summary": "모래알처럼 흔한 존재에서 새 시대의 찬란한 주인공이 된 원소, 규소(Si) 이야기...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 5,
+          "quote": "모래알처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-4ee5be140ead0d12cd1d",
+      "title": "세상의 모든 지식 창고",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=100",
+      "summary": "최초의 도서관인 알렉산드리아 도서관에 대하여 알아본다...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 10,
+          "end": 12,
+          "quote": "창고",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-7c5942a86d98f0ca656e",
+      "title": "나도 톨스토이처럼 일기를 써볼까",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=98",
+      "summary": "19살 때부터 죽기 전까지 일기를 쓴 톨스토이. 그가 세계적인 대문호가 될 수 있었던 원동력은...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 3,
+          "end": 9,
+          "quote": "톨스토이처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-711d03729ec4be8cfc04",
+      "title": "진짜보다 더 진짜같은",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=96",
+      "summary": "현실과 상상의 세계를 넘나드는 극사실주의 화가, 앨리스 달튼 브라운 ...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 7,
+          "end": 11,
+          "quote": "진짜같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-91436b83e8e424fc4d75",
+      "title": "난 참, 바보처럼 살았군요",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=96",
+      "summary": "평생을 ‘노예’처럼 살아온 당신에게, ‘진짜 노예’였던 철학자가 알려주는 진정한 자유에 이르는 법....",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 5,
+          "end": 9,
+          "quote": "바보처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "법",
+          "quote": "법",
+          "start": 53,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "BCAST-1880ab8ae50c26ecba81",
+      "title": "<신년특집-e로운 한마디>2022년은 봉주르 라이프처럼",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=86",
+      "summary": "국민 마라토너 이봉주가 전하는 위로와 희망의 메시지 ...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 25,
+          "end": 30,
+          "quote": "라이프처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-940665e560b8b9b8fa1b",
+      "title": "79화 나는 헬리콥터처럼 움직여요.",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=135416&courseId=10210610&stepId=20012349&lectId=60692873",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 7,
+          "end": 13,
+          "quote": "헬리콥터처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-b7f6bf2f12e73ec8c232",
+      "title": "헌 집을 새집처럼! 집 가치 올리는 셀프 인테리어",
+      "sourceUrl": "https://home.ebs.co.kr/live1PM/replay/4/list?courseId=10210450&stepId=20011984&c.page=1",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 5,
+          "end": 9,
+          "quote": "새집처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-fbaf8e35a165cdc07cfd",
+      "title": "백성의 물고기 - 2부 일곱가지의 맛, 홍어",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055777",
+      "summary": "홍어는 지역성이 강한 물고기지만 삭혀먹는 물고기라는 세계 유일의 생선문화를 낳으며 우리 바다와 우리 음식문화의 풍요로움을 상징하는 어종이다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 62,
+          "end": 70,
+          "quote": "풍요로움을 상징",
+          "reason": "EXPLICIT_FIGURATIVE",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "바다",
+          "quote": "바다",
+          "start": 49,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "BCAST-11035e37a4f8b4059ab5",
+      "title": "땅끝에 선 희망의 빛",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=72",
+      "summary": "2022년 올해의 등대로 선정된 호미곶등대 ...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 10,
+          "end": 11,
+          "quote": "빛",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9103883b11635ea4693f",
+      "title": "사마귀처럼 그대로 멈춰라!",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "사마귀처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-d346f3468d29c4e74ee2",
+      "title": "<생명의 전략, 기생> 제3부 - 나는 우리다",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055761",
+      "summary": "지구의 모든 생명은 함께 살아가고 함께가 아니라면 생명을 존속할 수 없다. 그 과정에서는 균형이 중요하지만, 그 균형을 깨뜨리는 것 또한 사람이다. 이제는 서로 분리되어 살던 과거처럼 살수 없다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 98,
+          "end": 102,
+          "quote": "과거처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2c9016be4f0f05b88beb",
+      "title": "1화 닭똥같은 눈물",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "1화 닭똥같은 눈물 빈칸에 들어갈 속담/관용어를 그림으로 그려 정답을 맞춘다.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 3,
+          "end": 7,
+          "quote": "닭똥같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 3,
+          "end": 7,
+          "quote": "닭똥같은",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-61c0b2693be396fa40d3",
+      "title": "41화 OO같이 모여들다",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=440751&courseId=40046423&stepId=60049489&lectId=60386080",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 4,
+          "end": 8,
+          "quote": "OO같이",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9c251268e92d7213c9bd",
+      "title": "EBS 다큐프라임 - 쿠킹포유 3부. 바람의 길",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055758",
+      "summary": "자연의 순리를 따라 바람처럼 살아가는 몽골 유목민 가족의 삶. 그들이 밟는 길을 따라가본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 11,
+          "end": 15,
+          "quote": "바람처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "가족",
+          "quote": "가족",
+          "start": 28,
+          "end": 30
+        },
+        {
+          "label": "몽골",
+          "quote": "몽골",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "label": "자연",
+          "quote": "자연",
+          "start": 0,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "id": "BCAST-4f39a7983e68889d7879",
+      "title": "EBS 다큐프라임 - 쿠킹포유 4부. 해피 투게더",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055758",
+      "summary": "정식 명칭보다 '호목 학교'로 더 유명한 태국의 한 초등학교. 다양한 맛이 한 데 어우러진 호목처럼 각자의 사연을 품고 있는 이들이 가족이 된다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 51,
+          "end": 55,
+          "quote": "호목처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "가족",
+          "quote": "가족",
+          "start": 74,
+          "end": 76
+        },
+        {
+          "label": "학교",
+          "quote": "학교",
+          "start": 12,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "BCAST-77318469736a5fe50082",
+      "title": "으스스 동굴의 비밀",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "깊은 바닷속 어딘가 바다거북의 무덤이라고 불리는 전설의 ‘으스스 동굴’이 있었는데, 바다거북 ‘부기’가 으스스 동굴에 들어간 이후 돌아오지 않고 있다는 사건이 접수된다. 숲속 수사대는 부기를 찾기 위해 동굴 안으로 들어가는데... 미로처럼 복잡한 동굴 안에서 길을 잃는가 하면, 설상가상! 샤크캐논에 이어 라이노크레인, 이글아이까지 고장 나고 마는데... 숲속 수사대는 무사히 부기를 찾아서 으스스 동굴 안에서 빠져나올 수 있을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 129,
+          "end": 133,
+          "quote": "미로처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-746157052a49a867f17e",
+      "title": "신기한 호텔",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "박쥐 형제와 한 가족처럼 지내던 나무로부터 사건 의뢰가 들어온다. 간밤에 사냥을 나간 박쥐 형제가 돌아오지 않았던 것! 숲속 수사대가 박쥐 형제를 찾기 위해 출동하는데... 뜨거운 햇빛을 피해 그늘에서 쉬고 있는 건 아닐까? 악어에게 잡힌 건 아닐까? 초록 사냥꾼에게 당한 것은 아닐까? 여러 가지 추측 속에 사건을 조사하던 중, 나무 두더지를 통해 뜻밖의 사실을 알게 되는데... 숲속 수사대는 무사히 박쥐 형제의 행방을 밝혀낼 수 있을까?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 9,
+          "end": 13,
+          "quote": "가족처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-63eabc0daeade630b79f",
+      "title": "도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "sourceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=40",
+      "summary": "자막도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 31,
+          "end": 35,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 33,
+          "end": 37,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-e5512607fdfe033af305",
+      "title": "훔쳐보는 연애편지",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=38",
+      "summary": "노자영의 『사랑의 불꽃』, 상업 출판의 문을 열다...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 10,
+          "end": 12,
+          "quote": "불꽃",
+          "reason": "ABSTRACT_OBJECT",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-4fe2ddf33ebff94f6528",
+      "title": "영월, 흐르는 강물처럼",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 8,
+          "end": 12,
+          "quote": "강물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-e0593715d602a4ea9437",
+      "title": "[모자익 프로젝트] 1부 우리도 난센처럼",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=35",
+      "summary": "‘모자익(MOSAiC) 원정대’, 북극의 중심에서 북극과 얼어붙다...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 18,
+          "end": 22,
+          "quote": "난센처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-6f3a5f2b22da3b193c5a",
+      "title": "나의 해방 여행 페루-내 인생의 오아시스",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 18,
+          "end": 22,
+          "quote": "오아시스",
+          "reason": "ABSTRACT_NATURE",
+          "status": "FIGURATIVE_EXCLUDED"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3d2d6351e7cf574e16b2",
+      "title": "일단 타! 베트남- 하루쯤은 영화처럼 하노이･하롱베이",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 16,
+          "end": 20,
+          "quote": "영화처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-5072f9d2591c4224fdab",
+      "title": "번개맨이 되고 싶은 루리",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "루리는 램프별에서 요술램프를 찾는다. 램프의 요정, 지니에게 소원을 빌어 번개 망토를 얻게 되는 루리. 번개맨처럼 하늘도 날고, 번개 파워도 쏠 수 있게 되자 루리는 번개맨이 됐다고 착각한다. 자만심에 괴물과도 직접 싸우겠다고 나선 루리는 오히려 탐험대를 위험에 빠트리게 만든다. 결국 루리는 열심히 노력해서 번개맨이 되겠다고 결심하는데...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 58,
+          "end": 63,
+          "quote": "번개맨처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-a778cc977835f9723b4b",
+      "title": "취향대로 겨울 뉴질랜드-키위처럼 즐기기",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 13,
+          "end": 17,
+          "quote": "키위처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-dcfad54d9cc94ee7548e",
+      "title": "현지인처럼 살아볼까 1부 진도 바다로 해(海)방!",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3d3702197b81043ec860",
+      "title": "현지인처럼 살아볼까 2부 디스 이즈 내와리",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-19a68cccd1ce1b9e3550",
+      "title": "현지인처럼 살아볼까 3부 김마담의 '상주'일기",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-64be09dda5376a5c73b2",
+      "title": "현지인처럼 살아볼까 4부 거제, 가을 낭만 기행",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-d6d8687b6abb9b258bbc",
+      "title": "현지인처럼 살아볼까 5부 나는 자유인이다!",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-7ff1bca81defa254d03c",
+      "title": "현지인처럼 살아볼까 1부 진도 바다로 해(海)방!(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2c429037c2c9817e08c3",
+      "title": "현지인처럼 살아볼까 3부 김마담의 '상주'일기(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-b2b0f1f72de3391997eb",
+      "title": "현지인처럼 살아볼까 4부 거제, 가을 낭만 기행(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-3cc27220601bf7ad3a8e",
+      "title": "현지인처럼 살아볼까 5부 나는 자유인이다!(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 0,
+          "end": 5,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-1e20ecf3e7bdf6dad484",
+      "title": "저속노화의 비밀 1부 젊게살려면 명의처럼",
+      "sourceUrl": "https://home.ebs.co.kr/bestdoctors/replay/1/list?courseId=BP0PAPG0000000014&stepId=01BP0PAPG0000000014&c.page=5",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 18,
+          "end": 22,
+          "quote": "명의처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2505ca44b410f6860ac5",
+      "title": "우리는 아날로그로 간다 3부 뜨거운 찻물처럼 살아보리",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 20,
+          "end": 24,
+          "quote": "찻물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9b5a02a6e98cc665df20",
+      "title": "우리는 아날로그로 간다 3부 뜨거운 찻물처럼 살아보리(수어방송)",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 20,
+          "end": 24,
+          "quote": "찻물처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-72068bc9ce898f97da8c",
+      "title": "세찌의 커다란 포크",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "꺼병이들은 모래놀이를 하다 커다란 포크처럼 생긴 막대기를 발견한다. 막대기의 주인을 찾아주려는 꺼병이들. 하지만 황소 아저씨도, 토리도 자기 물건이 아니라고 하자 경찰서에 막대기를 맡기기로 한다. 가는 길에 만난 꼬북이는 이 막대기가 스카이콩콩 같다고 하고, 꼬북이 엄마는 막대기를 탈 수 있도록 고쳐준다. 그런데 스카이콩콩을 타다가 균형을 잃고 마을 이곳저곳을 마구 튀어 다니는 세찌. 분수에 빠질 위기에 처하지만 엄마가 나타나 세찌를 구해준다. 경찰관의 조언대로 막대기를 박물관에 가져가는 꺼병이들. 박물관장은 이 막대기가 귀중한 유물 ‘삼지창’이라며 기뻐한다. 드디어 막대기의 주인을 찾아준 꺼병이들.",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 8,
+          "end": 10,
+          "quote": "포크",
+          "reason": "TITLE_CORROBORATED_FIGURATIVE",
+          "status": "FIGURATIVE_EXCLUDED"
+        },
+        {
+          "field": "summary",
+          "start": 19,
+          "end": 23,
+          "quote": "포크처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "유물·유적",
+          "quote": "유물",
+          "start": 299,
+          "end": 301
+        },
+        {
+          "label": "박물관",
+          "quote": "박물관",
+          "start": 266,
+          "end": 269
+        },
+        {
+          "label": "유물",
+          "quote": "유물",
+          "start": 299,
+          "end": 301
+        },
+        {
+          "label": "경찰관",
+          "quote": "경찰관",
+          "start": 251,
+          "end": 254
+        }
+      ]
+    },
+    {
+      "id": "BCAST-abec9174cdc4dfa9703c",
+      "title": "꽁지 당근이 최고!",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "토리네 당근농장으로 당근 뽑기 체험을 간 꺼병이들. 튼튼한 당근을 쑥쑥 뽑아내는 형제들과 달리, 꽁지는 유난히 작고 비실한 당근만 뽑아서 시무룩하다. 집으로 돌아간 후, 속이 상한 꽁지는 홀로 방으로 올라가 잠이 든다. 꿈속에서 꽁지는 엄청 커다란 당근 줄기를 발견하고, 형제들의 도움을 받아 어마어마하게 거대한 대왕당근을 뽑아낸다! 기쁨도 잠시, 살아있는 대왕당근은 세상구경을 하고 싶다고 마을 곳곳을 돌아다니며 소동을 일으킨다. 위기의 순간! 영웅처럼 등장한 꽁지당근들의 활약으로 대왕당근을 막아낸다. 꿈에서 깬 꽁지는 자신의 꽁지당근들이 최고라며 만족해한다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 250,
+          "end": 254,
+          "quote": "영웅처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-2169d23411329938f461",
+      "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 2부 꿀벌의 마음",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+      "summary": "온몸으로 생각하고 소통하고 감정을 느끼는 벌들. 꿀벌은 각 개체가 모여 완전한 하나의 생명체처럼 살아간다. 2부에서는 그들을 지키려는 연구자들과 함께 벌의 몸과 마음을 자세히 들여다본다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 48,
+          "end": 53,
+          "quote": "생명체처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "꿀벌",
+          "quote": "꿀벌",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "label": "감정",
+          "quote": "감정",
+          "start": 15,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "BCAST-91154d20b9f3bd12f5b3",
+      "title": "엉터리 구조대 / 멍멍이 입양 대소동",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "Cardboard Savers (ep. 134) 우연히 마샤를 구해주고 소시지를 상으로 받은 늑대들! 그래서 구조대가 되면 소시지를 실컷 먹을 수 있겠다고 생각하죠. 하지만 제대로 된 장비 하나 없는 엉터리 구조대예요. 과연 늑대들의 엉뚱한 구조 작전은 무사히 계속될 수 있을까요? Don’t Sell Me a Dog (ep. 142) 곰이 외로워 보이자, 마샤는 곰에게 꼭 필요한 건 반려견이라고 생각하죠. 즐겁게 놀아주고 최고의 친구가 되어줄 수 있겠다고 생각한 거예요. 그런데... 이 강아지, 어쩐지 늑대처럼 보이는 건 기분 탓일까요?",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 284,
+          "end": 288,
+          "quote": "늑대처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "구조",
+          "quote": "구조",
+          "start": 135,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "BCAST-9ceb0501a1e739aa530f",
+      "title": "[작가의 상상은 과학이 된다] 2부 로봇은 왜 사람처럼 만들까?",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=14",
+      "summary": "SF작가와 로봇공학자의 만남! 인간을 닮은 로봇, 두려운 존재일까?...",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 26,
+          "end": 30,
+          "quote": "사람처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "로봇",
+          "quote": "로봇",
+          "start": 24,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "BCAST-b4de710b50c481dc6801",
+      "title": "오늘도 뜨거운, 아미고 멕시코-현지인처럼 즐겨볼까",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 17,
+          "end": 22,
+          "quote": "현지인처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-4792332345f38589aa78",
+      "title": "대통령 요리사의 베트남 여행법-삼시세끼 그들처럼",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 22,
+          "end": 26,
+          "quote": "그들처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-8abb66449fffabb6b946",
+      "title": "싸느냐, 참느냐 화장실 전쟁",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057296",
+      "summary": "12월 10일 세계 인권의 날을 맞아, 2025년 한국의 ‘화장실 인권’을 노동의 시각에서 들여다본다. 화장실은 가장 사적인 공간처럼 보이지만, 실제 일터에서는 업무 구조와 조직 문화가 그대로 드러나는 장소다. 누구나 당연히 누려야 할 기본권인 화장실조차 직업과 근무환경에 따라 큰 차이가 발생하며, 그 과정에서 노동자들의 존엄과 건강권이 흔들리기도 한다. 이번 다큐멘터리는 철도기관사, 가스 안전 점검원, 조선소·건설 노동자 등 업무 특성상 제때 화장실을 가기 어려운 직업군과 화장실 고민이 많은 일반 사람들을 직접 만나, 숨겨진 고충과 구조적 문제를 추적한다. 이들은 왜, 무엇을 참고 일해야 했을까.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 70,
+          "end": 74,
+          "quote": "공간처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": [
+        {
+          "label": "문화",
+          "quote": "문화",
+          "start": 100,
+          "end": 102
+        },
+        {
+          "label": "직업",
+          "quote": "직업",
+          "start": 143,
+          "end": 145
+        },
+        {
+          "label": "인권",
+          "quote": "인권",
+          "start": 11,
+          "end": 13
+        },
+        {
+          "label": "안전",
+          "quote": "안전",
+          "start": 220,
+          "end": 222
+        },
+        {
+          "label": "구조",
+          "quote": "구조",
+          "start": 93,
+          "end": 95
+        },
+        {
+          "label": "노동자",
+          "quote": "노동자",
+          "start": 175,
+          "end": 178
+        },
+        {
+          "label": "한국",
+          "quote": "한국",
+          "start": 28,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "BCAST-c5e0d67c6971fe09effc",
+      "title": "더도그 시즌2 2부- 레게머리 수호견, 코몬도르",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60057316",
+      "summary": "수세기 동안 헝가리 목동들이 ‘초원의 수호자’라 부르며 의지해 온 개가 있다. 온몸을 뒤덮은 레게머리 털로 맹수를 속이고, 때로는 갑옷이 되어 양떼를 지켜낸 하얀 방패, 코몬도르다. 풍성하게 꼬인 털은 단순한 외모가 아니라 대초원의 삶 속에서 진화한 생존의 무기. 얼핏보면 걸레처럼 보이지만 누구보다 용맹한 레게머리 수호견 코몬도르를 만난다.",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 153,
+          "end": 157,
+          "quote": "걸레처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-4423e423d5c4325c91c4",
+      "title": "말레이시아 별난 체류기- 행복하고 싶다면 이들처럼",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 23,
+          "end": 27,
+          "quote": "이들처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-e624103e4f7188e511fe",
+      "title": "앨런 튜링 : 컴퓨터는 인간처럼 생각하는가?",
+      "sourceUrl": "https://home.ebs.co.kr/aidrama/replay/3/list?courseId=40053496&stepId=60058116&c.page=2",
+      "summary": "앨런 튜링 : 컴퓨터는 인간처럼 생각하는가?",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 13,
+          "end": 17,
+          "quote": "인간처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 13,
+          "end": 17,
+          "quote": "인간처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-8999d97cb0c652146c37",
+      "title": "멈출 수 없는 맛의 비밀",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=4",
+      "summary": "초가공식품은 담배처럼 설계되었다? 중독적인 그 맛의 비밀...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 7,
+          "end": 11,
+          "quote": "담배처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9185bb436a9a3cb9f8c1",
+      "title": "은퇴 후 세계여행, 아제르바이잔-불꽃처럼 뜨겁게, 바쿠",
+      "sourceUrl": "https://home.ebs.co.kr/worldtrip/vodSearchList",
+      "summary": "",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 18,
+          "end": 22,
+          "quote": "불꽃처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-ad1afa6582e286d76e10",
+      "title": "[AI를 닮은 시대] 2부 이 시대 최고의 칭찬",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=1",
+      "summary": "기계처럼 업그레이드를 요구받는 현대인의 삶...",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 4,
+          "quote": "기계처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-9cd0a7a12d9a21d73d45",
+      "title": "사과 하세요",
+      "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+      "summary": "변비 때문에 화장실에 가지 못하는 왕비! 백설공주처럼 시원하게 변비 탈출하고 싶다는 왕비에게 호빵이가 내민 건 사과?! 사과를 먹으면 왜 변비 탈출에 도움이 되는지 알아보기 위해 사과 마을로 떠난 호빵! 사과 껍질 속 펙틴 용사가 위산을 만나 커다랗고 말랑말랑한 펙틴 젤리로 변신한다고?! 대장마을에서 최고의 똥 만들기에 나선 펙틴 용사의 활약을 알아보자!",
+      "expressions": [
+        {
+          "field": "summary",
+          "start": 23,
+          "end": 29,
+          "quote": "백설공주처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-799908e861e59e78d7b3",
+      "title": "도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "sourceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=40",
+      "summary": "수어도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 31,
+          "end": 35,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 33,
+          "end": 37,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    },
+    {
+      "id": "BCAST-708fd8f4aaf8e53b8997",
+      "title": "도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "sourceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=40",
+      "summary": "더빙도널드 서순 <자본주의 세계 지배사> 2강 어떻게 하면 미국처럼 강해질까",
+      "expressions": [
+        {
+          "field": "title",
+          "start": 31,
+          "end": 35,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        },
+        {
+          "field": "summary",
+          "start": 33,
+          "end": 37,
+          "quote": "미국처럼",
+          "reason": "COMPARISON_VEHICLE",
+          "status": "COMPARISON_HELD"
+        }
+      ],
+      "literalKeywords": []
+    }
+  ],
+  "paidApiCalls": 0
+}

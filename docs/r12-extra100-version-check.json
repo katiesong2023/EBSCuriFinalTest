@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "changedDuring100Run": [],
+  "changedAfterRunByReportTime": {
+    "server/curriculum-discovery.js": {
+      "atRun": "30e25add6a059db0de95cc173bbf356b0f28beaa2db4e8d8f267108cab15094c",
+      "now": "f1afc91b1c03aa200089ca37b34b3a82ceba48c814f8c79cada1b2114eb09272"
+    },
+    "server/curriculum-goal-check.js": {
+      "atRun": "ca8203bd1d5dc882829e22c4d49e81969f17389c27bb6a9ca3c4c6bee27c4abd",
+      "now": "32de5cf965ee1079cdc663826a29f6bf329acec2968b9dcaec078370d100dd21"
+    },
+    "server/lesson-goal.js": {
+      "atRun": "d0e878882139f5d4cd9c2b4355f3ca7b633194bce3016d38e9b8a9043968ea7d",
+      "now": "75731f6325446aec729b92758632391a2b73bb726ca77d5d2e1c62bde3c122ed"
+    },
+    "server/link-proposals.js": {
+      "atRun": "b6410bd0f1a5dfaa1bb398a56c7b0bd8d7b70d8985f044e87690e7f77c72d0ed",
+      "now": "230a8e4c213ae1a1ce752447365ecdde3c3975382b997c5410e6f096a093af1d"
+    },
+    "server/server.js": {
+      "atRun": "7d09f5eeb5489ae2024478cbfc95aa717ab33acf1331941d61cba76a27e7cc9d",
+      "now": "96026d6bfa4bf944a6ec3d094b111804921b7124887f9e6d5d199745ca55ab2f"
+    },
+    "server/teacher-combined-search.js": {
+      "atRun": "241786292bb064c450caa669edfe7b3fcd4ecc27358023a58bd8002522918a3e",
+      "now": "b7d6c971082e4277a71737d937862613a02dc6a5c467218288b8ab1534ff7d67"
+    }
+  },
+  "finalEvaluationUsed": false
+}

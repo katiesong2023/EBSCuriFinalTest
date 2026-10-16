@@ -1,0 +1,17 @@
+{
+  "version": "0.6.0",
+  "zipFiles": 19,
+  "archiveMatchesSource": true,
+  "sha256": "8178ce537c5a13503438f7706639a7820f0b254fc66b8ae47662870f96a8a0ee",
+  "permissions": [
+    "storage",
+    "sidePanel"
+  ],
+  "nativePanelVerified": false,
+  "checks": {
+    "popup": 12,
+    "segment": 35,
+    "actualHtmlLayouts": 3,
+    "guideLayouts": 6
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-15",
+  "method": "Chrome actual UI; read-only bounding rects and computed styles; settled states sampled, not a frame-by-frame recording",
+  "A": {
+    "url": "https://go-od.co/?ref=httpster.net",
+    "scope": "coming-soon homepage, Studio/Contact, player, mobile; not a full portfolio grid",
+    "desktop": {
+      "viewport": [
+        1440,
+        960
+      ],
+      "headerInsetPx": 20,
+      "logo": [
+        655,
+        20,
+        130,
+        31
+      ],
+      "collapsedMenu": [
+        1060,
+        20,
+        360,
+        29
+      ],
+      "studioMenu": [
+        1060,
+        20,
+        360,
+        629
+      ],
+      "contactMenuHeight": 191,
+      "playerClosedMenu": [
+        360,
+        168,
+        720,
+        585
+      ],
+      "playerOpenMenu": [
+        504,
+        285,
+        432,
+        351
+      ],
+      "observedPlayerScale": 0.6
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "logo": [
+        130,
+        30,
+        130,
+        31
+      ],
+      "collapsedMenu": [
+        29,
+        80,
+        333,
+        29
+      ],
+      "player": [
+        10,
+        289,
+        370,
+        317
+      ],
+      "studioMenu": [
+        29,
+        80,
+        333,
+        646
+      ],
+      "playerWithStudio": [
+        84,
+        352,
+        222,
+        190
+      ]
+    },
+    "interactions": [
+      "Studio opens menu in place; player scales while centered",
+      "Contact changes content and panel height",
+      "Escape on open Contact left sampled panel height191 unchanged",
+      "player Close was clicked; resize can reinitialize visible player state, so persistence across resize not asserted"
+    ],
+    "priorObserved": [
+      "folder single-click selects and double-click opens player (R12-09 prior record)",
+      "Studio/Contact transitions .2–.3s and studio .25s from prior computed styles"
+    ],
+    "notAsserted": [
+      "a native12-column CSS grid",
+      "drag behavior",
+      "reference keyboard compliance",
+      "same geometry at all browser states"
+    ]
+  },
+  "B": {
+    "url": "https://illuminating-radioactivity.com/5/?ref=httpster.net",
+    "scope": "page5 initial composition, menu open/Escape, click chapter12 and browser back, white chapter after scroll",
+    "desktop": {
+      "viewport": [
+        1440,
+        960
+      ],
+      "posterRects": [
+        [
+          44,
+          394,
+          316,
+          603
+        ],
+        [
+          449,
+          394,
+          316,
+          602
+        ],
+        [
+          851,
+          394,
+          316,
+          602
+        ]
+      ],
+      "posterGapsApproxPx": [
+        89,
+        86
+      ],
+      "reservedMenuStartsApproxX": 948,
+      "menuTextStartsApproxX": 1029,
+      "layoutImplementation": "observed widgets position:absolute inside relative1440px page-content-container; do not describe as native CSS12-column grid"
+    },
+    "mobilePrior": {
+      "viewport": [
+        390,
+        844
+      ],
+      "documentScrollWidth": 769,
+      "visibleClipping": true
+    },
+    "interactions": [
+      "circular menu opens right-side black overlay, changes icon to X",
+      "Escape did not visibly close sampled menu",
+      "chapter link Seeing navigated from page5 to page12",
+      "menu stayed visible over white chapter after scroll; background scrolling was not visibly locked",
+      "white section contained large heading, portrait, overlapping colored explanatory cards"
+    ],
+    "notMeasured": [
+      "exact animation durations/easing",
+      "hover timing",
+      "touch swipe/drag",
+      "full sequence of all chapter animations",
+      "reduced-motion behavior of reference"
+    ]
+  },
+  "curiInterpretation": "A: anchored workspace and readable reflowed detail. B: editorial chapter rhythm, asymmetric spans, opaque chapter navigation. Both use native controls, Escape, focus return, mobile reflow; source shortcomings not copied."
+}

@@ -1,0 +1,226 @@
+/* Curi v1.1 — 바탕화면, 창, 자료와 폴더의 공통 표현. */
+body {font:400 14px/20px var(--curi-font);background:var(--curi-canvas);--green:var(--curi-primary);--cream:var(--curi-canvas)}
+h1,h2,h3,h4,b,strong {font-weight:500}h1,h2,h3 {text-wrap:balance}button {font-weight:500;font-size:13px}input,textarea,select {font-size:14px}button,.primary-link {border:0;background:var(--curi-surfaceMuted);color:var(--ink);border-radius:7px}button:hover:not(:disabled) {background:var(--curi-folder)}
+.site-header {max-width:none;display:grid;grid-template-columns:1fr 1fr 1fr;min-height:76px;padding:16px 20px;border-bottom:1px solid var(--line);gap:12px}.header-context {font-size:12px}.header-context>span {display:block;color:var(--muted)}.brand {justify-self:center;display:block}.wordmark {font:400 30px/1 var(--curi-font);letter-spacing:-.9px}.site-header nav {justify-self:end;display:flex;background:var(--curi-surfaceMuted);padding:3px;border-radius:8px;gap:0}.site-header nav a {min-height:36px;padding:8px 12px;border-radius:7px;font-weight:500}.site-header nav a[aria-current=page] {color:var(--ink);background:white;box-shadow:0 1px 3px #1a1a1a12;font-weight:500}
+.shell {max-width:1600px;padding:0 20px;margin:auto;padding-right:20px}.hero,.has-query .hero {padding:64px 0 24px;display:block;text-align:center}.hero h1 {font-size:40px;line-height:44px;font-weight:500;letter-spacing:-1.4px}.hero h1 br {display:none}.hero h1 em {font-style:normal}.hero-description,.lesson-heading>p {font-size:14px;color:var(--muted)}.workspace-steps,.eyebrow {display:none}.search-panel,.has-query .search-panel {max-width:960px;margin:0 auto 24px;padding:12px 14px;border:0;background:white;border-radius:12px;box-shadow:0 4px 24px #1a1a1a0b}.search-panel input {font-size:15px;min-width:0;padding:8px 0}.search-panel form button {background:var(--ink);color:white;font-size:13px;min-height:36px;padding:7px 14px}.search-panel form button:hover {background:var(--green)}.search-panel form button span {display:none}.search-panel #search-submit::after {content:' ↵'}.examples button {border:1px solid var(--curi-controlBorder);border-radius:999px;background:transparent;padding:5px 9px;font-size:12px;min-height:32px}.search-examples>summary {font-size:12px;min-height:32px}.search-panel #search-help {font-size:12px}.catalog-strip {font-size:12px}.results {background:white;border-radius:10px;padding:16px;margin-top:20px;box-shadow:0 8px 28px #1a1a1a06}.results-heading {background:var(--curi-surfaceMuted);padding:8px 12px;margin:-16px -16px 16px;border-radius:10px 10px 0 0;min-height:36px}.results-heading h2 {font-size:12px;line-height:20px;font-weight:500}.results-heading h2 span {font-size:12px}.sort-control {font-size:12px}.sort-control select {min-height:32px;padding:4px 8px;font-size:12px}.kind-filters button,.has-query .kind-filters button {border-radius:999px;font-size:11px;line-height:15px;padding:5px 9px;min-height:32px;border:1px solid var(--curi-controlBorder);background:transparent}.kind-filters button[aria-pressed=true] {background:var(--ink);color:white;border-color:var(--ink)}.result-filters {padding:0;background:transparent}.cards {grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px}.resource-card {position:relative;border:0!important;border-radius:10px;box-shadow:none!important;overflow:visible;background:transparent}.resource-thumbnail-link {position:relative;display:block;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:var(--type-color,var(--curi-coral));color:var(--ink)}.resource-thumbnail {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 500ms var(--curi-ease)}.resource-thumbnail-fallback {position:absolute;left:12px;right:12px;bottom:12px;font-size:14px;line-height:20px;font-weight:500;color:var(--ink);text-align:left}.resource-thumbnail-fallback small {display:block;font-size:11px;font-weight:400}.resource-card:hover .resource-thumbnail,.resource-card:focus-within .resource-thumbnail {transform:scale(1.04)}.resource-card:hover h3,.resource-card:focus-within h3 {text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.card-banner,.card-banner.episode,.card-banner.clip,.card-banner.lesson,.card-banner.collection {margin:8px 0;padding:0;min-height:0;height:auto;background:transparent;display:flex;justify-content:flex-start;gap:4px}.type-tag,.subject-tag {font-size:11px;line-height:11px;border-radius:999px;padding:5px 9px;background:var(--type-color);color:var(--ink)}.subject-tag {background:transparent;border:1px solid var(--curi-controlBorder)}.card-banner .number {display:none}.card-body {padding:0}.resource-card h3 {font-size:15px;line-height:21px;font-weight:500;letter-spacing:-.15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:8px 0}.resource-card .program,.resource-card .broadcast-date {display:inline;font-size:12px;line-height:17px;color:var(--muted);font-weight:400}.resource-card .broadcast-date::before {content:' · '}.resource-card .broadcast-date b {font-weight:400}.resource-card .evidence-badge {display:none}
+.resource-card .content-keywords {display:flex;margin:8px 0;gap:5px}
+.resource-card .keyword-details {display:block;margin:0 0 8px}.resource-card .content-preview {margin-top:8px;font-size:12px}.resource-card .content-preview summary {min-height:32px;font-size:12px}.resource-card .preview-text {font-size:14px}.card-actions {margin-top:8px}.resource-card .card-actions a {font-size:12px;min-height:32px}.resource-card .card-actions button[data-folder-save] {position:absolute;top:8px;right:8px;background:white;color:var(--ink);box-shadow:0 2px 6px #0002;min-height:32px;padding:5px 10px;font-size:12px;opacity:0;transition:opacity 200ms}.resource-card:hover [data-folder-save],.resource-card:focus-within [data-folder-save] {opacity:1}.media-duration {position:absolute;right:8px;bottom:8px;background:#000a;color:white;padding:3px 5px;border-radius:4px;font:400 11px/14px var(--curi-font)}.saved-meta {color:var(--green);font-size:12px;margin:8px 0}.saved-meta:empty {display:none}.resource-card:has(.saved-meta:not(:empty)) .program,.resource-card:has(.saved-meta:not(:empty)) .broadcast-date {display:none}
+.curi-dock {position:fixed;right:20px;top:112px;width:calc((100vw - 40px)/6 - 20px);max-width:240px;max-height:calc(100dvh - 140px);overflow:auto;z-index:4}.curi-dock h2 {font-size:12px;color:var(--muted);margin:0 0 16px}.dock-items {display:grid;gap:16px}.mini-folder {position:relative;display:block;min-height:96px;padding:28px 12px 12px;background:var(--curi-folder);color:var(--ink);border-radius:2px 10px 10px 10px;text-decoration:none;text-align:left;border:2px solid transparent;width:100%;isolation:isolate}.mini-folder::before {content:'';position:absolute;top:-12px;left:-2px;width:42%;height:14px;background:var(--curi-folder);border-radius:5px 5px 0 0;z-index:-1}.mini-folder strong {display:block;font-size:13px;overflow-wrap:anywhere}.mini-folder small {font-size:12px;color:var(--muted)}.mini-folder[aria-pressed=true] {background:var(--curi-primarySoft);border-color:var(--green);color:var(--green)}.mini-folder:hover {background:var(--curi-folder)}.dock-items>a {font-size:12px;color:var(--ink)}
+.lesson-heading {padding:32px 0 20px}.lesson-heading h1 {font-size:20px;line-height:28px;letter-spacing:-.4px}.folder-layout {display:block}.folder-sidebar {background:transparent;padding:0}.library-views {display:inline-flex}.library-folder-group>h2 {font-size:12px;margin:20px 0}.library-folder-group {margin-bottom:20px}#folder-list {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px 16px}#folder-list .folder-card {border:0;background:transparent;box-shadow:none;position:relative;min-width:0;padding:0}#folder-list .folder-select {padding:0!important;display:block;width:100%;text-align:left;min-height:150px;background:transparent;border:0}#folder-list .folder-select>span:first-child {display:none}#folder-list .folder-select>span:last-child {display:block}.folder-art {position:relative;display:block;height:112px;margin:14px 0 8px;background:var(--curi-folder);border-radius:2px 10px 10px 10px;border:2px solid transparent}.folder-art::before {content:'';position:absolute;top:-14px;left:-2px;height:14px;width:42%;background:var(--curi-folder);border-radius:5px 5px 0 0}.folder-art::after {content:'';position:absolute;inset:38% -1px -1px;border-radius:2px 2px 10px 10px;background:var(--curi-folder);box-shadow:inset 0 1px #fff8,0 -2px 4px #1a1a1a09}.folder-art img {position:absolute;width:60%;height:65%;object-fit:cover;left:20%;top:5px;border-radius:4px;transform:rotate(-4deg);transition:transform 300ms var(--curi-ease)}.folder-art img:nth-child(2) {transform:rotate(3deg);left:26%}.folder-art img:nth-child(3) {transform:rotate(0);left:23%}.folder-select:hover .folder-art img {transform:translateY(-10px) rotate(-8deg)}.folder-select:hover .folder-art img:nth-child(2) {transform:translateY(-10px) rotate(8deg)}.folder-select:hover .folder-art img:nth-child(3) {transform:translateY(-10px)}.folder-select[aria-pressed=true] .folder-art {background:var(--curi-primarySoft);border-color:var(--green)}#folder-list b {font-size:15px;line-height:21px}#folder-list small {display:block;font-size:12px;color:var(--muted)}.folder-delete {position:absolute;right:4px;top:16px;width:32px;height:32px;min-height:32px;min-width:32px;padding:8px;background:white;z-index:2}.new-folder-panel {margin:16px 0}.folder-main {padding:16px;background:white;border-radius:10px;min-width:0;margin-top:20px;box-shadow:0 8px 28px #1a1a1a08}.folder-main.has-playlist {grid-template-columns:1fr}.lesson-playlist {position:static;padding:16px;background:var(--curi-surfaceMuted);border:0}.library-resource,.folder-video {border:0;padding:16px;background:var(--curi-surfaceMuted)}.folder-video h3,.library-resource h3 {font-size:15px;font-weight:500}#lesson-goal-overview {margin-top:16px}#lesson-goal-overview table {display:block;overflow:auto}.saved-segments {display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;align-items:start;padding:16px 0}.saved-segments>h4,.saved-segments>a,.saved-segments>p {flex:0 0 140px}.segment-card {flex:0 0 172px;scroll-snap-align:start;border:0;padding:0;background:transparent;margin:0;position:relative;cursor:grab}.scene-poster {aspect-ratio:3/4;position:relative;display:flex;align-items:end;padding:10px;background:var(--curi-folder);border-radius:2px 10px 10px 10px;overflow:hidden}.scene-poster img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.scene-poster::after {content:'';position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#000b)}.scene-poster b {position:relative;z-index:1;color:white;font-size:15px;line-height:19px;font-weight:600;letter-spacing:-.3px}.scene-number {display:block;width:max-content;background:var(--ink);color:white;height:13px;font-size:10px;line-height:13px;padding:0 8px;border-radius:5px 5px 0 0;font-variant-numeric:tabular-nums}.scene-caption {font-size:12px;margin:8px 0}.scene-caption::before {content:'●';font-size:7px;display:block;color:var(--ink)}.scene-caption small {display:block;color:var(--muted);font-size:12px}.segment-card-actions {margin-top:8px}.scene-note {background:var(--curi-surfaceMuted);padding:12px;min-height:120px;white-space:pre-wrap}.scene-empty {border:1px dashed var(--curi-controlBorder);min-height:140px;border-radius:10px;padding:16px;display:grid;place-items:center;color:var(--muted);text-decoration:none}.playlist-number {border-radius:5px 5px 0 0;background:var(--ink);height:16px;font-size:10px}.playlist-total strong {color:var(--ink)}
+.curi-toast {position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:white;z-index:1000;border-radius:999px;padding:8px 14px;max-width:calc(100vw - 32px);font-size:13px;box-shadow:0 4px 20px #0002;display:flex;align-items:center;gap:8px}.curi-toast::before {content:'●';color:#B4DCDC;font-size:9px}.curi-toast button {background:transparent;color:white;text-decoration:underline;min-height:32px;white-space:nowrap}.curi-toast[hidden] {display:none}.curi-flight {position:fixed;z-index:2000;pointer-events:none;border-radius:10px;object-fit:cover}.curi-bump {animation:folder-bump 400ms var(--curi-ease)}.is-curi-busy .logo-colon {animation:curi-blink 1.2s infinite}dialog[open] {animation:curi-window-open 220ms var(--curi-ease)}time,.scene-caption,.broadcast-date,.media-duration {font-variant-numeric:tabular-nums}
+@keyframes curi-blink {50% {opacity:.2}}@keyframes folder-bump {50% {transform:translateY(-5px)}}@keyframes curi-window-open {from {opacity:0;transform:scale(.94)}to {opacity:1;transform:scale(1)}}
+@media (max-width:1279px) {.shell {padding-right:20px;padding-bottom:24px}.curi-dock {left:20px;right:20px;bottom:12px;top:auto;width:auto;max-width:none;max-height:124px;background:var(--curi-canvas);padding:12px;border:1px solid var(--line);border-radius:10px}.curi-dock h2 {margin:0 0 12px}.dock-items {display:flex;gap:12px;overflow-x:auto;padding-top:12px}.mini-folder {min-width:140px;min-height:64px;padding:12px;max-width:180px}.curi-dock h2 {display:none}.cards {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}#folder-list {grid-template-columns:repeat(4,minmax(0,1fr))}.segment-card {flex-basis:156px}.curi-toast {bottom:16px}}
+@media (max-width:767px) {.site-header {padding:16px;grid-template-columns:auto 1fr;min-height:72px}.header-context {display:none}.brand {justify-self:start}.wordmark {font-size:26px}.site-header nav {width:auto;justify-self:end;padding:3px;font-size:12px}.site-header nav a {font-size:12px;padding:6px 8px}.shell {padding:0 16px 24px}.hero {padding-top:36px}.hero h1 {font-size:32px;line-height:38px}.search-panel {margin-bottom:20px}.search-panel form {flex-wrap:nowrap}.search-panel form #search-submit {flex-basis:auto;white-space:nowrap}.search-panel #clear-query {font-size:0;min-width:24px;padding:4px}.search-panel #clear-query::after {content:'×';font-size:18px}.search-panel .search-icon {display:none}.cards {grid-template-columns:1fr;gap:24px}.cards .resource-card {display:grid;grid-template-columns:112px minmax(0,1fr);gap:8px 12px;align-items:start}.cards .resource-thumbnail-link {grid-row:1/3;border-radius:7px}.cards .card-banner {grid-column:2;margin:0;flex-wrap:wrap}.cards .card-body {grid-column:2;min-width:0}.resource-card h3 {font-size:13px;line-height:19px;margin-top:0}.resource-card .card-actions button[data-folder-save] {position:static;opacity:1;font-size:12px;min-height:32px;background:var(--curi-surfaceMuted);box-shadow:none}.resource-card .card-actions {flex-wrap:wrap;margin-top:8px}.resource-card .program,.resource-card .broadcast-date {font-size:12px}.resource-thumbnail-fallback {font-size:12px;line-height:16px;left:8px;bottom:8px;right:8px}.resource-thumbnail-fallback small {display:none}.content-preview {display:none}.media-duration {font-size:10px;padding:1px 3px;bottom:4px;right:4px}.curi-dock {display:none}.curi-toast {bottom:16px}.results-heading {flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px}.sort-control {margin:0}#folder-list {grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}.folder-select b {font-size:13px}.segment-card {flex-basis:140px}.folder-main {padding:12px}.folder-main.has-playlist {display:block}.lesson-playlist {margin-top:20px}.folder-videos {grid-template-columns:1fr}.lesson-heading {padding-top:24px}}
+@media(hover:none) {.resource-card .card-actions button[data-folder-save] {opacity:1}}
+@media(prefers-reduced-motion:reduce) {*,*::before,*::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}.resource-card:hover .resource-thumbnail,.resource-card:focus-within .resource-thumbnail {transform:none}.folder-select:hover .folder-art img {transform:none}}
+/* 기존 작업공간 규칙보다 구체적인 카드·창 보정. */
+.results-section {background:white;border-radius:10px;padding:16px;margin-top:20px;box-shadow:0 8px 28px #1a1a1a06}
+.results-section[hidden] {display:none}
+.wordmark {display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.wordmark .brand-symbol {display:block;width:30px;height:30px;flex:none}
+@media(max-width:767px) {.wordmark {gap:7px}.wordmark .brand-symbol {width:24px;height:24px}}
+.wordmark .brand-prefix {font-size:.6em;font-weight:500;letter-spacing:0;margin-right:.12em}
+/* 콘텐츠별 팔레트 한 색에 은은한 명도 변화. 정상 썸네일은 배경 위에 표시한다. */
+.resource-thumbnail-link {--thumbnail-color:var(--curi-coral);background:linear-gradient(180deg,#ffffff30,#ffffff00 60%,#0000000a),var(--thumbnail-color)}
+.resource-thumbnail-fallback {inset:auto 12px 12px;display:block;align-items:initial;justify-content:initial;padding:0;color:#fff;font-size:21px;line-height:28px;font-weight:700;text-align:left;text-shadow:0 1px 2px #000b,0 0 5px #0007}
+.resource-thumbnail-fallback small {display:block;font-size:11px;line-height:16px;margin-bottom:4px;font-weight:400}
+.resource-thumbnail-title {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.resource-card .card-body {display:block;flex:none}
+.resource-card .card-actions {border:0;padding-top:0;justify-content:flex-start;margin-top:8px}
+.resource-card .content-preview {margin-bottom:8px}
+.resource-card .card-actions a {font-weight:400}
+.resource-card .broadcast-date {margin:0;color:var(--muted)}
+.folder-sidebar {border:0}
+#lesson-title {font-size:20px;line-height:28px;font-weight:500;color:var(--ink)}
+.saved-video-link a {background:var(--curi-surfaceMuted);color:var(--ink);font-weight:500}
+.site-footer b {color:var(--ink);font-weight:400}
+:where(button,a,input,textarea,select,summary):focus-visible {outline:2px solid var(--curi-primary);outline-offset:2px}
+@media(min-width:1280px) {.folder-main.has-playlist {grid-template-columns:minmax(0,1fr) 280px;gap:20px}.lesson-playlist {position:sticky;top:20px}.folder-main.has-playlist .saved-segments {min-width:0}.folder-main.has-playlist #folder-content {min-width:0}.folder-art {height:100px}}
+@media(max-width:767px) {.resource-thumbnail-fallback {inset:auto 8px 8px;font-size:18px;line-height:24px}.resource-thumbnail-fallback small {display:none}.resource-card .card-actions button[data-folder-save] {background:var(--curi-surfaceMuted);color:var(--ink)}.results-heading {margin:-16px -16px 16px}.results-section {padding:16px}.saved-segments {touch-action:pan-x}}
+#save-folders,#add-videos {background:var(--curi-surfaceMuted);color:var(--ink);font-weight:500}
+#folder-picker-confirm {background:var(--ink);color:white;font-weight:500}
+#folder-picker-confirm:hover:not(:disabled) {background:var(--green)}
+.resource-card .broadcast-date b {font-weight:400}
+/* 저장 알림은 토스트에서 읽고 실패·연결 안내는 기존 상태 영역에 남긴다. */
+#save-status:not(:empty) {font-size:12px;color:var(--muted)}
+body:not(.has-query) .results-section {display:none}.folder-description {font-size:20px;line-height:28px;font-weight:500;letter-spacing:-.4px;margin:20px 0;max-width:60ch}.scene-note-card {flex:0 0 172px;scroll-snap-align:start}.scene-note-card .scene-note {aspect-ratio:3/4;border-radius:2px 10px 10px 10px;margin:0;font-size:14px;overflow:auto}.scene-empty-card {flex:0 0 172px;scroll-snap-align:start}.scene-empty-card .scene-empty {aspect-ratio:3/4}.scene-empty-card .scene-number {background:var(--curi-controlBorder);color:var(--ink)}.saved-segments {scrollbar-width:thin}.saved-segments:focus-visible {outline:2px solid var(--green);outline-offset:2px}
+@media(max-width:1279px){.scene-note-card,.scene-empty-card {flex-basis:156px}}
+@media(max-width:767px){.scene-note-card,.scene-empty-card {flex-basis:140px}}
+.folder-art::before,.mini-folder::before {background:var(--folder-label,var(--curi-folder))}
+#folder-label-colors {display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:16px 0;font-size:12px;color:var(--muted)}#folder-label-colors button {display:flex;align-items:center;gap:4px;font-size:12px;min-height:32px;padding:4px 8px;background:transparent;border:1px solid var(--line)}#folder-label-colors button[aria-pressed=true] {border-color:var(--green);color:var(--green)}#folder-label-colors i {display:inline-block;width:12px;height:12px;border-radius:3px}
+.library-folder-group {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px 16px}.library-folder-group>h2 {grid-column:1/-1;margin:20px 0 4px}#folder-list {display:contents}.new-folder-panel {margin:0;min-width:0}.new-folder-panel>summary {min-height:150px;border:1px dashed var(--curi-controlBorder);border-radius:10px;padding:20px 12px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:13px}.new-folder-panel[open] {grid-column:1/-1}.new-folder-panel[open]>summary {min-height:36px;justify-content:flex-start;border:0;padding:8px 0}.library-views {margin-bottom:16px}
+@media(max-width:1279px){.library-folder-group {grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:767px){.library-folder-group {grid-template-columns:repeat(2,minmax(0,1fr))}}
+.folder-empty-label {position:absolute;inset:45% 8px 8px;z-index:1;display:grid;place-items:center;color:var(--muted);font-size:12px;font-weight:400;text-align:center}
+
+/* 빈 검색란 안의 기본 안내. 입력하면 브라우저가 숨긴다. */
+#search-input::placeholder {color:var(--muted);opacity:1}
+
+/* 검색 후에도 첫 화면의 제목과 검색란 배치를 유지한다. */
+.has-query #search-examples {display:block}
+@media(max-width:767px) {.has-query .hero {padding-top:36px}.has-query .search-panel {margin-bottom:20px}}
+
+/* 첫 화면: 검색을 중심으로 위아래 여백을 확보한다. 검색 전후 위치는 유지한다. */
+.search-home {
+  min-height:calc(100svh - 76px);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:64px 0 96px;
+}
+.search-home .hero,.has-query .search-home .hero {
+  width:100%;padding:0 0 28px;text-align:center;
+}
+.search-home .search-panel,.has-query .search-home .search-panel {
+  width:100%;max-width:960px;margin:0;
+}
+.search-home .hero-description {margin-top:16px}
+.search-home .search-panel form {min-height:52px}
+@media(max-width:767px) {
+  .search-home {min-height:calc(100svh - 72px);padding:48px 0 72px}
+  .search-home .hero,.has-query .search-home .hero {padding:0 0 24px}
+}
+@media(max-height:540px) {.search-home {min-height:0;padding-block:48px}}
+/* 첫 페이지의 헤더·이용 안내·푸터 구분선을 본문 양끝에 맞춘다. */
+body:has(.search-home) {--home-page-gutter:20px}
+body:has(.search-home) :is(.site-header,.site-footer) {
+  width:calc(100% - var(--home-page-gutter) - var(--home-page-gutter));
+  max-width:calc(1600px - var(--home-page-gutter) - var(--home-page-gutter));
+  padding-inline:0;
+}
+@media(max-width:767px) {body:has(.search-home) {--home-page-gutter:16px}}
+
+/* 결과 헤더: 카드형 고정, 정렬과 닫기를 오른쪽에 같은 높이로 배치한다. */
+.results-section .results-heading {
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;
+  align-items:center;gap:12px;
+}
+.results-section .results-heading h2 {margin:0;line-height:20px;min-width:0}
+.results-section .sort-control {display:flex;align-items:center;gap:8px;width:auto;min-height:36px;margin:0;justify-self:end}
+.results-section .sort-control select {height:36px;min-height:36px;padding:4px 8px;line-height:20px}
+.results-section .results-heading>button {height:36px;min-height:36px;padding:4px 12px;line-height:20px}
+@media(max-width:767px) {.results-section .results-heading {gap:8px}}
+
+/* 상세 필터 내부 상단 여백은 없애고 상단 바와는 간격을 둔다. */
+.results-section .results-heading {margin-bottom:12px}
+.results-section .result-filters {
+  margin-top:0;padding:0 16px 12px;
+  border:0;border-radius:10px;
+  background:var(--curi-surfaceMuted);
+}
+.results-section #additional-filters {margin-top:0;padding-top:0;border-top:0}
+.results-section .filter-grid select {
+  border:0;background:var(--curi-surface);color:var(--curi-ink);
+  border-radius:8px;box-shadow:none;
+}
+.results-section .filter-grid select:hover {background:var(--curi-selectionSoft)}
+
+/* 현재 검색 조건을 먼저 보여주고 그 아래에 상세 필터 토글을 둔다. */
+.results-section .filter-actions {margin-top:0;padding-top:12px;padding-bottom:4px}
+
+/* 상세 필터 토글 아래와 필드 사이의 세로 간격을 줄인다. */
+.results-section #additional-filters>summary {min-height:32px;padding-block:6px}
+.results-section #additional-filters .filter-grid {margin:4px 0 0;row-gap:8px}
+.results-section #additional-filters .filter-grid label {gap:4px}
+/* 검색 결과를 배경·외곽·내용·행동이 묶인 독립 카드로 표현한다. */
+:is(.results-section,.library-cards) .resource-card {
+  background:var(--curi-canvas);
+  border:1px solid var(--curi-line)!important;
+  border-radius:14px;
+  padding:12px;
+  box-shadow:0 3px 12px rgba(26,26,26,.06)!important;
+  transition:border-color var(--curi-motion-fast),box-shadow var(--curi-motion-fast);
+  min-width:0;
+}
+:is(.results-section,.library-cards) .resource-card:hover,:is(.results-section,.library-cards) .resource-card:focus-within {
+  border-color:var(--curi-controlBorder)!important;
+  box-shadow:0 6px 18px rgba(26,26,26,.1)!important;
+  transform:none;
+}
+:is(.results-section,.library-cards) .resource-card .resource-thumbnail-link {border-radius:9px}
+:is(.results-section,.library-cards) .resource-card .card-banner {margin:12px 4px 0}
+:is(.results-section,.library-cards) .resource-card .card-body {display:flex;flex-direction:column;flex:1;padding:4px}
+:is(.results-section,.library-cards) .resource-card .card-actions {
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+  justify-content:space-between;border-top:1px solid var(--curi-line);padding-top:12px;margin-top:auto;
+}
+:is(.results-section,.library-cards) .resource-card .card-actions button[data-folder-save] {
+  position:static;opacity:1;min-height:36px;box-shadow:none;
+}
+:is(.results-section,.library-cards) .resource-card .card-actions a {min-height:36px;display:inline-flex;align-items:center}
+@media(max-width:767px) {
+  :is(.results-section,.library-cards) .resource-card .card-banner {margin:0}
+  :is(.results-section,.library-cards) .resource-card .card-body {padding:0}
+  :is(.results-section,.library-cards) .resource-card .card-actions {margin-top:8px;padding-top:8px}
+}
+
+/* 검색 완료 후 결과 헤더 위에 작은 여유를 두고 이동한다. */
+.results-section .results-heading {scroll-margin-top:16px}
+/* 로딩·빈 결과에서도 헤더까지 스크롤할 수 있는 높이를 확보한다. */
+.results-section {min-height:calc(100svh - 32px)}
+
+/* 검색 요청 상태: 버튼과 결과 안내에서 같은 원형 진행 표시를 쓴다. */
+.search-panel form #clear-query,.search-panel form #search-submit {height:44px;min-height:44px;box-sizing:border-box;align-self:center;padding-block:8px;line-height:20px}
+.search-panel form #search-submit {min-width:108px}
+#search-submit.is-searching::after {content:none}
+#search-submit.is-searching::before,#result-status.is-searching::before {
+  content:'';display:inline-block;width:14px;height:14px;
+  margin-right:8px;vertical-align:-2px;border:2px solid currentColor;
+  border-right-color:transparent;border-radius:50%;
+  animation:curi-search-spin .75s linear infinite;
+}
+@keyframes curi-search-spin {to {transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce) {
+  #search-submit.is-searching::before,#result-status.is-searching::before {animation:none}
+}
+
+/* 오류 복구 버튼은 좁은 화면에서 줄바꿈되어도 간격을 유지한다. */
+.search-error-actions {display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+
+/* 원문 확인과 가져가기는 카드 전체 폭의 같은 줄에서 좌우로 구분한다. */
+:is(.results-section,.library-cards) .resource-card .card-actions {
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  grid-column:1/-1;align-items:stretch;gap:8px;
+}
+:is(.results-section,.library-cards) .resource-card .card-actions .episode-open {
+  grid-area:1/1;justify-self:start;justify-content:center;
+  padding:8px 10px;min-height:44px;border:1px solid var(--curi-primary);
+  border-radius:8px;background:var(--curi-primarySoft);color:var(--curi-primary);
+  font-size:12px;font-weight:600;line-height:18px;text-decoration:none;
+}
+:is(.results-section,.library-cards) .resource-card .card-actions .episode-open:hover {
+  background:var(--curi-primary);color:var(--curi-surface);
+}
+:is(.results-section,.library-cards) .resource-card .card-actions button[data-folder-save] {
+  grid-area:1/2;justify-self:end;position:static;margin-left:auto;
+  max-width:100%;padding:8px 10px;min-height:44px;line-height:18px;
+}
+:is(.results-section,.library-cards) .resource-card .card-actions button[data-propose] {grid-column:1/-1;grid-row:2}
+
+/* 저장한 자료 검색은 제목 오른쪽의 작은 돋보기 입력란으로 제공한다. */
+.lesson-heading-row {display:flex;align-items:center;justify-content:space-between;gap:16px}
+.lesson-heading-row h1 {margin:0;flex-shrink:0}
+.lesson-heading-row .video-search-label {display:flex;align-items:center;gap:8px;width:240px;max-width:50%;min-width:0;padding:4px 10px;border:1px solid var(--curi-controlBorder);border-radius:999px;background:var(--curi-surface);color:var(--muted)}
+.lesson-heading-row .video-search-label:focus-within {outline:2px solid var(--curi-selection);outline-offset:2px}
+.lesson-heading-row .video-search-label svg {width:16px;height:16px;flex-shrink:0}
+.lesson-heading-row .video-search-label input {width:100%;min-width:0;min-height:32px;margin:0;padding:0;border:0;border-radius:0;background:transparent;font-size:12px;line-height:20px;box-shadow:none}
+.lesson-heading-row .video-search-label input:focus {outline:none}
+
+/* 자동 저장 재시도는 실패 시에만, 목록 내보내기는 제목 옆 더보기에서 제공한다. */
+.lesson-heading-tools {display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:0;max-width:60%}
+.lesson-heading-tools .video-search-label {max-width:none;min-width:0}
+.library-more {position:relative;flex-shrink:0}
+.library-more>summary {display:grid;place-items:center;list-style:none;width:36px;height:36px;border-radius:8px;cursor:pointer;color:var(--curi-ink)}
+.library-more>summary::-webkit-details-marker {display:none}
+.library-more>summary:hover,.library-more[open]>summary {background:var(--curi-surfaceMuted)}
+.library-more>summary:focus-visible {outline:2px solid var(--curi-selection);outline-offset:2px}
+.library-more>summary svg {width:20px;height:20px}
+.library-more-panel {position:absolute;right:0;top:calc(100% + 8px);z-index:10;width:max-content;max-width:calc(100vw - 32px);padding:6px;border:1px solid var(--curi-controlBorder);border-radius:10px;background:white;box-shadow:0 6px 20px #1a1a1a12}
+.library-more-panel button {display:block;width:100%;padding:10px 14px;border:0;border-radius:6px;background:transparent;text-align:left;font-size:13px}
+.library-more-panel button:hover {background:var(--curi-surfaceMuted)}
+.lesson-save-feedback {display:flex;align-items:center;gap:12px;margin:0 0 16px;font-size:12px;color:var(--curi-muted)}
+.lesson-save-feedback:has(#save-status:empty):has(#save-folders[hidden]) {display:none}
+.lesson-save-feedback #save-status {margin:0;flex:1}
+.lesson-save-feedback #save-folders {flex-shrink:0;font-size:12px}
+.lesson-save-feedback #save-folders[hidden] {display:none}

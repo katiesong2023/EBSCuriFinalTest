@@ -1,0 +1,66 @@
+{
+  "count": 100,
+  "uniqueQueries": 100,
+  "uniqueOriginalIds": 100,
+  "origins": {
+    "AI_AUTHORED_TEACHER_PROXY": 100
+  },
+  "processSubjectCounts": {
+    "초등3~4 사회": 17,
+    "초등3~4 과학": 17,
+    "초등5~6 사회": 17,
+    "초등5~6 과학": 17,
+    "중학교1학년(참고) 사회": 16,
+    "중학교1학년(참고) 과학": 16
+  },
+  "typeCounts": {
+    "짧은 주제 검색": 10,
+    "수업 목표와 활용 목적을 포함한 요청": 15,
+    "대표 개념명 대신 일상 표현을 사용한 요청": 15,
+    "원인·결과·과정·관계를 찾는 요청": 15,
+    "두 대상이나 사례를 비교하는 요청": 10,
+    "복수 필수 조건·AND/OR를 포함한 요청": 10,
+    "제외·부정 조건을 포함한 요청": 10,
+    "선호 조건을 포함한 요청": 5,
+    "시간·자막·방송 형식·프로그램 조건 요청": 5,
+    "모호함·조건 충돌·정당한 빈 결과를 시험하는 요청": 5
+  },
+  "exactDuplicatesWithDev70": 0,
+  "exactDuplicatesWithOld152": 0,
+  "priorFinal30OpenedOrRun": false,
+  "priorFinalQueryEqualityComparisonPerformed": false,
+  "topicFamilyOverlapWithPriorFinalByManifestOnly": {
+    "HERITAGE": [
+      "X100-Q013"
+    ],
+    "SOUND": [
+      "X100-Q020",
+      "X100-Q027"
+    ],
+    "TRADE": [
+      "X100-Q041"
+    ],
+    "ASTRO": [
+      "X100-Q022",
+      "X100-Q063",
+      "X100-Q099"
+    ],
+    "MIGRATION": [
+      "X100-Q040"
+    ],
+    "ROCK": [
+      "X100-Q034",
+      "X100-Q090",
+      "X100-Q092"
+    ]
+  },
+  "holdoutConsequence": "이전30의 내용은 열거나 실행하지 않았다. 그러나 추가100 개발에는 이전최종 주제군이 포함되므로 주제단위 독립 평가를 주장하려면 새 분할/새 미노출 평가집합이 필요하다. 이전30 원본은 보존한다.",
+  "sourceSha256": "46627e734b611164e099b673189a40f01adbf0f126b19fb90b093e1115a9cc6d",
+  "originalCopiedBytesExact": true,
+  "missingKnownAnswerIds": 100,
+  "humanReviewStatuses": {
+    "NOT_REVIEWED": 100
+  },
+  "supportingPhraseExactMismatchCount": 0,
+  "supportingPhraseExactMismatches": []
+}

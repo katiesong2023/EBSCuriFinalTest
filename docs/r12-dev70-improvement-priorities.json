@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-14",
+  "finalEvaluationUsed": false,
+  "developmentInput": "r12-01-proxy100-development.json",
+  "diagnosticAnchors": [
+    {
+      "requestId": "Q013",
+      "originalTotal": 0,
+      "diagnosticProbe": "도서관",
+      "candidateId": "BCAST-42cb718c8c18c2a86d25",
+      "title": "도서관에 간 꺼병이들",
+      "field": "summary",
+      "supplementId": null,
+      "evidence": [
+        {
+          "quote": "친절한 사서의 도움으로 회원증도 만들고 책을 찾아보는데",
+          "start": 47,
+          "end": 77,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        },
+        {
+          "quote": "꺼병이들과 생쥐는 사이 좋게 책을 빌려 집으로 돌아간다.",
+          "start": 207,
+          "end": 238,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "8a14e91fb38586bf1e90289b27c62a19462d630b445633c59751560a0d53902a",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "도서관 OR 주민센터 중 하나의 역할 요청에 도서관의 책 대출·회원증·사서 역할을 다루는 내용 후보가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "Q028",
+      "originalTotal": 0,
+      "diagnosticProbe": "자석",
+      "candidateId": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "field": "sourceSupplement",
+      "supplementId": "6665a362546a8d30c74be22e",
+      "evidence": [
+        {
+          "quote": "이 막대자석에 클립이 다닥다닥 다 붙어.",
+          "start": 525,
+          "end": 547,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        },
+        {
+          "quote": "크레파스는 안 붙는구나.",
+          "start": 796,
+          "end": 809,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "f6e672ddd63932d404764d093b12fb04456830899a0f6b918f10af4fcd80054e",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "자석에 붙는 클립과 붙지 않는 크레파스/블록을 같은 회차 대본에서 비교할 근거가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN"
+    },
+    {
+      "requestId": "Q055",
+      "originalTotal": 0,
+      "diagnosticProbe": "먹이 관계",
+      "candidateId": "BCAST-793986e731a60a54b5e9",
+      "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적",
+      "field": "summary",
+      "supplementId": null,
+      "evidence": [
+        {
+          "quote": "식물성 플랑크톤은 동물성 플랑크톤의 먹이가 되고 물고기는 동물성 플랑크톤을 먹으며",
+          "start": 58,
+          "end": 103,
+          "offsetUnit": "UTF16_CODE_UNIT"
+        }
+      ],
+      "sourceHash": "c4af5a9aa9292cb8769358037e42dfe2e5e486e7712b4c2743b3e69d03856095",
+      "finding": "TEXT_SUPPORTED_ANCHOR_MISSING_IN_ORIGINAL_REQUEST",
+      "reason": "생물이 먹고 먹히는 관계를 관찰해 먹이 관계를 그리려는 활동 준비 요청의 내용 후보가 있음.",
+      "judge": "IMPLEMENTING_AGENT_DIAGNOSTIC_NOT_INDEPENDENT_GOLD",
+      "videoAndGradeSuitability": "UNKNOWN"
+    }
+  ],
+  "priorities": [
+    {
+      "rank": 1,
+      "task": "R12-03",
+      "id": "D70-P01",
+      "cause": "제외 대상·선호·수업 문맥 의미 보존",
+      "requestIds": [
+        "Q016",
+        "Q032",
+        "Q049",
+        "Q050",
+        "Q066",
+        "Q067",
+        "Q079",
+        "Q007",
+        "Q023",
+        "Q080",
+        "Q037"
+      ],
+      "action": "제외 대상 구절을 통째로 보존하고 선호/활용 목적을 검색 필수어/방송형식과 분리. 기존 입력봉투/조건 검증과 연결하고 사례별 정답 하드코딩 금지.",
+      "completion": "개발7제외/3선호·토론 도입 요청의 해석을 원문과 대조; 양의terms에 제외구절/가능하면/도입이 남아 필수가 되지 않음. 별도 유사 표현·부정 범위 회귀도 확인.",
+      "confidence": "해석 오류 확인; 실제 관련성 개선량은 수정 후 같은70에서 별도 비교"
+    },
+    {
+      "rank": 2,
+      "task": "R12-03",
+      "id": "D70-P02",
+      "cause": "긴 요청의 문법 잔여·OR/관계 후보 누락",
+      "requestIds": [
+        "Q013",
+        "Q028",
+        "Q055",
+        "Q014",
+        "Q030",
+        "Q047",
+        "Q064",
+        "Q065",
+        "Q093"
+      ],
+      "action": "주제/요구 관계/교사 목적을 분리하고 OR의 한 대상·AND의 필수 대상/관계를 보존. 알려진 의미 근거의 소개문/공개 대본을 같은 검색 경로에 재사용.",
+      "completion": "3진단 내용후보의 원문 근거를 원래요청에서 발견; OR 한 분기만 근거가 있어도 탐색하고 AND 둘 다 충족 미확인은 보류. 후보 수 증가와 상위 관련성을 따로 비교.",
+      "confidence": "3내용근거 누락 확인; 나머지 빈 결과의 수집/검색 기여는 미분리"
+    },
+    {
+      "rank": 3,
+      "task": "R12-02",
+      "id": "D70-P03",
+      "cause": "사회·과학 요청별 원문/관계/형식 공백",
+      "requestIds": [
+        "Q001",
+        "Q009",
+        "Q014",
+        "Q024",
+        "Q026",
+        "Q030",
+        "Q052",
+        "Q057",
+        "Q059",
+        "Q062",
+        "Q064",
+        "Q085",
+        "Q087",
+        "Q088",
+        "Q091",
+        "Q093",
+        "Q097"
+      ],
+      "action": "사회 지도/방위·공공시설 역할, 과학 증발/응결·연소 조건·힘/부력·비교 실험을 공백군으로 조사. 공식 경로군10표본 대조→최대사회100/과학100 첫배치. 이미 대본 있는 자석 자료는 먼저 검색 재사용하고 중복 수집하지 않음.",
+      "completion": "각 요청의 설명 근거가 있는 회차/대본/학습자료/형식근거와 자기회차 식별을 확보. 추가/실패 분모와 70원래요청의 변화 기록. 빈0을 전량 미보유로 확정하지 않음.",
+      "confidence": "빈 결과·저장 설명 부족/원문 어휘량이 조사 근거. 실제 공식자료 확보 가능성은 아직 미조사"
+    },
+    {
+      "rank": 4,
+      "task": "R12-03",
+      "id": "D70-P04",
+      "cause": "주제 언급/비유/주변 소재가 내용 관계를 대신함",
+      "requestIds": [
+        "Q069",
+        "Q018",
+        "Q055",
+        "Q067"
+      ],
+      "action": "기후/세계 단어만 공유하는 신물질/생체모방과 요구 내용 후보를 구분; 같은 회차 대본에서 두 극 등 실제 요구를 설명하는 문장을 인용. 의미 비교/정렬은 제한 후보와 원문에 근거하고 부족하면 미확인 유지.",
+      "completion": "기후 요청의 현재 무관2/부분3과 자석의 인용 대상을 대조; 같은 후보 집합에서 상위 관련성·요구별 근거 개선을 확인.",
+      "confidence": "반환14쌍·짧은검색 추가표본의 에이전트 원문 판단. 독립 정답률/교사 효용 아님"
+    },
+    {
+      "rank": 5,
+      "task": "R12-03",
+      "id": "D70-P05",
+      "cause": "모호함·가상 대상의 보류와 조건 검증 분모",
+      "requestIds": [
+        "Q083",
+        "Q094",
+        "Q098",
+        "Q099",
+        "Q081",
+        "Q082",
+        "Q097"
+      ],
+      "action": "우리동네/저런힘의 확인 필요성을 표시; 가상대상의 실제 영상 요구를 임의로 일반 자석으로 바꾸지 않음. 형식/재생/장면 확인과 프로그램명 단서를 분리.",
+      "completion": "지역 미지정 후보45를 요청충족으로 확정하지 않음. 시간/장면/형식 미확인 유지. 제외 후보분모0에서 준수율100% 주장 금지.",
+      "confidence": "보류 미표시·메타데이터 조건 대조 확인; 실제영상은 미확인"
+    }
+  ]
+}

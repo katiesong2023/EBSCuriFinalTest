@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-02T01:01:54.824Z",
+  "cases": [
+    {
+      "name": "대표·전체·다른 판본의 실제 방송일 표시와 수집일 분리",
+      "passed": true
+    },
+    {
+      "name": "미보유·잘못된 날짜는 미확인, 묶음은 회차별 확인, 시간대 변환 없음",
+      "passed": true
+    },
+    {
+      "name": "모음·수업 준비 저장과 날짜 누락된 이전 자료의 다운로드 갱신",
+      "passed": true
+    },
+    {
+      "name": "모바일 날짜·키워드 배치와 탭 전환",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": 0,
+  "serverWrites": 0,
+  "source": "Stored EBS public listing dates; not necessarily first air date",
+  "example": {
+    "id": "BCAST-41236586c72656a2741e",
+    "broadcastDate": "2024-10-14",
+    "checkedAt": "2026-09-29T13:29:22.585Z"
+  }
+}

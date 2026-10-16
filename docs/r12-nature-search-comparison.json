@@ -1,0 +1,575 @@
+{
+  "date": "2026-10-15T03:03:45.989Z",
+  "inputSha256": "a99fa5f071484c27e88aa4f439bfb9cdee4708b77ec79b0e2c7f2946e429267d",
+  "initial": {
+    "requests": 170,
+    "empty": 154,
+    "nonempty": 16,
+    "top5Pairs": 45
+  },
+  "sameFinalDataBeforeCode": {
+    "requests": 170,
+    "empty": 153,
+    "nonempty": 17,
+    "top5Pairs": 53
+  },
+  "final": {
+    "requests": 170,
+    "empty": 153,
+    "nonempty": 17,
+    "top5Pairs": 53
+  },
+  "initialToFinal": [
+    {
+      "query": "도서관이나 주민센터 중 한 곳의 역할을 소개하는 자료면 돼요",
+      "beforeTotal": 13,
+      "afterTotal": 13,
+      "beforeTop5": [
+        {
+          "id": "BCAST-42cb718c8c18c2a86d25",
+          "title": "도서관에 간 꺼병이들"
+        },
+        {
+          "id": "BCAST-bb5ae0e9bf37676b84ce",
+          "title": "이름에게"
+        },
+        {
+          "id": "BCAST-de34a2dbeac459d4a378",
+          "title": "문명과 수학 - 5부 남겨진 문제들"
+        },
+        {
+          "id": "BCAST-752a0ebda75aafb4cb14",
+          "title": "반 시게루 <종이의 건축가> 1강. 어떻게 종이로 집을 지을까"
+        },
+        {
+          "id": "BCAST-58286d8e21f282f5ba62",
+          "title": "회원가입 하시겠습니까?"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-42cb718c8c18c2a86d25",
+          "title": "도서관에 간 꺼병이들"
+        },
+        {
+          "id": "BCAST-bb5ae0e9bf37676b84ce",
+          "title": "이름에게"
+        },
+        {
+          "id": "BCAST-143436bd604426e911f1",
+          "title": "시민의 탄생 - 4부 당신은 누구세요?"
+        },
+        {
+          "id": "BCAST-de34a2dbeac459d4a378",
+          "title": "문명과 수학 - 5부 남겨진 문제들"
+        },
+        {
+          "id": "BCAST-752a0ebda75aafb4cb14",
+          "title": "반 시게루 <종이의 건축가> 1강. 어떻게 종이로 집을 지을까"
+        }
+      ]
+    },
+    {
+      "query": "마을 축제",
+      "beforeTotal": 2,
+      "afterTotal": 3,
+      "beforeTop5": [
+        {
+          "id": "BCAST-f26a7c98a9cfd82c92b0",
+          "title": "우리 고장 일꾼"
+        },
+        {
+          "id": "BCAST-263e8fc5a3bf3dc4388a",
+          "title": "위대한 유산, 동남아시아 2부 이푸가오, 고산에 꽃핀 농경문화"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-f26a7c98a9cfd82c92b0",
+          "title": "우리 고장 일꾼"
+        },
+        {
+          "id": "BCAST-263e8fc5a3bf3dc4388a",
+          "title": "위대한 유산, 동남아시아 2부 이푸가오, 고산에 꽃핀 농경문화"
+        },
+        {
+          "id": "BCAST-f34d5321ace5f18f41bd",
+          "title": "오래된 미래, 한일 친환경 농촌을 가다"
+        }
+      ]
+    },
+    {
+      "query": "어린이의 권리",
+      "beforeTotal": 6,
+      "afterTotal": 9,
+      "beforeTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?"
+        },
+        {
+          "id": "BCAST-4c9a03b67a254591399f",
+          "title": "당연하지 않은 것들"
+        },
+        {
+          "id": "BCAST-88cd4153bd0d6c517132",
+          "title": "아이들을 구하라"
+        },
+        {
+          "id": "BCAST-3ed3887ce9f5ee7c2463",
+          "title": "우리 같이 놀아요"
+        },
+        {
+          "id": "BCAST-01c5def31d60db3f6267",
+          "title": "법과 정의 1부 - 법은 누구 편인가?"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?"
+        },
+        {
+          "id": "BCAST-4c9a03b67a254591399f",
+          "title": "당연하지 않은 것들"
+        },
+        {
+          "id": "BCAST-88cd4153bd0d6c517132",
+          "title": "아이들을 구하라"
+        },
+        {
+          "id": "BCAST-3ed3887ce9f5ee7c2463",
+          "title": "우리 같이 놀아요"
+        },
+        {
+          "id": "BCAST-01c5def31d60db3f6267",
+          "title": "법과 정의 1부 - 법은 누구 편인가?"
+        }
+      ]
+    },
+    {
+      "query": "선거 참여를 다룬 자료를 찾되 특정 후보를 지지하라는 내용은 제외해주세요",
+      "beforeTotal": 0,
+      "afterTotal": 1,
+      "beforeTop5": [],
+      "afterTop5": [
+        {
+          "id": "BCAST-5d8e926d1f0903ba4e77",
+          "title": "시민의 탄생 - 5부 연결자들"
+        }
+      ]
+    },
+    {
+      "query": "먹이 관계를 그리는 활동 전에 생물들이 먹고 먹히는 모습을 보여주고 싶어요",
+      "beforeTotal": 2,
+      "afterTotal": 5,
+      "beforeTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-b8cdb98631e1826ebc04",
+          "title": "전복 양식장 1부"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-b8cdb98631e1826ebc04",
+          "title": "전복 양식장 1부"
+        },
+        {
+          "id": "BCAST-cf6767d667fe2fb14a5a",
+          "title": "습지 생명을 품다"
+        },
+        {
+          "id": "BCAST-f34d5321ace5f18f41bd",
+          "title": "오래된 미래, 한일 친환경 농촌을 가다"
+        },
+        {
+          "id": "BCAST-d6bfb09c4df90f432e83",
+          "title": "우리가 건강한 광어를 먹으려면!!"
+        }
+      ]
+    },
+    {
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "beforeTotal": 1,
+      "afterTotal": 2,
+      "beforeTop5": [
+        {
+          "id": "BCAST-562bff14dc981a775d0b",
+          "title": "탄소 중립 시대 Zero를 위한 선택"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-562bff14dc981a775d0b",
+          "title": "탄소 중립 시대 Zero를 위한 선택"
+        },
+        {
+          "id": "BCAST-024c5222a4833c2b6b0d",
+          "title": "유독가스- 은밀하게 치명적인"
+        }
+      ]
+    },
+    {
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "beforeTotal": 3,
+      "afterTotal": 24,
+      "beforeTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-4f089fedc7ab0e9c80b9",
+          "title": "수산자원 과학으로 일구다"
+        },
+        {
+          "id": "BCAST-bd6f77a755a251cb9689",
+          "title": "플라스틱 인류 1부 플라스틱의 여행"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-d6bfb09c4df90f432e83",
+          "title": "우리가 건강한 광어를 먹으려면!!"
+        },
+        {
+          "id": "BCAST-4f089fedc7ab0e9c80b9",
+          "title": "수산자원 과학으로 일구다"
+        },
+        {
+          "id": "BCAST-bd6f77a755a251cb9689",
+          "title": "플라스틱 인류 1부 플라스틱의 여행"
+        },
+        {
+          "id": "BCAST-c9d9b292bf3626288c4f",
+          "title": "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램"
+        }
+      ]
+    },
+    {
+      "query": "세계의 기후와 생활",
+      "beforeTotal": 17,
+      "afterTotal": 19,
+      "beforeTop5": [
+        {
+          "id": "BCAST-570bed2ca0947519dd5d",
+          "title": "기후 우울증에 걸린 사람들"
+        },
+        {
+          "id": "BCAST-c758a0cc89b6305a56c0",
+          "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미"
+        },
+        {
+          "id": "BCAST-0d08b1091a7cb6de865a",
+          "title": "누리엘 루비니 <재앙의 경제학> 5강 우리는 아무것도 안 하고 있다"
+        },
+        {
+          "id": "BCAST-63f4a6b059325a2aa328",
+          "title": "여섯 번째 대멸종 5부-멸종위기종 인류"
+        },
+        {
+          "id": "BCAST-12043189f9ec2b1a500f",
+          "title": "카를로스 모레노 <이 도시를 어떻게 할 것인가> 1강 왜 15분 도시인가"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-570bed2ca0947519dd5d",
+          "title": "기후 우울증에 걸린 사람들"
+        },
+        {
+          "id": "BCAST-c758a0cc89b6305a56c0",
+          "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미"
+        },
+        {
+          "id": "BCAST-0d08b1091a7cb6de865a",
+          "title": "누리엘 루비니 <재앙의 경제학> 5강 우리는 아무것도 안 하고 있다"
+        },
+        {
+          "id": "BCAST-63f4a6b059325a2aa328",
+          "title": "여섯 번째 대멸종 5부-멸종위기종 인류"
+        },
+        {
+          "id": "BCAST-12043189f9ec2b1a500f",
+          "title": "카를로스 모레노 <이 도시를 어떻게 할 것인가> 1강 왜 15분 도시인가"
+        }
+      ]
+    },
+    {
+      "query": "우리 동네에서 바뀐 모습을 보여주는 자료를 찾아주세요",
+      "beforeTotal": 58,
+      "afterTotal": 63,
+      "beforeTop5": [
+        {
+          "id": "BCAST-dd00bb970222169873c2",
+          "title": "동네의 맛 - 첫눈 내리던 날"
+        },
+        {
+          "id": "BCAST-10314e095244cb754377",
+          "title": "동네의 색 - 살아갑니다, 사랑합니다"
+        },
+        {
+          "id": "BCAST-59b631b537dc518d02ab",
+          "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 2강 부유한 동네와 가난한 동네"
+        },
+        {
+          "id": "BCAST-1da970630a3f983fa0ca",
+          "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법"
+        },
+        {
+          "id": "BCAST-03df91fa6a47030ab89d",
+          "title": "나의 오래된 단골집 4부 우리 동네 사랑방"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-dd00bb970222169873c2",
+          "title": "동네의 맛 - 첫눈 내리던 날"
+        },
+        {
+          "id": "BCAST-10314e095244cb754377",
+          "title": "동네의 색 - 살아갑니다, 사랑합니다"
+        },
+        {
+          "id": "BCAST-59b631b537dc518d02ab",
+          "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 2강 부유한 동네와 가난한 동네"
+        },
+        {
+          "id": "BCAST-1da970630a3f983fa0ca",
+          "title": "라즈 체티 <불평등 특집 3부 빅 데이터 분석> 5강 빈곤한 동네를 바꾸는 법"
+        },
+        {
+          "id": "BCAST-03df91fa6a47030ab89d",
+          "title": "나의 오래된 단골집 4부 우리 동네 사랑방"
+        }
+      ]
+    },
+    {
+      "query": "독도",
+      "beforeTotal": 11,
+      "afterTotal": 12,
+      "beforeTop5": [
+        {
+          "id": "BCAST-ce171f36f1284f098f39",
+          "title": "일본은 알고 있었다-독도 1부"
+        },
+        {
+          "id": "BCAST-9252637d16e92170b27a",
+          "title": "일본은 알고 있었다-독도 2부"
+        },
+        {
+          "id": "BCAST-a7d7600fe01735b38ac8",
+          "title": "독도 바다를 그리다"
+        },
+        {
+          "id": "BCAST-5a6d462f2b7f0f30aebb",
+          "title": "설민석의 독도로-독도 교육편"
+        },
+        {
+          "id": "BCAST-b9bd9c450d9e9b9a0ad3",
+          "title": "신년 특집 독도 바다사자를 찾아서"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-ce171f36f1284f098f39",
+          "title": "일본은 알고 있었다-독도 1부"
+        },
+        {
+          "id": "BCAST-9252637d16e92170b27a",
+          "title": "일본은 알고 있었다-독도 2부"
+        },
+        {
+          "id": "BCAST-a7d7600fe01735b38ac8",
+          "title": "독도 바다를 그리다"
+        },
+        {
+          "id": "BCAST-5a6d462f2b7f0f30aebb",
+          "title": "설민석의 독도로-독도 교육편"
+        },
+        {
+          "id": "BCAST-b9bd9c450d9e9b9a0ad3",
+          "title": "신년 특집 독도 바다사자를 찾아서"
+        }
+      ]
+    },
+    {
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "beforeTotal": 13,
+      "afterTotal": 15,
+      "beforeTop5": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실"
+        },
+        {
+          "id": "BCAST-0da6153d0ef4a3c2caa0",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?"
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들"
+        },
+        {
+          "id": "BCAST-997e7b17808eb774aff5",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 6강 다양성이라는 판도라의 상자"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실"
+        },
+        {
+          "id": "BCAST-0da6153d0ef4a3c2caa0",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?"
+        },
+        {
+          "id": "BCAST-a9c33a88beed0f4ee69a",
+          "title": "불멸의 마야 - 3부 인디오는 어디로 가나"
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들"
+        }
+      ]
+    }
+  ],
+  "sameDataCodeChanges": [
+    {
+      "query": "어린이의 권리",
+      "beforeTotal": 6,
+      "afterTotal": 9,
+      "beforeTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?"
+        },
+        {
+          "id": "BCAST-4c9a03b67a254591399f",
+          "title": "당연하지 않은 것들"
+        },
+        {
+          "id": "BCAST-88cd4153bd0d6c517132",
+          "title": "아이들을 구하라"
+        },
+        {
+          "id": "BCAST-3ed3887ce9f5ee7c2463",
+          "title": "우리 같이 놀아요"
+        },
+        {
+          "id": "BCAST-01c5def31d60db3f6267",
+          "title": "법과 정의 1부 - 법은 누구 편인가?"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?"
+        },
+        {
+          "id": "BCAST-4c9a03b67a254591399f",
+          "title": "당연하지 않은 것들"
+        },
+        {
+          "id": "BCAST-88cd4153bd0d6c517132",
+          "title": "아이들을 구하라"
+        },
+        {
+          "id": "BCAST-3ed3887ce9f5ee7c2463",
+          "title": "우리 같이 놀아요"
+        },
+        {
+          "id": "BCAST-01c5def31d60db3f6267",
+          "title": "법과 정의 1부 - 법은 누구 편인가?"
+        }
+      ]
+    },
+    {
+      "query": "생태계의 먹이 관계를 찾고 있어요 경제적 먹이사슬이라는 비유는 빼주세요",
+      "beforeTotal": 22,
+      "afterTotal": 24,
+      "beforeTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-d6bfb09c4df90f432e83",
+          "title": "우리가 건강한 광어를 먹으려면!!"
+        },
+        {
+          "id": "BCAST-4f089fedc7ab0e9c80b9",
+          "title": "수산자원 과학으로 일구다"
+        },
+        {
+          "id": "BCAST-bd6f77a755a251cb9689",
+          "title": "플라스틱 인류 1부 플라스틱의 여행"
+        },
+        {
+          "id": "BCAST-c9d9b292bf3626288c4f",
+          "title": "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-793986e731a60a54b5e9",
+          "title": "바닷속 밀리미터의 세상 - 1부 밀리미터의 기적"
+        },
+        {
+          "id": "BCAST-d6bfb09c4df90f432e83",
+          "title": "우리가 건강한 광어를 먹으려면!!"
+        },
+        {
+          "id": "BCAST-4f089fedc7ab0e9c80b9",
+          "title": "수산자원 과학으로 일구다"
+        },
+        {
+          "id": "BCAST-bd6f77a755a251cb9689",
+          "title": "플라스틱 인류 1부 플라스틱의 여행"
+        },
+        {
+          "id": "BCAST-c9d9b292bf3626288c4f",
+          "title": "잠든 야성을 깨워라! 동물 행동 풍부화 프로그램"
+        }
+      ]
+    }
+  ],
+  "existingNonemptyToEmpty": [],
+  "quoteChecks": 906,
+  "returnedItemsAndVariantsChecked": 99,
+  "scope": "170개 고정 개발 요청. 원래 query만 같은 교사 검색 함수로 실행. 정답/실제 교사 효용 평가 아님. 인용은 반환된 첫 페이지와 그 판본 대상.",
+  "sameDataStoreHashes": {
+    "server/data/broadcast-catalog.sqlite": "311788033c7a9cacfa1f33cedc6f2d7e180afdaf2ae7756762c5da7fa2190c5b",
+    "server/data/semantic-layer.sqlite": "e762a360d9539ea3a87e407fe5259fe8c1e7eb5f4ca419dece6f995c554fd8f8",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "a80b082679635e93eadc26bd724dc4da6a7959e884471f49db4317b95756bc74",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "changedDuringEachRun": [
+    [],
+    [],
+    []
+  ],
+  "paidApiCalls": 0
+}

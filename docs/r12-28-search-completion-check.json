@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-15T11:47:26.854Z",
+  "cases": [
+    {
+      "width": 1440,
+      "initial": {
+        "clear-query": {
+          "height": 44,
+          "top": 527
+        },
+        "search-submit": {
+          "height": 44,
+          "top": 527
+        }
+      },
+      "pending": {
+        "clear-query": {
+          "height": 44,
+          "top": 527
+        },
+        "search-submit": {
+          "height": 44,
+          "top": 527
+        }
+      },
+      "completed": [
+        {
+          "busy": "false",
+          "count": "5건",
+          "error": false
+        }
+      ],
+      "normalOrReducedMotion": "normal"
+    },
+    {
+      "name": "교체된 이전 요청은 이동하지 않고 최신 완료만 이동"
+    },
+    {
+      "name": "오류 안내를 마친 뒤 결과/오류 영역으로 이동"
+    },
+    {
+      "width": 390,
+      "initial": {
+        "clear-query": {
+          "height": 44,
+          "top": 527
+        },
+        "search-submit": {
+          "height": 44,
+          "top": 527
+        }
+      },
+      "pending": {
+        "clear-query": {
+          "height": 44,
+          "top": 527
+        },
+        "search-submit": {
+          "height": 44,
+          "top": 527
+        }
+      },
+      "completed": [
+        {
+          "busy": "false",
+          "count": "5건",
+          "error": false
+        }
+      ],
+      "normalOrReducedMotion": "reduce"
+    }
+  ],
+  "errors": [],
+  "paidApiCalls": 0,
+  "isolatedBrowser": true
+}

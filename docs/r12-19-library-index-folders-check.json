@@ -1,0 +1,82 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 216,
+        "contentLeft": 244,
+        "contentTop": 76,
+        "indexBottom": 638,
+        "overflow": false
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 1000,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 188,
+        "contentLeft": 208,
+        "contentTop": 76,
+        "indexBottom": 638,
+        "overflow": false
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 768,
+      "layout": {
+        "position": "sticky",
+        "left": 20,
+        "right": 188,
+        "contentLeft": 208,
+        "contentTop": 76,
+        "indexBottom": 638,
+        "overflow": false
+      },
+      "stickyTop": 20,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 390,
+      "layout": {
+        "position": "sticky",
+        "left": 16,
+        "right": 374,
+        "contentLeft": 16,
+        "contentTop": 183,
+        "indexBottom": 183,
+        "overflow": false
+      },
+      "stickyTop": 0,
+      "navigationPassed": true,
+      "renamePassed": true
+    },
+    {
+      "width": 360,
+      "layout": {
+        "position": "sticky",
+        "left": 16,
+        "right": 344,
+        "contentLeft": 16,
+        "contentTop": 183,
+        "indexBottom": 183,
+        "overflow": false
+      },
+      "stickyTop": 0,
+      "navigationPassed": true,
+      "renamePassed": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "createDeletePassed": true
+}

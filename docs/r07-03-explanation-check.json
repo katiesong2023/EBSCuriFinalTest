@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-05T14:10:24.732Z",
+  "cases": [
+    {
+      "name": "같은 회차만 복구·다른 판본 원문 보존",
+      "passed": true
+    },
+    {
+      "name": "이전/현재 원문·내용 해시·시간·출처 이력",
+      "passed": true
+    },
+    {
+      "name": "제목·ID·외부 주소·오래된 응답 거절",
+      "passed": true
+    },
+    {
+      "name": "제목/제작 안내로 원문 덮어쓰기 금지",
+      "passed": true
+    },
+    {
+      "name": "목록 재수집 후 상세 원문 보존",
+      "passed": true
+    },
+    {
+      "name": "2~3문장 안내와 정확한 인용 위치",
+      "passed": true
+    },
+    {
+      "name": "HTML·줄바꿈 원문 인용 오프셋·부족 원문 문장 채우기 금지",
+      "passed": true
+    },
+    {
+      "name": "시간 형식/출처 미확인 구분",
+      "passed": true
+    },
+    {
+      "name": "실제 보관 원문2건 복구·3건 시간 확인",
+      "passed": true
+    },
+    {
+      "name": "기존 사람 승인 JSON 불변",
+      "passed": true
+    }
+  ],
+  "paidApiCalls": 0
+}

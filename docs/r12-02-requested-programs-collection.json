@@ -1,0 +1,1277 @@
+{
+  "date": "2026-10-15",
+  "startedAt": "2026-10-14T15:30:01.199Z",
+  "before": {
+    "total": 22753,
+    "originalEpisodes": 22692,
+    "distinctProgramTitles": 21502,
+    "withDescription": 4608,
+    "sourceQuality": {
+      "version": "source-text-v3",
+      "total": 22753,
+      "distribution": {
+        "none": 12579,
+        "repeated": 1208,
+        "production": 426,
+        "short": 7758,
+        "detailed": 782
+      },
+      "minimumPassed": 4608,
+      "minimumRatio": 0.20252274425350503
+    },
+    "withAnySynopsis": 10177,
+    "matchedLinks": 221,
+    "programs": [
+      {
+        "program": "딩동댕 유치원",
+        "count": 2855,
+        "descriptions": 20
+      },
+      {
+        "program": "지식채널e",
+        "count": 2796,
+        "descriptions": 2794
+      },
+      {
+        "program": "위대한 수업, 그레이트 마인즈",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "최고의 요리비결",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "한국기행",
+        "count": 1261,
+        "descriptions": 52
+      },
+      {
+        "program": "명의",
+        "count": 974,
+        "descriptions": 0
+      },
+      {
+        "program": "극한 직업",
+        "count": 924,
+        "descriptions": 924
+      },
+      {
+        "program": "방귀대장 뿡뿡이",
+        "count": 885,
+        "descriptions": 20
+      },
+      {
+        "program": "모여라 딩동댕",
+        "count": 638,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 다큐프라임",
+        "count": 631,
+        "descriptions": 621
+      },
+      {
+        "program": "다큐 오늘",
+        "count": 559,
+        "descriptions": 539
+      },
+      {
+        "program": "우리집 유치원",
+        "count": 556,
+        "descriptions": 20
+      },
+      {
+        "program": "세계테마기행",
+        "count": 469,
+        "descriptions": 21
+      },
+      {
+        "program": "한글용사 아이야",
+        "count": 389,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 캠페인",
+        "count": 371,
+        "descriptions": 0
+      },
+      {
+        "program": "생방송 뭐든지 해결단",
+        "count": 352,
+        "descriptions": 20
+      },
+      {
+        "program": "고향민국",
+        "count": 344,
+        "descriptions": 10
+      },
+      {
+        "program": "하나뿐인 지구",
+        "count": 325,
+        "descriptions": 321
+      },
+      {
+        "program": "딩동댕 딩동댕",
+        "count": 318,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 톡! 톡! 보니 하니",
+        "count": 297,
+        "descriptions": 20
+      },
+      {
+        "program": "역사채널e",
+        "count": 263,
+        "descriptions": 263
+      },
+      {
+        "program": "서울대 음대 레슨노트",
+        "count": 255,
+        "descriptions": 1
+      },
+      {
+        "program": "고양이를 부탁해",
+        "count": 214,
+        "descriptions": 0
+      },
+      {
+        "program": "세상에 나쁜 개는 없다",
+        "count": 189,
+        "descriptions": 40
+      },
+      {
+        "program": "마샤와 곰",
+        "count": 184,
+        "descriptions": 20
+      },
+      {
+        "program": "내 친구 몬덕이",
+        "count": 161,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 148,
+        "descriptions": 140
+      },
+      {
+        "program": "GO! GO! Giggles",
+        "count": 147,
+        "descriptions": 20
+      },
+      {
+        "program": "해요와 해요",
+        "count": 145,
+        "descriptions": 20
+      },
+      {
+        "program": "왔다! 내 손주",
+        "count": 137,
+        "descriptions": 20
+      },
+      {
+        "program": "최고다! 호기심딱지",
+        "count": 134,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 방과 후 듄듄",
+        "count": 132,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요 (Eng.)",
+        "count": 128,
+        "descriptions": 120
+      },
+      {
+        "program": "Magic Ice Cream Truck",
+        "count": 112,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 속담과 관용어 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 어휘 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "숲 속 친구 파파룰라(HD)",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "위인극장",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "취미는 과학",
+        "count": 102,
+        "descriptions": 102
+      },
+      {
+        "program": "뇌가 젊어지는 체조",
+        "count": 100,
+        "descriptions": 0
+      },
+      {
+        "program": "춤추는 소녀 와와",
+        "count": 98,
+        "descriptions": 40
+      },
+      {
+        "program": "최고의 요리비결 공방",
+        "count": 85,
+        "descriptions": 0
+      },
+      {
+        "program": "EBS 평생학교",
+        "count": 84,
+        "descriptions": 0
+      },
+      {
+        "program": "귀하신 몸",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+        "count": 80,
+        "descriptions": 0
+      },
+      {
+        "program": "특집/기획/특강",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "희망풍경",
+        "count": 80,
+        "descriptions": 40
+      },
+      {
+        "program": "쓰담쓰담 동물원 프렌쥬",
+        "count": 78,
+        "descriptions": 20
+      },
+      {
+        "program": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 65,
+        "descriptions": 20
+      },
+      {
+        "program": "글로벌 아빠찾아 삼만리",
+        "count": 53,
+        "descriptions": 0
+      },
+      {
+        "program": "곰디와 친구들",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "뭐든지 뮤직박스",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "삐뽀삐뽀! 우리 몸 X파일",
+        "count": 51,
+        "descriptions": 20
+      },
+      {
+        "program": "발명이 팡팡!",
+        "count": 49,
+        "descriptions": 0
+      },
+      {
+        "program": "교육 특집 프로그램",
+        "count": 47,
+        "descriptions": 0
+      },
+      {
+        "program": "두근두근 방방",
+        "count": 47,
+        "descriptions": 20
+      },
+      {
+        "program": "공감 플러스",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "어린이 프로그램",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "일단 해봐요 생방송 오후 1시",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "출동! 슈퍼윙스",
+        "count": 40,
+        "descriptions": 20
+      },
+      {
+        "program": "과학 다큐 비욘드",
+        "count": 38,
+        "descriptions": 38
+      },
+      {
+        "program": "이것이 야생이다",
+        "count": 36,
+        "descriptions": 0
+      },
+      {
+        "program": "고고다이노 공룡탐험대",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "냉장고 나라 코코몽",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "명탐정 피트",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "허풍선이 과학쇼",
+        "count": 26,
+        "descriptions": 26
+      },
+      {
+        "program": "곽준빈의 세계 기사식당",
+        "count": 24,
+        "descriptions": 8
+      },
+      {
+        "program": "엄마 까투리",
+        "count": 23,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요",
+        "count": 17,
+        "descriptions": 17
+      },
+      {
+        "program": "과학/환경 특집 프로그램",
+        "count": 16,
+        "descriptions": 0
+      },
+      {
+        "program": "로보카 폴리",
+        "count": 16,
+        "descriptions": 16
+      },
+      {
+        "program": "지구 영웅 번개맨",
+        "count": 13,
+        "descriptions": 13
+      },
+      {
+        "program": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 12,
+        "descriptions": 0
+      },
+      {
+        "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 12,
+        "descriptions": 8
+      },
+      {
+        "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 10,
+        "descriptions": 0
+      },
+      {
+        "program": "과학/환경",
+        "count": 8,
+        "descriptions": 0
+      },
+      {
+        "program": "최태성 서경석의 여행본색",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "코봇 지구를 지켜라",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "딩동댕 보건실",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "취미는 과학여행",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "신계숙의 맛터사이클 다이어리",
+        "count": 5,
+        "descriptions": 5
+      },
+      {
+        "program": "채소가지구",
+        "count": 4,
+        "descriptions": 0
+      },
+      {
+        "program": "경이로운 자연의 세계",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "자연 다큐",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "과학 다큐멘터리",
+        "count": 1,
+        "descriptions": 1
+      },
+      {
+        "program": "우주탐사 이야기",
+        "count": 1,
+        "descriptions": 0
+      },
+      {
+        "program": "지구탐사 이야기",
+        "count": 1,
+        "descriptions": 1
+      }
+    ],
+    "pages": [
+      {
+        "status": "COMPLETE",
+        "count": 1682
+      }
+    ]
+  },
+  "programs": [
+    {
+      "name": "덩이랑 쾡이랑 인물 한국사",
+      "listed": 13,
+      "before": 0,
+      "observedIds": [
+        "60771803",
+        "60771806",
+        "60771809",
+        "60771812",
+        "60771817",
+        "60773334",
+        "60773383",
+        "60773433",
+        "60773483",
+        "60773534",
+        "60773654",
+        "60773986",
+        "60774438"
+      ],
+      "pages": [
+        {
+          "url": "https://home.ebs.co.kr/dqhistory/main",
+          "rows": 0
+        },
+        {
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=455120&courseId=40055067&stepId=60060073&lectId=60774438",
+          "rows": 13
+        },
+        {
+          "url": "https://anikids.ebs.co.kr/anikids/program/show/40055067",
+          "rows": 0
+        },
+        {
+          "url": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "rows": 0
+        }
+      ],
+      "added": 13,
+      "after": 13
+    },
+    {
+      "name": "AI 드라마 - 부활수업",
+      "listed": 28,
+      "before": 0,
+      "observedIds": [
+        "60773615",
+        "60771374",
+        "60768197",
+        "60766561",
+        "60762993",
+        "60760776",
+        "60758641",
+        "60756366",
+        "60753690",
+        "60751512",
+        "60748954",
+        "60746414",
+        "60744058",
+        "60741234",
+        "60740000",
+        "60735644",
+        "60732057",
+        "60730090",
+        "60727527",
+        "60725458",
+        "60723225",
+        "60720440",
+        "60721843",
+        "60716076",
+        "60713208",
+        "60710707",
+        "60708456",
+        "60707756"
+      ],
+      "pages": [
+        {
+          "url": "https://home.ebs.co.kr/aidrama/main",
+          "rows": 0
+        },
+        {
+          "url": "https://www.ebs.co.kr/tv/show?courseId=40053496&stepId=60058116&lectId=60773615",
+          "rows": 0
+        },
+        {
+          "url": "https://home.ebs.co.kr/aidrama/replay/3/list?courseId=40053496&stepId=60058116&c.page=1",
+          "rows": 20
+        },
+        {
+          "url": "https://home.ebs.co.kr/aidrama/replay/3/list?courseId=40053496&stepId=60058116&c.page=2",
+          "rows": 8
+        },
+        {
+          "url": "https://home.ebs.co.kr/aidrama/replay/3/list?courseId=40053496&stepId=60058116&c.page=3",
+          "rows": 0
+        }
+      ],
+      "added": 28,
+      "after": 28
+    },
+    {
+      "name": "EBS AI 문학관",
+      "listed": 0,
+      "added": 0,
+      "publicationStatus": "ANNOUNCED_NO_PUBLIC_EPISODES",
+      "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30005523435"
+    }
+  ],
+  "news": {
+    "limit": 100,
+    "articleIds": [
+      "60779392",
+      "60779391",
+      "60779390",
+      "60779389",
+      "60779388",
+      "60774436",
+      "60779246",
+      "60779245",
+      "60779244",
+      "60779243",
+      "60774419",
+      "60778720",
+      "60778719",
+      "60773984",
+      "60778498",
+      "60778497",
+      "60778496",
+      "60778495",
+      "60773967",
+      "60778133",
+      "60778132",
+      "60773652",
+      "60778048",
+      "60778047",
+      "60778046",
+      "60778045",
+      "60778044",
+      "60773636",
+      "60777553",
+      "60777552",
+      "60773532",
+      "60777551",
+      "60773514",
+      "60777263",
+      "60777262",
+      "60773481",
+      "60777170",
+      "60777169",
+      "60777168",
+      "60773464",
+      "60776887",
+      "60776886",
+      "60776885",
+      "60776884",
+      "60776883",
+      "60773431",
+      "60776634",
+      "60776633",
+      "60776632",
+      "60773414",
+      "60776164",
+      "60776163",
+      "60773381",
+      "60776070",
+      "60776069",
+      "60776068",
+      "60773364",
+      "60775959",
+      "60775958",
+      "60773332",
+      "60775957",
+      "60775956",
+      "60775955",
+      "60773316",
+      "60775331",
+      "60775330",
+      "60771280",
+      "60775326",
+      "60775325",
+      "60775324",
+      "60775323",
+      "60775322",
+      "60771261",
+      "60775058",
+      "60775057",
+      "60771226",
+      "60774847",
+      "60774846",
+      "60774845",
+      "60774844",
+      "60774843",
+      "60771207",
+      "60774366",
+      "60774365",
+      "60774364",
+      "60774363",
+      "60771174",
+      "60774222",
+      "60774221",
+      "60774220",
+      "60771157",
+      "60773925",
+      "60773924",
+      "60771126",
+      "60773830",
+      "60773829",
+      "60773828",
+      "60773827",
+      "60771109",
+      "60773292"
+    ],
+    "added": 76,
+    "updated": 0,
+    "withoutVideo": [],
+    "failures": [],
+    "fullBroadcastExcluded": [
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774436/H",
+        "title": "2026년 10월14일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774419/H",
+        "title": "2026년 10월 14일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773984/H",
+        "title": "2026년 10월13일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773967/H",
+        "title": "2026년 10월 13일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773652/H",
+        "title": "2026년 10월12일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773636/H",
+        "title": "2026년 10월 12일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773532/H",
+        "title": "2026년 10월 9일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773514/H",
+        "title": "2026년 10월 9일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773481/H",
+        "title": "2026년 10월 8일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773464/H",
+        "title": "2026년 10월 8일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773431/H",
+        "title": "2026년 10월 7일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773414/H",
+        "title": "2026년 10월 7일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773381/H",
+        "title": "2026년 10월 6일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773364/H",
+        "title": "2026년 10월 6일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773332/H",
+        "title": "2026년 10월 5일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773316/H",
+        "title": "2026년 10월 5일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771280/H",
+        "title": "2026년 10월 2일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771261/H",
+        "title": "2026년 10월 2일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771226/H",
+        "title": "2026년 10월 1일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771207/H",
+        "title": "2026년 10월 1일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771174/H",
+        "title": "2026년 9월 30일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771157/H",
+        "title": "2026년 9월 30일 EBS 뉴스12"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771126/H",
+        "title": "2026년 9월 29일 EBS 뉴스"
+      },
+      {
+        "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60771109/H",
+        "title": "2026년 9월 29일 EBS 뉴스12"
+      }
+    ]
+  },
+  "requests": 118,
+  "paidApiCalls": 0,
+  "mediaDownloads": 0,
+  "after": {
+    "total": 22870,
+    "originalEpisodes": 22733,
+    "distinctProgramTitles": 21543,
+    "withDescription": 4684,
+    "sourceQuality": {
+      "version": "source-text-v3",
+      "total": 22870,
+      "distribution": {
+        "none": 12592,
+        "repeated": 1236,
+        "production": 426,
+        "short": 7758,
+        "detailed": 858
+      },
+      "minimumPassed": 4684,
+      "minimumRatio": 0.20480979449059905
+    },
+    "withAnySynopsis": 10281,
+    "matchedLinks": 297,
+    "programs": [
+      {
+        "program": "딩동댕 유치원",
+        "count": 2855,
+        "descriptions": 20
+      },
+      {
+        "program": "지식채널e",
+        "count": 2796,
+        "descriptions": 2794
+      },
+      {
+        "program": "위대한 수업, 그레이트 마인즈",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "최고의 요리비결",
+        "count": 1600,
+        "descriptions": 1600
+      },
+      {
+        "program": "한국기행",
+        "count": 1261,
+        "descriptions": 52
+      },
+      {
+        "program": "명의",
+        "count": 974,
+        "descriptions": 0
+      },
+      {
+        "program": "극한 직업",
+        "count": 924,
+        "descriptions": 924
+      },
+      {
+        "program": "방귀대장 뿡뿡이",
+        "count": 885,
+        "descriptions": 20
+      },
+      {
+        "program": "모여라 딩동댕",
+        "count": 638,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 다큐프라임",
+        "count": 631,
+        "descriptions": 621
+      },
+      {
+        "program": "다큐 오늘",
+        "count": 559,
+        "descriptions": 539
+      },
+      {
+        "program": "우리집 유치원",
+        "count": 556,
+        "descriptions": 20
+      },
+      {
+        "program": "세계테마기행",
+        "count": 469,
+        "descriptions": 21
+      },
+      {
+        "program": "한글용사 아이야",
+        "count": 389,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 캠페인",
+        "count": 371,
+        "descriptions": 0
+      },
+      {
+        "program": "생방송 뭐든지 해결단",
+        "count": 352,
+        "descriptions": 20
+      },
+      {
+        "program": "고향민국",
+        "count": 344,
+        "descriptions": 10
+      },
+      {
+        "program": "하나뿐인 지구",
+        "count": 325,
+        "descriptions": 321
+      },
+      {
+        "program": "딩동댕 딩동댕",
+        "count": 318,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 톡! 톡! 보니 하니",
+        "count": 297,
+        "descriptions": 20
+      },
+      {
+        "program": "역사채널e",
+        "count": 263,
+        "descriptions": 263
+      },
+      {
+        "program": "서울대 음대 레슨노트",
+        "count": 255,
+        "descriptions": 1
+      },
+      {
+        "program": "고양이를 부탁해",
+        "count": 214,
+        "descriptions": 0
+      },
+      {
+        "program": "세상에 나쁜 개는 없다",
+        "count": 189,
+        "descriptions": 40
+      },
+      {
+        "program": "마샤와 곰",
+        "count": 184,
+        "descriptions": 20
+      },
+      {
+        "program": "내 친구 몬덕이",
+        "count": 161,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로 (Eng.)",
+        "count": 148,
+        "descriptions": 140
+      },
+      {
+        "program": "GO! GO! Giggles",
+        "count": 147,
+        "descriptions": 20
+      },
+      {
+        "program": "해요와 해요",
+        "count": 145,
+        "descriptions": 20
+      },
+      {
+        "program": "왔다! 내 손주",
+        "count": 137,
+        "descriptions": 20
+      },
+      {
+        "program": "최고다! 호기심딱지",
+        "count": 134,
+        "descriptions": 20
+      },
+      {
+        "program": "생방송 방과 후 듄듄",
+        "count": 132,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요 (Eng.)",
+        "count": 128,
+        "descriptions": 120
+      },
+      {
+        "program": "Magic Ice Cream Truck",
+        "count": 112,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 속담과 관용어 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "똑똑 문해력 박사 - 어휘 편",
+        "count": 105,
+        "descriptions": 20
+      },
+      {
+        "program": "숲 속 친구 파파룰라(HD)",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "위인극장",
+        "count": 104,
+        "descriptions": 20
+      },
+      {
+        "program": "취미는 과학",
+        "count": 102,
+        "descriptions": 102
+      },
+      {
+        "program": "뇌가 젊어지는 체조",
+        "count": 100,
+        "descriptions": 0
+      },
+      {
+        "program": "춤추는 소녀 와와",
+        "count": 98,
+        "descriptions": 40
+      },
+      {
+        "program": "최고의 요리비결 공방",
+        "count": 85,
+        "descriptions": 0
+      },
+      {
+        "program": "EBS 평생학교",
+        "count": 84,
+        "descriptions": 0
+      },
+      {
+        "program": "귀하신 몸",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "성인 문해교육 프로젝트2 공부하기 좋은 날",
+        "count": 80,
+        "descriptions": 0
+      },
+      {
+        "program": "특집/기획/특강",
+        "count": 80,
+        "descriptions": 80
+      },
+      {
+        "program": "희망풍경",
+        "count": 80,
+        "descriptions": 40
+      },
+      {
+        "program": "쓰담쓰담 동물원 프렌쥬",
+        "count": 78,
+        "descriptions": 20
+      },
+      {
+        "program": "EBS 뉴스",
+        "count": 76,
+        "descriptions": 76
+      },
+      {
+        "program": "딩동댕 친구들-장난감나라의 비밀",
+        "count": 65,
+        "descriptions": 20
+      },
+      {
+        "program": "글로벌 아빠찾아 삼만리",
+        "count": 53,
+        "descriptions": 0
+      },
+      {
+        "program": "곰디와 친구들",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "뭐든지 뮤직박스",
+        "count": 52,
+        "descriptions": 20
+      },
+      {
+        "program": "삐뽀삐뽀! 우리 몸 X파일",
+        "count": 51,
+        "descriptions": 20
+      },
+      {
+        "program": "발명이 팡팡!",
+        "count": 49,
+        "descriptions": 0
+      },
+      {
+        "program": "교육 특집 프로그램",
+        "count": 47,
+        "descriptions": 0
+      },
+      {
+        "program": "두근두근 방방",
+        "count": 47,
+        "descriptions": 20
+      },
+      {
+        "program": "공감 플러스",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "어린이 프로그램",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "일단 해봐요 생방송 오후 1시",
+        "count": 40,
+        "descriptions": 0
+      },
+      {
+        "program": "출동! 슈퍼윙스",
+        "count": 40,
+        "descriptions": 20
+      },
+      {
+        "program": "과학 다큐 비욘드",
+        "count": 38,
+        "descriptions": 38
+      },
+      {
+        "program": "이것이 야생이다",
+        "count": 36,
+        "descriptions": 0
+      },
+      {
+        "program": "AI 드라마 - 부활수업",
+        "count": 28,
+        "descriptions": 28
+      },
+      {
+        "program": "고고다이노 공룡탐험대",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "냉장고 나라 코코몽",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "명탐정 피트",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "뽀롱뽀롱 뽀로로",
+        "count": 26,
+        "descriptions": 20
+      },
+      {
+        "program": "허풍선이 과학쇼",
+        "count": 26,
+        "descriptions": 26
+      },
+      {
+        "program": "곽준빈의 세계 기사식당",
+        "count": 24,
+        "descriptions": 8
+      },
+      {
+        "program": "엄마 까투리",
+        "count": 23,
+        "descriptions": 20
+      },
+      {
+        "program": "꼬마버스 타요",
+        "count": 17,
+        "descriptions": 17
+      },
+      {
+        "program": "과학/환경 특집 프로그램",
+        "count": 16,
+        "descriptions": 0
+      },
+      {
+        "program": "로보카 폴리",
+        "count": 16,
+        "descriptions": 16
+      },
+      {
+        "program": "덩이랑 쾡이랑 인물 한국사",
+        "count": 13,
+        "descriptions": 0
+      },
+      {
+        "program": "지구 영웅 번개맨",
+        "count": 13,
+        "descriptions": 13
+      },
+      {
+        "program": "비버와 함께 떠나는 컴퓨터 과학",
+        "count": 12,
+        "descriptions": 0
+      },
+      {
+        "program": "세계 극한직업 - 추성훈의 밥값은 해야지",
+        "count": 12,
+        "descriptions": 8
+      },
+      {
+        "program": "마이크로 비트와 함께 떠나는 컴퓨터 과학 탐험",
+        "count": 10,
+        "descriptions": 0
+      },
+      {
+        "program": "과학/환경",
+        "count": 8,
+        "descriptions": 0
+      },
+      {
+        "program": "최태성 서경석의 여행본색",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "코봇 지구를 지켜라",
+        "count": 8,
+        "descriptions": 8
+      },
+      {
+        "program": "딩동댕 보건실",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "취미는 과학여행",
+        "count": 6,
+        "descriptions": 0
+      },
+      {
+        "program": "신계숙의 맛터사이클 다이어리",
+        "count": 5,
+        "descriptions": 5
+      },
+      {
+        "program": "채소가지구",
+        "count": 4,
+        "descriptions": 0
+      },
+      {
+        "program": "경이로운 자연의 세계",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "자연 다큐",
+        "count": 2,
+        "descriptions": 0
+      },
+      {
+        "program": "과학 다큐멘터리",
+        "count": 1,
+        "descriptions": 1
+      },
+      {
+        "program": "우주탐사 이야기",
+        "count": 1,
+        "descriptions": 0
+      },
+      {
+        "program": "지구탐사 이야기",
+        "count": 1,
+        "descriptions": 1
+      }
+    ],
+    "pages": [
+      {
+        "status": "COMPLETE",
+        "count": 1767
+      }
+    ]
+  },
+  "finishedAt": "2026-10-14T15:34:59.497Z",
+  "followupRequests": 24
+}

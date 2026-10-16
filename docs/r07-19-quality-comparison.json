@@ -1,0 +1,651 @@
+{
+  "generatedAt": "2026-10-13T10:43:37.020Z",
+  "splits": [
+    {
+      "split": "development",
+      "requests": 80,
+      "baselineEmpty": 45,
+      "keywordEmpty": 15,
+      "hybridEmpty": 15,
+      "precisionAt5": null,
+      "knownAnswerRecallAt20": null
+    },
+    {
+      "split": "final",
+      "requests": 40,
+      "baselineEmpty": 22,
+      "keywordEmpty": 8,
+      "hybridEmpty": 8,
+      "precisionAt5": null,
+      "knownAnswerRecallAt20": null
+    }
+  ],
+  "sameInputs": true,
+  "sameRepresentativeCatalog": true,
+  "independentHumanReview": false,
+  "teacherRequests": 0,
+  "keywordVersusHybrid": {
+    "candidateCountChanges": 0,
+    "top20OrderChanges": 29,
+    "conclusion": "이번 보조 표본에서 의미 검색의 추가 후보 발견 효과는 관측되지 않았다. 순위 변화의 의미 품질은 미검토다. 키워드 개선과 모델 효과를 구분한다."
+  },
+  "latencyMs": {
+    "baseline": {
+      "median": 290,
+      "p95": 814
+    },
+    "keyword": {
+      "median": 528,
+      "p95": 1374
+    },
+    "hybrid": {
+      "median": 604,
+      "p95": 2432
+    },
+    "limit": "상위20개 조회 전체 시간. 첫 질의는 초기화 포함. 후속 비교 실행과 기능 검사가 일부 겹쳐 부하가 같지 않으며 모델 순수 지연/운영 SLA로 일반화하지 않는다."
+  },
+  "coverage": {
+    "version": "source-text-v3",
+    "total": 23360,
+    "distribution": {
+      "none": 13079,
+      "repeated": 1209,
+      "production": 426,
+      "short": 7789,
+      "detailed": 857
+    },
+    "minimumPassed": 4713,
+    "minimumRatio": 0.20175513698630138
+  },
+  "samples": [
+    {
+      "request": "연소",
+      "resourceId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 31,
+          "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "연소",
+      "resourceId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 1009,
+          "end": 1073,
+          "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "resourceId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 31,
+          "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "resourceId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 1009,
+          "end": 1073,
+          "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "연소에 필요한 조건을 설명해주는 영상",
+      "resourceId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 31,
+          "quote": "자막불 연소 중 발생하는 유독가스의 위험성에 대해 말한다"
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "연소에 필요한 조건을 설명해주는 영상",
+      "resourceId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 1009,
+          "end": 1073,
+          "quote": "기존 재래식 보일러와는 달리 2차에 걸쳐 연기나 타르, 목초액까지 모두 연소되기 때문에 90% 이상 열효율이 높다."
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "다문화",
+      "resourceId": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 51,
+          "end": 131,
+          "quote": "엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD."
+        }
+      ],
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "다문화",
+      "resourceId": "BCAST-006958cbcbf16462144b",
+      "title": "잘 지내나요, 이방인?",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 40,
+          "quote": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다."
+        },
+        {
+          "field": "summary",
+          "start": 45,
+          "end": 172,
+          "quote": "그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다."
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "지구 자전",
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 32,
+          "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "지구 자전",
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "judgment": "SUITABLE_TOPIC",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 18,
+          "quote": "자전, 공전, 은하 내 공전까지!"
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 32,
+          "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 18,
+          "quote": "자전, 공전, 은하 내 공전까지!"
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 32,
+          "quote": "달이 어떻게 지구의 자전 속도를 늦추는지 원리를 알아본다."
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    },
+    {
+      "request": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "judgment": "PARTIAL_TOPIC_ONLY",
+      "evidence": [
+        {
+          "field": "summary",
+          "start": 0,
+          "end": 18,
+          "quote": "자전, 공전, 은하 내 공전까지!"
+        }
+      ],
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+      "reviewer": "IMPLEMENTING_AGENT",
+      "independentHumanReview": false,
+      "note": "주제 후보의 원문 직접 대조. 조건·원인·관계 설명의 충족이나 실제 영상은 확정하지 않는다."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1-10",
+      "query": "환경과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "final",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G1-16",
+      "query": "지역 문제 수업 도입에 활용하고 싶어요",
+      "split": "final",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G1-17",
+      "query": "농업과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-01",
+      "query": "자석",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-06",
+      "query": "화석 다큐멘터리",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-08",
+      "query": "그림자 다큐프라임에서 찾아주세요",
+      "split": "final",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-10",
+      "query": "흙과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-11",
+      "query": "자석의 변화 과정을 관찰하는 수업 자료",
+      "split": "final",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-16",
+      "query": "화석 수업 도입에 활용하고 싶어요",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G2-17",
+      "query": "소리과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "final",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G3-10",
+      "query": "기후과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G3-17",
+      "query": "다문화과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G4-06",
+      "query": "소화 다큐멘터리",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G4-09",
+      "query": "증발 수업 도입에 활용하고 싶어요",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G4-10",
+      "query": "화산과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "final",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G4-17",
+      "query": "전기과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G4-19",
+      "query": "증발을 설명해주는 영상",
+      "split": "final",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G5-10",
+      "query": "재해과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G5-17",
+      "query": "주민 참여과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "final",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G6-08",
+      "query": "빛 다큐프라임에서 찾아주세요",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G6-10",
+      "query": "지구과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G6-13",
+      "query": "힘 다큐멘터리",
+      "split": "development",
+      "reason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    },
+    {
+      "id": "G6-17",
+      "query": "열과 블루드래곤가상물질을 모두 다루는 자료",
+      "split": "development",
+      "reason": "EXPLICIT_UNKNOWN_CONTENT_UNMATCHED",
+      "next": "선택 조건을 유지한 상태에서 공식 회차 제목/ID가 맞는 소개문·대본·학습자료 확보 가능성을 대조한다. 현재 결과만으로 자료 미보유를 단정하지 않는다."
+    }
+  ],
+  "enrichmentCandidates": [
+    {
+      "resourceId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+      "request": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "연소 필요 조건·산소 부족의 생성물/문제 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "request": "물질이 타려면 무엇이 필요한지 알려주는 영상",
+      "sourceQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "연소 필요 조건·산소 부족의 생성물/문제 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-024c5222a4833c2b6b0d",
+      "title": "유독가스- 은밀하게 치명적인",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=1",
+      "request": "연소에 필요한 조건을 설명해주는 영상",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "연소 필요 조건·산소 부족의 생성물/문제 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-0a75155233cbcd0e0da0",
+      "title": "당신의 집은 따뜻합니까?",
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+      "request": "연소에 필요한 조건을 설명해주는 영상",
+      "sourceQuality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "연소 필요 조건·산소 부족의 생성물/문제 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+      "request": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "낮과 밤이 생기는 원인 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+      "request": "낮과 밤이 생기는 까닭을 알려주는 영상",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "낮과 밤이 생기는 원인 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-4280dd3cf2aaac6c3584",
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=180",
+      "request": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "낮과 밤이 생기는 원인 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    },
+    {
+      "resourceId": "BCAST-418eb389c28af0afd751",
+      "title": "지구가 도는 속도",
+      "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=181",
+      "request": "지구가 돌아서 낮과 밤이 바뀌는 모습을 보여줘",
+      "sourceQuality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "remainingRequirement": "낮과 밤이 생기는 원인 설명",
+      "next": "이 회차의 공식 상세 소개문·공개 대본·학습자료만 대조한다. 다른 회차 텍스트를 연결하지 않는다."
+    }
+  ],
+  "apiBudget": {
+    "requests": 120,
+    "candidatesPerRequest": 10,
+    "summaryCharacters": 600,
+    "maxRetries": 0,
+    "proposedBudgetUsd": {
+      "lunaAB": 2,
+      "solAB": 20,
+      "C": 2
+    },
+    "approved": false
+  },
+  "qualityLimit": "개발80/최종40 입력을 구현 전 분리했으나 한국어 조사 일부가 어색한 에이전트 작성 보조 요청이다. 독립 사람 정답이 없으며 최종 평가 이후 민감어 판정 공유 누락을 기존 공통 계약대로 수정해 재실행했다. 깨끗한 독립 의미 검증이나 관련성/누락률 개선 완료로 보고하지 않는다.",
+  "paidApiCalls": 0
+}

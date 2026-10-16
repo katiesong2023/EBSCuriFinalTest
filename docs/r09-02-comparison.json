@@ -1,0 +1,1144 @@
+{
+  "checkedAt": "2026-10-10T23:58:41.736Z",
+  "stages": {
+    "baseline": {
+      "file": "r09-02-baseline-summary.json",
+      "ruleVersion": "automatic-evidence-v2:source-text-v3",
+      "summary": {
+        "sampleRelations": 33,
+        "observedTopK": 9,
+        "sampledExposures": 13,
+        "wrongLinkExposure": {
+          "count": 0,
+          "denominator": 13,
+          "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+          "wholeCatalogPrecision": null
+        },
+        "suitableMaterialMissed": {
+          "confirmedRelevantInSample": 3,
+          "notRetrieved": 1,
+          "retrievedBelowTopK": 0,
+          "inTopK": 2,
+          "purposeOnlyCandidates": 1,
+          "wholeCatalogRecall": null
+        },
+        "sourceInsufficiency": {
+          "minimumTextInsufficient": 16,
+          "substantiveRequirementEvidenceNotEstablished": 30,
+          "denominator": 33,
+          "fullVideoContentJudged": false
+        },
+        "automaticComparisonUnsupported": {
+          "relations": 24,
+          "standards": 4,
+          "denominator": 33,
+          "countedAsUnsuitable": false
+        },
+        "unsupportedMisrepresentedAsMissing": {
+          "count": 8,
+          "denominator": 10
+        },
+        "authority": "AGENT_ONLY",
+        "teacherResponses": 0,
+        "teacherEvaluation": "NOT_PERFORMED"
+      },
+      "segments": [
+        {
+          "segment": "elementary34:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 1,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 4,
+            "substantiveRequirementEvidenceNotEstablished": 5,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 2,
+            "denominator": 3
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary34:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 2,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 1,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:과학",
+          "sampleRelations": 3,
+          "observedTopK": 9,
+          "sampledExposures": 0,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 0,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 3,
+            "denominator": 3,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 3,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 2,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 2,
+            "notRetrieved": 1,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 4,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 2,
+            "denominator": 3
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        }
+      ]
+    },
+    "stage2-same-source": {
+      "file": "r09-02-stage2-same-source-summary.json",
+      "ruleVersion": "automatic-evidence-v3:source-text-v3",
+      "summary": {
+        "sampleRelations": 33,
+        "observedTopK": 9,
+        "sampledExposures": 12,
+        "wrongLinkExposure": {
+          "count": 0,
+          "denominator": 12,
+          "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+          "wholeCatalogPrecision": null
+        },
+        "suitableMaterialMissed": {
+          "confirmedRelevantInSample": 3,
+          "notRetrieved": 1,
+          "retrievedBelowTopK": 0,
+          "inTopK": 2,
+          "purposeOnlyCandidates": 1,
+          "wholeCatalogRecall": null
+        },
+        "sourceInsufficiency": {
+          "minimumTextInsufficient": 16,
+          "substantiveRequirementEvidenceNotEstablished": 30,
+          "denominator": 33,
+          "fullVideoContentJudged": false
+        },
+        "automaticComparisonUnsupported": {
+          "relations": 24,
+          "standards": 4,
+          "denominator": 33,
+          "countedAsUnsuitable": false
+        },
+        "unsupportedMisrepresentedAsMissing": {
+          "count": 0,
+          "denominator": 9
+        },
+        "authority": "AGENT_ONLY",
+        "teacherResponses": 0,
+        "teacherEvaluation": "NOT_PERFORMED"
+      },
+      "segments": [
+        {
+          "segment": "elementary34:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 1,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 4,
+            "substantiveRequirementEvidenceNotEstablished": 5,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 3
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary34:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 1,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:과학",
+          "sampleRelations": 3,
+          "observedTopK": 9,
+          "sampledExposures": 0,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 0,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 3,
+            "denominator": 3,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 3,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 2,
+            "notRetrieved": 1,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 4,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        }
+      ]
+    },
+    "final-same-source": {
+      "file": "r09-02-final-same-source-summary.json",
+      "ruleVersion": "automatic-evidence-v3:source-text-v3",
+      "summary": {
+        "sampleRelations": 33,
+        "observedTopK": 9,
+        "sampledExposures": 12,
+        "wrongLinkExposure": {
+          "count": 0,
+          "denominator": 12,
+          "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+          "wholeCatalogPrecision": null
+        },
+        "suitableMaterialMissed": {
+          "confirmedRelevantInSample": 3,
+          "notRetrieved": 1,
+          "retrievedBelowTopK": 0,
+          "inTopK": 2,
+          "purposeOnlyCandidates": 1,
+          "wholeCatalogRecall": null
+        },
+        "sourceInsufficiency": {
+          "minimumTextInsufficient": 16,
+          "substantiveRequirementEvidenceNotEstablished": 30,
+          "denominator": 33,
+          "fullVideoContentJudged": false
+        },
+        "automaticComparisonUnsupported": {
+          "relations": 24,
+          "standards": 4,
+          "denominator": 33,
+          "countedAsUnsuitable": false
+        },
+        "unsupportedMisrepresentedAsMissing": {
+          "count": 0,
+          "denominator": 9
+        },
+        "authority": "AGENT_ONLY",
+        "teacherResponses": 0,
+        "teacherEvaluation": "NOT_PERFORMED"
+      },
+      "segments": [
+        {
+          "segment": "elementary34:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 1,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 4,
+            "substantiveRequirementEvidenceNotEstablished": 5,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 3
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary34:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 1,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:과학",
+          "sampleRelations": 3,
+          "observedTopK": 9,
+          "sampledExposures": 0,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 0,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 3,
+            "denominator": 3,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 3,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 2,
+            "notRetrieved": 1,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 4,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        }
+      ]
+    },
+    "final-enriched": {
+      "file": "r09-02-final-enriched-summary.json",
+      "ruleVersion": "automatic-evidence-v3:source-text-v3",
+      "summary": {
+        "sampleRelations": 33,
+        "observedTopK": 9,
+        "sampledExposures": 12,
+        "wrongLinkExposure": {
+          "count": 0,
+          "denominator": 12,
+          "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+          "wholeCatalogPrecision": null
+        },
+        "suitableMaterialMissed": {
+          "confirmedRelevantInSample": 3,
+          "notRetrieved": 1,
+          "retrievedBelowTopK": 0,
+          "inTopK": 2,
+          "purposeOnlyCandidates": 1,
+          "wholeCatalogRecall": null
+        },
+        "sourceInsufficiency": {
+          "minimumTextInsufficient": 16,
+          "substantiveRequirementEvidenceNotEstablished": 30,
+          "denominator": 33,
+          "fullVideoContentJudged": false
+        },
+        "automaticComparisonUnsupported": {
+          "relations": 24,
+          "standards": 4,
+          "denominator": 33,
+          "countedAsUnsuitable": false
+        },
+        "unsupportedMisrepresentedAsMissing": {
+          "count": 0,
+          "denominator": 9
+        },
+        "authority": "AGENT_ONLY",
+        "teacherResponses": 0,
+        "teacherEvaluation": "NOT_PERFORMED"
+      },
+      "segments": [
+        {
+          "segment": "elementary34:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 1,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 4,
+            "substantiveRequirementEvidenceNotEstablished": 5,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 3
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary34:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 3,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 3,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 1,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "elementary56:과학",
+          "sampleRelations": 3,
+          "observedTopK": 9,
+          "sampledExposures": 0,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 0,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 3,
+            "denominator": 3,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 0,
+            "standards": 0,
+            "denominator": 3,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 0
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:사회",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 0,
+            "notRetrieved": 0,
+            "retrievedBelowTopK": 0,
+            "inTopK": 0,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 3,
+            "substantiveRequirementEvidenceNotEstablished": 6,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        },
+        {
+          "segment": "middle1:과학",
+          "sampleRelations": 6,
+          "observedTopK": 9,
+          "sampledExposures": 2,
+          "wrongLinkExposure": {
+            "count": 0,
+            "denominator": 2,
+            "authority": "AGENT_SOURCE_JUDGMENT_AND_RENDERED_CONFIRMATION",
+            "wholeCatalogPrecision": null
+          },
+          "suitableMaterialMissed": {
+            "confirmedRelevantInSample": 2,
+            "notRetrieved": 1,
+            "retrievedBelowTopK": 0,
+            "inTopK": 1,
+            "purposeOnlyCandidates": 0,
+            "wholeCatalogRecall": null
+          },
+          "sourceInsufficiency": {
+            "minimumTextInsufficient": 2,
+            "substantiveRequirementEvidenceNotEstablished": 4,
+            "denominator": 6,
+            "fullVideoContentJudged": false
+          },
+          "automaticComparisonUnsupported": {
+            "relations": 6,
+            "standards": 1,
+            "denominator": 6,
+            "countedAsUnsuitable": false
+          },
+          "unsupportedMisrepresentedAsMissing": {
+            "count": 0,
+            "denominator": 2
+          },
+          "authority": "AGENT_ONLY",
+          "teacherResponses": 0,
+          "teacherEvaluation": "NOT_PERFORMED"
+        }
+      ]
+    }
+  },
+  "sameFinalCode": true,
+  "finalSourceConditionSummaryEqual": true,
+  "independentSourceChanges": 0,
+  "otherCatalogEnrichmentRankChanges": [
+    {
+      "sampleId": "H13",
+      "courseId": "elementary56",
+      "subject": "사회",
+      "beforeRank": 2,
+      "afterRank": 3
+    },
+    {
+      "sampleId": "H14",
+      "courseId": "elementary56",
+      "subject": "사회",
+      "beforeRank": 3,
+      "afterRank": 4
+    }
+  ],
+  "teacherResponses": 0,
+  "postEvaluationProductTuning": false,
+  "limitations": [
+    "소량 의도적 표본33관계·확인된 관련 자료3관계로 전체 정확도·재현율을 추정하지 않음",
+    "확인 배지·지원 요구·명시적 부정 사례가 독립 노출 표본에 없으므로 해당 경계는 별도 개발 회귀로만 검사",
+    "보강에서 독립 표본을 제외하므로 보강 일반 성공률을 추정하지 않음",
+    "영상을 시청하거나 실제 교사 응답을 수집하지 않음"
+  ]
+}

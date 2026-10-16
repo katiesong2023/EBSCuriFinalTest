@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-10-10T23:57:49.389Z",
+  "sameFinalCode": true,
+  "sourceUnchangedHoldoutRelations": 33,
+  "holdoutRelations": 33,
+  "originalDatabaseHashesBefore": {
+    "server/data/broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "originalDatabaseHashesAfter": {
+    "server/data/broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "originalDatabasesWritten": false,
+  "sameSourceCodeSnapshot": "r09-02-final-same-source-code.json.gz",
+  "enrichedCodeSnapshot": "r09-02-final-enriched-code.json.gz",
+  "enrichedInputSnapshot": "r09-02-final-enriched-input.json.gz",
+  "enrichedInputSha256": "41d5e326ec92a25ced1b0f9f4a42b61969ef43ea866585bbad0093317e1a18a9",
+  "storedCodeAndInputReplay": {
+    "checkedAt": "2026-10-10T23:58:18.870Z",
+    "summaryExact": true,
+    "recordsExact": true,
+    "codeHashesExact": true
+  }
+}

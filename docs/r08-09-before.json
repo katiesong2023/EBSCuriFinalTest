@@ -1,0 +1,3263 @@
+{
+  "checkedAt": "2026-10-10T15:18:06.709Z",
+  "phase": "NEW_SEARCH_BEFORE_SOURCE_ENRICHMENT",
+  "ruleVersion": "automatic-evidence-v3:source-text-v3",
+  "baseCatalog": {
+    "version": "source-text-v3",
+    "total": 22118,
+    "distribution": {
+      "none": 12643,
+      "repeated": 1185,
+      "production": 422,
+      "short": 7029,
+      "detailed": 839
+    },
+    "minimumPassed": 4685,
+    "minimumRatio": 0.21181842842933357
+  },
+  "allVariants": {
+    "version": "source-text-v3",
+    "total": 23360,
+    "distribution": {
+      "none": 13080,
+      "repeated": 1210,
+      "production": 426,
+      "short": 7793,
+      "detailed": 851
+    },
+    "minimumPassed": 4711,
+    "minimumRatio": 0.2016695205479452
+  },
+  "curriculum": {
+    "standards": 214,
+    "noCandidate": 16,
+    "titleOnly": 14,
+    "withoutMinimumDescription": 15,
+    "withoutSupportedRelation": 3,
+    "conceptOnly": 4,
+    "interpretationHeld": 2,
+    "explicitConflict": 0,
+    "comparisonEligibleRelations": 72,
+    "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+    "ruleSupported": 4,
+    "ruleUnsupported": 210,
+    "candidateRelations": 8544,
+    "uniqueResources": 2899,
+    "uniqueResourcesWithMinimumText": 1325,
+    "automaticPublicRelations": 0,
+    "humanApprovedRelations": 0
+  },
+  "standards": [
+    {
+      "standardId": "6사01-01",
+      "candidates": 18,
+      "groups": 18,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 18,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사01-02",
+      "candidates": 10,
+      "groups": 9,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 9,
+        "TITLE_ONLY": 6,
+        "DESCRIPTION_LOW": 6,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사02-01",
+      "candidates": 35,
+      "groups": 35,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 35,
+        "TITLE_ONLY": 4,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사02-02",
+      "candidates": 12,
+      "groups": 12,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 12,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사03-01",
+      "candidates": 21,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사03-02",
+      "candidates": 19,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사04-01",
+      "candidates": 10,
+      "groups": 10,
+      "ruleSupported": true,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 8,
+        "PARTIAL_SUPPORTED": 1,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사04-02",
+      "candidates": 33,
+      "groups": 32,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 32,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사04-03",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사05-01",
+      "candidates": 116,
+      "groups": 116,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 116,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사05-02",
+      "candidates": 115,
+      "groups": 115,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 115,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사06-01",
+      "candidates": 11,
+      "groups": 11,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 11,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사06-02",
+      "candidates": 5,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사07-01",
+      "candidates": 7,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사07-02",
+      "candidates": 5,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사08-01",
+      "candidates": 20,
+      "groups": 14,
+      "ruleSupported": true,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 7,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 1,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사08-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사08-03",
+      "candidates": 49,
+      "groups": 28,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 28,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사09-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사09-02",
+      "candidates": 81,
+      "groups": 50,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 50,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 20,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사10-01",
+      "candidates": 11,
+      "groups": 11,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 11,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사10-02",
+      "candidates": 24,
+      "groups": 24,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 24,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사11-01",
+      "candidates": 30,
+      "groups": 20,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 20,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사11-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사11-03",
+      "candidates": 22,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사12-01",
+      "candidates": 12,
+      "groups": 12,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 12,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6사12-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과01-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과01-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과01-03",
+      "candidates": 5,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과02-01",
+      "candidates": 49,
+      "groups": 49,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 49,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 17,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과02-02",
+      "candidates": 49,
+      "groups": 49,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 49,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 17,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과02-03",
+      "candidates": 17,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 4,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과03-01",
+      "candidates": 2,
+      "groups": 2,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 2,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과03-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과03-03",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과04-01",
+      "candidates": 16,
+      "groups": 16,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 16,
+        "TITLE_ONLY": 7,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과04-02",
+      "candidates": 32,
+      "groups": 31,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 31,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 9,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과04-03",
+      "candidates": 38,
+      "groups": 36,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 36,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과05-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과05-02",
+      "candidates": 9,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과05-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과06-01",
+      "candidates": 15,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과06-02",
+      "candidates": 32,
+      "groups": 29,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 29,
+        "TITLE_ONLY": 18,
+        "DESCRIPTION_LOW": 19,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과06-03",
+      "candidates": 15,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과07-01",
+      "candidates": 15,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과07-02",
+      "candidates": 12,
+      "groups": 12,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 12,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과07-03",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과07-04",
+      "candidates": 14,
+      "groups": 14,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 14,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과08-01",
+      "candidates": 7,
+      "groups": 7,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 7,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과08-02",
+      "candidates": 29,
+      "groups": 29,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 29,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과08-03",
+      "candidates": 35,
+      "groups": 35,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 35,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과09-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과09-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과09-03",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과09-04",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과10-01",
+      "candidates": 12,
+      "groups": 12,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 12,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과10-02",
+      "candidates": 4,
+      "groups": 4,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 4,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과10-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과11-01",
+      "candidates": 11,
+      "groups": 11,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 11,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과11-02",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과11-03",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과12-01",
+      "candidates": 27,
+      "groups": 25,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 25,
+        "TITLE_ONLY": 8,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과12-02",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": true,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 3,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과12-03",
+      "candidates": 8,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과13-01",
+      "candidates": 49,
+      "groups": 47,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 47,
+        "TITLE_ONLY": 21,
+        "DESCRIPTION_LOW": 27,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과13-02",
+      "candidates": 49,
+      "groups": 47,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 47,
+        "TITLE_ONLY": 18,
+        "DESCRIPTION_LOW": 23,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과13-03",
+      "candidates": 19,
+      "groups": 19,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 19,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 9,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과14-01",
+      "candidates": 16,
+      "groups": 14,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 14,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과14-02",
+      "candidates": 17,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과14-03",
+      "candidates": 17,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과14-04",
+      "candidates": 61,
+      "groups": 59,
+      "ruleSupported": true,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 47,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 5,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과15-01",
+      "candidates": 37,
+      "groups": 36,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 36,
+        "TITLE_ONLY": 21,
+        "DESCRIPTION_LOW": 24,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과15-02",
+      "candidates": 34,
+      "groups": 33,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 33,
+        "TITLE_ONLY": 19,
+        "DESCRIPTION_LOW": 22,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과15-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과15-04",
+      "candidates": 29,
+      "groups": 29,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 29,
+        "TITLE_ONLY": 17,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과16-01",
+      "candidates": 136,
+      "groups": 103,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 103,
+        "TITLE_ONLY": 6,
+        "DESCRIPTION_LOW": 33,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "6과16-02",
+      "candidates": 142,
+      "groups": 109,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 109,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 36,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사01-01",
+      "candidates": 13,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사01-02",
+      "candidates": 13,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사02-01",
+      "candidates": 262,
+      "groups": 191,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 191,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 59,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사02-02",
+      "candidates": 34,
+      "groups": 33,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 33,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 6,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사02-03",
+      "candidates": 262,
+      "groups": 191,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 191,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 59,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사03-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사03-02",
+      "candidates": 61,
+      "groups": 52,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 52,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 12,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사04-01",
+      "candidates": 5,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사04-02",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사04-03",
+      "candidates": 4,
+      "groups": 4,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 4,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사05-01",
+      "candidates": 25,
+      "groups": 25,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 25,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 11,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사05-02",
+      "candidates": 25,
+      "groups": 25,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 25,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 11,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사06-01",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사06-02",
+      "candidates": 272,
+      "groups": 199,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 199,
+        "TITLE_ONLY": 12,
+        "DESCRIPTION_LOW": 60,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사07-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사07-02",
+      "candidates": 21,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 4,
+        "DESCRIPTION_LOW": 6,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사08-01",
+      "candidates": 42,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사08-02",
+      "candidates": 42,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사09-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사09-02",
+      "candidates": 318,
+      "groups": 238,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 238,
+        "TITLE_ONLY": 13,
+        "DESCRIPTION_LOW": 70,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사10-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4사10-02",
+      "candidates": 159,
+      "groups": 144,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 144,
+        "TITLE_ONLY": 25,
+        "DESCRIPTION_LOW": 47,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)01-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)01-02",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)01-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)02-01",
+      "candidates": 54,
+      "groups": 53,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 53,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 26,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)02-02",
+      "candidates": 54,
+      "groups": 53,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 53,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 26,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)02-03",
+      "candidates": 54,
+      "groups": 53,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 53,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 26,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)02-04",
+      "candidates": 54,
+      "groups": 53,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 53,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 26,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)03-01",
+      "candidates": 35,
+      "groups": 32,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 32,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)03-02",
+      "candidates": 35,
+      "groups": 32,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 32,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)03-03",
+      "candidates": 35,
+      "groups": 32,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 32,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)04-01",
+      "candidates": 20,
+      "groups": 20,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 20,
+        "TITLE_ONLY": 8,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)04-02",
+      "candidates": 20,
+      "groups": 20,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 20,
+        "TITLE_ONLY": 8,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)04-03",
+      "candidates": 20,
+      "groups": 20,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 20,
+        "TITLE_ONLY": 8,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)05-01",
+      "candidates": 2,
+      "groups": 2,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 2,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)05-02",
+      "candidates": 2,
+      "groups": 2,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 2,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)05-03",
+      "candidates": 2,
+      "groups": 2,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 2,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)06-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)06-02",
+      "candidates": 10,
+      "groups": 10,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 10,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(지리)06-03",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)01-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)01-02",
+      "candidates": 14,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)01-03",
+      "candidates": 36,
+      "groups": 27,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 27,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 6,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)02-01",
+      "candidates": 61,
+      "groups": 52,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 52,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 12,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)02-02",
+      "candidates": 68,
+      "groups": 59,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 59,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)02-03",
+      "candidates": 61,
+      "groups": 52,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 52,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 12,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)03-01",
+      "candidates": 90,
+      "groups": 45,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 45,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 33,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)03-02",
+      "candidates": 42,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)03-03",
+      "candidates": 42,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)04-01",
+      "candidates": 12,
+      "groups": 10,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 10,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)04-02",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)04-03",
+      "candidates": 42,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)05-01",
+      "candidates": 163,
+      "groups": 133,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 133,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 68,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)05-02",
+      "candidates": 163,
+      "groups": 133,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 133,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 68,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)05-03",
+      "candidates": 14,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 11,
+        "DESCRIPTION_LOW": 11,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)06-01",
+      "candidates": 21,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 2,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)06-02",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9사(일사)06-03",
+      "candidates": 35,
+      "groups": 31,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 31,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 6,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과01-01",
+      "candidates": 132,
+      "groups": 122,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 122,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과01-02",
+      "candidates": 7,
+      "groups": 7,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 7,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과01-03",
+      "candidates": 9,
+      "groups": 9,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 9,
+        "TITLE_ONLY": 4,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과01-04",
+      "candidates": 132,
+      "groups": 122,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 122,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과02-01",
+      "candidates": 160,
+      "groups": 145,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 145,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 66,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과02-02",
+      "candidates": 160,
+      "groups": 145,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 145,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 66,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과02-03",
+      "candidates": 160,
+      "groups": 145,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 145,
+        "TITLE_ONLY": 48,
+        "DESCRIPTION_LOW": 66,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과03-01",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과03-02",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과03-03",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과04-01",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과04-02",
+      "candidates": 43,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 15,
+        "DESCRIPTION_LOW": 18,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과04-03",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과05-01",
+      "candidates": 16,
+      "groups": 14,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 14,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과05-02",
+      "candidates": 18,
+      "groups": 16,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 16,
+        "TITLE_ONLY": 7,
+        "DESCRIPTION_LOW": 9,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과05-03",
+      "candidates": 16,
+      "groups": 14,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 14,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과06-01",
+      "candidates": 394,
+      "groups": 359,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 359,
+        "TITLE_ONLY": 90,
+        "DESCRIPTION_LOW": 179,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과06-02",
+      "candidates": 27,
+      "groups": 25,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 25,
+        "TITLE_ONLY": 6,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과06-03",
+      "candidates": 22,
+      "groups": 19,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 19,
+        "TITLE_ONLY": 7,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과07-01",
+      "candidates": 105,
+      "groups": 99,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 99,
+        "TITLE_ONLY": 41,
+        "DESCRIPTION_LOW": 44,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과07-02",
+      "candidates": 103,
+      "groups": 97,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 97,
+        "TITLE_ONLY": 39,
+        "DESCRIPTION_LOW": 42,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과07-03",
+      "candidates": 106,
+      "groups": 100,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 100,
+        "TITLE_ONLY": 39,
+        "DESCRIPTION_LOW": 44,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과08-01",
+      "candidates": 29,
+      "groups": 27,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 27,
+        "TITLE_ONLY": 7,
+        "DESCRIPTION_LOW": 8,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과08-02",
+      "candidates": 8,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과08-03",
+      "candidates": 8,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과09-01",
+      "candidates": 10,
+      "groups": 10,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 10,
+        "TITLE_ONLY": 10,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과09-02",
+      "candidates": 10,
+      "groups": 10,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 10,
+        "TITLE_ONLY": 10,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과09-03",
+      "candidates": 10,
+      "groups": 10,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 10,
+        "TITLE_ONLY": 10,
+        "DESCRIPTION_LOW": 10,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과10-01",
+      "candidates": 119,
+      "groups": 110,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 110,
+        "TITLE_ONLY": 57,
+        "DESCRIPTION_LOW": 66,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과10-02",
+      "candidates": 150,
+      "groups": 133,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 133,
+        "TITLE_ONLY": 75,
+        "DESCRIPTION_LOW": 84,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과10-03",
+      "candidates": 119,
+      "groups": 110,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 110,
+        "TITLE_ONLY": 57,
+        "DESCRIPTION_LOW": 66,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과11-01",
+      "candidates": 47,
+      "groups": 47,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 47,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과11-02",
+      "candidates": 30,
+      "groups": 30,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 30,
+        "TITLE_ONLY": 6,
+        "DESCRIPTION_LOW": 9,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과11-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과11-04",
+      "candidates": 35,
+      "groups": 35,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 35,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 12,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과12-01",
+      "candidates": 7,
+      "groups": 7,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 7,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과12-02",
+      "candidates": 7,
+      "groups": 7,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 7,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과12-03",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과13-01",
+      "candidates": 76,
+      "groups": 70,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 70,
+        "TITLE_ONLY": 28,
+        "DESCRIPTION_LOW": 37,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과13-02",
+      "candidates": 46,
+      "groups": 40,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 40,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 21,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과13-03",
+      "candidates": 52,
+      "groups": 51,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 51,
+        "TITLE_ONLY": 30,
+        "DESCRIPTION_LOW": 30,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과14-01",
+      "candidates": 42,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과14-02",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과14-03",
+      "candidates": 42,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과15-01",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과15-02",
+      "candidates": 3,
+      "groups": 3,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 3,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과15-03",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과15-04",
+      "candidates": 1,
+      "groups": 1,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 1,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과16-01",
+      "candidates": 13,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과16-02",
+      "candidates": 13,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "4과16-03",
+      "candidates": 13,
+      "groups": 13,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 13,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과01-01",
+      "candidates": 0,
+      "groups": 0,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 0,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과01-02",
+      "candidates": 32,
+      "groups": 29,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 29,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 3,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과01-03",
+      "candidates": 4,
+      "groups": 4,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 4,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과02-01",
+      "candidates": 9,
+      "groups": 9,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 9,
+        "TITLE_ONLY": 3,
+        "DESCRIPTION_LOW": 4,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과02-02",
+      "candidates": 209,
+      "groups": 193,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 193,
+        "TITLE_ONLY": 62,
+        "DESCRIPTION_LOW": 83,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과02-03",
+      "candidates": 15,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과02-04",
+      "candidates": 81,
+      "groups": 68,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 68,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 41,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과02-05",
+      "candidates": 15,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 0,
+        "DESCRIPTION_LOW": 0,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과03-01",
+      "candidates": 36,
+      "groups": 36,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 36,
+        "TITLE_ONLY": 16,
+        "DESCRIPTION_LOW": 17,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과03-02",
+      "candidates": 25,
+      "groups": 25,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 25,
+        "TITLE_ONLY": 13,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과03-03",
+      "candidates": 24,
+      "groups": 24,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 24,
+        "TITLE_ONLY": 13,
+        "DESCRIPTION_LOW": 14,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과04-01",
+      "candidates": 23,
+      "groups": 21,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 21,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과04-02",
+      "candidates": 19,
+      "groups": 17,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 17,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과04-03",
+      "candidates": 19,
+      "groups": 17,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 17,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과04-04",
+      "candidates": 17,
+      "groups": 15,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 15,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 7,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과05-01",
+      "candidates": 132,
+      "groups": 122,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 122,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과05-02",
+      "candidates": 134,
+      "groups": 124,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 124,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 50,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과05-03",
+      "candidates": 133,
+      "groups": 123,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 123,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과05-04",
+      "candidates": 132,
+      "groups": 122,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 122,
+        "TITLE_ONLY": 35,
+        "DESCRIPTION_LOW": 49,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과06-01",
+      "candidates": 5,
+      "groups": 5,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 5,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 1,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과06-02",
+      "candidates": 6,
+      "groups": 6,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 6,
+        "TITLE_ONLY": 1,
+        "DESCRIPTION_LOW": 2,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과06-03",
+      "candidates": 17,
+      "groups": 17,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 17,
+        "TITLE_ONLY": 4,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과07-01",
+      "candidates": 48,
+      "groups": 42,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 42,
+        "TITLE_ONLY": 9,
+        "DESCRIPTION_LOW": 21,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과07-02",
+      "candidates": 26,
+      "groups": 24,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 24,
+        "TITLE_ONLY": 8,
+        "DESCRIPTION_LOW": 13,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과07-03",
+      "candidates": 8,
+      "groups": 8,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 8,
+        "TITLE_ONLY": 5,
+        "DESCRIPTION_LOW": 5,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    },
+    {
+      "standardId": "9과07-04",
+      "candidates": 77,
+      "groups": 71,
+      "ruleSupported": false,
+      "counts": {
+        "UNSUPPORTED": 71,
+        "TITLE_ONLY": 28,
+        "DESCRIPTION_LOW": 37,
+        "CONCEPT_ONLY": 0,
+        "PARTIAL_SUPPORTED": 0,
+        "INTERPRETATION_HELD": 0,
+        "EXPLICIT_CONFLICT": 0
+      }
+    }
+  ],
+  "paidApiCalls": 0
+}

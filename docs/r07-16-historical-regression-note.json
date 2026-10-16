@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "script": "server/source-explanations-check.js",
+  "passedPriorToFailure": 9,
+  "failed": "마지막 과거 R07-02 승인 JSON 고정 SHA 비교",
+  "historicalExpected": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "current": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+  "unchangedDuringTask": true,
+  "note": "현재 요청 이전부터 과거 기준선과 다르다. 과거 자료나 기대 SHA를 수정하지 않았으며 이번 감사는 현재 요청 전후 해시로 보호한다."
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-11T07:24:30.114Z",
+  "cases": [
+    {
+      "name": "대표 후보 없이 빈 검색 전체 목록·페이지 제공",
+      "passed": true
+    },
+    {
+      "name": "관련순은 유형·링크 확인 가점 없이 원문 근거만 사용",
+      "passed": true
+    },
+    {
+      "name": "날짜 정렬은 모든 페이지에 적용·동점 안정·미확인은 양방향 마지막",
+      "passed": true
+    },
+    {
+      "name": "연도·범위 경계·윤년·날짜 미확인과 수집일 분리",
+      "passed": true
+    },
+    {
+      "name": "필터 후 판본 묶음·선택 정렬에 해당하는 판본을 먼저 표시",
+      "passed": true
+    },
+    {
+      "name": "원본 카탈로그의 같은 제목 다른 날짜도 기간 검색에 보존",
+      "passed": true
+    },
+    {
+      "name": "등록된 60개 개념의 묶음·직접 언급 필터·추론은 제외",
+      "passed": true
+    },
+    {
+      "name": "어휘 밖 자료도 자유 검색·미분류 필터·핵심 태그 최대3개",
+      "passed": true
+    },
+    {
+      "name": "교과 탐색은 원문 개념 분류·공통과 미분류 표시",
+      "passed": true
+    },
+    {
+      "name": "소개문 있음과 제목 반복 구분·페이지 확인 필터",
+      "passed": true
+    },
+    {
+      "name": "프로그램 선택과 목록 전용 프로그램·개별 자료 구분",
+      "passed": true
+    },
+    {
+      "name": "필터 건수는 자기 조건만 제외한 전체 결과·판본 기준",
+      "passed": true
+    },
+    {
+      "name": "일치 자료0에도 선택 조건·해제 가능한 필터 목록 보존",
+      "passed": true
+    },
+    {
+      "name": "알 수 없는 필터·역전 기간·불가능 날짜·중복 기간 입력 거절",
+      "passed": true
+    },
+    {
+      "name": "기존 대표 보기 URL도 동일 단일 목록·목록 조건 보존",
+      "passed": true
+    },
+    {
+      "name": "기존 실제 저장소4개 불변·새 승인 없음",
+      "passed": true
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "scope": "합성 자료 기능 검사. 교육과정 정확도/교사 효용 평가 아님"
+}

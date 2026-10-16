@@ -1,0 +1,164 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "visuals": [
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        }
+      ],
+      "notesIsolated": true,
+      "allFolderUnfiledPassed": true
+    },
+    {
+      "width": 1000,
+      "visuals": [
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        }
+      ],
+      "notesIsolated": true,
+      "allFolderUnfiledPassed": true
+    },
+    {
+      "width": 768,
+      "visuals": [
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        }
+      ],
+      "notesIsolated": true,
+      "allFolderUnfiledPassed": true
+    },
+    {
+      "width": 390,
+      "visuals": [
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        }
+      ],
+      "notesIsolated": true,
+      "allFolderUnfiledPassed": true
+    },
+    {
+      "width": 360,
+      "visuals": [
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        },
+        {
+          "background": "rgb(251, 247, 239)",
+          "border": "1px",
+          "radius": "14px",
+          "thumbnail": true,
+          "keywords": 8,
+          "title": true
+        }
+      ],
+      "notesIsolated": true,
+      "allFolderUnfiledPassed": true
+    }
+  ],
+  "errors": [],
+  "isolatedData": true,
+  "copyToFolderPassed": true,
+  "removePassed": true,
+  "refreshPreservesEditingAndFallsBack": true
+}

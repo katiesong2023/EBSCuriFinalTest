@@ -1,0 +1,298 @@
+{
+  "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+  "checkedAt": "2026-10-16T06:19:18.478Z",
+  "total": 2,
+  "countScope": "건수는 이번 의미 검색에서 원문 조건을 확인한 후보의 판본 묶음 기준이며 전체 보유 자료의 일치 총수는 아닙니다. 필터는 확인된 후보 안에서 적용합니다.",
+  "proposedLessonFolder": "사막의 기후와 사람들의 생활",
+  "fileName": "검색검사_04_사막생활.json",
+  "recommendedCurriculum": {
+    "displayId": "[사회]6사10-02",
+    "schoolLevel": "초등학교",
+    "gradeBand": "5~6학년군",
+    "subject": "사회",
+    "unitNo": "10",
+    "unitTitle": "세계의 자연환경",
+    "achievementStandardId": "6사10-02",
+    "achievementStandard": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다.",
+    "connectionReason": "몽골 고비 유목 생활과 다나킬 소금 운반을 비교해 건조한 자연환경과 인간생활의 관계를 탐구하는 사례. 영상 전체 기준 충족 판정은 아님.",
+    "connectionStatus": "개인 수업 연결 제안·기준 전체 충족/연계 승인/영상 적합성 확정 아님"
+  },
+  "selectedEpisodes": [
+    {
+      "id": "BCAST-ee6c729aaf350fa7b033",
+      "program": "EBS 다큐프라임",
+      "title": "챠강티메 - 흰 낙타 이야기 1부",
+      "summary": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "broadcastDate": "2013-12-30",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-15T02:52:13.358Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      },
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+      "requestedStandardAutomaticallySuggested": false,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "629449a534e8c6f7877c81d290407c8c5a5742d4a898e961a46bd50ca06e2f09",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "사막 지역에서 살아가는 모습을 보여준다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 84,
+                "quote": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+                "text": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+                "score": 13,
+                "id": 1
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "다큐멘터리 형식이다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 4,
+                "field": "derivedGenre",
+                "text": "자료 형식: 다큐멘터리",
+                "value": [
+                  "다큐멘터리"
+                ]
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    },
+    {
+      "id": "BCAST-b7ea99f0dd385b579d34",
+      "program": "EBS 다큐프라임",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+      "broadcastDate": "2016-11-07",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      },
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+      "requestedStandardAutomaticallySuggested": false,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "4과11-02",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 221,
+              "end": 223,
+              "quote": "용암"
+            }
+          ],
+          "reason": "같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0
+        },
+        {
+          "id": "4과11-04",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 221,
+              "end": 223,
+              "quote": "용암"
+            }
+          ],
+          "reason": "같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(지리)04-01",
+          "score": 8,
+          "matchedTerms": [
+            "아프리카"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 111,
+              "end": 115,
+              "quote": "아프리카"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 아프리카",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(지리)04-02",
+          "score": 8,
+          "matchedTerms": [
+            "아프리카"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 111,
+              "end": 115,
+              "quote": "아프리카"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 아프리카",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        },
+        {
+          "id": "9사(지리)04-03",
+          "score": 8,
+          "matchedTerms": [
+            "아프리카"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 111,
+              "end": 115,
+              "quote": "아프리카"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 아프리카",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 0
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "53c464f02124ffc20139a2cc2c840c8722a47a628c19963aa68807c5204671fe",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "사막 지역에서 살아가는 모습을 보여준다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 470,
+                "end": 508,
+                "quote": "그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+                "text": "그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+                "score": 4,
+                "id": 1
+              },
+              {
+                "field": "summary",
+                "start": 221,
+                "end": 332,
+                "quote": "용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.",
+                "text": "용암과 소금, 유황이 어우러져 사막의         퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.",
+                "score": 2,
+                "id": 4
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "다큐멘터리 형식이다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 9,
+                "field": "derivedGenre",
+                "text": "자료 형식: 다큐멘터리",
+                "value": [
+                  "다큐멘터리"
+                ]
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    }
+  ],
+  "allReturnedEpisodes": [
+    {
+      "id": "BCAST-ee6c729aaf350fa7b033",
+      "program": "EBS 다큐프라임",
+      "title": "챠강티메 - 흰 낙타 이야기 1부",
+      "summary": "고비 자연에 바쳐진 흰낙타(챠강티메)를 통해 척박한 자연 환경속에서도 대자연과 교감하며 살아가는 몽골 고비 사막 유목민의 다양한 삶의 모습을 보여준다.",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-15T02:52:13.358Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-b7ea99f0dd385b579d34",
+      "program": "EBS 다큐프라임",
+      "title": "극한의 땅 1부 다나킬의 소금 카라반",
+      "summary": "세계에서 가장 더운 에티오피아의 다나킬은 해수면보다 100미터 아래의 한낮 최고기온 63도의 폭염의 땅이다. 다나킬에서 소금을 캐고 운반하는 카라반 이야기를 담았다.‘지옥의 화염, 에티오피아 다나킬’아프리카 대륙에는 세계에서 가장 낮고 뜨거운 땅이 있다. 지금도 화산활동이 일어나고 있는 에티오피아의 다나킬. 해수면보다 100미터 아래에 있는 한낮의 최고기온이 63도까지 올라가는 폭염의 땅이다.용암과 소금, 유황이 어우러져 사막의 데칼코마니처럼 퍼져나가는 화산지대의 신비한 풍경, 끝없이 펼쳐진 소금 사막과 황량한 벌판이 펼쳐진 미지의 땅에는 대를 이어 소금을 운반하는 아파르족이 살고 있다.생명체가 살기 힘든 땅이지만 오랜 세월 화염지옥을 만든 다나킬의 평원은 바다를 증발시켜 소금을 만들어 주었고, 그렇게 아파르족은 소금을 내다팔며 삶을 이어갈 수 있었다.세계 최악의 폭염이 오히려 생계수단인 소금을 만들어 주었다는 자연의 아이러니. 그 속에 살아가는 아파르족 소금 카라반의 기나긴 여정을 따라가 본다.",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    }
+  ],
+  "modelSearch": {
+    "status": "ALL_CONDITIONS_SUPPORTED",
+    "paidCalls": 0,
+    "cacheHits": 2
+  },
+  "scope": "현재 기본 교사 검색 API 재조회·현재 공식 기준 목록 대조. 영상 재생·구간·학년 적합성은 새로 확인하지 않음. 내 수업 폴더명은 제안이며 개인 자료 저장은 수행하지 않음."
+}

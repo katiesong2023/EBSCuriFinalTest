@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-15",
+  "rows": [
+    {
+      "program": "덩이랑 쾡이랑 인물 한국사",
+      "kind": "all",
+      "total": 13,
+      "http": 200,
+      "samples": [
+        {
+          "id": "BCAST-a58826e7f408c11c688b",
+          "title": "선덕여왕 1부 별을 품은 공주",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40055067&lectId=60773654&stepId=60060073",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": null
+        },
+        {
+          "id": "BCAST-d35800e0f03f0399a8c6",
+          "title": "선덕여왕 2부 무너진 세계",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40055067&lectId=60773986&stepId=60060073",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": null
+        },
+        {
+          "id": "BCAST-01f621cf51d5c16d6385",
+          "title": "선덕여왕 3부 왕의 자리로 가는 길",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40055067&lectId=60774438&stepId=60060073",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": null
+        }
+      ]
+    },
+    {
+      "program": "AI 드라마 - 부활수업",
+      "kind": "all",
+      "total": 28,
+      "http": 200,
+      "samples": [
+        {
+          "id": "BCAST-f0aa7275115752282b28",
+          "title": "고타마 싯다르타 : 왕자가 사라졌다",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://www.ebs.co.kr/tv/show?courseId=40053496&stepId=60058116&lectId=60732057",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": "2026-06-21"
+        },
+        {
+          "id": "BCAST-64a8efb5b0a88cbcf246",
+          "title": "나이팅게일 : 천사의 쇠망치",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://www.ebs.co.kr/tv/show?courseId=40053496&stepId=60058116&lectId=60721843",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": "2026-05-10"
+        },
+        {
+          "id": "BCAST-ee46e7fc67aa44cf2541",
+          "title": "남자현 : 내 이름을 아십니까?",
+          "kind": "episode",
+          "kindLabel": "일반방송 회차",
+          "navigation": {
+            "url": "https://www.ebs.co.kr/tv/show?courseId=40053496&stepId=60058116&lectId=60735644",
+            "label": "해당 회차 열기",
+            "kind": "EPISODE",
+            "status": "PUBLISHED",
+            "checkedAt": null,
+            "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+          },
+          "publishedDate": null,
+          "broadcastDate": "2026-06-28"
+        }
+      ]
+    },
+    {
+      "program": "EBS AI 문학관",
+      "kind": "collection",
+      "total": 1,
+      "http": 200,
+      "samples": [
+        {
+          "id": "PROGRAM-8aa26f4e1ace6f20eb3f",
+          "title": "EBS AI 문학관 · 공개 회차 준비 중",
+          "kind": "collection",
+          "kindLabel": "프로그램·회차 탐색 목록",
+          "navigation": {
+            "url": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=30005523435",
+            "kind": "ANNOUNCEMENT",
+            "status": "PUBLISHED",
+            "label": "EBS 공식 프로그램 발표 보기",
+            "note": "방송 영상이 아닌 공식 프로그램 발표입니다."
+          },
+          "broadcastDate": null
+        }
+      ]
+    },
+    {
+      "program": "EBS 뉴스",
+      "kind": "clip",
+      "total": 76,
+      "http": 200,
+      "samples": [
+        {
+          "id": "BCAST-4123a99eef0fc7f1e8d1",
+          "title": "'무릎 호소' 여명학교…탈북학생 배울 곳은?",
+          "kind": "clip",
+          "kindLabel": "뉴스 클립",
+          "navigation": {
+            "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60774363/H",
+            "label": "해당 뉴스 클립 열기",
+            "kind": "CLIP",
+            "status": "MATCHED",
+            "checkedAt": "2026-10-14T15:31:55.293Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "publishedDate": "2026-09-30",
+          "broadcastDate": null
+        },
+        {
+          "id": "BCAST-07e808af02bac149d491",
+          "title": "'수시 먹통' 사태 2주째…자료도 확보 못 해",
+          "kind": "clip",
+          "kindLabel": "뉴스 클립",
+          "navigation": {
+            "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60773829/H",
+            "label": "해당 뉴스 클립 열기",
+            "kind": "CLIP",
+            "status": "MATCHED",
+            "checkedAt": "2026-10-14T15:32:06.241Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "publishedDate": "2026-09-29",
+          "broadcastDate": null
+        },
+        {
+          "id": "BCAST-69ab6266bfd1dc843ebf",
+          "title": "'수시먹통'부터 '수능개편'까지 집중 질의",
+          "kind": "clip",
+          "kindLabel": "뉴스 클립",
+          "navigation": {
+            "url": "https://news.ebs.co.kr/ebsnews/menu1/newsAllView/60777168/H",
+            "label": "해당 뉴스 클립 열기",
+            "kind": "CLIP",
+            "status": "MATCHED",
+            "checkedAt": "2026-10-14T15:31:03.528Z",
+            "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+          },
+          "publishedDate": "2026-10-08",
+          "broadcastDate": null
+        }
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

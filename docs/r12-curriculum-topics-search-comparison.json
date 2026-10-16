@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-15T08:58:46.273Z",
+  "inputSha256": "a99fa5f071484c27e88aa4f439bfb9cdee4708b77ec79b0e2c7f2946e429267d",
+  "initial": {
+    "requests": 170,
+    "empty": 152,
+    "nonempty": 18,
+    "top5Pairs": 58
+  },
+  "final": {
+    "requests": 170,
+    "empty": 152,
+    "nonempty": 18,
+    "top5Pairs": 58
+  },
+  "initialToFinal": [],
+  "existingNonemptyToEmpty": [],
+  "quoteChecks": 1040,
+  "returnedItemsAndVariantsChecked": 114,
+  "scope": "170개 고정 개발 요청. 원래 query만 같은 교사 검색 함수로 실행. 정답/실제 교사 효용 평가 아님. 인용은 반환된 첫 페이지와 그 판본 대상.",
+  "finalStoreHashes": {
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/semantic-layer.sqlite": "bdedca88233ab1a5050ff0c68529462ebd7f372d7802f1b8f83fa46b7ad1fce9",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b"
+  },
+  "changedDuringEachRun": [
+    [],
+    [
+      "server/curi-c-browser-check.js"
+    ]
+  ],
+  "unrelatedCheckScriptChanged": [
+    "server/curi-c-browser-check.js"
+  ],
+  "runtimeCodeAndStoresChanged": [],
+  "paidApiCalls": 0
+}

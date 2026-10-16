@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-10-13T08:17:48.283Z",
+  "cases": [
+    {
+      "input": {
+        "q": "심장"
+      },
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-b3fcf41eba96e61930d8",
+          "title": "교감장군과 부교감장군",
+          "coreTags": [
+            "심장",
+            "인체"
+          ],
+          "contentKeywords": [
+            "인체",
+            "심장",
+            "물"
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "우유"
+      },
+      "total": 3,
+      "results": [
+        {
+          "id": "BCAST-9321d819722d09e37515",
+          "title": "우유, 소젖을 먹는다는 것에 대하여",
+          "coreTags": [],
+          "contentKeywords": [
+            "우유"
+          ]
+        },
+        {
+          "id": "BCAST-015469ab523c8a90114d",
+          "title": "달콤한 식탁 태국 - 맛의 본고장 콘깬",
+          "coreTags": [],
+          "contentKeywords": [
+            "요리",
+            "우유"
+          ]
+        },
+        {
+          "id": "BCAST-70da5c0f1bfb863ccdbb",
+          "title": "음식중독 2부. 밀애愛 밀에 유혹되다",
+          "coreTags": [],
+          "contentKeywords": [
+            "음식",
+            "뇌",
+            "우유"
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "빛"
+      },
+      "total": 9,
+      "results": [
+        {
+          "id": "BCAST-03e3e60e421e8ac08a43",
+          "title": "[지식채널e×엑소 노벨상 시리즈] 3부 화학상",
+          "coreTags": [
+            "빛",
+            "과학자"
+          ],
+          "contentKeywords": [
+            "빛",
+            "과학자",
+            "반도체",
+            "기술"
+          ]
+        },
+        {
+          "id": "BCAST-79947a19e27336d0be2e",
+          "title": "밤하늘의 선물 오로라",
+          "coreTags": [
+            "빛",
+            "우주"
+          ],
+          "contentKeywords": [
+            "우주",
+            "빛",
+            "행성",
+            "극지방",
+            "서식지",
+            "아이"
+          ]
+        },
+        {
+          "id": "BCAST-1627f2fff6d3fc549506",
+          "title": "아기별이 사라졌어요",
+          "coreTags": [
+            "빛",
+            "우주"
+          ],
+          "contentKeywords": [
+            "별",
+            "우주",
+            "빛",
+            "도시",
+            "천체망원경",
+            "숲",
+            "가족"
+          ]
+        },
+        {
+          "id": "BCAST-e056d1165c17c7712587",
+          "title": "검소한 과학, 적정기술",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛",
+            "아이"
+          ]
+        },
+        {
+          "id": "BCAST-e442c115537c9f2bbb95",
+          "title": "그녀의 프레임",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛"
+          ]
+        },
+        {
+          "id": "BCAST-fdfe56b4a69747623a5b",
+          "title": "빛을 따라간 사람들",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛"
+          ]
+        },
+        {
+          "id": "BCAST-238e1a523d7c7706f17f",
+          "title": "세상을 밝히는 식용유 조명",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛",
+            "인도네시아"
+          ]
+        },
+        {
+          "id": "BCAST-137b1b6704608f479338",
+          "title": "아파트 탐구 3- 아파트를 왜 찍냐구요?",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛"
+          ]
+        },
+        {
+          "id": "BCAST-fc52606ed8a53a97f6da",
+          "title": "조명의 재조명",
+          "coreTags": [
+            "빛"
+          ],
+          "contentKeywords": [
+            "빛"
+          ]
+        }
+      ]
+    },
+    {
+      "input": {
+        "q": "빅오션"
+      },
+      "total": 2,
+      "results": [
+        {
+          "id": "PDLOG-036",
+          "title": "심장으로 듣는 아이돌 빅오션! 그 매니저가 되다",
+          "coreTags": [],
+          "contentKeywords": [
+            "음악",
+            "공연",
+            "장애인"
+          ]
+        },
+        {
+          "id": "BCAST-5b7a9eb0e066f78bc85c",
+          "title": "빅오션이 찾아왔쇼!",
+          "coreTags": [],
+          "contentKeywords": []
+        }
+      ]
+    },
+    {
+      "input": {
+        "concept": "heart"
+      },
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-b3fcf41eba96e61930d8",
+          "title": "교감장군과 부교감장군",
+          "coreTags": [
+            "심장",
+            "인체"
+          ],
+          "contentKeywords": [
+            "인체",
+            "심장",
+            "물"
+          ]
+        }
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

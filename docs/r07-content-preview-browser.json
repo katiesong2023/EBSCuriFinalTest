@@ -1,0 +1,558 @@
+{
+  "generatedAt": "2026-10-01T14:58:07.111Z",
+  "cases": [
+    {
+      "query": "우주",
+      "passed": true,
+      "previews": [
+        {
+          "title": "딱 하루만",
+          "contentPreview": {
+            "keywords": [
+              "행성",
+              "태양일",
+              "항성일",
+              "자전",
+              "공전"
+            ],
+            "text": "행성의 하루는 행성들이 자전과 공전을 동시에 하기 때문에 태양일과 항성일로 나뉜다고 한다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "행성",
+                "field": "summary",
+                "quote": "행성",
+                "start": 63,
+                "score": 10
+              },
+              {
+                "keyword": "태양일",
+                "field": "summary",
+                "quote": "태양일",
+                "start": 95,
+                "score": 9
+              },
+              {
+                "keyword": "항성일",
+                "field": "summary",
+                "quote": "항성일",
+                "start": 100,
+                "score": 9
+              },
+              {
+                "keyword": "자전",
+                "field": "summary",
+                "quote": "자전",
+                "start": 76,
+                "score": 8
+              },
+              {
+                "keyword": "공전",
+                "field": "summary",
+                "quote": "공전",
+                "start": 80,
+                "score": 8
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘우주’와 연결되는 ‘행성’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "우주는 주인이 없다 1부 아빠, 우주 쓰레기는 누가 치워요?",
+          "contentPreview": {
+            "keywords": [
+              "우주 쓰레기",
+              "공유지의 비극",
+              "인공위성"
+            ],
+            "text": "점점 쓰레기처럼 쌓여가는 우주 인공위성 쓰레기.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "우주 쓰레기",
+                "field": "title",
+                "quote": "우주 쓰레기",
+                "start": 18,
+                "score": 17
+              },
+              {
+                "keyword": "공유지의 비극",
+                "field": "summary",
+                "quote": "공유지의 비극",
+                "start": 80,
+                "score": 12
+              },
+              {
+                "keyword": "인공위성",
+                "field": "summary",
+                "quote": "인공위성",
+                "start": 17,
+                "score": 10
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘우주’와 연결되는 ‘우주’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "그의 이름은 134340 Pluto",
+          "contentPreview": {
+            "keywords": [
+              "뉴호라이즌스호",
+              "명왕성",
+              "에리스",
+              "천체"
+            ],
+            "text": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "뉴호라이즌스호",
+                "field": "summary",
+                "quote": "뉴호라이즌스호",
+                "start": 9,
+                "score": 12
+              },
+              {
+                "keyword": "명왕성",
+                "field": "summary",
+                "quote": "명왕성",
+                "start": 0,
+                "score": 9
+              },
+              {
+                "keyword": "에리스",
+                "field": "summary",
+                "quote": "에리스",
+                "start": 49,
+                "score": 9
+              },
+              {
+                "keyword": "천체",
+                "field": "summary",
+                "quote": "천체",
+                "start": 45,
+                "score": 3
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘우주’와 연결되는 ‘천체’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "소행성이 온다",
+          "contentPreview": {
+            "keywords": [
+              "소행성",
+              "충돌",
+              "관측",
+              "우주"
+            ],
+            "text": "미리 예기치 못한 소행성 충돌을 막기 위한 전 세계 곳곳에 걸친 관측과 협력을 조명한다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "소행성",
+                "field": "title",
+                "quote": "소행성",
+                "start": 0,
+                "score": 14
+              },
+              {
+                "keyword": "충돌",
+                "field": "summary",
+                "quote": "충돌",
+                "start": 10,
+                "score": 9
+              },
+              {
+                "keyword": "관측",
+                "field": "summary",
+                "quote": "관측",
+                "start": 62,
+                "score": 8
+              },
+              {
+                "keyword": "우주",
+                "field": "summary",
+                "quote": "우주",
+                "start": 85,
+                "score": 3
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘우주’와 연결되는 ‘우주’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        }
+      ]
+    },
+    {
+      "query": "민주주의",
+      "passed": true,
+      "previews": [
+        {
+          "title": "<지방의회, 결코 작지 않은 민주주의> 1부 의회",
+          "contentPreview": {
+            "keywords": [
+              "지방의회",
+              "민주주의",
+              "국회",
+              "조례"
+            ],
+            "text": "1991년 본격적으로 시작된 이후 중앙 정부를 대신해 지역 문제를 파악하고 해결하는 지방의회는 어떤 곳이며, 지방의회 의원들의 역할은 무엇인지 살펴본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "지방의회",
+                "field": "title",
+                "quote": "지방의회",
+                "start": 1,
+                "score": 15
+              },
+              {
+                "keyword": "민주주의",
+                "field": "title",
+                "quote": "민주주의",
+                "start": 16,
+                "score": 10
+              },
+              {
+                "keyword": "국회",
+                "field": "summary",
+                "quote": "국회",
+                "start": 105,
+                "score": 8
+              },
+              {
+                "keyword": "조례",
+                "field": "summary",
+                "quote": "조례",
+                "start": 166,
+                "score": 8
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘민주주의’와 연결되는 ‘민주주의’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "민주주의 1부 시민의 권력의지",
+          "contentPreview": {
+            "keywords": [
+              "시민",
+              "민주주의",
+              "역사"
+            ],
+            "text": "인류 역사에서 민주주의가 발전해 온 과정을 통해 민주주의 본질에 대해 알아본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "시민",
+                "field": "title",
+                "quote": "시민",
+                "start": 8,
+                "score": 13
+              },
+              {
+                "keyword": "민주주의",
+                "field": "title",
+                "quote": "민주주의",
+                "start": 0,
+                "score": 10
+              },
+              {
+                "keyword": "역사",
+                "field": "summary",
+                "quote": "역사",
+                "start": 3,
+                "score": 8
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘민주주의’와 연결되는 ‘민주주의’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "<지방의회, 결코 작지 않은 민주주의> 2부 조례",
+          "contentPreview": {
+            "keywords": [
+              "지방의회",
+              "조례",
+              "민주주의",
+              "차별",
+              "법률"
+            ],
+            "text": "조례는 각 지방의회의 의결을 거쳐 제정되는 법규범이다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "지방의회",
+                "field": "title",
+                "quote": "지방의회",
+                "start": 1,
+                "score": 15
+              },
+              {
+                "keyword": "조례",
+                "field": "title",
+                "quote": "조례",
+                "start": 25,
+                "score": 13
+              },
+              {
+                "keyword": "민주주의",
+                "field": "title",
+                "quote": "민주주의",
+                "start": 16,
+                "score": 10
+              },
+              {
+                "keyword": "차별",
+                "field": "summary",
+                "quote": "차별",
+                "start": 20,
+                "score": 8
+              },
+              {
+                "keyword": "법률",
+                "field": "summary",
+                "quote": "법률",
+                "start": 137,
+                "score": 8
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘민주주의’와 연결되는 ‘민주주의’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "contentPreview": {
+            "keywords": [
+              "지방의회",
+              "시민",
+              "주민참여조례",
+              "청소년 의회교실",
+              "민주주의"
+            ],
+            "text": "지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "지방의회",
+                "field": "title",
+                "quote": "지방의회",
+                "start": 1,
+                "score": 15
+              },
+              {
+                "keyword": "시민",
+                "field": "title",
+                "quote": "시민",
+                "start": 25,
+                "score": 13
+              },
+              {
+                "keyword": "주민참여조례",
+                "field": "summary",
+                "quote": "주민참여조례",
+                "start": 110,
+                "score": 12
+              },
+              {
+                "keyword": "청소년 의회교실",
+                "field": "summary",
+                "quote": "청소년 의회교실",
+                "start": 118,
+                "score": 12
+              },
+              {
+                "keyword": "민주주의",
+                "field": "title",
+                "quote": "민주주의",
+                "start": 16,
+                "score": 10
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘민주주의’와 연결되는 ‘민주주의’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        }
+      ]
+    },
+    {
+      "query": "생태계",
+      "passed": true,
+      "previews": [
+        {
+          "title": "무안, 풍요를 품다",
+          "contentPreview": {
+            "keywords": [
+              "갯벌",
+              "생태계"
+            ],
+            "text": "한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "갯벌",
+                "field": "summary",
+                "quote": "갯벌",
+                "start": 97,
+                "score": 9
+              },
+              {
+                "keyword": "생태계",
+                "field": "summary",
+                "quote": "생태계",
+                "start": 100,
+                "score": 4
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘생태계’와 연결되는 ‘생태계’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "contentPreview": {
+            "keywords": [
+              "꿀벌",
+              "여왕벌",
+              "말벌",
+              "생태계"
+            ],
+            "text": "3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "꿀벌",
+                "field": "title",
+                "quote": "꿀벌",
+                "start": 18,
+                "score": 13
+              },
+              {
+                "keyword": "여왕벌",
+                "field": "summary",
+                "quote": "여왕벌",
+                "start": 54,
+                "score": 9
+              },
+              {
+                "keyword": "말벌",
+                "field": "summary",
+                "quote": "말벌",
+                "start": 98,
+                "score": 8
+              },
+              {
+                "keyword": "생태계",
+                "field": "summary",
+                "quote": "생태계",
+                "start": 93,
+                "score": 5
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘생태계’와 연결되는 ‘생태계’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "맹그로브의 눈물",
+          "contentPreview": {
+            "keywords": [
+              "기후 변화",
+              "맹그로브",
+              "주민",
+              "숲",
+              "생태계"
+            ],
+            "text": "이처럼 너무나 다른 방식으로 지켜지는 필리핀의 맹그로브 숲과 그곳에 사는 사람들의 삶을 들여다본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "기후 변화",
+                "field": "summary",
+                "quote": "기후변화",
+                "start": 609,
+                "score": 11
+              },
+              {
+                "keyword": "맹그로브",
+                "field": "title",
+                "quote": "맹그로브",
+                "start": 0,
+                "score": 10
+              },
+              {
+                "keyword": "주민",
+                "field": "summary",
+                "quote": "주민",
+                "start": 904,
+                "score": 10
+              },
+              {
+                "keyword": "숲",
+                "field": "summary",
+                "quote": "숲",
+                "start": 54,
+                "score": 9
+              },
+              {
+                "keyword": "생태계",
+                "field": "summary",
+                "quote": "생태계",
+                "start": 434,
+                "score": 4
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘생태계’와 연결되는 ‘생태계’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        },
+        {
+          "title": "화산 곁에 사는 이유",
+          "contentPreview": {
+            "keywords": [
+              "화산",
+              "인구",
+              "생태계"
+            ],
+            "text": "화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+            "basis": "SOURCE_DESCRIPTION",
+            "label": "공개 소개문 핵심",
+            "evidence": [
+              {
+                "keyword": "화산",
+                "field": "title",
+                "quote": "화산",
+                "start": 0,
+                "score": 13
+              },
+              {
+                "keyword": "인구",
+                "field": "summary",
+                "quote": "인구",
+                "start": 20,
+                "score": 8
+              },
+              {
+                "keyword": "생태계",
+                "field": "summary",
+                "quote": "생태계",
+                "start": 69,
+                "score": 4
+              }
+            ]
+          },
+          "recommendationExplanation": "찾는 주제 ‘생태계’와 연결되는 ‘생태계’ 표현이 제목·소개문에 있어 비교 후보로 골랐습니다."
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "mobile": true,
+  "shelfPreserved": true
+}

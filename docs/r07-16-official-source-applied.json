@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-12",
+  "rows": [
+    {
+      "id": "BCAST-d7d2a0c76c9f0cd8e5cc",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-12T13:22:35.598Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 45,
+      "currentLength": 163,
+      "durationSeconds": 299,
+      "responseHash": "a3f8c4638287c4c94ed7ba76d46b9cd14ef07328262b6418ba23e3fa185d45f4",
+      "archiveCompared": null,
+      "title": "AI가 쓴 생명의 첫 문장",
+      "previousSynopsis": "AI가 새로운 바이러스를 만들었다? ‘생명의 문법’을 배우기 시작한 인공지능...",
+      "currentSynopsis": "인간의 언어를 배우듯 DNA의 ‘문법’을 학습한 AI가, 자연에는 없던 바이러스의 설계도를 써냈다. AI가 만든 285개의 DNA 가운데 16개는 실제로 대장균을 감염시키는 바이러스로 작동했다. 생명의 문장을 쓰기 시작한 AI가 어디까지 확장될 수 있을지, 그 가능성과 위험을 함께 살펴본다."
+    },
+    {
+      "id": "BCAST-9b6cfb9327f930d37c7f",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-12T13:22:35.598Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 41,
+      "currentLength": 390,
+      "durationSeconds": 322,
+      "responseHash": "c8325db7ad9fc6bada1af2bc5eb2dff4fd4b4b8b5f845dc4b583622e02e7f549",
+      "archiveCompared": null,
+      "title": "취미는 사랑",
+      "previousSynopsis": "누군가를 사랑하는 마음이 하나의 거대한 문화 영향력으로 이어지기까지....",
+      "currentSynopsis": "팬덤은 단순히 스타를 좋아하고 소비하는 집단을 넘어 음악과 메시지를 퍼뜨리고, 콘텐츠를 반복적으로 소비하며, 때로는 비판과 조언을 통해 스타의 활동과 창작에까지 영향을 미치는 능동적인 존재로 성장해왔다. 비틀즈의 비틀매니아에서 시작된 팬덤 문화는 한국의 오빠 부대와 아이돌 팬덤을 거쳐 K-pop의 세계화와 함께 더욱 거대해졌으며, 이제는 연예계를 넘어 작가·요리사·크리에이터·인플루언서·브랜드·박물관·관광지 등 일상 곳곳으로 확장되고 있다. 특히 자신이 좋아하는 대상을 선택하고 적극적으로 응원하는 행위는 단순한 취미를 넘어 자신의 취향과 정체성을 드러내는 방식이 되었으며, 팬덤의 충성도와 참여를 활용하는 ‘팬덤 비즈니스’까지 등장하면서 팬덤은 대중문화를 움직이는 중요한 사회적 현상이 되었다."
+    },
+    {
+      "id": "BCAST-c408b7fe64a209f6498a",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-12T13:22:35.598Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 38,
+      "currentLength": 329,
+      "durationSeconds": 303,
+      "responseHash": "7d3db7832982e5669854b5ab11d625c06e3b101b64fcaf55d4579de55872a749",
+      "archiveCompared": null,
+      "title": "그게, 뭐였을까",
+      "previousSynopsis": "하늘에서 우주쓰레기가 떨어진다면, 누가 책임지고 보상해야 할까?...",
+      "currentSynopsis": "대기권 재진입 경보는 2015년 110건에서 2025년 820건으로 크게 증가했고, 우주쓰레기는 초속 7.8km의 속도로 움직이기 때문에 재진입 시각이 단 1분만 어긋나도 예상 낙하지점이 약 480km씩 달라질 수 있다. 플로리다에서 우주쓰레기가 주택을 뚫고 떨어진 사례처럼 피해가 발생해도 개인이 보상을 받는 과정은 복잡하며, 국제 우주물체 국제책임협약 역시 국가 간 책임만 규정하고 있어 개인의 직접적인 피해 구제에는 한계가 있다. 앞으로 수많은 위성이 추가로 발사될 상황에서 우주쓰레기를 누가 관리하고 사고의 책임을 누가 져야 하는지에 대한 새로운 논의가 필요하다는 문제를 제기한다."
+    },
+    {
+      "id": "BCAST-2cfd4451343bbdbc7248",
+      "status": "UPDATED",
+      "checkedAt": "2026-10-12T13:22:35.598Z",
+      "descriptionMatched": true,
+      "before": "short",
+      "after": "detailed",
+      "previousLength": 34,
+      "currentLength": 392,
+      "durationSeconds": 323,
+      "responseHash": "af30f81f12640cd4fde1d922241b6cd21971cc921e47922c364223f426c1a095",
+      "archiveCompared": null,
+      "title": "[AI를 닮은 시대] 3부 해줘! 게임",
+      "previousSynopsis": "AI 과제시대, 우리가 잃어버린 교육적 가치는 무엇인가?...",
+      "currentSynopsis": "AI가 교육 현장에 빠르게 확산되면서 대학에서는 과제와 시험에 AI를 활용한 부정행위가 늘고 있으며, 교수와 학생 사이에 AI를 둘러싼 새로운 공방이 벌어지고 있다. AI 탐지 프로그램이 등장하자 학생들은 AI가 쓴 흔적을 지워주는 프로그램을 사용하고, 교수들이 입력 과정을 확인하기 위해 구글 독스 등을 활용하자 이제는 입력 과정까지 조작하는 프로그램이 등장했다. 하지만 이 과정에서 AI에 의존할수록 실제 시험 성적이 떨어지는 현상도 나타났으며, 무엇이든 대신해주는 AI가 인간에게서 직접 부딪히고 실패하며 배우는 경험까지 빼앗을 수 있다는 문제가 제기된다. 결국 편리하고 빠른 결과를 얻기 위해 사고와 노력의 과정까지 AI에 맡기는 ‘사고 외주’의 시대에 우리가 무엇을 포기하고 있는지 되묻는다."
+    }
+  ],
+  "beforeHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9"
+  },
+  "afterHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463"
+  },
+  "paidApiCalls": 0
+}

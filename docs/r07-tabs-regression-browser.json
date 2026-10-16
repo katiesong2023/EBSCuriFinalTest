@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-01T15:06:46.622Z",
+  "browser": "149.0.7827.55",
+  "viewports": [
+    "1440x1080",
+    "390x844"
+  ],
+  "cases": [
+    {
+      "name": "데스크톱 첫 검색·개념·지명·출처",
+      "passed": true
+    },
+    {
+      "name": "교사용 개별 페이지 조건·링크 단위 안내",
+      "passed": true
+    },
+    {
+      "name": "장소·자료 유형 필터 및 뒤로가기",
+      "passed": true
+    },
+    {
+      "name": "자료 모으기·새로고침 보존·메모 다운로드",
+      "passed": true
+    },
+    {
+      "name": "전체 목록 페이지·프로그램 묶음 구분",
+      "passed": true
+    },
+    {
+      "name": "알 수 없는 검색·HTML 삽입 방지",
+      "passed": true
+    },
+    {
+      "name": "일반방송 프로그램 조건·주소 공유·새로고침",
+      "passed": true
+    },
+    {
+      "name": "서버 실패 표시·재시도 복구",
+      "passed": true
+    },
+    {
+      "name": "늦은 이전 응답으로 최신 검색 덮어쓰기 방지",
+      "passed": true
+    },
+    {
+      "name": "수업 예시 8개 검색·모바일 펼침",
+      "passed": true
+    },
+    {
+      "name": "이전 모음 다운로드 링크 갱신·잘못된 근거 링크 제외",
+      "passed": true
+    },
+    {
+      "name": "다운로드 링크 조회 실패 안내·재시도 가능",
+      "passed": true
+    },
+    {
+      "name": "기존 AI 초안 화면 유료 실행 비활성화",
+      "passed": true
+    },
+    {
+      "name": "모바일 화면·자료 모음·키보드 닫기",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "note": "UI 동작 확인이며 영상 재생·교사 적합성 평가는 제외"
+}

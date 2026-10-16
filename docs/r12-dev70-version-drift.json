@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-14",
+  "during70ChangedFiles": [],
+  "changesDetectedAfter70": [
+    {
+      "path": "server/admin-auth.js",
+      "before": "605e5f1c5559ba886c308f819061956f50b2b37e5171da7969214fe474b5d614",
+      "after": "5760ab66abecc2270ae193d9cbfd29a67f5d16d7ab2bfefd9e68b9d4c14c432d"
+    },
+    {
+      "path": "server/curriculum-discovery.js",
+      "before": "e59f130d2d8d46a435f3675f681efb104d03395e0e0c100ed1036f8eae00811c",
+      "after": "fc924dc2289d2180aabb62974d9b9281456c32210d286c32bd5af43f858f83e4"
+    },
+    {
+      "path": "server/server.js",
+      "before": "bab7048684bd1f8c9de4ac0e0f47e7b006febe7747a1a1cbd8e143c1fecdc22a",
+      "after": "c122e4514a71f67c80e23c936be065c98987f1ff8646bb75ad0387181d1e2018"
+    },
+    {
+      "path": "server/teacher-combined-search.js",
+      "before": "b3a96190f9ca05137d52fe5870c2b55b863e6d12b58bde4c5f2f37197b2f8990",
+      "after": "241786292bb064c450caa669edfe7b3fcd4ecc27358023a58bd8002522918a3e"
+    }
+  ],
+  "readOnlyRepresentativeRechecks": [
+    {
+      "id": "Q013",
+      "status": 200,
+      "totalBefore": 0,
+      "totalNow": 0,
+      "sameFirstPageIds": true
+    },
+    {
+      "id": "Q028",
+      "status": 200,
+      "totalBefore": 0,
+      "totalNow": 0,
+      "sameFirstPageIds": true
+    },
+    {
+      "id": "Q055",
+      "status": 200,
+      "totalBefore": 0,
+      "totalNow": 0,
+      "sameFirstPageIds": true
+    },
+    {
+      "id": "Q069",
+      "status": 200,
+      "totalBefore": 6,
+      "totalNow": 6,
+      "sameFirstPageIds": true
+    },
+    {
+      "id": "Q082",
+      "status": 200,
+      "totalBefore": 2,
+      "totalNow": 2,
+      "sameFirstPageIds": true
+    }
+  ],
+  "limit": "원래70 결과는 실행 당시 버전이다. 현재 코드 변경 후 전체70을 다시 측정했다고 표시하지 않는다."
+}

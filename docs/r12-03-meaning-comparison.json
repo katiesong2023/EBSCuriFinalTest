@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-15",
+  "requests": 170,
+  "inputSha256": "a99fa5f071484c27e88aa4f439bfb9cdee4708b77ec79b0e2c7f2946e429267d",
+  "beforeEmpty": 154,
+  "afterEmpty": 154,
+  "beforeTop5": 42,
+  "afterTop5": 45,
+  "gains": [],
+  "losses": [],
+  "changedRequests": 2,
+  "changed": [
+    {
+      "query": "어린이의 권리",
+      "before": 2,
+      "after": 6,
+      "beforeTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?"
+        },
+        {
+          "id": "BCAST-221579c803c0ad4f2e17",
+          "title": "당연함에 대하여"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "BCAST-26e69ead6e14d727c26d",
+          "title": "이런 놀이터 어때요?",
+          "meaningMatches": []
+        },
+        {
+          "id": "BCAST-4c9a03b67a254591399f",
+          "title": "당연하지 않은 것들",
+          "meaningMatches": [
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 3,
+                  "end": 5,
+                  "quote": "아동"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        },
+        {
+          "id": "BCAST-88cd4153bd0d6c517132",
+          "title": "아이들을 구하라",
+          "meaningMatches": [
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 54,
+                  "end": 56,
+                  "quote": "아동"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        },
+        {
+          "id": "BCAST-3ed3887ce9f5ee7c2463",
+          "title": "우리 같이 놀아요",
+          "meaningMatches": [
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 0,
+                  "end": 2,
+                  "quote": "아이"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        },
+        {
+          "id": "BCAST-01c5def31d60db3f6267",
+          "title": "법과 정의 1부 - 법은 누구 편인가?",
+          "meaningMatches": [
+            {
+              "requested": "어린이",
+              "meaning": "child",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 702,
+                  "end": 704,
+                  "quote": "아동"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "다문화 사회 자료인데, 특정 나라 출신을 우스꽝스럽게 그리거나 고정관념을 키우는 내용은 빼고 싶어요",
+      "before": 5,
+      "after": 13,
+      "beforeTop5": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실"
+        },
+        {
+          "id": "BCAST-0da6153d0ef4a3c2caa0",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가"
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?"
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들"
+        },
+        {
+          "id": "BCAST-13a205a80a146bacfac4",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 6강 다양성이라는 판도라의 상자"
+        }
+      ],
+      "afterTop5": [
+        {
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "meaningMatches": []
+        },
+        {
+          "id": "BCAST-0da6153d0ef4a3c2caa0",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가",
+          "meaningMatches": []
+        },
+        {
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "meaningMatches": []
+        },
+        {
+          "id": "BCAST-35d7fe0ce93a72871af6",
+          "title": "시민 미완: 경계의 청년들",
+          "meaningMatches": []
+        },
+        {
+          "id": "BCAST-997e7b17808eb774aff5",
+          "title": "윌 킴리카 - 다문화 사회가 왔다 6강 다양성이라는 판도라의 상자",
+          "meaningMatches": [
+            {
+              "requested": "다문화",
+              "meaning": "multicultural",
+              "status": "RELATED_SOURCE_CUE",
+              "kind": "PARAPHRASE",
+              "evidence": [
+                {
+                  "field": "summary",
+                  "start": 152,
+                  "end": 157,
+                  "quote": "다문화주의"
+                }
+              ],
+              "note": "공식 소개의 동의 표현·대상·설명 관계로 발견한 후보 단서입니다. 영상 장면·요구 충족은 미확인입니다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quoteChecks": 708,
+  "meaningQuoteChecks": 5,
+  "storesUnchanged": {
+    "server/data/broadcast-catalog.sqlite": "7c70298074597fd9f98b85a52621ef80d13bd66d96532e8e7338ac55cbe8ed09",
+    "server/data/semantic-layer.sqlite": "eb2eefefb0e060ef156cb920c821437ebc75df434f2bc2f1d4a1f6485ccc7fda",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "server/data/broadcast-semantic-search.sqlite": "d922a1aa586e86c7c75d47ea10455b5449371e4da983c20a1313db6ef169f1ba",
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/teacher-resources.sqlite": "8b45806673b5f6c3b63e87ed712780ca9601c1e183ef783f1e2b5137a2a23fea"
+  },
+  "changedDuringBeforeRun": [],
+  "changedDuringAfterRun": [],
+  "paidApiCalls": 0,
+  "scope": "동일 자료·동일 개발170의 공통 의미 대조 전후 비교. 170 전부 정답/교사 효용 검증이 아니며 새 사용자 사례는 별도 검사."
+}

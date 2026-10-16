@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-15T11:11:26.138Z",
+  "cases": [
+    {
+      "width": 1440,
+      "status": "404 fallback",
+      "gradient": "linear-gradient(to right bottom, rgb(255, 150, 96) 0px, rgb(255, 150, 96) 50%, rgb(197, 181, 250) 50%, rgb(197, 181, 250) 100%)",
+      "link": "https://www.ebs.co.kr/tv/show?courseId=10025338&stepId=60057285&lectId=60230117",
+      "titleVisible": true
+    },
+    {
+      "width": 1440,
+      "status": "successful image remains visible",
+      "fixtureImage": true
+    },
+    {
+      "width": 390,
+      "status": "404 fallback",
+      "gradient": "linear-gradient(to right bottom, rgb(255, 150, 96) 0px, rgb(255, 150, 96) 50%, rgb(197, 181, 250) 50%, rgb(197, 181, 250) 100%)",
+      "link": "https://www.ebs.co.kr/tv/show?courseId=10025338&stepId=60057285&lectId=60230117",
+      "titleVisible": true
+    },
+    {
+      "width": 390,
+      "status": "successful image remains visible",
+      "fixtureImage": true
+    }
+  ],
+  "errors": [],
+  "personalStorageWrites": false,
+  "paidApiCalls": 0
+}

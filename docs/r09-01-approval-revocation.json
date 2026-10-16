@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-10T14:51:50.702Z",
+  "action": "USER_REQUESTED_APPROVAL_WITHDRAWAL",
+  "userRequest": "기존 사람 승인 4건 취소해주세요.",
+  "cancelled": [
+    {
+      "verifiedAssetId": "VERIFIED-bb1b762d34dd312943bbb2623328b164530083b778e39b9889a9f31b4a9ca03e",
+      "contentCuriId": "CURI-6112dfb9-7f84-5769-98d2-df55ef7425f5",
+      "curriculumCuriId": "CURI-CURR-2022-6사01-01",
+      "mappingRunId": "MAPPING-RUN-f8cc82db-95e5-4c84-9657-2904cdd1825f",
+      "previousReviewId": "REVIEW-ec2fed97-c152-47b4-bade-ea4ba65c9c61",
+      "title": "동고서저 지형, 산맥",
+      "standardId": "6사01-01",
+      "cancellationReviewId": "REVIEW-914802ad-fd51-440c-9380-4ff06face93a",
+      "cancelledAt": "2026-10-10T14:51:49.691Z",
+      "status": "EXCLUDED"
+    },
+    {
+      "verifiedAssetId": "VERIFIED-53896b904ac7b2fe37ec6b8017dce4df704ea3aab4d35d623d1ea7bb7fbfc2cc",
+      "contentCuriId": "CURI-07ce0b99-2341-5a9e-8c18-36c6f0fca3f7",
+      "curriculumCuriId": "CURI-CURR-2022-6사01-01",
+      "mappingRunId": "MAPPING-RUN-d01b754c-37ee-4129-a1f8-4686105ca9c5",
+      "previousReviewId": "REVIEW-273de891-520d-45d8-8999-7373c20dfd52",
+      "title": "반도와 섬",
+      "standardId": "6사01-01",
+      "cancellationReviewId": "REVIEW-ea217776-7752-45a9-a466-021711a9dc92",
+      "cancelledAt": "2026-10-10T14:51:49.724Z",
+      "status": "EXCLUDED"
+    },
+    {
+      "verifiedAssetId": "VERIFIED-2cd8ab35ea6b6de2ac3dcbaf1b62463f125a2355e6432c5bd25df9bf1de1abc8",
+      "contentCuriId": "CURI-f3d3dc10-fce4-5ec1-bf49-a61e08f4b684",
+      "curriculumCuriId": "CURI-CURR-2022-6사05-01",
+      "mappingRunId": "MAPPING-RUN-73032136-7654-4a5b-a5fd-0d3e49e9ed6b",
+      "previousReviewId": "REVIEW-8c2eaf1f-36a5-44e0-b614-e074ac514745",
+      "title": "강강술래",
+      "standardId": "6사05-01",
+      "cancellationReviewId": "REVIEW-50dae127-9c89-4d83-8953-d1a123332de1",
+      "cancelledAt": "2026-10-10T14:51:49.747Z",
+      "status": "EXCLUDED"
+    },
+    {
+      "verifiedAssetId": "VERIFIED-375e7c8ea2f5d0822f7151416b54c7ef470352c9c5137edd87095bc4e42a468c",
+      "contentCuriId": "CURI-beb2fa7f-c413-527e-8d79-adcf351e8d7a",
+      "curriculumCuriId": "CURI-CURR-2022-6과06-01",
+      "mappingRunId": "MAPPING-RUN-d375abf9-cd38-4187-a148-dda38abb604b",
+      "previousReviewId": "REVIEW-304a344b-21a6-4517-8b00-adda67e79561",
+      "title": "계절별 날씨의 특징",
+      "standardId": "6과06-01",
+      "cancellationReviewId": "REVIEW-d143242a-1a9a-4068-8df1-43937272b87b",
+      "cancelledAt": "2026-10-10T14:51:49.764Z",
+      "status": "EXCLUDED"
+    }
+  ],
+  "currentHumanApproved": 0,
+  "currentApprovedSearchProjection": 0,
+  "previousApprovalHistoryPreserved": true,
+  "currentAutomaticPublicRelations": 1,
+  "sqliteUnchanged": true,
+  "paidApiCalls": 0,
+  "backup": "/private/tmp/curi-revoke-approvals-CMbg0V",
+  "approvedTeacherSearchResults": 0
+}

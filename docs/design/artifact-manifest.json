@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "status": "design_proposal_not_applied",
+  "sha256": {
+    "curi-web-mobile.jpg": "cddee6a3e4b4a22266256cf6b007d50ad8437c8b192d07d66c5594429871704f",
+    "curi-styleguide.css": "0855024e54c091f15988e4fd3c28803678a2af10dc0e1caebe2877ca80e10d33",
+    "curi-wordmark.svg": "e245e7b7c6303ac1a4ee6c2dc87f508c62d34711dee06a534061da2b9036ca41",
+    "curi-web-preview.jpg": "7daab4e65dec646f0e6b7f11723a826515b65fba2607a3b237437b4b65863434",
+    "curi-web-screen.jpg": "fe242ac4532dda8113313bae2a23a55cc6d265392159a6bc99c83cc54804dde0",
+    "curi-symbol-green.svg": "f5d67e2e84a865630b5ff6f841539b2f09fed9946852d4cf9a0a1d55fbe21afb",
+    "curi-extension-preview.jpg": "3d9953ce8fa89ff5adacd610407daebcc7ce2528a7acf73bcd181abf7c36d17d",
+    "curi-styleguide.js": "44091741010b405c862dc93de0315b9b09450e08155af7da1ee50fafd3a153c1",
+    "reference-observations.json": "52ee277fa82a32d5ab3d82d6f55c1615413188bbbffbcfe887ea66da93690b57",
+    "curi-tokens.css": "8d883f534017573690fd9224c990be9f2e7a7a2541f9fb4a1bd43fcbd188fdbd",
+    "contrast-checks.json": "6b2eae5a44ed7cb68e01706b801a838498774c36eb92d48bd1bec3de9e3e02ef",
+    "curi-symbol.svg": "30fe9afd38dd6fb26b18cd82fc2b7ab5d5787d99d64380f001bebb8ab6a8c5b6",
+    "curi-bring-mobile.jpg": "61187d1c7c7da3f281b3af6710119c4322892004b1587c6dca72ed6b71897256",
+    "CURI_STYLEGUIDE.md": "6c17925df03cb40c6a83abf9185f6feea3550ed95f0eb47eb1d16f910fda089d",
+    "preview-checks.json": "c1561a9673cba73a9519072b997c98497b8aef6126857c4c63ee7976555d19d5",
+    "curi-symbol-inverse.svg": "720596e501f64397733d714a8f1cd6918e39f41c764e5e5e690bf01b81ecd4c3",
+    "curi-logo-preview.jpg": "743fb45f6108e399f8fe9368c3df1fb444a58cae204af88b0495685e401513c2",
+    "curi-tokens.json": "eecfcf40e995e4ed11d4362664cf94297d10e1ca74bc5d5f3cfae9a8e0b2dcdc",
+    "curi-styleguide.html": "f8a4697ae0e81c68aa5a3546a3455682524ab62503012b4e692a314d1749979c"
+  }
+}

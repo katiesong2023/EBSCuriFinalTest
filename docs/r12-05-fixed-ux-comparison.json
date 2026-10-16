@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "scope": "Identical current API/data with before/after frontend; automated click time excludes human comprehension and does not measure teacher savings",
+  "rows": [
+    {
+      "version": "before",
+      "metrics": {
+        "top": 1015,
+        "height": 1068
+      },
+      "ids": [
+        "PDLOG-048",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-a66feddc1e1e27b62f47",
+        "BCAST-9103eb5ea2e4e90d2e91",
+        "BCAST-827805531238e24c5411",
+        "BCAST-742a12eafe39b91b4f2c",
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-f2eab308f16a1509f44e"
+      ],
+      "existingFolderActions": 5,
+      "automatedPathElapsedMs": 372
+    },
+    {
+      "version": "after",
+      "metrics": {
+        "top": 620,
+        "height": 745
+      },
+      "ids": [
+        "PDLOG-048",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-a66feddc1e1e27b62f47",
+        "BCAST-9103eb5ea2e4e90d2e91",
+        "BCAST-827805531238e24c5411",
+        "BCAST-742a12eafe39b91b4f2c",
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-f2eab308f16a1509f44e"
+      ],
+      "existingFolderActions": 2,
+      "automatedPathElapsedMs": 64
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-10T23:56:27.780Z",
+  "scope": "선정한 공식 상세7회차의 공개 링크 점검. 사이트 전체 자료 존재 여부를 판정하지 않음.",
+  "rows": [
+    {
+      "id": "BCAST-17fc205bb84eab78edd3",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-8a18b36f70b6e17f28fa",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-bc20c57561a30458a210",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-21d23bc91ae1d3e16b39",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-aae0fbbb73a3097257e6",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-d356777fc3abba17bae4",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    },
+    {
+      "id": "BCAST-7fd1bfb95415f72166b0",
+      "status": 200,
+      "links": [],
+      "episodeMatchedMaterialsSecured": 0
+    }
+  ],
+  "transcriptsSecured": 0,
+  "learningMaterialsSecured": 0,
+  "pressReleaseSecured": 1,
+  "paidApiCalls": 0
+}

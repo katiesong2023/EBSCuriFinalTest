@@ -1,0 +1,14 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "imagesLoaded": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "imagesLoaded": true
+    }
+  ]
+}

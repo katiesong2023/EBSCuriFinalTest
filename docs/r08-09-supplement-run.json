@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-10T23:55:14.405Z",
+  "resourceId": "BCAST-bc20c57561a30458a210",
+  "status": "ATTACHED",
+  "supplement": {
+    "id": "4c051c84030799dd5ee5a4f5",
+    "type": "PRESS_RELEASE",
+    "label": "EBS 공식 보도자료",
+    "title": "EBS 극한직업-라오스 소금마을(2일~3일 오후 10시 45분)",
+    "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=3&option=&pageNo=30&postId=10000126947&searchCondition=title&searchKeyword=",
+    "publishedAt": "2013-01-01",
+    "checkedAt": "2026-10-10T23:55:14.403Z",
+    "identity": {
+      "resourceId": "BCAST-bc20c57561a30458a210",
+      "title": "라오스 소금마을 1부",
+      "program": "극한 직업",
+      "broadcastDate": "2013-01-02",
+      "variant": "EPISODE",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=10054290"
+    },
+    "identityEvidence": [
+      "EBS 극한직업-라오스 소금마을",
+      "2013년 1월 2일",
+      "1부. 1월 2일"
+    ],
+    "text": "소금물이 햇볕에 건조되어 결정체가 나오기 시작하면 이때부터 다시 소금 채취에 열심인 콕싸앗 사람들.",
+    "location": "1부 · 2013-01-02 방송 설명 문단",
+    "originalStart": 1952,
+    "originalEnd": 2007,
+    "offsetUnit": "UTF16_CODE_UNIT",
+    "responseHash": "1368d1b662a243dc2ff76b4a34624b6e79f3a4d7dd65182ec17122f2c2edee46",
+    "contentHash": "2ad404ef2dc1a1c274058c234c98c673634407fb9c6d623dd101db1cf71717f2",
+    "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+  },
+  "transcriptsSecured": 0,
+  "learningMaterialsSecured": 0,
+  "paidApiCalls": 0
+}

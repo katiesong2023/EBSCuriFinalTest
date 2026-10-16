@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "rows": [
+    {
+      "q": "우유",
+      "program": "PD로그",
+      "status": 200,
+      "total": 0,
+      "excludedId": "PDLOG-044",
+      "excludedTitle": "바다의 우유, 굴 따러가세",
+      "allPagesChecked": true
+    },
+    {
+      "q": "심장",
+      "program": "세계테마기행",
+      "status": 200,
+      "total": 0,
+      "excludedId": "BCAST-ca5d48cc8cebd113713d",
+      "excludedTitle": "이지연의 일본 소도시 기행-일본의 심장, 기후",
+      "allPagesChecked": true
+    },
+    {
+      "q": "폭포",
+      "program": "PD로그",
+      "status": 200,
+      "total": 0,
+      "excludedId": "PDLOG-012",
+      "excludedTitle": "옷은 돌고 돈다, 최PD의 헌옷 추적기",
+      "allPagesChecked": true
+    },
+    {
+      "q": "화석",
+      "program": "지식채널e",
+      "status": 200,
+      "total": 0,
+      "excludedId": "BCAST-0bd57277c5ffac508434",
+      "excludedTitle": "내 피는 파란색",
+      "allPagesChecked": true
+    }
+  ],
+  "paidApiCalls": 0,
+  "literalPositive": [
+    {
+      "q": "우유",
+      "status": 200,
+      "total": 3,
+      "first": "달콤한 식탁 태국 - 맛의 본고장 콘깬"
+    },
+    {
+      "q": "심장",
+      "status": 200,
+      "total": 1,
+      "first": "교감장군과 부교감장군"
+    },
+    {
+      "q": "홍수",
+      "status": 200,
+      "total": 4,
+      "first": "장마가 지나간 자리"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-15T05:24:02.655Z",
+  "catalogResourcesAndVariants": 23403,
+  "passageQuotesChecked": 42568,
+  "staleSourceKeys": 0,
+  "quoteMismatches": 0,
+  "summaryPassagesBelowMinimumQuality": 0,
+  "scope": "최종 색인의 모든 원문 지문 및 title/summary 문자열의 start/end/quote 일치와 summary 최소 품질을 읽기 전용으로 대조함.",
+  "paidApiCalls": 0
+}

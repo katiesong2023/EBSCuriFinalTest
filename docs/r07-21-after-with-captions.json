@@ -1,0 +1,601 @@
+{
+  "generatedAt": "2026-10-13T19:32:21.131Z",
+  "input": {
+    "ids": [
+      "BCAST-0b7ff14710d2df1732ca",
+      "BCAST-24cb7586692e2a707640",
+      "BCAST-2d032ce4b233bfe29ceb",
+      "BCAST-332fbd405c5ad9b47bee",
+      "BCAST-070518ce0f686b0a0f8c",
+      "BCAST-09bf4f4792c629db0ec4",
+      "BCAST-2d093401c6622a3a2018",
+      "BCAST-a9724a68de2228ab9f0d",
+      "BCAST-07b8b46343e67388b36a",
+      "BCAST-03936ad26b0793250d0e",
+      "BCAST-0b137ace4edf72dc23f0",
+      "BCAST-1870571a4c8023ee97f0"
+    ],
+    "queries": [
+      {
+        "id": "H01",
+        "query": "우리 지역에서 주민들이 함께 문제를 해결한 사례를 수업에 쓰고 싶어요",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H02",
+        "query": "옛날과 지금의 교통수단이 생활을 어떻게 바꿨는지 비교하는 자료",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H03",
+        "query": "물에서 사는 동물과 땅에서 사는 동물의 몸 생김새를 비교할 자료",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H04",
+        "query": "자석에 붙는 물체와 붙지 않는 물체를 관찰하는 실험 영상만 찾아줘",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H05",
+        "query": "공장이 들어서면서 지역의 일자리와 환경이 어떻게 달라졌는지 알려주는 자료",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H06",
+        "query": "독립운동에서 사람들이 협력한 사례를 보고 싶어요 전투 장면은 빼주세요",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H07",
+        "query": "물질이 탈 때 공기가 왜 필요한지 설명하는 실험 자료",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H08",
+        "query": "물이 증발해서 비가 되는 과정을 10분 이내에 보여주는 영상",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H09",
+        "query": "사막이나 고산 지역에서 자연환경에 맞춰 살아가는 생활 모습을 비교하고 싶어요",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H10",
+        "query": "문화가 다른 사람들이 갈등을 해결하는 사례가 필요해요 가능하면 인터뷰가 있으면 좋겠어요",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H11",
+        "query": "지진파로 지구 내부를 알아내는 원리를 설명하는 자료 자막이 있는 것으로",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "H12",
+        "query": "블루드래곤가상광물이 물에 녹는 실험을 보여주는 영상",
+        "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK"
+      },
+      {
+        "id": "P01",
+        "query": "제시 피난 생활",
+        "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT"
+      },
+      {
+        "id": "P02",
+        "query": "천연벽지 제작",
+        "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT"
+      },
+      {
+        "id": "P03",
+        "query": "자석",
+        "origin": "TOPIC_DISCOVERY_PROBE_NOT_FULL_EXPERIMENT_MATCH"
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "BCAST-0b7ff14710d2df1732ca",
+      "title": "사자왕이 간다오늘의 클래식 동요, 동물의 사육제",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000017&lectId=20380607&stepId=01BA0AA000000000017",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=17&courseId=BA0AA000000000017&stepId=01BA0AA000000000017&lectId=20474535",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-24cb7586692e2a707640",
+      "title": "268화 내 자석엔 뭐가 붙을까?",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-2d032ce4b233bfe29ceb",
+      "title": "힘센 내 자석",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-332fbd405c5ad9b47bee",
+      "title": "신기한 자석 놀이",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000017&lectId=3100341&stepId=01BA0AA000000000017",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=17&courseId=BA0AA000000000017&stepId=01BA0AA000000000017&lectId=20474535",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-070518ce0f686b0a0f8c",
+      "title": "생활 금속 공장 1부",
+      "summary": "자막생활 금속 공장 1부",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3098439",
+      "evidenceUrl": "https://home.ebs.co.kr/limit/replay/2/list?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&c.page=41",
+      "quality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "HELD",
+        "code": "SOURCE_TEXT_TOO_THIN",
+        "message": "짧은 내용 설명이 있으나 상세 연계에 필요한 최소 원문이 부족합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-09bf4f4792c629db0ec4",
+      "title": "방글라데시 가죽공장 1부",
+      "summary": "방글라데시 가죽공장 1부",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3090973",
+      "evidenceUrl": "https://home.ebs.co.kr/limit/replay/2/list?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&c.page=43",
+      "quality": {
+        "category": "repeated",
+        "label": "제목 반복",
+        "version": "source-text-v3",
+        "rank": 1,
+        "status": "HELD",
+        "code": "TITLE_REPEATED",
+        "message": "소개문이 제목의 반복이므로 상세 연계를 보류합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-2d093401c6622a3a2018",
+      "title": "어느 독립운동가 부부의 일기",
+      "summary": "1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10565313",
+      "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10565313",
+      "quality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "durationSeconds": 319
+    },
+    {
+      "id": "BCAST-a9724a68de2228ab9f0d",
+      "title": "봄맞이 인테리어, 천연 소재로 건강을 잡아라!",
+      "summary": "인테리어의 성수기인 봄이 돌아왔다. 인테리어도 유해 물질이 적고, 피부질환이나 호흡기 질환 등 건강에 도움이 되는 천연 소재들이 선호되고 있다. 편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=60188921",
+      "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=60188921",
+      "quality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "durationSeconds": 2639
+    },
+    {
+      "id": "BCAST-07b8b46343e67388b36a",
+      "title": "위화 - [인사이드 차이나 - 문화] 2강 중국은 왜 축구를 못할까",
+      "summary": "1980년대부터 축구 경기를 보기 시작해 지금도 열렬한 축구팬이라는 위화. 강연 촬영이 있었던 2022년 12월 19일에도 채 식지 않은 월드컵의 열기와 함께 관전평을 쏟아냈다. 중국 축구팬들은 본선 무대에 오른 아시아팀들을 응원하며 자국 대표팀의 예선 탈락의 아쉬움을 달랬다고 한다. 그런데, 중국은 왜 축구를 못하는 걸까? 위화는 중국 축구는 삼류라며 독설을 날린다. 그리고 중국이 축구를 못 할 수밖에 없는 분명한 이유가 있다고 지적하는데... 과연 중국 축구에는 희망이 있을까? <br>",
+      "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057762&lectId=60331311",
+      "evidenceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057762&lectId=60331311",
+      "quality": {
+        "category": "detailed",
+        "label": "구체적 내용 설명",
+        "version": "source-text-v3",
+        "rank": 4,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "durationSeconds": 985
+    },
+    {
+      "id": "BCAST-03936ad26b0793250d0e",
+      "title": "69화 물에 O 탄 것 같다",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=40046423&lectId=60365508&stepId=60049489",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=440751&courseId=40046423&stepId=60049489&lectId=60386080",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    },
+    {
+      "id": "BCAST-0b137ace4edf72dc23f0",
+      "title": "[판소리] 판소리 심청가 중 <심청이 물에 빠지는 대목> 레슨 - 판소리 정희석",
+      "summary": "서울대 음대 국악과 정희석 교수의 <판소리 심청가 중 심청이 물에 빠지는 대목> 레슨입니다.",
+      "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=40033223&stepId=60035284&lectId=60204005",
+      "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=40033223&stepId=60035284&lectId=60204005",
+      "quality": {
+        "category": "short",
+        "label": "짧은 내용 설명",
+        "version": "source-text-v3",
+        "rank": 3,
+        "status": "PASS",
+        "code": "SOURCE_DESCRIPTION_AVAILABLE",
+        "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": true
+      },
+      "durationSeconds": 3120
+    },
+    {
+      "id": "BCAST-1870571a4c8023ee97f0",
+      "title": "물에 젖지 않게 편지 쓰는 방법",
+      "summary": "",
+      "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000009&lectId=60067800&stepId=01BA0AA000000000009",
+      "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+      "quality": {
+        "category": "none",
+        "label": "소개문 없음",
+        "version": "source-text-v3",
+        "rank": 0,
+        "status": "HELD",
+        "code": "INSUFFICIENT_TEXT",
+        "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+        "topicTextAvailable": true,
+        "detailedMappingAllowed": false
+      },
+      "durationSeconds": null
+    }
+  ],
+  "queries": [
+    {
+      "id": "H01",
+      "query": "우리 지역에서 주민들이 함께 문제를 해결한 사례를 수업에 쓰고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H02",
+      "query": "옛날과 지금의 교통수단이 생활을 어떻게 바꿨는지 비교하는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H03",
+      "query": "물에서 사는 동물과 땅에서 사는 동물의 몸 생김새를 비교할 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H04",
+      "query": "자석에 붙는 물체와 붙지 않는 물체를 관찰하는 실험 영상만 찾아줘",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H05",
+      "query": "공장이 들어서면서 지역의 일자리와 환경이 어떻게 달라졌는지 알려주는 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H06",
+      "query": "독립운동에서 사람들이 협력한 사례를 보고 싶어요 전투 장면은 빼주세요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H07",
+      "query": "물질이 탈 때 공기가 왜 필요한지 설명하는 실험 자료",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H08",
+      "query": "물이 증발해서 비가 되는 과정을 10분 이내에 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H09",
+      "query": "사막이나 고산 지역에서 자연환경에 맞춰 살아가는 생활 모습을 비교하고 싶어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H10",
+      "query": "문화가 다른 사람들이 갈등을 해결하는 사례가 필요해요 가능하면 인터뷰가 있으면 좋겠어요",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H11",
+      "query": "지진파로 지구 내부를 알아내는 원리를 설명하는 자료 자막이 있는 것으로",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "H12",
+      "query": "블루드래곤가상광물이 물에 녹는 실험을 보여주는 영상",
+      "origin": "KNOWN_DEVELOPMENT_CASE_FROM_USER_TRACK",
+      "total": 0,
+      "results": []
+    },
+    {
+      "id": "P01",
+      "query": "제시 피난 생활",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT",
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-2d093401c6622a3a2018",
+          "title": "어느 독립운동가 부부의 일기",
+          "summary": "1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+          "sourceQuality": {
+            "category": "short",
+            "label": "짧은 내용 설명",
+            "version": "source-text-v3",
+            "rank": 3,
+            "status": "PASS",
+            "code": "SOURCE_DESCRIPTION_AVAILABLE",
+            "message": "짧은 설명이 최소 원문 조건을 통과했습니다. 관계 충족·설명 깊이는 보장하지 않습니다.",
+            "topicTextAvailable": true,
+            "detailedMappingAllowed": true
+          },
+          "searchExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 39,
+                "end": 58,
+                "quote": "그리고 부부에게서 태어난 딸 제시."
+              },
+              {
+                "field": "summary",
+                "start": 59,
+                "end": 94,
+                "quote": "제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘제시 · 피난’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10565313",
+          "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPI0000000035&stepId=01BP0PHPI0000000035&lectId=10565313"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "query": "천연벽지 제작",
+      "origin": "OFFICIAL_RECOVERY_TEXT_PROBE_NOT_INDEPENDENT",
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-a9724a68de2228ab9f0d",
+          "title": "봄맞이 인테리어, 천연 소재로 건강을 잡아라!",
+          "summary": "인테리어의 성수기인 봄이 돌아왔다. 인테리어도 유해 물질이 적고, 피부질환이나 호흡기 질환 등 건강에 도움이 되는 천연 소재들이 선호되고 있다. 편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다",
+          "sourceQuality": {
+            "category": "detailed",
+            "label": "구체적 내용 설명",
+            "version": "source-text-v3",
+            "rank": 4,
+            "status": "PASS",
+            "code": "SOURCE_DESCRIPTION_AVAILABLE",
+            "message": "대상·사례를 비교할 길이의 설명이 있습니다. 관계 충족·영상 내용은 별도 확인합니다.",
+            "topicTextAvailable": true,
+            "detailedMappingAllowed": true
+          },
+          "searchExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 81,
+                "end": 117,
+                "quote": "편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다"
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘천연벽지 · 제작’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          },
+          "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=60188921",
+          "evidenceUrl": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=60188921"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "query": "자석",
+      "origin": "TOPIC_DISCOVERY_PROBE_NOT_FULL_EXPERIMENT_MATCH",
+      "total": 2,
+      "results": [
+        {
+          "id": "BCAST-24cb7586692e2a707640",
+          "title": "268화 내 자석엔 뭐가 붙을까?",
+          "summary": "",
+          "sourceQuality": {
+            "category": "none",
+            "label": "소개문 없음",
+            "version": "source-text-v3",
+            "rank": 0,
+            "status": "HELD",
+            "code": "INSUFFICIENT_TEXT",
+            "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+            "topicTextAvailable": true,
+            "detailedMappingAllowed": false
+          },
+          "searchExplanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 167,
+                "end": 188,
+                "quote": "그럼 이 자석의 짝도 찾을 수 있을까?",
+                "supplementId": "6665a362546a8d30c74be22e",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+              },
+              {
+                "field": "sourceSupplement",
+                "start": 189,
+                "end": 199,
+                "quote": "-우와, 자석이다.",
+                "supplementId": "6665a362546a8d30c74be22e",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "자석 관련 표현을 원문에서 확인 · 수업 적합성 미판정"
+          },
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607"
+        },
+        {
+          "id": "BCAST-2d032ce4b233bfe29ceb",
+          "title": "힘센 내 자석",
+          "summary": "",
+          "sourceQuality": {
+            "category": "none",
+            "label": "소개문 없음",
+            "version": "source-text-v3",
+            "rank": 0,
+            "status": "HELD",
+            "code": "INSUFFICIENT_TEXT",
+            "message": "소개문이 없어 제목의 소재만 확인할 수 있습니다.",
+            "topicTextAvailable": true,
+            "detailedMappingAllowed": false
+          },
+          "searchExplanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 77,
+                "end": 94,
+                "quote": "-다다야, 너 자석 들고 뭐해?",
+                "supplementId": "0d1ba2c767d3dac99df15fdc",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+              },
+              {
+                "field": "sourceSupplement",
+                "start": 217,
+                "end": 231,
+                "quote": "힘쌤도 자석 이렇게 들고.",
+                "supplementId": "0d1ba2c767d3dac99df15fdc",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "자석"
+            ],
+            "text": "요청한 ‘자석’을 제목에서 확인했습니다. 이를 설명하는 소개문 근거는 부족합니다."
+          },
+          "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607"
+        }
+      ]
+    }
+  ],
+  "paidApiCalls": 0,
+  "modelUnderstandingMeasured": false,
+  "scope": "로컬E5/기존 교사 검색의 데이터 보강 전후. 고정 개발 질문 및 복구 단서 probe; 독립 의미 정확도 측정 아님."
+}

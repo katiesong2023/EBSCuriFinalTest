@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-11T09:03:06.860Z",
+  "cases": [
+    {
+      "name": "URL 상태·브라우저 전용 키 분리·중복/이전 주소 검증",
+      "passed": true
+    },
+    {
+      "name": "214개 공식 목록·패널 열기만으로 검색 미적용",
+      "passed": true
+    },
+    {
+      "name": "기준 선택·전체 원문/출처·접기·질문/필터 개별 유지·이전 대상 학년 미적용",
+      "passed": true
+    },
+    {
+      "name": "공식 문장·교과/과정 탐색·중1 편성과 공식 학년군 표시",
+      "passed": true
+    },
+    {
+      "name": "새로고침·뒤로가기·저장 조건 복원",
+      "passed": true
+    },
+    {
+      "name": "이전 교육과정 주소·충돌 오류·관리자 경로 보존",
+      "passed": true
+    },
+    {
+      "name": "빈 결과·빠른 기준 변경·실패/재시도·이전 결과 숨김",
+      "passed": true
+    },
+    {
+      "name": "중복 주소 새로고침에서도 오류 유지·기준 목록 실패 후 복구",
+      "passed": true
+    },
+    {
+      "name": "관련 기준 API·부정 범위·조건 검증·빈 질문",
+      "passed": true
+    },
+    {
+      "name": "질문별 관련 기준 최대8개·공식 문장 이유·미지원 포함·자동 선택 없음",
+      "passed": true
+    },
+    {
+      "name": "전체 기준 전환·공식 코드 탐색·목록 교과/과정·보기 복원",
+      "passed": true
+    },
+    {
+      "name": "관련 후보 없음·조회 실패/재시도·늦은 질문 응답 차단",
+      "passed": true
+    },
+    {
+      "name": "구버전 서버가 선택 기준을 무시하면 정상 카드 표시 금지",
+      "passed": true
+    },
+    {
+      "name": "키보드 기준 선택·390px 화면 넘침 없음",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "cd78da1012205643eb290d8ed124758d908d723b215075de42c8773767dd8df9",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "paidApiCalls": 0,
+  "fixture": "임시 복제 서버·합성 방송·공식 214개 기준. 교사 결과 확인 대기"
+}

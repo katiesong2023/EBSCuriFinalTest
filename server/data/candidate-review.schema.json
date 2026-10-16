@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "curi-candidate-review-v1"
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "candidateId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceFingerprint": {
+            "type": "string",
+            "minLength": 1
+          },
+          "judgment": {
+            "enum": [
+              "SUITABLE",
+              "PARTIAL",
+              "UNSUITABLE",
+              "SOURCE_INSUFFICIENT"
+            ]
+          },
+          "selectionReason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requirements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "clauseId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "enum": [
+                    "MATCH",
+                    "MISMATCH",
+                    "UNKNOWN"
+                  ]
+                },
+                "quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "field": {
+                        "enum": [
+                          "title",
+                          "summary"
+                        ]
+                      },
+                      "start": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "end": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "quote": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "field",
+                      "start",
+                      "end",
+                      "quote"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "clauseId",
+                "status",
+                "quotes"
+              ]
+            }
+          }
+        },
+        "required": [
+          "candidateId",
+          "sourceFingerprint",
+          "judgment",
+          "selectionReason",
+          "requirements"
+        ]
+      }
+    },
+    "requestFingerprint": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "version",
+    "reviews",
+    "requestFingerprint"
+  ]
+}

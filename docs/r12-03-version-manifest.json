@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "changedDuringBeforeRun": [],
+  "changedDuringAfterRun": [],
+  "protectedStores": {
+    "server/data/broadcast-catalog.sqlite": true,
+    "server/data/semantic-layer.sqlite": true,
+    "server/data/automatic-assets.sqlite": true,
+    "server/data/broadcast-semantic-search.sqlite": true,
+    "server/data/curi-store.json": true
+  },
+  "modifiedProductFiles": [
+    "server/discovery-request.js",
+    "server/discovery-intent.js",
+    "server/discovery-search.js",
+    "server/natural-request.js",
+    "server/source-explanation.js",
+    "public/grade-context.js",
+    "public/discover.js"
+  ],
+  "addedFiles": [
+    "server/request-clauses.js",
+    "server/request-concepts.js",
+    "server/request-clauses-check.js",
+    "server/request-development-evaluate.js"
+  ],
+  "sha256AtReport": {
+    "server/discovery-request.js": "1492d8ca5726dfa2be1e002c5874bd2b674b38af6ba6c70be91f96435c88513f",
+    "server/discovery-intent.js": "3bf7d2d8e8db6748f67b9e66763d25273faa311cc82713962ceb829a4a4ecd97",
+    "server/discovery-search.js": "5c9e7a3d113d957b2550f791225a264e3d77037422ef9d05acdb107d574a15a7",
+    "server/natural-request.js": "bd5b2a42ccdf7c14872c409f2effd6c2025af0a52a0943ce3527ad4679cc6d70",
+    "server/source-explanation.js": "ba84ae527549543e85fdf020b6c983b0e706857e458f1fd644ec1daec8491bfd",
+    "public/grade-context.js": "b5af888299142ff09a5563e4a4554aded8229f0cf7c66dcb0a4d6808f3f96dcb",
+    "public/discover.js": "db3379b455e446dd907d95f8df621cd8781018ac8e894468fece8c908e742871",
+    "server/request-clauses.js": "62dc9ffd6021e73f71c440d9bd052a355b142f94523a5c08c65f4532d2308e32",
+    "server/request-concepts.js": "5c2cf0e645dcff6d9995498a7a54ca3a4db47027261590995d84511adaf7d754",
+    "server/request-clauses-check.js": "9d03cc938c5eccaee240aa1fc9b08cbfa003e62c1a13ef7dca55f0bd72536393",
+    "server/request-development-evaluate.js": "3dc31833acdece8506a0162f393c54900294fa6ba4a83428279d388c1444954c"
+  },
+  "final30SearchExecuted": false,
+  "paidApiCalls": 0,
+  "actualTeacherRequests": 0
+}

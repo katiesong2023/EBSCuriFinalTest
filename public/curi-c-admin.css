@@ -1,0 +1,26 @@
+/* C 관리자 확장: 검수 정보 위계와 조작은 유지하고 공통 시각 체계를 적용한다. */
+.curi-c-admin :is(.admin-shell,.page-shell,.shell) {max-width:1320px;margin:28px auto 64px;padding:0 40px;min-width:0}
+.curi-c-admin .login-shell {background:white;border:0;border-radius:24px;max-width:520px;padding:32px;margin:6vh auto;box-shadow:none}
+.curi-c-admin h1 {font-size:36px;line-height:44px;letter-spacing:-.03em}.curi-c-admin h2 {font-size:28px;line-height:36px}
+.curi-c-admin :is(.panel,.resource,.metric,.search-panel,.review-panel,.input-panel) {background:white;border:0;border-radius:16px;box-shadow:none;padding:24px;color:var(--curi-ink)}
+.curi-c-admin .metric {border-top:4px solid var(--curi-sun);text-decoration:none}.curi-c-admin .metric strong {font:700 28px var(--curi-font-latin)}
+.curi-c-admin :is(.notice,.source-text,.comparison-grid blockquote,.human-compare blockquote) {background:var(--curi-surfaceMuted);color:var(--curi-ink);border-radius:12px;border-color:var(--curi-line)}
+.curi-c-admin :is(.badge,.state-pill) {border:1px solid var(--curi-ink);border-radius:999px;color:var(--curi-ink);background:transparent}
+.curi-c-admin .badge.warning,.curi-c-admin .check-failure {background:var(--curi-sun);color:var(--curi-ink)}
+.curi-c-admin .eyebrow {color:var(--curi-ink);font:700 12px var(--curi-font-latin);letter-spacing:.03em}
+.curi-c-admin .filters {padding:20px;background:var(--curi-surfaceMuted);border-radius:16px;flex-wrap:wrap;gap:12px}.curi-c-admin .filters label {min-width:0}
+.curi-c-admin :is(.filters button[type=submit],#login-form button[type=submit],#job-start,#prepare-batch,#link-proposal-submit) {background:var(--curi-ink);color:var(--curi-canvas)}
+.curi-c-admin :is(.filters button[type=submit],#login-form button[type=submit],#job-start,#prepare-batch):hover:not(:disabled) {background:var(--curi-coral);color:var(--curi-ink)}
+.curi-c-admin .admin-session-nav {display:flex;flex-wrap:wrap;align-items:center;gap:16px;background:var(--curi-canvas);color:var(--curi-ink);border-color:var(--curi-line);font:500 14px var(--curi-font-latin);padding:12px 40px}
+.curi-c-admin .admin-session-nav a {color:var(--curi-ink)}.curi-c-admin .admin-session-nav button {margin-left:auto;background:transparent;color:var(--curi-ink)}
+.curi-c-admin .resources {gap:24px}.curi-c-admin .resource h3 {font-size:20px;line-height:26px}.curi-c-admin .table-scroll {overflow:auto;max-width:100%}
+.curi-c-admin table {border-collapse:collapse;width:100%;font-size:14px}.curi-c-admin :is(td,th) {padding:10px 12px;border-bottom:1px solid var(--curi-line);text-align:left}
+.curi-c-admin :is(textarea,fieldset) {min-width:0;max-width:100%}.curi-c-admin textarea {width:100%}.curi-c-admin input[type=checkbox] {width:auto;min-height:0}
+.curi-c-admin .hero {padding:28px 0;display:block}.curi-c-admin .search-panel {margin:20px 0}.curi-c-admin .search-panel form {display:flex;flex-wrap:wrap;gap:16px;align-items:end}.curi-c-admin .search-panel label {min-width:0;flex:1 1 180px}
+.curi-c-admin :is(.page-header,.section-heading,.resource) {overflow-wrap:anywhere}.curi-c-admin .status-error {color:var(--curi-error)}
+@media(max-width:1279px) {.curi-c-admin :is(.admin-shell,.page-shell,.shell) {padding-inline:24px}.curi-c-admin .admin-session-nav {padding-inline:24px}}
+@media(max-width:767px) {.curi-c-admin :is(.admin-shell,.page-shell,.shell) {padding-inline:16px}.curi-c-admin .login-shell {margin:24px 16px;padding:24px}.curi-c-admin .admin-session-nav {padding:12px 16px;gap:10px}.curi-c-admin h1 {font-size:28px;line-height:36px}.curi-c-admin h2 {font-size:24px;line-height:32px}.curi-c-admin .filters label,.curi-c-admin .filters label:nth-child(2),.curi-c-admin .filters label:nth-child(3) {width:100%;min-width:0}.curi-c-admin .panel {padding:16px}.curi-c-admin .metrics {grid-template-columns:repeat(2,minmax(0,1fr))}.curi-c-admin .resources {grid-template-columns:1fr}}
+.curi-c-admin :is(.filter-scope,#count,#scope,.source-checks) {color:var(--curi-muted)}
+.curi-c-admin .search-panel select {border-color:var(--curi-line)}
+/* 관리 메뉴가 긴 좁은 화면에서는 헤더 높이 안에서 두 줄로 배치한다. */
+@media(max-width:767px) {.curi-c-admin .site-header {height:auto;min-height:72px;flex-wrap:wrap}.curi-c-admin .site-header nav {width:100%;justify-content:flex-start;flex-wrap:wrap;gap:8px}}

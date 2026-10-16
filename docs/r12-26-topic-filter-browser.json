@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-15T11:06:20.696Z",
+  "cases": [
+    "새 검색 대기 중 이전 민주주의 주제 차단·갯벌5건/최신 목록 복구",
+    "검색 후 15개 주제/묶음 전환·표시 건수 일치",
+    "주제 해제 시 검색어 유지·5건 복원",
+    "검색 실패 시 이전 선택지 제거·재시도 후 활성화",
+    "이전 요청 취소/늦은 응답이 새 검색의 비활성 상태를 풀지 않음",
+    "1440/390px 실제 주제 선택/해제·가로 넘침0"
+  ],
+  "errors": [],
+  "protectedBefore": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "semantic-layer.sqlite": "10f601572cc01729166129aacf21f868eb1eb0d96250b4a7f76cfc80747fa069",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb"
+  },
+  "protectedAfter": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "semantic-layer.sqlite": "10f601572cc01729166129aacf21f868eb1eb0d96250b4a7f76cfc80747fa069",
+    "automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d",
+    "broadcast-semantic-search.sqlite": "98509ccec7945a19c52ce51f2034d35251fb899d5b1bd8e859f4321cfa5f7fcb"
+  },
+  "personalStorageWrites": false,
+  "paidApiCalls": 0
+}

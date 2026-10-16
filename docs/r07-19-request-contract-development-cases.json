@@ -1,0 +1,766 @@
+{
+  "scope": "계약 검증용 개발 예시. 모델 응답이나 독립 정답률 평가 아님. 질문 목록을 조건 추출 규칙으로 사용하지 않음.",
+  "rows": [
+    {
+      "id": "Q01",
+      "query": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "provenance": "USER_QUERY",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "화산지형에 해당하는 우리나라 지역 수업자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산 지형",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 4,
+                "quote": "화산지형"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "geography",
+            "mode": "required",
+            "label": "국내",
+            "sourceSpans": [
+              {
+                "start": 11,
+                "end": 15,
+                "quote": "우리나라"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "relation",
+            "mode": "required",
+            "label": "지역 사례",
+            "sourceSpans": [
+              {
+                "start": 6,
+                "end": 18,
+                "quote": "해당하는 우리나라 지역"
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "kind": "purpose",
+            "mode": "context",
+            "label": "수업 활용",
+            "sourceSpans": [
+              {
+                "start": 19,
+                "end": 23,
+                "quote": "수업자료"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c1"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [
+          {
+            "clauseId": "c1",
+            "text": "용암 지형",
+            "basis": "HYPOTHESIS"
+          }
+        ],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 4,
+            "end": 5,
+            "quote": "에"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q02",
+      "query": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "geography",
+            "mode": "required",
+            "label": "국내",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 4,
+                "quote": "우리나라"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산 활동",
+            "sourceSpans": [
+              {
+                "start": 6,
+                "end": 11,
+                "quote": "화산 활동"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "relation",
+            "mode": "required",
+            "label": "화산 활동에 의한 지형 형성",
+            "sourceSpans": [
+              {
+                "start": 6,
+                "end": 21,
+                "quote": "화산 활동으로 만들어진 지형"
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "kind": "purpose",
+            "mode": "context",
+            "label": "수업 활용",
+            "sourceSpans": [
+              {
+                "start": 28,
+                "end": 33,
+                "quote": "수업 자료"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c1"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 4,
+            "end": 5,
+            "quote": "의"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "quote": "을 보여주는"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q03",
+      "query": "제주도 또는 울릉도의 화산 지형 자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "제주도 또는 울릉도의 화산 지형 자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "geography",
+            "mode": "required",
+            "label": "제주도",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 3,
+                "quote": "제주도"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "geography",
+            "mode": "required",
+            "label": "울릉도",
+            "sourceSpans": [
+              {
+                "start": 7,
+                "end": 10,
+                "quote": "울릉도"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산 지형",
+            "sourceSpans": [
+              {
+                "start": 12,
+                "end": 17,
+                "quote": "화산 지형"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "any",
+              "children": [
+                {
+                  "op": "ref",
+                  "clauseId": "c1"
+                },
+                {
+                  "op": "ref",
+                  "clauseId": "c2"
+                }
+              ],
+              "sourceSpans": [
+                {
+                  "start": 4,
+                  "end": 6,
+                  "quote": "또는"
+                }
+              ]
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 4,
+            "end": 6,
+            "quote": "또는"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "quote": "의"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "quote": "자료"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q04",
+      "query": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "낮과 밤에 활동하는 동물을 비교하는 영상",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "topic",
+            "mode": "required",
+            "label": "동물",
+            "sourceSpans": [
+              {
+                "start": 11,
+                "end": 13,
+                "quote": "동물"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "relation",
+            "mode": "required",
+            "label": "낮과 밤의 동물 활동 비교",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 17,
+                "quote": "낮과 밤에 활동하는 동물을 비교"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c1"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 17,
+            "end": 22,
+            "quote": "하는 영상"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q05",
+      "query": "바뀌는미래연구소를 설명해주는 영상",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "바뀌는미래연구소를 설명해주는 영상",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "entity",
+            "mode": "required",
+            "label": "바뀌는미래연구소",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 8,
+                "quote": "바뀌는미래연구소"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "ref",
+          "clauseId": "c1"
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 8,
+            "end": 18,
+            "quote": "를 설명해주는 영상"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q06",
+      "query": "연소 다큐멘터리만 산소 제외",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "연소 다큐멘터리만 산소 제외",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "topic",
+            "mode": "required",
+            "label": "연소",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 2,
+                "quote": "연소"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "form",
+            "mode": "required",
+            "label": "다큐멘터리",
+            "sourceSpans": [
+              {
+                "start": 3,
+                "end": 9,
+                "quote": "다큐멘터리만"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "topic",
+            "mode": "excluded",
+            "label": "산소",
+            "sourceSpans": [
+              {
+                "start": 10,
+                "end": 15,
+                "quote": "산소 제외"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c1"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": []
+      }
+    },
+    {
+      "id": "Q07",
+      "query": "초등 5학년이 볼 10분 이내 자막 있는 화산 자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "초등 5학년이 볼 10분 이내 자막 있는 화산 자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "audience",
+            "mode": "context",
+            "label": "초등 5학년",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 6,
+                "quote": "초등 5학년"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "duration",
+            "mode": "required",
+            "label": "10분 이내",
+            "sourceSpans": [
+              {
+                "start": 10,
+                "end": 16,
+                "quote": "10분 이내"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "subtitles",
+            "mode": "required",
+            "label": "자막 있음",
+            "sourceSpans": [
+              {
+                "start": 17,
+                "end": 22,
+                "quote": "자막 있는"
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산",
+            "sourceSpans": [
+              {
+                "start": 23,
+                "end": 25,
+                "quote": "화산"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c4"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 6,
+            "end": 9,
+            "quote": "이 볼"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "quote": "자료"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q08",
+      "query": "다큐프라임이면 좋고 우리나라 화산 자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "다큐프라임이면 좋고 우리나라 화산 자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "program",
+            "mode": "preferred",
+            "label": "다큐프라임",
+            "sourceSpans": [
+              {
+                "start": 0,
+                "end": 10,
+                "quote": "다큐프라임이면 좋고"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "geography",
+            "mode": "required",
+            "label": "국내",
+            "sourceSpans": [
+              {
+                "start": 11,
+                "end": 15,
+                "quote": "우리나라"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산",
+            "sourceSpans": [
+              {
+                "start": 16,
+                "end": 18,
+                "quote": "화산"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c3"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 19,
+            "end": 21,
+            "quote": "자료"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q09",
+      "query": "이 지역의 지형 수업자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "이 지역의 지형 수업자료",
+        "status": "NEEDS_CLARIFICATION",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "topic",
+            "mode": "required",
+            "label": "지형",
+            "sourceSpans": [
+              {
+                "start": 6,
+                "end": 8,
+                "quote": "지형"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "purpose",
+            "mode": "context",
+            "label": "수업 활용",
+            "sourceSpans": [
+              {
+                "start": 9,
+                "end": 13,
+                "quote": "수업자료"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "ref",
+          "clauseId": "c1"
+        },
+        "expansions": [],
+        "unresolved": [
+          {
+            "sourceSpan": {
+              "start": 0,
+              "end": 4,
+              "quote": "이 지역"
+            },
+            "reason": "지시 대상이 요청에 없음",
+            "question": "어느 지역을 말하시나요?"
+          }
+        ],
+        "grammarSpans": [
+          {
+            "start": 4,
+            "end": 5,
+            "quote": "의"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q10",
+      "query": "🌋 우리나라 화산 지형 자료",
+      "provenance": "AGENT_AUTHORED_DEVELOPMENT_CASE",
+      "expected": {
+        "version": "curi-request-v1",
+        "originalQuery": "🌋 우리나라 화산 지형 자료",
+        "status": "READY",
+        "clauses": [
+          {
+            "id": "c1",
+            "kind": "geography",
+            "mode": "required",
+            "label": "국내",
+            "sourceSpans": [
+              {
+                "start": 3,
+                "end": 7,
+                "quote": "우리나라"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "kind": "topic",
+            "mode": "required",
+            "label": "화산 지형",
+            "sourceSpans": [
+              {
+                "start": 8,
+                "end": 13,
+                "quote": "화산 지형"
+              }
+            ]
+          }
+        ],
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "ref",
+              "clauseId": "c1"
+            },
+            {
+              "op": "ref",
+              "clauseId": "c2"
+            }
+          ],
+          "sourceSpans": []
+        },
+        "expansions": [],
+        "unresolved": [],
+        "grammarSpans": [
+          {
+            "start": 0,
+            "end": 2,
+            "quote": "🌋"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "quote": "자료"
+          }
+        ]
+      }
+    }
+  ]
+}

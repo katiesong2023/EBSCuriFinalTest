@@ -1,0 +1,1429 @@
+{
+  "checkedAt": "2026-10-15T15:33:36.532Z",
+  "samples": 16,
+  "totalCandidates": 44,
+  "evidenceQuotesChecked": 51,
+  "restoredIndependentResources": 2,
+  "emptyResources": [
+    {
+      "id": "BCAST-50097e29c7678df133ee",
+      "title": "전기가 어떻게 우리 집에 올까? 딩동"
+    }
+  ],
+  "paidApiCalls": 0,
+  "rows": [
+    {
+      "id": "BCAST-3225002c08823553e9cf",
+      "title": "자막갯벌의 방랑자들",
+      "searchQuery": "갯벌 생태계",
+      "summaryLength": 42,
+      "previous": [
+        "4과06-03",
+        "6사01-01"
+      ],
+      "related": [
+        {
+          "id": "4과06-03",
+          "score": 60,
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "coast",
+              "standardExpression": "갯벌"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 34,
+              "end": 36,
+              "quote": "갯벌"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 갯벌 / 같은 의미의 표현: 갯벌 / 자료 내용: 자료와 기준의 공통 소재: 갯벌 / 같은 의미의 표현: 갯벌",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "밀물과 썰물의 차이를 알고, 갯벌의 가치와 보전의 필요성을 설득⋅홍보할 수 있다."
+        }
+      ],
+      "contentLength": 52
+    },
+    {
+      "id": "BCAST-1ec3e5b4c8845d1b5031",
+      "title": "강화갯벌이 살아있는 까닭",
+      "searchQuery": "갯벌 생태계",
+      "summaryLength": 16,
+      "previous": [
+        "4과06-03",
+        "6사01-01"
+      ],
+      "related": [
+        {
+          "id": "4과06-03",
+          "score": 60,
+          "matchedTerms": [
+            "갯벌"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "coast",
+              "standardExpression": "갯벌"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 5,
+              "end": 7,
+              "quote": "갯벌"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 갯벌 / 같은 의미의 표현: 갯벌 / 자료 내용: 자료와 기준의 공통 소재: 갯벌 / 같은 의미의 표현: 갯벌",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "밀물과 썰물의 차이를 알고, 갯벌의 가치와 보전의 필요성을 설득⋅홍보할 수 있다."
+        }
+      ],
+      "contentLength": 29
+    },
+    {
+      "id": "BCAST-c758a0cc89b6305a56c0",
+      "title": "기후변화 특집 히말라야 대재앙 빙하 쓰나미",
+      "searchQuery": "기후 변화",
+      "summaryLength": 293,
+      "previous": [
+        "6사02-01",
+        "6사10-02",
+        "4과16-01",
+        "4과16-02",
+        "4과16-03",
+        "9사(지리)03-02",
+        "4사10-02",
+        "6사02-02"
+      ],
+      "related": [
+        {
+          "id": "4과16-01",
+          "score": 49,
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "title",
+              "start": 0,
+              "end": 4,
+              "quote": "기후변화"
+            },
+            {
+              "field": "summary",
+              "start": 163,
+              "end": 168,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 기후 변화 / 자료 내용: 자료와 기준의 공통 소재: 기후변화 / 같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 25,
+          "searchScore": 12,
+          "standardText": "기후변화 현상의 예를 알고, 기후변화가 인간의 활동과 관련되어 있음을 토의할 수 있다."
+        },
+        {
+          "id": "4과16-02",
+          "score": 49,
+          "matchedTerms": [
+            "기후변화"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "title",
+              "start": 0,
+              "end": 4,
+              "quote": "기후변화"
+            },
+            {
+              "field": "summary",
+              "start": 163,
+              "end": 168,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 기후 변화 / 자료 내용: 자료와 기준의 공통 소재: 기후변화 / 같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 25,
+          "searchScore": 12,
+          "standardText": "기후변화의 심각성에 관심을 가지고, 기후변화가 우리 생활과 환경에 미치는 영향을 설명할 수 있다."
+        },
+        {
+          "id": "6사10-02",
+          "score": 24,
+          "matchedTerms": [
+            "기후"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 163,
+              "end": 165,
+              "quote": "기후"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 기후 / 자료 내용: 자료와 기준의 공통 소재: 기후",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 8,
+          "standardText": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다."
+        }
+      ],
+      "contentLength": 316
+    },
+    {
+      "id": "BCAST-e62e352286bfdf0e7886",
+      "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+      "searchQuery": "기후 변화",
+      "summaryLength": 179,
+      "previous": [
+        "6사10-02",
+        "6사02-01",
+        "4과16-02",
+        "4과16-01",
+        "4과16-03",
+        "9사(지리)03-02",
+        "4과11-04",
+        "6과06-01"
+      ],
+      "related": [
+        {
+          "id": "6사02-01",
+          "score": 60,
+          "matchedTerms": [
+            "기후"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 15,
+              "quote": "기후"
+            },
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 18,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 기후 / 같은 의미의 표현: 기후 변화 / 자료 내용: 자료와 기준의 공통 소재: 기후 / 같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "우리나라의 계절별 기후 특징을 자료에서 탐구하고, 기후변화로 인한 자연재해의 심각성을 이해한다."
+        },
+        {
+          "id": "4과16-01",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 18,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 기후 변화 / 자료 내용: 같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "기후변화 현상의 예를 알고, 기후변화가 인간의 활동과 관련되어 있음을 토의할 수 있다."
+        },
+        {
+          "id": "4과16-02",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 18,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 기후 변화 / 자료 내용: 같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "기후변화의 심각성에 관심을 가지고, 기후변화가 우리 생활과 환경에 미치는 영향을 설명할 수 있다."
+        },
+        {
+          "id": "6사10-02",
+          "score": 24,
+          "matchedTerms": [
+            "기후"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 15,
+              "quote": "기후"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 기후 / 자료 내용: 자료와 기준의 공통 소재: 기후",
+          "ruleSupported": false,
+          "contentScore": 8,
+          "searchScore": 8,
+          "standardText": "세계의 다양한 기후를 알아보고 기후 환경과 인간생활 간의 관계를 탐구한다."
+        },
+        {
+          "id": "4과11-04",
+          "score": 40,
+          "matchedTerms": [
+            "화산",
+            "지진"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "earthquake",
+              "standardExpression": "지진"
+            },
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 159,
+              "end": 161,
+              "quote": "화산"
+            },
+            {
+              "field": "summary",
+              "start": 150,
+              "end": 152,
+              "quote": "지진"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 화산 · 지진 / 같은 의미의 표현: 지진 · 화산",
+          "ruleSupported": false,
+          "contentScore": 40,
+          "searchScore": 0,
+          "standardText": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다."
+        },
+        {
+          "id": "4과11-02",
+          "score": 20,
+          "matchedTerms": [
+            "화산"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 159,
+              "end": 161,
+              "quote": "화산"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다."
+        },
+        {
+          "id": "4과16-03",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "climate",
+              "standardExpression": "기후 변화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 13,
+              "end": 18,
+              "quote": "기후 변화"
+            }
+          ],
+          "reason": "같은 의미의 표현: 기후 변화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "기후변화 대응 방법을 조사하고, 생활 속에서 기후변화 대응 방법을 실천할 수 있다."
+        }
+      ],
+      "contentLength": 225
+    },
+    {
+      "id": "BCAST-6bf85a6bbbea59cc5bba",
+      "title": "민주주의 1부 시민의 권력의지",
+      "searchQuery": "민주주의",
+      "summaryLength": 44,
+      "previous": [
+        "9사(일사)03-03",
+        "9사(일사)04-03",
+        "4사08-01",
+        "4사08-02",
+        "6사08-03",
+        "9사(일사)03-01",
+        "9사(일사)03-02",
+        "6사08-01"
+      ],
+      "related": [
+        {
+          "id": "9사(일사)03-01",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의 의미와 필요성을 도출한다."
+        },
+        {
+          "id": "9사(일사)03-02",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "민주주의의 발전 과정을 검토하고, 이를 토대로 민주주의의 이념과 기본 원리를 도출한다."
+        },
+        {
+          "id": "9사(일사)03-03",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "현대 민주주의의 특징과 과제를 검토하고, 우리나라 민주주의의 발전을 위한 제도적 방안과 시민의 역할에 대해 토의한다."
+        }
+      ],
+      "contentLength": 60
+    },
+    {
+      "id": "BCAST-ce98e55c1c58597bfca3",
+      "title": "민주주의 4부 기업과 민주주의",
+      "searchQuery": "민주주의",
+      "summaryLength": 44,
+      "previous": [
+        "4사08-01",
+        "4사08-02",
+        "6사08-03",
+        "9사(일사)03-01",
+        "9사(일사)03-02",
+        "9사(일사)03-03",
+        "9사(일사)04-03",
+        "6사08-01"
+      ],
+      "related": [
+        {
+          "id": "9사(일사)03-01",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의 의미와 필요성을 도출한다."
+        },
+        {
+          "id": "9사(일사)03-02",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "민주주의의 발전 과정을 검토하고, 이를 토대로 민주주의의 이념과 기본 원리를 도출한다."
+        },
+        {
+          "id": "9사(일사)03-03",
+          "score": 60,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 8,
+              "end": 12,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의 / 자료 내용: 자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "현대 민주주의의 특징과 과제를 검토하고, 우리나라 민주주의의 발전을 위한 제도적 방안과 시민의 역할에 대해 토의한다."
+        },
+        {
+          "id": "6사11-01",
+          "score": 13,
+          "matchedTerms": [
+            "기업"
+          ],
+          "semanticMatches": [],
+          "evidence": [
+            {
+              "field": "title",
+              "start": 8,
+              "end": 10,
+              "quote": "기업"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 기업",
+          "ruleSupported": false,
+          "contentScore": 13,
+          "searchScore": 0,
+          "standardText": "시장경제에서 가계와 기업의 역할을 이해하고, 근로자의 권리와 기업의 자유 및 사회적 책임을 탐색한다."
+        }
+      ],
+      "contentLength": 60
+    },
+    {
+      "id": "PDLOG-048",
+      "title": "다 함께 자라요, 다문화 초등 교실",
+      "searchQuery": "다문화",
+      "summaryLength": 203,
+      "previous": [
+        "9사(지리)02-02",
+        "6사12-02"
+      ],
+      "related": [
+        {
+          "id": "4사03-02",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "cultural-diversity",
+              "standardExpression": "다양한 문화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 61,
+              "end": 64,
+              "quote": "다문화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 다양한 문화 / 자료 내용: 같은 의미의 표현: 다양한 문화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다."
+        },
+        {
+          "id": "9사(일사)02-03",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "cultural-diversity",
+              "standardExpression": "다양한 문화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 61,
+              "end": 64,
+              "quote": "다문화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 다양한 문화 / 자료 내용: 같은 의미의 표현: 다양한 문화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "여러 집단에서 나타나는 다양한 문화 사례들을 조사하고, 문화를 이해하는 바람직한 태도에 대하여 토의한다."
+        }
+      ],
+      "contentLength": 222
+    },
+    {
+      "id": "BCAST-0da6153d0ef4a3c2caa0",
+      "title": "윌 킴리카 - 다문화 사회가 왔다 4강 다문화 민족국가는 가능한가",
+      "searchQuery": "다문화",
+      "summaryLength": 215,
+      "previous": [
+        "9사(지리)02-02",
+        "4사02-02",
+        "6사03-01",
+        "6사03-02",
+        "9사(일사)06-01",
+        "4사08-01",
+        "4사08-02",
+        "6사08-03"
+      ],
+      "related": [
+        {
+          "id": "4사03-02",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "cultural-diversity",
+              "standardExpression": "다양한 문화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 143,
+              "end": 146,
+              "quote": "다문화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 다양한 문화 / 자료 내용: 같은 의미의 표현: 다양한 문화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "우리 사회에 다양한 문화가 확산되면서 나타나는 긍정적 효과와 문제를 분석하고, 나와 다른 사람이나 집단의 문화를 존중하는 태도를 기른다."
+        },
+        {
+          "id": "9사(일사)02-03",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "cultural-diversity",
+              "standardExpression": "다양한 문화"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 143,
+              "end": 146,
+              "quote": "다문화"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 다양한 문화 / 자료 내용: 같은 의미의 표현: 다양한 문화",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "여러 집단에서 나타나는 다양한 문화 사례들을 조사하고, 문화를 이해하는 바람직한 태도에 대하여 토의한다."
+        },
+        {
+          "id": "9사(일사)03-01",
+          "score": 20,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 12,
+              "end": 16,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "공동체 생활에 필요한 정치의 역할을 탐색하고, 다양한 정치 사례를 통해 민주주의의 의미와 필요성을 도출한다."
+        },
+        {
+          "id": "9사(일사)03-02",
+          "score": 20,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 12,
+              "end": 16,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "민주주의의 발전 과정을 검토하고, 이를 토대로 민주주의의 이념과 기본 원리를 도출한다."
+        },
+        {
+          "id": "9사(일사)03-03",
+          "score": 20,
+          "matchedTerms": [
+            "민주주의"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "democracy",
+              "standardExpression": "민주주의"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 12,
+              "end": 16,
+              "quote": "민주주의"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 민주주의 / 같은 의미의 표현: 민주주의",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "현대 민주주의의 특징과 과제를 검토하고, 우리나라 민주주의의 발전을 위한 제도적 방안과 시민의 역할에 대해 토의한다."
+        }
+      ],
+      "contentLength": 251
+    },
+    {
+      "id": "BCAST-2d093401c6622a3a2018",
+      "title": "어느 독립운동가 부부의 일기",
+      "searchQuery": "독립운동",
+      "summaryLength": 94,
+      "previous": [],
+      "related": [
+        {
+          "id": "6사06-01",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "anti-colonial",
+              "standardExpression": "일제의 식민 통치"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 22,
+              "end": 26,
+              "quote": "독립운동"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 일제의 식민 통치 / 자료 내용: 같은 의미의 표현: 일제의 식민 통치",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다."
+        }
+      ],
+      "contentLength": 109
+    },
+    {
+      "id": "BCAST-468ae4bf5265da1006aa",
+      "title": "또 하나의 독립운동 - 2부 나라를 구하는데 귀천은 없다!",
+      "searchQuery": "독립운동",
+      "summaryLength": 50,
+      "previous": [],
+      "related": [
+        {
+          "id": "6사06-01",
+          "score": 36,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "anti-colonial",
+              "standardExpression": "일제의 식민 통치"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 3,
+              "end": 7,
+              "quote": "독립운동"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 일제의 식민 통치 / 자료 내용: 같은 의미의 표현: 일제의 식민 통치",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 12,
+          "standardText": "일제의 식민 통치와 이에 대한 저항이 사회와 생활에 미친 영향을 이해한다."
+        }
+      ],
+      "contentLength": 82
+    },
+    {
+      "id": "BCAST-2f3a535e0d4903c63a21",
+      "title": "자막겨울, 몸속 노폐물 배출에 도움 주는 ‘해조류’",
+      "searchQuery": "인체",
+      "summaryLength": 223,
+      "previous": [
+        "6과04-03",
+        "6과04-02",
+        "4과06-01",
+        "4과05-01",
+        "4과05-02",
+        "4과05-03",
+        "6과14-01",
+        "6과14-02"
+      ],
+      "related": [
+        {
+          "id": "6과04-03",
+          "score": 76,
+          "matchedTerms": [
+            "건강"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "body",
+              "standardExpression": "우리 몸"
+            },
+            {
+              "concept": "body-health",
+              "standardExpression": "우리 몸"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 100,
+              "end": 102,
+              "quote": "건강"
+            },
+            {
+              "field": "summary",
+              "start": 19,
+              "end": 21,
+              "quote": "몸속"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 우리 몸 · 우리 몸 / 자료 내용: 자료와 기준의 공통 소재: 건강 / 같은 의미의 표현: 우리 몸 · 우리 몸",
+          "ruleSupported": false,
+          "contentScore": 28,
+          "searchScore": 24,
+          "standardText": "우리 몸의 여러 기관과 관련된 질병을 조사하고, 건강을 유지하기 위한 생활 방식을 실천할 수 있다."
+        },
+        {
+          "id": "6과04-02",
+          "score": 72,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "body",
+              "standardExpression": "우리 몸"
+            },
+            {
+              "concept": "body-health",
+              "standardExpression": "우리 몸"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 19,
+              "end": 21,
+              "quote": "몸속"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 우리 몸 · 우리 몸 / 자료 내용: 같은 의미의 표현: 우리 몸 · 우리 몸",
+          "ruleSupported": false,
+          "contentScore": 24,
+          "searchScore": 24,
+          "standardText": "소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 우리 몸의 여러 기관이 서로 관련되어 있음을 설명할 수 있다."
+        },
+        {
+          "id": "4과08-01",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "body-health",
+              "standardExpression": "질병"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 19,
+              "end": 21,
+              "quote": "몸속"
+            }
+          ],
+          "reason": "같은 의미의 표현: 질병",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "생활 속 감염병의 사례를 알고, 다양한 질병과 그 위험성에 대해 토의할 수 있다."
+        },
+        {
+          "id": "4과08-03",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "body-health",
+              "standardExpression": "건강"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 19,
+              "end": 21,
+              "quote": "몸속"
+            }
+          ],
+          "reason": "같은 의미의 표현: 건강",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "건강한 생활을 위해 필요한 감염병 예방 수칙을 공유하고, 생활 속에서 실천할 수 있다."
+        }
+      ],
+      "contentLength": 251
+    },
+    {
+      "id": "BCAST-fec3234717c50a22d199",
+      "title": "내 몸속의 돌, 결석",
+      "searchQuery": "인체",
+      "summaryLength": 99,
+      "previous": [
+        "6과04-02",
+        "6과04-03",
+        "4사10-02",
+        "6사02-02",
+        "6사12-01",
+        "9사(지리)02-03",
+        "9사(지리)05-02"
+      ],
+      "related": [
+        {
+          "id": "6과04-02",
+          "score": 72,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "body",
+              "standardExpression": "우리 몸"
+            },
+            {
+              "concept": "body-health",
+              "standardExpression": "우리 몸"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 27,
+              "end": 29,
+              "quote": "몸속"
+            },
+            {
+              "field": "summary",
+              "start": 34,
+              "end": 38,
+              "quote": "요로결석"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 우리 몸 · 우리 몸 / 자료 내용: 같은 의미의 표현: 우리 몸 · 우리 몸",
+          "ruleSupported": false,
+          "contentScore": 24,
+          "searchScore": 24,
+          "standardText": "소화, 순환, 호흡, 배설 기관의 구조와 기능을 알아보고, 우리 몸의 여러 기관이 서로 관련되어 있음을 설명할 수 있다."
+        },
+        {
+          "id": "6과04-03",
+          "score": 72,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "body",
+              "standardExpression": "우리 몸"
+            },
+            {
+              "concept": "body-health",
+              "standardExpression": "우리 몸"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 27,
+              "end": 29,
+              "quote": "몸속"
+            },
+            {
+              "field": "summary",
+              "start": 34,
+              "end": 38,
+              "quote": "요로결석"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 같은 의미의 표현: 우리 몸 · 우리 몸 / 자료 내용: 같은 의미의 표현: 우리 몸 · 우리 몸",
+          "ruleSupported": false,
+          "contentScore": 24,
+          "searchScore": 24,
+          "standardText": "우리 몸의 여러 기관과 관련된 질병을 조사하고, 건강을 유지하기 위한 생활 방식을 실천할 수 있다."
+        }
+      ],
+      "contentLength": 110
+    },
+    {
+      "id": "BCAST-c55fce5d55a4c0af8b22",
+      "title": "화산은 왜 폭발할까?",
+      "searchQuery": "화산",
+      "summaryLength": 89,
+      "previous": [
+        "4과11-02",
+        "4과11-04"
+      ],
+      "related": [
+        {
+          "id": "4과11-02",
+          "score": 60,
+          "matchedTerms": [
+            "화산"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 40,
+              "end": 42,
+              "quote": "화산"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산 / 자료 내용: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다."
+        },
+        {
+          "id": "4과11-04",
+          "score": 60,
+          "matchedTerms": [
+            "화산"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 40,
+              "end": 42,
+              "quote": "화산"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산 / 자료 내용: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다."
+        }
+      ],
+      "contentLength": 100
+    },
+    {
+      "id": "BCAST-af19741ff313f1c6f411",
+      "title": "화산 곁에 사는 이유",
+      "searchQuery": "화산",
+      "summaryLength": 90,
+      "previous": [
+        "4과11-02",
+        "4과11-04",
+        "4과14-01",
+        "4과14-03",
+        "6과14-04",
+        "4사10-02",
+        "6사02-02",
+        "6사12-01"
+      ],
+      "related": [
+        {
+          "id": "4과11-02",
+          "score": 60,
+          "matchedTerms": [
+            "화산"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 58,
+              "end": 60,
+              "quote": "화산"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산 / 자료 내용: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "화산의 의미와 화산 활동으로 나오는 물질을 알고, 화산 활동을 모형으로 표현할 수 있다."
+        },
+        {
+          "id": "4과11-04",
+          "score": 60,
+          "matchedTerms": [
+            "화산"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "volcano",
+              "standardExpression": "화산"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 58,
+              "end": 60,
+              "quote": "화산"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산 / 자료 내용: 자료와 기준의 공통 소재: 화산 / 같은 의미의 표현: 화산",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20,
+          "standardText": "화산 활동과 지진이 우리 생활에 미치는 영향을 조사하여, 대처 방법을 실천할 수 있다."
+        },
+        {
+          "id": "4과14-01",
+          "score": 20,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 69,
+              "end": 72,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "생태계의 구성 요소를 조사하여 생물 요소와 비생물 요소로 분류할 수 있다."
+        },
+        {
+          "id": "4과14-03",
+          "score": 20,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 69,
+              "end": 72,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 0,
+          "standardText": "인간 활동이 생태계에 미치는 영향을 조사하고, 생태계 보전을 위해 우리가 할 수 있는 일을 토의하여 실천할 수 있다."
+        }
+      ],
+      "contentLength": 101
+    },
+    {
+      "id": "BCAST-35d03677c15100e1bb42",
+      "title": "32화_전기와 자기, 어떻게 하나가 되었나?",
+      "searchQuery": "전기",
+      "summaryLength": 142,
+      "previous": [
+        "6과15-01",
+        "6과15-02",
+        "6과15-04",
+        "6과08-02",
+        "6과08-03",
+        "4과01-01",
+        "4과01-04",
+        "9과05-01"
+      ],
+      "related": [
+        {
+          "id": "4과09-01",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "electric-magnet",
+              "standardExpression": "자석"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 125,
+              "end": 129,
+              "quote": "전자기학"
+            }
+          ],
+          "reason": "같은 의미의 표현: 자석",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "자석과 여러 가지 물체를 가까이했을 때 나타나는 현상을 관찰하고, 자석과 자석에 붙는 물체 사이에 작용하는 힘의 특징을 말할 수 있다."
+        },
+        {
+          "id": "4과09-02",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "electric-magnet",
+              "standardExpression": "자석"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 125,
+              "end": 129,
+              "quote": "전자기학"
+            }
+          ],
+          "reason": "같은 의미의 표현: 자석",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "자석과 자석을 가까이했을 때 나타나는 현상을 관찰하여 그 특징을 자석의 극과 관련지어 설명할 수 있다."
+        },
+        {
+          "id": "4과09-03",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "electric-magnet",
+              "standardExpression": "자석"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 125,
+              "end": 129,
+              "quote": "전자기학"
+            }
+          ],
+          "reason": "같은 의미의 표현: 자석",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "자석을 이용하여 일상생활을 편리하게 하는 장치를 설계할 수 있다."
+        },
+        {
+          "id": "6과15-03",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "electric-magnet",
+              "standardExpression": "전자석"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 125,
+              "end": 129,
+              "quote": "전자기학"
+            }
+          ],
+          "reason": "같은 의미의 표현: 전자석",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0,
+          "standardText": "전자석을 만들어 전자석의 성질을 탐색하고 전자석이 사용되는 예를 조사할 수 있다."
+        }
+      ],
+      "contentLength": 166
+    },
+    {
+      "id": "BCAST-50097e29c7678df133ee",
+      "title": "전기가 어떻게 우리 집에 올까? 딩동",
+      "searchQuery": "전기",
+      "summaryLength": 74,
+      "previous": [
+        "6과15-01",
+        "6과15-02",
+        "6과15-04",
+        "6과08-02",
+        "6과08-03"
+      ],
+      "related": [],
+      "contentLength": 94
+    }
+  ]
+}

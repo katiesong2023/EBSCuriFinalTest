@@ -1,0 +1,496 @@
+{
+  "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+  "checkedAt": "2026-10-16T06:19:17.980Z",
+  "total": 8,
+  "countScope": "건수는 이번 의미 검색에서 원문 조건을 확인한 후보의 판본 묶음 기준이며 전체 보유 자료의 일치 총수는 아닙니다. 필터는 확인된 후보 안에서 적용합니다.",
+  "proposedLessonFolder": "생물의 먹이 관계",
+  "fileName": "검색검사_03_생물관계.json",
+  "recommendedCurriculum": {
+    "displayId": "[과학]4과14-02",
+    "schoolLevel": "초등학교",
+    "gradeBand": "3~4학년군",
+    "officialGradeLabel": "초등학교 3~4학년",
+    "courseId": "elementary34",
+    "subject": "과학",
+    "subjectArea": "과학",
+    "unitNo": "14",
+    "unitTitle": "생물과 환경",
+    "achievementStandardId": "4과14-02",
+    "achievementStandard": "생물 요소들의 먹고 먹히는 관계를 조사하여 먹이그물로 표현할 수 있다.",
+    "connectionReason": "습지의 생물 관계와 곤충의 먹이 관계를 비교 관찰하고 먹이그물로 표현하는 활동에 활용. 습지의 먹이 관계는 공식 보조 원문에서도 확인했다. 먹이그물 작성 활동은 별도 설계.",
+    "connectionStatus": "개인 수업 연결 제안·기준 전체 충족/연계 승인/영상 적합성 확정 아님"
+  },
+  "selectedEpisodes": [
+    {
+      "id": "BCAST-cf6767d667fe2fb14a5a",
+      "program": "하나뿐인 지구",
+      "title": "습지 생명을 품다",
+      "summary": "자막습지의 다양한 생물들을 통해 습지의 생태계를 살펴본다",
+      "broadcastDate": "2015-11-06",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10402430",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      },
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10402430",
+      "sourceSupplements": [
+        {
+          "id": "36777d4e86c9ac0d5c6560ee",
+          "type": "PRESS_RELEASE",
+          "label": "EBS 공식 보도자료",
+          "title": "생명력 넘치는 습지 이야기, 하나뿐인지구-습지, 생명을 품다 (6일 저녁 8시 50분, EBS1)",
+          "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10002235735",
+          "publishedAt": "2015-11-05",
+          "checkedAt": "2026-10-15T02:47:39.614Z",
+          "identity": {
+            "resourceId": "BCAST-cf6767d667fe2fb14a5a",
+            "title": "습지 생명을 품다",
+            "program": "하나뿐인 지구",
+            "broadcastDate": "2015-11-06",
+            "variant": "EPISODE",
+            "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10402430"
+          },
+          "identityEvidence": [
+            "습지, 생명을 품다",
+            "하나뿐인 지구",
+            "2015-11-05"
+          ],
+          "text": "EBS1 하나뿐인 지구 습지, 생명을 품다 고요하고 신비로운 물의 세계, 습지. 그 안, 우리가 몰랐던 습지 이야기를 만나본다. 논병아리 가족의 아주 특별한 가족애에서부터 곤충들의 먹고 먹히는 치열한 생존경쟁까지 생명력 넘쳤던 습지 이야기를 공개한다. *방송일시 : 2015년 11월 6일 (금) 저녁 8시 50분 갈대, 습지를 살리다! 습지의 물은 고여 있고 흐르지 않는다. 그렇다면 어떻게 습지의 물은 썩지 않을 수 있을까? 그 이유는 바로 습지의 수생식물 덕분이다. 갈대를 비롯한 수생식물들은 습지의 유기물을 흡수하고 산소를 공급해주는 역할을 한다. 습지는 갈대를 품고, 갈대는 습지가 유지될 수 있게 물을 정화시켜준다. 놀라운 습지의 자정능력! 그 해답은 바로 수생식물에 있었다. 고요한 모습 뒤 감춰진 습지의 치열한 생존경쟁! 습지 속 다양한 생물들은 오늘도 살기 위해 고군분투 중이다. 개구리는 포식자를 피하기 위해 보호색으로 자신의 모습을 숨기고, 곤충들은 더 나아가 주변의 환경과 비슷한 모습을 하고 꼼짝 않는다. 단 한 번의 실수도 용납되지 않는다. 먹고 먹히는 습지의 치열한 생존경쟁! 생명력으로 요동쳤던 습지의 모습을 지금 공개한다! 습지 생물들의 각별한 자식 사랑! 새들만큼 가족애가 유별난 동물이 또 있을까? 어미 새는 새끼가 성장할 때까지 제 한 몸 바쳐 새들은 새끼를 키워낸다. 비가 오늘 날이면 제 몸으로 비를 막아 새끼를 보호하고, 쉴 새 없이 먹이를 물어다주고 배설물을 치워준다. 심지어 논병아리는 새끼가 성장할 때까지 등에 업고 다닌다. 인간 못지않은 새들의 놀라운 자식 사랑! 그 훈훈했던 현장을 찾아가본다. * 관련 사진은 EBS 홈페이지-온에어-오늘의 TV 섹션, 해당 방송 날짜에 있습니다. -끝-",
+          "location": ".view_cont1 본문 시작~861 UTF-16; 제목·프로그램 일치, 목록 방송일-게시일 1일 (게시 전후/시리즈 공지 최대14일 대조)",
+          "originalStart": 130,
+          "originalEnd": 991,
+          "offsetUnit": "UTF16_CODE_UNIT",
+          "responseHash": "ddec850330a50b2302888e698c84015026aafd8cf47d8d66cba79c9dfabbaad0",
+          "contentHash": "ee2c49fc872f0a00df39f83008acb3a1a0dc6425cfdb70bffceda2d6b2d045e4",
+          "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+        }
+      ],
+      "requestedStandardAutomaticallySuggested": false,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "4과14-01",
+          "score": 60,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 22,
+              "end": 25,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계 / 자료 내용: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "4과14-03",
+          "score": 60,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 22,
+              "end": 25,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계 / 자료 내용: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "3ba8e3f30069e536bbda5701b992243802c8e2a9b5e4f9fae0f7cf8a6daa8ccc",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "생태계에서 다양한 생물 사이의 관계를 보여준다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 31,
+                "quote": "자막습지의 다양한 생물들을 통해 습지의 생태계를 살펴본다",
+                "text": "자막습지의 다양한 생물들을 통해 습지의 생태계를 살펴본다",
+                "score": 7,
+                "id": 1
+              },
+              {
+                "field": "sourceSupplement",
+                "supplementId": "36777d4e86c9ac0d5c6560ee",
+                "start": 72,
+                "end": 140,
+                "quote": "논병아리 가족의 아주 특별한 가족애에서부터 곤충들의 먹고 먹히는 치열한 생존경쟁까지 생명력 넘쳤던 습지 이야기를 공개한다.",
+                "text": "논병아리 가족의 아주 특별한 가족애에서부터 곤충들의 먹고 먹히는 치열한 생존경쟁까지 생명력 넘쳤던 습지 이야기를 공개한다.",
+                "score": 1,
+                "id": 3
+              },
+              {
+                "field": "sourceSupplement",
+                "supplementId": "36777d4e86c9ac0d5c6560ee",
+                "start": 311,
+                "end": 350,
+                "quote": "습지는 갈대를 품고, 갈대는 습지가 유지될 수 있게 물을 정화시켜준다.",
+                "text": "습지는 갈대를 품고, 갈대는 습지가 유지될 수 있게 물을 정화시켜준다.",
+                "score": 1,
+                "id": 5
+              },
+              {
+                "field": "sourceSupplement",
+                "supplementId": "36777d4e86c9ac0d5c6560ee",
+                "start": 590,
+                "end": 608,
+                "quote": "습지 생물들의 각별한 자식 사랑!",
+                "text": "습지 생물들의 각별한 자식 사랑!",
+                "score": 1,
+                "id": 6
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "다큐멘터리 형식이다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 9,
+                "field": "derivedGenre",
+                "text": "자료 형식: 다큐멘터리",
+                "value": [
+                  "다큐멘터리"
+                ]
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    },
+    {
+      "id": "BCAST-15fd00a3f3bb3a86637d",
+      "program": "EBS 다큐프라임",
+      "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+      "summary": "어디에선가 조용히 우리가 사는 세상을 만들어가는 존재들, 곤충. 곤충의 일생은 인간에 비해 슬프도록 짧지만, 그 생애 안에는 우주의 모든 원리가 투영된다. 곤충들에게는 각자 삶의 터인 무대가 있다. 땅 아래, 나무 위에, 또 작은 나뭇잎 하나에도 곤충은 존재한다. 그 무대에서 펼쳐지는 곤충들의 먹고 먹히는 관계를 넘어 다양한 곤충들의 삶을 지혜를 생생하게 보여준다.지금 우리 주변에 흔하게 살고 있는 곤충은, 지구 역사의 오랜 수수께끼들을 품고 있는 신비로운 존재다. 그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다. 그동안 곤충을 익충과 해충으로 나누는 이분법적 논리에서 벗어나 인간이 곤충과 함께 살아가는 방법에 대해 생각해보는 시간을 마련한다.□ 주요 곤충- 양서류 천적, 큰노란테먼지벌레- 개미와의 동거, 쌍꼬리부전나비- 의태의 달인, 이끼개미귀신- 신비한 늦반딧불이- 확률 게임 도전 남가뢰",
+      "broadcastDate": "2014-01-07",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      },
+      "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+      "sourceSupplements": [],
+      "requestedStandardAutomaticallySuggested": true,
+      "suggestionMethod": "LOCAL_CONTENT_MEANING",
+      "automaticCandidates": [
+        {
+          "id": "4과14-01",
+          "score": 60,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 284,
+              "end": 287,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계 / 자료 내용: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "4과14-03",
+          "score": 60,
+          "matchedTerms": [
+            "생태계"
+          ],
+          "semanticMatches": [
+            {
+              "concept": "ecosystem",
+              "standardExpression": "생태계"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 284,
+              "end": 287,
+              "quote": "생태계"
+            }
+          ],
+          "reason": "자료를 찾은 검색어와 관련: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계 / 자료 내용: 자료와 기준의 공통 소재: 생태계 / 같은 의미의 표현: 생태계",
+          "ruleSupported": false,
+          "contentScore": 20,
+          "searchScore": 20
+        },
+        {
+          "id": "4과14-02",
+          "score": 12,
+          "matchedTerms": [],
+          "semanticMatches": [
+            {
+              "concept": "food-web",
+              "standardExpression": "먹이그물"
+            }
+          ],
+          "evidence": [
+            {
+              "field": "summary",
+              "start": 165,
+              "end": 171,
+              "quote": "먹고 먹히는"
+            }
+          ],
+          "reason": "같은 의미의 표현: 먹이그물",
+          "ruleSupported": false,
+          "contentScore": 12,
+          "searchScore": 0
+        }
+      ],
+      "semanticConditionReview": {
+        "profile": "1fd77397430e6f5be54b09ef103cd5e33a6d3ec97de3e605fdbeba956c914c23",
+        "sourceFingerprint": "c041c673f7994e80d8e65e6f8ea3c221678149eeb7f66210f1afddb45d397c61",
+        "conditions": [
+          {
+            "anchors": [
+              0
+            ],
+            "meaning": "생태계에서 다양한 생물 사이의 관계를 보여준다.",
+            "kind": "content",
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 148,
+                "end": 205,
+                "quote": "그 무대에서 펼쳐지는 곤충들의 먹고 먹히는 관계를 넘어 다양한 곤충들의 삶을 지혜를 생생하게 보여준다.",
+                "text": "그 무대에서 펼쳐지는 곤충들의 먹고 먹히는 관계를 넘어 다양한 곤충들의 삶을 지혜를 생생하게 보여준다.",
+                "score": 11,
+                "id": 1
+              },
+              {
+                "field": "summary",
+                "start": 263,
+                "end": 311,
+                "quote": "그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다.",
+                "text": "그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다.",
+                "score": 2,
+                "id": 2
+              }
+            ]
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "meaning": "다큐멘터리 형식이다.",
+            "kind": "format",
+            "evidence": [
+              {
+                "id": 9,
+                "field": "derivedGenre",
+                "text": "자료 형식: 다큐멘터리",
+                "value": [
+                  "다큐멘터리"
+                ]
+              }
+            ]
+          }
+        ],
+        "presentation": "general",
+        "status": "ALL_ANCHORED_CONDITIONS_TEXT_SUPPORTED"
+      }
+    }
+  ],
+  "allReturnedEpisodes": [
+    {
+      "id": "BCAST-386650585bd5c99e533c",
+      "program": "EBS 다큐프라임",
+      "title": "비밀의 왕국 2부 위험한 동거",
+      "summary": "개미 왕국에 의지해 살아가는 호개미성 곤충들의 이야기. 개미집꽃등에, 개미집귀꾸라미  등 개미 왕국에 버부살이하는 곤충들의 공생과 기생 관계를 추적한다",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055826&lectId=20042965",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-10-15T02:51:01.338Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-cd0c078e7a1571114665",
+      "program": "EBS 다큐프라임",
+      "title": "곤충 밀리미터의 세계 1부 위대한 생존 전략",
+      "summary": "집 밖으로 나가 들이나 공원에 가면, 지구 역사상 가장 위대한 생명체를 만날 수 있다. 수억 년 동안 지구의 주인이었던 아주 작은 생존자, 바로 곤충이다. 4억만 년 전 지구상에 나타난 곤충들이 멸종하지 않고 지금까지 살아남을 수 있었던 생존 기술과 전략을 탐구한다.자기 몸보다 큰 개구리를 살아있는 채로 잡아먹는 큰노랑테먼지벌레, 척박한 이끼 속에서 이끼로 위장하고 사냥감을 기다리는 이끼개미귀신, 개미와 동거하는 쌍꼬리부전나비 애벌레 등의 곤충들은 기발하면서도 때로는 잔인하다고 느껴질 만큼 극적인 사냥술과 생존전략을 구사한다.또 숙명적인 ‘천적’이라는 구도와 관계 속에서 진화해온 곤충들의 생존전략 속에서 발견하는 ‘공존’과 ‘공생’의 메시지는 신선한 충격으로 다가올 것이다.",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182340",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    },
+    {
+      "id": "BCAST-52add5515810a0979368",
+      "program": "EBS 다큐프라임",
+      "title": "<생명의 전략, 기생> 제1부 - 나는 너로 인해 완성된다",
+      "summary": "인간의 입장에서가 아니라 기생생물, 바이러스의 입장에서 고찰한 기생생물의 생존방식을 고찰하는 다큐멘터리",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055761&lectId=60315447",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    },
+    {
+      "id": "BCAST-fdebb738780220746825",
+      "program": "하나뿐인 지구",
+      "title": "벌레의 침공 해충이 몰려온다",
+      "summary": "자막온난화 등에 따른 해충의 피해에 대해 알아본다",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3112808",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    },
+    {
+      "id": "BCAST-cf6767d667fe2fb14a5a",
+      "program": "하나뿐인 지구",
+      "title": "습지 생명을 품다",
+      "summary": "자막습지의 다양한 생물들을 통해 습지의 생태계를 살펴본다",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10402430",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    },
+    {
+      "id": "BCAST-b35d0be0fa6ebdb063ed",
+      "program": "EBS 다큐프라임",
+      "title": "기생 1부 - 보이지 않는 손",
+      "summary": "한 숙주의 몸에서 평생을 사는 기생충도 있지만 숙주를 옮겨가며 생활사를 이어가는 기생충도 많다. 다음단계의 숙주로 옮겨가지 못할 경우 기생충의 삶은 그대로 끝난다. 그래서 이들은 숙주의 몸과 정신을 조종하는 갖가지 기술을 개발시켰다. 이른바 숙주조종. 자기 몸 보다 수천만배 거대한 숙주를 조종하는 기생충의 모습은 놀랍고 충격적이다.- 숙주의 ‘자살’을 유도하는 연가시 기생충 연가시는 수서곤충과 육상곤충의 몸을 오가며 생활사를 이어간다. 사마귀나 귀뚜라미 같은 육상곤충의 뱃속에서 성장하던 연가시는 때가되면 숙주곤충을 조절해 물가로 가게 만든다. 연가시에 감염된 곤충은 수영을 하지 못함에도 불구하고 물로 뛰어들어 ‘투신자살’을 한다. 뱃속에 연가시가 가득한 이들은 물속에서 자신의 알을 낳는 대신 기생충 연가시를 낳고 죽어간다.- 만물의 영장 인간을 조종하는 메디나충사람의 다리에서 꿈틀거리며 기어 나오는 기생충을 본 적이 있는가. 이집트 벽화와 성경에도 나올 만큼 유명한 기생충 메디나충. 메디나충은 사람몸에 들어간 지 1년 정도 지나면 숙주의 다리나 발 쪽 피부조직 밑에 모인다. 이때 감염된 사람은 타는 듯한 통증을 식히기 위해 물가를 찾게 된다. 만물의 영장이라는 사람이 기생충의 조종을 받아 움직이는 드라마틱한 사건이 벌어지는 것이다. 환부를 물에 집어넣는 순간, 수많은 메디나충 유충이 물속으로 뛰쳐나오고, 그 물을 식수로 마시면 또 다른 사람이 감염되게 된다. 메디나충은 이렇게 한 살이를 이어간다.- 기형개구리를 만드는 기생충 리베이로이아언제부터인가 미국 캘리포니아 지역에서 기형개구리가 발견되기 시작했다. 다리가 셋이거나 아예 없거나 기형적으로 커서 움직이지 못하는 개구리들. 이들의 몸에서 공통적으로 나온 것은 리베이로이아 온다트레라는 기생충이었다. 리베이로이아는 다음 숙주인 새에게 가기 위해 개구리의 다리를 기형으로 만든다. 다리가 불편한 개구리는 움직임이 둔해 새에게 잡아먹힐 가능성이 늘어나기 때문이다. 기생충은 자신의 삶을 위해 숙주를 천적의 입안으로 밀어넣는 일도 마다하지 않는다.- 개미 엉덩이를 빨갛게! 미오네코니마 니오트로피카이 긴 이름의 기생충은 사파로디아스 아트레이더스라는 개미의 엉덩이를 붉게 물들인다. 붉게 물든 개미의 엉덩이는 동그랗고 붉은 과일 레드베리와 똑같이 닮았다. 새는 이 빨간 엉덩이를 레드베리로 착각하고 잡아먹는다. 미오네코니마 니오트로피카 역시 천적의 입안에 숙주를 밀어넣는 대단한 기생충이다.- 숫게를 암게로 바꾸는 기생 따개비거미게의 뱃속에서 특별한 일을 하는 기생생물도 있다. 기생따개비는 원래 자유생활을 하던 따개비에서 기생따개비로 진화했다. 기생따개비는 게의 뱃속에 침투해 게의 생식기를 자신의 알로 가득채우고 게로 하여금 알을 돌보도록 한다. 심지어 숫게를 암게로 바꾸기까지 한다. 암게가 숫게 보다 알을 훨씬 잘 돌보기 때문이다. 기생따개비의 알을 품은 게는 껍데기만 게일뿐 사실은 기생따개비의 알을 키우는 좀비와 같다.",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136540",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    },
+    {
+      "id": "BCAST-01bb5774b712efe912db",
+      "program": "EBS 다큐프라임",
+      "title": "자연다큐 죽음 1부 생명에서 생명으로",
+      "summary": "홍배조롱박벌, 얼룩꼬마거미맵시벌 등 기생 곤충을 통해 포식과 기생이라는 잔혹한 생존 전략 속에 숨겨진 생명 순환의 원리를 밀착 관찰한다. <br>",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60058062&lectId=60701486",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "MATCHED",
+        "checkedAt": "2026-09-29T13:34:34.057Z",
+        "note": "개별 페이지의 제목·회차 ID 일치 확인 · 재생은 별도"
+      }
+    },
+    {
+      "id": "BCAST-15fd00a3f3bb3a86637d",
+      "program": "EBS 다큐프라임",
+      "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+      "summary": "어디에선가 조용히 우리가 사는 세상을 만들어가는 존재들, 곤충. 곤충의 일생은 인간에 비해 슬프도록 짧지만, 그 생애 안에는 우주의 모든 원리가 투영된다. 곤충들에게는 각자 삶의 터인 무대가 있다. 땅 아래, 나무 위에, 또 작은 나뭇잎 하나에도 곤충은 존재한다. 그 무대에서 펼쳐지는 곤충들의 먹고 먹히는 관계를 넘어 다양한 곤충들의 삶을 지혜를 생생하게 보여준다.지금 우리 주변에 흔하게 살고 있는 곤충은, 지구 역사의 오랜 수수께끼들을 품고 있는 신비로운 존재다. 그 들의 생활사에 투영된 삶의 지혜와 생태계의 균형을 유지하는 곤충의 역할을 조명한다. 그동안 곤충을 익충과 해충으로 나누는 이분법적 논리에서 벗어나 인간이 곤충과 함께 살아가는 방법에 대해 생각해보는 시간을 마련한다.□ 주요 곤충- 양서류 천적, 큰노란테먼지벌레- 개미와의 동거, 쌍꼬리부전나비- 의태의 달인, 이끼개미귀신- 신비한 늦반딧불이- 확률 게임 도전 남가뢰",
+      "navigation": {
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307",
+        "label": "해당 회차 열기",
+        "kind": "EPISODE",
+        "status": "PUBLISHED",
+        "checkedAt": null,
+        "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+      }
+    }
+  ],
+  "modelSearch": {
+    "status": "ALL_CONDITIONS_SUPPORTED",
+    "paidCalls": 0,
+    "cacheHits": 2
+  },
+  "scope": "현재 기본 교사 검색 API 재조회·현재 공식 기준 목록 대조. 영상 재생·구간·학년 적합성은 새로 확인하지 않음. 내 수업 폴더명은 제안이며 개인 자료 저장은 수행하지 않음.",
+  "selectionRevision": {
+    "reason": "사용자 요청: 서로 다른 프로그램의 회차로 교체",
+    "note": "하나뿐인 지구의 습지 생명을 품다는 공식 보조 원문에서 먹고 먹히는 관계를 확인했으나 [과학]4과14-02는 현재 자동 후보에 없어 전체 기준 보기에서 직접 선택한다. 곤충 밀리미터의 세계 2부는 해당 기준 자동 후보가 있다."
+  },
+  "lastVerifiedAt": "2026-10-16T07:17:59.588Z",
+  "additionalTestCandidate": {
+    "id": "BCAST-b35d0be0fa6ebdb063ed",
+    "program": "EBS 다큐프라임",
+    "title": "기생 1부 - 보이지 않는 손",
+    "summary": "한 숙주의 몸에서 평생을 사는 기생충도 있지만 숙주를 옮겨가며 생활사를 이어가는 기생충도 많다. 다음단계의 숙주로 옮겨가지 못할 경우 기생충의 삶은 그대로 끝난다. 그래서 이들은 숙주의 몸과 정신을 조종하는 갖가지 기술을 개발시켰다. 이른바 숙주조종. 자기 몸 보다 수천만배 거대한 숙주를 조종하는 기생충의 모습은 놀랍고 충격적이다.- 숙주의 ‘자살’을 유도하는 연가시 기생충 연가시는 수서곤충과 육상곤충의 몸을 오가며 생활사를 이어간다. 사마귀나 귀뚜라미 같은 육상곤충의 뱃속에서 성장하던 연가시는 때가되면 숙주곤충을 조절해 물가로 가게 만든다. 연가시에 감염된 곤충은 수영을 하지 못함에도 불구하고 물로 뛰어들어 ‘투신자살’을 한다. 뱃속에 연가시가 가득한 이들은 물속에서 자신의 알을 낳는 대신 기생충 연가시를 낳고 죽어간다.- 만물의 영장 인간을 조종하는 메디나충사람의 다리에서 꿈틀거리며 기어 나오는 기생충을 본 적이 있는가. 이집트 벽화와 성경에도 나올 만큼 유명한 기생충 메디나충. 메디나충은 사람몸에 들어간 지 1년 정도 지나면 숙주의 다리나 발 쪽 피부조직 밑에 모인다. 이때 감염된 사람은 타는 듯한 통증을 식히기 위해 물가를 찾게 된다. 만물의 영장이라는 사람이 기생충의 조종을 받아 움직이는 드라마틱한 사건이 벌어지는 것이다. 환부를 물에 집어넣는 순간, 수많은 메디나충 유충이 물속으로 뛰쳐나오고, 그 물을 식수로 마시면 또 다른 사람이 감염되게 된다. 메디나충은 이렇게 한 살이를 이어간다.- 기형개구리를 만드는 기생충 리베이로이아언제부터인가 미국 캘리포니아 지역에서 기형개구리가 발견되기 시작했다. 다리가 셋이거나 아예 없거나 기형적으로 커서 움직이지 못하는 개구리들. 이들의 몸에서 공통적으로 나온 것은 리베이로이아 온다트레라는 기생충이었다. 리베이로이아는 다음 숙주인 새에게 가기 위해 개구리의 다리를 기형으로 만든다. 다리가 불편한 개구리는 움직임이 둔해 새에게 잡아먹힐 가능성이 늘어나기 때문이다. 기생충은 자신의 삶을 위해 숙주를 천적의 입안으로 밀어넣는 일도 마다하지 않는다.- 개미 엉덩이를 빨갛게! 미오네코니마 니오트로피카이 긴 이름의 기생충은 사파로디아스 아트레이더스라는 개미의 엉덩이를 붉게 물들인다. 붉게 물든 개미의 엉덩이는 동그랗고 붉은 과일 레드베리와 똑같이 닮았다. 새는 이 빨간 엉덩이를 레드베리로 착각하고 잡아먹는다. 미오네코니마 니오트로피카 역시 천적의 입안에 숙주를 밀어넣는 대단한 기생충이다.- 숫게를 암게로 바꾸는 기생 따개비거미게의 뱃속에서 특별한 일을 하는 기생생물도 있다. 기생따개비는 원래 자유생활을 하던 따개비에서 기생따개비로 진화했다. 기생따개비는 게의 뱃속에 침투해 게의 생식기를 자신의 알로 가득채우고 게로 하여금 알을 돌보도록 한다. 심지어 숫게를 암게로 바꾸기까지 한다. 암게가 숫게 보다 알을 훨씬 잘 돌보기 때문이다. 기생따개비의 알을 품은 게는 껍데기만 게일뿐 사실은 기생따개비의 알을 키우는 좀비와 같다.",
+    "navigation": {
+      "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136540",
+      "label": "해당 회차 열기",
+      "kind": "EPISODE",
+      "status": "PUBLISHED",
+      "checkedAt": null,
+      "note": "공식 목록에서 제공한 회차 주소 · 도착 페이지 대조·재생은 미확인"
+    },
+    "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136540",
+    "curriculum": "[과학]4과14-02",
+    "requestedStandardAutomaticallySuggested": true,
+    "reason": "숙주를 옮기는 기생충과 숙주·천적 사이의 관계를 원문에서 확인. 먹이그물로 표현하는 활동과 연결 가능."
+  },
+  "parasitismFollowup": {
+    "queryCount": 5,
+    "whole370Test": "NOT_RUN_USER_INSTRUCTION",
+    "report": "docs/r12-40-parasitism-targeted-results.json",
+    "retainedOriginalEpisodes": 5,
+    "missingOriginalEpisodes": 0
+  }
+}

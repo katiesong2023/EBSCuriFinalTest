@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-10T14:45:39.270Z",
+  "cases": [
+    {
+      "name": "elementary34 사회: 원래 초등5 seed 유지→실제 후보→모의 초안→격리 사람결정→승인자산 저장·다른 과정 거절·변경 무효화",
+      "passed": true
+    },
+    {
+      "name": "elementary34 과학: 원래 초등5 seed 유지→실제 후보→모의 초안→격리 사람결정→승인자산 저장·다른 과정 거절·변경 무효화",
+      "passed": true
+    },
+    {
+      "name": "middle1 사회: 원래 초등5 seed 유지→실제 후보→모의 초안→격리 사람결정→승인자산 저장·다른 과정 거절·변경 무효화",
+      "passed": true
+    },
+    {
+      "name": "middle1 과학: 원래 초등5 seed 유지→실제 후보→모의 초안→격리 사람결정→승인자산 저장·다른 과정 거절·변경 무효화",
+      "passed": true
+    },
+    {
+      "name": "기존 legacy 초등5~6 Gate와 저장 payload 호환",
+      "passed": true
+    }
+  ],
+  "actualExternalApiCalls": 0,
+  "actualHumanDecisions": 0,
+  "scope": "메모리 합성 저장소·가짜 모델 응답으로 실제 CuriMap 후보/초안·legacy 검토·Gate·저장 구현을 연결한 기능 검사. 실제 사람 검토 및 실제 교육과정 평가가 아님."
+}

@@ -1,0 +1,949 @@
+{
+  "scope": "실제 로컬 API의 검색6종·표시 양수 주제/묶음85개와 선택 후 전체 결과 비교",
+  "cases": 85,
+  "mismatches": [],
+  "rows": [
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-local",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-maps",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-past",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-peace",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-world",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-asia",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-living",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-animals",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-plants",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-1ec3e5b4c8845d1b5031"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-diversity",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-3225002c08823553e9cf"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-ecosystems",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-physics",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-476930fd6c046ab2c55c"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-resources",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-476930fd6c046ab2c55c"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-planet",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "갯벌 생태계",
+      "value": "curriculum-earth",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-3225002c08823553e9cf",
+        "BCAST-1ec3e5b4c8845d1b5031",
+        "BCAST-04d6a3cba5fe859f2e25",
+        "BCAST-476930fd6c046ab2c55c",
+        "BCAST-17b49b656eeabd655058"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-local",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "BCAST-0ee976bba84aed658937",
+        "BCAST-c81b6dcc2c1847f75fd9",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-350ee97623108278772b",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-places",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "BCAST-0ee976bba84aed658937",
+        "BCAST-c81b6dcc2c1847f75fd9",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-350ee97623108278772b",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-society",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "PDLOG-048",
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-e338391ea6f4ef309dae",
+        "BCAST-0ee976bba84aed658937",
+        "BCAST-c81b6dcc2c1847f75fd9",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-c178f2767b76da141f43"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-culture",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "PDLOG-048",
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-e338391ea6f4ef309dae",
+        "BCAST-0ee976bba84aed658937",
+        "BCAST-c81b6dcc2c1847f75fd9",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-c178f2767b76da141f43"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-identity",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-006958cbcbf16462144b"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-civic",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-9103eb5ea2e4e90d2e91"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-democracy",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-0da6153d0ef4a3c2caa0",
+        "BCAST-9103eb5ea2e4e90d2e91"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-economic",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-8260804153e256f011a1"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-economy",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-8260804153e256f011a1"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-world",
+      "expected": 13,
+      "actual": 13,
+      "ids": [
+        "PDLOG-048",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-997e7b17808eb774aff5",
+        "BCAST-81e1dc892d2c195cb137",
+        "BCAST-a84978fedf89d70d9a2e",
+        "BCAST-ccfd195842f003f81332",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-global",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "PDLOG-048",
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-35d7fe0ce93a72871af6",
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-a84978fedf89d70d9a2e",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-asia",
+      "expected": 4,
+      "actual": 4,
+      "ids": [
+        "BCAST-ccfd195842f003f81332",
+        "BCAST-10583d35c029004c08aa",
+        "BCAST-394e9e2f8b62fb61dc87",
+        "BCAST-e9cf8242b0111143f452"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-europe",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-81e1dc892d2c195cb137"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-america",
+      "expected": 5,
+      "actual": 5,
+      "ids": [
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-997e7b17808eb774aff5",
+        "BCAST-81e1dc892d2c195cb137",
+        "BCAST-a84978fedf89d70d9a2e",
+        "BCAST-8260804153e256f011a1"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-oceania",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-living",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-c81b6dcc2c1847f75fd9",
+        "BCAST-a9c33a88beed0f4ee69a"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-animals",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-a9c33a88beed0f4ee69a"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-plants",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-c81b6dcc2c1847f75fd9"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-physics",
+      "expected": 3,
+      "actual": 3,
+      "ids": [
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-sound",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-6a9b3591c5623d19b4df"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-resources",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-a9c33a88beed0f4ee69a",
+        "BCAST-edb14c3bca590ec1f145"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-planet",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-e9cf8242b0111143f452"
+      ]
+    },
+    {
+      "q": "다문화",
+      "value": "curriculum-earth",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-6a9b3591c5623d19b4df",
+        "BCAST-e9cf8242b0111143f452"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-local",
+      "expected": 4,
+      "actual": 4,
+      "ids": [
+        "BCAST-df08c41c02929df8d54a",
+        "BCAST-bebb4c0281a72aeed961",
+        "BCAST-33eab23298fe53fc305b",
+        "BCAST-c8631a7480160ae4a667"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-places",
+      "expected": 4,
+      "actual": 4,
+      "ids": [
+        "BCAST-df08c41c02929df8d54a",
+        "BCAST-bebb4c0281a72aeed961",
+        "BCAST-33eab23298fe53fc305b",
+        "BCAST-c8631a7480160ae4a667"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-past",
+      "expected": 3,
+      "actual": 3,
+      "ids": [
+        "BCAST-df08c41c02929df8d54a",
+        "BCAST-bebb4c0281a72aeed961",
+        "BCAST-b970ca299c99d9bb3388"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-past-life",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-df08c41c02929df8d54a",
+        "BCAST-bebb4c0281a72aeed961"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-modern",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-b970ca299c99d9bb3388"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-living",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-bebb4c0281a72aeed961"
+      ]
+    },
+    {
+      "q": "과거 서울의 모습",
+      "value": "curriculum-ecosystems",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-bebb4c0281a72aeed961"
+      ]
+    },
+    {
+      "q": "어깨관절",
+      "value": "curriculum-living",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-1867e88ec60b91146beb",
+        "BCAST-740c833473ee5e6ca0f3"
+      ]
+    },
+    {
+      "q": "어깨관절",
+      "value": "curriculum-health",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-1867e88ec60b91146beb",
+        "BCAST-740c833473ee5e6ca0f3"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-past",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-74602b50cdddf92dd0e8"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-peace",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-74602b50cdddf92dd0e8"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-society",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-1a5698514fb865a6cb2c",
+        "BCAST-827805531238e24c5411",
+        "BCAST-9103eb5ea2e4e90d2e91",
+        "BCAST-5f465e9b1718767216c1",
+        "BCAST-0da6153d0ef4a3c2caa0"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-culture",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-1a5698514fb865a6cb2c",
+        "BCAST-827805531238e24c5411",
+        "BCAST-9103eb5ea2e4e90d2e91",
+        "BCAST-5f465e9b1718767216c1",
+        "BCAST-0da6153d0ef4a3c2caa0"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-civic",
+      "expected": 32,
+      "actual": 32,
+      "ids": [
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-ce98e55c1c58597bfca3",
+        "BCAST-9b68881971b88b0d3915",
+        "BCAST-64c002f7b8f4402a44f2",
+        "BCAST-c1a279dcb17b7743652c",
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-c87fc36fa9017510d83b",
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-305050b615d836ec4f4e"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-democracy",
+      "expected": 32,
+      "actual": 32,
+      "ids": [
+        "BCAST-6bf85a6bbbea59cc5bba",
+        "BCAST-ce98e55c1c58597bfca3",
+        "BCAST-9b68881971b88b0d3915",
+        "BCAST-64c002f7b8f4402a44f2",
+        "BCAST-c1a279dcb17b7743652c",
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-c87fc36fa9017510d83b",
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-305050b615d836ec4f4e"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-rights-law",
+      "expected": 3,
+      "actual": 3,
+      "ids": [
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-10b3a78a7a0e51df2d69",
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-economic",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-ce98e55c1c58597bfca3",
+        "BCAST-937ebd7239463909389b"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-economy",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-ce98e55c1c58597bfca3",
+        "BCAST-937ebd7239463909389b"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-world",
+      "expected": 8,
+      "actual": 8,
+      "ids": [
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-c9988890264a19a88597",
+        "BCAST-7fd1bfb95415f72166b0",
+        "BCAST-74602b50cdddf92dd0e8",
+        "BCAST-937ebd7239463909389b",
+        "BCAST-8c0db832e9f179ec88b3",
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-global",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-937ebd7239463909389b",
+        "BCAST-8c0db832e9f179ec88b3"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-asia",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-europe",
+      "expected": 3,
+      "actual": 3,
+      "ids": [
+        "BCAST-0a37a5eaff66d9d15fc8",
+        "BCAST-c9988890264a19a88597",
+        "BCAST-8c0db832e9f179ec88b3"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-africa",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-8c0db832e9f179ec88b3"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-america",
+      "expected": 7,
+      "actual": 7,
+      "ids": [
+        "BCAST-7223c22691cb54b4b924",
+        "BCAST-c9988890264a19a88597",
+        "BCAST-7fd1bfb95415f72166b0",
+        "BCAST-74602b50cdddf92dd0e8",
+        "BCAST-937ebd7239463909389b",
+        "BCAST-8c0db832e9f179ec88b3",
+        "BCAST-5d8e926d1f0903ba4e77"
+      ]
+    },
+    {
+      "q": "민주주의",
+      "value": "curriculum-oceania",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-8c0db832e9f179ec88b3"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-local",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-6530ff46a45d86afa081"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-places",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-6530ff46a45d86afa081"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-society",
+      "expected": 19,
+      "actual": 19,
+      "ids": [
+        "BCAST-7c5470496fdc6b9adbb1",
+        "BCAST-7237e22384453e542437",
+        "BCAST-4091c34734ae75151231",
+        "BCAST-616ff468b33c8a32c3e3",
+        "BCAST-edfc32a86931652c5042",
+        "BCAST-c78d46de7089eb81e418",
+        "BCAST-690ee54888d133f1b083",
+        "BCAST-2a7e4c88a21d3f12d7b4",
+        "BCAST-65ef3c841e39a28bd3c0"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-culture",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-65ef3c841e39a28bd3c0",
+        "BCAST-006958cbcbf16462144b"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-identity",
+      "expected": 19,
+      "actual": 19,
+      "ids": [
+        "BCAST-7c5470496fdc6b9adbb1",
+        "BCAST-7237e22384453e542437",
+        "BCAST-4091c34734ae75151231",
+        "BCAST-616ff468b33c8a32c3e3",
+        "BCAST-edfc32a86931652c5042",
+        "BCAST-c78d46de7089eb81e418",
+        "BCAST-690ee54888d133f1b083",
+        "BCAST-2a7e4c88a21d3f12d7b4",
+        "BCAST-65ef3c841e39a28bd3c0"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-civic",
+      "expected": 8,
+      "actual": 8,
+      "ids": [
+        "BCAST-4091c34734ae75151231",
+        "BCAST-cdd947c3da286f72854a",
+        "BCAST-2cb5aefa24dfb761f5eb",
+        "BCAST-05400ae95244b19750b8",
+        "BCAST-690ee54888d133f1b083",
+        "BCAST-2a7e4c88a21d3f12d7b4",
+        "BCAST-347bfb56432c11d6ea38",
+        "BCAST-613368a98bbeed37d978"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-rights-law",
+      "expected": 8,
+      "actual": 8,
+      "ids": [
+        "BCAST-4091c34734ae75151231",
+        "BCAST-cdd947c3da286f72854a",
+        "BCAST-2cb5aefa24dfb761f5eb",
+        "BCAST-05400ae95244b19750b8",
+        "BCAST-690ee54888d133f1b083",
+        "BCAST-2a7e4c88a21d3f12d7b4",
+        "BCAST-347bfb56432c11d6ea38",
+        "BCAST-613368a98bbeed37d978"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-economic",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-2a7e4c88a21d3f12d7b4"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-economy",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-2a7e4c88a21d3f12d7b4"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-world",
+      "expected": 6,
+      "actual": 6,
+      "ids": [
+        "BCAST-edfc32a86931652c5042",
+        "BCAST-c78d46de7089eb81e418",
+        "BCAST-05400ae95244b19750b8",
+        "BCAST-347bfb56432c11d6ea38",
+        "BCAST-613368a98bbeed37d978",
+        "BCAST-1ea1e8b625a6fa9b7570"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-global",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-347bfb56432c11d6ea38"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-asia",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-edfc32a86931652c5042",
+        "BCAST-347bfb56432c11d6ea38"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-europe",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-05400ae95244b19750b8",
+        "BCAST-1ea1e8b625a6fa9b7570"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-america",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-613368a98bbeed37d978"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-oceania",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-c78d46de7089eb81e418"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-living",
+      "expected": 2,
+      "actual": 2,
+      "ids": [
+        "BCAST-cdd947c3da286f72854a",
+        "BCAST-347bfb56432c11d6ea38"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-animals",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-cdd947c3da286f72854a"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-climate",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-347bfb56432c11d6ea38"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-physics",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-edfc32a86931652c5042"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-sound",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-edfc32a86931652c5042"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-inquiry",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-d649aea77e84cf4af0d4"
+      ]
+    },
+    {
+      "q": "지식채널e 인권 관련 편",
+      "value": "curriculum-inquiry",
+      "expected": 1,
+      "actual": 1,
+      "ids": [
+        "BCAST-d649aea77e84cf4af0d4"
+      ]
+    }
+  ],
+  "paidApiCalls": 0
+}

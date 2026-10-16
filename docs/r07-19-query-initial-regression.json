@@ -1,0 +1,130 @@
+{
+  "phase": "before",
+  "generatedAt": "2026-10-13T10:14:50.538Z",
+  "scope": "고정 가상 자료·현재 server 모듈; 실제 검색 정확도 평가 아님",
+  "codeHashes": {
+    "discovery-search.js": "9b9b7fa6c354c5122d910f5bf8e9b320568369313cf2e79196dd8f3bcf61cb5b",
+    "discovery-intent.js": "a69419e120504239eae11c2d1a64bba27397da720a4f6649a2366eeaf1172e71",
+    "semantic-layer.js": "b6822866945d9cadd05e41134f10d5c4d2c0c3358d2e091575cc39a08d6722bc",
+    "semantic-context.js": "ac48f115548cde2513306bd865422f7eb312d2febb3f68332e3a2ab2da08b598",
+    "discovery-request.js": "81872e4c80a66f003a917c24fd058a3585f517538c343c5f0c9e98533767ba10"
+  },
+  "fixtureHash": "80c24b56ae29d1a890248da1f15c6afb85152b8a6a6b2236742e0f118157c6d6",
+  "approvalFile": "server/data/curi-store.json",
+  "approvalSha256Before": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+  "approvalSha256After": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+  "approvalUnchanged": true,
+  "networkAttempts": 0,
+  "passed": 21,
+  "failed": 0,
+  "rows": [
+    {
+      "name": "알려진 주제 검색",
+      "input": "우주",
+      "passed": true
+    },
+    {
+      "name": "요청 문장 주제 추출",
+      "input": "우주를 탐사하는 자료를 찾아줘",
+      "passed": true
+    },
+    {
+      "name": "알려진 주제의 OR",
+      "input": "우주 또는 인체",
+      "passed": true
+    },
+    {
+      "name": "고유명사 OR",
+      "input": "설악산 또는 김제",
+      "passed": true
+    },
+    {
+      "name": "단일어 제외",
+      "input": "우주 말고 인체",
+      "passed": true
+    },
+    {
+      "name": "구 제외 후 주제 보존",
+      "input": "해안 지형 제외하고 우주",
+      "passed": true
+    },
+    {
+      "name": "주제 조건 시간 자막 경고",
+      "input": "우주 5분 이내 자막 포함",
+      "passed": true
+    },
+    {
+      "name": "고유명사 시간 조건 분리",
+      "input": "김제 5분 이내",
+      "passed": true
+    },
+    {
+      "name": "부분문자열 오탐 방지",
+      "input": "용해",
+      "passed": true
+    },
+    {
+      "name": "추론 후보를 검색 근거에서 제외",
+      "input": "생태계",
+      "passed": true
+    },
+    {
+      "name": "미보유 주제의 빈 결과",
+      "input": "양자중력",
+      "passed": true
+    },
+    {
+      "name": "복수 개념 AND 유지",
+      "input": "우주와 인체",
+      "passed": true
+    },
+    {
+      "name": "근거 구절과 오프셋 일치",
+      "input": "전체 fixture",
+      "passed": true
+    },
+    {
+      "name": "변경 자료의 새 카탈로그에서 태그 재생성",
+      "input": "우주 → 인체",
+      "passed": true
+    },
+    {
+      "name": "검색 입력 길이 검증",
+      "input": "201자",
+      "passed": true
+    },
+    {
+      "name": "프로덕션 근거 묶음 상한",
+      "input": "우주",
+      "passed": true
+    },
+    {
+      "name": "일반 검색어 OR",
+      "input": "설악산 또는 김제 풍경",
+      "passed": true
+    },
+    {
+      "name": "여러 단어 제외",
+      "input": "우주 말고 인체 탐험",
+      "passed": true
+    },
+    {
+      "name": "혼합 개념·일반어 OR",
+      "input": "우주 또는 설악산",
+      "passed": true
+    },
+    {
+      "name": "혼합 개념·일반어 AND",
+      "input": "우주와 설악산",
+      "passed": true
+    },
+    {
+      "name": "원문 근거 검색 결과 보존",
+      "input": "우주",
+      "passed": true
+    }
+  ],
+  "newCasePassed": 0,
+  "newCaseFailed": 0,
+  "newCases": []
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-15",
+  "url": "https://www.creativeboom.com/?ref=httpster.net",
+  "method": "Chrome screenshots and read-only DOM; web text reader inaccessible",
+  "pages": [
+    "homepage",
+    "Inspiration listing through actual nav click"
+  ],
+  "viewports": [
+    [
+      1440,
+      960
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "measured": {
+    "homeContent": {
+      "x": 104,
+      "width": 1232
+    },
+    "contentColumns": [
+      290,
+      604,
+      290
+    ],
+    "gapPx": 24,
+    "visibleGridExamples": [
+      "4 x 290px, gap24",
+      "2 x 604px, gap24"
+    ],
+    "paper": "#FBF7EF",
+    "whiteHeader": "#FFFFFF",
+    "fonts": [
+      "ABC Diatype",
+      "Roobert"
+    ],
+    "headingSamplesPx": [
+      20,
+      40
+    ],
+    "headingWeight": "500",
+    "searchDialog": {
+      "x": 360,
+      "y": 72,
+      "width": 720,
+      "height": 70,
+      "background": "#000000"
+    },
+    "mobileDocumentWidth": 390
+  },
+  "observedInteractions": [
+    "search button opens dark search dialog over dimmed/blurred background",
+    "Esc hint in search; Escape was pressed, but exact focus return not verified",
+    "Inspiration link navigates to /inspiration/",
+    "mobile Open menu switches to dark full-screen navigation with large colored category rows",
+    "Previous/Next controls present in content sections; carousel motion not measured"
+  ],
+  "designInterpretation": "cream editorial stage, 3/6/3 lead and side content, outline pills, black primary action",
+  "limits": [
+    "no search submission",
+    "no account/subscription actions",
+    "no font or image copying",
+    "no complete hover/menu/carousel audit",
+    "no exact animation durations"
+  ],
+  "colorRevision": {
+    "date": "2026-10-15",
+    "method": "Chrome read-only computed styles of category anchors and ::before dots",
+    "sampled": {
+      "News": "#FFC828",
+      "Inspiration": "#ED91FA",
+      "Advice": "#B4DCDC",
+      "Jobs": "#FF6432",
+      "Community": "#05AA82",
+      "AboutDot": "#999999",
+      "AboutRow": "#CCCCCC"
+    },
+    "curiMapping": "social=News, science=Inspiration, library=Advice; mapping is proposal",
+    "usage": "white header, cream editorial paper, black text; category dots/rows, not full-card UI fills"
+  }
+}

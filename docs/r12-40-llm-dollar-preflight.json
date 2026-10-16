@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_NOT_CALLED",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "budgetUsd": 1,
+  "queries": 370,
+  "apiKeyConfigured": true,
+  "cached": 0,
+  "scope": "R12-40-370-stage-A-bebe1c7a36935a9f17357ca9ddf063cbe47783a445d5dc28ea646661210c45f0-c513351bd6d30aeb703b26881bf33fb9842f8a181afc1ed4f02714c5dabe4423",
+  "baselinePath": "docs/r12-40-final.json.gz",
+  "stages": [
+    "A: request interpretation"
+  ],
+  "note": "1달러 전체 실험 한도. 원문370만 전송. 답안·영상 원문·키는 프롬프트에 넣지 않음. 제품 유료 호출 자동 활성화 없음."
+}

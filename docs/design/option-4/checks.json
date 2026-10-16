@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-15 Asia/Seoul",
+  "method": "Chrome via cua_repl; UI actions and read-only DOM metrics",
+  "functionalChecks": [
+    {
+      "name": "검색 모달 Tab 역순 순환",
+      "passed": true
+    },
+    {
+      "name": "팝업 검색 제출·결과·호출 버튼 복귀",
+      "passed": true
+    },
+    {
+      "name": "Escape는 미제출 질의를 적용하지 않음",
+      "passed": true
+    },
+    {
+      "name": "빈 결과 표시",
+      "passed": true
+    },
+    {
+      "name": "과학 필터",
+      "passed": true
+    },
+    {
+      "name": "두 단계 이전 복귀·교육과정/폴더 이름 보존",
+      "passed": true
+    },
+    {
+      "name": "가상 내 수업에 저장 위치·자료 표시",
+      "passed": true
+    },
+    {
+      "name": "빈 새 폴더 오류·입력 포커스",
+      "passed": true
+    },
+    {
+      "name": "같은 폴더 동일 자료 중복 방지",
+      "passed": true
+    },
+    {
+      "name": "분류/단계 메뉴 모달·Tab 순환",
+      "passed": true
+    },
+    {
+      "name": "메뉴 Escape·호출 버튼 복귀",
+      "passed": true
+    },
+    {
+      "name": "확장 연결 끊김·저장 차단",
+      "passed": true
+    },
+    {
+      "name": "끝≤시작 구간 오류",
+      "passed": true
+    },
+    {
+      "name": "저장 중 버튼 대기·입력 잠금",
+      "passed": true
+    },
+    {
+      "name": "실패 후 입력 보존",
+      "passed": true
+    },
+    {
+      "name": "범위 전환·실패 재시도·구간 완료",
+      "passed": true
+    },
+    {
+      "name": "모션 감소의 대화상자 전환 없음",
+      "passed": true
+    },
+    {
+      "name": "4안 분류 메뉴에서 과학 결과 전환",
+      "passed": true
+    }
+  ],
+  "layouts": [
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1440,
+      "section": "web",
+      "smallButtons": 0,
+      "width": 1440
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1440,
+      "section": "extension",
+      "smallButtons": 0,
+      "width": 1440
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1440,
+      "section": "system",
+      "smallButtons": 0,
+      "width": 1440
+    },
+    {
+      "gridColumns": 12,
+      "missingImages": 0,
+      "scrollWidth": 1440,
+      "section": "grid",
+      "smallButtons": 0,
+      "width": 1440
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1280,
+      "section": "web",
+      "smallButtons": 0,
+      "width": 1280
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1280,
+      "section": "extension",
+      "smallButtons": 0,
+      "width": 1280
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1280,
+      "section": "system",
+      "smallButtons": 0,
+      "width": 1280
+    },
+    {
+      "gridColumns": 12,
+      "missingImages": 0,
+      "scrollWidth": 1280,
+      "section": "grid",
+      "smallButtons": 0,
+      "width": 1280
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1000,
+      "section": "web",
+      "smallButtons": 0,
+      "width": 1000
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1000,
+      "section": "extension",
+      "smallButtons": 0,
+      "width": 1000
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 1000,
+      "section": "system",
+      "smallButtons": 0,
+      "width": 1000
+    },
+    {
+      "gridColumns": 8,
+      "missingImages": 0,
+      "scrollWidth": 1000,
+      "section": "grid",
+      "smallButtons": 0,
+      "width": 1000
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 390,
+      "section": "web",
+      "smallButtons": 0,
+      "width": 390
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 390,
+      "section": "extension",
+      "smallButtons": 0,
+      "width": 390
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 390,
+      "section": "system",
+      "smallButtons": 0,
+      "width": 390
+    },
+    {
+      "gridColumns": 4,
+      "missingImages": 0,
+      "scrollWidth": 390,
+      "section": "grid",
+      "smallButtons": 0,
+      "width": 390
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 360,
+      "section": "web",
+      "smallButtons": 0,
+      "width": 360
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 360,
+      "section": "extension",
+      "smallButtons": 0,
+      "width": 360
+    },
+    {
+      "gridColumns": null,
+      "missingImages": 0,
+      "scrollWidth": 360,
+      "section": "system",
+      "smallButtons": 0,
+      "width": 360
+    },
+    {
+      "gridColumns": 4,
+      "missingImages": 0,
+      "scrollWidth": 360,
+      "section": "grid",
+      "smallButtons": 0,
+      "width": 360
+    }
+  ],
+  "errors": [],
+  "allPassed": true,
+  "scope": "fictional in-memory preview; no API or user storage",
+  "notVerified": [
+    "native 200% zoom",
+    "screen reader",
+    "physical touch",
+    "installed extension",
+    "real teacher usefulness"
+  ],
+  "revisionNotice": "Original functional audit predates color revision; see ../color-revision-browser-checks.json for current 24 layouts and 8 smoke checks"
+}

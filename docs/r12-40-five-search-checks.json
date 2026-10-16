@@ -1,0 +1,121 @@
+{
+  "checks": [
+    {
+      "query": "우리 고장의 모습",
+      "total": 5,
+      "file": "docs/검색검사_01_우리지역.json",
+      "folder": "우리 지역의 환경과 생활",
+      "standard": "[사회]4사10-01",
+      "selected": [
+        {
+          "title": "산청, 선비의 고장",
+          "program": "고향민국",
+          "standardAutomaticallySuggested": false,
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60502431"
+        },
+        {
+          "title": "완도, 미역과 전복의 고장",
+          "program": "고향민국",
+          "standardAutomaticallySuggested": false,
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60725224"
+        }
+      ]
+    },
+    {
+      "query": "지식채널e 인권 관련 편",
+      "total": 4,
+      "file": "docs/검색검사_02_인권.json",
+      "folder": "인권 침해와 권리 존중",
+      "standard": "[사회]6사03-02",
+      "selected": [
+        {
+          "title": "루비의 등교",
+          "program": "지식채널e",
+          "standardAutomaticallySuggested": true,
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20451431"
+        },
+        {
+          "title": "[코로나 단상] A or B",
+          "program": "지식채널e",
+          "standardAutomaticallySuggested": true,
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20283582"
+        }
+      ]
+    },
+    {
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "total": 8,
+      "file": "docs/검색검사_03_생물관계.json",
+      "folder": "생물의 먹이 관계",
+      "standard": "[과학]4과14-02",
+      "selected": [
+        {
+          "title": "습지 생명을 품다",
+          "program": "하나뿐인 지구",
+          "standardAutomaticallySuggested": false,
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10402430"
+        },
+        {
+          "title": "곤충 밀리미터의 세계 2부 잎 하나의 우주",
+          "program": "EBS 다큐프라임",
+          "standardAutomaticallySuggested": true,
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055930&lectId=10182307"
+        }
+      ],
+      "selectionNote": "하나뿐인 지구의 습지 생명을 품다는 공식 보조 원문에서 먹고 먹히는 관계를 확인했으나 [과학]4과14-02는 현재 자동 후보에 없어 전체 기준 보기에서 직접 선택한다. 곤충 밀리미터의 세계 2부는 해당 기준 자동 후보가 있다.",
+      "lastVerifiedAt": "2026-10-16T07:17:59.588Z",
+      "additionalCandidate": {
+        "title": "기생 1부 - 보이지 않는 손",
+        "program": "EBS 다큐프라임",
+        "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055952&lectId=10136540"
+      }
+    },
+    {
+      "query": "사막 지역에서 살아가는 모습을 보여주는 다큐멘터리만 찾아주세요",
+      "total": 2,
+      "file": "docs/검색검사_04_사막생활.json",
+      "folder": "사막의 기후와 사람들의 생활",
+      "standard": "[사회]6사10-02",
+      "selected": [
+        {
+          "title": "챠강티메 - 흰 낙타 이야기 1부",
+          "program": "EBS 다큐프라임",
+          "standardAutomaticallySuggested": false,
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055931&lectId=10180814"
+        },
+        {
+          "title": "극한의 땅 1부 다나킬의 소금 카라반",
+          "program": "EBS 다큐프라임",
+          "standardAutomaticallySuggested": false,
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055866&lectId=10161581"
+        }
+      ]
+    },
+    {
+      "query": "재활용 시설에서 하는 일을 소개하는 자료가 필요해요 가능하면 현장 사람의 설명이 있으면 좋겠어요",
+      "total": 3,
+      "file": "docs/검색검사_05_자원재활용.json",
+      "folder": "폐자원 재활용과 자원 절약",
+      "standard": "[과학]6과08-03",
+      "selected": [
+        {
+          "title": "폐자원 처리장(1부)",
+          "program": "극한 직업",
+          "standardAutomaticallySuggested": true,
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3073972"
+        },
+        {
+          "title": "폐자원 처리장(2부)",
+          "program": "극한 직업",
+          "standardAutomaticallySuggested": true,
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BP0PHPN0000000006&stepId=01BP0PHPN0000000006&lectId=3074106"
+        }
+      ]
+    }
+  ],
+  "paidCalls": 0,
+  "totalConservativeUsd": 1.422129475,
+  "remainingApprovedUsd": 0.577870525,
+  "notice": "동작 확인에 적합한 사례를 골랐으며 일반 검색 성공률 평가/새 독립 테스트는 아님. 건수는 현재 후보 범위이며 전체 카탈로그 일치 총수가 아님.",
+  "followupScope": "③만 기생 보강 후8건으로 갱신. 나머지 항목은 앞선 검사 시점 기록이며 이후 전체5검색 재검증은 수행하지 않았다."
+}

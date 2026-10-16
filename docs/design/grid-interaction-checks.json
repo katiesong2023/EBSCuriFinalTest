@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-15 Asia/Seoul",
+  "method": "Chrome via cua_repl, UI actions and read-only computed geometry; actual viewport captured in each row",
+  "functionalChecks": [
+    {
+      "name": "A8/4분할·글자크기·선택/메모",
+      "passed": true
+    },
+    {
+      "name": "A Escape·호출 버튼 복귀·메모 보존",
+      "passed": true
+    },
+    {
+      "name": "B 모달 메뉴·양방향Tab순환·Escape·포커스복귀",
+      "passed": true
+    },
+    {
+      "name": "B 장 이동 후 선택자료·메모·대상폴더 보존",
+      "passed": true
+    },
+    {
+      "name": "모션 감소 시안에서 패널 animation 없음",
+      "passed": true
+    },
+    {
+      "name": "보기모드360/720의4/8열과열오버레이",
+      "passed": true
+    },
+    {
+      "actualViewport": 390,
+      "columns": "1 / -1",
+      "listWidth": 324,
+      "name": "A 모바일 근거는 목록 아래 전체 폭",
+      "panelWidth": 324,
+      "passed": true
+    }
+  ],
+  "labLayouts": [
+    {
+      "cols": 12,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 1440,
+      "smallButtons": 0,
+      "viewport": 1440
+    },
+    {
+      "cols": 12,
+      "gutter": "24px",
+      "profile": "b",
+      "scrollWidth": 1440,
+      "smallButtons": 0,
+      "viewport": 1440
+    },
+    {
+      "cols": 12,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 1280,
+      "smallButtons": 0,
+      "viewport": 1280
+    },
+    {
+      "cols": 12,
+      "gutter": "24px",
+      "profile": "b",
+      "scrollWidth": 1280,
+      "smallButtons": 0,
+      "viewport": 1280
+    },
+    {
+      "cols": 8,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 1000,
+      "smallButtons": 0,
+      "viewport": 1000
+    },
+    {
+      "cols": 8,
+      "gutter": "20px",
+      "profile": "b",
+      "scrollWidth": 1000,
+      "smallButtons": 0,
+      "viewport": 1000
+    },
+    {
+      "cols": 8,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 768,
+      "smallButtons": 0,
+      "viewport": 768
+    },
+    {
+      "cols": 8,
+      "gutter": "20px",
+      "profile": "b",
+      "scrollWidth": 768,
+      "smallButtons": 0,
+      "viewport": 768
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 767,
+      "smallButtons": 0,
+      "viewport": 767
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "b",
+      "scrollWidth": 767,
+      "smallButtons": 0,
+      "viewport": 767
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 390,
+      "smallButtons": 0,
+      "viewport": 390
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "b",
+      "scrollWidth": 390,
+      "smallButtons": 0,
+      "viewport": 390
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "a",
+      "scrollWidth": 360,
+      "smallButtons": 0,
+      "viewport": 360
+    },
+    {
+      "cols": 4,
+      "gutter": "16px",
+      "profile": "b",
+      "scrollWidth": 360,
+      "smallButtons": 0,
+      "viewport": 360
+    }
+  ],
+  "existingPreviewLayouts": [
+    {
+      "cardColumns": 3,
+      "missingImages": 0,
+      "profile": "a",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "cardColumns": 2,
+      "missingImages": 0,
+      "profile": "a",
+      "scrollWidth": 1000,
+      "width": 1000
+    },
+    {
+      "cardColumns": 1,
+      "missingImages": 0,
+      "profile": "a",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "cardColumns": 1,
+      "missingImages": 0,
+      "profile": "a",
+      "scrollWidth": 360,
+      "width": 360
+    },
+    {
+      "cardColumns": 3,
+      "missingImages": 0,
+      "profile": "b",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "cardColumns": 2,
+      "missingImages": 0,
+      "profile": "b",
+      "scrollWidth": 1000,
+      "width": 1000
+    },
+    {
+      "cardColumns": 1,
+      "missingImages": 0,
+      "profile": "b",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "cardColumns": 1,
+      "missingImages": 0,
+      "profile": "b",
+      "scrollWidth": 360,
+      "width": 360
+    }
+  ],
+  "uiErrorLogs": [],
+  "notes": [
+    "reference grids are measured compositions; Curi grid and timings are separate design rules",
+    "functional tests use fictional data; no live APIs, user storage or installed extension changes",
+    "motion-reduction demonstration is a local toggle; OS preference is not changed",
+    "native 200% zoom, screen reader and physical touch device not reverified"
+  ]
+}

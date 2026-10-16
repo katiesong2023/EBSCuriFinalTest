@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-13T19:35:17.636Z",
+  "queries": [
+    {
+      "q": "제시 피난 생활",
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-2d093401c6622a3a2018",
+          "title": "어느 독립운동가 부부의 일기",
+          "summary": "1938년 7월 4일부터 써내려간 어느 독립운동가 부부의 특별한 일기.그리고 부부에게서 태어난 딸 제시. 제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다.",
+          "sourceSupplements": [],
+          "searchExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 39,
+                "end": 58,
+                "quote": "그리고 부부에게서 태어난 딸 제시."
+              },
+              {
+                "field": "summary",
+                "start": 59,
+                "end": 94,
+                "quote": "제시는 힘든 타국 피난 생활 속에서 부부의 위안이자 희망이었다."
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청한 ‘제시 · 피난’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "q": "천연벽지 제작",
+      "total": 1,
+      "results": [
+        {
+          "id": "BCAST-a9724a68de2228ab9f0d",
+          "title": "봄맞이 인테리어, 천연 소재로 건강을 잡아라!",
+          "summary": "인테리어의 성수기인 봄이 돌아왔다. 인테리어도 유해 물질이 적고, 피부질환이나 호흡기 질환 등 건강에 도움이 되는 천연 소재들이 선호되고 있다. 편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다",
+          "sourceSupplements": [],
+          "searchExplanation": {
+            "topicEvidence": [
+              {
+                "field": "summary",
+                "start": 81,
+                "end": 117,
+                "quote": "편백나무, 황토판, 천연벽지 등을 제작, 시공하는 과정을 보여준다"
+              }
+            ],
+            "supplementEvidence": [],
+            "details": [],
+            "unconfirmed": [
+              "로컬 문장 유사도와 주제 단서로 발견한 비교 후보: 요청 관계의 충족은 미확인"
+            ],
+            "titleWords": [],
+            "text": "요청한 ‘천연벽지 · 제작’의 내용 문장을 소개문에서 찾았습니다. 관계·방법의 충족 여부는 아래 근거를 비교해 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "q": "자석",
+      "total": 2,
+      "results": [
+        {
+          "id": "BCAST-24cb7586692e2a707640",
+          "title": "268화 내 자석엔 뭐가 붙을까?",
+          "summary": "",
+          "sourceSupplements": [
+            {
+              "id": "6665a362546a8d30c74be22e",
+              "type": "TRANSCRIPT",
+              "label": "EBS 공개 대본",
+              "title": "EBS 공개 자막 · 268화 내 자석엔 뭐가 붙을까?",
+              "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583",
+              "publishedAt": "미확인 (회차 방송일은 identity에 별도 기록)",
+              "checkedAt": "2026-10-13T19:30:15.576Z",
+              "identity": {
+                "resourceId": "BCAST-24cb7586692e2a707640",
+                "title": "268화 내 자석엔 뭐가 붙을까?",
+                "program": "우리집 유치원",
+                "broadcastDate": "2021-08-09",
+                "variant": "EPISODE",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+              },
+              "identityEvidence": [
+                "268화 내 자석엔 뭐가 붙을까?",
+                "우리집 유치원",
+                "60086083"
+              ],
+              "text": "-햄팡이랑 힘쌤처럼요?\n-그래, 그래.\n우리집 유치원 친구들도 이렇게 신발이나 양말을 정리할 때는 스스로 짝을 잘 찾아서 정리하고 있나요?\n-힘쌤, 햄팡이는 집에 있는 물건들 짝 엄청 잘 찾아줘요.\n칫솔은 치약이랑 그리고 숟가락은 젓가락이랑.\n-우리 햄팡이 짝 잘 찾는데? | -네.\n-그럼 짜잔!\n그럼 이 자석의 짝도 찾을 수 있을까?\n-우와, 자석이다.\n햄팡이 자석 짝 찾아볼래요.\n-알겠어요, 그럼 우리 다다, 나나, 차차와 함께 짝을 찾으러 가 보자고.\n-좋아요, 좋아요.\n-좋아요, 좋아요, 다 함께 신나는 놀이 나와라.\n(함께) 팡! 팡!\n-안녕! | -친구들 안녕!\n-안녕, 안녕!\n(노래) 다다다다다 달려가 슝슝!\n(노래) 뭐든 빠른 다다 다다!\n(노래) 차차차차차 생각해 아하!\n(노래) 곰곰 생각 차차 차차!\n(노래) 나나나나나 상상해 와.\n(노래) 상상 가득 나나 나나!\n(노래) 우리들은 놀이 친구 재미있게 놀아 보자. 오 예!\n-이게 자석이라고?\n이게 여기에 다 붙는다고?\n-응, 내가 집에서 엄마랑 해 봤다니까.\n이 막대자석에 클립이 다닥다닥 다 붙어.\n-신기하다, 우리 얼른 해 보자.\n-그래, 그래.\n-내가 하나, 둘, 셋 하면 대 보는 거야.\n(함께) 응.\n하나, 둘, 셋.\n-붙었다.\n진짜 붙었어.\n차차 말대로 여기 딱 붙네, 신기해.\n-그렇지, 찰싹 다 달라붙었지?\n-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.\n-재미있겠다. | -그래, 그래, 그래, 그래, 그래.\n-출발.\n(함께) 출발!\n-찾으러 출발!\n-이 크레파스가 자석에 붙을까?\n안 붙네.\n크레파스는 안 붙는구나.\n그럼 이 과자 통에는?\n붙었어!\n얘들아, 이것 좀 봐.\n과자 통에 붙었다.\n-이 블록은 자석에 붙을까?\n궁금하다.\n짠!\n안 붙네.\n다시 이쪽.\n안 붙네.\n이 쇠구슬은 붙을까?",
+              "location": "공식 플레이어 회차 선언 및 공개 자막 https://anikids.ebs.co.kr/vodCommon/subtitles/60086083.smi, SYNC 550880~741802ms",
+              "originalStart": 131,
+              "originalEnd": 1038,
+              "offsetUnit": "UTF16_CODE_UNIT",
+              "responseHash": "5a9a08c317b78ce267c6619b77b88498d4e98a9559f68f061c4300d103f9bc61",
+              "contentHash": "5f223043301852122e45d093c31b7f6d2689ad75f5462bf7007638b4b50fb7f0",
+              "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+            }
+          ],
+          "searchExplanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 672,
+                "end": 717,
+                "quote": "-얘들아, 우리 이번에는 이 자석에 붙는 게 뭐가 있는지 교실에서 한번 찾아보자.",
+                "supplementId": "6665a362546a8d30c74be22e",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+              },
+              {
+                "field": "sourceSupplement",
+                "start": 772,
+                "end": 789,
+                "quote": "-이 크레파스가 자석에 붙을까?",
+                "supplementId": "6665a362546a8d30c74be22e",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086083&stepId=20006583"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [],
+            "text": "요청 주제의 표현을 같은 회차의 공식 보조 원문에서 확인했습니다. 소개문과 구분한 아래 인용을 읽고 관계·장면을 확인하세요."
+          }
+        },
+        {
+          "id": "BCAST-2d032ce4b233bfe29ceb",
+          "title": "힘센 내 자석",
+          "summary": "",
+          "sourceSupplements": [
+            {
+              "id": "0d1ba2c767d3dac99df15fdc",
+              "type": "TRANSCRIPT",
+              "label": "EBS 공개 대본",
+              "title": "EBS 공개 자막 · 힘센 내 자석",
+              "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+              "publishedAt": "미확인 (회차 방송일은 identity에 별도 기록)",
+              "checkedAt": "2026-10-13T19:30:17.223Z",
+              "identity": {
+                "resourceId": "BCAST-2d032ce4b233bfe29ceb",
+                "title": "힘센 내 자석",
+                "program": "우리집 유치원",
+                "broadcastDate": "2022-08-09",
+                "variant": "EPISODE",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+              },
+              "identityEvidence": [
+                "힘센 내 자석",
+                "우리집 유치원",
+                "60240957"
+              ],
+              "text": "-왜 안 되지?\n어디 보자.\n진짜 웃기다.\n-(같이) 얘들아, 안녕.\n-(같이) 안녕.\n-다다, 나나, 차차 안녕.\n-슉. 붙어라, 얍.\n-다다야, 너 자석 들고 뭐해?\n-힘쌤, 우리가 진짜 재미있는 거 발견했어요.\n-네. 빨간색이랑 파란색은 이렇게 찰싹 잘 붙는데요.\n빨간색하고 빨간색은 이렇게 서로 막 밀어내요.\n-오~\n다다, 나나, 차차가 아주 신기한 걸 발견했는데.\n자, 잘 봐.\n힘쌤도 자석 이렇게 들고.\n자석에는 두 가지 극이 있는데 이렇게 같은 색끼리 만나면 잘 봐.\n자.\n으...\n이렇게 서로가 서로를 밀어내고 만약 이렇게 슝~ 다른 색끼리 만나면.\n착 이렇게 달라붙지요.\n-(같이) 우와.\n-그러네.\n자석은 그냥 막 달라붙는 줄만 알았는데.\n-나도. 진짜 신기하다.\n-신기해.\n얘들아, 우리 이제 이 자석에 대해서 다 알았으니까\n빨리 붙였다 뗐다, 붙였다 뗐다 자석놀이 하자.\n햄팡이도 힘센 자석 찾고 싶어.\n-어? 힘이 센 자석? -응!\n-그런 자석이 있어?\n나도 힘이 센 자석 찾고 싶다.\n-좋아, 좋아.\n그럼 이번에는 어떤 자석에 쇠가 더더더더더 많이 붙는지 한번 찾아볼까?\n-(같이) 네, 네!\n-그리고 우리집 유치원 친구들도 자석과 그리고 클립을 준비하도록 해요.\n-얘들아, 그럼 이 자석을 클립 속에 쏙 넣었다가 들어올리는 거야.\n-(같이) 응!\n-나는 자신 있어! -나도!\n-힘쌤도 준비 완료!\n-자, 그럼 시작!\n-쏙 넣었다가 쑥 빼야지.\n쏙, 쏙, 쏙.\n붙었어, 붙었어.\n-붙어라, 붙어라.\n내 자석에 붙어라.\n붙어라, 붙어라.\n많이많이 붙어라.\n-(같이) 우와!\n-나는 쑥 넣었다가 세게 들어올리면 더더더더 많이 붙겠지?\n쏙, 슉!\n-햄팡이도 빠르게. -빠르게.\n-슉슉. -붙었어?\n-자, 그럼 힘쌤도 한번 주문을 외워볼까?\n클립아, 클립아.\n세상에서 제일 힘센 자석은 누구의 자석이니.",
+              "location": "공식 플레이어 회차 선언 및 공개 자막 https://anikids.ebs.co.kr/vodCommon/subtitles/60240957.smi, SYNC 643239~813423ms",
+              "originalStart": 120,
+              "originalEnd": 1027,
+              "offsetUnit": "UTF16_CODE_UNIT",
+              "responseHash": "da215724cac886a8be82a0fa1daec188aab62db958bcc589cfe11079183d91e0",
+              "contentHash": "d9cd00b70d6d7643987253e4f18130b6b98ac01d22407a0f9bcf5f6b2ac5ae03",
+              "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+            }
+          ],
+          "searchExplanation": {
+            "topicEvidence": [],
+            "supplementEvidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 345,
+                "end": 367,
+                "quote": "자석은 그냥 막 달라붙는 줄만 알았는데.",
+                "supplementId": "0d1ba2c767d3dac99df15fdc",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+              },
+              {
+                "field": "sourceSupplement",
+                "start": 741,
+                "end": 751,
+                "quote": "내 자석에 붙어라.",
+                "supplementId": "0d1ba2c767d3dac99df15fdc",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583"
+              }
+            ],
+            "details": [],
+            "unconfirmed": [],
+            "titleWords": [
+              "자석"
+            ],
+            "text": "요청 주제의 표현을 같은 회차의 공식 보조 원문에서 확인했습니다. 소개문과 구분한 아래 인용을 읽고 관계·장면을 확인하세요."
+          }
+        }
+      ]
+    }
+  ],
+  "cases": [
+    "실제3000: 새 소개문2검색·공식 자막 자석2회차 검색",
+    "자기 회차 보조 원문 인용 slice 대조",
+    "390px 실화면: 자막 인용·붙지 않는 물체 근거·영상 미확인·오류/넘침0",
+    "기존 개인 저장·새로고침 유지"
+  ],
+  "pageErrors": [],
+  "paidApiCalls": 0,
+  "playback": "NOT_CHECKED"
+}

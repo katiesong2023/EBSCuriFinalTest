@@ -1,0 +1,1148 @@
+{
+  "checkedAt": "2026-10-10T15:17:30.861Z",
+  "elapsedMs": 8854,
+  "expanded": {
+    "standards": 214,
+    "noCandidate": 16,
+    "titleOnly": 14,
+    "withoutMinimumDescription": 15,
+    "withoutSupportedRelation": 3,
+    "conceptOnly": 4,
+    "interpretationHeld": 2,
+    "explicitConflict": 0,
+    "comparisonEligibleRelations": 72,
+    "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+    "ruleSupported": 4,
+    "ruleUnsupported": 210,
+    "candidateRelations": 8544,
+    "uniqueResources": 2899,
+    "uniqueResourcesWithMinimumText": 1325,
+    "automaticPublicRelations": 0,
+    "humanApprovedRelations": 0,
+    "segments": [
+      {
+        "courseId": "elementary34",
+        "courseLabel": "초등 3~4학년군",
+        "subject": "사회",
+        "standards": 22,
+        "noCandidate": 3,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 22,
+        "candidateRelations": 1565,
+        "uniqueResources": 598,
+        "uniqueResourcesWithMinimumText": 322,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary34",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 22
+      },
+      {
+        "courseId": "elementary34",
+        "courseLabel": "초등 3~4학년군",
+        "subject": "과학",
+        "standards": 51,
+        "noCandidate": 2,
+        "titleOnly": 9,
+        "withoutMinimumDescription": 9,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 51,
+        "candidateRelations": 2638,
+        "uniqueResources": 1277,
+        "uniqueResourcesWithMinimumText": 597,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary34",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 51
+      },
+      {
+        "courseId": "elementary56",
+        "courseLabel": "초등 5~6학년군",
+        "subject": "사회",
+        "standards": 27,
+        "noCandidate": 0,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 1,
+        "withoutSupportedRelation": 1,
+        "conceptOnly": 2,
+        "interpretationHeld": 1,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 17,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 2,
+        "ruleUnsupported": 25,
+        "candidateRelations": 673,
+        "uniqueResources": 455,
+        "uniqueResourcesWithMinimumText": 238,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary56",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 7,
+            "latestRuns": 4,
+            "runStates": {
+              "CHECKED": 3,
+              "HELD": 1,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 6,
+            "latestRelations": 3,
+            "currentRelations": 0,
+            "staleRelations": 3,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {
+              "RULE_CHANGED": 3
+            }
+          },
+          "human": {
+            "latestDecidedRelations": 4,
+            "decisions": {
+              "approve": 1,
+              "edit": 0,
+              "exclude": 3,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 27
+      },
+      {
+        "courseId": "elementary56",
+        "courseLabel": "초등 5~6학년군",
+        "subject": "과학",
+        "standards": 51,
+        "noCandidate": 5,
+        "titleOnly": 5,
+        "withoutMinimumDescription": 5,
+        "withoutSupportedRelation": 2,
+        "conceptOnly": 2,
+        "interpretationHeld": 1,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 55,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 2,
+        "ruleUnsupported": 49,
+        "candidateRelations": 1156,
+        "uniqueResources": 599,
+        "uniqueResourcesWithMinimumText": 341,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary56",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 7,
+            "latestRuns": 4,
+            "runStates": {
+              "CHECKED": 1,
+              "HELD": 3,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 1,
+            "latestRelations": 1,
+            "currentRelations": 0,
+            "staleRelations": 1,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {
+              "RULE_CHANGED": 1
+            }
+          },
+          "human": {
+            "latestDecidedRelations": 1,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 1,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 51
+      },
+      {
+        "courseId": "middle1",
+        "courseLabel": "중학교 1학년",
+        "subject": "사회",
+        "standards": 37,
+        "noCandidate": 5,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 37,
+        "candidateRelations": 1266,
+        "uniqueResources": 537,
+        "uniqueResourcesWithMinimumText": 232,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "middle1",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 37
+      },
+      {
+        "courseId": "middle1",
+        "courseLabel": "중학교 1학년",
+        "subject": "과학",
+        "standards": 26,
+        "noCandidate": 1,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 26,
+        "candidateRelations": 1246,
+        "uniqueResources": 639,
+        "uniqueResourcesWithMinimumText": 317,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "middle1",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 26
+      }
+    ]
+  },
+  "legacy": {
+    "standards": 78,
+    "noCandidate": 5,
+    "titleOnly": 5,
+    "withoutMinimumDescription": 6,
+    "withoutSupportedRelation": 3,
+    "conceptOnly": 4,
+    "interpretationHeld": 2,
+    "explicitConflict": 0,
+    "comparisonEligibleRelations": 72,
+    "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+    "ruleSupported": 4,
+    "ruleUnsupported": 74,
+    "candidateRelations": 1829,
+    "uniqueResources": 1023,
+    "uniqueResourcesWithMinimumText": 548,
+    "automaticPublicRelations": 0,
+    "humanApprovedRelations": 0,
+    "segments": [
+      {
+        "courseId": "elementary34",
+        "courseLabel": "초등 3~4학년군",
+        "subject": "사회",
+        "standards": 22,
+        "noCandidate": 3,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 22,
+        "candidateRelations": 1565,
+        "uniqueResources": 598,
+        "uniqueResourcesWithMinimumText": 322,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary34",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 22
+      },
+      {
+        "courseId": "elementary34",
+        "courseLabel": "초등 3~4학년군",
+        "subject": "과학",
+        "standards": 51,
+        "noCandidate": 2,
+        "titleOnly": 9,
+        "withoutMinimumDescription": 9,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 51,
+        "candidateRelations": 2638,
+        "uniqueResources": 1277,
+        "uniqueResourcesWithMinimumText": 597,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary34",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 51
+      },
+      {
+        "courseId": "elementary56",
+        "courseLabel": "초등 5~6학년군",
+        "subject": "사회",
+        "standards": 27,
+        "noCandidate": 0,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 1,
+        "withoutSupportedRelation": 1,
+        "conceptOnly": 2,
+        "interpretationHeld": 1,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 17,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 2,
+        "ruleUnsupported": 25,
+        "candidateRelations": 673,
+        "uniqueResources": 455,
+        "uniqueResourcesWithMinimumText": 238,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary56",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 7,
+            "latestRuns": 4,
+            "runStates": {
+              "CHECKED": 3,
+              "HELD": 1,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 6,
+            "latestRelations": 3,
+            "currentRelations": 0,
+            "staleRelations": 3,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {
+              "RULE_CHANGED": 3
+            }
+          },
+          "human": {
+            "latestDecidedRelations": 4,
+            "decisions": {
+              "approve": 1,
+              "edit": 0,
+              "exclude": 3,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 27
+      },
+      {
+        "courseId": "elementary56",
+        "courseLabel": "초등 5~6학년군",
+        "subject": "과학",
+        "standards": 51,
+        "noCandidate": 5,
+        "titleOnly": 5,
+        "withoutMinimumDescription": 5,
+        "withoutSupportedRelation": 2,
+        "conceptOnly": 2,
+        "interpretationHeld": 1,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 55,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 2,
+        "ruleUnsupported": 49,
+        "candidateRelations": 1156,
+        "uniqueResources": 599,
+        "uniqueResourcesWithMinimumText": 341,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "elementary56",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 7,
+            "latestRuns": 4,
+            "runStates": {
+              "CHECKED": 1,
+              "HELD": 3,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 1,
+            "latestRelations": 1,
+            "currentRelations": 0,
+            "staleRelations": 1,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {
+              "RULE_CHANGED": 1
+            }
+          },
+          "human": {
+            "latestDecidedRelations": 1,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 1,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 51
+      },
+      {
+        "courseId": "middle1",
+        "courseLabel": "중학교 1학년",
+        "subject": "사회",
+        "standards": 37,
+        "noCandidate": 5,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 37,
+        "candidateRelations": 1266,
+        "uniqueResources": 537,
+        "uniqueResourcesWithMinimumText": 232,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "middle1",
+          "subject": "사회",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 37
+      },
+      {
+        "courseId": "middle1",
+        "courseLabel": "중학교 1학년",
+        "subject": "과학",
+        "standards": 26,
+        "noCandidate": 1,
+        "titleOnly": 0,
+        "withoutMinimumDescription": 0,
+        "withoutSupportedRelation": 0,
+        "conceptOnly": 0,
+        "interpretationHeld": 0,
+        "explicitConflict": 0,
+        "comparisonEligibleRelations": 0,
+        "countNote": "기준 수와 자료×기준 관계 수를 구분합니다. 미지원·원문 부족은 중복될 수 있고, 지원 관계 없음의 분모는 자동 비교 지원 기준입니다.",
+        "ruleSupported": 0,
+        "ruleUnsupported": 26,
+        "candidateRelations": 1246,
+        "uniqueResources": 639,
+        "uniqueResourcesWithMinimumText": 317,
+        "automaticPublicRelations": 0,
+        "humanApprovedRelations": 0,
+        "evidence": {
+          "courseId": "middle1",
+          "subject": "과학",
+          "automatic": {
+            "historicalRuns": 0,
+            "latestRuns": 0,
+            "runStates": {
+              "CHECKED": 0,
+              "HELD": 0,
+              "FAILED": 0,
+              "RUNNING": 0,
+              "INTERRUPTED": 0,
+              "STALE": 0,
+              "UNKNOWN": 0
+            },
+            "historicalRelations": 0,
+            "latestRelations": 0,
+            "currentRelations": 0,
+            "staleRelations": 0,
+            "inspection": {
+              "PASS": 0,
+              "FAIL": 0,
+              "HELD": 0,
+              "UNKNOWN": 0
+            },
+            "semantic": {
+              "SUPPORTED": 0,
+              "PARTIAL": 0,
+              "UNSUPPORTED": 0,
+              "HELD": 0,
+              "CONFLICT": 0,
+              "NOT_EVALUATED": 0
+            },
+            "currentPublicRelations": 0,
+            "blockedByHuman": 0,
+            "staleReasons": {}
+          },
+          "human": {
+            "latestDecidedRelations": 0,
+            "decisions": {
+              "approve": 0,
+              "edit": 0,
+              "exclude": 0,
+              "hold": 0
+            },
+            "currentApprovedRelations": 0
+          }
+        },
+        "acquiredStandards": 26
+      }
+    ]
+  },
+  "sixScopes": [
+    {
+      "courseId": "elementary34",
+      "subject": "사회",
+      "standards": 22,
+      "noCandidate": 3,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 0,
+      "withoutSupportedRelation": 0,
+      "conceptOnly": 0,
+      "interpretationHeld": 0,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 0,
+      "ruleSupported": 0,
+      "ruleUnsupported": 22,
+      "candidateRelations": 1565,
+      "uniqueResources": 598,
+      "uniqueResourcesWithMinimumText": 322,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 499
+    },
+    {
+      "courseId": "elementary34",
+      "subject": "과학",
+      "standards": 51,
+      "noCandidate": 2,
+      "titleOnly": 9,
+      "withoutMinimumDescription": 9,
+      "withoutSupportedRelation": 0,
+      "conceptOnly": 0,
+      "interpretationHeld": 0,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 0,
+      "ruleSupported": 0,
+      "ruleUnsupported": 51,
+      "candidateRelations": 2638,
+      "uniqueResources": 1277,
+      "uniqueResourcesWithMinimumText": 597,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 1061
+    },
+    {
+      "courseId": "elementary56",
+      "subject": "사회",
+      "standards": 27,
+      "noCandidate": 0,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 1,
+      "withoutSupportedRelation": 1,
+      "conceptOnly": 2,
+      "interpretationHeld": 1,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 17,
+      "ruleSupported": 2,
+      "ruleUnsupported": 25,
+      "candidateRelations": 673,
+      "uniqueResources": 455,
+      "uniqueResourcesWithMinimumText": 238,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 381
+    },
+    {
+      "courseId": "elementary56",
+      "subject": "과학",
+      "standards": 51,
+      "noCandidate": 5,
+      "titleOnly": 5,
+      "withoutMinimumDescription": 5,
+      "withoutSupportedRelation": 2,
+      "conceptOnly": 2,
+      "interpretationHeld": 1,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 55,
+      "ruleSupported": 2,
+      "ruleUnsupported": 49,
+      "candidateRelations": 1156,
+      "uniqueResources": 599,
+      "uniqueResourcesWithMinimumText": 341,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 476
+    },
+    {
+      "courseId": "middle1",
+      "subject": "사회",
+      "standards": 37,
+      "noCandidate": 5,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 0,
+      "withoutSupportedRelation": 0,
+      "conceptOnly": 0,
+      "interpretationHeld": 0,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 0,
+      "ruleSupported": 0,
+      "ruleUnsupported": 37,
+      "candidateRelations": 1266,
+      "uniqueResources": 537,
+      "uniqueResourcesWithMinimumText": 232,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 472
+    },
+    {
+      "courseId": "middle1",
+      "subject": "과학",
+      "standards": 26,
+      "noCandidate": 1,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 0,
+      "withoutSupportedRelation": 0,
+      "conceptOnly": 0,
+      "interpretationHeld": 0,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 0,
+      "ruleSupported": 0,
+      "ruleUnsupported": 26,
+      "candidateRelations": 1246,
+      "uniqueResources": 639,
+      "uniqueResourcesWithMinimumText": 317,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0,
+      "queueTotal": 521
+    }
+  ],
+  "deltaUniqueResources": 1876,
+  "deltaRelations": 6715,
+  "legacyBaseline": {
+    "method": "같은 카탈로그와 기존78 기준만 둔 메모리 저장소",
+    "summary": {
+      "standards": 78,
+      "noCandidate": 5,
+      "titleOnly": 5,
+      "withoutMinimumDescription": 6,
+      "withoutSupportedRelation": 3,
+      "conceptOnly": 4,
+      "interpretationHeld": 2,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 72,
+      "ruleSupported": 4,
+      "ruleUnsupported": 74,
+      "candidateRelations": 1829,
+      "uniqueResources": 1023,
+      "uniqueResourcesWithMinimumText": 548,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0
+    },
+    "delta": {
+      "standards": 0,
+      "noCandidate": 0,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 0,
+      "withoutSupportedRelation": 0,
+      "conceptOnly": 0,
+      "interpretationHeld": 0,
+      "explicitConflict": 0,
+      "comparisonEligibleRelations": 0,
+      "ruleSupported": 0,
+      "ruleUnsupported": 0,
+      "candidateRelations": 0,
+      "uniqueResources": 0,
+      "uniqueResourcesWithMinimumText": 0,
+      "automaticPublicRelations": 0,
+      "humanApprovedRelations": 0
+    }
+  },
+  "priorLegacyBaseline": {
+    "source": "docs/r08-05-gaps-current.json",
+    "summary": {
+      "standards": 78,
+      "noCandidate": 7,
+      "titleOnly": 5,
+      "withoutMinimumDescription": 6,
+      "withoutSupportedRelation": 77
+    },
+    "delta": {
+      "standards": 0,
+      "noCandidate": -2,
+      "titleOnly": 0,
+      "withoutMinimumDescription": 0,
+      "withoutSupportedRelation": null
+    },
+    "nonComparable": {
+      "withoutSupportedRelation": "과거는 미지원까지 포함했지만 현재 분모는 자동 비교 지원 기준이므로 증감 비교하지 않음"
+    }
+  },
+  "candidateInterpretation": "후보 수는 공식 문장에 포함된 단원 중심어의 원문 언급 수이다. 관계 충족·사람 승인·학년 적합성 확정과 별개다.",
+  "queueTotal": 2532,
+  "operationalApprovals": {
+    "currentHumanApproved": 0,
+    "currentApprovedSearchProjection": 0,
+    "preservedWithdrawals": 4,
+    "source": "docs/r09-01-approval-revocation.json"
+  },
+  "paidApiCalls": 0,
+  "cases": [
+    {
+      "name": "전체214 기준과 여섯 과정·교과22/51/27/51/37/26을 반환",
+      "passed": true
+    },
+    {
+      "name": "각 구간의 옵션·선택 기준·보완목록이 같은 과정과 교과에 속함",
+      "passed": true
+    },
+    {
+      "name": "다른 과정·교과의 선택 ID 및 중학 전체를 중1로 요청하는 입력은 거절",
+      "passed": true
+    },
+    {
+      "name": "공식 원문 대조·중1 편성 참고가 자동 규칙 또는 사람 승인을 만들지 않음",
+      "passed": true
+    },
+    {
+      "name": "45단원 중심어136 기준은 원문 실제 표현만 포함하고 수행어를 제외",
+      "passed": true
+    },
+    {
+      "name": "호기심·의한·가진다·자전거만 있는 소개문은 천체 후보가 아님",
+      "passed": true
+    },
+    {
+      "name": "추가136을 뺀 같은 카탈로그 기준과 기존78 결과가 완전히 같음",
+      "passed": true
+    },
+    {
+      "name": "R08-05 공식78 기준 원문은 보존하고 변경된 검색/공백 집계는 차이로 기록",
+      "passed": true
+    },
+    {
+      "name": "실제 JSON·방송·시맨틱·자동자산 저장소와 승인/취소 이력은 변경하지 않음",
+      "passed": true
+    }
+  ],
+  "protectedHashes": {
+    "curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "broadcast-catalog.sqlite": "153807f71a0e819a6792d474947fef8f472a66ee1de221939fe36240b71e547b",
+    "semantic-layer.sqlite": "9282dcd68519a859f13e16a8711450e66ea30aa3b40f17db0f1232577ee0b05e",
+    "automatic-assets.sqlite": "d5e523f0bb88f362890c380c7107916e51f92e3d1b42b697ea3b458b1532800a"
+  }
+}

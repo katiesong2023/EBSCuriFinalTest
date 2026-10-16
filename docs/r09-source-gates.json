@@ -1,0 +1,2951 @@
+{
+  "generatedAt": "2026-10-04T05:43:48.503Z",
+  "method": "고정 실데이터에서 24개 개발 가상 요청을 문장·핵심어·개별 링크 조건으로 재검사. 관련성과 원문 접근은 별도 표본 기록.",
+  "snapshotPath": "/Users/yunseo/EBS_Curi/server/data/quality-catalog-20260930.json.gz",
+  "snapshotSha256": "803bb0dd1cfd73d9a890edf4f679a75b4200425bada493643b095f7ccc0101ec",
+  "codeHashes": {
+    "discovery-search.js": "5b2fa0f83e61cf20369a10600d60c1e1f49afd828946cca9b4c785f9cf418d24",
+    "discovery-intent.js": "ead2705f027873ae29573b21b8a374a1b6d5ccbf710a30e9009fd87caabd5a2d",
+    "discovery-request.js": "8daa88a66e65b2f57a24095ca8fbcd8c253c8342ed38fe999c142b823a3330bb",
+    "semantic-layer.js": "2c62abee47a2bb23504b603ac0b9506e243a6b0dcc5ef37e7fe0ac01703cb56b",
+    "semantic-context.js": "3e150fae81d505ba9be96d9222cdb7e8c650b51eadd3f61813b9e05ea30a50b6",
+    "semantic-build.js": "8e8ffbce8ae76d961df664faa8d5594983c40f5f3f5be093f42294a98ba95515"
+  },
+  "ruleVersion": "2026-09-30.2",
+  "catalog": {
+    "catalog": 22118,
+    "individual": 21674,
+    "collections": 444,
+    "withDescription": 8292,
+    "workingSet": 144,
+    "indexedContents": 4,
+    "concepts": 3,
+    "paidApiCallsPerSearch": 0,
+    "broadcastEpisodes": 22692,
+    "broadcastCatalog": 22753,
+    "broadcastDescriptions": 10175,
+    "broadcastPrograms": 88,
+    "broadcastTitleGroups": 21511,
+    "directLinks": 341
+  },
+  "liveCatalogMatchesSnapshot": false,
+  "cases": [
+    {
+      "name": "전체 자료 원문 태그의 구절·필드·지문·출처 및 추론 후보 분리",
+      "passed": true,
+      "detail": {
+        "resources": 22118,
+        "mentions": 1668,
+        "inferred": 179
+      }
+    },
+    {
+      "name": "현재 디스크 시맨틱 DB는 고정 카탈로그와 동일",
+      "passed": true,
+      "detail": {
+        "buildId": "d140de6aa4c140ebe837817c",
+        "tagRowsHash": "5853e9c19c7f5e60a37aea68a6eca149d341a111c7a8b1462697245db618ac92",
+        "foreignKeyErrors": 0
+      }
+    },
+    {
+      "name": "같은 스냅샷 재생성의 buildId·전체 태그 행 일치",
+      "passed": true,
+      "detail": {
+        "buildId": "d140de6aa4c140ebe837817c"
+      }
+    },
+    {
+      "name": "변경 원문으로 저장 재생성 시 이전 태그·근거 무효화",
+      "passed": true,
+      "detail": {
+        "before": "aaeed509ed45e12b4638f8d9",
+        "after": "55e6a104963a483a6becbe18",
+        "productionStoreChanged": false
+      }
+    },
+    {
+      "name": "지정 세 질의의 실제 고정 카탈로그 후보·제외·시간 안내",
+      "passed": true,
+      "detail": {
+        "queries": 3
+      }
+    },
+    {
+      "name": "동고서저 기존 연결 자료는 모든 페이지에서 보존",
+      "passed": true,
+      "detail": {
+        "total": 10,
+        "pages": 2,
+        "firstPageAssumption": false
+      }
+    },
+    {
+      "name": "유형·프로그램·개별 링크·페이지 경계·빈 결과 회귀",
+      "passed": true,
+      "detail": {
+        "pages": 2409,
+        "directSpaceCandidates": 3
+      }
+    }
+  ],
+  "technicalChecksPassed": 7,
+  "persistedBuild": {
+    "generatedAt": "2026-10-04T05:43:43.162Z",
+    "buildId": "d140de6aa4c140ebe837817c",
+    "ruleVersion": "2026-09-30.2",
+    "resources": 22118,
+    "concepts": 60,
+    "resourcesWithSourceTags": 1496,
+    "sourceMentions": 1668,
+    "inferredCandidates": 179,
+    "paidApiCalls": 0,
+    "note": "SOURCE_MENTION은 원문 표현의 존재 확인이며 개념 설명·장면·학년·교육과정 적합성 승인이 아니다. 추론 후보는 기본 검색의 일치 근거로 사용하지 않는다."
+  },
+  "summary": {
+    "사회": {
+      "scenarios": 12,
+      "requestsWithCandidates": 10,
+      "keywordsWithCandidates": 12,
+      "emptyRequests": [
+        "인구 감소가 지역에 미치는 영향을 보여주는 자료를 찾아줘",
+        "유관순의 독립운동을 알아볼 방송을 찾아줘"
+      ]
+    },
+    "과학": {
+      "scenarios": 12,
+      "requestsWithCandidates": 11,
+      "keywordsWithCandidates": 12,
+      "emptyRequests": [
+        "물질의 용해를 관찰할 수 있는 방송을 찾아줘"
+      ]
+    }
+  },
+  "regression": [
+    {
+      "query": "설악산 또는 김제",
+      "total": 23,
+      "terms": [
+        "설악산",
+        "김제"
+      ],
+      "understanding": {
+        "concepts": [],
+        "terms": [
+          "설악산",
+          "김제"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "설악산 또는 김제",
+        "intent": "EXPLORE",
+        "connector": "OR",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [],
+            "terms": [
+              "설악산"
+            ],
+            "alternatives": []
+          },
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [],
+            "terms": [
+              "김제"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "resultIds": [
+        "BCAST-964462698812bbb9dfc9",
+        "GEO-GIMJE",
+        "BCAST-3785a1bb74264575d315",
+        "BCAST-0cdf5749d1691ca79e7b",
+        "BCAST-828723add441e2432457",
+        "BCAST-a087cfcd8cc665b077a8",
+        "BCAST-5b234f3204d1a1f0bafe",
+        "BCAST-aa3cb0d6fea4f682a051",
+        "BCAST-00429b480f04d51e2862"
+      ]
+    },
+    {
+      "query": "해안 지형 제외하고 우주",
+      "total": 151,
+      "terms": [],
+      "understanding": {
+        "concepts": [
+          {
+            "id": "space",
+            "label": "우주",
+            "subject": "과학",
+            "aliases": [
+              "우주",
+              "은하",
+              "태양계",
+              "천체",
+              "행성"
+            ],
+            "broader": null,
+            "classification": "EDITORIAL_RETRIEVAL_VOCABULARY",
+            "ruleVersion": "2026-09-30.2"
+          }
+        ],
+        "terms": [],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "우주",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [
+          "해안 지형"
+        ],
+        "constraints": {},
+        "warnings": [],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [
+              "space"
+            ],
+            "geographyIds": [],
+            "terms": [],
+            "alternatives": []
+          }
+        ]
+      },
+      "resultIds": [
+        "BCAST-012ead6030a246fe0eeb",
+        "BCAST-98b56fa27d0b607fa585",
+        "BCAST-015286eab735ab6fb910",
+        "BCAST-ced5d75b219cc5d219ce",
+        "BCAST-c993b6a79481d76b640b",
+        "BCAST-3825c99c466e81523cf7",
+        "BCAST-431d48fe399c829e440a",
+        "BCAST-58c5a1f27d5199b7a817",
+        "BCAST-61485c49e24aede26ee0"
+      ]
+    },
+    {
+      "query": "김제 5분 이내",
+      "total": 6,
+      "terms": [
+        "김제"
+      ],
+      "understanding": {
+        "concepts": [],
+        "terms": [
+          "김제"
+        ],
+        "alternativeGroups": [],
+        "preferences": {
+          "programs": [],
+          "genres": []
+        },
+        "requiredPrograms": [],
+        "classroomContext": [],
+        "detailRequests": [],
+        "positiveQuery": "김제",
+        "intent": "EXPLORE",
+        "connector": "AND",
+        "relationNeeds": [],
+        "excluded": [],
+        "constraints": {
+          "durationMinutes": 5
+        },
+        "warnings": [
+          "재생시간 조건은 확인할 데이터가 부족합니다. 시간 조건을 충족한 결과가 아닙니다."
+        ],
+        "method": "LOCAL_RULES",
+        "curriculumStatus": "NOT_ASSESSED",
+        "groups": [
+          {
+            "operator": "AND",
+            "conceptIds": [],
+            "geographyIds": [],
+            "terms": [
+              "김제"
+            ],
+            "alternatives": []
+          }
+        ]
+      },
+      "resultIds": [
+        "GEO-GIMJE",
+        "BCAST-3785a1bb74264575d315",
+        "BCAST-0cdf5749d1691ca79e7b",
+        "BCAST-828723add441e2432457",
+        "BCAST-a087cfcd8cc665b077a8",
+        "BCAST-30e37d164cf570579083"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "SOC-01",
+      "subject": "사회",
+      "keyword": "동고서저",
+      "query": "우리나라 동고서저 지형을 비교할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 10,
+      "keywordTotal": 10,
+      "directTotal": 8,
+      "terms": [],
+      "warnings": [
+        "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+      ],
+      "elapsedMs": 99.08,
+      "topProgramShare": 0.7777777777777778,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "GEO-GIMJE",
+          "title": "김제 — 1부 하늘, 땅을 만나다 지평선 이야기",
+          "summary": "우리나라에서 유일하게 지평선을 볼 수 있는 곳, 김제. 한반도 농경문화의 역사와 전통을 간직하고 있는 김제평야로 떠난다",
+          "program": "한국기행",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3054984",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=3054984",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [],
+          "reason": "동고서저 → 김제 · 서쪽 평야 비교 장소",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-0266ccbdac38db6404e4",
+          "title": "또 걸어보길 1부 금강산에서 해파랑까지",
+          "summary": "금강산 일만 이천 봉 가운데 제 일봉이 자리한 강원도 고성 신선대에서 탐혐가 남영호 씨를 만났다. 신선대는 설악산 해발 900m에 펼쳐진 울산바위를 가장 경이롭게 마주할 수 있는 곳으로 SNS 핫플레이스라는데~ 울산바위로 눈이 시원했다면 이제 입이 즐거울 차례! 겨울이 제철이라는 동해 물곰치로 끓인 물곰탕 한 그릇 맛보고 해파랑길을 걸으며 초겨울의 낭만을 즐긴다.",
+          "program": "한국기행",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60542547",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60542547",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [],
+          "reason": "동고서저 → 설악산 · 동쪽 산지 사례",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-5b234f3204d1a1f0bafe",
+          "title": "바람이 불어오는 곳 2부 설악산에 삽니다",
+          "summary": "앞마당에서 껑충 뛰면 해발 1,708m 설악산 꼭대기에 닿고 뒷마당에서 껑충 뛰면 동해가 펼쳐지는 곳. 길목마다 500년 된 돌담이 보존된 이 마을에는 김택규(73세) 씨 부부, 정연선(68세) 씨 부부, 허경심(69세) 씨 부부가 대문 없이 어우러져 살아간다. 이들이 산책 삼아 오른 앞산에서는 극치의 아름다운 풍경이 눈을 호강시켜 주고, 싸 온 참을 맛보기 위해 앉은 자리에서는 설악산의 3대 폭포 중 하나인 비룡 폭포가 땀을 씻어주고, 돌아오면 정감넘치는 돌담길과 한옥이 품어주니, 여기에 사는 이들은 살맛이 난다!",
+          "program": "한국기행",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60077085",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60077085",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "housing",
+              "label": "주거",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 263,
+                "end": 265,
+                "quote": "한옥",
+                "excerpt": "나인 비룡 폭포가 땀을 씻어주고, 돌아오면 정감넘치는 돌담길과 한옥이 품어주니, 여기에 사는 이들은 살맛이 난다!",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=BP0PAPD0000000022&stepId=01BP0PAPD0000000022&lectId=60077085",
+                "checkedAt": "2026-09-29T13:34:29.126Z",
+                "contentHash": "f13efb4338074b765013be597569b19c15f9f80d6bfd53b9ba48a7795e248b53"
+              }
+            }
+          ],
+          "reason": "동고서저 → 설악산 · 동쪽 산지 사례",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-02",
+      "subject": "사회",
+      "keyword": "인구",
+      "query": "인구 감소가 지역에 미치는 영향을 보여주는 자료를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 0,
+      "keywordTotal": 28,
+      "directTotal": 6,
+      "terms": [
+        "감소"
+      ],
+      "warnings": [
+        "요청한 영향 관계의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 88.63,
+      "topProgramShare": null,
+      "sourceAuditSelected": false,
+      "top": []
+    },
+    {
+      "id": "SOC-03",
+      "subject": "사회",
+      "keyword": "민주주의",
+      "query": "민주주의와 시민 참여를 설명하는 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 1,
+      "keywordTotal": 37,
+      "directTotal": 8,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 83.67,
+      "topProgramShare": 1,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-ce1721b43f7741c59028",
+          "title": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+          "summary": "‘사소하지만 일상에 밀접한’ 조례들로 각계각층의 시민들에게 다가서는 지방의회! 시민에게 더욱더 가까운 지방의회로 변모하기 위해서는 시민의 참여가 무엇보다 중요하다. 지방의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국 지방의회와 시민이 함께 할 때 비로소 가능하다.",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "democracy",
+              "label": "민주주의",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 20,
+                "quote": "민주주의",
+                "excerpt": "<지방의회, 결코 작지 않은 민주주의> 3부 시민",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:29:22.585Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            },
+            {
+              "conceptId": "citizen",
+              "label": "시민 참여",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 129,
+                "end": 134,
+                "quote": "시민 참여",
+                "excerpt": "의회에서는 공청회나 토론회, 주민참여조례, 청소년 의회교실 등 시민 참여를 보장하는 다양한 창구를 통해 시민의 목소리에 귀 기울이고 있다. ‘작지만 결코 작지 않은’ 진정한 민주주의는 결국",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60526117",
+                "checkedAt": "2026-09-29T13:57:18.433Z",
+                "contentHash": "38dec8bd6db7ccaf33654696d3c6ab84d0fab3baf6cf639231125c2bd90d4c90"
+              }
+            }
+          ],
+          "reason": "민주주의 · 시민 참여 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-04",
+      "subject": "사회",
+      "keyword": "경제",
+      "query": "생활 속 경제 활동을 비교할 자료를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 25,
+      "keywordTotal": 25,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+      ],
+      "elapsedMs": 83.08,
+      "topProgramShare": 0.4444444444444444,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-df055831d7be7f48baf0",
+          "title": "누리엘 루비니 <재앙의 경제학> 1강 오늘의 세계 경제",
+          "summary": "자막누리엘 루비니 <재앙의 경제학> 1강 오늘의 세계 경제",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057868&lectId=60463783",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=33",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "economy",
+              "label": "경제",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 28,
+                "end": 30,
+                "quote": "경제",
+                "excerpt": "누리엘 루비니 <재앙의 경제학> 1강 오늘의 세계 경제",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057868&lectId=60463783",
+                "checkedAt": "2026-09-30T13:30:43.143Z",
+                "contentHash": "4e5a2fbc31b65a178f0f1c1c3f7b5819d5c2afe086185945c3550f7dbe5c58e7"
+              }
+            }
+          ],
+          "reason": "경제 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-f25a038bff25f114b2b8",
+          "title": "누리엘 루비니 <재앙의 경제학> 2강 팬데믹발 경제 위기는 계속된다",
+          "summary": "자막누리엘 루비니 <재앙의 경제학> 2강 팬데믹발 경제 위기는 계속된다",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057868&lectId=60463958",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=33",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "economy",
+              "label": "경제",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 26,
+                "end": 28,
+                "quote": "경제",
+                "excerpt": "누리엘 루비니 <재앙의 경제학> 2강 팬데믹발 경제 위기는 계속된다",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057868&lectId=60463958",
+                "checkedAt": "2026-09-30T13:30:43.143Z",
+                "contentHash": "4b9136621ea6f86a37e4719f0681fa58fbe214647b0df0ee06a8c0e3808c7c55"
+              }
+            }
+          ],
+          "reason": "경제 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-f81d28f91f355fdadc01",
+          "title": "당신이 몰랐던 올림픽",
+          "summary": "자막지역 경제를 발전 시키는 올림픽, 환경 올림픽 그러나 그 올림픽이 환경을 파괴시키고 있다?!",
+          "program": "하나뿐인 지구",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10289203",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 21,
+                "end": 23,
+                "quote": "환경",
+                "excerpt": "자막지역 경제를 발전 시키는 올림픽, 환경 올림픽 그러나 그 올림픽이 환경을 파괴시키고 있다?!",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+                "checkedAt": "2026-09-30T13:27:01.915Z",
+                "contentHash": "259c2343f0e9ef14ca727d4262577d595ec6c060dc1f57a74740f18a5523e1e5"
+              }
+            },
+            {
+              "conceptId": "economy",
+              "label": "경제",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 7,
+                "quote": "경제",
+                "excerpt": "자막지역 경제를 발전 시키는 올림픽, 환경 올림픽 그러나 그 올림픽이 환경을 파괴시키고 있다?!",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=6",
+                "checkedAt": "2026-09-30T13:27:01.915Z",
+                "contentHash": "259c2343f0e9ef14ca727d4262577d595ec6c060dc1f57a74740f18a5523e1e5"
+              }
+            }
+          ],
+          "reason": "경제 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-05",
+      "subject": "사회",
+      "keyword": "다문화",
+      "query": "다문화 사회의 생활 모습을 보여주는 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 15,
+      "keywordTotal": 15,
+      "directTotal": 2,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 80.35,
+      "topProgramShare": 0.4444444444444444,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "PDLOG-048",
+          "title": "다 함께 자라요, 다문화 초등 교실",
+          "summary": "자막어린이 프로그램 제작 경력 N년의 박PD, 조금 특별한 초등학교에서 선생님에 도전하다! 엉뚱발랄한 매력의 다문화(이주배경) 학생들이 알록달록 꿈을 키워가는 이 작은 지구촌에서 꿈에도 상상 못한 난관들을 마주하고 진땀을 빼는 박PD. 과연 그는 아이들의 마음을 얻을 수 있을까? 사랑스러운 꿈나무들과 박PD가 펼쳐나가는, 알고 보면 특별할 것 하나 없는 이야기.",
+          "program": "PD로그",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=40049722&stepId=60053813&lectId=60584697",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 10,
+                "end": 13,
+                "quote": "다문화",
+                "excerpt": "다 함께 자라요, 다문화 초등 교실",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/202/list?c.page=5&searchCondition=&searchConditionValue=0&stepId=60053813&orderBy=NEW&searchEndDt=&searchStartDt=&searchKeyword=&userId=&searchEndDtValue=0&brdcDsCdFilter=RUN&vodSort=NEW&searchKeywordValue=0&courseId=40049722&searchStartDtValue=0&",
+                "checkedAt": "2026-09-27T05:46:28.439Z",
+                "contentHash": "6f5e809948af6bd5f6a2aa1023ccaebdd4e9ccc37133484ba17a704beee6df55"
+              }
+            }
+          ],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-006958cbcbf16462144b",
+          "title": "잘 지내나요, 이방인?",
+          "summary": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 자립할 수 있도록 해야하고, 누구나 당연히 가져야 할 기본 권리인권 보호를 위해 사용할 안정적인 재원은 우리 사회가 마주한 ‘다문화’라는 숙제를 풀어갈 시작이다.",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 7,
+                "end": 10,
+                "quote": "다문화",
+                "excerpt": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+                "checkedAt": "2026-09-29T13:34:51.629Z",
+                "contentHash": "4a1195cc3ca0f5c7e0def418d0535e5ae9b212d0be053ea2ede1317e07b86010"
+              }
+            },
+            {
+              "conceptId": "rights",
+              "label": "인권",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 15,
+                "end": 17,
+                "quote": "차별",
+                "excerpt": "이미 시작된 다문화 사회, 차별이 아닌 공존의 방법을 찾아야 할 때이다. <br>그리고 그에 따라 발생하는 사회적 비용과  건전한 사회 구성원으로 ",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20217008",
+                "checkedAt": "2026-09-29T13:34:51.629Z",
+                "contentHash": "4a1195cc3ca0f5c7e0def418d0535e5ae9b212d0be053ea2ede1317e07b86010"
+              }
+            }
+          ],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-85d72913fc864cac86dd",
+          "title": "산골 마을 촘린의 겨울",
+          "summary": "자막기존 프로그램 <다문화 사랑>을 재구성하여 제작",
+          "program": "다큐 오늘",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=10008202&stepId=10009338&lectId=10428495",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/194/list?courseId=10008202&stepId=10009338&c.page=1",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "multicultural",
+              "label": "다문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 11,
+                "end": 14,
+                "quote": "다문화",
+                "excerpt": "자막기존 프로그램 <다문화 사랑>을 재구성하여 제작",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/194/list?courseId=10008202&stepId=10009338&c.page=1",
+                "checkedAt": "2026-09-30T13:32:38.941Z",
+                "contentHash": "934154fcfb98011dd4799f2e193db98f5d3766e59c6a516bdb9c881042a48e2f"
+              }
+            }
+          ],
+          "reason": "다문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-06",
+      "subject": "사회",
+      "keyword": "고인돌",
+      "query": "고인돌을 통해 옛사람들의 생활을 알아볼 자료를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 5,
+      "keywordTotal": 5,
+      "directTotal": 2,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 81.26,
+      "topProgramShare": 0.4,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-edc5b3f9fd8742c0b2f0",
+          "title": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+          "summary": "농경문청동기는 어쩌다 청동기 시대 대표 유물이되었나...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=46",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "dolmen",
+              "label": "고인돌",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 24,
+                "end": 27,
+                "quote": "청동기",
+                "excerpt": "“쌤들이 골라준” 벌거벗은 농사꾼 [농경문 청동기]",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60403527",
+                "checkedAt": "2026-09-29T13:29:42.397Z",
+                "contentHash": "372fc11d83890c4e7b29fee8099e18f5a8d31e9e5dd2476be25cf2ea0a204154"
+              }
+            }
+          ],
+          "reason": "고인돌 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-a9ae022bed5a04b977c3",
+          "title": "<불의 검> 2부 설원의 노래",
+          "summary": "불의 검과 함께 시작된 한반도 고인돌 왕국의 미스터리",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055843&lectId=10878507",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055843",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "dolmen",
+              "label": "고인돌",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 17,
+                "end": 20,
+                "quote": "고인돌",
+                "excerpt": "불의 검과 함께 시작된 한반도 고인돌 왕국의 미스터리",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055843",
+                "checkedAt": "2026-09-29T13:31:22.541Z",
+                "contentHash": "e0c8b0b1d97ebcb4855e8fda32e88ca69a0b89683456ed4f7e7e6982e4f56aa4"
+              }
+            }
+          ],
+          "reason": "고인돌 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-0e6786e007b16522e6bd",
+          "title": "황금비율의 비밀 - 1부 숨은 그림 찾기",
+          "summary": "고대로부터 아름다움의 상징으로, 인류가 발견한 가장 완벽한 수학원리로 얘기되는 황금비율. 황금비율에 숨은 역사적, 수학적 비밀을 알아본다1부 숨은 그림 찾기에서는 건축, 예술, 인체에서부터 자연계의 생식 나선까지 황금비율이 적용된 피조물들에서 그 법칙을 찾아간다.“황금비율이 절대적인 아름다움의 기준이라고 확신합니다.” - 스티븐 마쿠어트(성형외과 의사)다년간 성형 수술과 아름다운 얼굴에 대한 연구 끝에 ‘황금비율 마스크’를 완성한 스티븐 마쿠어트. 얼굴의 각 부분이 황금비율에 가까울수록 아름답다는 것을 발견한 그는, 황금비율 마스크를 성형 수술에 적용했고 그 결과는 대성공이었다. 수술 능력이 좋아서가 아니라 황금비율 마스크를 적용했기 때문에 결과가 좋았다는 마쿠어트. ‘아름다움’과 ‘수학적 질서'를 상징하는 이 비율은 심지어 7천 년 전의 바르나의 고대 유물에서도 발견됐다.“이 황금 사각판은 황금비율이 나타나는 제일 오래된 사례입니다.”- 크리스토 스몰레노브 (수학자)1976년부터 청동기 유적 발굴이 한창인 불가리아 바르나. 발굴팀 중 일부는 3천 개가 넘는 황금유물 중에 사각판이나 토우(진흙인형), 황금소 등에 황금비율이 숨겨져 있다고 한다. 이것은 가장 오래된 황금비율 사례로 꼽히는 피라미드보다 2000년 앞섰고, 그리스의 파르테논 신전보다 4500년 앞선 시기에 이미 황금비율이 사용됐다는 증거가 된다. 어떤 천문학자는 우주 만물에까지 적용되었다고 주장하는데... 이것은 수치의 우연일까 아니면 신의 암호일까.",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055909&lectId=10242022",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 695,
+                "end": 697,
+                "quote": "우주",
+                "excerpt": "기에 이미 황금비율이 사용됐다는 증거가 된다. 어떤 천문학자는 우주 만물에까지 적용되었다고 주장하는데... 이것은 수치의 우연일까 아니면 신의 암호일까.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+                "checkedAt": "2026-09-29T13:32:36.427Z",
+                "contentHash": "440ac4b4a9a06948679509fbe9864da36767e2350dc337a67529728ac60196a9"
+              }
+            },
+            {
+              "conceptId": "dolmen",
+              "label": "고인돌",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 500,
+                "end": 503,
+                "quote": "청동기",
+                "excerpt": "된 사례입니다.”- 크리스토 스몰레노브 (수학자)1976년부터 청동기 유적 발굴이 한창인 불가리아 바르나. 발굴팀 중 일부는 3천 개가 넘는 황금유물 중에 사각판이나 토우(진흙인형), ",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+                "checkedAt": "2026-09-29T13:32:36.427Z",
+                "contentHash": "440ac4b4a9a06948679509fbe9864da36767e2350dc337a67529728ac60196a9"
+              }
+            },
+            {
+              "conceptId": "housing",
+              "label": "주거",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 91,
+                "end": 93,
+                "quote": "건축",
+                "excerpt": "숨은 역사적, 수학적 비밀을 알아본다1부 숨은 그림 찾기에서는 건축, 예술, 인체에서부터 자연계의 생식 나선까지 황금비율이 적용된 피조물들에서 그 법칙을 찾아간다.“황금비율이 절대적인",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+                "checkedAt": "2026-09-29T13:32:36.427Z",
+                "contentHash": "440ac4b4a9a06948679509fbe9864da36767e2350dc337a67529728ac60196a9"
+              }
+            },
+            {
+              "conceptId": "artifact",
+              "label": "유물·유적",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 504,
+                "end": 506,
+                "quote": "유적",
+                "excerpt": "입니다.”- 크리스토 스몰레노브 (수학자)1976년부터 청동기 유적 발굴이 한창인 불가리아 바르나. 발굴팀 중 일부는 3천 개가 넘는 황금유물 중에 사각판이나 토우(진흙인형), 황금소",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+                "checkedAt": "2026-09-29T13:32:36.427Z",
+                "contentHash": "440ac4b4a9a06948679509fbe9864da36767e2350dc337a67529728ac60196a9"
+              }
+            },
+            {
+              "conceptId": "excavation",
+              "label": "발굴",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 507,
+                "end": 509,
+                "quote": "발굴",
+                "excerpt": ".”- 크리스토 스몰레노브 (수학자)1976년부터 청동기 유적 발굴이 한창인 불가리아 바르나. 발굴팀 중 일부는 3천 개가 넘는 황금유물 중에 사각판이나 토우(진흙인형), 황금소 등에",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055909",
+                "checkedAt": "2026-09-29T13:32:36.427Z",
+                "contentHash": "440ac4b4a9a06948679509fbe9864da36767e2350dc337a67529728ac60196a9"
+              }
+            }
+          ],
+          "reason": "고인돌 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-07",
+      "subject": "사회",
+      "keyword": "대동여지도",
+      "query": "대동여지도와 오늘날 지도를 비교할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 2,
+      "keywordTotal": 7,
+      "directTotal": 1,
+      "terms": [
+        "지도"
+      ],
+      "warnings": [
+        "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+      ],
+      "elapsedMs": 86.21,
+      "topProgramShare": 0.5,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-8bedc343472cd94cd777",
+          "title": "이야기 숲 '만약에' - 대동여지도를 만든 김정호",
+          "summary": "",
+          "program": "딩동댕 유치원",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000009&lectId=60162262&stepId=01BA0AA000000000009",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=9&courseId=BA0AA000000000009&stepId=01BA0AA000000000009&lectId=60507014",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "map",
+              "label": "대동여지도",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 14,
+                "end": 19,
+                "quote": "대동여지도",
+                "excerpt": "이야기 숲 '만약에' - 대동여지도를 만든 김정호",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000009&lectId=60162262&stepId=01BA0AA000000000009",
+                "checkedAt": "2026-09-30T13:15:27.453Z",
+                "contentHash": "80405c87adbf40c2283baea92af4e3fddeeea5925275a9f314ccb870dd56c566"
+              }
+            }
+          ],
+          "reason": "대동여지도 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "ECLIP-066",
+          "title": "대동여지도",
+          "summary": "",
+          "program": "교과연계 클립",
+          "url": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId=&lectureId=LS0000000010179440&clipId=CS000000000000001176",
+          "evidenceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId=",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "map",
+              "label": "대동여지도",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 5,
+                "quote": "대동여지도",
+                "excerpt": "대동여지도",
+                "sourceUrl": "https://primary.ebs.co.kr/parent/clip/teacherClip?menuClsfnId=&menuPClsfnId=",
+                "checkedAt": "2026-09-12",
+                "contentHash": "4b13473d134b634b0709e3a94a1922892bd05796fcae5cba88734fbfd11fc226"
+              }
+            }
+          ],
+          "reason": "대동여지도 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-08",
+      "subject": "사회",
+      "keyword": "물가",
+      "query": "물가 변화가 가정생활에 미치는 영향을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 3,
+      "keywordTotal": 3,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "요청한 영향 관계의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 84.55,
+      "topProgramShare": 0.6666666666666666,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-de1d0ca88548674755b2",
+          "title": "누리엘 루비니 <재앙의 경제학> 4강 세계 인플레이션 전쟁",
+          "summary": "자막누리엘 루비니 <재앙의 경제학> 4강 세계 인플레이션 전쟁",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057875&lectId=60467276",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=32",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "prices",
+              "label": "물가",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 24,
+                "end": 29,
+                "quote": "인플레이션",
+                "excerpt": "누리엘 루비니 <재앙의 경제학> 4강 세계 인플레이션 전쟁",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057875&lectId=60467276",
+                "checkedAt": "2026-09-30T13:30:41.987Z",
+                "contentHash": "fa04738ccc0e9924cc2141c5d348c7e456b24fb26203cab87c7a6753b8de71c5"
+              }
+            }
+          ],
+          "reason": "물가 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-705ecc225398d70c72cb",
+          "title": "돈의 얼굴 3부 돈이 떨어졌습니다",
+          "summary": "3부 <돈이 떨어졌습니다>는 인플레이션으로 인한 화폐착각이 우리 삶을 어떻게 왜곡하는지 보여준다. 작년에 먹은 햄버거와 오늘 먹은 햄버거는 달라진 게 없는데, 가격은 왜 올랐을까? 물건의 가격이 오르는 게 아니다. 화폐의 가격이 내려간 거다. 코로나 시기 미국의 유동성 완화 정책이 불러온 화폐착각을 부산의 방열복 회사에서 알아본다.",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055748&lectId=60464077",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055748",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "prices",
+              "label": "물가",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 16,
+                "end": 21,
+                "quote": "인플레이션",
+                "excerpt": "3부 <돈이 떨어졌습니다>는 인플레이션으로 인한 화폐착각이 우리 삶을 어떻게 왜곡하는지 보여준다. 작년에 먹은 햄버거와 오늘 먹은 햄버거는 달라진 게 없는",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055748",
+                "checkedAt": "2026-09-29T13:29:33.449Z",
+                "contentHash": "06e536b4862a3300c771ad5d65f4c04e5ac062d75079f7dee298fddc8600c8da"
+              }
+            }
+          ],
+          "reason": "물가 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-1305463d0cee04bd39e3",
+          "title": "혼돈시대의 중앙은행 - 1부 물가를 조절하는 보이지 않는 손",
+          "summary": "인플레이션이 심한 아르헨티나, 하이퍼인플레이션을 겪고 있는 베네수엘라, 저금리ㆍ저물가의 뉴노멀 시대에 빠진 일본 그리고 제로금리의 한국 등의 나라들에서 나타나는 물가를 통해 중앙은행의 물가안정 정책에 대해서 알아본다.",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055808&lectId=20296035",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055808",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "prices",
+              "label": "물가",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 16,
+                "end": 18,
+                "quote": "물가",
+                "excerpt": "혼돈시대의 중앙은행 - 1부 물가를 조절하는 보이지 않는 손",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055808&lectId=20296035",
+                "checkedAt": "2026-09-29T13:30:40.605Z",
+                "contentHash": "6eeeba66070a173e3b8414fd50db6ce131b35b88f48867ec4765a254c8912a8e"
+              }
+            }
+          ],
+          "reason": "물가 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-09",
+      "subject": "사회",
+      "keyword": "문화",
+      "query": "지역마다 다른 문화를 비교할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 57,
+      "keywordTotal": 57,
+      "directTotal": 10,
+      "terms": [],
+      "warnings": [
+        "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+      ],
+      "elapsedMs": 80.25,
+      "topProgramShare": 0.3333333333333333,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-0011ba6d8503874401b6",
+          "title": "7",
+          "summary": "숫자 7에 담긴 종교적 상징, 과학적 발견, 심리적 안정감이 어떻게 교차하며 지금의 ‘특별한 숫자’로 자리 잡았는지를 추적한다. 시대와 문화를 넘어 반복적으로 등장해온 숫자 7의 여정을 따라가며, 인간이 어떻게 세상을 이해하고자 했는지 들여다보는 기회가 되기를 기대한다.",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60613875",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60613875",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "culture",
+              "label": "문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 76,
+                "end": 78,
+                "quote": "문화",
+                "excerpt": "며 지금의 ‘특별한 숫자’로 자리 잡았는지를 추적한다. 시대와 문화를 넘어 반복적으로 등장해온 숫자 7의 여정을 따라가며, 인간이 어떻게 세상을 이해하고자 했는지 들여다보는 기회가 되",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60613875",
+                "checkedAt": "2026-09-29T13:34:39.584Z",
+                "contentHash": "a9ef7ee3fcdf7736beccf0ff9e3a8c9c1473c8106eda2ca92cd6ffa4786e8124"
+              }
+            }
+          ],
+          "reason": "문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-07664e8d504baed4eb07",
+          "title": "곽준빈의 세계기사식당2 IN 일본3",
+          "summary": "150만 구독자를 사로잡은 여행 크리에이터 곽준빈! 일본 소도시에서 게스트 침착맨과 함께 소도시의 소소한 문화를 체험한다!",
+          "program": "곽준빈의 세계 기사식당",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046762&stepId=60053848&lectId=60500596",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046762&stepId=60053848&lectId=60500596",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "culture",
+              "label": "문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 59,
+                "end": 61,
+                "quote": "문화",
+                "excerpt": "곽준빈! 일본 소도시에서 게스트 침착맨과 함께 소도시의 소소한 문화를 체험한다!",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046762&stepId=60053848&lectId=60500596",
+                "checkedAt": "2026-09-29T13:40:39.371Z",
+                "contentHash": "87e13fa6199bf45137bcf9b3451da2f0835da1b6b33c9569c2bb6f49898033ac"
+              }
+            }
+          ],
+          "reason": "문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-02c13bd7156c431b39e1",
+          "title": "군산, 시간을 걷다",
+          "summary": "근대 역사와 문화를 만날 수 있는 도시, 군산. 도시 곳곳에는 일제강점기의 아픈 역사가 서려있다. 군산항의 부잔교를 통해 조선의 쌀을 일본으로 날랐던 수탈의 흔적. 그 인근으로 일본식 건축물들이 많이 남아있는 장미동 일대를 근대역사문화거리로 조성해 놨다. 군산근대건축관, 장미갤거리를 거쳐 경암동 철길마을과 초원사진관까지. 군산에 새겨진 옛 시간을 따라가 본다!",
+          "program": "고향민국",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60578335",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60578335",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "culture",
+              "label": "문화",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 7,
+                "end": 9,
+                "quote": "문화",
+                "excerpt": "근대 역사와 문화를 만날 수 있는 도시, 군산. 도시 곳곳에는 일제강점기의 아픈 역사가 서려있다. 군산항의 부잔교를 통해 조선의 쌀을",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60049532&lectId=60578335",
+                "checkedAt": "2026-09-29T13:40:17.110Z",
+                "contentHash": "bea7c54369df72117fe7b8034b27887dfb3fe3b72af0742f5780e910f01c0683"
+              }
+            }
+          ],
+          "reason": "문화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-10",
+      "subject": "사회",
+      "keyword": "해안 지형",
+      "query": "해안 지형의 모습을 비교할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 1,
+      "keywordTotal": 1,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "비교 수업 의도를 해석했지만 비교 장면의 포함 여부는 미확인입니다."
+      ],
+      "elapsedMs": 144.26,
+      "topProgramShare": 1,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "GEO-PARK-HALLYEO",
+          "title": "제4호 한려해상 국립공원",
+          "summary": "바닷물에 의한 침식 지형과 복잡하게 들어간 해안의 형태를 다루는 강의입니다.",
+          "program": "EBS 중학 국립공원",
+          "url": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "evidenceUrl": "https://mid.ebs.co.kr/course/view?courseId=100005142&left=grade",
+          "evidenceLevel": "INDEXED_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [],
+          "reason": "해안 지형 → 한려해상 · 해안 지형 사례",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SOC-11",
+      "subject": "사회",
+      "keyword": "유관순",
+      "query": "유관순의 독립운동을 알아볼 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 0,
+      "keywordTotal": 1,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 80.76,
+      "topProgramShare": null,
+      "sourceAuditSelected": false,
+      "top": []
+    },
+    {
+      "id": "SOC-12",
+      "subject": "사회",
+      "keyword": "기후 변화",
+      "query": "기후 변화에 대응하는 지역 사회의 노력을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 39,
+      "keywordTotal": 39,
+      "directTotal": 3,
+      "terms": [],
+      "warnings": [
+        "요청한 대응 사례의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 81.06,
+      "topProgramShare": 0.7777777777777778,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-e62e352286bfdf0e7886",
+          "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+          "summary": "지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 25,
+                "end": 30,
+                "quote": "기후 변화",
+                "excerpt": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:29:14.837Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "earthquake",
+              "label": "지진",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 150,
+                "end": 152,
+                "quote": "지진",
+                "excerpt": "까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 159,
+                "end": 161,
+                "quote": "화산",
+                "excerpt": "이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 134,
+                "end": 136,
+                "quote": "환경",
+                "excerpt": "인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            }
+          ],
+          "reason": "기후 변화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-570bed2ca0947519dd5d",
+          "title": "기후 우울증에 걸린 사람들",
+          "summary": "MZ세대는 태어나는 순간부터 죽을 때까지 기후 위기를 겪어야 하는 세대다. 극심한 기후 변화로 인해 환경은 점점 살기 힘들어졌고, 예측되지 않는 미래에 대한 두려움과 무력감을 느끼는데...환경 보호 활동을 해도 심해지는 기후 위기에 ‘현타’를 느끼는 사람들도 많은 상황. MZ세대는 재앙적인 환경을 미래세대에게 물려주고 싶지 않아 하는데, 실제 영국에서는 ‘출산파업 운동’까지 벌어졌다!<br><br> 기후 위기로 인해 수많은 사람들이 정신적 고통을 호소하고 있는 지금, 전 세계는 기후 위기 대응에 얼마나 관심을 갖고 있을까? 기후 위기가 불러온 정신적 고통과 저출산으로 이어지는 이유를 돌아본다.",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 46,
+                "end": 51,
+                "quote": "기후 변화",
+                "excerpt": "순간부터 죽을 때까지 기후 위기를 겪어야 하는 세대다. 극심한 기후 변화로 인해 환경은 점점 살기 힘들어졌고, 예측되지 않는 미래에 대한 두려움과 무력감을 느끼는데...환경 보호 활동을 해",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530",
+                "checkedAt": "2026-09-29T13:34:29.627Z",
+                "contentHash": "73da923b7e5cf68f2b74bfeb5d44d3bab9bbb34327aa700f27d6a66e18446571"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 56,
+                "end": 58,
+                "quote": "환경",
+                "excerpt": "지 기후 위기를 겪어야 하는 세대다. 극심한 기후 변화로 인해 환경은 점점 살기 힘들어졌고, 예측되지 않는 미래에 대한 두려움과 무력감을 느끼는데...환경 보호 활동을 해도 심해지는 ",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530",
+                "checkedAt": "2026-09-29T13:34:29.627Z",
+                "contentHash": "73da923b7e5cf68f2b74bfeb5d44d3bab9bbb34327aa700f27d6a66e18446571"
+              }
+            },
+            {
+              "conceptId": "population",
+              "label": "인구",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 315,
+                "end": 318,
+                "quote": "저출산",
+                "excerpt": "얼마나 관심을 갖고 있을까? 기후 위기가 불러온 정신적 고통과 저출산으로 이어지는 이유를 돌아본다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60463530",
+                "checkedAt": "2026-09-29T13:34:29.627Z",
+                "contentHash": "73da923b7e5cf68f2b74bfeb5d44d3bab9bbb34327aa700f27d6a66e18446571"
+              }
+            }
+          ],
+          "reason": "기후 변화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-01ec9cc11359ce2150f1",
+          "title": "영주, 내성천 사람들",
+          "summary": "소백산에서 흘러나오는 물길은 낙동강과 합류하는 내성천이 된다. 그 물길에 영주댐을 세우고 물을 채우면서 평은면의 지도는 달라졌다. 고향을 물에 묻고 사는 금강마을 사람들 마음엔 여전히 마을을 휘감았던 내성천이 흐른다. 변화를 받아들이고 사는 수몰 마을 사람들과 기후변화에 대비해 한그루의 열대과일 나무를 더 심는 정원지기를 만나본다.",
+          "program": "고향민국",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60571481",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60571481",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 146,
+                "end": 150,
+                "quote": "기후변화",
+                "excerpt": " 내성천이 흐른다. 변화를 받아들이고 사는 수몰 마을 사람들과 기후변화에 대비해 한그루의 열대과일 나무를 더 심는 정원지기를 만나본다.",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60571481",
+                "checkedAt": "2026-09-29T13:40:14.930Z",
+                "contentHash": "c0c43173a968e626d763683405bdd634855fe632f4a8ef1924a338d147181a57"
+              }
+            }
+          ],
+          "reason": "기후 변화 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-01",
+      "subject": "과학",
+      "keyword": "생태",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 82,
+      "keywordTotal": 82,
+      "directTotal": 2,
+      "terms": [],
+      "warnings": [
+        "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+      ],
+      "elapsedMs": 81.38,
+      "topProgramShare": 0.4444444444444444,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-04d6a3cba5fe859f2e25",
+          "title": "무안, 풍요를 품다",
+          "summary": "풍요의 땅 무안. 홀통 해변에서는 전통 고기잡이 방식인 덤벙으로 물고기를 잡는 어부 부부와 비옥한 황토밭에서 고구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다. 한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사람들을 만나본다.",
+          "program": "고향민국",
+          "url": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+          "evidenceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 100,
+                "end": 103,
+                "quote": "생태계",
+                "excerpt": "농사를 짓는 농부 부부의 인생 이야기를 들어본다. 한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중국집 사",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+                "checkedAt": "2026-09-29T13:40:20.537Z",
+                "contentHash": "95603ed8b128aca2132259bdf51fb7e8766e4efc7d44a5ed9d8b760c88607862"
+              }
+            },
+            {
+              "conceptId": "coast",
+              "label": "해안 지형",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 97,
+                "end": 99,
+                "quote": "갯벌",
+                "excerpt": "구마 농사를 짓는 농부 부부의 인생 이야기를 들어본다. 한편, 갯벌 생태계를 가까이에서 볼 수 있는 황토갯벌랜드와 시간날 때 마다 갯벌에서 조개, 굴을 캐며 즐거운 인생을 살아가는 중",
+                "sourceUrl": "https://home.ebs.co.kr/worldtrip/replayView?siteCd=KH&courseId=40046448&stepId=60055522&lectId=60727387",
+                "checkedAt": "2026-09-29T13:40:20.537Z",
+                "contentHash": "95603ed8b128aca2132259bdf51fb7e8766e4efc7d44a5ed9d8b760c88607862"
+              }
+            }
+          ],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-af19741ff313f1c6f411",
+          "title": "화산 곁에 사는 이유",
+          "summary": "인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 69,
+                "end": 72,
+                "quote": "생태계",
+                "excerpt": " 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아본다.",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+                "checkedAt": "2026-09-29T13:33:57.277Z",
+                "contentHash": "44c5d81ca557b3f3703da7248203a6097a3a69f9c7fbdf3b71c24581b03dd5b0"
+              }
+            },
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "화산",
+                "excerpt": "화산 곁에 사는 이유",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+                "checkedAt": "2026-09-29T13:32:27.718Z",
+                "contentHash": "44c5d81ca557b3f3703da7248203a6097a3a69f9c7fbdf3b71c24581b03dd5b0"
+              }
+            },
+            {
+              "conceptId": "population",
+              "label": "인구",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 20,
+                "end": 22,
+                "quote": "인구",
+                "excerpt": "인도네시아에서는 화산섬에 가장 많은 인구가 산다. 언제 터질지 모르는 활화산 주변에 왜 모여사는 걸까? 화산 폭발이 인간과 생태계에 주는 유익함에 대해 알아",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20291927",
+                "checkedAt": "2026-09-29T13:33:57.277Z",
+                "contentHash": "44c5d81ca557b3f3703da7248203a6097a3a69f9c7fbdf3b71c24581b03dd5b0"
+              }
+            }
+          ],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-c795af87c725960152da",
+          "title": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+          "summary": "장수말벌의 침공 속에서 간신히 살아남은 꿀벌 여왕은 새로운 왕국을 꾸리고, 공공의 적이 된 장수 여왕벌은 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "ecosystem",
+              "label": "생태계",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 93,
+                "end": 96,
+                "quote": "생태계",
+                "excerpt": " 인간에게 쫓긴다. 3부에서는 두 여왕의 일생을 따라가며 꿀벌 생태계와 말벌 생태계를 교차로 살펴본다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60056315",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            },
+            {
+              "conceptId": "bee",
+              "label": "꿀벌",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 18,
+                "end": 20,
+                "quote": "꿀벌",
+                "excerpt": "[창사특집] SF 자연다큐멘터리 꿀벌 - 3부 두 여왕 이야기",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60056315&lectId=60611008",
+                "checkedAt": "2026-09-29T13:29:20.200Z",
+                "contentHash": "f8ca8696f06ec00f3244fc651d7a1c00075e3590fafc6a02e1d78b887893aaae"
+              }
+            }
+          ],
+          "reason": "생태계 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-02",
+      "subject": "과학",
+      "keyword": "꿀벌",
+      "query": "꿀벌과 식물의 관계를 관찰할 다큐를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 1,
+      "keywordTotal": 22,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+      ],
+      "elapsedMs": 80.94,
+      "topProgramShare": 1,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-30e37d164cf570579083",
+          "title": "벌, 사라지다",
+          "summary": "자막-올해 초, 김제에 사는 한 농민은 아버지대부터 40년도 넘게 키워온 벌 2백만 마리를 잃었다. 벌을 키우는 장소로부터 채 20m도 떨어지지 않은 곳에서 100만 평의 산업단지가 들어서고 있기 때문이다. 공사가 시작된 2010년부터 소음과 진동에 시달려 왔던 벌들은 결국 모두 폐사했다. 한편, 상주에 거주하는 한 농민은 과수 농가에서 친 농약으로 벌을 잃었다. 한때 우리나라 최대의 토종벌 서식지였던 지리산 역시, 침묵의 숲이 돼버렸다. 2010년 우리나라를 강타한 “낭충봉아부패병”으로 국내 토종벌 75% 이상이 몰살한 것. 벌들이 사라지고 있는 현상은 전 세계적인 추세다. 미국과 유럽에서는 이유를 알 수 없는 이상 증상으로 벌들이 사라지고 있으며 영국은 개체수가 25년 사이 절반으로 감소했다. 그 많던 벌들이 모두 어디로 사라진 걸까? 식물이 열매 맺는 것에 결정적인 역할을 하는 벌이 사라지는 것은 식량의 90% 이상을 벌에 의존하는 인류에겐 치명적이다. 농약으로 인해서, 계속되는 개발과 서식지 파괴로 인해서, 지구온난화가 가져온 각종 병균과 바이러스로 인해서… 명확하게 규명되지 않은 수많은 이유로 끊임없이 사라지는 벌! 사라진 벌들이 다시 되돌아 올 방법은 없을까? 이번주 <하나뿐인 지구>에서는 전국에서 벌어지는 실종된 벌의 자취를 찾아가보고 그 원인을 분석해보는 시간을 갖는다.",
+          "program": "하나뿐인 지구",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10123652",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "bee",
+              "label": "꿀벌",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 639,
+                "end": 641,
+                "quote": "벌의",
+                "excerpt": "을까? 이번주 <하나뿐인 지구>에서는 전국에서 벌어지는 실종된 벌의 자취를 찾아가보고 그 원인을 분석해보는 시간을 갖는다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+                "checkedAt": "2026-09-30T13:27:04.919Z",
+                "contentHash": "2bffb2e986d5302d8682b171721438a847c548b3b600e1f530bcbd49d84e4ac2"
+              }
+            },
+            {
+              "conceptId": "plant",
+              "label": "식물",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 419,
+                "end": 421,
+                "quote": "식물",
+                "excerpt": "절반으로 감소했다. 그 많던 벌들이 모두 어디로 사라진 걸까? 식물이 열매 맺는 것에 결정적인 역할을 하는 벌이 사라지는 것은 식량의 90% 이상을 벌에 의존하는 인류에겐 치명적이다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+                "checkedAt": "2026-09-30T13:27:04.919Z",
+                "contentHash": "2bffb2e986d5302d8682b171721438a847c548b3b600e1f530bcbd49d84e4ac2"
+              }
+            },
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 519,
+                "end": 524,
+                "quote": "지구온난화",
+                "excerpt": "다. 농약으로 인해서, 계속되는 개발과 서식지 파괴로 인해서, 지구온난화가 가져온 각종 병균과 바이러스로 인해서… 명확하게 규명되지 않은 수많은 이유로 끊임없이 사라지는 벌! 사라진 벌들이",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+                "checkedAt": "2026-09-30T13:27:04.919Z",
+                "contentHash": "2bffb2e986d5302d8682b171721438a847c548b3b600e1f530bcbd49d84e4ac2"
+              }
+            }
+          ],
+          "reason": "꿀벌 · 식물 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-03",
+      "subject": "과학",
+      "keyword": "야생동물",
+      "query": "야생동물이 환경에 적응하는 모습을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 2,
+      "keywordTotal": 36,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "요청한 환경에 대한 적응의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 80.63,
+      "topProgramShare": 0.5,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-572506db63362f6ae0a3",
+          "title": "비밀의 땅 파미르 - 2부 비밀의 땅, 숨겨진 강",
+          "summary": "아시아의 고산지대인 파미르, 텐샨,히말라야 의 자연과 사람들의 삶을 알아본다.중앙아시아의 거대한 호수 ‘아랄해’, 지금은 거의 말라버려 20세기 최악의 환경재앙이라 불리는 곳입니다. 2부는 이 아랄해로 들어오는 두 물줄기 ‘아무다리아강’과 ‘시르다리아강’을 따라 그 발원지를 찾아가는 여정입니다.<주요 에피소드>아무다리아강의 발원지, 파미르고원대륙빙하 중 최대 규모인 파미르의 페드첸코 빙하에서부터 녹아 흐르는 물은 판즈강을 거쳐 아무다리아 강이 된다. 타지키스탄과 아프가니스탄의 국경을 이루는 강인 판즈강을 따라 가면 쉽게 볼 수 없는 아프가니스탄 사람들의 모습을 볼 수 있다. 또 빙하부터 습지대까지 식생의 변화와, 환경의 변화를 살펴보고 강에 기대어 살아가는 사람들의 삶을 소개한다.시르다리아강의 발원지는 텐샨산맥파미르 고원에 비해 고도가 낮은 텐샨산맥은 아름다운 풍경을 자랑한다. 초록으로 뒤덮인 산과 색색의 꽃들은 화려한 텐샨을 만든다. 시르다리야강의 발원지인 텐샨의 빙하는 어떤 모습인지 소개한다. 자일로(여름 초목지)에 유르트를 짓고 양을 치는 키르기 유목민, 텐샨산맥의 야생동물을 만난다.",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055873&lectId=10225466",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055873",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "wildlife",
+              "label": "야생동물",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 551,
+                "end": 555,
+                "quote": "야생동물",
+                "excerpt": "초목지)에 유르트를 짓고 양을 치는 키르기 유목민, 텐샨산맥의 야생동물을 만난다.",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055873",
+                "checkedAt": "2026-09-29T13:31:55.570Z",
+                "contentHash": "8ae61c820eeea8087cced886d33241e317b2695a0172129e2a074185a7ddce92"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 347,
+                "end": 349,
+                "quote": "환경",
+                "excerpt": " 모습을 볼 수 있다. 또 빙하부터 습지대까지 식생의 변화와, 환경의 변화를 살펴보고 강에 기대어 살아가는 사람들의 삶을 소개한다.시르다리아강의 발원지는 텐샨산맥파미르 고원에 비해 고",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055873",
+                "checkedAt": "2026-09-29T13:31:55.570Z",
+                "contentHash": "8ae61c820eeea8087cced886d33241e317b2695a0172129e2a074185a7ddce92"
+              }
+            }
+          ],
+          "reason": "야생동물 · 환경 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-bf54c7c4bd7a60697df0",
+          "title": "우리가 모르는 새 이야기",
+          "summary": "자막자연이 밀려난 어지러운 도심 속. 우리가 모르는 사이에도 자연은 이 척박한 도시 안에서 새 생명을 움트고 있다! 참새, 비둘기가 점령하고 있는 거리. 그런데 우리 집 앞 공원에 딱따구리가 살고 있다면? 매일 자전거를 타고 산책하는 동네 하천에 물새가 아기새를 품고 있다면 어떨까? 조금만 귀를 기울이면 발견할 수 있는 또 다른 생명의 소리. 멀게만 느껴졌던 자연과의 거리. 하지만, 자연은 바로 우리 곁에 있었다! 생명이 다시 태어나는 봄. 생태동화작가, 권오준이 보여주는 새들의 치열하고 가슴을 울리는 따뜻한 이야기를 EBS 환경 다큐멘터리, <하나뿐인 지구>에서 만난다. 우리 집 뒷산, 회사 근처 공원에서 들리는 새들의 지저귐 덩치 큰 비둘기와 참새 무리 사이에 우리가 모르는 새들이 숨어있다! 새들의 지저귐에 귀를 기울이고 잠시 발길을 멈추면무성한 나뭇잎 사이 둥지를 튼 산새와 산책가 하천에 아기새를 품고 있는 물새를 만날지도 모른다. 미처 생각지도 못했던 손바닥보다 작고, 바람보다 날쌘 이 작은 생명들이 우리 곁에서 함께 살아가고 있는 것이다. 인적 없는 깊은 산속도, 커다란 강가도 아닌 바로 이 도심 속에서 펼쳐지는 새들의 동화 같은 이야기를 들어본다. 우리 동네 뒷산, 우리 집 앞 하천에 날아온 봄 손님 꽃이 만발하고 생명이 움트는 봄. 다시 우리 곁을 찾아온 반가운 봄손님이 있다. 도심에서 그리 멀지 않은 곳, 영장산에서 둥지를 튼 되지빠귀는 매년 이곳에서 아기새까지 낳아 기르는 영장산의 주인이다. 나뭇잎이 무성해지는 5월, 산의 낮은 가장자리에 둥지를 튼 되지빠귀 부부는 오늘도 정성껏 아기새를 보살피고 있다. 한편, 도심을 통과해 흐르는 작은 하천, 탄천과 오포에서는 물새들의 푸닥거리가 한창이다. 날쌔고 용감하기로 소문난 꼬마물떼새와 멸종위기 2급으로 지정된 흰목물떼새가 저마다의 둥지를 틀고 뙤약볕 아래 아기새 돌보기가 한창이다. 새들의 지극한 모성애. 그 누구도 내 아기새 근처에 오게 할 수 없어! 둥지의 알을 털어가는 청설모, 아기새를 잡아먹는 들고양이와 뱀, 산에서 난폭하기로 소문난 어치는 몸집이 작은 산새들의 천적이다. 알을 낳은 둥지가 천적의 위협을 받을 경우 산새들은 둥지를 포기하고 떠나지만, 아기새가 나오면 얘기가 다르다. 제 몸집보다 큰 포식자들을 공격해 둥지를 지키는 되지빠귀의 모습에서 지켜야 할 것은 어떻게든 지켜내는 지극한 모성을 배울 수 있다.물새들도 모성애라면 예외일 수 없다. 숨을 곳 없이 드러난 곳에 둥지를 트는 꼬마물떼새는 똑똑하고 용감하기로 유명하다. 사람이나 개, 고양이가 아기새들이 있는 둥지 곁을 서성인다면 날개와 다리가 부러진 듯한 의상행동을 보여 천적을 유인한다. 만일 제 몸집보다 큰 멧비둘기가 근처를 서성이거나 다른 종인 흰목물떼새가 근처에 나타났다면 몸을 던져 공격해 둥지를 지켜낸다.아기새를 지키려는 새들의 지극한 모성애와 제 몸을 날리는 용감한 모습을 만나본다.",
+          "program": "하나뿐인 지구",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=10125374",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "wildlife",
+              "label": "야생동물",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 878,
+                "end": 882,
+                "quote": "멸종위기",
+                "excerpt": "의 푸닥거리가 한창이다. 날쌔고 용감하기로 소문난 꼬마물떼새와 멸종위기 2급으로 지정된 흰목물떼새가 저마다의 둥지를 틀고 뙤약볕 아래 아기새 돌보기가 한창이다. 새들의 지극한 모성애. 그",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+                "checkedAt": "2026-09-30T13:27:04.919Z",
+                "contentHash": "a9d473a7923a797cf586705eb3f54fc3f7df3e062bfcf54b9bfc6b0b4d63e5de"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 297,
+                "end": 299,
+                "quote": "환경",
+                "excerpt": "보여주는 새들의 치열하고 가슴을 울리는 따뜻한 이야기를 EBS 환경 다큐멘터리, <하나뿐인 지구>에서 만난다. 우리 집 뒷산, 회사 근처 공원에서 들리는 새들의 지저귐 덩치 큰 비둘기",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=9",
+                "checkedAt": "2026-09-30T13:27:04.919Z",
+                "contentHash": "a9d473a7923a797cf586705eb3f54fc3f7df3e062bfcf54b9bfc6b0b4d63e5de"
+              }
+            }
+          ],
+          "reason": "야생동물 · 환경 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-04",
+      "subject": "과학",
+      "keyword": "기후 변화",
+      "query": "기후 변화가 지구 환경에 미치는 영향을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 2,
+      "keywordTotal": 39,
+      "directTotal": 3,
+      "terms": [
+        "지구"
+      ],
+      "warnings": [
+        "요청한 영향 관계의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 82.63,
+      "topProgramShare": 0.5,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-e62e352286bfdf0e7886",
+          "title": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+          "summary": "지구 온난화로 심각해진 기후 변화 더 이상 기후 패턴을 예측할 수 없는 시대. 조기 경보 시스템을 구축하고 기상 정보 국제 협력에 나섰지만 더 정밀하고 실시간 관측이 필요하다. 인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "MATCHED",
+          "sourceMentions": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 25,
+                "end": 30,
+                "quote": "기후 변화",
+                "excerpt": "[2025, 과학이 여는 새로운 미래] 4부 기후 변화를 감시하는 눈, 니사르 위성",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:29:14.837Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "earthquake",
+              "label": "지진",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 150,
+                "end": 152,
+                "quote": "지진",
+                "excerpt": "까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "volcano",
+              "label": "화산",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 159,
+                "end": 161,
+                "quote": "화산",
+                "excerpt": "이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로 감지, 예측할 수 있는 위성이 발사 된다는데",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 134,
+                "end": 136,
+                "quote": "환경",
+                "excerpt": "인류는 해결책을 찾을 수 있을까?<br>끊임없이 움직이는 지구 환경의 작고 미세한 변화부터 지진, 산사태, 화산 폭발 크고 갑작스러운 변화까지. 2025년 3월, 모든 것을 실시간으로",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60569067",
+                "checkedAt": "2026-09-29T13:34:37.104Z",
+                "contentHash": "e8ea7449a9a1fcdc4d49d6267ae8d0b2f167e82dc5bd479ad89c487f2502d284"
+              }
+            }
+          ],
+          "reason": "기후 변화 · 환경 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-c3cfb74a8979103b6704",
+          "title": "1g 과의 전쟁, 탄소를 줄여라",
+          "summary": "당신의 하루 속 이산화탄소는 얼마나 배출되고 있는지 아십니까? 남태평양 적도 부근에 아름다운 섬 국가, 투발루 맑은 바닷물과 신선한 과일, 아이들의 웃음소리가 끊이지 않던 이곳에 재앙이라는 어둠의 그림자가 집어삼켰다. 지구온난화로 인한 해수면 상승으로 9개의 섬 중 2개의 섬을 잃은 투발루. 남은 7개의 섬도 차오르는 바닷물에 언제 잠길지 모르는 상황. 갈 곳을 잃은 투발루 주민들은 오늘도 하루하루를 기도하며 보낸다. 대체 무엇이 투발루 주민들의 터전을 빼앗은 걸까? 인류의 대재앙을 예고하고 있는 지구 온난화. 그 원인 중 90%는 화석연료를 사용할 때 발생하는 이산화탄소 때문이다. 사람은 하루 평균 13.3kg의 이산화탄소를 배출한다. 전기를 쓰고 물을 쓰고 가스를 쓸 때마다 이산화탄소는 배출된다. 유엔 ‘정부 간 기후변화위원회’는 지구를 구할 수 있는 시간이 8년 밖에 남지 않았다고 경고한다. 이러한 지구온난화에 대한 경고는 계속 이어졌지만 지난 해 오히려 이산화탄소 배출량은 약 330억 톤으로 1990년에 비해 45%나 증가했다. 인간의 빠르고 편리한 삶과 맞바꾼 지구의 환경. 처음으로 되돌릴 수도 다른 것으로 대체할 수도 없다. 변해가고 있는 지구의 모습을 천천히 찾을 수 있는 길을 만드는 것이 우리가 할 수 있는 일이 아닐까?",
+          "program": "하나뿐인 지구",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&lectId=3090877",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=13",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "climate",
+              "label": "기후 변화",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 122,
+                "end": 127,
+                "quote": "지구온난화",
+                "excerpt": "가 끊이지 않던 이곳에 재앙이라는 어둠의 그림자가 집어삼켰다. 지구온난화로 인한 해수면 상승으로 9개의 섬 중 2개의 섬을 잃은 투발루. 남은 7개의 섬도 차오르는 바닷물에 언제 잠길지 모",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=13",
+                "checkedAt": "2026-09-30T13:27:09.358Z",
+                "contentHash": "fc58ef0793eba561c348c54c1db8828a4ef8eab58fb7323a985608ac8e281282"
+              }
+            },
+            {
+              "conceptId": "energy",
+              "label": "에너지",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 361,
+                "end": 363,
+                "quote": "전기",
+                "excerpt": "이다. 사람은 하루 평균 13.3kg의 이산화탄소를 배출한다. 전기를 쓰고 물을 쓰고 가스를 쓸 때마다 이산화탄소는 배출된다. 유엔 ‘정부 간 기후변화위원회’는 지구를 구할 수 있는 ",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=13",
+                "checkedAt": "2026-09-30T13:27:09.358Z",
+                "contentHash": "fc58ef0793eba561c348c54c1db8828a4ef8eab58fb7323a985608ac8e281282"
+              }
+            },
+            {
+              "conceptId": "environment",
+              "label": "환경",
+              "subject": "공통",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 554,
+                "end": 556,
+                "quote": "환경",
+                "excerpt": " 45%나 증가했다. 인간의 빠르고 편리한 삶과 맞바꾼 지구의 환경. 처음으로 되돌릴 수도 다른 것으로 대체할 수도 없다. 변해가고 있는 지구의 모습을 천천히 찾을 수 있는 길을 만드",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/replay/191/list?courseId=BP0PAPF0000000022&stepId=01BP0PAPF0000000022&c.page=13",
+                "checkedAt": "2026-09-30T13:27:09.358Z",
+                "contentHash": "fc58ef0793eba561c348c54c1db8828a4ef8eab58fb7323a985608ac8e281282"
+              }
+            }
+          ],
+          "reason": "기후 변화 · 환경 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-05",
+      "subject": "과학",
+      "keyword": "구름",
+      "query": "구름이 생기는 과정을 관찰할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 24,
+      "keywordTotal": 24,
+      "directTotal": 1,
+      "terms": [],
+      "warnings": [
+        "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 80.56,
+      "topProgramShare": 0.2222222222222222,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-232fc6d677c23cd16480",
+          "title": "51화. 먹구름과 뭉게구름의 대결",
+          "summary": "단어 '구름', 그리고 '구름' 앞에 '검다'는 뜻의 '먹-'을 더한 단어 '먹구름'으로 구성된 이야기를 통해 한글을 쉽게 알려준다.",
+          "program": "한글용사 아이야",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10210610&lectId=60654358&stepId=20012349",
+          "evidenceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "cloud",
+              "label": "구름",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 4,
+                "end": 6,
+                "quote": "구름",
+                "excerpt": "단어 '구름', 그리고 '구름' 앞에 '검다'는 뜻의 '먹-'을 더한 단어 '먹구름'으로 구성된 이야기를 통해 한글을 쉽게 알려",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+                "checkedAt": "2026-09-30T13:21:23.555Z",
+                "contentHash": "dd92e9f77d3161afa91f085197fdefc07c5f34de7567626b722099f68625b5ae"
+              }
+            }
+          ],
+          "reason": "구름 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-347b86708d83ddce4793",
+          "title": "구름 박사의 그림",
+          "summary": "존 컨스터블의 풍경화 속 애정 어린 관찰로 그려낸 하늘과 구름 ...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60122219",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=96",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "cloud",
+              "label": "구름",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "구름",
+                "excerpt": "구름 박사의 그림",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60122219",
+                "checkedAt": "2026-09-29T13:30:37.549Z",
+                "contentHash": "0237d5df84b5aab1fdf8b43c096e20f4a0aab2bc5be6df3810fb8b769bd915d2"
+              }
+            }
+          ],
+          "reason": "구름 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-7891431a604bbf88aef4",
+          "title": "구름이 없어졌어요",
+          "summary": "같은 색이라도 다양하게 표현될 수 있다는 것을 알려주어 표현을 보다 자유롭게, 감성을 보다 넓게 해준다",
+          "program": "곰디와 친구들",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10006152&lectId=10256465&stepId=10011154",
+          "evidenceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "cloud",
+              "label": "구름",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "구름",
+                "excerpt": "구름이 없어졌어요",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10006152&lectId=10256465&stepId=10011154",
+                "checkedAt": "2026-09-30T13:40:50.521Z",
+                "contentHash": "9846a8299ecf657117a24de23b1ae273691849b4cbb8dc4d3dd4aa76666c87bc"
+              }
+            }
+          ],
+          "reason": "구름 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-06",
+      "subject": "과학",
+      "keyword": "인체",
+      "query": "인체 기관의 역할을 알아볼 다큐를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 25,
+      "keywordTotal": 25,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "요청한 기관의 역할은 주제 후보와 별도로 원문·영상 확인이 필요합니다.",
+        "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+      ],
+      "elapsedMs": 85.27,
+      "topProgramShare": 0.4444444444444444,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-b3fcf41eba96e61930d8",
+          "title": "교감장군과 부교감장군",
+          "summary": "물에 오래 있으면 왜 손가락만 쪼글쪼글해질까? 호빵이와 호떡이가 찾아간 항상 성에는, 위험에 대비해 심장을 빨리 뛰게, 숨을 가쁘게 하는 교감장군과, 다시 차분하게 되돌려 균형을 지키는 부교감장군이 살며 우리 몸을 지키고 있는데...",
+          "program": "최고다! 호기심딱지",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10008436&lectId=60757910&stepId=60053603",
+          "evidenceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "body",
+              "label": "인체",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 114,
+                "end": 118,
+                "quote": "우리 몸",
+                "excerpt": "장군과, 다시 차분하게 되돌려 균형을 지키는 부교감장군이 살며 우리 몸을 지키고 있는데...",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+                "checkedAt": "2026-09-30T13:15:56.810Z",
+                "contentHash": "d4cb4f0c6132a342dec6a6a4d58a12ebbd0a190369e9c63696d314958d954fa5"
+              }
+            },
+            {
+              "conceptId": "heart",
+              "label": "심장",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 56,
+                "end": 58,
+                "quote": "심장",
+                "excerpt": "해질까? 호빵이와 호떡이가 찾아간 항상 성에는, 위험에 대비해 심장을 빨리 뛰게, 숨을 가쁘게 하는 교감장군과, 다시 차분하게 되돌려 균형을 지키는 부교감장군이 살며 우리 몸을 지키고",
+                "sourceUrl": "https://anikids.ebs.co.kr/anikids/getVodListAjax",
+                "checkedAt": "2026-09-30T13:15:56.810Z",
+                "contentHash": "d4cb4f0c6132a342dec6a6a4d58a12ebbd0a190369e9c63696d314958d954fa5"
+              }
+            }
+          ],
+          "reason": "인체 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-3e0eb0e9a3b67bc32eae",
+          "title": "손이 말했다",
+          "summary": "우리 몸에서 가장 감각이 발달한 기관 중 하나, 손. 손에 담겨 있는 다양한 의미는?...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20288037",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=197",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "body",
+              "label": "인체",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 4,
+                "quote": "우리 몸",
+                "excerpt": "우리 몸에서 가장 감각이 발달한 기관 중 하나, 손. 손에 담겨 있는 다양한 의미는?...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=197",
+                "checkedAt": "2026-09-29T13:32:28.852Z",
+                "contentHash": "7493f9131d0201b05730313102ca2dd3ac7957644f0974ae791a8f4dc626995f"
+              }
+            }
+          ],
+          "reason": "인체 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-288c797421b1489304f6",
+          "title": "[불멸의 삶을 꿈꾸다, 냉동인간] 1부 냉동",
+          "summary": "‘인체 냉동 보존술’의 모든 것",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60413504",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=45",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "body",
+              "label": "인체",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 1,
+                "end": 3,
+                "quote": "인체",
+                "excerpt": "‘인체 냉동 보존술’의 모든 것",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=45",
+                "checkedAt": "2026-09-29T13:29:41.320Z",
+                "contentHash": "73f0cfd80142299a238190b6dde955fbb497c0a433528805a35a905e0afef68e"
+              }
+            }
+          ],
+          "reason": "인체 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-07",
+      "subject": "과학",
+      "keyword": "면역",
+      "query": "우리 몸의 면역 작용을 설명하는 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 1,
+      "keywordTotal": 11,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [
+        "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 85.21,
+      "topProgramShare": 1,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-21a0c301e39e54296de9",
+          "title": "면역, 위대한 여정 2부 잘못된 신호, 나를 공격하다",
+          "summary": "우리 몸을 지키는 면역 반응은 면역 세포인 백혈구와 백혈구의 대화로부터 시작되지만 그 대화가 과하게 공격적이고 자기 파괴적으로 흐른다면 우리 몸에 문제가 생긴다아토피로인해 망막박리 수술까지 받아온 중중 아토피 피부염 환자, 류마티스 관절염으로 솔로 연주의 트라우마를 안고 사는 악기 연주자, 그리고 면역 질환의 증가 원인 중 하나로 꼽히는 스트레스는 실제로 면역과 어떻게 연결돼 있는지, 잘못된 대화를 좋은 대화로 바로잡는 면역치료의 오늘까지! 생생한 실험과 사례를 담는다",
+          "program": "EBS 다큐프라임",
+          "url": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055796&lectId=20495268",
+          "evidenceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055796",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "body",
+              "label": "인체",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 0,
+                "end": 4,
+                "quote": "우리 몸",
+                "excerpt": "우리 몸을 지키는 면역 반응은 면역 세포인 백혈구와 백혈구의 대화로부터 시작되지만 그 대화가 과하게 공격적이고 자기 파괴적으",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/newReplayList?courseId=BP0PAPB0000000005&stepId=60055796",
+                "checkedAt": "2026-09-29T13:30:26.274Z",
+                "contentHash": "629696879f120bf238b6da6ed30be88e5b5b1c934dba188dd6b39cba32589383"
+              }
+            },
+            {
+              "conceptId": "immunity",
+              "label": "면역",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 0,
+                "end": 2,
+                "quote": "면역",
+                "excerpt": "면역, 위대한 여정 2부 잘못된 신호, 나를 공격하다",
+                "sourceUrl": "https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&courseId=BP0PAPB0000000005&stepId=60055796&lectId=20495268",
+                "checkedAt": "2026-09-29T13:30:26.274Z",
+                "contentHash": "629696879f120bf238b6da6ed30be88e5b5b1c934dba188dd6b39cba32589383"
+              }
+            }
+          ],
+          "reason": "인체 · 면역 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-08",
+      "subject": "과학",
+      "keyword": "우주",
+      "query": "우주를 탐사하는 방법을 알아볼 다큐를 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 151,
+      "keywordTotal": 151,
+      "directTotal": 3,
+      "terms": [],
+      "warnings": [
+        "요청한 탐사 방법은 주제 후보와 별도로 원문·영상 확인이 필요합니다.",
+        "요청한 탐사 방법의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다.",
+        "요청한 방송 장르를 전체 자료에서 판별할 정보가 부족합니다. 결과의 프로그램을 확인해 주세요."
+      ],
+      "elapsedMs": 92.9,
+      "topProgramShare": 0.7777777777777778,
+      "sourceAuditSelected": true,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-ab96ec83b73d0d8cdf5a",
+          "title": "가장 작은 우주선, 우주복",
+          "summary": "극한의 우주에서 생존을 책임지는 우주복, 무엇이 들어있을까? ...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20381404",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=169",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 4,
+                "end": 6,
+                "quote": "우주",
+                "excerpt": "극한의 우주에서 생존을 책임지는 우주복, 무엇이 들어있을까? ...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=169",
+                "checkedAt": "2026-09-29T13:31:57.952Z",
+                "contentHash": "cadcc9a3ba4229ecf53d50ad4056d5d08dc2313d171dd030de94082e40224c3d"
+              }
+            }
+          ],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-d8d2298f82c6061f9fa1",
+          "title": "그의 이름은 134340 Pluto",
+          "summary": "명왕성 탐사선인 뉴호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20254167",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 45,
+                "end": 47,
+                "quote": "천체",
+                "excerpt": "호라이즌스호가 화성을 지나 목성으로 향하던 2006년, 새로운 천체 '에리스'의 발견으로 ...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=189",
+                "checkedAt": "2026-09-29T13:32:20.041Z",
+                "contentHash": "cc2f00a11d416c31a8e53921fbcbe8ecdf5bc2005e8753c7ee526580241a1779"
+              }
+            }
+          ],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-9e1bc944351eafe958c7",
+          "title": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "summary": "자막디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+          "program": "위대한 수업, 그레이트 마인즈",
+          "url": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+          "evidenceUrl": "https://home.ebs.co.kr/greatminds/replay/6/list?courseId=40023168&stepId=60023845&searchCondition=shwLectNmSrch&searchKeyword=&catgryCd1=&clsfnId=&c.page=18",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "space",
+              "label": "우주",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 12,
+                "end": 14,
+                "quote": "행성",
+                "excerpt": "디디에 쿠엘로 <외계 행성 탐사 프로젝트> 1강 1995년 첫 외계 행성 발견",
+                "sourceUrl": "https://home.ebs.co.kr/greatminds/vodReplay/vodReplayView?courseId=40023168&stepId=60057915&lectId=60545792",
+                "checkedAt": "2026-09-30T13:30:26.703Z",
+                "contentHash": "6e5d6b45142531c696639d2d6e2617d888b03c486b0619a0dc2c0f2001c28544"
+              }
+            }
+          ],
+          "reason": "우주 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-09",
+      "subject": "과학",
+      "keyword": "달의 모양",
+      "query": "달의 모양 변화를 관찰할 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 10,
+      "keywordTotal": 10,
+      "directTotal": 2,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 86.14,
+      "topProgramShare": 0.2222222222222222,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-8eaaa9343c1e2e9e4bb9",
+          "title": "[지식知食, 아는 만큼 맛있다] 왜 크루아상은 초승달 모양일까?",
+          "summary": "프랑스 대표 빵 '크루아상', 고향은 오스트리아 비엔나?...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60718140",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=6",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "moon",
+              "label": "달의 모양",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 26,
+                "end": 29,
+                "quote": "초승달",
+                "excerpt": "[지식知食, 아는 만큼 맛있다] 왜 크루아상은 초승달 모양일까?",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=60718140",
+                "checkedAt": "2026-09-29T13:28:58.344Z",
+                "contentHash": "7d4031863049df3e83a5b7d1be527a15700769d5591253cfdf3cada1b535536d"
+              }
+            }
+          ],
+          "reason": "달의 모양 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-47e900dbfe7e198061a8",
+          "title": "293회 추석, 보름달이 떴어요!",
+          "summary": "",
+          "program": "우리집 유치원",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60104533&stepId=20006583",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "moon",
+              "label": "달의 모양",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 9,
+                "end": 12,
+                "quote": "보름달",
+                "excerpt": "293회 추석, 보름달이 떴어요!",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60104533&stepId=20006583",
+                "checkedAt": "2026-09-30T13:19:18.860Z",
+                "contentHash": "46ab115a80951c51c30ed2583ea299d90b8f0b75584a925cf37d2611d4c54772"
+              }
+            }
+          ],
+          "reason": "달의 모양 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-c3a386a37448f35ea4bb",
+          "title": "동글동글 보름달 떡",
+          "summary": "",
+          "program": "방귀대장 뿡뿡이",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000017&lectId=10309606&stepId=01BA0AA000000000017",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=17&courseId=BA0AA000000000017&stepId=01BA0AA000000000017&lectId=20474535",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "moon",
+              "label": "달의 모양",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 5,
+                "end": 8,
+                "quote": "보름달",
+                "excerpt": "동글동글 보름달 떡",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000017&lectId=10309606&stepId=01BA0AA000000000017",
+                "checkedAt": "2026-09-30T13:18:47.652Z",
+                "contentHash": "783cfd2fca8b5fb72db6d08309721f60b75d56071445efbd99e5b031fac9f36b"
+              }
+            }
+          ],
+          "reason": "달의 모양 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-10",
+      "subject": "과학",
+      "keyword": "전기 회로",
+      "query": "전기 회로에서 전구가 켜지는 조건을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 3,
+      "keywordTotal": 3,
+      "directTotal": 0,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 80.38,
+      "topProgramShare": 0.3333333333333333,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-c709d016d655f564b923",
+          "title": "어린 왕자야, 그런 일이 진짜로 있단다",
+          "summary": "기차역의 전구 켜기만 해도 월급이 264만원. 생각해봐야 할 노동의 의미...",
+          "program": "지식채널e",
+          "url": "https://jisike.ebs.co.kr/jisike/vodReplayView?siteCd=JE&prodId=352&courseId=BP0PAPB0000000009&stepId=01BP0PAPB0000000009&lectId=20385301",
+          "evidenceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=130",
+          "evidenceLevel": "SOURCE_DESCRIPTION",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "circuit",
+              "label": "전기 회로",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 5,
+                "end": 7,
+                "quote": "전구",
+                "excerpt": "기차역의 전구 켜기만 해도 월급이 264만원. 생각해봐야 할 노동의 의미...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=130",
+                "checkedAt": "2026-09-29T13:31:15.002Z",
+                "contentHash": "3d188ec3e6ee34541aaef135272bce7cb942a31d4b8f314ed9b3f2f5936154da"
+              }
+            },
+            {
+              "conceptId": "jobs",
+              "label": "직업",
+              "subject": "사회",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "summary",
+                "start": 34,
+                "end": 36,
+                "quote": "노동",
+                "excerpt": "기차역의 전구 켜기만 해도 월급이 264만원. 생각해봐야 할 노동의 의미...",
+                "sourceUrl": "https://jisike.ebs.co.kr/jisike/replayListNew?c.page=130",
+                "checkedAt": "2026-09-29T13:31:15.002Z",
+                "contentHash": "3d188ec3e6ee34541aaef135272bce7cb942a31d4b8f314ed9b3f2f5936154da"
+              }
+            }
+          ],
+          "reason": "전기 회로 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-09875a8b67ea1ffbcb47",
+          "title": "꼬마 전구들의 꿈 / 인어공주",
+          "summary": "",
+          "program": "모여라 딩동댕",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000015&lectId=10622212&stepId=01BA0AA000000000015",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=15&courseId=BA0AA000000000015&stepId=01BA0AA000000000015&lectId=60633443",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "circuit",
+              "label": "전기 회로",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 3,
+                "end": 5,
+                "quote": "전구",
+                "excerpt": "꼬마 전구들의 꿈 / 인어공주",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=BA0AA000000000015&lectId=10622212&stepId=01BA0AA000000000015",
+                "checkedAt": "2026-09-30T13:15:43.217Z",
+                "contentHash": "7015e554fa610e4a74d9a691d922f78cc6bb8e9ff80f0a45d0dafea828ede3b9"
+              }
+            }
+          ],
+          "reason": "전기 회로 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 3,
+          "id": "BCAST-5a6282770abd1f1b0487",
+          "title": "페트병 전구",
+          "summary": "",
+          "program": "발명이 팡팡!",
+          "url": "https://www.ebs.co.kr/tv/show?courseId=BB0CZ000000000104&stepId=01BB0CZ000000000104&lectId=10226993",
+          "evidenceUrl": "https://home.ebs.co.kr/invention/replay/5/list?courseId=BB0CZ000000000104&stepId=01BB0CZ000000000104&c.page=1",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "circuit",
+              "label": "전기 회로",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 4,
+                "end": 6,
+                "quote": "전구",
+                "excerpt": "페트병 전구",
+                "sourceUrl": "https://www.ebs.co.kr/tv/show?courseId=BB0CZ000000000104&stepId=01BB0CZ000000000104&lectId=10226993",
+                "checkedAt": "2026-09-30T13:38:54.391Z",
+                "contentHash": "d196f366090887db35b228e809f59183abc84d94f8735afa3861df69dfa5ade4"
+              }
+            }
+          ],
+          "reason": "전기 회로 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    },
+    {
+      "id": "SCI-11",
+      "subject": "과학",
+      "keyword": "용해",
+      "query": "물질의 용해를 관찰할 수 있는 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 0,
+      "keywordTotal": 1,
+      "directTotal": 1,
+      "terms": [],
+      "warnings": [],
+      "elapsedMs": 80.73,
+      "topProgramShare": null,
+      "sourceAuditSelected": false,
+      "top": []
+    },
+    {
+      "id": "SCI-12",
+      "subject": "과학",
+      "keyword": "자석",
+      "query": "자석 사이에 작용하는 힘을 보여주는 방송을 찾아줘",
+      "use": "DEVELOPMENT_RECHECK",
+      "requestTotal": 2,
+      "keywordTotal": 10,
+      "directTotal": 0,
+      "terms": [
+        "힘"
+      ],
+      "warnings": [
+        "요청한 원리·과정 설명의 구체적 내용은 후보의 원문에서 추가 확인이 필요합니다."
+      ],
+      "elapsedMs": 88.83,
+      "topProgramShare": 1,
+      "sourceAuditSelected": false,
+      "top": [
+        {
+          "rank": 1,
+          "id": "BCAST-765430d0b0df13948db2",
+          "title": "269화 힘센 내 자석",
+          "summary": "",
+          "program": "우리집 유치원",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086084&stepId=20006583",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "magnet",
+              "label": "자석",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 10,
+                "end": 12,
+                "quote": "자석",
+                "excerpt": "269화 힘센 내 자석",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60086084&stepId=20006583",
+                "checkedAt": "2026-09-30T13:19:18.860Z",
+                "contentHash": "fb9383048a8a54b24d29a6bbd519dbc0bc6ead9e64c17efe2df8b5affc26bb8c"
+              }
+            }
+          ],
+          "reason": "자석 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        },
+        {
+          "rank": 2,
+          "id": "BCAST-2d032ce4b233bfe29ceb",
+          "title": "힘센 내 자석",
+          "summary": "",
+          "program": "우리집 유치원",
+          "url": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+          "evidenceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&prodId=133116&courseId=10205003&stepId=20006583&lectId=60296607",
+          "evidenceLevel": "TITLE_ONLY",
+          "linkStatus": "PUBLISHED",
+          "sourceMentions": [
+            {
+              "conceptId": "magnet",
+              "label": "자석",
+              "subject": "과학",
+              "status": "SOURCE_MENTION",
+              "method": "LOCAL_RULE",
+              "ruleVersion": "2026-09-30.2",
+              "evidence": {
+                "field": "title",
+                "start": 5,
+                "end": 7,
+                "quote": "자석",
+                "excerpt": "힘센 내 자석",
+                "sourceUrl": "https://anikids.ebs.co.kr/vodCommon/show?siteCd=AK&courseId=10205003&lectId=60240957&stepId=20006583",
+                "checkedAt": "2026-09-30T13:19:18.860Z",
+                "contentHash": "31d8f909a03b9b03030f3adf5e70e42347524541a8b7b404db3b8913f1450fe6"
+              }
+            }
+          ],
+          "reason": "자석 관련 표현을 원문에서 확인 · 수업 적합성 미판정",
+          "curriculumStatus": "NOT_ASSESSED",
+          "playbackStatus": "NOT_CHECKED"
+        }
+      ]
+    }
+  ],
+  "approvalSha256Before": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "approvalSha256After": "f207ec5347d5a26af03011fa49e4b465d70ec7225f074e401878169b01e96200",
+  "approvalUnchanged": true,
+  "networkAttempts": 0,
+  "paidApiCalls": 0,
+  "limits": [
+    "가상 개발 질문이며 실제 교사 요청·독립 최종 성능 평가가 아니다.",
+    "원문 태그는 표현의 존재 확인이며 요청한 관계·방법·설명 충족의 보장이 아니다.",
+    "학년·교육과정 적합성과 재생·자막·시간은 미확인."
+  ]
+}

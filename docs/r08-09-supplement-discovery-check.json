@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-10T23:56:45.206Z",
+  "resourceId": "BCAST-bc20c57561a30458a210",
+  "title": "라오스 소금마을 1부",
+  "standardId": "6과05-02",
+  "sourceQuality": {
+    "category": "short",
+    "label": "짧은 내용 설명",
+    "version": "source-text-v3",
+    "rank": 3,
+    "status": "HELD",
+    "code": "SOURCE_TEXT_TOO_THIN",
+    "message": "짧은 내용 설명이 있으나 상세 연계에 필요한 최소 원문이 부족합니다.",
+    "topicTextAvailable": true,
+    "detailedMappingAllowed": false
+  },
+  "ruleStatus": "UNSUPPORTED",
+  "quotes": [
+    {
+      "field": "supplement",
+      "start": 0,
+      "end": 55,
+      "quote": "소금물이 햇볕에 건조되어 결정체가 나오기 시작하면 이때부터 다시 소금 채취에 열심인 콕싸앗 사람들.",
+      "supplementId": "4c051c84030799dd5ee5a4f5",
+      "sourceLabel": "EBS 공식 보도자료",
+      "documentTitle": "EBS 극한직업-라오스 소금마을(2일~3일 오후 10시 45분)",
+      "documentType": "PRESS_RELEASE",
+      "sourceSystem": "EBS_OFFICIAL_SUPPLEMENT",
+      "sourceContentId": "BCAST-bc20c57561a30458a210",
+      "variant": "EPISODE",
+      "sourceUrl": "https://about.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&no=3&option=&pageNo=30&postId=10000126947&searchCondition=title&searchKeyword=",
+      "contentHash": "2ad404ef2dc1a1c274058c234c98c673634407fb9c6d623dd101db1cf71717f2",
+      "sourceVersion": "OFFICIAL_SUPPLEMENT:2ad404ef2dc1a1c274058c234c98c673634407fb9c6d623dd101db1cf71717f2",
+      "checkedAt": "2026-10-10T23:55:14.403Z",
+      "location": "1부 · 2013-01-02 방송 설명 문단",
+      "offsetUnit": "UTF16_CODE_UNIT",
+      "originalStart": 1952,
+      "originalEnd": 2007,
+      "responseHash": "1368d1b662a243dc2ff76b4a34624b6e79f3a4d7dd65182ec17122f2c2edee46",
+      "evidencePurpose": "DISCOVERY_ONLY",
+      "scope": "해당 회차의 공식 보조 설명. 실제 영상·재생·장면·학년 적합성 및 성취기준 승인은 미확인."
+    }
+  ],
+  "checks": [
+    "현재 공식 보조 원문으로 후보 발견",
+    "소개문 품질 불변",
+    "자동 비교 미지원 유지",
+    "발췌별 문자 위치/지문/출처 대조",
+    "원래 문서 추출문 위치 대응",
+    "UI 보조 문서/후보 발견 출처 구분"
+  ],
+  "paidApiCalls": 0
+}

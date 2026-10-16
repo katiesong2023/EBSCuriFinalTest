@@ -1,0 +1,128 @@
+{
+  "sourceReport": "/private/tmp/ebs-curi-question-review-ckq_mlbm/http-reviewed-results.json",
+  "sourceReportSha": "20076d197cf8fb4cbf20b9584c7193f57539ab8b3a38f7d3d49f086d9a2a797f",
+  "beforeHashes": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "ccf6ba7bc02edfa2864823425b30883210066b8c98c024832f00f67e472c1463",
+    "server/data/semantic-layer.sqlite": "2581a2fecb5763793cc02593c70e7bc44635ff7e08a2c94cd8259e00ea18b830",
+    "server/data/automatic-assets.sqlite": "5985844d5c763ea7f87a5e07ba377740391d681a709673f721ad6e09a7f4d15d"
+  },
+  "rows": [
+    {
+      "id": "V01",
+      "query": "화산지형에 해당하는 우리나라 지역 수업자료",
+      "total": 0,
+      "expectedMeaning": "국내 화산 지형 사례",
+      "type": "사용자 실제 요청",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      },
+      "knownRelevantCandidate": {
+        "id": "GEO-PARK-HALLA",
+        "supportingQuote": "한라산의 기후와 화산 지형을 다루는 강의입니다.",
+        "coverage": "주제/국내 사례 후보; 실제 특징/형성 설명과 영상 적합성은 미확인",
+        "foundInTop20": false
+      }
+    },
+    {
+      "id": "V02",
+      "query": "우리나라의 화산 활동으로 만들어진 지형을 보여주는 수업 자료",
+      "total": 2,
+      "expectedMeaning": "국내 화산 활동과 지형 형성 관계",
+      "type": "표현 변형",
+      "agentTextReview": {
+        "status": "SCOPE_VIOLATION",
+        "why": "요청은 국내 사례이나 반환2건 모두 과테말라. 첫 회차는 화산과 별개인 물/바위 작용의 카르스트 지형도 포함한다."
+      }
+    },
+    {
+      "id": "V03",
+      "query": "국내 화산 지형의 특징을 설명하는 영상",
+      "total": 0,
+      "expectedMeaning": "국내 한정 및 지형 특징",
+      "type": "표현 변형",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      }
+    },
+    {
+      "id": "V04",
+      "query": "한라산의 화산 지형을 설명하는 자료",
+      "total": 2,
+      "expectedMeaning": "한라산 한정 및 화산 지형",
+      "type": "국내 지역명",
+      "agentTextReview": {
+        "status": "PARTIAL",
+        "why": "한라산 강의는 소개문에 화산 지형 명시. 특징/형성 설명과 실제 수업 효용은 미확인. 빗물 회차는 현무암과 물 이용이 주제여서 보조 내용으로만 검토."
+      }
+    },
+    {
+      "id": "V05",
+      "query": "제주도에서 용암이 만든 지형을 보여주는 영상",
+      "total": 0,
+      "expectedMeaning": "제주도 한정 및 용암과 지형 형성",
+      "type": "개념명 없는 관계 표현",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      }
+    },
+    {
+      "id": "V06",
+      "query": "우리나라 화산 지형 자료를 찾아줘 해외 사례는 제외해줘",
+      "total": 0,
+      "expectedMeaning": "국내 한정 및 해외 제외",
+      "type": "명시적 제외",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      }
+    },
+    {
+      "id": "V07",
+      "query": "화산 지형",
+      "total": 24,
+      "expectedMeaning": "지형 주제; 국내 조건 없음",
+      "type": "짧은 대조 입력",
+      "agentTextReview": {
+        "status": "MIXED_OR_SOURCE_INSUFFICIENT",
+        "why": "한라산은 화산 지형 명시. 니사르 위성은 화산 폭발 감시 언급이며 지형 설명 근거 부족. 운젠화산/화산과 함께 살다는 재구성 안내만 있어 내용 미확인."
+      }
+    },
+    {
+      "id": "V08",
+      "query": "화산 폭발 피해를 다룬 영상",
+      "total": 0,
+      "expectedMeaning": "폭발 피해; 지형 형성과 다름",
+      "type": "인접 주제 구분",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      }
+    },
+    {
+      "id": "V09",
+      "query": "우리나라 해안 지형을 보여주는 수업 자료",
+      "total": 6,
+      "expectedMeaning": "국내 한정 및 해안 지형",
+      "type": "다른 지형 일반화",
+      "agentTextReview": {
+        "status": "PARTIAL",
+        "why": "실제API 상위 후보는 고창/신안/무안의 국내 갯벌 지역. 원문에서 여행/생업 정보는 확인되나 지형 특징·형성 설명의 충족은 미확인."
+      }
+    },
+    {
+      "id": "V10",
+      "query": "낮과 밤에 활동하는 동물을 비교하는 영상",
+      "total": 0,
+      "expectedMeaning": "동물 활동 비교; 지구 자전을 필수로 요구하지 않음",
+      "type": "요청 의미 보존",
+      "agentTextReview": {
+        "status": "NO_CANDIDATE_CAUSE_UNRESOLVED",
+        "why": "빈 결과만으로 미보유/원문부족/검색실패를 구분할 수 없음."
+      }
+    }
+  ]
+}

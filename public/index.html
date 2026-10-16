@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curi 교사 검색</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="/grade-context.js" defer></script>
+    <script src="/index.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Curi 검색 첫 화면">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span>
+            <strong>Curi</strong>
+            <small>교육과정 기반 EBS 검색</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="주요 화면">
+          <a href="/">자료 찾기</a>
+          <a href="/lesson.html">내 수업 준비</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Curi · 기존 승인 자산 검색</p>
+          <h1 id="page-title">수업에 바로 쓸 EBS 콘텐츠를 찾아보세요</h1>
+          <p class="hero-copy">
+            수업 언어로 검색하면 사람이 검수한 교육과정 연계 자산에서 관련 콘텐츠를 찾아볼 수 있습니다.
+            자료 선택과 수업 준비는 <a href="/?curriculum=approved&amp;browse=all">자료 찾기의 ‘교육과정 연계 확인’</a>에서도 이어갈 수 있습니다.
+          </p>
+        </div>
+        <div class="hero-note" aria-label="현재 화면 상태">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <strong>검증된 교육과정으로 검색</strong>
+            <p>수업 주제와 학년군·교과를 입력하세요.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice" aria-label="검색 공개 범위 안내">
+        <div>
+          <strong>검증 자산 기준 검색</strong>
+          <p>최소 연관도 기준을 통과한 결과만 검색에 공개하며, 검수 전 AI 초안은 결과에 포함하지 않습니다.</p>
+        </div>
+        <div class="state-badges" aria-label="현재 검색 상태">
+          <span class="badge badge-warning">최소 연관도 기준 적용</span>
+          <span class="badge badge-muted">사람 검수 자산</span>
+          <span class="badge badge-muted">교육과정 연계 근거 제공</span>
+        </div>
+      </section>
+
+      <section class="search-panel" aria-labelledby="search-title">
+        <div class="section-heading">
+          <div>
+            <p class="card-label">01 · 수업 조건</p>
+            <h2 id="search-title">무엇을 가르치고 싶으신가요?</h2>
+          </div>
+          <span class="mini-label">수업 주제 검색</span>
+        </div>
+
+        <form id="search-form" class="search-form">
+          <label class="query-field" for="query-input">
+            <span>수업 언어로 검색</span>
+            <span class="query-input-wrap">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="query-input" name="query" type="search" placeholder="예: 초등 5학년 사회 동고서저 지형과 산맥" maxlength="300" required autocomplete="off">
+            </span>
+          </label>
+
+          <div class="filter-grid">
+            <label for="grade-filter">
+              <span>학년군</span>
+              <select id="grade-filter" name="grade">
+                <option value="all" selected>질의에서 해석 · 없으면 전체</option>
+                <option value="초등 3학년">초등 3학년</option><option value="초등 4학년">초등 4학년</option>
+                <option value="초등 3~4학년군">초등 3~4학년군</option>
+                <option value="초등 5학년">초등 5학년</option><option value="초등 6학년">초등 6학년</option><option value="중학교 1학년">중학교 1학년</option><option value="초등 5~6학년군">초등 5~6학년군</option>
+              </select>
+            </label>
+            <label for="subject-filter">
+              <span>교과</span>
+              <select id="subject-filter" name="subject">
+                <option value="all" selected>질의에서 해석 · 없으면 전체</option>
+                <option value="사회">사회</option>
+                <option value="과학">과학</option>
+              </select>
+            </label>
+            <label for="sort-select">
+              <span>정렬</span>
+              <select id="sort-select" name="sort">
+                <option value="relevance" selected>관련도순</option>
+                <option value="newest">최신 방송순</option>
+                <option value="oldest">오래된 방송순</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-footer">
+            <p class="form-hint">학년군·교과를 먼저 적용합니다. 직접 선택한 조건이 질의보다 우선합니다.</p>
+            <button id="search-submit" type="submit">검색</button>
+          </div>
+        </form>
+        <p id="search-status" class="search-status" role="status" aria-live="polite">
+          수업 주제를 입력하고 검색하세요.
+        </p>
+      </section>
+
+      <section class="conditions-panel" aria-labelledby="conditions-title">
+        <h2 id="conditions-title">적용 조건</h2>
+        <p id="applied-conditions">검색 후 해석된 조건이 표시됩니다.</p>
+        <ul id="condition-warnings" aria-live="polite" hidden></ul>
+      </section>
+
+      <section class="results-section" aria-labelledby="results-title">
+        <div class="results-heading">
+          <div>
+            <p class="card-label">02 · 검색 결과</p>
+            <h2 id="results-title">조건에 맞는 콘텐츠</h2>
+            <p id="result-summary" class="result-summary">검색을 기다리고 있습니다.</p>
+          </div>
+          <span id="sort-summary" class="sort-summary">관련도순</span>
+        </div>
+
+        <div id="results-content" class="results-content" aria-live="polite"></div>
+        <nav id="pagination" class="pagination" aria-label="검색 결과 페이지 이동"></nav>
+      </section>
+
+      <aside class="search-boundary" aria-label="검색 안내">
+        <div class="boundary-icon" aria-hidden="true">i</div>
+        <div>
+          <strong>검색 안내</strong>
+          <p>사람이 승인·수정하고 검색 준비를 마친 콘텐츠만 찾습니다. 학년군은 공식 성취기준을 따르며, 추천근거는 저장된 검수 결과입니다. 조건이나 연관도 기준에 맞지 않으면 결과가 없을 수 있습니다.</p>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>

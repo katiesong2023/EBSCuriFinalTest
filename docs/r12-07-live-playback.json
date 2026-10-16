@@ -1,0 +1,46 @@
+{
+  "extensionInstalled": true,
+  "extensionReloadedByUser": true,
+  "curiOrigin": "http://localhost:3000",
+  "cases": [
+    {
+      "title": "지구의 자전 속도가 느려지는 이유",
+      "lectId": "20349287",
+      "expectedStart": 47.995,
+      "expectedEnd": 83.23,
+      "start": {
+        "paused": true,
+        "time": 47.995
+      },
+      "end": {
+        "notice": "‘자전 속도’ 구간 끝 1:23.241에서 일시정지했습니다. 지정 끝 1:23.23 · 다시 재생하거나 구간 제어를 해제할 수 있습니다.",
+        "paused": true,
+        "time": 83.241414
+      },
+      "resumeGuard": {
+        "paused": true,
+        "time": 83.241756
+      }
+    },
+    {
+      "title": "다윈의 예언",
+      "lectId": "20349297",
+      "expectedStart": 25,
+      "expectedEnd": 45.549,
+      "start": {
+        "paused": true,
+        "time": 25
+      },
+      "end": {
+        "notice": "‘다윈 · 구간 재생 확인’ 구간 끝 0:45.602에서 일시정지했습니다. 지정 끝 0:45.549 · 다시 재생하거나 구간 제어를 해제할 수 있습니다.",
+        "paused": true,
+        "time": 45.602082
+      },
+      "resumeGuard": {
+        "paused": true,
+        "time": 45.603095
+      }
+    }
+  ],
+  "paidApiCalls": 0
+}

@@ -1,0 +1,2007 @@
+{
+  "source": "EBS_Curi_FINAL_PACKAGE_v1.4/curi-search-test-200.xlsx",
+  "sourceSha256": "f63b01e7421fcb3b056c9c2d5053f8f231abc352c8291108e6bd112bac2cf0b0",
+  "sheet": "검색 문장",
+  "rows": [
+    {
+      "id": "Q001",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "우리 고장",
+      "queryType": "키워드형",
+      "query": "우리 고장의 모습",
+      "expectedKind": "무관",
+      "sourceRow": 2
+    },
+    {
+      "id": "Q002",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지도 읽기",
+      "queryType": "질문형",
+      "query": "지도에서 방위표는 어떻게 읽나요?",
+      "expectedKind": "클립",
+      "sourceRow": 3
+    },
+    {
+      "id": "Q003",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지도 읽기",
+      "queryType": "수업 활용형",
+      "query": "초3 지도 읽기 수업 도입에 쓸 3분짜리 영상",
+      "expectedKind": "클립",
+      "sourceRow": 4
+    },
+    {
+      "id": "Q004",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "고장의 문화유산",
+      "queryType": "형식 지정형",
+      "query": "고장의 문화유산을 소개하는 애니메이션",
+      "expectedKind": "클립",
+      "sourceRow": 5
+    },
+    {
+      "id": "Q005",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "옛날과 오늘날의 생활",
+      "queryType": "질문형",
+      "query": "옛날 사람들은 어떻게 빨래를 했을까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 6
+    },
+    {
+      "id": "Q006",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "교통 변화",
+      "queryType": "키워드형",
+      "query": "옛날 교통수단과 오늘날 교통수단 비교",
+      "expectedKind": "클립",
+      "sourceRow": 7
+    },
+    {
+      "id": "Q007",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "통신 변화",
+      "queryType": "구어체·모호",
+      "query": "애들한테 옛날 통신수단 보여줄 만한 거 없나요",
+      "expectedKind": "클립",
+      "sourceRow": 8
+    },
+    {
+      "id": "Q008",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "세시 풍속",
+      "queryType": "키워드형",
+      "query": "설날 추석 세시 풍속",
+      "expectedKind": "클립",
+      "sourceRow": 9
+    },
+    {
+      "id": "Q009",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "가족의 변화",
+      "queryType": "질문형",
+      "query": "가족의 모습은 시대에 따라 어떻게 달라졌을까",
+      "expectedKind": "클립",
+      "sourceRow": 10
+    },
+    {
+      "id": "Q010",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "촌락의 생활",
+      "queryType": "키워드형",
+      "query": "농촌 어촌 산지촌 생활 모습",
+      "expectedKind": "무관",
+      "sourceRow": 11
+    },
+    {
+      "id": "Q011",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "도시 문제",
+      "queryType": "수업 활용형",
+      "query": "4학년 촌락과 도시 단원에서 도시 문제를 보여줄 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 12
+    },
+    {
+      "id": "Q012",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "촌락과 도시의 교류",
+      "queryType": "질문형",
+      "query": "도시와 촌락은 서로 어떤 도움을 주고받나요",
+      "expectedKind": "클립",
+      "sourceRow": 13
+    },
+    {
+      "id": "Q013",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "생산과 소비",
+      "queryType": "키워드형",
+      "query": "생산과 소비의 뜻",
+      "expectedKind": "클립",
+      "sourceRow": 14
+    },
+    {
+      "id": "Q014",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "시장",
+      "queryType": "형식 지정형",
+      "query": "전통시장 상인 인터뷰 영상",
+      "expectedKind": "클립",
+      "sourceRow": 15
+    },
+    {
+      "id": "Q015",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "희소성",
+      "queryType": "오타·띄어쓰기",
+      "query": "희소썽 쉽게 설명",
+      "expectedKind": "클립",
+      "sourceRow": 16
+    },
+    {
+      "id": "Q016",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지역 간 경제 교류",
+      "queryType": "질문형",
+      "query": "우리 지역 특산물은 어떻게 다른 지역으로 갈까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 17
+    },
+    {
+      "id": "Q017",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "주민 참여",
+      "queryType": "키워드형",
+      "query": "주민 참여 지역 문제 해결",
+      "expectedKind": "클립",
+      "sourceRow": 18
+    },
+    {
+      "id": "Q018",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "공공 기관",
+      "queryType": "질문형",
+      "query": "시청이나 소방서 같은 공공 기관은 무슨 일을 하나요",
+      "expectedKind": "클립",
+      "sourceRow": 19
+    },
+    {
+      "id": "Q019",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지역 문제 해결",
+      "queryType": "수업 활용형",
+      "query": "학급 회의로 지역 문제 해결 방법 토의할 때 보여줄 사례",
+      "expectedKind": "클립",
+      "sourceRow": 20
+    },
+    {
+      "id": "Q020",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "저출산",
+      "queryType": "질문형",
+      "query": "아이가 줄어들면 우리 동네는 어떻게 될까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 21
+    },
+    {
+      "id": "Q021",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "고령화",
+      "queryType": "키워드형",
+      "query": "고령화 사회 노인 생활",
+      "expectedKind": "방송 회차",
+      "sourceRow": 22
+    },
+    {
+      "id": "Q022",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "정보화",
+      "queryType": "구어체·모호",
+      "query": "스마트폰 때문에 생활이 어떻게 바뀌었는지 애들 눈높이로",
+      "expectedKind": "클립",
+      "sourceRow": 23
+    },
+    {
+      "id": "Q023",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "세계화·다문화",
+      "queryType": "키워드형",
+      "query": "다문화 가정 이웃",
+      "expectedKind": "클립",
+      "sourceRow": 24
+    },
+    {
+      "id": "Q024",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "문화 다양성",
+      "queryType": "제외 조건",
+      "query": "편견 없이 다른 문화를 존중하는 내용, 강의 말고 짧은 클립",
+      "expectedKind": "클립",
+      "sourceRow": 25
+    },
+    {
+      "id": "Q025",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지명의 유래",
+      "queryType": "질문형",
+      "query": "우리 동네 이름에는 어떤 뜻이 숨어 있을까",
+      "expectedKind": "클립",
+      "sourceRow": 26
+    },
+    {
+      "id": "Q026",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "디지털 영상 지도",
+      "queryType": "형식 지정형",
+      "query": "디지털 영상 지도 사용하는 방법 시연",
+      "expectedKind": "클립",
+      "sourceRow": 27
+    },
+    {
+      "id": "Q027",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "우리 지역 소개",
+      "queryType": "프로그램명 포함",
+      "query": "한국기행에서 우리 지역 소개한 편",
+      "expectedKind": "방송 회차",
+      "sourceRow": 28
+    },
+    {
+      "id": "Q028",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "고장의 환경",
+      "queryType": "오타·띄어쓰기",
+      "query": "고장의자연환경과인문환경",
+      "expectedKind": "클립",
+      "sourceRow": 29
+    },
+    {
+      "id": "Q029",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "옛날 놀이",
+      "queryType": "형식 지정형",
+      "query": "옛날 아이들 놀이 실제 모습 담긴 자료 화면",
+      "expectedKind": "클립",
+      "sourceRow": 30
+    },
+    {
+      "id": "Q030",
+      "grade": "초3-4",
+      "subject": "사회",
+      "topic": "지역 축제",
+      "queryType": "복합·융합 조건",
+      "query": "지역 축제가 경제에 주는 영향과 문화적 의미를 함께 보여주는 영상",
+      "expectedKind": "방송 회차",
+      "sourceRow": 31
+    },
+    {
+      "id": "Q031",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "국토의 위치와 영역",
+      "queryType": "키워드형",
+      "query": "우리나라 국토의 위치와 영역",
+      "expectedKind": "클립",
+      "sourceRow": 32
+    },
+    {
+      "id": "Q032",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "독도",
+      "queryType": "제외 조건",
+      "query": "강의 말고 다큐로 된 독도 영상",
+      "expectedKind": "방송 회차",
+      "sourceRow": 33
+    },
+    {
+      "id": "Q033",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "지형",
+      "queryType": "질문형",
+      "query": "우리나라는 왜 동쪽이 높고 서쪽이 낮을까",
+      "expectedKind": "클립",
+      "sourceRow": 34
+    },
+    {
+      "id": "Q034",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "기후",
+      "queryType": "수업 활용형",
+      "query": "5학년 우리나라 기후 특징 수업용 5분 이내 클립",
+      "expectedKind": "클립",
+      "sourceRow": 35
+    },
+    {
+      "id": "Q035",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "자연재해",
+      "queryType": "키워드형",
+      "query": "태풍 홍수 대비 방법",
+      "expectedKind": "클립",
+      "sourceRow": 36
+    },
+    {
+      "id": "Q036",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "인구 분포",
+      "queryType": "질문형",
+      "query": "사람들은 왜 수도권에 몰려 살까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 37
+    },
+    {
+      "id": "Q037",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "인권",
+      "queryType": "키워드형",
+      "query": "인권의 뜻과 인권 보호",
+      "expectedKind": "클립",
+      "sourceRow": 38
+    },
+    {
+      "id": "Q038",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "인권",
+      "queryType": "프로그램명 포함",
+      "query": "지식채널e 인권 관련 편",
+      "expectedKind": "클립",
+      "sourceRow": 39
+    },
+    {
+      "id": "Q039",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "헌법",
+      "queryType": "질문형",
+      "query": "헌법은 왜 필요한가요",
+      "expectedKind": "클립",
+      "sourceRow": 40
+    },
+    {
+      "id": "Q040",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "법의 역할",
+      "queryType": "구어체·모호",
+      "query": "법을 왜 지켜야 하는지 6학년이 공감할 만한 사례 영상",
+      "expectedKind": "클립",
+      "sourceRow": 41
+    },
+    {
+      "id": "Q041",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "고조선",
+      "queryType": "키워드형",
+      "query": "고조선 건국 이야기 단군",
+      "expectedKind": "클립",
+      "sourceRow": 42
+    },
+    {
+      "id": "Q042",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "삼국 시대",
+      "queryType": "형식 지정형",
+      "query": "삼국 시대 문화유산 애니메이션",
+      "expectedKind": "클립",
+      "sourceRow": 43
+    },
+    {
+      "id": "Q043",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "고려",
+      "queryType": "질문형",
+      "query": "고려청자는 어떻게 만들었을까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 44
+    },
+    {
+      "id": "Q044",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "조선 전기",
+      "queryType": "프로그램명 포함",
+      "query": "역사채널e 세종대왕 한글 창제",
+      "expectedKind": "클립",
+      "sourceRow": 45
+    },
+    {
+      "id": "Q045",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "임진왜란",
+      "queryType": "수업 활용형",
+      "query": "임진왜란 이순신 수업 도입용 짧은 영상",
+      "expectedKind": "클립",
+      "sourceRow": 46
+    },
+    {
+      "id": "Q046",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "조선 후기 실학",
+      "queryType": "오타·띄어쓰기",
+      "query": "정약룡 거중기",
+      "expectedKind": "클립",
+      "sourceRow": 47
+    },
+    {
+      "id": "Q047",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "개항기",
+      "queryType": "키워드형",
+      "query": "흥선대원군 통상 수교 거부",
+      "expectedKind": "클립",
+      "sourceRow": 48
+    },
+    {
+      "id": "Q048",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "독립운동",
+      "queryType": "질문형",
+      "query": "3·1 운동은 어떻게 전국으로 퍼졌을까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 49
+    },
+    {
+      "id": "Q049",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "독립운동",
+      "queryType": "형식 지정형",
+      "query": "독립운동가 실제 사진과 기록 자료",
+      "expectedKind": "클립",
+      "sourceRow": 50
+    },
+    {
+      "id": "Q050",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "광복과 6·25 전쟁",
+      "queryType": "키워드형",
+      "query": "광복과 6·25 전쟁",
+      "expectedKind": "클립",
+      "sourceRow": 51
+    },
+    {
+      "id": "Q051",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "민주화",
+      "queryType": "질문형",
+      "query": "4·19 혁명과 5·18 민주화 운동은 어떤 사건이었나요",
+      "expectedKind": "방송 회차",
+      "sourceRow": 52
+    },
+    {
+      "id": "Q052",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "민주주의",
+      "queryType": "구어체·모호",
+      "query": "민주주의가 뭔지 초등학생한테 설명하기 좋은 거",
+      "expectedKind": "클립",
+      "sourceRow": 53
+    },
+    {
+      "id": "Q053",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "선거",
+      "queryType": "수업 활용형",
+      "query": "6학년 전교 어린이회 선거 전에 보여줄 선거 원칙 영상",
+      "expectedKind": "클립",
+      "sourceRow": 54
+    },
+    {
+      "id": "Q054",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "국가 기관",
+      "queryType": "키워드형",
+      "query": "삼권 분립 국회 정부 법원",
+      "expectedKind": "클립",
+      "sourceRow": 55
+    },
+    {
+      "id": "Q055",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "가계와 기업",
+      "queryType": "질문형",
+      "query": "가계와 기업은 시장에서 어떤 역할을 하나요",
+      "expectedKind": "클립",
+      "sourceRow": 56
+    },
+    {
+      "id": "Q056",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "경제 성장",
+      "queryType": "키워드형",
+      "query": "한강의 기적 경제 성장 과정",
+      "expectedKind": "방송 회차",
+      "sourceRow": 57
+    },
+    {
+      "id": "Q057",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "무역",
+      "queryType": "복합·융합 조건",
+      "query": "우리나라 무역과 다른 나라와의 경제 교류를 그래프와 함께",
+      "expectedKind": "방송 회차",
+      "sourceRow": 58
+    },
+    {
+      "id": "Q058",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "세계 지도",
+      "queryType": "키워드형",
+      "query": "세계 지도와 지구본 차이",
+      "expectedKind": "클립",
+      "sourceRow": 59
+    },
+    {
+      "id": "Q059",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "세계의 기후와 생활",
+      "queryType": "프로그램명 포함",
+      "query": "세계테마기행 사막 지역 사람들 생활",
+      "expectedKind": "방송 회차",
+      "sourceRow": 60
+    },
+    {
+      "id": "Q060",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "이웃 나라",
+      "queryType": "질문형",
+      "query": "중국 일본 러시아는 우리나라와 어떤 관계일까",
+      "expectedKind": "클립",
+      "sourceRow": 61
+    },
+    {
+      "id": "Q061",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "통일",
+      "queryType": "키워드형",
+      "query": "남북통일 필요성",
+      "expectedKind": "클립",
+      "sourceRow": 62
+    },
+    {
+      "id": "Q062",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "지구촌 갈등",
+      "queryType": "수업 활용형",
+      "query": "지구촌 분쟁 사례 조사 활동 전에 보여줄 영상",
+      "expectedKind": "클립",
+      "sourceRow": 63
+    },
+    {
+      "id": "Q063",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "지속 가능한 미래",
+      "queryType": "복합·융합 조건",
+      "query": "기후 위기와 지속 가능한 미래를 사회 과학 융합으로 다룬 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 64
+    },
+    {
+      "id": "Q064",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "난민",
+      "queryType": "질문형",
+      "query": "난민은 왜 생기고 우리는 무엇을 할 수 있을까",
+      "expectedKind": "클립",
+      "sourceRow": 65
+    },
+    {
+      "id": "Q065",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "국제기구",
+      "queryType": "키워드형",
+      "query": "유엔과 국제기구 하는 일",
+      "expectedKind": "클립",
+      "sourceRow": 66
+    },
+    {
+      "id": "Q066",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "공정 무역",
+      "queryType": "형식 지정형",
+      "query": "공정무역 초콜릿 생산 과정 보여주는 영상",
+      "expectedKind": "클립",
+      "sourceRow": 67
+    },
+    {
+      "id": "Q067",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "생활 속 법",
+      "queryType": "오타·띄어쓰기",
+      "query": "어린이보호구역법 왜생겼나",
+      "expectedKind": "클립",
+      "sourceRow": 68
+    },
+    {
+      "id": "Q068",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "어린이 인권",
+      "queryType": "제외 조건",
+      "query": "어린이 인권 침해 사례인데 너무 자극적이지 않은 영상",
+      "expectedKind": "클립",
+      "sourceRow": 69
+    },
+    {
+      "id": "Q069",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "국토 개발",
+      "queryType": "질문형",
+      "query": "도시 개발과 환경 보호는 함께 할 수 있을까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 70
+    },
+    {
+      "id": "Q070",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "세계 유산",
+      "queryType": "키워드형",
+      "query": "유네스코 세계유산 종묘 석굴암",
+      "expectedKind": "방송 회차",
+      "sourceRow": 71
+    },
+    {
+      "id": "Q071",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "조선의 신분 제도",
+      "queryType": "구어체·모호",
+      "query": "조선 시대 양반 상민 노비 생활 비교되는 재밌는 거",
+      "expectedKind": "클립",
+      "sourceRow": 72
+    },
+    {
+      "id": "Q072",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "개항과 근대화",
+      "queryType": "프로그램명 포함",
+      "query": "EBS 다큐프라임 조선 개항과 근대화",
+      "expectedKind": "방송 회차",
+      "sourceRow": 73
+    },
+    {
+      "id": "Q073",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "저출생",
+      "queryType": "복합·융합 조건",
+      "query": "저출생 문제를 인구 그래프와 실제 가족 이야기로 함께 보여주는 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 74
+    },
+    {
+      "id": "Q074",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "합리적 선택",
+      "queryType": "질문형",
+      "query": "용돈을 어떻게 써야 합리적인 선택일까",
+      "expectedKind": "클립",
+      "sourceRow": 75
+    },
+    {
+      "id": "Q075",
+      "grade": "초5-6",
+      "subject": "사회",
+      "topic": "지구촌 환경 협력",
+      "queryType": "수업 활용형",
+      "query": "6학년 2학기 지구촌 환경 문제 마무리 차시용 영상",
+      "expectedKind": "클립",
+      "sourceRow": 76
+    },
+    {
+      "id": "Q076",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "위치와 시간",
+      "queryType": "키워드형",
+      "query": "위도와 경도 표준시",
+      "expectedKind": "클립",
+      "sourceRow": 77
+    },
+    {
+      "id": "Q077",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "시차",
+      "queryType": "질문형",
+      "query": "나라마다 시간이 다른 이유는 무엇일까",
+      "expectedKind": "클립",
+      "sourceRow": 78
+    },
+    {
+      "id": "Q078",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "열대 기후 지역",
+      "queryType": "프로그램명 포함",
+      "query": "세계테마기행 열대 우림 기후 사람들",
+      "expectedKind": "방송 회차",
+      "sourceRow": 79
+    },
+    {
+      "id": "Q079",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "건조 기후 지역",
+      "queryType": "형식 지정형",
+      "query": "사막 유목민 생활 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 80
+    },
+    {
+      "id": "Q080",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "한대 기후 지역",
+      "queryType": "질문형",
+      "query": "북극 사람들은 추위에 어떻게 적응해 살까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 81
+    },
+    {
+      "id": "Q081",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "고산 기후",
+      "queryType": "키워드형",
+      "query": "안데스 고산 도시 생활",
+      "expectedKind": "클립",
+      "sourceRow": 82
+    },
+    {
+      "id": "Q082",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "자연재해",
+      "queryType": "복합·융합 조건",
+      "query": "지진과 화산 피해를 지리와 과학 시각으로 함께 보는 자료",
+      "expectedKind": "방송 회차",
+      "sourceRow": 83
+    },
+    {
+      "id": "Q083",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "자원",
+      "queryType": "키워드형",
+      "query": "화석 연료 신재생 에너지 자원 분포",
+      "expectedKind": "클립",
+      "sourceRow": 84
+    },
+    {
+      "id": "Q084",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "자원 갈등",
+      "queryType": "질문형",
+      "query": "석유 때문에 나라끼리 분쟁이 생기는 이유",
+      "expectedKind": "클립",
+      "sourceRow": 85
+    },
+    {
+      "id": "Q085",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "관광",
+      "queryType": "구어체·모호",
+      "query": "중1 지리 시간에 보여줄 세계 관광지 영상 재밌는 걸로",
+      "expectedKind": "클립",
+      "sourceRow": 86
+    },
+    {
+      "id": "Q086",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "사회화",
+      "queryType": "키워드형",
+      "query": "사회화 과정과 사회화 기관",
+      "expectedKind": "클립",
+      "sourceRow": 87
+    },
+    {
+      "id": "Q087",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "지위와 역할",
+      "queryType": "질문형",
+      "query": "역할 갈등은 어떤 상황에서 생기나요",
+      "expectedKind": "클립",
+      "sourceRow": 88
+    },
+    {
+      "id": "Q088",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "문화 상대주의",
+      "queryType": "수업 활용형",
+      "query": "중1 문화 단원에서 문화 상대주의 토론 전에 보여줄 사례 영상",
+      "expectedKind": "클립",
+      "sourceRow": 89
+    },
+    {
+      "id": "Q089",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "문화 변동",
+      "queryType": "오타·띄어쓰기",
+      "query": "문화접번 예시",
+      "expectedKind": "클립",
+      "sourceRow": 90
+    },
+    {
+      "id": "Q090",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "대중문화",
+      "queryType": "키워드형",
+      "query": "대중 매체와 대중문화 비판적 수용",
+      "expectedKind": "클립",
+      "sourceRow": 91
+    },
+    {
+      "id": "Q091",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "정치의 의미",
+      "queryType": "질문형",
+      "query": "정치는 왜 우리 일상과 관련이 있을까",
+      "expectedKind": "클립",
+      "sourceRow": 92
+    },
+    {
+      "id": "Q092",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "민주 정치 발전",
+      "queryType": "형식 지정형",
+      "query": "아테네 직접 민주 정치 애니메이션",
+      "expectedKind": "클립",
+      "sourceRow": 93
+    },
+    {
+      "id": "Q093",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "정부 형태",
+      "queryType": "키워드형",
+      "query": "대통령제와 의원 내각제 비교",
+      "expectedKind": "강의",
+      "sourceRow": 94
+    },
+    {
+      "id": "Q094",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "정치 참여",
+      "queryType": "제외 조건",
+      "query": "시민 정치 참여 방법, 선거 말고 다른 방법도",
+      "expectedKind": "클립",
+      "sourceRow": 95
+    },
+    {
+      "id": "Q095",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "법의 분류",
+      "queryType": "질문형",
+      "query": "사법과 공법은 어떻게 다를까",
+      "expectedKind": "강의",
+      "sourceRow": 96
+    },
+    {
+      "id": "Q096",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "재판",
+      "queryType": "형식 지정형",
+      "query": "모의 재판 진행 과정 보여주는 영상",
+      "expectedKind": "클립",
+      "sourceRow": 97
+    },
+    {
+      "id": "Q097",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "인권 보장",
+      "queryType": "복합·융합 조건",
+      "query": "인권 침해 구제 방법과 실제 사례를 같이 담은 영상",
+      "expectedKind": "방송 회차",
+      "sourceRow": 98
+    },
+    {
+      "id": "Q098",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "지역화",
+      "queryType": "키워드형",
+      "query": "지역 브랜드 지리적 표시제",
+      "expectedKind": "클립",
+      "sourceRow": 99
+    },
+    {
+      "id": "Q099",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "도시 문제",
+      "queryType": "프로그램명 포함",
+      "query": "지식채널e 도시 문제",
+      "expectedKind": "방송 회차",
+      "sourceRow": 100
+    },
+    {
+      "id": "Q100",
+      "grade": "중1",
+      "subject": "사회",
+      "topic": "기후 변화",
+      "queryType": "구어체·모호",
+      "query": "기후 변화로 사라지는 섬나라 얘기 짧게",
+      "expectedKind": "클립",
+      "sourceRow": 101
+    },
+    {
+      "id": "Q101",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물질의 성질",
+      "queryType": "키워드형",
+      "query": "물체와 물질의 차이",
+      "expectedKind": "클립",
+      "sourceRow": 102
+    },
+    {
+      "id": "Q102",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물질의 성질",
+      "queryType": "질문형",
+      "query": "왜 컵은 유리나 플라스틱으로 만들까",
+      "expectedKind": "클립",
+      "sourceRow": 103
+    },
+    {
+      "id": "Q103",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "동물의 생활",
+      "queryType": "형식 지정형",
+      "query": "땅속에 사는 동물 실제 영상",
+      "expectedKind": "클립",
+      "sourceRow": 104
+    },
+    {
+      "id": "Q104",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "동물의 분류",
+      "queryType": "수업 활용형",
+      "query": "3학년 동물의 생활 단원 분류 활동용 영상",
+      "expectedKind": "클립",
+      "sourceRow": 105
+    },
+    {
+      "id": "Q105",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "지표의 변화",
+      "queryType": "키워드형",
+      "query": "흐르는 물에 의한 침식 퇴적",
+      "expectedKind": "클립",
+      "sourceRow": 106
+    },
+    {
+      "id": "Q106",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "흙의 생성",
+      "queryType": "질문형",
+      "query": "흙은 어떻게 만들어질까",
+      "expectedKind": "클립",
+      "sourceRow": 107
+    },
+    {
+      "id": "Q107",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "소리의 성질",
+      "queryType": "형식 지정형",
+      "query": "소리의 세기와 높낮이 실험",
+      "expectedKind": "클립",
+      "sourceRow": 108
+    },
+    {
+      "id": "Q108",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "소리의 전달",
+      "queryType": "질문형",
+      "query": "실 전화기는 어떻게 소리가 전달될까",
+      "expectedKind": "클립",
+      "sourceRow": 109
+    },
+    {
+      "id": "Q109",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "자석",
+      "queryType": "키워드형",
+      "query": "자석의 극 N극 S극",
+      "expectedKind": "클립",
+      "sourceRow": 110
+    },
+    {
+      "id": "Q110",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "나침반",
+      "queryType": "오타·띄어쓰기",
+      "query": "나침판 만드는 실험",
+      "expectedKind": "클립",
+      "sourceRow": 111
+    },
+    {
+      "id": "Q111",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "지구의 모습",
+      "queryType": "질문형",
+      "query": "지구는 왜 둥글게 보일까",
+      "expectedKind": "클립",
+      "sourceRow": 112
+    },
+    {
+      "id": "Q112",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "달의 모습",
+      "queryType": "키워드형",
+      "query": "달의 표면 충돌구",
+      "expectedKind": "클립",
+      "sourceRow": 113
+    },
+    {
+      "id": "Q113",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "식물의 한살이",
+      "queryType": "형식 지정형",
+      "query": "강낭콩 싹이 트는 과정 타임랩스",
+      "expectedKind": "클립",
+      "sourceRow": 114
+    },
+    {
+      "id": "Q114",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "식물의 한살이",
+      "queryType": "수업 활용형",
+      "query": "4학년 식물의 한살이 관찰 일지 쓰기 전에 보여줄 영상",
+      "expectedKind": "클립",
+      "sourceRow": 115
+    },
+    {
+      "id": "Q115",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물체의 무게",
+      "queryType": "키워드형",
+      "query": "용수철저울 무게 재기",
+      "expectedKind": "클립",
+      "sourceRow": 116
+    },
+    {
+      "id": "Q116",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "수평 잡기",
+      "queryType": "질문형",
+      "query": "시소는 어떻게 수평을 잡을까",
+      "expectedKind": "클립",
+      "sourceRow": 117
+    },
+    {
+      "id": "Q117",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "혼합물의 분리",
+      "queryType": "형식 지정형",
+      "query": "거름 장치로 혼합물 분리하는 실험",
+      "expectedKind": "클립",
+      "sourceRow": 118
+    },
+    {
+      "id": "Q118",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "혼합물의 분리",
+      "queryType": "질문형",
+      "query": "바닷물에서 소금은 어떻게 얻을까",
+      "expectedKind": "클립",
+      "sourceRow": 119
+    },
+    {
+      "id": "Q119",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "화산",
+      "queryType": "키워드형",
+      "query": "화산 분출물 용암 화산재",
+      "expectedKind": "클립",
+      "sourceRow": 120
+    },
+    {
+      "id": "Q120",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "지진",
+      "queryType": "복합·융합 조건",
+      "query": "지진이 났을 때 대처 방법과 지진이 생기는 원리를 같이",
+      "expectedKind": "클립",
+      "sourceRow": 121
+    },
+    {
+      "id": "Q121",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "화산",
+      "queryType": "프로그램명 포함",
+      "query": "하나뿐인 지구 화산 섬 제주도",
+      "expectedKind": "방송 회차",
+      "sourceRow": 122
+    },
+    {
+      "id": "Q122",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물의 상태 변화",
+      "queryType": "질문형",
+      "query": "얼음이 녹으면 무게가 달라질까",
+      "expectedKind": "클립",
+      "sourceRow": 123
+    },
+    {
+      "id": "Q123",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "증발과 끓음",
+      "queryType": "키워드형",
+      "query": "증발과 끓음 차이",
+      "expectedKind": "클립",
+      "sourceRow": 124
+    },
+    {
+      "id": "Q124",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "응결",
+      "queryType": "구어체·모호",
+      "query": "컵 표면에 물방울 맺히는 거 설명 영상 짧은 거",
+      "expectedKind": "클립",
+      "sourceRow": 125
+    },
+    {
+      "id": "Q125",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "그림자",
+      "queryType": "질문형",
+      "query": "그림자는 왜 생길까",
+      "expectedKind": "클립",
+      "sourceRow": 126
+    },
+    {
+      "id": "Q126",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "거울",
+      "queryType": "형식 지정형",
+      "query": "거울에 비친 모습 실험 영상",
+      "expectedKind": "클립",
+      "sourceRow": 127
+    },
+    {
+      "id": "Q127",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "식물의 생활",
+      "queryType": "키워드형",
+      "query": "물에 사는 식물 사막에 사는 식물",
+      "expectedKind": "클립",
+      "sourceRow": 128
+    },
+    {
+      "id": "Q128",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "식물의 적응",
+      "queryType": "질문형",
+      "query": "선인장은 어떻게 사막에서 살아남을까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 129
+    },
+    {
+      "id": "Q129",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물의 순환",
+      "queryType": "형식 지정형",
+      "query": "물의 순환 애니메이션",
+      "expectedKind": "클립",
+      "sourceRow": 130
+    },
+    {
+      "id": "Q130",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "물 부족",
+      "queryType": "오타·띄어쓰기",
+      "query": "물부족해결방법 어린이",
+      "expectedKind": "클립",
+      "sourceRow": 131
+    },
+    {
+      "id": "Q131",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "동물의 위장",
+      "queryType": "구어체·모호",
+      "query": "애들이 좋아할 만한 동물 위장 영상",
+      "expectedKind": "클립",
+      "sourceRow": 132
+    },
+    {
+      "id": "Q132",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "동물의 적응",
+      "queryType": "제외 조건",
+      "query": "북극곰 적응, 다큐 전체 말고 몇 분짜리 클립만",
+      "expectedKind": "클립",
+      "sourceRow": 133
+    },
+    {
+      "id": "Q133",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "곤충의 한살이",
+      "queryType": "키워드형",
+      "query": "곤충의 한살이 완전 탈바꿈",
+      "expectedKind": "클립",
+      "sourceRow": 134
+    },
+    {
+      "id": "Q134",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "멸종 위기 동물",
+      "queryType": "복합·융합 조건",
+      "query": "멸종 위기 동물 보호를 사회 문제로도 연결할 수 있는 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 135
+    },
+    {
+      "id": "Q135",
+      "grade": "초3-4",
+      "subject": "과학",
+      "topic": "공기의 성질",
+      "queryType": "질문형",
+      "query": "공기는 무게가 있을까",
+      "expectedKind": "클립",
+      "sourceRow": 136
+    },
+    {
+      "id": "Q136",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "온도",
+      "queryType": "키워드형",
+      "query": "온도계 사용법",
+      "expectedKind": "클립",
+      "sourceRow": 137
+    },
+    {
+      "id": "Q137",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "열의 이동",
+      "queryType": "질문형",
+      "query": "뜨거운 국에 담근 숟가락은 왜 손잡이까지 뜨거워질까",
+      "expectedKind": "클립",
+      "sourceRow": 138
+    },
+    {
+      "id": "Q138",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "대류",
+      "queryType": "형식 지정형",
+      "query": "대류 실험 물감 영상",
+      "expectedKind": "클립",
+      "sourceRow": 139
+    },
+    {
+      "id": "Q139",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "태양계",
+      "queryType": "키워드형",
+      "query": "태양계 행성 크기 비교",
+      "expectedKind": "클립",
+      "sourceRow": 140
+    },
+    {
+      "id": "Q140",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "별자리",
+      "queryType": "질문형",
+      "query": "북극성은 어떻게 찾나요",
+      "expectedKind": "클립",
+      "sourceRow": 141
+    },
+    {
+      "id": "Q141",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "용해와 용액",
+      "queryType": "키워드형",
+      "query": "용해와 용액 용질 용매",
+      "expectedKind": "클립",
+      "sourceRow": 142
+    },
+    {
+      "id": "Q142",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "용해와 용액",
+      "queryType": "수업 활용형",
+      "query": "5학년 용해와 용액 단원 도입용 각설탕 녹는 영상",
+      "expectedKind": "클립",
+      "sourceRow": 143
+    },
+    {
+      "id": "Q143",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "용액의 진하기",
+      "queryType": "질문형",
+      "query": "메추리알이 소금물에서 뜨는 이유",
+      "expectedKind": "클립",
+      "sourceRow": 144
+    },
+    {
+      "id": "Q144",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "생태계 구성",
+      "queryType": "키워드형",
+      "query": "생태계 구성 요소 생산자 소비자 분해자",
+      "expectedKind": "방송 회차",
+      "sourceRow": 145
+    },
+    {
+      "id": "Q145",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "먹이 관계",
+      "queryType": "형식 지정형",
+      "query": "생태계의 다양한 생물 관계를 보여주는 다큐",
+      "expectedKind": "방송 회차",
+      "sourceRow": 146
+    },
+    {
+      "id": "Q146",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "생태계 평형",
+      "queryType": "프로그램명 포함",
+      "query": "다큐프라임 생태계 평형",
+      "expectedKind": "방송 회차",
+      "sourceRow": 147
+    },
+    {
+      "id": "Q147",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "환경 오염",
+      "queryType": "복합·융합 조건",
+      "query": "환경 오염이 생물에 주는 영향과 우리가 할 수 있는 실천을 함께",
+      "expectedKind": "방송 회차",
+      "sourceRow": 148
+    },
+    {
+      "id": "Q148",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "날씨",
+      "queryType": "키워드형",
+      "query": "습도 이슬 구름 비",
+      "expectedKind": "클립",
+      "sourceRow": 149
+    },
+    {
+      "id": "Q149",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "구름",
+      "queryType": "형식 지정형",
+      "query": "구름 만들기 실험",
+      "expectedKind": "클립",
+      "sourceRow": 150
+    },
+    {
+      "id": "Q150",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "기압과 바람",
+      "queryType": "질문형",
+      "query": "바닷가에서 낮과 밤에 바람 방향이 바뀌는 이유",
+      "expectedKind": "클립",
+      "sourceRow": 151
+    },
+    {
+      "id": "Q151",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "속력",
+      "queryType": "키워드형",
+      "query": "물체의 속력 구하기",
+      "expectedKind": "클립",
+      "sourceRow": 152
+    },
+    {
+      "id": "Q152",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "속력과 안전",
+      "queryType": "수업 활용형",
+      "query": "5학년 속력 단원 교통안전 연결 차시 영상",
+      "expectedKind": "클립",
+      "sourceRow": 153
+    },
+    {
+      "id": "Q153",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "산과 염기",
+      "queryType": "형식 지정형",
+      "query": "지시약 색깔 변화 실험 붉은 양배추",
+      "expectedKind": "클립",
+      "sourceRow": 154
+    },
+    {
+      "id": "Q154",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "산과 염기",
+      "queryType": "질문형",
+      "query": "생활 속에서 산성과 염기성 용액은 어디에 쓰이나요",
+      "expectedKind": "클립",
+      "sourceRow": 155
+    },
+    {
+      "id": "Q155",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "지구의 자전",
+      "queryType": "키워드형",
+      "query": "낮과 밤이 생기는 이유 지구 자전",
+      "expectedKind": "클립",
+      "sourceRow": 156
+    },
+    {
+      "id": "Q156",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "달의 위상",
+      "queryType": "질문형",
+      "query": "달의 모양은 왜 매일 바뀔까",
+      "expectedKind": "클립",
+      "sourceRow": 157
+    },
+    {
+      "id": "Q157",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "여러 가지 기체",
+      "queryType": "형식 지정형",
+      "query": "산소와 이산화탄소 발생 실험",
+      "expectedKind": "클립",
+      "sourceRow": 158
+    },
+    {
+      "id": "Q158",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "기체의 압력",
+      "queryType": "오타·띄어쓰기",
+      "query": "기체 압럭과 부피",
+      "expectedKind": "클립",
+      "sourceRow": 159
+    },
+    {
+      "id": "Q159",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "식물의 구조",
+      "queryType": "키워드형",
+      "query": "광합성 잎 줄기 뿌리",
+      "expectedKind": "클립",
+      "sourceRow": 160
+    },
+    {
+      "id": "Q160",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "광합성",
+      "queryType": "오타·띄어쓰기",
+      "query": "광합썽 실험 영상",
+      "expectedKind": "클립",
+      "sourceRow": 161
+    },
+    {
+      "id": "Q161",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "빛의 굴절",
+      "queryType": "질문형",
+      "query": "물에 넣은 빨대는 왜 꺾여 보일까",
+      "expectedKind": "클립",
+      "sourceRow": 162
+    },
+    {
+      "id": "Q162",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "볼록 렌즈",
+      "queryType": "형식 지정형",
+      "query": "볼록 렌즈로 햇빛 모으기 실험",
+      "expectedKind": "클립",
+      "sourceRow": 163
+    },
+    {
+      "id": "Q163",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "전기 회로",
+      "queryType": "키워드형",
+      "query": "전기 회로 직렬 병렬",
+      "expectedKind": "클립",
+      "sourceRow": 164
+    },
+    {
+      "id": "Q164",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "전자석",
+      "queryType": "질문형",
+      "query": "전자석은 어디에 쓰이나요",
+      "expectedKind": "클립",
+      "sourceRow": 165
+    },
+    {
+      "id": "Q165",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "전기 안전",
+      "queryType": "구어체·모호",
+      "query": "전기 절약이랑 안전 관련해서 아이들 보기 좋은 거",
+      "expectedKind": "클립",
+      "sourceRow": 166
+    },
+    {
+      "id": "Q166",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "계절의 변화",
+      "queryType": "질문형",
+      "query": "여름은 왜 더울까 태양 고도",
+      "expectedKind": "클립",
+      "sourceRow": 167
+    },
+    {
+      "id": "Q167",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "계절의 변화",
+      "queryType": "수업 활용형",
+      "query": "6학년 계절의 변화 단원 정리용 애니메이션 5분 이내",
+      "expectedKind": "클립",
+      "sourceRow": 168
+    },
+    {
+      "id": "Q168",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "연소와 소화",
+      "queryType": "키워드형",
+      "query": "연소의 조건 소화 방법",
+      "expectedKind": "클립",
+      "sourceRow": 169
+    },
+    {
+      "id": "Q169",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "화재 안전",
+      "queryType": "제외 조건",
+      "query": "불 끄는 방법, 실험 말고 실제 화재 대피 영상",
+      "expectedKind": "클립",
+      "sourceRow": 170
+    },
+    {
+      "id": "Q170",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "우리 몸의 구조",
+      "queryType": "키워드형",
+      "query": "소화 기관 순환 기관",
+      "expectedKind": "클립",
+      "sourceRow": 171
+    },
+    {
+      "id": "Q171",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "심장",
+      "queryType": "형식 지정형",
+      "query": "심장이 뛰는 모습 애니메이션",
+      "expectedKind": "클립",
+      "sourceRow": 172
+    },
+    {
+      "id": "Q172",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "호흡",
+      "queryType": "질문형",
+      "query": "숨을 쉬면 몸속에서 무슨 일이 일어날까",
+      "expectedKind": "클립",
+      "sourceRow": 173
+    },
+    {
+      "id": "Q173",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "에너지 전환",
+      "queryType": "키워드형",
+      "query": "에너지 전환 예시",
+      "expectedKind": "클립",
+      "sourceRow": 174
+    },
+    {
+      "id": "Q174",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "신재생 에너지",
+      "queryType": "복합·융합 조건",
+      "query": "신재생 에너지를 과학 원리와 에너지 정책 측면에서 함께",
+      "expectedKind": "방송 회차",
+      "sourceRow": 175
+    },
+    {
+      "id": "Q175",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "미생물",
+      "queryType": "질문형",
+      "query": "곰팡이와 세균은 우리에게 이로울까 해로울까",
+      "expectedKind": "클립",
+      "sourceRow": 176
+    },
+    {
+      "id": "Q176",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "첨단 과학 기술",
+      "queryType": "구어체·모호",
+      "query": "로봇이나 AI 같은 과학 기술 미래 직업 관련된 거",
+      "expectedKind": "클립",
+      "sourceRow": 177
+    },
+    {
+      "id": "Q177",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "우주",
+      "queryType": "프로그램명 포함",
+      "query": "지식채널e 우주 관련 편",
+      "expectedKind": "클립",
+      "sourceRow": 178
+    },
+    {
+      "id": "Q178",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "미세먼지",
+      "queryType": "복합·융합 조건",
+      "query": "미세먼지가 생기는 원리와 건강 영향 사회 문제까지",
+      "expectedKind": "클립",
+      "sourceRow": 179
+    },
+    {
+      "id": "Q179",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "실험 안전",
+      "queryType": "키워드형",
+      "query": "과학 실험실 안전 수칙",
+      "expectedKind": "강의",
+      "sourceRow": 180
+    },
+    {
+      "id": "Q180",
+      "grade": "초5-6",
+      "subject": "과학",
+      "topic": "탐구 과정",
+      "queryType": "수업 활용형",
+      "query": "5학년 1학기 첫 시간 과학 탐구 방법 소개 영상",
+      "expectedKind": "강의",
+      "sourceRow": 181
+    },
+    {
+      "id": "Q181",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "생물의 분류",
+      "queryType": "키워드형",
+      "query": "생물 분류 체계 종 속 과 목 강 문 계",
+      "expectedKind": "강의",
+      "sourceRow": 182
+    },
+    {
+      "id": "Q182",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "세포",
+      "queryType": "형식 지정형",
+      "query": "현미경으로 본 양파 표피 세포",
+      "expectedKind": "클립",
+      "sourceRow": 183
+    },
+    {
+      "id": "Q183",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "변이",
+      "queryType": "질문형",
+      "query": "같은 종인데 왜 생김새가 다를까",
+      "expectedKind": "방송 회차",
+      "sourceRow": 184
+    },
+    {
+      "id": "Q184",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "열",
+      "queryType": "키워드형",
+      "query": "열평형 비열 열팽창",
+      "expectedKind": "강의",
+      "sourceRow": 185
+    },
+    {
+      "id": "Q185",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "비열",
+      "queryType": "질문형",
+      "query": "여름 바닷가 모래는 뜨거운데 바닷물은 왜 덜 뜨거울까",
+      "expectedKind": "클립",
+      "sourceRow": 186
+    },
+    {
+      "id": "Q186",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "열팽창",
+      "queryType": "형식 지정형",
+      "query": "기찻길 레일 틈 열팽창 실제 영상",
+      "expectedKind": "클립",
+      "sourceRow": 187
+    },
+    {
+      "id": "Q187",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "물질의 상태 변화",
+      "queryType": "키워드형",
+      "query": "입자 운동 상태 변화 잠열",
+      "expectedKind": "클립",
+      "sourceRow": 188
+    },
+    {
+      "id": "Q188",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "상태 변화와 열",
+      "queryType": "오타·띄어쓰기",
+      "query": "융해렬 응고열 예시",
+      "expectedKind": "클립",
+      "sourceRow": 189
+    },
+    {
+      "id": "Q189",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "기체의 성질",
+      "queryType": "질문형",
+      "query": "높은 산에 가면 과자 봉지가 왜 부풀까",
+      "expectedKind": "클립",
+      "sourceRow": 190
+    },
+    {
+      "id": "Q190",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "기체의 성질",
+      "queryType": "수업 활용형",
+      "query": "중1 기체의 성질 보일 법칙 개념 정리 강의",
+      "expectedKind": "강의",
+      "sourceRow": 191
+    },
+    {
+      "id": "Q191",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "여러 가지 힘",
+      "queryType": "키워드형",
+      "query": "중력 탄성력 마찰력 부력",
+      "expectedKind": "클립",
+      "sourceRow": 192
+    },
+    {
+      "id": "Q192",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "마찰력",
+      "queryType": "구어체·모호",
+      "query": "마찰력 체감되는 재밌는 실험 영상 없을까요",
+      "expectedKind": "클립",
+      "sourceRow": 193
+    },
+    {
+      "id": "Q193",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "부력",
+      "queryType": "질문형",
+      "query": "무거운 배는 어떻게 물에 뜰까",
+      "expectedKind": "클립",
+      "sourceRow": 194
+    },
+    {
+      "id": "Q194",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "빛의 합성",
+      "queryType": "형식 지정형",
+      "query": "빛의 합성 무대 조명 실험",
+      "expectedKind": "클립",
+      "sourceRow": 195
+    },
+    {
+      "id": "Q195",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "파동",
+      "queryType": "키워드형",
+      "query": "파동 진폭 진동수 파장",
+      "expectedKind": "강의",
+      "sourceRow": 196
+    },
+    {
+      "id": "Q196",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "태양계",
+      "queryType": "프로그램명 포함",
+      "query": "다큐프라임 태양계 탐사",
+      "expectedKind": "방송 회차",
+      "sourceRow": 197
+    },
+    {
+      "id": "Q197",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "암석의 순환",
+      "queryType": "질문형",
+      "query": "암석은 어떻게 순환할까",
+      "expectedKind": "클립",
+      "sourceRow": 198
+    },
+    {
+      "id": "Q198",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "광물",
+      "queryType": "제외 조건",
+      "query": "광물 구별 방법 강의 말고 실험 위주로",
+      "expectedKind": "클립",
+      "sourceRow": 199
+    },
+    {
+      "id": "Q199",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "과학과 지속가능한 삶",
+      "queryType": "복합·융합 조건",
+      "query": "과학 기술이 인류의 지속 가능한 삶에 기여한 사례와 문제점",
+      "expectedKind": "방송 회차",
+      "sourceRow": 200
+    },
+    {
+      "id": "Q200",
+      "grade": "중1",
+      "subject": "과학",
+      "topic": "판 구조",
+      "queryType": "복합·융합 조건",
+      "query": "판의 이동으로 지진대 화산대 분포를 지도와 함께",
+      "expectedKind": "클립",
+      "sourceRow": 201
+    }
+  ]
+}

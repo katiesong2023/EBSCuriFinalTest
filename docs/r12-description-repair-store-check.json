@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "stores": [
+    {
+      "name": "broadcast-catalog.sqlite",
+      "integrity": "ok"
+    },
+    {
+      "name": "semantic-layer.sqlite",
+      "integrity": "ok"
+    },
+    {
+      "name": "broadcast-semantic-search.sqlite",
+      "integrity": "ok"
+    }
+  ],
+  "paidApiCalls": 0,
+  "sourceRows": 22794,
+  "ftsRows": 22794,
+  "ftsMismatch": 0
+}

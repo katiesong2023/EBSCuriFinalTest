@@ -1,0 +1,370 @@
+{
+  "createdAt": "2026-10-15T16:14:59.183Z",
+  "provenance": "에이전트 생성 개발/시연 문장. 두 번째 세트도 같은 세션에서 노출되어 독립 평가가 아님.",
+  "meaningfulChange": {
+    "topicMatchPp": 5,
+    "emptyReduction": 2
+  },
+  "rows": [
+    {
+      "set": 1,
+      "id": 1,
+      "subject": "사회",
+      "original": "기후 변화가 사람들의 생활에 미치는 영향",
+      "compact": "기후 변화",
+      "final": "기후 변화 생활",
+      "changeNote": "생활 영향 관계를 생활 핵심어로 유지"
+    },
+    {
+      "set": 1,
+      "id": 2,
+      "subject": "사회",
+      "original": "우리나라의 저출산과 고령화 문제",
+      "compact": "저출산 고령화",
+      "final": "저출산 또는 고령화",
+      "changeNote": "두 현상 동시 요구를 OR로 완화"
+    },
+    {
+      "set": 1,
+      "id": 3,
+      "subject": "사회",
+      "original": "다문화 가족이 함께 살아가는 모습",
+      "compact": "다문화 가족",
+      "final": "다문화 가족",
+      "changeNote": "공존 장면은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 4,
+      "subject": "사회",
+      "original": "지역 축제와 전통문화",
+      "compact": "지역 축제 전통문화",
+      "final": "지역 전통문화",
+      "changeNote": "축제 조건을 뺀 주제 확대"
+    },
+    {
+      "set": 1,
+      "id": 5,
+      "subject": "사회",
+      "original": "도시와 농촌의 생활 모습 비교",
+      "compact": "도시 농촌 생활",
+      "final": "도시 농촌 생활",
+      "changeNote": "비교 장면은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 6,
+      "subject": "사회",
+      "original": "물건이 생산되어 소비자에게 오는 과정",
+      "compact": "생산 유통 소비",
+      "final": "생산 유통 소비",
+      "changeNote": "생산부터 소비까지 연결 과정은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 7,
+      "subject": "사회",
+      "original": "민주주의와 시민 참여",
+      "compact": "민주주의 시민 참여",
+      "final": "민주주의 시민 참여",
+      "changeNote": "동일 핵심 주제"
+    },
+    {
+      "set": 1,
+      "id": 8,
+      "subject": "사회",
+      "original": "어린이 인권을 다룬 영상",
+      "compact": "어린이 인권",
+      "final": "어린이 인권",
+      "changeNote": "동일 핵심 주제"
+    },
+    {
+      "set": 1,
+      "id": 9,
+      "subject": "사회",
+      "original": "일제 강점기 독립운동 이야기",
+      "compact": "일제 강점기 독립운동",
+      "final": "독립운동",
+      "changeNote": "일제강점기 시대 조건을 생략"
+    },
+    {
+      "set": 1,
+      "id": 10,
+      "subject": "사회",
+      "original": "문화유산을 보존하는 사람들",
+      "compact": "문화유산 보존",
+      "final": "문화유산",
+      "changeNote": "보존 활동·사람 조건을 생략"
+    },
+    {
+      "set": 1,
+      "id": 11,
+      "subject": "과학",
+      "original": "동물들이 환경에 적응하는 모습",
+      "compact": "동물 환경 적응",
+      "final": "동물 적응",
+      "changeNote": "적응 요구 유지"
+    },
+    {
+      "set": 1,
+      "id": 12,
+      "subject": "과학",
+      "original": "식물이 씨앗을 퍼뜨리는 방법",
+      "compact": "씨앗 퍼뜨리기",
+      "final": "씨앗 퍼뜨리기",
+      "changeNote": "식물·전파 의미 유지, 빈 결과 허용"
+    },
+    {
+      "set": 1,
+      "id": 13,
+      "subject": "과학",
+      "original": "먹이 사슬과 생태계의 균형",
+      "compact": "먹이 사슬 생태계",
+      "final": "먹이 사슬",
+      "changeNote": "균형 관계는 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 14,
+      "subject": "과학",
+      "original": "화산이 만들어 낸 지형",
+      "compact": "화산 지형",
+      "final": "화산 지형",
+      "changeNote": "형성 설명은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 15,
+      "subject": "과학",
+      "original": "지진이 발생하는 원리",
+      "compact": "지진 발생",
+      "final": "지진 발생",
+      "changeNote": "발생 원리 설명은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 16,
+      "subject": "과학",
+      "original": "물이 증발하고 비가 되는 과정",
+      "compact": "물의 순환",
+      "final": "물의 순환",
+      "changeNote": "증발과 강수는 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 17,
+      "subject": "과학",
+      "original": "지구의 자전과 낮과 밤",
+      "compact": "지구 자전 낮 밤",
+      "final": "지구 자전",
+      "changeNote": "낮밤 원인 요구를 뺀 주제 확대"
+    },
+    {
+      "set": 1,
+      "id": 18,
+      "subject": "과학",
+      "original": "태양계 행성의 특징",
+      "compact": "태양계 행성",
+      "final": "태양계 행성",
+      "changeNote": "행성별 특징 설명은 별도 확인"
+    },
+    {
+      "set": 1,
+      "id": 19,
+      "subject": "과학",
+      "original": "플라스틱 쓰레기가 바다 생물에 주는 피해",
+      "compact": "해양 플라스틱 오염",
+      "final": "플라스틱 바다",
+      "changeNote": "쓰레기의 생물 피해 요구를 뺀 주제 확대"
+    },
+    {
+      "set": 1,
+      "id": 20,
+      "subject": "과학",
+      "original": "우리 몸의 소화 과정",
+      "compact": "소화 과정",
+      "final": "소화 과정",
+      "changeNote": "인간 조건을 생략"
+    },
+    {
+      "set": 2,
+      "id": 1,
+      "subject": "사회",
+      "original": "세계 여러 나라의 다양한 음식 문화",
+      "compact": "세계 음식 문화",
+      "final": "음식 문화",
+      "changeNote": "여러 나라 비교 조건을 완화"
+    },
+    {
+      "set": 2,
+      "id": 2,
+      "subject": "사회",
+      "original": "사막에서 살아가는 사람들의 생활",
+      "compact": "사막 사람 생활",
+      "final": "사막 유목민",
+      "changeNote": "사람 생활을 유목민 사례로 좁힘"
+    },
+    {
+      "set": 2,
+      "id": 3,
+      "subject": "사회",
+      "original": "북극의 기후 변화와 주민 생활",
+      "compact": "북극 기후 변화",
+      "final": "북극 기후 변화",
+      "changeNote": "주민 생활 조건을 생략"
+    },
+    {
+      "set": 2,
+      "id": 4,
+      "subject": "사회",
+      "original": "한글이 만들어진 과정",
+      "compact": "한글 창제",
+      "final": "한글 창제",
+      "changeNote": "창제 과정 유지"
+    },
+    {
+      "set": 2,
+      "id": 5,
+      "subject": "사회",
+      "original": "전쟁으로 고향을 떠난 난민 이야기",
+      "compact": "난민",
+      "final": "전쟁 난민",
+      "changeNote": "고향 이탈 사례는 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 6,
+      "subject": "사회",
+      "original": "공정 무역으로 달라지는 삶",
+      "compact": "공정 무역",
+      "final": "공정무역",
+      "changeNote": "붙여쓰기 정규화"
+    },
+    {
+      "set": 2,
+      "id": 7,
+      "subject": "사회",
+      "original": "도시 재생으로 바뀐 마을",
+      "compact": "도시 재생",
+      "final": "도시 재생",
+      "changeNote": "마을 변화 사례는 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 8,
+      "subject": "사회",
+      "original": "장애인과 비장애인이 함께 사는 사회",
+      "compact": "장애인",
+      "final": "장애인 비장애인",
+      "changeNote": "공존 조건은 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 9,
+      "subject": "사회",
+      "original": "옛날 사람들의 농사와 생활",
+      "compact": "전통 농업 생활",
+      "final": "전통 농업",
+      "changeNote": "옛날 생활 조건을 전통 농업으로 좁힘"
+    },
+    {
+      "set": 2,
+      "id": 10,
+      "subject": "사회",
+      "original": "숲을 지키는 사람들",
+      "compact": "숲 보전",
+      "final": "숲 보호",
+      "changeNote": "사람의 활동 조건을 생략"
+    },
+    {
+      "set": 2,
+      "id": 11,
+      "subject": "과학",
+      "original": "꿀벌이 사라지는 이유",
+      "compact": "꿀벌 감소",
+      "final": "꿀벌 감소",
+      "changeNote": "감소 원인 설명은 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 12,
+      "subject": "과학",
+      "original": "철새가 먼 거리를 이동하는 모습",
+      "compact": "철새 이동",
+      "final": "철새 이동",
+      "changeNote": "장거리·장면은 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 13,
+      "subject": "과학",
+      "original": "산호초에 살아가는 생물들",
+      "compact": "산호초 생물",
+      "final": "산호초",
+      "changeNote": "생물 생활 조건을 생략"
+    },
+    {
+      "set": 2,
+      "id": 14,
+      "subject": "과학",
+      "original": "공룡 화석으로 알아보는 과거",
+      "compact": "공룡 화석",
+      "final": "공룡 화석",
+      "changeNote": "과거 관찰 목적 분리"
+    },
+    {
+      "set": 2,
+      "id": 15,
+      "subject": "과학",
+      "original": "갯벌에 사는 생물의 특징",
+      "compact": "갯벌 생물",
+      "final": "갯벌 생물",
+      "changeNote": "생물 특징 설명은 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 16,
+      "subject": "과학",
+      "original": "달의 모양이 달라지는 이유",
+      "compact": "달 위상",
+      "final": "달의 모양",
+      "changeNote": "변화 원인 설명은 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 17,
+      "subject": "과학",
+      "original": "화석 연료 대신 쓰는 재생 에너지",
+      "compact": "재생 에너지",
+      "final": "재생에너지",
+      "changeNote": "화석연료 대체 관계를 생략"
+    },
+    {
+      "set": 2,
+      "id": 18,
+      "subject": "과학",
+      "original": "미세 플라스틱이 생태계에 미치는 영향",
+      "compact": "미세 플라스틱",
+      "final": "미세 플라스틱",
+      "changeNote": "생태계 영향 조건을 생략"
+    },
+    {
+      "set": 2,
+      "id": 19,
+      "subject": "과학",
+      "original": "감염병을 막는 백신의 원리",
+      "compact": "백신 원리",
+      "final": "감염병 백신",
+      "changeNote": "예방 원리는 별도 확인"
+    },
+    {
+      "set": 2,
+      "id": 20,
+      "subject": "과학",
+      "original": "잠을 자는 동안 뇌에서 일어나는 일",
+      "compact": "수면 뇌",
+      "final": "수면 뇌",
+      "changeNote": "수면 중 뇌 활동 유지"
+    }
+  ]
+}

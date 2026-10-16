@@ -1,0 +1,912 @@
+{
+  "date": "2026-10-15T08:44:25.083Z",
+  "before": {
+    "query": "과거 서울의 모습",
+    "total": 4,
+    "ids": [
+      "BCAST-767c314fe9927d0eb625",
+      "BCAST-84b92e247270b1a26600",
+      "BCAST-600304d4969f62c777a6",
+      "BCAST-6a22e2ddd1df9d19b09e"
+    ]
+  },
+  "rows": [
+    {
+      "q": "과거 서울의 모습",
+      "total": 7,
+      "listingCount": 1,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "서울의 옛 모습",
+      "total": 7,
+      "listingCount": 1,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "옛날 서울 풍경",
+      "total": 7,
+      "listingCount": 1,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "옛서울",
+      "total": 7,
+      "listingCount": 1,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "과거서울의모습",
+      "total": 7,
+      "listingCount": 1,
+      "results": [
+        {
+          "id": "BCAST-df08c41c02929df8d54a",
+          "title": "서울 2부 - 기억하는 목소리",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 66,
+                "quote": "늘 새 옷으로 갈아입는 이곳에서 사람들만은 서울의 옛 모습을 기억하는데.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-bebb4c0281a72aeed961",
+          "title": "빈집, 드립니다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 3,
+            "evidence": [
+              {
+                "field": "sourceSupplement",
+                "start": 1044,
+                "end": 1123,
+                "quote": "빈집이 가져온 놀라운 기적이 공개된다 # 빈집을 살리면 마을이 살아난다 서울 성북구 서울성곽 밑에는 서울의 옛 모습을 간직한 장수마을이 있다.",
+                "supplementId": "41d201a5dcda778d7f7f6635",
+                "sourceUrl": "https://global.ebs.co.kr/board/bbs?boardId=31&boardTypeId=1&cmd=view&postId=10000538812",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-9ce7e18c2f15ae5b62b1",
+          "title": "강남구, 올드 앤 뉴",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 49,
+                "end": 149,
+                "quote": "이곳이 이란의 수도인 ‘테헤란’이라는 이름을 갖게 된 건 70년대 테헤란 시장이 서울을 방문한 기념으로 서울과 지명을 바꿔 부르기로 제안해 ‘삼릉로’가 지금의 ‘테헤란’이 되었다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-385937d100fd441a2acb",
+          "title": "한강 따라 흐른 50년, 강남구",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 94,
+                "end": 177,
+                "quote": "한강 이북의 서울로 채소를 실어 나르던 새말나투터 자리에 1969년 지금의 한남대교(제3한강교)가 놓이고부터 강남의 대규모 개발 시대가 열린 것이다.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-33eab23298fe53fc305b",
+          "title": "경성, 오래된 미래",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 25,
+                "quote": "달라진 세상과 생활 방식에 맞춰 변화한 경성.",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-c8631a7480160ae4a667",
+          "title": "모던하고 위태로운 도시, 경성을 거닐다",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 26,
+                "end": 56,
+                "quote": "기어이 우리글로  소설가는 경성을 묘사하기로 마음먹는다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        },
+        {
+          "id": "BCAST-b970ca299c99d9bb3388",
+          "title": "비운의 대문, 돈의문",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "서울"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 74,
+                "quote": "한양의 도성을 지킨 4대문 가운데 돈의문(서대문)의 역사와 일제에 의해 허물어진 후 복원되지 못한 비운의 서쪽 대문에 대해 조명해본다",
+                "requestedPlace": "서울"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "과거 부산의 모습",
+      "total": 1,
+      "listingCount": 0,
+      "results": [
+        {
+          "id": "BCAST-f94a7afbe5ef64473181",
+          "title": "무덤 위에 사는 사람들",
+          "evidence": {
+            "requested": true,
+            "matched": true,
+            "status": "HISTORICAL_SETTING_TEXT_CUE",
+            "places": [
+              "부산"
+            ],
+            "rank": 2,
+            "evidence": [
+              {
+                "field": "summary",
+                "start": 0,
+                "end": 48,
+                "quote": "부산 서구 아미동 비석마을은 일제강점기 당시 일본인들의 공동묘지 위에 들어선 마을이다.",
+                "requestedPlace": "부산"
+              }
+            ],
+            "note": "원문의 장소·시대·풍경/생활 단서입니다. 실제 옛 영상·기록 화면 포함 여부는 미확인입니다."
+          }
+        }
+      ]
+    },
+    {
+      "q": "예전 제주 생활",
+      "total": 0,
+      "listingCount": 0,
+      "results": []
+    }
+  ],
+  "quoteChecks": 36,
+  "checks": [
+    "기존 단어 분산 오탐4개 제외",
+    "서울 표현5종 동일 결과",
+    "다른 장소2종 같은 관계 기준",
+    "원문 위치 검증",
+    "실제 첫 결과와 요청 해석 표시",
+    "1440/390px·브라우저 오류 없음"
+  ],
+  "errors": [],
+  "paidApiCalls": 0
+}

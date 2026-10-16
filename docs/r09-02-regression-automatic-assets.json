@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-15T10:32:46.192Z",
+  "passed": 26,
+  "cases": [
+    {
+      "name": "실행·원문·관계·인용·검사·자산·검색 준비 참조와 FK",
+      "passed": true
+    },
+    {
+      "name": "반복·재시작 후 실행은 기존 실행·자산을 재사용",
+      "passed": true
+    },
+    {
+      "name": "검색 반영 실패에도 저장 유지·생성 없이 검색만 재시도",
+      "passed": true
+    },
+    {
+      "name": "후보 0건·관계 보류·없는 원문 실패를 미처리와 구분",
+      "passed": true
+    },
+    {
+      "name": "처리 실패 재시도·부분 실패가 성공 자산을 지우지 않음",
+      "passed": true
+    },
+    {
+      "name": "저장 트랜잭션 중간 실패 시 관계·자산 롤백 후 재개",
+      "passed": true
+    },
+    {
+      "name": "동시 실행 거절·임대 종료 후 중단 기록과 재개",
+      "passed": true
+    },
+    {
+      "name": "검사 중 원문 변경: 오래된 통과는 저장·제공하지 않고 근거 보존",
+      "passed": true
+    },
+    {
+      "name": "원문 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "출처 ID 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "출처 시스템 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "출처 URL 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "판본 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "비활성화 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "기준 원문 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "기준 비활성화 변경: 과거 투영 제거·이력 보존",
+      "passed": true
+    },
+    {
+      "name": "규칙 버전 변경: 저장된 과거 규칙의 통과를 다시 제공하지 않음",
+      "passed": true
+    },
+    {
+      "name": "원문 보강 후 새 버전 재검사·이전 버전 이력과 비교",
+      "passed": true
+    },
+    {
+      "name": "한 자료의 기준 하나 변경은 다른 교과 관계를 무효화하지 않음",
+      "passed": true
+    },
+    {
+      "name": "실제 사람 exclude 결정 우선·자동 재실행/원문 변경도 덮어쓰지 않음",
+      "passed": true
+    },
+    {
+      "name": "실제 사람 edit 결정 우선·자동 재실행/원문 변경도 덮어쓰지 않음",
+      "passed": true
+    },
+    {
+      "name": "실제 사람 approve 결정 우선·자동 재실행/원문 변경도 덮어쓰지 않음",
+      "passed": true
+    },
+    {
+      "name": "정확한 원본·판본만 교사 카드에 연결·같은 제목과 다른 자동 관계로 승인 전파 금지",
+      "passed": true
+    },
+    {
+      "name": "시맨틱 전체 재빌드·백업/복원 후에도 자동 실행·자산·이력 유지",
+      "passed": true
+    },
+    {
+      "name": "실제 원본 방송 2건: 수동 가져오기·AI 초안 없이 보류·검사 결과 영구 보존",
+      "passed": true
+    },
+    {
+      "name": "현재 승인·취소 이력·승인 검색과 저장 파일 불변",
+      "passed": true
+    }
+  ],
+  "protectedHashes": {
+    "server/data/curi-store.json": "47679fe7ff6f908435f15157f7be20fc411f1fde2139aa9944f2bdd1914dc64b",
+    "server/data/broadcast-catalog.sqlite": "4aa768ab24007ad1057416de79bc01e4fa95acd4679169512f35f6b467025608",
+    "server/data/semantic-layer.sqlite": "bdedca88233ab1a5050ff0c68529462ebd7f372d7802f1b8f83fa46b7ad1fce9"
+  },
+  "storesUnchanged": true,
+  "operationalApprovals": {
+    "currentHumanApproved": 0,
+    "currentApprovedSearchProjection": 0,
+    "preservedWithdrawals": 4,
+    "source": "docs/r09-01-approval-revocation.json"
+  },
+  "paidApiCalls": 0,
+  "note": "자동 저장·무효화 기능 회귀 검사이며 합성 통과 사례를 실제 방송 정확도로 해석하지 않습니다."
+}

@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-10-16T01:33:22.494Z",
+  "port": 3000,
+  "passed": true,
+  "paidApiCalls": 0,
+  "rows": [
+    {
+      "query": "공기는 무게가 있을까",
+      "total": 2,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-8031b372a93332406590",
+        "ECLIP-017"
+      ],
+      "topTitles": [
+        "풍선 타고 둥실둥실",
+        "공기의 무게와 기압의 관계"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "강의 말고 다큐로 된 독도 영상",
+      "total": 2,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-b9bd9c450d9e9b9a0ad3",
+        "BCAST-17b49b656eeabd655058"
+      ],
+      "topTitles": [
+        "신년 특집 독도 바다사자를 찾아서",
+        "자막최후의 진객 점박이 물범은 살아있다"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "우리 고장의 모습",
+      "total": 43,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-ee7209f90c567da3a49f",
+        "BCAST-62e0701270cde488821f",
+        "BCAST-6a44a0cff4ca3f48a4b3",
+        "BCAST-3e3d01a24e0293ad4b5c",
+        "BCAST-b0c1cc9374e8650332eb",
+        "BCAST-ebe12b2da9be4080c15f",
+        "BCAST-f35136de026124c367f9",
+        "BCAST-f3d934a4b945b3a3f7d2",
+        "BCAST-b1577af40091a4d3b4f6"
+      ],
+      "topTitles": [
+        "산청, 선비의 고장",
+        "완도, 미역과 전복의 고장",
+        "겨울 낭만여행, 포르투갈-숨은 보석 찾기, 소도시 기행",
+        "나는 왕이로소이다, 전주",
+        "만능 로보카, 마리오 / 개구리 왕자",
+        "무주, 자연이 빚은 보물을 찾아서",
+        "속초, 2부 설악산,젊어서 찾아 나이 들어 추억이 됐네",
+        "두리의 아이돌",
+        "땀송송 보양탁 2부 기장, 장어 로드"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "지식채널e 인권 관련 편",
+      "total": 8,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-006958cbcbf16462144b",
+        "BCAST-613368a98bbeed37d978",
+        "BCAST-2a7e4c88a21d3f12d7b4",
+        "BCAST-347bfb56432c11d6ea38",
+        "BCAST-cdd947c3da286f72854a",
+        "BCAST-2cb5aefa24dfb761f5eb",
+        "BCAST-690ee54888d133f1b083",
+        "BCAST-05400ae95244b19750b8"
+      ],
+      "topTitles": [
+        "잘 지내나요, 이방인?",
+        "루비의 등교",
+        "미술관에 들어간 그라피티 킹",
+        "어른도감 - 멈추지 않는 어른",
+        "당신의 튜브 3부- 새로운 노동자의 탄생",
+        "[코로나 단상] A or B",
+        "돌봄의 값",
+        "다이아몬드, 왕좌의 게임"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "안전한 연소 관찰 자료를 찾아주세요 화재 피해자의 고통을 보여주는 장면은 제외해주세요",
+      "total": 0,
+      "emptyReason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "paidApiCalls": 0,
+      "topIds": [],
+      "topTitles": [],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "지역 브랜드 사례 영상인데, 가능하면 외국 사례도 하나쯤 들어 있으면 좋겠어요",
+      "total": 0,
+      "emptyReason": "SOURCE_OR_RETRIEVAL_UNRESOLVED",
+      "paidApiCalls": 0,
+      "topIds": [],
+      "topTitles": [],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "자본주의",
+      "total": 29,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-3544eebc6cf4065becc9",
+        "BCAST-46d8f3856b5a0301e85f",
+        "BCAST-1cd1c2a730bcfda00dc8",
+        "BCAST-553db99d599ed33ea1c1",
+        "BCAST-927c3bf6f79e890251e3",
+        "BCAST-0a7e8a145d65a1381cc5",
+        "BCAST-70031dda2ba5a1736f9d",
+        "BCAST-0e751eca1951b2975093",
+        "BCAST-502fee2a816c6249ff8e"
+      ],
+      "topTitles": [
+        "도널드 서순 <자본주의 세계 지배사> 1강 자본주의 등장을 반긴 사람들",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 4강.무엇이 재앙을 부추기나",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 1강. 무엇이 이 세계를 움직이나",
+        "도널드 서순 <자본주의 세계 지배사> 4강 자본주의가 국민 형성에 앞장 선 이유",
+        "에바 일루즈 - 사랑의 사회학 2강 로맨스 자본주의",
+        "도널드 서순 <자본주의 세계 지배사> 5강 미국은 언제까지 승자일까",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 5강.무엇을 할 것인가",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 2강.무엇이 이 세계를 망가트렸나",
+        "미래를 바꾸는 교육 - 3부 경제, 자본주의를 살아가는 힘"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "자본주의 초등학생 교육용 자료",
+      "total": 29,
+      "emptyReason": null,
+      "paidApiCalls": 0,
+      "topIds": [
+        "BCAST-3544eebc6cf4065becc9",
+        "BCAST-46d8f3856b5a0301e85f",
+        "BCAST-1cd1c2a730bcfda00dc8",
+        "BCAST-553db99d599ed33ea1c1",
+        "BCAST-927c3bf6f79e890251e3",
+        "BCAST-0a7e8a145d65a1381cc5",
+        "BCAST-70031dda2ba5a1736f9d",
+        "BCAST-0e751eca1951b2975093",
+        "BCAST-502fee2a816c6249ff8e"
+      ],
+      "topTitles": [
+        "도널드 서순 <자본주의 세계 지배사> 1강 자본주의 등장을 반긴 사람들",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 4강.무엇이 재앙을 부추기나",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 1강. 무엇이 이 세계를 움직이나",
+        "도널드 서순 <자본주의 세계 지배사> 4강 자본주의가 국민 형성에 앞장 선 이유",
+        "에바 일루즈 - 사랑의 사회학 2강 로맨스 자본주의",
+        "도널드 서순 <자본주의 세계 지배사> 5강 미국은 언제까지 승자일까",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 5강.무엇을 할 것인가",
+        "알렉스 캘리니코스 <자본주의, 사회주의, 재앙> 2강.무엇이 이 세계를 망가트렸나",
+        "미래를 바꾸는 교육 - 3부 경제, 자본주의를 살아가는 힘"
+      ],
+      "hasDiagnostics": false
+    },
+    {
+      "query": "초등학생 교육용 자료",
+      "total": 0,
+      "emptyReason": "TOPIC_REQUIRED",
+      "paidApiCalls": 0,
+      "topIds": [],
+      "topTitles": [],
+      "hasDiagnostics": false
+    }
+  ]
+}

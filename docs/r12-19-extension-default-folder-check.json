@@ -1,0 +1,21 @@
+{
+  "layouts": [
+    {
+      "width": 360,
+      "selectedFolder": "folder1",
+      "unrelatedPreferenceIgnored": true,
+      "actualPanelMarkup": true
+    },
+    {
+      "width": 480,
+      "selectedFolder": "folder1",
+      "unrelatedPreferenceIgnored": true,
+      "actualPanelMarkup": true
+    }
+  ],
+  "workspaceMembership": true,
+  "unfiledExcludedFromMembership": true,
+  "extensionApiMock": true,
+  "errors": [],
+  "isolatedData": true
+}
