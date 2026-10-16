@@ -8,6 +8,6 @@ GitHub Desktop에서 변경 내용을 확인하고 커밋한 뒤 Push origin을 
 
 ## 받는 사람
 
-Code → Download ZIP 또는 새 태그의 Source code ZIP 다운로드 → 모두 압축 풀기 → start-windows.cmd 두 번 클릭 → Chrome에서 http://localhost:3000 순서입니다. 실행 환경·DB·모델을 자동 복원하므로 Windows x64에서는 Node/npm/Hugging Face 설치·다운로드가 필요 없습니다. 일부 PC에서는 동봉된 Visual C++ 보조 설치가 필요할 수 있습니다. Chrome과 EBS 영상용 인터넷은 별도입니다.
+Code → Download ZIP 또는 새 태그의 Source code ZIP 다운로드 → 모두 압축 풀기 → CURI_START.cmd 두 번 클릭 → Chrome에서 http://localhost:3000 순서입니다. 실행 환경·DB·모델을 자동 복원하므로 Windows x64에서는 Node/npm/Hugging Face 설치·다운로드가 필요 없습니다. 일부 PC에서는 동봉된 Visual C++ 보조 설치가 필요할 수 있습니다. Chrome과 EBS 영상용 인터넷은 별도입니다.
 
 압축 조각을 직접 풀거나 별도 파일을 추가 다운로드하지 않습니다. Windows ARM/macOS 실행과 확장 설치는 00_실행방법.txt를 참고하세요. 보고서 PDF·시연 MP4는 별도 준비 대상이며 GitHub 게시만으로 웹 배포 URL이 생기지는 않습니다.

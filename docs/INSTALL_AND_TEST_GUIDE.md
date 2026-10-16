@@ -2,7 +2,7 @@
 
 ## Windows x64 실행
 
-최상위 [00_실행방법.txt](../00_실행방법.txt)가 최신 실행 절차입니다. ZIP을 완전히 풀고 `start-windows.cmd`를 두 번 클릭한 뒤 Chrome에서 http://localhost:3000 을 엽니다. 창을 닫으면 서버도 종료됩니다. Chrome을 준비해야 하며 일부 PC에는 동봉한 Microsoft Visual C++ 보조 설치 파일 설치가 필요합니다.
+최상위 [00_실행방법.txt](../00_실행방법.txt)가 최신 실행 절차입니다. ZIP을 완전히 풀고 `CURI_START.cmd`를 두 번 클릭한 뒤 Chrome에서 http://localhost:3000 을 엽니다. 창을 닫으면 서버도 종료됩니다. Chrome을 준비해야 하며 일부 PC에는 동봉한 Microsoft Visual C++ 보조 설치 파일 설치가 필요합니다.
 
 Windows 10/11 x64용 Node.js·네이티브 패키지와 검색 모델을 포함합니다. 스크립트는 runtime-seed/windows-x64의 조각/전체 ZIP SHA-256 확인 후 실행 환경을 복원하고, server/prepare-submission.js로 DB4개와 모델4개를 준비합니다. 모델은 고정 revision 및 원본 해시·분할 압축 해시를 검증합니다. 기존 DB는 보존하며 손상된 모델은 동봉본으로 복구합니다. 실제 .env는 자동 실행에서 읽지 않고 유료 API는 비활성입니다.
 

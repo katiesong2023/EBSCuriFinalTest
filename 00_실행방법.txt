@@ -11,27 +11,29 @@ EBS CURI — Windows 설치 없이 실행하기
 2. 다운로드와 압축 해제
 ① GitHub에서 Code → Download ZIP을 누르거나 제공받은 제출 ZIP을 저장합니다.
 ② ZIP을 마우스 오른쪽 클릭 → 모두 압축 풀기를 선택해 완전히 풉니다.
-③ start-windows.cmd, package.json, server, public이 보이는 폴더를 엽니다.
+③ CURI_START.cmd, package.json, server, public이 보이는 폴더를 엽니다.
    확장자가 숨겨져 있으면 start-windows라는 Windows 명령 스크립트로 표시될 수 있습니다.
 ④ ZIP 미리보기 안에서 실행하거나 public 안의 HTML을 직접 열지 마세요.
 ⑤ 충분한 공간(압축 파일 외에 여유 3GB 이상)을 확보하세요. 경로가 너무 길면 C:\Curi 같은 짧은 폴더로 옮기세요.
 
 3. 실행 — 다음부터도 같은 방법
-① start-windows.cmd를 두 번 클릭합니다. 터미널에서 경로를 입력할 필요가 없습니다.
-② 첫 실행은 포함된 Windows 실행 환경·데이터·모델을 검사하고 복원하므로 기다립니다.
+① CURI_START.cmd를 두 번 클릭합니다. 터미널에서 경로를 입력할 필요가 없습니다.
+② EBS CURI - Windows x64 launcher 안내와 [1/5]~[5/5] 단계가 표시됩니다.
+   첫 실행은 포함된 실행 환경·데이터·모델을 복원하므로 몇 분 걸릴 수 있습니다.
+   오류가 나거나 서버가 종료되어도 창이 남으므로 오류 문구를 확인하세요.
 ③ 실행 창에 안내가 나오면 Chrome에서 아래 주소를 엽니다.
 
 http://localhost:3000
 
 ④ 서버 실행 창은 열어 둡니다. 첫 검색은 색인 준비로 수십 초 걸릴 수 있습니다.
 ⑤ 종료할 때 실행 창에서 Ctrl+C를 누르거나 창을 닫습니다.
-⑥ 다시 쓸 때도 start-windows.cmd만 두 번 클릭합니다. 기존 DB는 초기 데이터로 덮어쓰지 않습니다.
+⑥ 다시 쓸 때도 CURI_START.cmd만 두 번 클릭합니다. 기존 DB는 초기 데이터로 덮어쓰지 않습니다.
 
 4. 실행 라이브러리가 없다고 나올 때
 - 일부 새 Windows PC에는 Microsoft Visual C++ 실행 라이브러리가 없을 수 있습니다.
 - 최초 복원이 끝난 뒤 runtime → windows-x64 → vc_redist.x64.exe를 실행해 설치합니다.
 - 이 공식 Microsoft 보조 설치 파일도 동봉되어 별도 다운로드는 필요 없습니다.
-- 관리자 승인이 필요할 수 있으며, 설치 후 start-windows.cmd를 다시 실행합니다.
+- 관리자 승인이 필요할 수 있으며, 설치 후 CURI_START.cmd를 다시 실행합니다.
 - 설치된 적 없는 Windows에서 모든 시스템 라이브러리까지 무조건 설치 없이 된다는 뜻은 아닙니다.
 - 기관 보안 정책이 스크립트 실행을 막으면 담당자에게 실행 허용을 요청하세요.
 
@@ -56,6 +58,8 @@ http://localhost:3000
 - 실행하면 실제 파일이 server/data/.model-cache, runtime/windows-x64, node_modules에 복원됩니다.
 
 7. 문제가 생기면
+- al 등이 명령이 아니라고 나오면 예전 실행 파일을 닫고 CURI_START.cmd를 실행하세요.
+  수정 ZIP의 내용을 기존 프로젝트 폴더(package.json이 있는 곳)에 덮어써야 합니다.
 - 파일 손상/조각 누락: ZIP을 다시 다운로드하여 새 폴더에 완전히 풉니다.
 - 3000번 포트 사용 중: 이전 Curi 실행 창을 종료한 다음 다시 실행합니다.
 - 접속 불가: 서버 실행 창의 오류와 http://localhost:3000 주소를 확인합니다.

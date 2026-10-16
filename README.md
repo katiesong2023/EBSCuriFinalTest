@@ -5,7 +5,7 @@
 ## Windows에서 실행
 
 1. **Code → Download ZIP**으로 내려받고 완전히 압축을 풉니다.
-2. **start-windows.cmd**를 두 번 클릭합니다.
+2. **CURI_START.cmd**를 두 번 클릭합니다.
 3. 준비 완료 후 Chrome에서 **http://localhost:3000**을 엽니다. 실행 창은 열어 둡니다.
 
 Windows 10/11 x64(Intel/AMD)용 Node.js 24.18.0·패키지·검색 모델·실행 DB를 포함합니다. 첫 실행 시 로컬 압축 파일을 자동 검사·복원하므로 Node 설치, npm 설치, Hugging Face 다운로드, API 키가 필요 없습니다. Chrome은 별도 준비합니다. 일부 PC에서 Microsoft Visual C++ 라이브러리가 없으면 동봉된 `runtime/windows-x64/vc_redist.x64.exe`를 설치해야 하며 관리자 승인이 필요할 수 있습니다.
