@@ -28,3 +28,6 @@ outputs/
 /GITHUB_UPLOAD_CHECKS.json
 /00_업로드_안내.txt
 *.zip.sha256
+
+# Atomic database restoration temporary files
+server/data/.*.sqlite.*.tmp

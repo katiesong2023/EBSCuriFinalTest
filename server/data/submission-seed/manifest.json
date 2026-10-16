@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "source": "Previously verified submission ZIP, 2026-10-16",
+  "databases": [
+    {
+      "file": "automatic-assets.sqlite",
+      "compressedFile": "automatic-assets.sqlite.gz",
+      "bytes": 299008,
+      "compressedBytes": 27877,
+      "sha256": "5cc942f4197d5745b1d970037b624efc694e4863b9294b043e76dab06ad8e450",
+      "compressedSha256": "4c018770f2beed2f0fa542320607f5cac7c8a794b6b8f2fc7e0244d44c33562b"
+    },
+    {
+      "file": "broadcast-catalog.sqlite",
+      "compressedFile": "broadcast-catalog.sqlite.gz",
+      "bytes": 173379584,
+      "compressedBytes": 28180929,
+      "sha256": "f8583a27f97a4858ef78a84b58d6056c2606700ace36b0ad067bccd6aac38069",
+      "compressedSha256": "4062cca527999858332ffa812711f4b501e2ed946d0dbaf7643d30193c033e68"
+    },
+    {
+      "file": "broadcast-semantic-search.sqlite",
+      "compressedFile": "broadcast-semantic-search.sqlite.gz",
+      "bytes": 100036608,
+      "compressedBytes": 70962077,
+      "sha256": "892b309e23f1c180816d1f9b605d7aeabafca173df9e772d2e43e4f08ac66cab",
+      "compressedSha256": "95efda9f03933c1bf085b3c622a11334d600c3c33ff5c7c685416db1f7c94c8e"
+    },
+    {
+      "file": "semantic-layer.sqlite",
+      "compressedFile": "semantic-layer.sqlite.gz",
+      "bytes": 24854528,
+      "compressedBytes": 5831303,
+      "sha256": "dc32d08c6a02747b97f31bf7068e27b118a20b9abc9141ecb2e9f1d59baf2e2c",
+      "compressedSha256": "c23738f756690368063975b5522a5b8b061347d21068ca209f29cc08d41e36e0"
+    }
+  ]
+}

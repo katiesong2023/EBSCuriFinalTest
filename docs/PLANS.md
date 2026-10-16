@@ -1,5 +1,9 @@
 # Plans
 
+## GitHub ZIP 단일 다운로드 구성 — 2026-10-16
+
+사용자 요청으로 실행 DB4개의 gzip을 server/data/submission-seed에 포함했다. 파일당 최대 약71MB로100MiB 미만이며 npm start에서 지문 검증 후 누락 DB만 복원한다. README와 설치 안내를 Code→Download ZIP 기준으로 정리했다. 별도 Releases 첨부 없이 만든 소스 ZIP을 저장소 밖 새 폴더에 풀어 npm ci/npm start·DB4개 자동 복원/지문/무결성·웹8검사를 통과했다. 자동 복원 계약4검사도 통과했다. 최상위 00_실행방법.txt를 제공한다. 기존 원격/커밋 이력은 보존하고 아직 Push하지 않는다.
+
 ## GitHub 저장소 정리 — 2026-10-16
 
 사용자 요청으로 EBSCuriFinalTest의 GitHub용 소스를 저장소 루트로 옮기고 제출 ZIP·테스트 기록·중복 전체 실행 사본은 제거했다. 검증된 실행 ZIP과 이전 초기 커밋 복구 자료는 개발 프로젝트 outputs에 별도 보관한다. 이 저장소는 소스만 제공하며 실행 DB가 든 전체 ZIP을 Releases에 추가해야 한다. 온라인 업로드는 수행하지 않았다.

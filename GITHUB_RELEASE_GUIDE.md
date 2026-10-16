@@ -1,9 +1,15 @@
-# GitHub 제출 안내
+# GitHub 업로드·다운로드 안내
 
-이 폴더가 GitHub 저장소의 최상위입니다. README.md·package.json·public·server·extensions·docs를 소스로 제공합니다.
+이 폴더가 저장소의 최상위입니다. 소스·교육과정·압축 DB·Chrome 확장을 함께 올립니다. 데이터 파일은 각각100MiB 미만이므로 일반 Git으로 올릴 수 있습니다. Git LFS나 별도 Release 첨부는 필요하지 않습니다.
 
-실행용 SQLite DB는 Git에 포함하지 않습니다. 검증된 전체 실행 ZIP을 GitHub의 Releases에 직접 첨부해야 심사자가 내려받아 로컬에서 실행할 수 있습니다. 저장소의 자동 Source code ZIP만으로는 데이터가 부족합니다.
+## 올리는 사람
 
-실행 ZIP은 로컬 개발 프로젝트의 `outputs/github-submission-cleanup-20261016/release-for-github/`에 별도로 보관했습니다. ZIP 이름은 `EBS_CURI_Submission_20261016.zip`입니다. 이 ZIP과 SHA-256 파일을 Releases에 첨부하고 심사자에게 Release 주소를 안내하세요. 실제 업로드는 아직 하지 않았습니다.
+GitHub Desktop에서 이 변경 내용을 커밋하고 Push origin으로 GitHub에 반영합니다. 별도의 제출 ZIP을 첨부할 필요가 없습니다. 새 Release를 만들고 싶으면 이 커밋을 가리키는 새 태그로 발행하면 포함된 데이터 폴더까지 Source code ZIP에 자동 포함됩니다.
 
-최종 ZIP의 독립 설치·서버·핵심 웹 검사는 통과했습니다. 첫 검색 색인 준비가 수십 초 걸릴 수 있습니다. 실제 EBS 로그인·본편/구간 끝 정지·Windows 설치는 미확인입니다. 최종 보고서 PDF·시연 MP4도 별도 준비 대상입니다.
+## 받는 사람
+
+Code → Download ZIP → 압축 해제 → package.json 폴더에서 npm ci → npm start → http://localhost:3000 순서로 실행합니다. Node.js24.18.0 이상이 필요합니다. npm start가 포함된 데이터의 누락 DB를 자동 복원하며 기존 DB는 덮어쓰지 않습니다.
+
+브라우저 확장은 extensions/curi-segments 폴더를 Chrome의 압축해제된 확장 프로그램 로드로 설치합니다. 자세한 절차는 README와 docs/INSTALL_AND_TEST_GUIDE.md에 있습니다.
+
+최종 보고서 PDF·시연 MP4는 여전히 별도 제출 준비 대상입니다. GitHub 게시만으로 웹 서비스가 자동 실행되지는 않습니다.

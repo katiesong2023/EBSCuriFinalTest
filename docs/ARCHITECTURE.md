@@ -536,3 +536,7 @@ teacher-folder-picker.js가 동일 dialog 안에서 교육과정 페이지와 �
 - `server/broadcast-list-parser.js`는 수집기의 공식 목록 파싱을 공유한다. 각 회차 링크 내부의 제목·소개문·날짜만 읽고 지정 시리즈의 courseId/stepId·회차 ID를 대조한다. `broadcast-series-refresh.mjs`는 지정한 공식 시리즈 최대10개만 미리보기/갱신하고 수정 전 SQLite 일관 사본과 수집 결과를 남긴다. 기존 방송 수집기와 같은 파서·저장 경로를 사용하며 시리즈 설명을 모든 회차에 복사하지 않는다.
 - `server/condition-candidate-recheck.js`는 내용 조건만 부분 판정이고 나머지 요구가 모두 yes인 후보 최대3개를 자기 원문만으로 독립 재검사한다. 질문에 없는 하위 유형 전체를 추가 필수로 요구하지 않도록 범주/구체적 사례의 관계를 명시하되, 단순 소재 언급은 통과 근거로 쓰지 않는다. 원문 번호·지문·전체 조건 검사는 기존과 동일하며 unknown/contradicted 및 장면/시간/제외/형식 부분 판정은 대상에서 제외한다. 추가 검사 실패 시 이미 검증한 결과를 유지한다. 모델/질문/원문이 같으면 재검사도 실제 응답 캐시를 재사용한다.
 - 사용자의 후속 지시로 기생 보강 후370개 전체 검증은 실행하지 않는다. `docs/r12-40-parasitism-*`에는 공식 수집·회차별 보조 원문·합성 계약 및 관련3/동음이의어1/인권1의 국소 검색만 기록한다. 종전370 결과는 해당 판본의 이력이며 새 수정의 전체 성능으로 인용하지 않는다.
+
+## GitHub 다운로드용 초기 데이터
+
+server/data/submission-seed는 검증된 실행 DB의 gzip과 SHA-256/크기 manifest를 보관한다. server/restore-submission-data.js는 npm prestart/predev에서 누락 DB만 검사·복원하며 기존 DB를 덮어쓰지 않는다. 복원 DB와 임시 파일은 Git 추적에서 제외한다. 실제 API 키·개인 등록 DB·브라우저 저장소는 포함하지 않는다.

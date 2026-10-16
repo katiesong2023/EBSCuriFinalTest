@@ -76,6 +76,16 @@ AGENTS.md와 현재 진행 상태를 확인하고 이 task의 구현 항목만 �
 - 수정과 안내를 `github-upload`·Release 전체 사본에 동기화하고 최신 ZIP·매니페스트·SHA를 재생성한다. 기존 ZIP은 테스트 결과 폴더에 이력 보존한다.
 - Windows·네이티브 패널 UI·EBS 로그인/본편/시점 이동/끝 정지는 미검증이다. 사용자 결과 확인·PDF/MP4·온라인 제출은 미완료다.
 
+## GitHub ZIP 단일 다운로드 구성 — 2026-10-16
+
+- 사용자 요청으로 별도 Releases 첨부 의존을 제거한다. 검증된 DB4개를 각각100MiB 미만 gzip으로 server/data/submission-seed에 포함하고 npm prestart/predev 및 data:restore에서 지문/크기를 대조해 누락 파일만 복원한다.
+- 기존 DB는 덮어쓰지 않으며 손상된 압축 파일은 서버 기동 전 오류로 구분한다. 복원 DB/임시 파일은 Git에서 제외한다.
+- README·GITHUB_RELEASE_GUIDE·설치 안내를 Code→Download ZIP과 같은 폴더 구조로 통일했다. 새 Git archive 독립 설치·자동 복원·기존 파일 보존·오류 차단·브라우저를 재검증한다.
+- 실제 소스 ZIP 독립 설치에서 초기 DB0개·node_modules 없음 상태로 npm ci/npm start 성공, DB4개 자동 복원·SHA/SQLite quick_check·브라우저8검사를 통과했다. 기존 DB 보존/손상 입력/해제 지문 오류를 포함한 복원4검사도 통과했다.
+- 원격 브랜치의 이력을 재작성하거나 자동 Push하지 않는다. 실제 GitHub 반영은 검증 후 사람이 수행한다.
+
+- 사용자 후속 요청으로 최상위 `00_실행방법.txt`에 macOS/Windows의 ZIP 해제·터미널·npm 설치/시작·주소·자동 DB 복원·확장 설치·종료/오류 대응을 작성하고 README에 연결했다.
+
 ## 수동 작업
 
 1. 최종 보고서 PDF와 실제 작동 시연 MP4를 별도 제출 폴더에 추가한다. MP4는 3분 이내로 준비한다.
