@@ -1,0 +1,6 @@
+Model: Xenova/multilingual-e5-small
+Revision: 761b726dd34fb83930e26aab4e9ac3899aa1fa78
+ONNX conversion: https://huggingface.co/Xenova/multilingual-e5-small
+Base model: https://huggingface.co/intfloat/multilingual-e5-small
+Base model card declares MIT. Microsoft MIT license is included.
+Model weights and tokenizers are unmodified.

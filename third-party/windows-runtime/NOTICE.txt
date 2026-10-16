@@ -1,0 +1,5 @@
+Node.js 24.18.0 official Windows x64 portable binary; official SHASUMS256 verified.
+Dependencies: package-lock.json pinned npm distributions, installed for win32 x64 with lifecycle scripts disabled. Package licenses are preserved in runtime archive.
+onnxruntime-node retains win32/x64 binaries only; other JavaScript dependencies are unmodified.
+Microsoft Visual C++ redistributable installer: https://aka.ms/vc14/vc_redist.x64.exe (official signed installer; optional installation may need administrator approval).
+Sharp/libvips licenses and notices are included within node_modules/@img/sharp-win32-x64. Source: https://github.com/lovell/sharp and https://github.com/libvips/libvips .

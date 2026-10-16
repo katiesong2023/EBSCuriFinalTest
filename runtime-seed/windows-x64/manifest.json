@@ -1,0 +1,20 @@
+{
+  "platform": "win32",
+  "arch": "x64",
+  "node": "24.18.0",
+  "source": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-win-x64.zip",
+  "bytes": 128832716,
+  "sha256": "2b1cd71f9583f21228ae8894a05d8e8de33cda652c7da8431f73f20c7e13749d",
+  "parts": [
+    {
+      "file": "runtime.zip.part001",
+      "bytes": 73400320,
+      "sha256": "bcf621ca92df7d4dc69aeda9a5cb39941738160c49373bcc6e081db1be86f4fe"
+    },
+    {
+      "file": "runtime.zip.part002",
+      "bytes": 55432396,
+      "sha256": "c5b967d5682c928f2753cb8676e06b0d9cefc777fbc80e5a572ee867fa345881"
+    }
+  ]
+}

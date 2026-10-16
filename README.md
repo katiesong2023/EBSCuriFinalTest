@@ -1,57 +1,30 @@
 # EBS CURI
 
-2022 개정 교육과정과 EBS 공식 방송 메타데이터를 활용하는 교사 수업 준비 MVP입니다. 자료 검색·원문 근거 확인·교육과정 연결·개인 수업 폴더·구간 북마크·수업 영상 리스트를 제공합니다.
+2022 개정 교육과정과 EBS 공식 방송 메타데이터를 활용하는 교사 검색·수업 자료 서비스입니다.
 
-Windows에서 처음 실행하는 경우 **[00_실행방법.txt](00_실행방법.txt)**를 따라 하세요. [Node.js 공식 다운로드](https://nodejs.org/en/download)에서 24.x LTS(24.18.0 이상)를 먼저 설치합니다. 실행 안내에는 설치 파일 링크와 탐색기에서 명령 프롬프트를 여는 방법이 포함되어 있습니다.
+## Windows에서 실행
 
-## 다운로드하고 실행하기
+1. **Code → Download ZIP**으로 내려받고 완전히 압축을 풉니다.
+2. **start-windows.cmd**를 두 번 클릭합니다.
+3. 준비 완료 후 Chrome에서 **http://localhost:3000**을 엽니다. 실행 창은 열어 둡니다.
 
-**GitHub의 Code → Download ZIP으로 받은 파일에 실행 데이터와 Chrome 확장이 모두 포함됩니다.** 별도의 Release 파일을 첨부하거나 DB를 따로 받을 필요가 없습니다.
+Windows 10/11 x64(Intel/AMD)용 Node.js 24.18.0·패키지·검색 모델·실행 DB를 포함합니다. 첫 실행 시 로컬 압축 파일을 자동 검사·복원하므로 Node 설치, npm 설치, Hugging Face 다운로드, API 키가 필요 없습니다. Chrome은 별도 준비합니다. 일부 PC에서 Microsoft Visual C++ 라이브러리가 없으면 동봉된 `runtime/windows-x64/vc_redist.x64.exe`를 설치해야 하며 관리자 승인이 필요할 수 있습니다.
 
-1. 저장소 화면의 초록색 **Code → Download ZIP**을 누릅니다.
-2. 받은 ZIP을 완전히 풀고 **package.json이 있는 폴더**를 탐색기에서 엽니다. Windows에서는 **Alt+D → `cmd` 입력 → Enter**로 해당 폴더의 명령 프롬프트를 엽니다.
-3. 아래 명령을 한 줄씩 실행합니다. Windows 명령 프롬프트와 PowerShell에서 모두 사용할 수 있습니다.
+자세한 절차·문제 해결·macOS/Windows ARM 소스 실행은 [00_실행방법.txt](00_실행방법.txt), [설치 및 확인 안내](docs/INSTALL_AND_TEST_GUIDE.md)를 참고하세요. Chrome 확장 설치 파일은 `extensions/curi-segments`입니다.
 
-```bat
-node --version
-npm.cmd --version
-npm.cmd ci
-npm.cmd start
-```
+## 포함 범위
 
-macOS에서는 같은 폴더의 터미널에서 `npm ci`, `npm start`를 사용합니다.
+- 실행 DB 4개와 고정 버전 `Xenova/multilingual-e5-small` 검색 모델 4파일을 포함합니다. 모델은 최초 실행 시 로컬 캐시에 복원됩니다.
+- Windows 실행 환경과 모델은 GitHub 파일 크기를 고려해 분할 압축했습니다. 수동으로 합치거나 풀 필요가 없습니다.
+- 실제 API 키·개인 `.env`·기존 Git 이력·개인 교사 등록 DB·브라우저 개인 자료·유료 모델 응답 캐시는 포함하지 않습니다.
+- 유료 교사 검색 정책은 `enabled: false`입니다. 동봉한 로컬 의미 검색은 유료 LLM 검색을 사용하는 개발 환경과 결과·순위가 다를 수 있습니다.
+- 검색 모델 추론에 Hugging Face 접속은 필요 없습니다. EBS 영상·로그인·외부 이미지는 인터넷이 필요합니다. 영상 원본은 포함하지 않습니다.
+- 개인 폴더·메모·구간은 브라우저와 접속 주소별로 저장됩니다.
+- Windows 실제 실행과 실제 EBS 재생은 별도 확인 대상입니다. 최종 보고서 PDF·시연 MP4도 별도 준비 대상입니다.
+- GitHub 저장소는 로컬 실행 파일을 제공하는 용도이며 GitHub Pages에서 Node 서버가 실행되지는 않습니다.
 
-4. Chrome에서 **http://localhost:3000**을 엽니다. 첫 검색은 자료 색인을 준비하므로 수십 초 걸릴 수 있습니다.
-5. Chrome 확장 기능은 `chrome://extensions`에서 개발자 모드를 켜고 **압축해제된 확장 프로그램을 로드합니다**로 `extensions/curi-segments` 폴더를 선택합니다.
+## 라이선스 및 문서
 
-실행 DB는 `server/data/submission-seed`의 압축 파일로 포함되어 있습니다. `npm start`가 처음 실행될 때 SHA-256과 크기를 검증해 누락된 DB만 자동 복원합니다. 이미 존재하는 DB는 덮어쓰지 않습니다. 이 데이터 복원에는 인터넷이나 API 키가 필요하지 않습니다. npm 설치·EBS 영상 이용에는 인터넷과 영상별 시청 권한이 필요할 수 있습니다.
+모델 출처·고정 버전·MIT 라이선스는 `third-party/model`, Node.js 라이선스·패키지 출처는 `third-party/windows-runtime` 및 실행 환경 내부 각 패키지에 포함합니다. 공식 교육과정·EBS 자료와 외부 라이브러리 권리는 각 권리자에게 있습니다.
 
-[설치 안내](docs/INSTALL_AND_TEST_GUIDE.md)에서 세부 절차를 확인할 수 있습니다. Git clone 또는 Release가 자동 생성한 Source code ZIP으로도 같은 방식으로 실행합니다.
-
-## 최초 모델 다운로드와 사내망
-
-현재 ZIP은 실행 DB를 포함하지만 **의미 검색 모델 파일은 포함하지 않습니다.** 의미 검색은 처음 사용할 때 [Xenova/multilingual-e5-small](https://huggingface.co/Xenova/multilingual-e5-small)을 내려받습니다. 모델 파일이 없고 Hugging Face 또는 실제 파일 서버의 접속이 차단되면 의미 검색을 사용할 수 없습니다. 완전히 준비된 모델 파일은 로컬 캐시에서 재사용합니다.
-
-교사 검색은 모델 준비 실패 시 단어·원문 근거 검색을 계속할 수 있으나 결과와 순위가 달라질 수 있습니다. 기존 설치/화면 검사 통과가 임베딩 모델의 다운로드·로딩 성공을 의미하지는 않습니다. 관리자 임베딩 준비/검증 자산 벡터 검색은 모델 실행이 필요합니다.
-
-회사/학교에서는 [Hugging Face의 프록시·방화벽 공식 안내](https://huggingface.co/docs/hub/en/models-downloading#downloading-behind-a-proxy-or-firewall)에 따라 승인된 접속 또는 모델 사전 제공을 준비해야 합니다. npm 설치와 EBS 영상 이용의 인터넷 조건도 별도로 적용됩니다.
-
-## 제출 사본의 범위
-
-- 현재 작업본의 소스와 공식 메타데이터·교육과정·근거 문서를 제공합니다. 구체적인 진행 상태와 한계는 [PLANS](docs/PLANS.md)를 참고합니다.
-- 실제 API 키·개인 `.env`·기존 Git 이력·개인 교사 등록 DB·브라우저 개인 자료·모델 및 응답 캐시는 포함하지 않습니다.
-- 교사 모델 정책은 `enabled: false`입니다. 유료 API를 켜지 않는 로컬 검색이며 모델 검색을 사용한 개발 환경과 결과·순위가 다를 수 있습니다.
-- 개인 폴더·메모·구간은 사용하는 브라우저와 접속 주소에 저장됩니다. 영상 원본은 포함하지 않습니다.
-- 최종 보고서 PDF와 실제 시연 MP4는 아직 준비되지 않았습니다. 문안·촬영 시나리오는 최종 보고서·영상의 대체물이 아닙니다.
-- GitHub 저장소는 내려받아 로컬에서 실행하는 소스·데이터 제공용입니다. 현재 Node.js 서버가 GitHub Pages에서 실행되는 구조는 아닙니다.
-
-## 문서
-
-- [개발 정리](docs/CURI_DEVELOPMENT_SUMMARY.md)
-- [핵심 설명](docs/SUBMISSION_CORE_MESSAGE.md)
-- [향후 확장](docs/SUBMISSION_FUTURE_EXPANSION.md)
-- [촬영 시나리오](docs/SUBMISSION_VIDEO_SCENARIO.md)
-- [구조](docs/ARCHITECTURE.md) · [저장 구조](docs/ERD.md)
-- [기존 개발 README 이력](docs/README_DEVELOPMENT_HISTORY.md)
-
-공식 교육과정·EBS 자료 및 외부 라이브러리의 권리는 각 권리자에게 있습니다. 저장소에 자료를 포함했다는 사실만으로 재배포·상업 이용 권한을 부여하지 않습니다.
+[개발 정리](docs/CURI_DEVELOPMENT_SUMMARY.md) · [핵심 설명](docs/SUBMISSION_CORE_MESSAGE.md) · [향후 확장](docs/SUBMISSION_FUTURE_EXPANSION.md) · [촬영 시나리오](docs/SUBMISSION_VIDEO_SCENARIO.md) · [구조](docs/ARCHITECTURE.md) · [저장 구조](docs/ERD.md) · [기존 README 이력](docs/README_DEVELOPMENT_HISTORY.md)

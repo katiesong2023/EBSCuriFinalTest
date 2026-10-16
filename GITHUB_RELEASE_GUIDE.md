@@ -1,15 +1,13 @@
-# GitHub 업로드·다운로드 안내
+# GitHub 업로드와 다운로드
 
-이 폴더가 저장소의 최상위입니다. 소스·교육과정·압축 DB·Chrome 확장을 함께 올립니다. 데이터 파일은 각각100MiB 미만이므로 일반 Git으로 올릴 수 있습니다. Git LFS나 별도 Release 첨부는 필요하지 않습니다.
+이 폴더가 저장소 최상위입니다. 소스·압축 DB·검색 모델·Windows x64 실행 환경·Chrome 확장을 올립니다. 모델과 실행 환경의 큰 압축은 조각당70MiB 이하로 나눠 일반 Git 파일당100MiB 제한 안에 둡니다. 실행 후 만들어진 node_modules/runtime/모델 캐시/DB는 추적하지 않습니다.
 
 ## 올리는 사람
 
-GitHub Desktop에서 이 변경 내용을 커밋하고 Push origin으로 GitHub에 반영합니다. 별도의 제출 ZIP을 첨부할 필요가 없습니다. 새 Release를 만들고 싶으면 이 커밋을 가리키는 새 태그로 발행하면 포함된 데이터 폴더까지 Source code ZIP에 자동 포함됩니다.
+GitHub Desktop에서 변경 내용을 확인하고 커밋한 뒤 Push origin을 눌러야 온라인 파일이 바뀝니다. 새 Release를 만들 경우 이 변경을 포함한 커밋에 새 태그를 붙이면 자동 Source code ZIP에도 동봉 파일이 포함됩니다. 기존 태그의 Release는 자동으로 최신 main을 반영하지 않습니다. 별도 완성 ZIP을 첨부하려면 이번에 새로 만든 EBSCuriFinalTest-Windows-x64.zip을 사용하세요.
 
 ## 받는 사람
 
-Code → Download ZIP → 압축 해제 → package.json 폴더에서 npm ci → npm start → http://localhost:3000 순서로 실행합니다. Node.js24.18.0 이상이 필요합니다. npm start가 포함된 데이터의 누락 DB를 자동 복원하며 기존 DB는 덮어쓰지 않습니다.
+Code → Download ZIP 또는 새 태그의 Source code ZIP 다운로드 → 모두 압축 풀기 → start-windows.cmd 두 번 클릭 → Chrome에서 http://localhost:3000 순서입니다. 실행 환경·DB·모델을 자동 복원하므로 Windows x64에서는 Node/npm/Hugging Face 설치·다운로드가 필요 없습니다. 일부 PC에서는 동봉된 Visual C++ 보조 설치가 필요할 수 있습니다. Chrome과 EBS 영상용 인터넷은 별도입니다.
 
-브라우저 확장은 extensions/curi-segments 폴더를 Chrome의 압축해제된 확장 프로그램 로드로 설치합니다. 자세한 절차는 README와 docs/INSTALL_AND_TEST_GUIDE.md에 있습니다.
-
-최종 보고서 PDF·시연 MP4는 여전히 별도 제출 준비 대상입니다. GitHub 게시만으로 웹 서비스가 자동 실행되지는 않습니다.
+압축 조각을 직접 풀거나 별도 파일을 추가 다운로드하지 않습니다. Windows ARM/macOS 실행과 확장 설치는 00_실행방법.txt를 참고하세요. 보고서 PDF·시연 MP4는 별도 준비 대상이며 GitHub 게시만으로 웹 배포 URL이 생기지는 않습니다.

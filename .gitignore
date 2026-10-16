@@ -31,3 +31,6 @@ outputs/
 
 # Atomic database restoration temporary files
 server/data/.*.sqlite.*.tmp
+
+# Restored portable Windows environment
+/runtime/

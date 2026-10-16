@@ -28,9 +28,10 @@
     "data:mapping:check": "node server/curimap-mapping-check.js",
     "data:ingest": "node server/ingest-content.js",
     "data:ingest:scheduled": "node --env-file-if-exists=.env server/ingest-content.js --scheduled --apply",
-    "prestart": "node server/restore-submission-data.js",
-    "predev": "node server/restore-submission-data.js",
-    "data:restore": "node server/restore-submission-data.js"
+    "prestart": "node server/prepare-submission.js",
+    "predev": "node server/prepare-submission.js",
+    "data:restore": "node server/restore-submission-data.js",
+    "model:restore": "node server/restore-submission-model.js"
   },
   "engines": {
     "node": ">=24.18.0"

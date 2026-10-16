@@ -1,0 +1,64 @@
+{
+  "model": "Xenova/multilingual-e5-small",
+  "revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+  "files": [
+    {
+      "file": "config.json",
+      "bytes": 658,
+      "sha256": "cb99455288675345e1a4f411438d5d0adbba5fbd3a67ea4fb03c015433b996c1",
+      "upstreamHashVerified": true,
+      "parts": [
+        {
+          "file": "config_json.gz.part001",
+          "bytes": 363,
+          "sha256": "c65b73d2be3ec31ddfad404b02125d7d9c26b8a58aff7ecff7875315d00c14b2"
+        }
+      ]
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 443,
+      "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+      "upstreamHashVerified": true,
+      "parts": [
+        {
+          "file": "tokenizer_config_json.gz.part001",
+          "bytes": 242,
+          "sha256": "87197ecbab0be9e3a0b497e91ec6c13154fb34b31a61521aed88c9e5512259c5"
+        }
+      ]
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 17082730,
+      "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+      "upstreamHashVerified": true,
+      "parts": [
+        {
+          "file": "tokenizer_json.gz.part001",
+          "bytes": 3860282,
+          "sha256": "904e777b05f717a20394f4b36ee3e2ad184fd88adb8f35d4b91ce7f3e31a3685"
+        }
+      ]
+    },
+    {
+      "file": "onnx/model_quantized.onnx",
+      "bytes": 118308185,
+      "sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
+      "upstreamHashVerified": true,
+      "parts": [
+        {
+          "file": "onnx_model_quantized_onnx.gz.part001",
+          "bytes": 73400320,
+          "sha256": "63ac2d43c9958c95edaeb17d962c27e0d8179ad49bbcb561c80a8dbd5eef23ad"
+        },
+        {
+          "file": "onnx_model_quantized_onnx.gz.part002",
+          "bytes": 7706213,
+          "sha256": "0ae39f9e440da7101249ae192b8b84fc385a2aee1cca92eea57b0073322478c9"
+        }
+      ]
+    }
+  ],
+  "source": "https://huggingface.co/Xenova/multilingual-e5-small/tree/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+}
